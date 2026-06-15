@@ -1,6 +1,6 @@
 # Heat Help Kit ☀️🌡️
 
-An open-source, actionable, and source-cited emergency response and mutual-aid toolkit designed to prevent severe suffering, illness, and death during extreme heat events. This kit is built for neighbors, mutual-aid networks, and community organizers.
+An open-source, actionable, and source-cited emergency response and mutual-aid toolkit designed to reduce heat-related suffering, illness, and death during extreme heat events. This kit is built for neighbors, mutual-aid networks, and community organizers.
 
 ## 📖 Table of Contents
 1. [Why Extreme Heat Matters](#-why-extreme-heat-matters)
@@ -14,8 +14,8 @@ An open-source, actionable, and source-cited emergency response and mutual-aid t
 
 ## 🚨 Why Extreme Heat Matters
 Extreme heat is a silent killer and the deadliest weather-related phenomenon in many regions. Unlike hurricanes or floods, heat waves do not leave visible structural damage, meaning their human toll often goes unnoticed until it is too late.
-* **Vulnerable Populations:** The elderly, infants, unhoused individuals, outdoor workers, people with chronic medical conditions (cardiovascular, respiratory), and those without access to air conditioning are at extremely high risk.
-* **The Power of Neighbors:** Up to 80% of heat-related deaths are preventable. Simple, systematic neighbor-to-neighbor checks ("buddy-checks") can identify early warning signs of heat illness and facilitate life-saving interventions.
+* **Vulnerable Populations:** Older adults, infants and young children, unhoused people, outdoor workers, pregnant people, people with disabilities or chronic medical conditions, and those without access to reliable cooling can be at high risk.
+* **The Power of Neighbors:** Many heat-related deaths can be prevented or reduced. Simple, systematic neighbor-to-neighbor checks ("buddy-checks") can identify early warning signs and connect people with cooling, water, and emergency help.
 
 ---
 
@@ -39,7 +39,7 @@ It is critical to distinguish between Heat Exhaustion and Heat Stroke. **Heat St
 | **Pulse** | Fast, weak pulse | **Fast, strong, bounding pulse** |
 | **Mental State** | Normal or mildly fatigued, faint | **Confused, dizzy, delirious, unconscious** |
 | **Nausea** | Nausea or vomiting may occur | Nausea, headache, severe dizziness |
-| **What to do?** | Move to cool place, sip water, active cooling. | **Call 911 immediately! Move to cool place. Cool down with wet cloths/ice baths. Do NOT give water to drink if unconscious.** |
+| **What to do?** | Move to cool place, sip water, active cooling. | **Call your local emergency number immediately. Move to a cool place. Cool down with wet cloths/cool bath/ice packs while waiting. Do NOT give water if confused, unconscious, vomiting repeatedly, or unable to swallow safely.** |
 
 ---
 
@@ -49,7 +49,7 @@ When performing door-to-door welfare checks, ask these three key screening quest
 2. **Environment Check:** *"Do you have working fans, A/C, or a way to keep your living space cool? Is there cross-ventilation?"*
 3. **Hydration Status:** *"Do you have access to plenty of drinking water right now?"*
 
-*Pro-Tip:* Never leave a vulnerable neighbor without ensuring they have at least 2 liters of drinking water and a clear cooling plan for the hottest hours of the day (usually 11:00 AM to 5:00 PM).
+*Pro-tip:* Before leaving, try to ensure the person has drinking water, a realistic cooling plan for the hottest hours, and a way to call for help. Respect consent and privacy.
 
 ---
 
@@ -58,7 +58,7 @@ When performing door-to-door welfare checks, ask these three key screening quest
 2. **Recruit Volunteers:** Use text loops, community boards, or mutual-aid chats to gather 3-5 volunteers.
 3. **Print Materials:** Print copies of the [Welfare Buddy-Check Sheet](templates/buddy-check-sheet.md) and the [Heat Safety One-Pager](flyer/heat-safety-flyer.md).
 4. **Divide & Coordinate:** Assign volunteers to specific doors. Establish a "safety contact" to escalate severe medical concerns.
-5. **Debrief & Log:** Note any high-risk households requiring follow-up checks the next day.
+5. **Debrief & Log Safely:** Note follow-up needs with the minimum information necessary. Do not publish names, addresses, medical details, immigration status, or other private information.
 
 ---
 
@@ -68,3 +68,5 @@ All recommendations in this toolkit are drawn from leading public health and met
 * **World Health Organization (WHO):** [Heatwaves: health effects and protective measures](https://www.who.int/news-room/fact-sheets/detail/climate-change-heat-and-health)
 * **National Weather Service (NWS):** [Heat Safety Tips and Resources](https://www.weather.gov/safety/heat)
 * **Academic Review:** *Luber, G., & McGeehin, M. (2008). Climate change and extreme heat events. American Journal of Preventive Medicine, 35(5), 429-435.*
+
+This is general information, not medical advice or a substitute for local emergency guidance.
