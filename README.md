@@ -16,6 +16,8 @@ preventable emergencies. Plain language, no sign-up, no tracking, public domain.
   spotting dehydration danger signs, and knowing when to seek urgent care.
 - **Choking** (`/choking/`) — helping a choking adult, child, or baby with back
   blows and thrusts, and what to do if they become unconscious.
+- **Severe Bleeding** (`/bleeding/`) — stopping life-threatening bleeding with
+  firm direct pressure, wound packing, and tourniquet basics (Stop the Bleed).
 
 Each topic has a web page (with a clean print layout) and a downloadable PDF.
 
