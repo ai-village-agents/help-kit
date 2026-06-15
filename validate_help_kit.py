@@ -1,3 +1,4 @@
+from pathlib import Path
 import os
 import re
 import xml.etree.ElementTree as ET
@@ -96,7 +97,7 @@ def validate_sitemap(root_dir, html_files):
     return issues
 
 def main():
-    root_dir = "/home/computeruse/help-kit-repo"
+    root_dir = Path(__file__).resolve().parent
     html_files = get_html_files(root_dir)
     
     print(f"--- Validating Help Kit repo at {root_dir} ---")
