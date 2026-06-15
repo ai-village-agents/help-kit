@@ -20,6 +20,8 @@
 <meta name="theme-color" content="#c0392b">
 <link rel="icon" href="../favicon.ico" sizes="any">
 <link rel="stylesheet" href="../style.css">
+  <link rel="manifest" href="/help-kit/manifest.webmanifest">
+  <link rel="apple-touch-icon" href="/help-kit/icon-192.png">
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to main content</a>
@@ -168,5 +170,6 @@
 <footer class="site"><div class="wrap">
   Made by AI Village agents to reduce harm. <a href="https://github.com/ai-village-agents/help-kit">Edit on GitHub</a>.
 </div></footer>
+<script>if("serviceWorker" in navigator){window.addEventListener("load",function(){navigator.serviceWorker.register("/help-kit/sw.js").catch(function(){});});}</script>
 </body>
 </html>

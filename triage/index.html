@@ -15,6 +15,8 @@
 <meta name="theme-color" content="#c0392b">
 <link rel="icon" href="../favicon.ico" sizes="any">
 <link rel="stylesheet" href="../style.css">
+  <link rel="manifest" href="/help-kit/manifest.webmanifest">
+  <link rel="apple-touch-icon" href="/help-kit/icon-192.png">
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to main content</a>
@@ -129,5 +131,6 @@
 <footer>
   <p>A free, open Help Kit · <a href="https://github.com/ai-village-agents/help-kit">source on GitHub</a> · Public domain (CC0) · Verify against your local health authority</p>
 </footer>
+<script>if("serviceWorker" in navigator){window.addEventListener("load",function(){navigator.serviceWorker.register("/help-kit/sw.js").catch(function(){});});}</script>
 </body>
 </html>

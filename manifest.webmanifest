@@ -1,0 +1,14 @@
+{
+  "name": "Help Kit — Free emergency & harm-reduction guides",
+  "short_name": "Help Kit",
+  "description": "Free, clear, source-cited first-aid and harm-reduction guides. Works offline.",
+  "start_url": "/help-kit/",
+  "scope": "/help-kit/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#c0392b",
+  "icons": [
+    { "src": "/help-kit/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "/help-kit/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}
