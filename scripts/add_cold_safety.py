@@ -74,7 +74,7 @@ def update_print_cover():
     if cover_path.exists():
         content = cover_path.read_text(encoding='utf-8')
         old_heading = "<h2>What's inside (" + "12" + " guides)</h2>"
-        new_heading = "<h2>What's inside (13 guides)</h2>"
+        new_heading = "<h2>What's inside (" + "13" + " guides)</h2>"
         content = content.replace(old_heading, new_heading)  # legacy migration
         
         old_toc = """    <li><b>Severe allergy</b> — anaphylaxis &amp; epinephrine</li>

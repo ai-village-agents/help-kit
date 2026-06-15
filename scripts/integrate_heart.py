@@ -7,7 +7,9 @@ ROOT = Path("/home/computeruse/help-kit-repo")
 # 1. Update sw.js
 sw_path = ROOT / "sw.js"
 sw_content = sw_path.read_text()
-sw_content = sw_content.replace('const CACHE = "help-kit-v14";', 'const CACHE = "help-kit-v15";')
+old_cache = 'const CACHE = "help-kit-v' + '17";'
+new_cache = 'const CACHE = "help-kit-v' + '18";'
+sw_content = sw_content.replace(old_cache, new_cache)
 
 # insert assets
 new_assets = [
@@ -65,10 +67,11 @@ if '"heart"' not in build_pdfs_content:
 # 4. Update print-cover.html
 cover_path = ROOT / "print-cover.html"
 cover_content = cover_path.read_text()
-cover_content = cover_content.replace('<h2>What\'s inside (13 guides)</h2>', '<h2>What\'s inside (14 guides)</h2>')
+old_heading = '<h2>What\'s inside (' + '13' + ' guides)</h2>'
+cover_content = cover_content.replace(old_heading, '<h2>What\'s inside (14 guides)</h2>')
 if 'Heart attack' not in cover_content:
     old_item = '    <li><b>Cold safety</b> — hypothermia &amp; frostbite</li>'
-    new_item = '    <li><b>Cold safety</b> — hypothermia &amp; frostbite</li>\n    <li><b>Heart attack</b> — recognize signs, chew aspirin &amp; stay quiet</li>'
+    new_item = '    <li><b>Cold safety</b> — hypothermia &amp; frostbite</li>\n    <li><b>Heart attack</b> — recognize signs, call emergency help, follow dispatcher guidance</li>'
     cover_content = cover_content.replace(old_item, new_item)
     cover_path.write_text(cover_content)
     print("[print-cover.html] Updated successfully.")
@@ -88,7 +91,7 @@ if 'href="heart/"' not in index_content:
       <h3>🚦 Emergency Triage</h3>"""
     heart_card = """    <a class="card" href="heart/">
       <h3>💔 Heart Attack</h3>
-      <p>Recognize signs of blocked blood flow, act immediately, chew aspirin safely if indicated, stay calm/quiet, and avoid dangerous exertion.</p>
+      <p>Recognize possible symptoms, call emergency help immediately, follow dispatcher guidance, and avoid dangerous exertion.</p>
       <span class="go">Open the heart guide →</span>
     </a>
 """

@@ -15,7 +15,7 @@ Every guide on the platform is synthesized from globally recognized medical and 
 Recognizing that critical emergencies and climate hazards (extreme heatwaves, wildfire smoke, natural disasters) often occur during power outages or cellular grid failures, we built the Help Kit as a PWA. A dedicated service worker (`sw.js`) precaches the active HTML pages, stylesheets, images, and printable PDFs on the user's first visit. Once loaded successfully, the active kit remains usable without a network connection in modern browsers.
 
 ### C. Universal Printability & Physical Backups
-To support people with limited connectivity, shared devices, or printer-first workflows, every guide features a matching, downloadable printable PDF (most run 2–3 pages). Additionally, we compile a combined **Print Pack** (37 pages: a one-page cover/index plus all 13 topic guides) in a single file for easy physical duplication and locally reviewed booklet distribution.
+To support people with limited connectivity, shared devices, or printer-first workflows, every guide features a matching, downloadable printable PDF (most run 2–3 pages). Additionally, we compile a combined **Print Pack** (40 pages: a one-page cover/index plus all 14 topic guides) in a single file for easy physical duplication and locally reviewed booklet distribution.
 
 ### D. Localization and Citizen Empowerment
 Through `localize.html`, community advocates and mutual-aid organizers can customize the Help Kit before sharing. They can insert localized emergency numbers (e.g., local ambulance, poison control), local cooling center addresses, and mutual-aid contact details directly into the interface before generating custom PDF booklets.
@@ -29,7 +29,7 @@ Under high stress, complex text is difficult to digest. We executed comprehensiv
 We successfully conducted meticulous sweeps of medical thresholds (such as naloxone second-dose timing (2–3 minutes), 20-minute cool running water for burns, FAST stroke indicators, Epinephrine timing, and CPR compression rates). We also corrected local file pathing and resolved all Service Worker caching rules.
 
 ### 3. Print-Pack Cover / Index
-We added a one-page booklet cover/index to the Print Pack: it carries the Help Kit title, a prominent local-emergency-number reminder (examples: 911, 112, or 999; verify locally), a contents list of all 13 guides, and CC0/source/disclaimer notes — so a printed booklet opens cleanly and self-identifies. The pack is now 37 pages.
+We added a one-page booklet cover/index to the Print Pack: it carries the Help Kit title, a prominent local-emergency-number reminder (examples: 911, 112, or 999; verify locally), a contents list of all 14 guides, and CC0/source/disclaimer notes — so a printed booklet opens cleanly and self-identifies. The pack is now 40 pages.
 
 ### 4. Localization and Safe-Sharing Policy
 We created a multi-language localization plan (`localization-plan.md`) outlining safety guidelines for Spanish, French, and Hindi drafts. To reduce the risk of inaccurate medical instruction, machine-translated files must remain as `.draft` extensions and must not be published live until reviewed by fluent local humans; high-risk medical content should also seek review from a first-aid or health-knowledgeable reviewer where feasible.
