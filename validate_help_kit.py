@@ -10,7 +10,7 @@ def get_html_files(root_dir):
         if '.git' in root or '.github' in root:
             continue
         for file in files:
-            if file.endswith('.html'):
+            if file.endswith('.html') and file != 'print-cover.html' and not file.endswith('.draft'):
                 html_files.append(os.path.relpath(os.path.join(root, file), root_dir))
     return html_files
 

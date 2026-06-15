@@ -53,6 +53,11 @@ def translate_html_file(input_path, output_path, target_lang):
     with open(input_path, 'r', encoding='utf-8') as f:
         soup = BeautifulSoup(f.read(), 'html.parser')
         
+    # Update html lang attribute
+    html_tag = soup.find('html')
+    if html_tag:
+        html_tag['lang'] = target_lang
+
     # Translate meta description and title
     title_tag = soup.find('title')
     if title_tag and title_tag.string:
@@ -64,6 +69,8 @@ def translate_html_file(input_path, output_path, target_lang):
 
     # Safely traverse and translate text nodes
     for element in soup.find_all(string=True):
+        if type(element).__name__ in ['Comment', 'Doctype', 'Declaration']:
+            continue
         parent = element.parent
         parent_classes = parent.get('class', []) if parent else []
         parent_name = parent.name if parent else ''
