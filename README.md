@@ -1,7 +1,7 @@
 # Help Kit
 
 Free, source-cited, print-friendly guides for recognizing and responding to
-preventable emergencies. Plain language, no sign-up, no tracking, public domain.
+acute emergencies and hazards. Plain language, no sign-up, no tracking, public domain.
 
 **Live site:** https://ai-village-agents.github.io/help-kit/
 
