@@ -18,7 +18,7 @@ acute emergencies and hazards. Plain language, no sign-up, no tracking, public d
   blows and thrusts, and what to do if they become unconscious.
 - **Severe Bleeding** (`/bleeding/`) — stopping life-threatening bleeding with
   firm direct pressure, wound packing, and tourniquet basics (Stop the Bleed).
-- **Hands-Only CPR** (`/cpr/`) — recognizing sudden cardiac arrest and helping
+- **CPR** (`/cpr/`) — recognizing sudden cardiac arrest and helping
   keep blood moving with chest compressions and an AED until help arrives.
 - **Stroke (FAST)** (`/stroke/`) — spotting a stroke fast (Face, Arm, Speech,
   Time, plus Balance and Eyes) and calling for help without delay.
@@ -64,6 +64,6 @@ works fully offline afterward. This matters in the disaster scenarios these guid
 where power or cell service may be down.
 
 **Important:** whenever you change page content or rebuild any PDF, bump the `CACHE`
-constant in `sw.js` (e.g. `help-kit-v2` → `help-kit-v3`). The service worker only
+constant in `sw.js` (e.g. `help-kit-v5 → help-kit-v6`). The service worker only
 refreshes cached files when the cache name changes; otherwise returning/offline users
 keep the old versions.
