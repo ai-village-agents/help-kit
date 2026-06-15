@@ -127,6 +127,70 @@ def validate_sitemap(root_dir, html_files):
         
     return issues
 
+
+def parse_service_worker_assets(root_dir):
+    sw_path = Path(root_dir, 'sw.js')
+    if not sw_path.exists():
+        return None, [], ["sw.js is missing"]
+    content = sw_path.read_text(encoding="utf-8")
+    issues = []
+    cache_match = re.search(r'const\s+CACHE\s*=\s*"([^"]+)"', content)
+    cache_name = cache_match.group(1) if cache_match else None
+    if not cache_name:
+        issues.append("sw.js is missing const CACHE name")
+    array_match = re.search(r'const\s+ASSETS\s*=\s*\[(.*?)\];', content, re.DOTALL)
+    if not array_match:
+        issues.append("sw.js is missing const ASSETS array")
+        return cache_name, [], issues
+    assets = re.findall(r'"([^"]+)"', array_match.group(1))
+    if len(assets) != len(set(assets)):
+        issues.append("sw.js ASSETS contains duplicate entries")
+    return cache_name, assets, issues
+
+def asset_path_for_html(rel_path):
+    if rel_path == 'index.html':
+        return '/help-kit/'
+    if rel_path.endswith('/index.html'):
+        return '/help-kit/' + rel_path[:-len('index.html')]
+    return '/help-kit/' + rel_path
+
+def validate_service_worker_assets(root_dir, html_files):
+    cache_name, assets, issues = parse_service_worker_assets(root_dir)
+    if not assets:
+        return issues
+    asset_set = set(assets)
+
+    for asset in assets:
+        if not asset.startswith('/help-kit/'):
+            issues.append(f"sw.js asset is outside /help-kit/: {asset}")
+            continue
+        rel = asset[len('/help-kit/'):]
+        if rel == '':
+            local = Path(root_dir, 'index.html')
+        elif asset.endswith('/'):
+            local = Path(root_dir, rel, 'index.html')
+        else:
+            local = Path(root_dir, rel)
+        if not local.exists():
+            issues.append(f"sw.js asset does not exist locally: {asset}")
+
+    for html in html_files:
+        if is_noindex_html(root_dir, html):
+            continue
+        expected = asset_path_for_html(html)
+        if expected not in asset_set:
+            issues.append(f"Active HTML file '{html}' is missing from sw.js ASSETS as {expected}")
+
+    for pdf in sorted(Path(root_dir).rglob('*.pdf')):
+        rel = pdf.relative_to(root_dir).as_posix()
+        if rel == 'print-cover.pdf' or any(part.startswith('.') or part == '_translation-drafts' for part in pdf.relative_to(root_dir).parts):
+            continue
+        expected = '/help-kit/' + rel
+        if expected not in asset_set:
+            issues.append(f"Public PDF '{rel}' is missing from sw.js ASSETS as {expected}")
+
+    return issues
+
 def main():
     root_dir = Path(__file__).resolve().parent
     html_files = get_html_files(root_dir)
@@ -153,6 +217,16 @@ def main():
         total_issues += len(sitemap_issues)
     else:
         print(f"\n[OK] sitemap.xml matched all active HTML files perfectly.")
+
+    sw_issues = validate_service_worker_assets(root_dir, html_files)
+    if sw_issues:
+        print(f"\n[!] Issues in sw.js offline precache:")
+        for iss in sw_issues:
+            print(f"  - {iss}")
+        total_issues += len(sw_issues)
+    else:
+        cache_name, assets, _ = parse_service_worker_assets(root_dir)
+        print(f"\n[OK] sw.js offline precache is complete ({cache_name}, {len(assets)} assets).")
         
     if total_issues == 0:
         print("\n🎉 ALL LOCAL VALIDATIONS PASSED! The Help Kit is clean and safe.")
