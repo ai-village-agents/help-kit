@@ -1,0 +1,131 @@
+import os
+import re
+import xml.etree.ElementTree as ET
+
+def get_html_files(root_dir):
+    html_files = []
+    for root, dirs, files in os.walk(root_dir):
+        if '.git' in root or '.github' in root:
+            continue
+        for file in files:
+            if file.endswith('.html'):
+                html_files.append(os.path.relpath(os.path.join(root, file), root_dir))
+    return html_files
+
+def validate_html(root_dir, rel_path):
+    full_path = os.path.join(root_dir, rel_path)
+    with open(full_path, 'r', encoding='utf-8') as f:
+        content = f.read()
+    
+    issues = []
+    
+    # Check doctype
+    if not re.search(r'<!doctype\s+html>', content, re.IGNORECASE):
+        issues.append("Missing <!doctype html>")
+        
+    # Check viewport
+    if 'name="viewport"' not in content:
+        issues.append("Missing viewport meta tag")
+        
+    # Check stylesheet
+    if 'style.css' not in content:
+        issues.append("Possibly missing style.css link reference")
+        
+    # Check disclaimers
+    if 'disclaimer' not in content.lower() and rel_path != 'index.html':
+        issues.append("Missing disclaimer class/text reference")
+        
+    # Find all local links and verify they exist
+    links = re.findall(r'href=[\"\']([^\"\'#?]+)[\"\']', content)
+    for link in links:
+        if link.startswith('http://') or link.startswith('https://') or link.startswith('#') or link.startswith('javascript:'):
+            continue
+        # Standardize query or anchor params
+        link_clean = link.split('#')[0].split('?')[0]
+        if not link_clean:
+            continue
+        
+        # Check relative resolution
+        if link_clean.startswith('/help-kit/'):
+            # Strip '/help-kit/' and resolve relative to root_dir
+            target_path = os.path.normpath(os.path.join(root_dir, link_clean[len('/help-kit/'):]))
+        elif link_clean.startswith('/'):
+            # Strip '/' and resolve relative to root_dir
+            target_path = os.path.normpath(os.path.join(root_dir, link_clean[1:]))
+        else:
+            file_dir = os.path.dirname(full_path)
+            target_path = os.path.normpath(os.path.join(file_dir, link_clean))
+        
+        # If target is a directory, look for index.html
+        if os.path.isdir(target_path):
+            target_path = os.path.join(target_path, 'index.html')
+            
+        if not os.path.exists(target_path):
+            issues.append(f"Broken relative link: '{link}' (resolved to '{os.path.relpath(target_path, root_dir)}')")
+            
+    return issues
+
+def validate_sitemap(root_dir, html_files):
+    sitemap_path = os.path.join(root_dir, 'sitemap.xml')
+    if not os.path.exists(sitemap_path):
+        return ["sitemap.xml is missing"]
+        
+    issues = []
+    try:
+        tree = ET.parse(sitemap_path)
+        root = tree.getroot()
+        # Handle namespaces
+        namespace = {'ns': 'http://www.sitemaps.org/schemas/sitemap/0.9'}
+        urls = [loc.text for loc in root.findall('.//ns:loc', namespace)]
+        
+        # Check that all html files are represented in the sitemap (except template or temp files)
+        for html in html_files:
+            # Format the expected URL
+            clean_html = html.replace('index.html', '')
+            expected_suffix = f"help-kit/{clean_html}".replace('//', '/')
+            matched = False
+            for url in urls:
+                if expected_suffix in url or (html == 'index.html' and url.endswith('help-kit/')):
+                    matched = True
+                    break
+            if not matched:
+                issues.append(f"HTML file '{html}' not found in sitemap.xml")
+    except Exception as e:
+        issues.append(f"Error parsing sitemap.xml: {str(e)}")
+        
+    return issues
+
+def main():
+    root_dir = "/home/computeruse/help-kit-repo"
+    html_files = get_html_files(root_dir)
+    
+    print(f"--- Validating Help Kit repo at {root_dir} ---")
+    print(f"Found {len(html_files)} HTML files to audit: {html_files}\n")
+    
+    total_issues = 0
+    for path in html_files:
+        issues = validate_html(root_dir, path)
+        if issues:
+            print(f"[!] Issues in {path}:")
+            for iss in issues:
+                print(f"  - {iss}")
+            total_issues += len(issues)
+        else:
+            print(f"[OK] {path} passed HTML & local link audits.")
+            
+    sitemap_issues = validate_sitemap(root_dir, html_files)
+    if sitemap_issues:
+        print(f"\n[!] Issues in sitemap.xml:")
+        for iss in sitemap_issues:
+            print(f"  - {iss}")
+        total_issues += len(sitemap_issues)
+    else:
+        print(f"\n[OK] sitemap.xml matched all active HTML files perfectly.")
+        
+    if total_issues == 0:
+        print("\n🎉 ALL LOCAL VALIDATIONS PASSED! The Help Kit is clean and safe.")
+    else:
+        print(f"\n❌ Validation finished with {total_issues} total issues.")
+
+if __name__ == "__main__":
+    main()
