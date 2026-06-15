@@ -6,19 +6,19 @@
   <title>
    [ES]: Heart Attack: Recognize Signs &amp; Act — Help Kit | Help Kit
   </title>
-  <meta content="[ES]: A free, source-cited one-page guide to spotting a heart attack, chewing aspirin safely, and calling for help immediately. Based on AHA, CDC, and BHF guidance." name="description"/>
+  <meta content="[ES]: A free, source-cited one-page guide to spotting possible heart attack symptoms, calling emergency help immediately, and following dispatcher guidance. Based on AHA, CDC, NHS, NHLBI, and BHF guidance." name="description"/>
   <link href="https://ai-village-agents.github.io/help-kit/heart/" rel="canonical"/>
   <meta content="noindex, nofollow, noarchive" name="robots"/>
   <meta content="Help Kit" property="og:site_name"/>
   <meta content="website" property="og:type"/>
   <meta content="Heart Attack: Recognize Signs &amp; Act — Help Kit" property="og:title"/>
-  <meta content="A free, source-cited one-page guide to spotting a heart attack, chewing aspirin safely, and calling for help immediately. Based on AHA, CDC, and BHF guidance." property="og:description"/>
+  <meta content="A free, source-cited one-page guide to spotting possible heart attack symptoms, calling emergency help immediately, and following dispatcher guidance. Based on AHA, CDC, NHS, NHLBI, and BHF guidance." property="og:description"/>
   <meta content="https://ai-village-agents.github.io/help-kit/heart/" property="og:url"/>
   <meta content="https://ai-village-agents.github.io/help-kit/og-image.png" property="og:image"/>
   <meta content="summary_large_image" name="twitter:card"/>
   <meta content="https://ai-village-agents.github.io/help-kit/og-image.png" name="twitter:image"/>
   <meta content="Heart Attack: Recognize Signs &amp; Act — Help Kit" name="twitter:title"/>
-  <meta content="A free, source-cited one-page guide to spotting a heart attack, chewing aspirin safely, and calling for help immediately." name="twitter:description"/>
+  <meta content="A free, source-cited one-page guide to spotting possible heart attack symptoms, calling emergency help immediately, and following dispatcher guidance." name="twitter:description"/>
   <meta content="#c0392b" name="theme-color"/>
   <link href="../favicon.ico" rel="icon" sizes="any"/>
   <link href="../style.css" rel="stylesheet"/>
@@ -92,14 +92,14 @@
      [ES]: Heart Attack: recognize and act
     </h1>
     <p>
-     [ES]: A heart attack occurs when blood flow to part of the heart muscle is severely reduced or blocked. The longer the block is left untreated, the greater the damage to the heart muscle. Recognizing the symptoms and acting immediately can save a life. Free to read, print, and share.
+     [ES]: A heart attack occurs when blood flow to part of the heart muscle is severely reduced or blocked. The longer the block is left untreated, the greater the damage to the heart muscle. Recognizing possible symptoms and acting immediately can help the person get urgent care. Free to read, print, and share.
     </p>
    </div>
   </section>
   <main id="main">
    <div class="wrap">
     <p class="lede">
-     [ES]: Most heart attacks start slowly, with mild pain or discomfort, while others are sudden and intense. It is crucial to understand that symptoms can vary widely between individuals, and many people do not experience the classic crushing chest pain. Every minute counts — acting quickly is vital.
+     [ES]: Some heart attacks start slowly, with mild pain or discomfort, while others are sudden and intense. Symptoms can vary widely, and many people do not experience classic crushing chest pain. When in doubt, call emergency help right away and follow dispatcher guidance.
     </p>
     <div class="actions no-print">
      <a class="btn" href="javascript:window.print()">
@@ -117,7 +117,7 @@
       [ES]: A heart attack is a medical emergency — call immediately
      </h3>
      <p>
-      🚨[REVIEW_REQUIRED] [ES]: If you or someone else might be having a heart attack, call your local emergency number (examples: 911, 112, or 999; verify locally) right away. Do not wait to see if symptoms go away. Emergency medical responders can begin treatment on the way to the hospital and ensure you are taken to a specialized cardiac care center.
+      🚨[REVIEW_REQUIRED] [ES]: If you or someone else might be having a heart attack, call your local emergency number (examples: 911, 112, or 999; verify locally) right away. Do not wait to see if symptoms go away. Put the phone on speaker if you can and follow dispatcher or local emergency guidance.
      </p>
     </div>
     <h2>
@@ -175,9 +175,9 @@
       </li>
       <li>
        <strong>
-        [ES]: Chew and swallow an aspirin.
+        [ES]: Ask about aspirin only after calling.
        </strong>
-       🚨[REVIEW_REQUIRED] [ES]: If the person is not allergic to aspirin, has no history of severe bleeding, and has not been told by a doctor not to take aspirin, have them chew and swallow one adult aspirin (325 mg) or 2 to 4 low-dose baby aspirins (81 mg each). Chewing the tablet helps it absorb faster into the bloodstream to reduce clotting.
+       [ES]: Do not delay the emergency call to find aspirin. Give aspirin only if the dispatcher, a clinician, or local protocol tells you to and the person is alert enough to chew/swallow and has no aspirin allergy, aspirin intolerance, bleeding disorder or serious recent bleeding, blood-thinner concern, or other known reason to avoid it.
       </li>
       <li>
        <strong>
@@ -210,21 +210,27 @@
      <ul>
       <li>
        <strong>
-        [ES]: Do not drive yourself or the patient to the hospital.
+        [ES]: Do not drive yourself or the patient to the hospital if emergency medical services are available.
        </strong>
-       [ES]: Paramedics are trained to start life-saving treatments immediately. Driving yourself is dangerous if you lose consciousness, and taking a private car may delay treatment at the hospital entrance compared to arrival by ambulance.
+       [ES]: Driving can be dangerous if symptoms worsen, and emergency responders can assess and guide care on the way.
       </li>
       <li>
        <strong>
-        [ES]: Do not ignore the symptoms.
+        [ES]: Do not ignore symptoms or wait to see if they pass.
        </strong>
-       [ES]: Many people delay seeking help because they hope it is only indigestion or muscle strain. Seeking treatment early limits heart muscle damage.
+       [ES]: Many people delay seeking help because symptoms seem mild, unusual, or like indigestion or muscle strain.
       </li>
       <li>
        <strong>
         [ES]: Do not try “cough CPR.”
        </strong>
-       [ES]: Coughing repeatedly and vigorously is a dangerous internet myth. It does not prevent or treat a heart attack and should not be used.
+       [ES]: Coughing repeatedly and vigorously is an unsafe internet myth for bystanders and should not be used instead of calling emergency help.
+      </li>
+      <li>
+       <strong>
+        [ES]: Do not give food or drink.
+       </strong>
+       [ES]: Avoid food, alcohol, or unnecessary drinks while waiting for emergency help, especially if the person is nauseated, short of breath, confused, drowsy, or may need urgent treatment.
       </li>
      </ul>
     </div>
@@ -264,6 +270,12 @@
      <li>
       <a href="https://www.nhlbi.nih.gov/health/heart-attack">
        [ES]: National Heart, Lung, and Blood Institute (NHLBI) — Heart Attack
+      </a>
+      .
+     </li>
+     <li>
+      <a href="https://www.nhs.uk/conditions/heart-attack/">
+       🚨[REVIEW_REQUIRED] [ES]: NHS — Heart attack symptoms and what to do
       </a>
       .
      </li>
