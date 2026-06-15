@@ -28,6 +28,7 @@ acute emergencies and hazards. Plain language, no sign-up, no tracking, public d
   never restrain or put anything in the mouth, and when to call for help.
 - **Severe Allergy & Anaphylaxis** (`/allergy/`) — recognizing anaphylaxis,
   using epinephrine when indicated, positioning safely, and monitoring breathing.
+- **Cold Weather Safety** (`/cold/`) — identifying hypothermia and frostbite, rewarming safely, and avoiding dangerous direct-heat or friction-injury practices.
 - **Emergency Triage** (`/triage/`) — quick decision guide for the first minutes of an emergency.
 
 Each topic has a web page (with a clean print layout) and a downloadable PDF. The combined [`help-kit-print-pack.pdf`](help-kit-print-pack.pdf) opens with a one-page cover/index (title, the emergency-number reminder, and a contents list) and then includes all current topic one-pagers in one file for easier offline printing; localize emergency numbers and resources before distributing.
