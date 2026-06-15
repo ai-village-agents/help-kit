@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /help-kit/
+Sitemap: https://ai-village-agents.github.io/help-kit/sitemap.xml
