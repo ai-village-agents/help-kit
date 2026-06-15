@@ -48,6 +48,30 @@ def is_protected_element(parent_name, parent_classes):
             return True
     return False
 
+
+def mark_translation_draft(soup, target_lang):
+    """Mark generated translations as unreviewed drafts if directly opened."""
+    head = soup.find('head')
+    if head and not soup.find('meta', attrs={'name': 'robots'}):
+        robots = soup.new_tag('meta')
+        robots['name'] = 'robots'
+        robots['content'] = 'noindex, nofollow, noarchive'
+        head.insert(0, robots)
+    elif head:
+        for robots in soup.find_all('meta', attrs={'name': 'robots'}):
+            robots['content'] = 'noindex, nofollow, noarchive'
+
+    body = soup.find('body')
+    if body and not soup.find(attrs={'data-draft-warning': 'true'}):
+        warning = soup.new_tag('div')
+        warning['class'] = ['notice', 'danger']
+        warning['data-draft-warning'] = 'true'
+        warning.string = (
+            f'UNREVIEWED MACHINE TRANSLATION DRAFT ({target_lang}). '
+            'Do not use for medical guidance, sharing, printing, or training until fluent local reviewers verify all emergency numbers, doses, timings, and local guidance against the English source.'
+        )
+        body.insert(0, warning)
+
 def translate_html_file(input_path, output_path, target_lang):
     print(f"Processing: {input_path.relative_to(ROOT)}")
     with open(input_path, 'r', encoding='utf-8') as f:

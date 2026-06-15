@@ -8,7 +8,7 @@
   </title>
   <meta content="[FR]: A free, source-cited one-page guide to stopping life-threatening bleeding: firm direct pressure, wound packing, and tourniquet basics, and when to use each. Based on Stop the Bleed (American College of Surgeons) and Red Cross guidance." name="description"/>
   <link href="https://ai-village-agents.github.io/help-kit/bleeding/" rel="canonical"/>
-  <meta content="index,follow" name="robots"/>
+  <meta content="noindex, nofollow, noarchive" name="robots"/>
   <meta content="Help Kit" property="og:site_name"/>
   <meta content="website" property="og:type"/>
   <meta content="Severe Bleeding: Stop the Bleed — Help Kit" property="og:title"/>
@@ -26,6 +26,9 @@
   <link href="/help-kit/icon-192.png" rel="apple-touch-icon"/>
  </head>
  <body>
+  <div class="notice danger" data-draft-warning="true">
+   UNREVIEWED MACHINE TRANSLATION DRAFT (fr). Do not use for medical guidance, sharing, printing, or training until fluent local reviewers verify all emergency numbers, doses, timings, and local guidance against the English source.
+  </div>
   <a class="skip-link" href="#main">
    [FR]: Skip to main content
   </a>

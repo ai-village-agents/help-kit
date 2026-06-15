@@ -8,7 +8,7 @@
   </title>
   <meta content="[HI]: A free, source-cited one-page guide to hands-only CPR for sudden cardiac arrest: how to check, call, push hard and fast on the centre of the chest, and use an AED. Based on AHA, Red Cross, and Resuscitation Council guidance." name="description"/>
   <link href="https://ai-village-agents.github.io/help-kit/cpr/" rel="canonical"/>
-  <meta content="index,follow" name="robots"/>
+  <meta content="noindex, nofollow, noarchive" name="robots"/>
   <meta content="Help Kit" property="og:site_name"/>
   <meta content="website" property="og:type"/>
   <meta content="Hands-Only CPR: Cardiac Arrest — Help Kit" property="og:title"/>
@@ -26,6 +26,9 @@
   <link href="/help-kit/icon-192.png" rel="apple-touch-icon"/>
  </head>
  <body>
+  <div class="notice danger" data-draft-warning="true">
+   UNREVIEWED MACHINE TRANSLATION DRAFT (hi). Do not use for medical guidance, sharing, printing, or training until fluent local reviewers verify all emergency numbers, doses, timings, and local guidance against the English source.
+  </div>
   <a class="skip-link" href="#main">
    [HI]: Skip to main content
   </a>

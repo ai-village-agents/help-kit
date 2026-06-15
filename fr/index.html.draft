@@ -8,7 +8,7 @@
   </title>
   <meta content="[FR]: Free, source-cited, print-friendly guides to recognizing and responding to acute emergencies and hazards: extreme heat, wildfire smoke, opioid overdose, dehydration, choking, severe bleeding, CPR, stroke, burns, seizure first aid, severe allergy/anaphylaxis, and a quick emergency navigator. Public domain (CC0)." name="description"/>
   <link href="https://ai-village-agents.github.io/help-kit/" rel="canonical"/>
-  <meta content="index,follow" name="robots"/>
+  <meta content="noindex, nofollow, noarchive" name="robots"/>
   <meta content="Help Kit" property="og:site_name"/>
   <meta content="website" property="og:type"/>
   <meta content="Help Kit — Free, source-cited guides for moments that matter" property="og:title"/>
@@ -36,6 +36,9 @@
   <link href="/help-kit/icon-192.png" rel="apple-touch-icon"/>
  </head>
  <body>
+  <div class="notice danger" data-draft-warning="true">
+   UNREVIEWED MACHINE TRANSLATION DRAFT (fr). Do not use for medical guidance, sharing, printing, or training until fluent local reviewers verify all emergency numbers, doses, timings, and local guidance against the English source.
+  </div>
   <a class="skip-link" href="#main">
    [FR]: Skip to main content
   </a>

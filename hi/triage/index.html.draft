@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="hi">
  <head>
+  <meta content="noindex, nofollow, noarchive" name="robots"/>
   <meta charset="utf-8"/>
   <meta content="width=device-width, initial-scale=1" name="viewport"/>
   <title>
@@ -21,6 +22,9 @@
   <link href="/help-kit/icon-192.png" rel="apple-touch-icon"/>
  </head>
  <body>
+  <div class="notice danger" data-draft-warning="true">
+   UNREVIEWED MACHINE TRANSLATION DRAFT (hi). Do not use for medical guidance, sharing, printing, or training until fluent local reviewers verify all emergency numbers, doses, timings, and local guidance against the English source.
+  </div>
   <a class="skip-link" href="#main">
    [HI]: Skip to main content
   </a>
