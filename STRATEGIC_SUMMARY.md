@@ -15,7 +15,7 @@ Every guide on the platform is synthesized from globally recognized medical and 
 Recognizing that critical emergencies and climate hazards (extreme heatwaves, wildfire smoke, natural disasters) often occur during power outages or cellular grid failures, we built the Help Kit as a PWA. A dedicated service worker (`sw.js`) precaches all 19 HTML pages, stylesheets, images, and printable PDFs on the user's first visit. Once loaded, the entire site is 100% functional with zero network connection.
 
 ### C. Universal Printability & Physical Backups
-To bridge the digital divide and reach the most vulnerable, every single guide features a matching, highly optimized, downloadable one-page PDF. Additionally, we compile a combined **Print Pack** (currently 33-34 pages) containing all topic one-pagers in a single file for easy physical duplication and local booklet distribution.
+To bridge the digital divide and reach the most vulnerable, every single guide features a matching, downloadable printable PDF (most run 2–3 pages). Additionally, we compile a combined **Print Pack** (34 pages: a one-page cover/index plus all 12 topic guides) in a single file for easy physical duplication and local booklet distribution.
 
 ### D. Localization and Citizen Empowerment
 Through `localize.html`, community advocates and mutual-aid organizers can customize the Help Kit before sharing. They can insert localized emergency numbers (e.g., local ambulance, poison control), local cooling center addresses, and mutual-aid contact details directly into the interface before generating custom PDF booklets.
@@ -26,12 +26,14 @@ Through `localize.html`, community advocates and mutual-aid organizers can custo
 Under high stress, complex text is difficult to digest. We executed comprehensive plain-language and sentence-splitting audits on all 12 core topics (Heat, Smoke, Naloxone, ORS, Choking, Bleeding, CPR, Stroke, Burns, Seizure, Allergy, Triage). Long, compound sentences were broken down to optimize accessibility (Flesch-Kincaid levels brought down to clear US grade 7–10 readability) while keeping clinical and safety instructions strictly unchanged.
 
 ### 2. Clinical and Structural Quality Audits
-We successfully conducted meticulous sweeps of medical thresholds (such as 4mg Narcan dosing, 20-minute cool running water for burns, FAST stroke indicators, Epinephrine timing, and CPR compression rates). We also corrected local file pathing and resolved all Service Worker caching rules.
+We successfully conducted meticulous sweeps of medical thresholds (such as naloxone second-dose timing (2–3 minutes), 20-minute cool running water for burns, FAST stroke indicators, Epinephrine timing, and CPR compression rates). We also corrected local file pathing and resolved all Service Worker caching rules.
 
-### 3. Localization and Safe-Sharing Policy
+### 3. Print-Pack Cover / Index
+We added a one-page booklet cover/index to the Print Pack: it carries the Help Kit title, a prominent local-emergency-number reminder (911 US/Canada, 112 much of Europe, 999 UK, or your country's number), a contents list of all 12 guides, and CC0/source/disclaimer notes — so a printed booklet opens cleanly and self-identifies. The pack is now 34 pages.
+
+### 4. Localization and Safe-Sharing Policy
 We created a robust multi-language localization plan (`localization-plan.md`) outlining strict guidelines for Spanish, French, and Hindi drafts. To prevent inaccurate medical instruction, we established a strict rule: machine-translated files must remain as `.draft` extensions and cannot be published live until reviewed by fluent humans with local clinical context.
 
 ## 4. Next Phase Action Plan
-1. **Local Print Pack Integration**: Finish designing and integrating a print-pack cover/index page to organize the physical booklet cleanly.
-2. **Human-in-the-Loop Language Verification**: Collaborate with local mutual-aid groups to conduct fluent native-speaker reviews on Spanish, French, and Hindi draft translations.
-3. **Strategic Mutual-Aid Outreach**: Once outreach templates receive administrator approval, coordinate with local community centers and relief organizations to distribute physical Print Packs in high-vulnerability climate zones.
+1. **Human-in-the-Loop Language Verification**: Collaborate with local mutual-aid groups to conduct fluent native-speaker reviews on Spanish, French, and Hindi draft translations.
+2. **Strategic Mutual-Aid Outreach**: Once outreach templates receive administrator approval, coordinate with local community centers and relief organizations to distribute physical Print Packs in high-vulnerability climate zones.
