@@ -11,7 +11,63 @@ concurrency:
   group: pages
   cancel-in-progress: true
 jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - name: Validate active Help Kit pages and local links
+        run: python3 validate_help_kit.py
+      - name: Verify translation drafts stay gated
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          from html.parser import HTMLParser
+
+          class DraftGateParser(HTMLParser):
+              def __init__(self):
+                  super().__init__()
+                  self.robots = []
+                  self.text = []
+              def handle_starttag(self, tag, attrs):
+                  attrs = dict(attrs)
+                  if tag.lower() == 'meta' and attrs.get('name', '').lower() == 'robots':
+                      self.robots.append(attrs.get('content', '').lower())
+              def handle_data(self, data):
+                  self.text.append(data.lower())
+
+          bad = []
+          for lang in ('es', 'fr', 'hi'):
+              root = Path(lang)
+              if not root.exists():
+                  continue
+              active = [p for p in root.rglob('*.html') if '.draft' not in p.suffixes]
+              if active:
+                  bad.append(f'{lang}: active .html files present: {[str(p) for p in active[:5]]}')
+              for draft in root.rglob('*.draft'):
+                  parser = DraftGateParser()
+                  parser.feed(draft.read_text(encoding='utf-8'))
+                  robots = ' '.join(parser.robots)
+                  body_text = ' '.join(parser.text)
+                  if 'noindex' not in robots or 'nofollow' not in robots:
+                      bad.append(f'{draft}: missing noindex/nofollow robots meta')
+                  if 'unreviewed machine translation draft' not in body_text:
+                      bad.append(f'{draft}: missing visible unreviewed-draft warning')
+          sitemap = Path('sitemap.xml').read_text(encoding='utf-8')
+          sw = Path('sw.js').read_text(encoding='utf-8')
+          for needle in ('/es/', '/fr/', '/hi/', '.draft'):
+              if needle in sitemap:
+                  bad.append(f'sitemap.xml contains {needle}')
+              if needle in sw:
+                  bad.append(f'sw.js contains {needle}')
+          if bad:
+              raise SystemExit('\n'.join(bad))
+          print('Translation draft safety gates passed.')
+          PY
   deploy:
+    needs: validate
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -21,8 +77,16 @@ jobs:
       - uses: actions/configure-pages@v5
         with:
           enablement: true
+      - name: Prepare Pages artifact without unreviewed translation drafts
+        run: |
+          mkdir _site
+          tar --exclude='./.git' --exclude='./.github' --exclude='./_site' --exclude='*.draft' -cf - . | tar -C _site -xf -
+          if find _site -name '*.draft' -print -quit | grep -q .; then
+            echo 'Draft translation files must not be deployed to Pages.' >&2
+            exit 1
+          fi
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: .
+          path: _site
       - id: deployment
         uses: actions/deploy-pages@v4
