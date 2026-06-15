@@ -1,78 +1,59 @@
-# Help Kit — Safe Distribution & Outreach Guide
+# Help Kit — Safe Distribution & Outreach Drafts
 
-This guide is for community organizers, mutual-aid volunteers, and AI agents who want to share **Help Kit** resources with local groups, libraries, shelters, or health organizations.
+This document is a **drafting aid**, not permission to contact anyone. It exists so future agents or human collaborators can prepare careful, localized outreach text *only if* they have a specific recipient that is likely to welcome it.
 
-We adhere to a strict **harm-reduction, non-spammy, and privacy-respecting** stance. Unsolicited outreach from AI agents can easily cause friction or clutter digital spaces. By preparing thoughtful, localized, and highly respectful templates, we ensure that any direct contact is genuinely welcome and valuable.
+AI agents must **never** send unsolicited emails, contact forms, direct messages, or posts to human-centered websites unless a village administrator approves the exact recipient, medium, and verbatim message through the `request_approval_for_unsolicited_outreach` process.
 
----
+## Core principles
 
-## SECTION 1: CORE OUTREACH PRINCIPLES
+1. **Prefer passive distribution first.** The Help Kit is already public, indexed, print-friendly, and shareable. Do not create outreach just to “get the word out.”
+2. **Use a specific, likely-welcome recipient.** Do not bulk-message, scrape contacts, post in community groups, or email generic local organizations. Consider outreach only when the organization explicitly accepts resource submissions or has a relevant public role.
+3. **Localize before proposing use.** Verify local emergency numbers, official local resources, language/access needs, and whether U.S.-specific references fit the recipient’s setting.
+4. **Be transparent and low-pressure.** State that the resource is CC0/public domain, static, ad-free, and tracker-free. Do not imply endorsement, partnership, official status, or a request for money.
+5. **Protect privacy.** Do not collect or publish lists of vulnerable people, addresses, phone numbers, medical status, immigration status, or unhoused locations.
+6. **Stay inside the approval boundary.** If approval is granted, send only the approved text to the approved recipient through the approved medium.
 
-1. **Verify Local Relevancy First:** Do not send generic U.S.-focused materials to international organizations. Localize emergency numbers, resources, and translations *before* contacting any local organizer.
-2. **Respect Online Spaces:** Never bulk-message, spam, or use automated scrapers to blast emails. Contact only specific organizations that explicitly list public contact channels for resource-sharing.
-3. **Transparency:** Clearly state that this is an open-source, CC0 (public domain) resource. No logins, no ads, no trackers, and no funding requested.
-4. **Agent Constraint (Strict):** AI agents must **never** send unsolicited emails or make posts to human websites without obtaining formal administrative approval first via the `request_approval_for_unsolicited_outreach` tool.
+## Conservative outreach template
 
----
-
-## SECTION 2: THE REUSABLE OUTREACH TEMPLATE
-
-Below is the standard, conservative template designed for local community networks (e.g., public libraries, mutual aid coalitions, tenant associations, or disaster assistance groups).
+Use this only after replacing brackets with verified local details and submitting the completed message for admin approval.
 
 ```text
-Subject: Free, open-source emergency first-aid & heat safety print-pack (CC0)
+Subject: Optional free CC0 print resource for emergency first-aid and hazard guidance
 
 Dear [Contact Name / Organizer Team],
 
-I hope this finds you well. I am writing on behalf of the Help Kit project, an open-source, public-good initiative that distills emergency health guidance into clean, printable, single-page reference sheets.
+I’m writing because [specific reason this recipient is likely to welcome a public-domain printable safety resource — for example, they explicitly maintain a preparedness resource page or invite community resource submissions].
 
-With extreme heat waves, smoke alerts, and other climate-related events placing a heavy burden on local communities, we wanted to share a free resource that your network can use or distribute. We have compiled a unified 18-page PDF "Print Pack" containing six essential emergency guides, fully cited to sources like the Red Cross, WHO, and CDC:
+Help Kit is a free, CC0/public-domain set of source-cited, print-friendly guides for acute situations where clear first steps can reduce harm: extreme heat, wildfire smoke, opioid overdose/naloxone, dehydration/ORS, choking first aid, and severe bleeding.
 
-1. Extreme Heat & Buddy Checks (thermoregulation, fan dilemmas, cooling centers)
-2. Wildfire Smoke Safety (cleaner air, low-cost room filters)
-3. Opioid Overdose Response (step-by-step naloxone administration)
-4. Dehydration & ORS (oral rehydration solution safety, pediatric/adult guidelines)
-5. Choking First Aid (adult/infant maneuvers, CPR sequences)
-6. Severe Bleeding (pressure, wound packing, and tourniquet basics)
+Live site: https://ai-village-agents.github.io/help-kit/
+Combined printable PDF: https://ai-village-agents.github.io/help-kit/help-kit-print-pack.pdf
+Localize/share checklist: https://ai-village-agents.github.io/help-kit/localize.html
 
-The entire project is public domain (CC0). You are welcome to host it, print it, translate it, or adapt the text for your neighborhood's specific emergency numbers and local resources. No signup, no tracking, and no ads.
+If useful, you are welcome to adapt, translate, print, or ignore it. Please verify local emergency numbers, official local resources, and local first-aid/public-health guidance before distributing. This is general information, not medical advice, not a substitute for hands-on training, and not an official resource from your organization unless you choose to adapt/review it.
 
-You can view the live site and download the PDFs here:
-https://ai-village-agents.github.io/help-kit/
+No reply is needed. If you notice a safety issue, the public repository is here: https://github.com/ai-village-agents/help-kit
 
-Our "Localize & Share" guide can help your team adapt these sheets for your area's local emergency protocols:
-https://ai-village-agents.github.io/help-kit/localize.html
+Thank you for the work you do.
 
-Thank you for your tireless work in supporting our community. If you have any feedback or would like help formatting a localized version, please let us know.
-
-Warm regards,
-
-[Your Name / Help Kit Team]
-https://github.com/ai-village-agents/help-kit
+[Your Name / Role]
 ```
 
----
+## Approval request checklist for AI agents
 
-## SECTION 3: RATIONALE & OUTREACH ARGUMENT
+Before using `request_approval_for_unsolicited_outreach`, confirm all of the following:
 
-When submitting an approval request for unsolicited outreach, you must justify why the recipient will be glad to receive it. Here is the established rationale:
+- The recipient is specific, relevant, and likely to welcome resource submissions.
+- The medium is allowed by the recipient (for example, a public resource-submission email or contact form).
+- The message is fully written, localized, and free of bracket placeholders.
+- The rationale explains concrete value to that recipient, not generic “awareness.”
+- The outreach is not duplicative of another pending or approved request.
 
-- **Direct Value:** Local volunteer coordinators and mutual aid groups are often resource-constrained and frequently spend hours drafting or seeking print-friendly safety flyers during emergencies.
-- **Trusted Sources:** All protocols are strictly sourced from official public health bodies (AHA, ACS, SAMHSA, CDC, WHO, Red Cross, Resuscitation Council), reducing the risk of misinformation.
-- **Zero Cost/Tracking:** Because the site is static, ad-free, tracking-free, and CC0, there is zero monetization or commercial incentive. It is built purely as a public good.
-- **Print-Friendly Format:** The custom CSS stylesheet formats pages automatically for clean black-and-white or color printing, saving paper and ensuring high legibility for unhoused or offline neighbors.
+Approval request fields should include:
 
----
+- **recipient:** the exact organization/contact/channel.
+- **medium:** email, contact form, or other specific channel.
+- **message_content:** the full verbatim text to be sent.
+- **rationale:** why this recipient is likely to be glad to receive it and how it provides substantial value.
 
-## SECTION 4: INSTRUCTIONS FOR AI AGENTS (SUBMITTING APPROVALS)
-
-If you identify a highly relevant, localized organization (such as a local disaster response hub or shelter network) that would benefit from this print pack:
-
-1. **Verify:** Check that their public contact info is correct and that they actively distribute community guides.
-2. **Draft:** Prepare the email verbatim, replacing bracketed terms (like `[Contact Name]`) with real, verified information.
-3. **Submit:** Execute the `request_approval_for_unsolicited_outreach` tool with the following fields:
-   - **medium**: `Email` or `Contact Form`
-   - **recipient**: `[Insert specific organization/contact email]`
-   - **message_content**: `[Insert completed verbatim text]`
-   - **rationale**: `[Provide the specific localized value rationale, e.g., "This mutual aid group in SF distributes weekly food/cooling supplies to unhoused individuals and currently has no printable extreme heat flyers."]`
-4. **Wait:** Never send the message until a village administrator explicitly approves your request.
+After submission: wait. Do not send, post, follow up, or broaden the recipient list unless a village administrator explicitly approves the exact outreach.
