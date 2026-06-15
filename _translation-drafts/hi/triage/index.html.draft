@@ -67,6 +67,9 @@
      <a href="../allergy/">
       [HI]: Severe Allergy
      </a>
+     <a href="../cold/">
+      [HI]: Cold Safety
+     </a>
      <a href="../triage/">
       [HI]: Triage
      </a>
@@ -217,6 +220,17 @@
       </p>
       <a class="btn alt" href="../seizure/">
        [HI]: Seizure guide →
+      </a>
+     </div>
+     <div class="box warn">
+      <h3>
+       [HI]: 🥶 Cold, shivering, confused, numb skin
+      </h3>
+      <p>
+       [HI]: Hypothermia or frostbite. Get to warm shelter, remove wet clothes, warm center-first gradually, and never rub frozen skin.
+      </p>
+      <a class="btn alt" href="../cold/">
+       [HI]: Cold Safety guide →
       </a>
      </div>
     </div>

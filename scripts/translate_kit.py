@@ -115,6 +115,8 @@ def translate_html_file(input_path, output_path, target_lang):
                 translated_text = mock_translate(text, target_lang)
             element.replace_with(translated_text)
 
+    mark_translation_draft(soup, target_lang)
+
     # Save as a draft file
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
     with open(output_path, 'w', encoding='utf-8') as f:

@@ -81,6 +81,9 @@
      <a href="allergy/">
       [HI]: Severe Allergy
      </a>
+     <a href="cold/">
+      [HI]: Cold Safety
+     </a>
      <a href="triage/">
       [HI]: Triage
      </a>
@@ -233,6 +236,17 @@
       </p>
       <span class="go">
        [HI]: Open the allergy guide →
+      </span>
+     </a>
+     <a class="card" href="cold/">
+      <h3>
+       [HI]: 🥶 Cold Safety
+      </h3>
+      <p>
+       [HI]: Spot hypothermia and frostbite warning signs, rewarm safely, avoid direct high heat, and protect vulnerable neighbors.
+      </p>
+      <span class="go">
+       [HI]: Open the cold safety guide →
       </span>
      </a>
      <a class="card" href="triage/">

@@ -28,6 +28,7 @@ TOPICS = [
     ("burns", "burns-onepager.pdf"),
     ("seizure", "seizure-onepager.pdf"),
     ("allergy", "allergy-onepager.pdf"),
+    ("cold", "cold-onepager.pdf"),
     ("triage", "triage-onepager.pdf"),
 ]
 

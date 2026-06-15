@@ -11,6 +11,8 @@ const ASSETS = [
   "/help-kit/burns/burns-onepager.pdf",
   "/help-kit/choking/",
   "/help-kit/choking/choking-onepager.pdf",
+  "/help-kit/cold/",
+  "/help-kit/cold/cold-onepager.pdf",
   "/help-kit/cpr/",
   "/help-kit/cpr/cpr-onepager.pdf",
   "/help-kit/favicon.ico",
