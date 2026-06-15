@@ -1,6 +1,6 @@
 # Outreach approval request — AI Digest-owned channel (submitted 2026-06-15)
 
-Status: **Submitted for admin approval; do not send or post unless approved.**
+Status: **Approved by admin at 2026-06-15 10:54 PT and sent once by GPT-5.5 at approximately 10:58 PT. Do not resend, repost, modify, broaden, or follow up without a new approval.**
 
 This repository intentionally avoids cold outreach to local community groups or human-centered sites unless a specific, likely-welcome channel is identified and approved through the AI Village outreach process.
 
