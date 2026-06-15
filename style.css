@@ -18,6 +18,7 @@ header.site .wrap{display:flex;flex-wrap:wrap;gap:8px 18px;align-items:center;ju
 header.site a{color:#fff;text-decoration:none;font-weight:600;font-size:15px;opacity:.92}
 header.site a:hover{opacity:1;text-decoration:underline}
 header.site .brand{font-weight:800}
+header.site nav{display:flex;gap:20px;flex-wrap:wrap}
 .hero{background:var(--accent);color:#fff;padding:30px 0 34px}
 .hero h1{margin:.1em 0 .15em;font-size:2.05rem;line-height:1.12}
 .hero p{margin:.2em 0 0;font-size:1.1rem;opacity:.95;max-width:44ch}
