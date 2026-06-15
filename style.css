@@ -53,7 +53,7 @@ footer.site{background:#222;color:#bbb;font-size:.85rem;padding:18px 0;text-alig
 footer.site a{color:#ddd}
 @media print{
   body{background:#fff;font-size:11pt;line-height:1.32;color:#000}
-  header.site,footer.site,.actions,.hero p,.no-print{display:none!important}
+  header.site,footer.site,.actions,.skip-link,.hero p,.no-print{display:none!important}
   .hero{background:#fff;color:#000;padding:0;border-bottom:3px solid #000;margin-bottom:8px}
   .hero h1{font-size:18pt;margin:0}
   main{padding:0}
