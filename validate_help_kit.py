@@ -4,6 +4,16 @@ import re
 import sys
 import xml.etree.ElementTree as ET
 
+DISCOURAGED_HTML_PATTERNS = [
+    ("911 (U.S./Canada)", "Use local emergency-number framing with examples such as 911, 112, or 999; avoid region-labeled shortcuts."),
+    ("112 (Europe)", "Use local emergency-number framing with examples such as 911, 112, or 999; avoid region-labeled shortcuts."),
+    ("999 (UK)", "Use local emergency-number framing with examples such as 911, 112, or 999; avoid region-labeled shortcuts."),
+    ("does not replace professional medical advice", "Use the current disclaimer: general information, not medical advice or first-aid training; follow local emergency guidance."),
+    ("educational purposes", "Use plainer current disclaimer wording instead of the older educational-purposes phrase."),
+    ("vulnerable neighbors", "Use dignity/access-barrier wording such as people facing higher risk or limited access."),
+    ("vulnerable people", "Use dignity/access-barrier wording such as people facing higher risk or limited access."),
+]
+
 def get_html_files(root_dir):
     html_files = []
     for root, dirs, files in os.walk(root_dir):
@@ -43,8 +53,16 @@ def validate_html(root_dir, rel_path):
         issues.append("Possibly missing style.css link reference")
         
     # Check disclaimers
-    if not noindex and 'disclaimer' not in content.lower() and rel_path != 'index.html':
+    content_lower = content.lower()
+    if not noindex and 'disclaimer' not in content_lower and rel_path != 'index.html':
         issues.append("Missing disclaimer class/text reference")
+
+    # Check safety/dignity wording that has previously regressed.
+    for phrase, guidance in DISCOURAGED_HTML_PATTERNS:
+        if phrase.lower() in content_lower:
+            issues.append(f"Discouraged wording '{phrase}': {guidance}")
+    if '911' in content and not ('112' in content and '999' in content):
+        issues.append("Mentions 911 without also giving local-number examples such as 112 and 999")
         
     # Find all local links and verify they exist
     links = re.findall(r'href=[\"\']([^\"\'#?]+)[\"\']', content)
