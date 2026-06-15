@@ -63,6 +63,19 @@ def validate_html(root_dir, rel_path):
             issues.append(f"Discouraged wording '{phrase}': {guidance}")
     if '911' in content and not ('112' in content and '999' in content):
         issues.append("Mentions 911 without also giving local-number examples such as 112 and 999")
+
+    # Topic index pages with a sibling onepager PDF should expose print/PDF actions.
+    rel = Path(rel_path)
+    if rel.name == 'index.html' and len(rel.parts) > 1:
+        topic_dir = Path(root_dir, *rel.parts[:-1])
+        expected_pdf = f"{rel.parts[-2]}-onepager.pdf"
+        if Path(topic_dir, expected_pdf).exists():
+            if 'class="actions no-print"' not in content and "class='actions no-print'" not in content:
+                issues.append("Missing .actions.no-print print/PDF action block")
+            if 'Print this page' not in content:
+                issues.append("Missing 'Print this page' action")
+            if expected_pdf not in content:
+                issues.append(f"Missing printable PDF link to {expected_pdf}")
         
     # Find all local links and verify they exist
     links = re.findall(r'href=[\"\']([^\"\'#?]+)[\"\']', content)
