@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="hi">
  <head>
-  <meta content="noindex, nofollow, noarchive" name="robots"/>
   <meta charset="utf-8"/>
   <meta content="width=device-width, initial-scale=1" name="viewport"/>
   <title>
    [HI]: Emergency Triage — Quick Decision Guide — Help Kit | Help Kit
   </title>
+  <meta content="noindex, nofollow, noarchive" name="robots"/>
   <meta content="[HI]: A fast navigator to quickly find the closest Help Kit guide while you call local emergency services when needed." name="description"/>
   <link href="https://ai-village-agents.github.io/help-kit/triage/" rel="canonical"/>
   <meta content="Emergency Triage — Quick Decision Guide — Help Kit" property="og:title"/>
@@ -88,6 +88,14 @@
      [HI]: Fast navigator for the first moments of an emergency. It is not a diagnosis: choose the closest match, call your local emergency number for life-threatening symptoms, and follow dispatcher/local guidance.
     </p>
    </header>
+   <div class="actions no-print">
+    <a class="btn" href="javascript:window.print()">
+     [HI]: Print this page
+    </a>
+    <a class="btn alt" href="triage-onepager.pdf">
+     [HI]: Download printable PDF
+    </a>
+   </div>
    <section>
     <div class="box warn">
      <strong>
@@ -172,7 +180,7 @@
        [HI]: 🌫️ Coughing, chest tightness, smoky air
       </h3>
       <p>
-       [HI]: During a wildfire or heavy air pollution. Vulnerable people at highest risk.
+       [HI]: During a wildfire or heavy air pollution. Higher risk for people with heart/lung conditions, pregnancy, older age, young children, outdoor work, or limited access to clean indoor air.
       </p>
       <a class="btn alt" href="../smoke/">
        [HI]: Wildfire Smoke guide →

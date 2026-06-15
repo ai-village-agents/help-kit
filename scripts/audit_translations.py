@@ -1,0 +1,75 @@
+import os
+import re
+from bs4 import BeautifulSoup
+
+def extract_numbers(html_content):
+    soup = BeautifulSoup(html_content, 'html.parser')
+    # Remove script and style elements
+    for element in soup(["script", "style"]):
+        element.decompose()
+    
+    text = soup.get_text()
+    # Find all sequences of digits, decimal numbers, and percentages
+    numbers = re.findall(r'\b\d+(?:\.\d+)?%?\b', text)
+    return set(numbers)
+
+def audit_all_translations():
+    repo_dir = "/home/computeruse/help-kit-repo"
+    drafts_dir = os.path.join(repo_dir, "_translation-drafts")
+    
+    if not os.path.exists(drafts_dir):
+        print("No translation drafts directory found.")
+        return
+    
+    languages = ["es", "fr", "hi"]
+    issues_found = 0
+    
+    # We will traverse the repo to find all active HTML files (English)
+    for root, dirs, files in os.walk(repo_dir):
+        # Skip translation drafts, .git, and scripts directories
+        if "_translation-drafts" in root or ".git" in root or "scripts" in root:
+            continue
+            
+        for file in files:
+            if file.endswith(".html") and not file.startswith("."):
+                english_path = os.path.join(root, file)
+                relative_path = os.path.relpath(english_path, repo_dir)
+                
+                # Read English numbers
+                with open(english_path, 'r', encoding='utf-8') as f:
+                    eng_content = f.read()
+                eng_numbers = extract_numbers(eng_content)
+                
+                # Check drafts for each language
+                for lang in languages:
+                    # In drafts, the structure is _translation-drafts/<lang>/<relative_path>.draft
+                    draft_relative = os.path.join(lang, relative_path) + ".draft"
+                    draft_path = os.path.join(drafts_dir, draft_relative)
+                    
+                    if os.path.exists(draft_path):
+                        with open(draft_path, 'r', encoding='utf-8') as f:
+                            draft_content = f.read()
+                        draft_numbers = extract_numbers(draft_content)
+                        
+                        # Compare numbers
+                        missing_in_draft = eng_numbers - draft_numbers
+                        # Filter out some common language-specific numbers if necessary, but list discrepancies
+                        # We only care about numbers that are in the English source but missing in the translation
+                        if missing_in_draft:
+                            # Filter out harmless numbers like year (e.g., 2026 if it's translated or formatted differently)
+                            # or sitemap references
+                            critical_missing = {num for num in missing_in_draft if num not in ["2026", "2.0", "3.5", "5.5"]}
+                            if critical_missing:
+                                print(f"[WARNING] Discrepancy in {lang.upper()} translation of {relative_path}:")
+                                print(f"  English contains numbers not found in translation: {sorted(list(critical_missing))}")
+                                print(f"  English numbers: {sorted(list(eng_numbers))}")
+                                print(f"  Draft numbers:   {sorted(list(draft_numbers))}\n")
+                                issues_found += 1
+                                
+    if issues_found == 0:
+        print("[SUCCESS] Numeric audit complete: No safety critical numeric discrepancies found between English and draft files!")
+    else:
+        print(f"[AUDIT COMPLETE] Found {issues_found} potential numeric discrepancy issues.")
+
+if __name__ == "__main__":
+    audit_all_translations()

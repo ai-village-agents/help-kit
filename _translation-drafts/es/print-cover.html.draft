@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <meta content="noindex, nofollow, noarchive" name="robots"/>
+  <title>
+   [ES]: Help Kit — Printable Booklet Cover | Help Kit
+  </title>
+  <link href="style.css" rel="stylesheet"/>
+  <style>
+   @page { margin: 18mm 16mm; }
+  body { margin: 0; }
+  .cover-wrap { max-width: 100%; }
+  .cover-title { font-size: 34px; margin: 0 0 4px; color: #c0392b; }
+  .cover-sub { font-size: 15px; color: #333; margin: 0 0 16px; }
+  .cover-wrap h2 { font-size: 17px; margin: 18px 0 6px; }
+  .toc { list-style: none; padding: 0; margin: 0; columns: 2; column-gap: 24px; }
+  .toc li { margin: 0 0 5px; font-size: 13px; break-inside: avoid; }
+  .toc li b { color: #c0392b; }
+  .meta { font-size: 11px; color: #555; margin-top: 14px; line-height: 1.5; }
+  .box.emergency { margin: 0 0 8px; }
+  </style>
+ </head>
+ <body>
+  <div class="notice danger" data-draft-warning="true">
+   UNREVIEWED MACHINE TRANSLATION DRAFT (es). Do not use for medical guidance, sharing, printing, or training until fluent local reviewers verify all emergency numbers, doses, timings, and local guidance against the English source.
+  </div>
+  <main class="cover-wrap">
+   <p class="cover-title">
+    [ES]: Help Kit
+   </p>
+   <p class="cover-sub">
+    [ES]: Free, clear, source-cited guides for moments that matter — so anyone can recognize an emergency and act in time.
+   </p>
+   <div class="box emergency">
+    <span class="tag">
+     In an emergency, get help first
+    </span>
+    <p style="margin:6px 0 0;font-size:14px;">
+     [ES]: Call your
+     <b>
+      [ES]: local emergency number
+     </b>
+     [ES]: right away — for example
+     <b>
+      911
+     </b>
+     [ES]: (US/Canada),
+     <b>
+      112
+     </b>
+     [ES]: (much of Europe),
+     <b>
+      999
+     </b>
+     [ES]: (UK), or your country's number. These pages are guidance for while help is on the way; they do not replace emergency services or a clinician.
+    </p>
+   </div>
+   <h2>
+    [ES]: What's inside (13 guides)
+   </h2>
+   <ol class="toc">
+    <li>
+     <b>
+      [ES]: Extreme heat
+     </b>
+     [ES]: — heat exhaustion &amp; heat stroke
+    </li>
+    <li>
+     <b>
+      [ES]: Wildfire smoke
+     </b>
+     [ES]: — air quality &amp; cleaner air
+    </li>
+    <li>
+     <b>
+      [ES]: Opioid overdose
+     </b>
+     🚨[REVIEW_REQUIRED] [ES]: — naloxone
+    </li>
+    <li>
+     <b>
+      [ES]: Dehydration
+     </b>
+     [ES]: — oral rehydration (ORS)
+    </li>
+    <li>
+     <b>
+      [ES]: Choking
+     </b>
+     [ES]: — adult, child &amp; infant
+    </li>
+    <li>
+     <b>
+      [ES]: Severe bleeding
+     </b>
+     [ES]: — pressure, packing, tourniquet
+    </li>
+    <li>
+     <b>
+      [ES]: CPR
+     </b>
+     🚨[REVIEW_REQUIRED] [ES]: — hands-only &amp; AED
+    </li>
+    <li>
+     <b>
+      [ES]: Stroke
+     </b>
+     [ES]: — FAST / BE-FAST
+    </li>
+    <li>
+     <b>
+      [ES]: Burns
+     </b>
+     [ES]: — cool with water, what to avoid
+    </li>
+    <li>
+     <b>
+      [ES]: Seizure
+     </b>
+     [ES]: — keep safe, when it's urgent
+    </li>
+    <li>
+     <b>
+      [ES]: Severe allergy
+     </b>
+     🚨[REVIEW_REQUIRED] [ES]: — anaphylaxis &amp; epinephrine
+    </li>
+    <li>
+     <b>
+      [ES]: Cold safety
+     </b>
+     [ES]: — hypothermia &amp; frostbite
+    </li>
+    <li>
+     <b>
+      [ES]: Emergency triage
+     </b>
+     [ES]: — where to start
+    </li>
+   </ol>
+   <p class="meta">
+    <b>
+     [ES]: How to use:
+    </b>
+    [ES]: Skim the guide you need now, or read a few ahead of time so the steps are familiar. Each page lists its public-health sources.
+    <br/>
+    <b>
+     [ES]: Please check before sharing locally:
+    </b>
+    [ES]: confirm your area's emergency number and nearest care, and adapt any local details.
+    <br/>
+    <b>
+     [ES]: Reuse freely:
+    </b>
+    [ES]: released under
+    <b>
+     [ES]: CC0 1.0 (public domain)
+    </b>
+    🚨[REVIEW_REQUIRED] [ES]: — copy, print, translate, and share without permission. Sources include CDC, WHO, UNICEF, the American Heart Association &amp; Red Cross, Resuscitation Council UK, NHS, and others (cited per page).
+    <br/>
+    <b>
+     [ES]: Online:
+    </b>
+    [ES]: https://ai-village-agents.github.io/help-kit/  ·  This is general information, not a substitute for professional medical care.
+   </p>
+  </main>
+ </body>
+</html>

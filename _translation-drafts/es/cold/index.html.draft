@@ -137,7 +137,7 @@
       </li>
      </ul>
      <p>
-      🚨[REVIEW_REQUIRED] [ES]: Call your local emergency number (911 in the US/Canada, 112 in much of Europe, 999 in the UK). Put the phone on speaker and follow dispatcher instructions.
+      🚨[REVIEW_REQUIRED] [ES]: Call your local emergency number (examples: 911, 112, or 999; verify locally). Put the phone on speaker and follow dispatcher instructions.
      </p>
     </div>
     <h2>
@@ -189,14 +189,14 @@
       Protect frozen skin from further damage
      </span>
      <p>
-      [ES]: Frostbite occurs when skin freezes. Never rub or massage frostbitten skin — rubbing snow or friction can tear frozen cells and destroy tissue permanently. Warm the area gradually:
+      [ES]: Frostbite occurs when skin freezes. Never rub or massage frostbitten skin — rubbing snow or friction can worsen tissue damage. Warm the area gradually:
      </p>
      <ul>
       <li>
        <strong>
         [ES]: Get out of the cold.
        </strong>
-       [ES]: Do not attempt to rewarm if there is a risk of refreezing (frozen tissue that refreezes suffers severe, irreversible damage).
+       [ES]: Do not attempt to rewarm if there is a risk of refreezing (refreezing can cause severe tissue damage).
       </li>
       <li>
        <strong>
@@ -219,26 +219,26 @@
      </ul>
     </div>
     <h2>
-     [ES]: Special care for vulnerable populations
+     [ES]: Extra support for people facing higher cold risk
     </h2>
     <ul>
      <li>
       <strong>
        [ES]: Infants (&lt;1 year):
       </strong>
-      [ES]: Infants lose heat extremely quickly. Never let an infant sleep in a cold room. For infants, warning signs are bright red, cold skin and very low energy. Wrap them securely and seek a warm environment immediately.
+      [ES]: Infants lose heat quickly. Keep infants warm and away from cold rooms or drafts whenever possible. For infants, warning signs are bright red, cold skin and very low energy. Wrap them securely and seek a warm environment immediately.
      </li>
      <li>
       <strong>
        [ES]: Older adults:
       </strong>
-      [ES]: Older adults may produce less body heat and may have medical conditions or take medicines that make it harder to sense cold or regulate temperature. Check on elderly neighbors regularly during cold snaps.
+      [ES]: Older adults may produce less body heat and may have medical conditions or take medicines that make it harder to sense cold or regulate temperature. Check on older neighbors regularly during cold snaps.
      </li>
      <li>
       <strong>
        [ES]: Unhoused individuals:
       </strong>
-      [ES]: Cold weather is highly hazardous to people without stable shelter. Coordinate with local outreach teams to distribute dry socks, hand warmers, and sleeping bags.
+      [ES]: Cold weather can be especially dangerous for people without stable shelter. Coordinate with local outreach teams to distribute dry socks, hand warmers, and sleeping bags.
      </li>
     </ul>
     <h2>
@@ -280,9 +280,21 @@
      [ES]: Guidance reflects standard lay-responder first aid for cold-related injuries. Follow local emergency services and professional medical training.
     </p>
     <p class="disclaimer">
-     [ES]: This guide is general information, not medical advice. In an emergency, always call your local emergency number. Reuse and reprint freely.
+     [ES]: This guide is general information, not medical advice. In an emergency, call your local emergency number and follow dispatcher/local guidance. Reuse and reprint freely.
     </p>
    </div>
   </main>
+  <footer class="site">
+   <div class="wrap">
+    [ES]: A free, open Help Kit ·
+    <a href="https://github.com/ai-village-agents/help-kit">
+     [ES]: source on GitHub
+    </a>
+    [ES]: · Public domain (CC0) · Verify against your local health authority
+   </div>
+  </footer>
+  <script>
+   if("serviceWorker" in navigator){window.addEventListener("load",function(){navigator.serviceWorker.register("/help-kit/sw.js").catch(function(){});});}
+  </script>
  </body>
 </html>
