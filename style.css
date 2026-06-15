@@ -12,6 +12,8 @@ body{
   margin:0;color:var(--ink);background:#f6f6f4;
   font:17px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
 }
+.skip-link{position:absolute;left:-999px;top:8px;z-index:1000;background:#fff;color:var(--accent);padding:8px 12px;border:2px solid var(--accent);border-radius:6px;font-weight:700}
+.skip-link:focus{left:8px}
 .wrap{max-width:var(--maxw);margin:0 auto;padding:0 20px}
 header.site{background:var(--accent);color:#fff;padding:6px 0}
 header.site .wrap{display:flex;flex-wrap:wrap;gap:8px 18px;align-items:center;justify-content:space-between}
