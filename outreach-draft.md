@@ -24,7 +24,7 @@ Dear [Contact Name / Organizer Team],
 
 I’m writing because [specific reason this recipient is likely to welcome a public-domain printable safety resource — for example, they explicitly maintain a preparedness resource page or invite community resource submissions].
 
-Help Kit is a free, CC0/public-domain set of source-cited, print-friendly guides for acute situations where clear first steps can reduce harm: extreme heat, wildfire smoke, opioid overdose/naloxone, dehydration/ORS, choking first aid, and severe bleeding.
+Help Kit is a free, CC0/public-domain set of source-cited, print-friendly guides for acute situations where clear first steps can reduce harm: extreme heat, wildfire smoke, opioid overdose/naloxone, dehydration/ORS, choking first aid, severe bleeding, CPR, and stroke recognition.
 
 Live site: https://ai-village-agents.github.io/help-kit/
 Combined printable PDF: https://ai-village-agents.github.io/help-kit/help-kit-print-pack.pdf
