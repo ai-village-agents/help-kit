@@ -1,6 +1,8 @@
 # Global Help Kit: Multi-Language Translation and Localization Architecture
 
-To dramatically scale the impact of our harm-reduction platform and reduce global suffering, the Help Kit will expand into a multi-language, localized resource center. Since the kit is designed for high-stress disaster situations, our architecture prioritizes **offline-first reliability, static-site performance, and precise translation safety**.
+To broaden the reach of this harm-reduction platform, the Help Kit may expand into multi-language, localized resource sets. Because the kit is designed for high-stress disaster and first-aid situations, the workflow must prioritize **offline-first reliability, static-site performance, and translation safety**.
+
+**Safety boundary:** this document is a workflow plan, not approval to publish translated medical or first-aid pages. Machine-translated drafts should stay out of the live site until reviewed by fluent humans with local context.
 
 ---
 
@@ -34,11 +36,11 @@ help-kit/
 
 ---
 
-## 2. Target Languages & High-Suffering Priority Regions
+## 2. Candidate Languages & Priority Contexts
 
-We prioritize languages that serve regions facing acute climatic, health, or infrastructure-deficit challenges:
+Initial candidate languages should be chosen with local need, reviewer availability, and deployment partners in mind. The examples below are starting points, not a claim that these are the only or highest-priority languages:
 
-| Language | Code | Primary Target Regions | Key High-Suffering Risks Addressed |
+| Language | Code | Example Regions | Example Risks Addressed |
 |---|---|---|---|
 | **Spanish** | `es` | Latin America, Caribbean, USA | Extreme heat, hurricanes, dehydration, lack of emergency services |
 | **French** | `fr` | West & Central Africa, Haiti | Waterborne dehydration (ORS), choking, severe bleeding, limited clinics |
@@ -48,10 +50,10 @@ We prioritize languages that serve regions facing acute climatic, health, or inf
 
 ## 3. HTML-Aware Translation Script: `translate_kit.py`
 
-To prevent layout breakages, the translation workflow must be entirely programmatically controlled, preserving CSS structures, navigation formats, and semantic metadata.
+To prevent layout breakages, the translation workflow can use programmatic helpers to preserve CSS structures, navigation formats, and semantic metadata. Automation should create **review drafts**, not live pages.
 
 ### 3.1 Core Processing Algorithm
-We will implement an automated Python script, `translate_kit.py`, using `beautifulsoup4` and an LLM/translation API.
+A future script, `translate_kit.py`, could use `beautifulsoup4` and a translation engine to create draft files for review.
 
 1. **HTML Parsing:** Parse English HTML files with BeautifulSoup.
 2. **Structural Preservation:** Extract only raw text nodes from specific tags (`p`, `li`, `h1`, `h2`, `h3`, `strong`, `em`, `a`, `span`, `div.warn`). Keep all structural container elements, classes, IDs, and attributes untouched.
@@ -59,7 +61,8 @@ We will implement an automated Python script, `translate_kit.py`, using `beautif
    - Elements with `.site` or `.brand` (like navigation and brand logos) are replaced with localized terms or left as "Help Kit".
    - Links in `<a href="...">` are updated: if they point relative to `../[topic]/`, they remain correct, but any root links (like `../index.html` or `../localize.html`) must point to the target language root (`../index.html` within the subfolder, or `./localize.html`).
 4. **Metadata Translation:** Programmatically translate `<title>`, `<meta name="description">`, and corresponding OpenGraph/Twitter card tags.
-5. **PDF Generation Integration:** Re-run `weasyprint` on the generated localized HTML files to compile language-specific one-pagers and combined print packs.
+5. **Review Gates Before PDF Generation:** Do not generate public PDFs until the localized HTML has passed review. After approval, re-run `weasyprint` on the reviewed localized HTML files to compile language-specific one-pagers and combined print packs.
+6. **Do-Not-Translate Protections:** Mark URLs, emergency-number placeholders, measurement values, medication names, source names, `lang`/`dir` attributes, code, and structured data as protected tokens. Reviewers must confirm that numbers, doses, time windows, and emergency actions did not change.
 
 ### 3.2 HTML-Safe Parser Draft (`scripts/translate_kit.py`)
 ```python
@@ -101,7 +104,9 @@ def translate_html_file(input_path, output_path, target_lang):
 
 ## 4. Localized Safety Safeguards
 
-1. **Explicit Legal and Clinical Disclaimer:** Every translated page must maintain a prominent, localized medical disclaimer:
-   - *Spanish:* "Este kit de ayuda es únicamente de carácter educativo y de primeros auxilios. En caso de una emergencia real, llame a su número local de emergencia de inmediato."
-2. **Dynamic Emergency Numbers:** Ensure the `Localize & share` file (`localize.html`) lets local organizers set their country's specific emergency number (e.g., 911 for USA/Mexico, 112 for EU/India, 999 for UK).
-3. **Accuracy Auditing:** Automated translations of critical medical guides (like Narcan/Naloxone dosage or CPR compression depth) must be audited by an AI-safety peer model or native speaker agent before deployment to prevent lethal instructional errors.
+1. **No unreviewed live medical translations:** Automated or LLM-assisted translations of first-aid guides must not be published live, added to the service-worker precache, or promoted for public use until review is complete.
+2. **Human fluent/local review required:** At least one fluent human reviewer with local context should review every page before publication. For high-risk content (CPR, naloxone, anaphylaxis, choking, severe bleeding, ORS mixing, burns, and triage), aim for two reviewers when possible: one fluent/local-language reviewer and one health/first-aid-knowledgeable reviewer. AI peer review can help find issues, but it is not a substitute for human review.
+3. **Explicit medical disclaimer:** Every translated page must keep a prominent, localized disclaimer that says the guide is general information, not medical advice or training, and that users should call the local emergency number and follow local/dispatcher guidance in emergencies.
+4. **Emergency numbers and local services:** Keep emergency numbers as localizable placeholders until verified for the intended country/region. Avoid implying one number works everywhere. The `Localize & share` file should help local organizers set emergency numbers, poison/toxicology contacts, health authority links, and locally available services.
+5. **Protected facts checklist:** Reviewers must compare the translation against the English source for all numbers, doses, timings, measurements, danger signs, “do not” warnings, and escalation instructions. Examples include ORS salt/sugar amounts, CPR compression depth/rate, naloxone repeat-dose timing, burn cooling time, and epinephrine second-dose timing.
+6. **Versioning:** Each localized page should record the English source commit it was translated from, reviewer names or roles where safe to share, review date, and any local adaptations. When English source content changes, mark the translation as needing review before rebuilding public PDFs or cache entries.
