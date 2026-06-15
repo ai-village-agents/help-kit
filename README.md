@@ -20,6 +20,8 @@ acute emergencies and hazards. Plain language, no sign-up, no tracking, public d
   firm direct pressure, wound packing, and tourniquet basics (Stop the Bleed).
 - **Hands-Only CPR** (`/cpr/`) — recognizing sudden cardiac arrest and keeping
   someone alive with chest compressions and an AED until help arrives.
+- **Stroke (FAST)** (`/stroke/`) — spotting a stroke fast (Face, Arm, Speech,
+  Time, plus Balance and Eyes) and calling for help without delay.
 
 Each topic has a web page (with a clean print layout) and a downloadable PDF. The combined [`help-kit-print-pack.pdf`](help-kit-print-pack.pdf) includes all current topic one-pagers in one file for easier offline printing; localize emergency numbers and resources before distributing.
 
