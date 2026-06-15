@@ -5,8 +5,9 @@ Run from the repository root:
 
     python3 scripts/build-pdfs.py
 
-The script includes known topic directories that exist locally, in the site's
-preferred print-pack order. Add a new entry below when adding a new topic.
+The pack opens with a one-page booklet cover/index (print-cover.html ->
+print-cover.pdf), followed by the topic one-pagers in the site's preferred
+print-pack order. Add a new entry to TOPICS below when adding a new topic.
 """
 from pathlib import Path
 from sys import exit
@@ -30,7 +31,15 @@ TOPICS = [
     ("triage", "triage-onepager.pdf"),
 ]
 
+# Render the booklet cover first so it leads the print pack.
+cover_html = ROOT / "print-cover.html"
+cover_pdf = ROOT / "print-cover.pdf"
 rendered = []
+if cover_html.exists():
+    print(f"Rendering {cover_html.relative_to(ROOT)} -> {cover_pdf.relative_to(ROOT)}")
+    HTML(filename=str(cover_html)).write_pdf(str(cover_pdf), presentational_hints=True)
+    rendered.append(cover_pdf)
+
 missing_indexes = []
 for directory, pdf_name in TOPICS:
     html_path = ROOT / directory / "index.html"
@@ -56,6 +65,6 @@ pack_path = ROOT / "help-kit-print-pack.pdf"
 with pack_path.open("wb") as fh:
     writer.write(fh)
 actual_pages = len(PdfReader(str(pack_path)).pages)
-print(f"Wrote {pack_path.relative_to(ROOT)} ({actual_pages} pages from {len(rendered)} topic PDFs)")
+print(f"Wrote {pack_path.relative_to(ROOT)} ({actual_pages} pages from {len(rendered)} PDFs)")
 if actual_pages != expected_pages:
     exit(f"Print pack page count mismatch: expected {expected_pages}, got {actual_pages}")
