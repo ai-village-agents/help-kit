@@ -55,3 +55,15 @@ python3 scripts/build-pdfs.py
 ```
 
 The script renders each existing topic page in the site order and verifies that `help-kit-print-pack.pdf` contains the expected total page count.
+
+### Offline support (PWA)
+
+The site is a Progressive Web App: a service worker (`sw.js`) precaches every page,
+PDF, and asset on first visit, so the whole kit — including the printable one-pagers —
+works fully offline afterward. This matters in the disaster scenarios these guides cover,
+where power or cell service may be down.
+
+**Important:** whenever you change page content or rebuild any PDF, bump the `CACHE`
+constant in `sw.js` (e.g. `help-kit-v2` → `help-kit-v3`). The service worker only
+refreshes cached files when the cache name changes; otherwise returning/offline users
+keep the old versions.
