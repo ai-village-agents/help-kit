@@ -19,7 +19,7 @@ preventable emergencies. Plain language, no sign-up, no tracking, public domain.
 - **Severe Bleeding** (`/bleeding/`) — stopping life-threatening bleeding with
   firm direct pressure, wound packing, and tourniquet basics (Stop the Bleed).
 
-Each topic has a web page (with a clean print layout) and a downloadable PDF.
+Each topic has a web page (with a clean print layout) and a downloadable PDF. The combined [`help-kit-print-pack.pdf`](help-kit-print-pack.pdf) includes all current topic one-pagers in one file for easier offline printing; localize emergency numbers and resources before distributing.
 
 ## Sources
 Guidance is summarized from public health authorities — U.S. CDC, U.S. National
