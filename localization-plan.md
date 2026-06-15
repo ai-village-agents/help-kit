@@ -8,7 +8,9 @@ To broaden the reach of this harm-reduction platform, the Help Kit may expand in
 
 ## 1. Directory and Navigation Architecture
 
-To maintain zero runtime dependencies and maximum offline/PWA compatibility, we use **directory-based routing** (e.g., `/es/`, `/fr/`, `/hi/`). Each language has a mirrored static structure.
+This section describes the intended structure **only after a translation has passed review and is ready to publish**. To maintain zero runtime dependencies and maximum offline/PWA compatibility, reviewed translations can use **directory-based routing** (e.g., `/es/`, `/fr/`, `/hi/`). Each published language has a mirrored static structure.
+
+Unreviewed machine or LLM-assisted drafts must not be placed in public root language directories. Current draft outputs belong under `_translation-drafts/<lang>/.../*.html.draft`, which is excluded from GitHub Pages artifacts, Jekyll processing, sitemap entries, and service-worker precaching. Public `/es/`, `/fr/`, `/hi/`, etc. should be created only when reviewed translations are intentionally promoted for live use.
 
 ```
 help-kit/
@@ -53,7 +55,7 @@ Initial candidate languages should be chosen with local need, reviewer availabil
 To prevent layout breakages, the translation workflow can use programmatic helpers to preserve CSS structures, navigation formats, and semantic metadata. Automation should create **review drafts**, not live pages.
 
 ### 3.1 Core Processing Algorithm
-A future script, `translate_kit.py`, could use `beautifulsoup4` and a translation engine to create draft files for review.
+The current helper, `scripts/translate_kit.py`, uses `beautifulsoup4` and a translation engine interface to create draft files for review under `_translation-drafts/<lang>/.../*.html.draft`.
 
 1. **HTML Parsing:** Parse English HTML files with BeautifulSoup.
 2. **Structural Preservation:** Extract only raw text nodes from specific tags (`p`, `li`, `h1`, `h2`, `h3`, `strong`, `em`, `a`, `span`, `div.warn`). Keep all structural container elements, classes, IDs, and attributes untouched.
@@ -61,7 +63,7 @@ A future script, `translate_kit.py`, could use `beautifulsoup4` and a translatio
    - Elements with `.site` or `.brand` (like navigation and brand logos) are replaced with localized terms or left as "Help Kit".
    - Links in `<a href="...">` are updated: if they point relative to `../[topic]/`, they remain correct, but any root links (like `../index.html` or `../localize.html`) must point to the target language root (`../index.html` within the subfolder, or `./localize.html`).
 4. **Metadata Translation:** Programmatically translate `<title>`, `<meta name="description">`, and corresponding OpenGraph/Twitter card tags.
-5. **Review Gates Before PDF Generation:** Do not generate public PDFs until the localized HTML has passed review. After approval, re-run `weasyprint` on the reviewed localized HTML files to compile language-specific one-pagers and combined print packs.
+5. **Review Gates Before PDF Generation:** Do not generate public PDFs until the localized HTML has passed review and has been intentionally promoted from `_translation-drafts` into a public language route. After approval, re-run `weasyprint` on the reviewed localized HTML files to compile language-specific one-pagers and combined print packs.
 6. **Do-Not-Translate Protections:** Mark URLs, emergency-number placeholders, measurement values, medication names, source names, `lang`/`dir` attributes, code, and structured data as protected tokens. Reviewers must confirm that numbers, doses, time windows, and emergency actions did not change.
 
 ### 3.2 HTML-Safe Parser Draft (`scripts/translate_kit.py`)
@@ -104,7 +106,7 @@ def translate_html_file(input_path, output_path, target_lang):
 
 ## 4. Localized Safety Safeguards
 
-1. **No unreviewed live medical translations:** Automated or LLM-assisted translations of first-aid guides must not be published live, added to the service-worker precache, or promoted for public use until review is complete.
+1. **No unreviewed live medical translations:** Automated or LLM-assisted translations of first-aid guides must not be published live, placed in public root language directories, added to the service-worker precache, included in the sitemap, or promoted for public use until review is complete. Keep draft files under `_translation-drafts/<lang>/.../*.html.draft` with noindex/noarchive warnings.
 2. **Human fluent/local review required:** At least one fluent human reviewer with local context should review every page before publication. For high-risk content (CPR, naloxone, anaphylaxis, choking, severe bleeding, ORS mixing, burns, and triage), aim for two reviewers when possible: one fluent/local-language reviewer and one health/first-aid-knowledgeable reviewer. AI peer review can help find issues, but it is not a substitute for human review.
 3. **Explicit medical disclaimer:** Every translated page must keep a prominent, localized disclaimer that says the guide is general information, not medical advice or training, and that users should call the local emergency number and follow local/dispatcher guidance in emergencies.
 4. **Emergency numbers and local services:** Keep emergency numbers as localizable placeholders until verified for the intended country/region. Avoid implying one number works everywhere. The `Localize & share` file should help local organizers set emergency numbers, poison/toxicology contacts, health authority links, and locally available services.
