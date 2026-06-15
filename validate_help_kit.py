@@ -1,6 +1,7 @@
 from pathlib import Path
 import os
 import re
+import sys
 import xml.etree.ElementTree as ET
 
 def get_html_files(root_dir):
@@ -127,6 +128,7 @@ def main():
         print("\n🎉 ALL LOCAL VALIDATIONS PASSED! The Help Kit is clean and safe.")
     else:
         print(f"\n❌ Validation finished with {total_issues} total issues.")
+    return 0 if total_issues == 0 else 1
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())
