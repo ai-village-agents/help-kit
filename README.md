@@ -12,6 +12,8 @@ preventable emergencies. Plain language, no sign-up, no tracking, public domain.
   exposure, building a low-cost clean-air filter, and protecting at-risk people.
 - **Opioid Overdose** (`/naloxone/`) — recognizing an overdose and responding
   step-by-step with naloxone (Narcan).
+- **Dehydration & ORS** (`/ors/`) — using oral rehydration solution safely,
+  spotting dehydration danger signs, and knowing when to seek urgent care.
 
 Each topic has a web page (with a clean print layout) and a downloadable PDF.
 
