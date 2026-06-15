@@ -8,25 +8,25 @@ which MUST be reviewed by fluent local humans before deployment.
 """
 
 import os
+import re
 import sys
 from pathlib import Path
 
 try:
     from bs4 import BeautifulSoup
 except ImportError:
-    print("BeautifulSoup4 is required. Installing bs4...")
-    import subprocess
-    subprocess.check_call([sys.executable, "-m", "pip", "install", "beautifulsoup4"])
-    from bs4 import BeautifulSoup
+    print("BeautifulSoup4 is required. Install it before running this draft helper.", file=sys.stderr)
+    sys.exit(1)
 
 ROOT = Path(__file__).resolve().parents[1]
 
 # Protected medical/first-aid tokens that should not be auto-translated to protect critical dosages/timings
 PROTECTED_TOKENS = [
-    "911", "112", "999", "100-120", "5 cm", "2 inches", "6 cm", "2.4 inches", 
-    "30:2", "15:2", "5-15", "20", "20mg", "10mg", "10-14", "4mg", "2-3", "5", 
-    "103°F", "39.4°C", "95°F", "35°C", "1/2", "6", "AHA", "ERC", "WHO", "CDC", 
-    "EPA", "NHS", "SAMHSA", "Naloxone", "Narcan", "Epinephrine", "AED"
+    "911", "112", "999", "100-120", "100–120", "5 cm", "2 inches", "6 cm", "2.4 inches",
+    "30:2", "15:2", "5-15", "5–15", "20", "20mg", "20 mg", "10mg", "10 mg",
+    "10-14", "10–14", "4mg", "4 mg", "2-3", "2–3", "5", "1 liter", "1 litre",
+    "103°F", "39.4°C", "95°F", "35°C", "1/2", "6", "AHA", "ERC", "WHO", "CDC",
+    "EPA", "NHS", "SAMHSA", "Naloxone", "naloxone", "Narcan", "Epinephrine", "epinephrine", "AED"
 ]
 
 def mock_translate(text, target_lang):
@@ -40,7 +40,7 @@ def mock_translate(text, target_lang):
 
 def is_protected_element(parent_name, parent_classes):
     """Determine if an element should not be machine-translated."""
-    if parent_name in ['script', 'style', 'code', 'pre']:
+    if parent_name in ['script', 'style', 'code', 'pre', 'title']:
         return True
     if parent_classes:
         # Avoid translating pure structural buttons or brand indicators
@@ -89,26 +89,46 @@ def translate_html_file(input_path, output_path, target_lang):
         f.write(soup.prettify())
     print(f"Draft written to: {output_path.relative_to(ROOT)}")
 
+def resolve_input_path(arg):
+    candidate = (ROOT / arg).resolve()
+    try:
+        rel = candidate.relative_to(ROOT)
+    except ValueError:
+        raise ValueError(f"Input path must stay inside the Help Kit repo: {arg}")
+    if candidate.suffix != ".html" or ".draft" in candidate.suffixes:
+        raise ValueError(f"Input path must be an active .html file, not a draft or other file: {arg}")
+    return candidate, rel
+
+def validate_target_lang(target_lang):
+    if not re.fullmatch(r"[a-z]{2,3}(?:-[a-z0-9]{2,8})*", target_lang):
+        raise ValueError("Language code must be a simple BCP-47-style code such as es, fr, pt-br, or zh-hant")
+    return target_lang
+
 def main():
     if len(sys.argv) < 2:
         print("Usage: python3 scripts/translate_kit.py <target_language_code> [html_file_path]")
         print("Example: python3 scripts/translate_kit.py es index.html")
         sys.exit(1)
         
-    target_lang = sys.argv[1].lower()
-    
-    if len(sys.argv) >= 3:
-        files_to_process = [ROOT / sys.argv[2]]
-    else:
-        # Default to translating index.html as a test candidate
-        files_to_process = [ROOT / "index.html"]
-        
-    for file_path in files_to_process:
+    try:
+        target_lang = validate_target_lang(sys.argv[1].lower())
+    except ValueError as e:
+        print(e, file=sys.stderr)
+        sys.exit(1)
+
+    raw_files = sys.argv[2:] if len(sys.argv) >= 3 else ["index.html"]
+
+    for raw_path in raw_files:
+        try:
+            file_path, rel_path = resolve_input_path(raw_path)
+        except ValueError as e:
+            print(e, file=sys.stderr)
+            sys.exit(1)
         if not file_path.exists():
-            print(f"File not found: {file_path}")
-            continue
-        output_dir = ROOT / target_lang
-        output_file = output_dir / file_path.name
+            print(f"File not found: {file_path}", file=sys.stderr)
+            sys.exit(1)
+        output_dir = ROOT / target_lang / rel_path.parent
+        output_file = output_dir / rel_path.name
         # Write draft filename with .draft suffix to prevent unreviewed active publishing
         draft_file = output_file.with_suffix('.html.draft')
         translate_html_file(file_path, draft_file, target_lang)
