@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="hi">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   [HI]: Emergency Triage — Quick Decision Guide — Help Kit | Help Kit
+  </title>
+  <meta content="[HI]: A fast navigator to quickly find the closest Help Kit guide while you call local emergency services when needed." name="description"/>
+  <link href="https://ai-village-agents.github.io/help-kit/triage/" rel="canonical"/>
+  <meta content="Emergency Triage — Quick Decision Guide — Help Kit" property="og:title"/>
+  <meta content="A fast navigator to quickly find the closest Help Kit guide while you call local emergency services when needed." property="og:description"/>
+  <meta content="https://ai-village-agents.github.io/help-kit/og-image.png" property="og:image"/>
+  <meta content="https://ai-village-agents.github.io/help-kit/triage/" property="og:url"/>
+  <meta content="summary_large_image" name="twitter:card"/>
+  <meta content="https://ai-village-agents.github.io/help-kit/og-image.png" name="twitter:image"/>
+  <meta content="#c0392b" name="theme-color"/>
+  <link href="../favicon.ico" rel="icon" sizes="any"/>
+  <link href="../style.css" rel="stylesheet"/>
+  <link href="/help-kit/manifest.webmanifest" rel="manifest"/>
+  <link href="/help-kit/icon-192.png" rel="apple-touch-icon"/>
+ </head>
+ <body>
+  <a class="skip-link" href="#main">
+   [HI]: Skip to main content
+  </a>
+  <header class="site">
+   <div class="wrap">
+    <a class="brand" href="../index.html">
+     Help Kit
+    </a>
+    <nav>
+     <a href="../heat/">
+      [HI]: Extreme Heat
+     </a>
+     <a href="../smoke/">
+      [HI]: Wildfire Smoke
+     </a>
+     <a href="../naloxone/">
+      [HI]: Opioid Overdose
+     </a>
+     <a href="../ors/">
+      [HI]: Dehydration &amp; ORS
+     </a>
+     <a href="../choking/">
+      [HI]: Choking
+     </a>
+     <a href="../bleeding/">
+      [HI]: Severe Bleeding
+     </a>
+     <a href="../cpr/">
+      [HI]: CPR
+     </a>
+     <a href="../stroke/">
+      [HI]: Stroke
+     </a>
+     <a href="../burns/">
+      [HI]: Burns
+     </a>
+     <a href="../seizure/">
+      [HI]: Seizure
+     </a>
+     <a href="../allergy/">
+      [HI]: Severe Allergy
+     </a>
+     <a href="../triage/">
+      [HI]: Triage
+     </a>
+     <a href="../localize.html">
+      [HI]: Localize &amp; share
+     </a>
+    </nav>
+   </div>
+  </header>
+  <main id="main">
+   <header class="hero">
+    <h1>
+     [HI]: 🚨 Emergency Triage
+    </h1>
+    <p>
+     [HI]: Fast navigator for the first moments of an emergency. It is not a diagnosis: choose the closest match, call your local emergency number for life-threatening symptoms, and follow dispatcher/local guidance.
+    </p>
+   </header>
+   <section>
+    <div class="box warn">
+     <strong>
+      [HI]: If the scene is unsafe
+     </strong>
+     [HI]: — move yourself away from fire, traffic, violence, electrical hazards, chemicals, smoke, or other danger if you can. Call your local emergency number and follow dispatcher guidance before approaching.
+    </div>
+    <div class="box emergency">
+     <strong>
+      [HI]: If someone is unconscious and not breathing normally
+     </strong>
+     🚨[REVIEW_REQUIRED] [HI]: — gasping or not breathing at all — call your local emergency number, put the phone on speaker, send someone for an AED if available, and start CPR immediately.
+     <br/>
+     <br/>
+     <a class="btn" href="../cpr/">
+      [HI]: Open CPR guide →
+     </a>
+    </div>
+   </section>
+   <section>
+    <h2>
+     [HI]: What do you see?
+    </h2>
+    <div class="two">
+     <div class="box">
+      <h3>
+       [HI]: 😮 Can't breathe, speak, or cough
+      </h3>
+      <p>
+       [HI]: Person is clutching their throat, turning blue, or making high-pitched sounds.
+      </p>
+      <a class="btn alt" href="../choking/">
+       [HI]: Choking guide →
+      </a>
+     </div>
+     <div class="box emergency">
+      <h3>
+       [HI]: 🩸 Heavy bleeding
+      </h3>
+      <p>
+       [HI]: Blood is spurting, pooling, soaking through bandages, or the limb is severed.
+      </p>
+      <a class="btn" href="../bleeding/">
+       [HI]: Severe Bleeding guide →
+      </a>
+     </div>
+     <div class="box">
+      <h3>
+       [HI]: 🧠 Sudden face droop, arm weakness, slurred speech
+      </h3>
+      <p>
+       [HI]: Or sudden severe headache, confusion, trouble seeing, or loss of balance.
+      </p>
+      <a class="btn alt" href="../stroke/">
+       [HI]: Stroke guide →
+      </a>
+     </div>
+     <div class="box">
+      <h3>
+       [HI]: 💊 Cannot wake, slow or abnormal breathing after possible opioid use
+      </h3>
+      <p>
+       🚨[REVIEW_REQUIRED] [HI]: Possible opioid overdose. Call emergency services, give naloxone if available, and support breathing/follow dispatcher guidance.
+      </p>
+      <a class="btn alt" href="../naloxone/">
+       [HI]: Opioid Overdose guide →
+      </a>
+     </div>
+     <div class="box warn">
+      <h3>
+       [HI]: 🥵 Confusion, fainting, very hot skin
+      </h3>
+      <p>
+       [HI]: In hot weather or after exertion. Could be heat stroke.
+      </p>
+      <a class="btn alt" href="../heat/">
+       [HI]: Extreme Heat guide →
+      </a>
+     </div>
+     <div class="box warn">
+      <h3>
+       [HI]: 🌫️ Coughing, chest tightness, smoky air
+      </h3>
+      <p>
+       [HI]: During a wildfire or heavy air pollution. Vulnerable people at highest risk.
+      </p>
+      <a class="btn alt" href="../smoke/">
+       [HI]: Wildfire Smoke guide →
+      </a>
+     </div>
+     <div class="box ok">
+      <h3>
+       [HI]: 💧 Vomiting, diarrhea, very thirsty, dark urine
+      </h3>
+      <p>
+       [HI]: Signs of dehydration. Especially dangerous for children and older adults.
+      </p>
+      <a class="btn alt" href="../ors/">
+       [HI]: Dehydration &amp; ORS guide →
+      </a>
+     </div>
+     <div class="box emergency">
+      <h3>
+       [HI]: 🐝 Trouble breathing, swelling, or faintness after allergen exposure
+      </h3>
+      <p>
+       🚨[REVIEW_REQUIRED] [HI]: Possible anaphylaxis: call emergency services, use epinephrine if indicated by an action plan/product/local responder rules, and position safely.
+      </p>
+      <a class="btn" href="../allergy/">
+       [HI]: Severe Allergy guide →
+      </a>
+     </div>
+     <div class="box">
+      <h3>
+       [HI]: 🔥 Burn from fire, hot liquid, or chemical
+      </h3>
+      <p>
+       🚨[REVIEW_REQUIRED] [HI]: Cool under running water for 20 minutes if possible, cover loosely, and do not use ice or home remedies.
+      </p>
+      <a class="btn alt" href="../burns/">
+       [HI]: Burns guide →
+      </a>
+     </div>
+     <div class="box">
+      <h3>
+       [HI]: ⚡ Rigid jerking, loss of consciousness
+      </h3>
+      <p>
+       [HI]: Seizure. Protect the head, time it, do not restrain or put anything in the mouth.
+      </p>
+      <a class="btn alt" href="../seizure/">
+       [HI]: Seizure guide →
+      </a>
+     </div>
+    </div>
+   </section>
+   <section>
+    <div class="box">
+     <h3>
+      [HI]: General first steps for any emergency
+     </h3>
+     <ol class="steps">
+      <li>
+       <strong>
+        [HI]: Check safety.
+       </strong>
+       [HI]: If unsafe, move away and call for help before approaching.
+      </li>
+      <li>
+       <strong>
+        [HI]: Check responsiveness.
+       </strong>
+       [HI]: Tap their shoulder and shout. No response + not breathing normally → CPR.
+      </li>
+      <li>
+       <strong>
+        [HI]: Call for help.
+       </strong>
+       [HI]: Call your local emergency number. Put the phone on speaker so the dispatcher can guide you.
+      </li>
+      <li>
+       <strong>
+        [HI]: Use the guide above
+       </strong>
+       [HI]: that matches what you see, while following dispatcher/local guidance.
+      </li>
+     </ol>
+    </div>
+   </section>
+   <section class="disclaimer">
+    <p>
+     [HI]: This navigator is not a diagnosis and is not a substitute for first-aid training. When in doubt about a serious or rapidly worsening symptom, call your local emergency number. Verify guidance against your local health authority.
+    </p>
+    <p>
+     [HI]: Reuse and reprint freely.
+     <a href="../localize.html">
+      [HI]: Localize before sharing
+     </a>
+     .
+    </p>
+   </section>
+  </main>
+  <footer>
+   <p>
+    [HI]: A free, open Help Kit ·
+    <a href="https://github.com/ai-village-agents/help-kit">
+     [HI]: source on GitHub
+    </a>
+    [HI]: · Public domain (CC0) · Verify against your local health authority
+   </p>
+  </footer>
+  <script>
+   if("serviceWorker" in navigator){window.addEventListener("load",function(){navigator.serviceWorker.register("/help-kit/sw.js").catch(function(){});});}
+  </script>
+ </body>
+</html>

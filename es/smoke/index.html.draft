@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="es">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width,initial-scale=1" name="viewport"/>
+  <title>
+   [ES]: Wildfire Smoke: Breathe Safe, Help Others — Help Kit | Help Kit
+  </title>
+  <meta content="[ES]: A free, source-cited one-page guide to protecting yourself and others from wildfire smoke, building DIY clean-air filters, and knowing when air quality becomes dangerous." name="description"/>
+  <link href="https://ai-village-agents.github.io/help-kit/smoke/" rel="canonical"/>
+  <meta content="index,follow" name="robots"/>
+  <meta content="Help Kit" property="og:site_name"/>
+  <meta content="website" property="og:type"/>
+  <meta content="Wildfire Smoke: Breathe Safe, Help Others — Help Kit" property="og:title"/>
+  <meta content="A free, source-cited one-page guide to protecting yourself and others from wildfire smoke, building DIY clean-air filters, and knowing when air quality becomes dangerous." property="og:description"/>
+  <meta content="https://ai-village-agents.github.io/help-kit/smoke/" property="og:url"/>
+  <meta content="https://ai-village-agents.github.io/help-kit/og-image.png" property="og:image"/>
+  <meta content="summary_large_image" name="twitter:card"/>
+  <meta content="https://ai-village-agents.github.io/help-kit/og-image.png" name="twitter:image"/>
+  <meta content="Wildfire Smoke: Breathe Safe, Help Others — Help Kit" name="twitter:title"/>
+  <meta content="A free, source-cited one-page guide to protecting yourself and others from wildfire smoke, building DIY clean-air filters, and knowing when air quality becomes dangerous." name="twitter:description"/>
+  <meta content="#c0392b" name="theme-color"/>
+  <link href="../favicon.ico" rel="icon" sizes="any"/>
+  <link href="../style.css" rel="stylesheet"/>
+  <link href="/help-kit/manifest.webmanifest" rel="manifest"/>
+  <link href="/help-kit/icon-192.png" rel="apple-touch-icon"/>
+ </head>
+ <body>
+  <a class="skip-link" href="#main">
+   [ES]: Skip to main content
+  </a>
+  <header class="site">
+   <div class="wrap">
+    <a class="brand" href="../index.html">
+     Help Kit
+    </a>
+    <nav>
+     <a href="../heat/">
+      [ES]: Extreme Heat
+     </a>
+     <a href="../smoke/">
+      [ES]: Wildfire Smoke
+     </a>
+     <a href="../naloxone/">
+      [ES]: Opioid Overdose
+     </a>
+     <a href="../ors/">
+      [ES]: Dehydration &amp; ORS
+     </a>
+     <a href="../choking/">
+      [ES]: Choking
+     </a>
+     <a href="../bleeding/">
+      [ES]: Severe Bleeding
+     </a>
+     <a href="../cpr/">
+      [ES]: CPR
+     </a>
+     <a href="../stroke/">
+      [ES]: Stroke
+     </a>
+     <a href="../burns/">
+      [ES]: Burns
+     </a>
+     <a href="../seizure/">
+      [ES]: Seizure
+     </a>
+     <a href="../allergy/">
+      [ES]: Severe Allergy
+     </a>
+     <a href="../triage/">
+      [ES]: Triage
+     </a>
+     <a href="../localize.html">
+      [ES]: Localize &amp; share
+     </a>
+    </nav>
+   </div>
+  </header>
+  <section class="hero">
+   <div class="wrap">
+    <h1>
+     [ES]: Wildfire Smoke: breathe safe, help others
+    </h1>
+    <p>
+     [ES]: How to read air-quality alerts, protect your lungs, build a low-cost clean-air filter, and check on people most at risk. Free to read, print, and share.
+    </p>
+   </div>
+  </section>
+  <main id="main">
+   <div class="wrap">
+    <p class="lede">
+     [ES]: Wildfire smoke carries tiny particles. They can enter your lungs and bloodstream. Much smoke exposure can be reduced. The two things that matter most:
+     <strong>
+      [ES]: check air quality
+     </strong>
+     [ES]: and
+     <strong>
+      [ES]: reduce smoke exposure indoors and out.
+     </strong>
+    </p>
+    <div class="actions no-print">
+     <a class="btn" href="javascript:window.print()">
+      [ES]: Print this page
+     </a>
+     <a class="btn alt" href="smoke-onepager.pdf">
+      [ES]: Download printable PDF
+     </a>
+    </div>
+    <div class="box emergency">
+     <span class="tag">
+      Medical emergency
+     </span>
+     <h3>
+      [ES]: Smoke can trigger life-threatening reactions
+     </h3>
+     <p>
+      [ES]: Call your local emergency number
+      <strong>
+       [ES]: immediately
+      </strong>
+      [ES]: if someone has chest pain, severe shortness of breath, confusion, or blue lips or fingernails. People with asthma or COPD should follow their emergency action plan. Seek care if rescue inhalers do not help.
+     </p>
+    </div>
+    <h2>
+     [ES]: Air Quality Index — know the colors
+    </h2>
+    <p>
+     [ES]: The AQI tells you how dangerous the air is right now. Check an official local air-quality source when you can. In the U.S., use
+     <strong>
+      [ES]: AirNow.gov
+     </strong>
+     [ES]: . Elsewhere, use your national or regional environment agency, or a trusted local weather alert service.
+    </p>
+    <div class="two">
+     <div class="box ok">
+      <span class="tag ok">
+       0–50 Green
+      </span>
+      <h3>
+       [ES]: Good
+      </h3>
+      <p>
+       [ES]: Air quality is fine. Normal activities are safe for most people.
+      </p>
+     </div>
+     <div class="box warn">
+      <span class="tag warn">
+       51–100 Yellow
+      </span>
+      <h3>
+       [ES]: Moderate
+      </h3>
+      <p>
+       [ES]: People unusually sensitive to smoke should consider reducing long outdoor exertion. This includes children, older adults, and people with asthma, COPD, or heart disease.
+      </p>
+     </div>
+     <div class="box warn">
+      <span class="tag warn">
+       101–150 Orange
+      </span>
+      <h3>
+       [ES]: Unhealthy for sensitive groups
+      </h3>
+      <p>
+       [ES]: Sensitive groups should avoid long or heavy outdoor exertion. Everyone else should consider reducing it, especially if symptoms appear.
+      </p>
+     </div>
+     <div class="box emergency">
+      <span class="tag">
+       151–200 Red
+      </span>
+      <h3>
+       [ES]: Unhealthy
+      </h3>
+      <p>
+       [ES]: Everyone should avoid prolonged exertion outdoors. Sensitive groups should stay inside.
+      </p>
+     </div>
+     <div class="box emergency">
+      <span class="tag">
+       201–300 Purple
+      </span>
+      <h3>
+       [ES]: Very unhealthy
+      </h3>
+      <p>
+       [ES]: Everyone should reduce activity. Stay indoors in cleaner air if possible. Keep windows closed unless indoor heat creates a bigger immediate danger.
+      </p>
+     </div>
+     <div class="box emergency">
+      <span class="tag">
+       301+ Maroon
+      </span>
+      <h3>
+       [ES]: Hazardous
+      </h3>
+      <p>
+       🚨[REVIEW_REQUIRED] [ES]: Emergency conditions. Avoid outdoor exertion. If you must go out and can wear one safely, use a well-fitting N95, KN95, or P100 respirator.
+      </p>
+     </div>
+    </div>
+    <h2>
+     [ES]: Who is most at risk?
+    </h2>
+    <ul>
+     <li>
+      [ES]: Children and teenagers (lungs still developing)
+     </li>
+     <li>
+      🚨[REVIEW_REQUIRED] [ES]: Adults 65 and older
+     </li>
+     <li>
+      [ES]: Pregnant people
+     </li>
+     <li>
+      [ES]: People with asthma, COPD, or other lung diseases
+     </li>
+     <li>
+      [ES]: People with heart disease or diabetes
+     </li>
+     <li>
+      [ES]: Outdoor workers
+     </li>
+     <li>
+      [ES]: People experiencing homelessness or without reliable shelter
+     </li>
+    </ul>
+    <h2>
+     [ES]: Protect yourself and others
+    </h2>
+    <ol class="steps">
+     <li>
+      <strong>
+       [ES]: Check the AQI every morning
+      </strong>
+      [ES]: during wildfire season. Set alerts on AirNow or your weather app.
+     </li>
+     <li>
+      <strong>
+       [ES]: Stay indoors in cleaner air
+      </strong>
+      [ES]: when smoke is unhealthy. Keep windows and doors closed unless indoor heat or another hazard makes that unsafe.
+     </li>
+     <li>
+      <strong>
+       [ES]: Create a clean-air room.
+      </strong>
+      [ES]: Choose an inside room with few windows. Run an air purifier continuously. Avoid candles, frying, vacuuming, or gas stoves without ventilation.
+     </li>
+     <li>
+      <strong>
+       🚨[REVIEW_REQUIRED] [ES]: Wear a well-fitting N95, KN95, or P100 respirator
+      </strong>
+      🚨[REVIEW_REQUIRED] [ES]: if you must go outside in unhealthy smoke and can wear one safely. Cloth masks do not reliably block PM2.5. Respirators may not fit infants or young children. They may also be hard for some people with breathing conditions.
+     </li>
+     <li>
+      <strong>
+       [ES]: Consider a Corsi-Rosenthal box.
+      </strong>
+      [ES]: This DIY air cleaner uses a box fan and MERV-13 or better filters. It can reduce indoor particle levels when built and used correctly. Follow current build and electrical-safety guidance. Use newer, safety-certified fans where possible. Do not block exits or create trip hazards.
+     </li>
+     <li>
+      <strong>
+       [ES]: Check on neighbors at higher risk daily.
+      </strong>
+      [ES]: Offer masks, a ride to a clean-air shelter, or help running a filter.
+     </li>
+     <li>
+      <strong>
+       [ES]: Reduce or cancel outdoor events
+      </strong>
+      🚨[REVIEW_REQUIRED] [ES]: when AQI is over 150.
+     </li>
+    </ol>
+    <h2>
+     [ES]: For community organizers
+    </h2>
+    <div class="box ok">
+     <span class="tag ok">
+      Action checklist
+     </span>
+     <ul>
+      <li>
+       [ES]: Identify or coordinate
+       <strong>
+        [ES]: clean-air spaces
+       </strong>
+       🚨[REVIEW_REQUIRED] [ES]: . Use HEPA filtration, safe DIY air cleaners, or other verified filtration.
+      </li>
+      <li>
+       <strong>
+        [ES]: Distribute well-fitting respirators
+       </strong>
+       [ES]: to outdoor workers and unhoused neighbors. Share fit and use caveats. Follow local worker-safety guidance.
+      </li>
+      <li>
+       [ES]: Share AQI alerts via text, social media, and local networks.
+      </li>
+      <li>
+       🚨[REVIEW_REQUIRED] [ES]: Reschedule outdoor community events when AQI &gt; 150.
+      </li>
+      <li>
+       [ES]: Partner with local libraries, community centers, and faith groups. Work together to extend shelter hours.
+      </li>
+     </ul>
+    </div>
+    <h2>
+     [ES]: When to seek medical help
+    </h2>
+    <ul>
+     <li>
+      [ES]: Difficulty breathing or shortness of breath
+     </li>
+     <li>
+      [ES]: Persistent cough, especially with phlegm or blood
+     </li>
+     <li>
+      [ES]: Chest pain or tightness
+     </li>
+     <li>
+      [ES]: Wheezing that does not improve with medication
+     </li>
+     <li>
+      [ES]: Dizziness or confusion
+     </li>
+     <li>
+      [ES]: Palpitations or irregular heartbeat
+     </li>
+    </ul>
+    <h2>
+     [ES]: Key resources
+    </h2>
+    <ul>
+     <li>
+      <strong>
+       [ES]: AirNow.gov
+      </strong>
+      [ES]: — Real-time AQI and fire maps (U.S.)
+     </li>
+     <li>
+      <strong>
+       [ES]: Fire and Smoke Map
+      </strong>
+      —
+      <a href="https://fire.airnow.gov/">
+       [ES]: fire.airnow.gov
+      </a>
+     </li>
+     <li>
+      <strong>
+       🚨[REVIEW_REQUIRED] [ES]: EPA Wildfire Smoke Guide
+      </strong>
+      —
+      <a href="https://www.epa.gov/wildfire-smoke-course">
+       [ES]: epa.gov/pm-pollution/wildfire-smoke-guide-factsheets
+      </a>
+     </li>
+     <li>
+      <strong>
+       [ES]: Corsi-Rosenthal Box build guides
+      </strong>
+      —
+      <a href="https://cleanaircrew.org/">
+       [ES]: cleanaircrew.org
+      </a>
+     </li>
+     <li>
+      <strong>
+       [ES]: Emergency
+      </strong>
+      🚨[REVIEW_REQUIRED] [ES]: — 911 (U.S./Canada), 112 (Europe), 999 (UK)
+     </li>
+    </ul>
+    <div class="disclaimer">
+     <p>
+      <strong>
+       [ES]: Sources include:
+      </strong>
+     </p>
+     <ul class="sources">
+      <li>
+       <a href="https://www.airnow.gov/wildfires/">
+        [ES]: AirNow — wildfire smoke and air quality information
+       </a>
+       .
+      </li>
+      <li>
+       <a href="https://www.epa.gov/wildfire-smoke-course">
+        🚨[REVIEW_REQUIRED] [ES]: U.S. Environmental Protection Agency (EPA) — wildfire smoke and health guidance
+       </a>
+       .
+      </li>
+      <li>
+       <a href="https://www.cdc.gov/wildfires/about/index.html">
+        🚨[REVIEW_REQUIRED] [ES]: U.S. Centers for Disease Control and Prevention (CDC) — wildfire smoke and health
+       </a>
+       .
+      </li>
+      <li>
+       <a href="https://www.weather.gov/safety/wildfire">
+        [ES]: U.S. National Weather Service — wildfire safety
+       </a>
+       .
+      </li>
+      <li>
+       [ES]: Published research and public guidance on DIY air filtration. Verify device-building instructions against current safety guidance before use.
+      </li>
+     </ul>
+     <p>
+      [ES]: This guide is for educational purposes and does not replace professional medical advice. In an emergency, call your local emergency number.
+     </p>
+    </div>
+   </div>
+  </main>
+  <footer class="site">
+   <div class="wrap">
+    [ES]: Made by AI Village agents to reduce harm.
+    <a href="https://github.com/ai-village-agents/help-kit">
+     [ES]: Edit on GitHub
+    </a>
+    .
+   </div>
+  </footer>
+  <script>
+   if("serviceWorker" in navigator){window.addEventListener("load",function(){navigator.serviceWorker.register("/help-kit/sw.js").catch(function(){});});}
+  </script>
+ </body>
+</html>

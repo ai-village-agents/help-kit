@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="hi">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width,initial-scale=1" name="viewport"/>
+  <title>
+   [HI]: Help Kit — Free, source-cited guides for moments that matter | Help Kit
+  </title>
+  <meta content="[HI]: Free, source-cited, print-friendly guides to recognizing and responding to acute emergencies and hazards: extreme heat, wildfire smoke, opioid overdose, dehydration, choking, severe bleeding, CPR, stroke, burns, seizure first aid, severe allergy/anaphylaxis, and a quick emergency navigator. Public domain (CC0)." name="description"/>
+  <link href="https://ai-village-agents.github.io/help-kit/" rel="canonical"/>
+  <meta content="index,follow" name="robots"/>
+  <meta content="Help Kit" property="og:site_name"/>
+  <meta content="website" property="og:type"/>
+  <meta content="Help Kit — Free, source-cited guides for moments that matter" property="og:title"/>
+  <meta content="Free, source-cited, print-friendly guides to recognizing and responding to acute emergencies and hazards: extreme heat, wildfire smoke, opioid overdose, dehydration, choking, severe bleeding, CPR, stroke, burns, seizure first aid, severe allergy/anaphylaxis, and a quick emergency navigator. Public domain (CC0)." property="og:description"/>
+  <meta content="https://ai-village-agents.github.io/help-kit/" property="og:url"/>
+  <meta content="https://ai-village-agents.github.io/help-kit/og-image.png" property="og:image"/>
+  <meta content="summary_large_image" name="twitter:card"/>
+  <meta content="https://ai-village-agents.github.io/help-kit/og-image.png" name="twitter:image"/>
+  <meta content="Help Kit — Free, source-cited guides for moments that matter" name="twitter:title"/>
+  <meta content="Free, source-cited, print-friendly guides to recognizing and responding to acute emergencies and hazards: extreme heat, wildfire smoke, opioid overdose, dehydration, choking, severe bleeding, CPR, stroke, burns, seizure first aid, severe allergy/anaphylaxis, and a quick emergency navigator. Public domain (CC0)." name="twitter:description"/>
+  <meta content="#c0392b" name="theme-color"/>
+  <link href="favicon.ico" rel="icon" sizes="any"/>
+  <link href="style.css" rel="stylesheet"/>
+  <style>
+   .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px;margin:22px 0}
+@media(max-width:820px){.cards{grid-template-columns:1fr}}
+.card{display:block;text-decoration:none;color:inherit;border:1px solid var(--line);border-radius:12px;padding:20px;background:#fff;transition:box-shadow .15s,transform .15s}
+.card:hover{box-shadow:0 6px 22px rgba(0,0,0,.10);transform:translateY(-2px)}
+.card h3{margin:.1em 0 .3em;font-size:1.25rem}
+.card p{margin:.2em 0 0;color:var(--muted);font-size:.98rem}
+.card .go{display:inline-block;margin-top:12px;font-weight:700;color:var(--accent)}
+.intro{font-size:1.12rem;max-width:54ch}
+  </style>
+  <link href="/help-kit/manifest.webmanifest" rel="manifest"/>
+  <link href="/help-kit/icon-192.png" rel="apple-touch-icon"/>
+ </head>
+ <body>
+  <a class="skip-link" href="#main">
+   [HI]: Skip to main content
+  </a>
+  <header class="site">
+   <div class="wrap">
+    <a class="brand" href="index.html">
+     Help Kit
+    </a>
+    <nav>
+     <a href="heat/">
+      [HI]: Extreme Heat
+     </a>
+     <a href="smoke/">
+      [HI]: Wildfire Smoke
+     </a>
+     <a href="naloxone/">
+      [HI]: Opioid Overdose
+     </a>
+     <a href="ors/">
+      [HI]: Dehydration &amp; ORS
+     </a>
+     <a href="choking/">
+      [HI]: Choking
+     </a>
+     <a href="bleeding/">
+      [HI]: Severe Bleeding
+     </a>
+     <a href="cpr/">
+      [HI]: CPR
+     </a>
+     <a href="stroke/">
+      [HI]: Stroke
+     </a>
+     <a href="burns/">
+      [HI]: Burns
+     </a>
+     <a href="seizure/">
+      [HI]: Seizure
+     </a>
+     <a href="allergy/">
+      [HI]: Severe Allergy
+     </a>
+     <a href="triage/">
+      [HI]: Triage
+     </a>
+     <a href="localize.html">
+      [HI]: Localize &amp; share
+     </a>
+    </nav>
+   </div>
+  </header>
+  <section class="hero">
+   <div class="wrap">
+    <h1>
+     [HI]: Help Kit
+    </h1>
+    <p>
+     [HI]: Free, clear, source-cited guides for moments that matter — so anyone can recognize an emergency and act in time.
+    </p>
+   </div>
+  </section>
+  <main id="main">
+   <div class="wrap">
+    <p class="intro">
+     [HI]: Many acute emergencies can be spotted earlier or made less harmful. These short guides distill guidance from public health authorities and trusted medical/public-safety sources into plain language anyone can use, print, and share. No sign-up, no tracking, public domain.
+    </p>
+    <div class="actions no-print">
+     <a class="btn" href="help-kit-print-pack.pdf">
+      [HI]: Download all printable one-pagers (PDF)
+     </a>
+     <a class="btn alt" href="localize.html">
+      [HI]: Localize before sharing
+     </a>
+    </div>
+    <div class="cards">
+     <a class="card" href="heat/">
+      <h3>
+       [HI]: 🥵 Extreme Heat
+      </h3>
+      <p>
+       [HI]: Spot heat exhaustion and heat stroke, cool someone down fast, and protect neighbors at high risk during a heat wave.
+      </p>
+      <span class="go">
+       [HI]: Open the heat guide →
+      </span>
+     </a>
+     <a class="card" href="smoke/">
+      <h3>
+       [HI]: 🌫️ Wildfire Smoke
+      </h3>
+      <p>
+       [HI]: Read air-quality alerts, cut your smoke exposure, build a low-cost clean-air filter, and protect people most at risk.
+      </p>
+      <span class="go">
+       [HI]: Open the smoke guide →
+      </span>
+     </a>
+     <a class="card" href="naloxone/">
+      <h3>
+       [HI]: 💊 Opioid Overdose
+      </h3>
+      <p>
+       🚨[REVIEW_REQUIRED] [HI]: Recognize a possible overdose and respond step by step with naloxone (Narcan), an emergency medicine that may reverse opioid overdose while help is coming.
+      </p>
+      <span class="go">
+       [HI]: Open the overdose guide →
+      </span>
+     </a>
+     <a class="card" href="ors/">
+      <h3>
+       [HI]: 💧 Dehydration &amp; ORS
+      </h3>
+      <p>
+       [HI]: Use oral rehydration solution safely, spot dehydration danger signs, and know when to seek urgent care.
+      </p>
+      <span class="go">
+       [HI]: Open the ORS guide →
+      </span>
+     </a>
+     <a class="card" href="choking/">
+      <h3>
+       [HI]: 🫁 Choking
+      </h3>
+      <p>
+       [HI]: Help a choking adult, child, or baby with back blows and thrusts — and know what to do if they go unconscious.
+      </p>
+      <span class="go">
+       [HI]: Open the choking guide →
+      </span>
+     </a>
+     <a class="card" href="bleeding/">
+      <h3>
+       [HI]: 🩸 Severe Bleeding
+      </h3>
+      <p>
+       [HI]: Slow or stop life-threatening bleeding with firm pressure, wound packing, and tourniquet basics — and know when to use each.
+      </p>
+      <span class="go">
+       [HI]: Open the bleeding guide →
+      </span>
+     </a>
+     <a class="card" href="cpr/">
+      <h3>
+       [HI]: ❤️ Hands-Only CPR
+      </h3>
+      <p>
+       🚨[REVIEW_REQUIRED] [HI]: If someone collapses and isn't breathing normally: call for help, push hard and fast on the centre of the chest, and use an AED.
+      </p>
+      <span class="go">
+       [HI]: Open the CPR guide →
+      </span>
+     </a>
+     <a class="card" href="stroke/">
+      <h3>
+       [HI]: 🧠 Stroke (FAST)
+      </h3>
+      <p>
+       [HI]: Spot possible stroke signs fast — Face drooping, Arm weakness, Speech trouble, Time to call — and get urgent help immediately.
+      </p>
+      <span class="go">
+       [HI]: Open the stroke guide →
+      </span>
+     </a>
+     <a class="card" href="burns/">
+      <h3>
+       [HI]: 🔥 Burns &amp; Scalds
+      </h3>
+      <p>
+       🚨[REVIEW_REQUIRED] [HI]: Cool a burn with running water for 20 minutes, never use ice or butter, cover it loosely, and know when a burn needs medical help.
+      </p>
+      <span class="go">
+       [HI]: Open the burns guide →
+      </span>
+     </a>
+     <a class="card" href="seizure/">
+      <h3>
+       [HI]: 🧠 Seizure First Aid
+      </h3>
+      <p>
+       [HI]: Keep the person safe, time the seizure, never restrain them or put anything in their mouth, roll them onto their side after, and know when to call.
+      </p>
+      <span class="go">
+       [HI]: Open the seizure guide →
+      </span>
+     </a>
+     <a class="card" href="allergy/">
+      <h3>
+       [HI]: ⚠️ Severe Allergy
+      </h3>
+      <p>
+       🚨[REVIEW_REQUIRED] [HI]: Recognize anaphylaxis, call emergency services, use epinephrine when indicated, position safely, and watch breathing.
+      </p>
+      <span class="go">
+       [HI]: Open the allergy guide →
+      </span>
+     </a>
+     <a class="card" href="triage/">
+      <h3>
+       [HI]: 🚦 Emergency Triage
+      </h3>
+      <p>
+       [HI]: Quick decision guide for the first minutes of an emergency.
+      </p>
+      <span class="go">
+       [HI]: Open the triage guide →
+      </span>
+     </a>
+    </div>
+    <div class="box ok">
+     <span class="tag ok">
+      Offline tip
+     </span>
+     <p>
+      [HI]: Before a storm, heat wave, wildfire, or other outage, open this site once on each phone while online. In modern browsers, the pages and PDFs are saved for offline use after that first visit. Also download or print the
+      <a href="help-kit-print-pack.pdf">
+       [HI]: combined PDF pack
+      </a>
+      [HI]: for a backup.
+     </p>
+    </div>
+    <h2>
+     [HI]: How to use these
+    </h2>
+    <ul>
+     <li>
+      <strong>
+       [HI]: Localize before distributing
+      </strong>
+      [HI]: — use the
+      <a href="localize.html">
+       [HI]: localization checklist and share copy
+      </a>
+      [HI]: to verify emergency numbers, access details, and official local resources.
+     </li>
+     <li>
+      <strong>
+       [HI]: Read on any phone
+      </strong>
+      [HI]: — pages are mobile-friendly and load quickly.
+     </li>
+     <li>
+      <strong>
+       [HI]: Save for offline use
+      </strong>
+      [HI]: — open the site once while online so a modern browser can cache the pages and PDFs; test before relying on it during an outage.
+     </li>
+     <li>
+      <strong>
+       [HI]: Print a handout
+      </strong>
+      [HI]: — each guide has a clean print layout and a downloadable PDF; the
+      <a href="help-kit-print-pack.pdf">
+       [HI]: combined print pack
+      </a>
+      [HI]: includes all current one-pagers for paper backup.
+     </li>
+     <li>
+      <strong>
+       [HI]: Share freely
+      </strong>
+      [HI]: — everything here is public domain (CC0). Copy it, translate it, reprint it, no permission needed.
+     </li>
+    </ul>
+    <h2>
+     [HI]: For community organizers &amp; mutual-aid groups
+    </h2>
+    <p>
+     [HI]: These pages are built to be reused. The full source is on
+     <a href="https://github.com/ai-village-agents/help-kit">
+      [HI]: GitHub
+     </a>
+     [HI]: — fork it, adapt the wording for your region's emergency numbers and local resources, and host your own copy.
+    </p>
+    <p class="disclaimer">
+     [HI]: These guides are general information, not medical advice, and are not a substitute for professional emergency care or training. In an emergency, always call your local emergency number, and verify against your local health authority. Created as an open public-good project.
+    </p>
+   </div>
+  </main>
+  <footer class="site">
+   <div class="wrap">
+    [HI]: A free, open Help Kit ·
+    <a href="https://github.com/ai-village-agents/help-kit">
+     [HI]: source on GitHub
+    </a>
+    [HI]: · Public domain (CC0 1.0)
+   </div>
+  </footer>
+  <script>
+   if("serviceWorker" in navigator){window.addEventListener("load",function(){navigator.serviceWorker.register("/help-kit/sw.js").catch(function(){});});}
+  </script>
+ </body>
+</html>

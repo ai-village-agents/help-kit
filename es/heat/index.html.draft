@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="es">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width,initial-scale=1" name="viewport"/>
+  <title>
+   [ES]: Extreme Heat: Spot It, Cool It, Save a Life — Help Kit | Help Kit
+  </title>
+  <meta content="[ES]: A free, source-cited one-page guide to recognizing and responding to heat exhaustion and heat stroke, and protecting people at high risk during extreme heat." name="description"/>
+  <link href="https://ai-village-agents.github.io/help-kit/heat/" rel="canonical"/>
+  <meta content="index,follow" name="robots"/>
+  <meta content="Help Kit" property="og:site_name"/>
+  <meta content="website" property="og:type"/>
+  <meta content="Extreme Heat: Spot It, Cool It, Save a Life — Help Kit" property="og:title"/>
+  <meta content="A free, source-cited one-page guide to recognizing and responding to heat exhaustion and heat stroke, and protecting people at high risk during extreme heat." property="og:description"/>
+  <meta content="https://ai-village-agents.github.io/help-kit/heat/" property="og:url"/>
+  <meta content="https://ai-village-agents.github.io/help-kit/og-image.png" property="og:image"/>
+  <meta content="summary_large_image" name="twitter:card"/>
+  <meta content="https://ai-village-agents.github.io/help-kit/og-image.png" name="twitter:image"/>
+  <meta content="Extreme Heat: Spot It, Cool It, Save a Life — Help Kit" name="twitter:title"/>
+  <meta content="A free, source-cited one-page guide to recognizing and responding to heat exhaustion and heat stroke, and protecting people at high risk during extreme heat." name="twitter:description"/>
+  <meta content="#c0392b" name="theme-color"/>
+  <link href="../favicon.ico" rel="icon" sizes="any"/>
+  <link href="../style.css" rel="stylesheet"/>
+  <link href="/help-kit/manifest.webmanifest" rel="manifest"/>
+  <link href="/help-kit/icon-192.png" rel="apple-touch-icon"/>
+ </head>
+ <body>
+  <a class="skip-link" href="#main">
+   [ES]: Skip to main content
+  </a>
+  <header class="site">
+   <div class="wrap">
+    <a class="brand" href="../index.html">
+     Help Kit
+    </a>
+    <nav>
+     <a href="../heat/">
+      [ES]: Extreme Heat
+     </a>
+     <a href="../smoke/">
+      [ES]: Wildfire Smoke
+     </a>
+     <a href="../naloxone/">
+      [ES]: Opioid Overdose
+     </a>
+     <a href="../ors/">
+      [ES]: Dehydration &amp; ORS
+     </a>
+     <a href="../choking/">
+      [ES]: Choking
+     </a>
+     <a href="../bleeding/">
+      [ES]: Severe Bleeding
+     </a>
+     <a href="../cpr/">
+      [ES]: CPR
+     </a>
+     <a href="../stroke/">
+      [ES]: Stroke
+     </a>
+     <a href="../burns/">
+      [ES]: Burns
+     </a>
+     <a href="../seizure/">
+      [ES]: Seizure
+     </a>
+     <a href="../allergy/">
+      [ES]: Severe Allergy
+     </a>
+     <a href="../triage/">
+      [ES]: Triage
+     </a>
+     <a href="../localize.html">
+      [ES]: Localize &amp; share
+     </a>
+    </nav>
+   </div>
+  </header>
+  <section class="hero">
+   <div class="wrap">
+    <h1>
+     [ES]: Extreme Heat: spot it, cool it, save a life
+    </h1>
+    <p>
+     [ES]: How to recognize heat illness, act fast in an emergency, and protect the people most at risk. Free to read, print, and share.
+    </p>
+   </div>
+  </section>
+  <main id="main">
+   <div class="wrap">
+    <p class="lede">
+     [ES]: Extreme heat is the deadliest type of weather in many countries. But most heat deaths can be prevented. Two things matter most:
+     <strong>
+      [ES]: cool the body down fast
+     </strong>
+     [ES]: , and
+     <strong>
+      [ES]: check on people at high risk before they get into trouble.
+     </strong>
+    </p>
+    <div class="actions no-print">
+     <a class="btn" href="javascript:window.print()">
+      [ES]: Print this page
+     </a>
+     <a class="btn alt" href="heat-onepager.pdf">
+      [ES]: Download printable PDF
+     </a>
+    </div>
+    <div class="box emergency">
+     <span class="tag">
+      Call emergency services now
+     </span>
+     <h3>
+      [ES]: Heat stroke is a life-threatening emergency
+     </h3>
+     <p>
+      🚨[REVIEW_REQUIRED] [ES]: Call your local emergency number right away — 911 in the US/Canada, 112 in much of Europe, 999 in the UK. Do this if a person is very hot and shows
+      <strong>
+       [ES]: confusion, slurred speech, fainting, seizures, or loss of consciousness.
+      </strong>
+      [ES]: Start cooling them right away while you wait (see below). Do not wait to see if they improve.
+     </p>
+    </div>
+    <h2>
+     [ES]: Know the two stages
+    </h2>
+    <div class="two">
+     <div class="box warn">
+      <span class="tag warn">
+       Heat exhaustion — act now
+      </span>
+      <h3>
+       [ES]: What you may see
+      </h3>
+      <ul>
+       <li>
+        [ES]: Heavy sweating
+       </li>
+       <li>
+        [ES]: Cool, pale, clammy skin
+       </li>
+       <li>
+        [ES]: Fast, weak pulse
+       </li>
+       <li>
+        [ES]: Nausea, vomiting
+       </li>
+       <li>
+        [ES]: Muscle cramps
+       </li>
+       <li>
+        [ES]: Tiredness, weakness, dizziness, headache
+       </li>
+       <li>
+        [ES]: Fainting
+       </li>
+      </ul>
+      <h3>
+       [ES]: What to do
+      </h3>
+      <ul>
+       <li>
+        [ES]: Move to a cool place (shade or air conditioning)
+       </li>
+       <li>
+        [ES]: Loosen clothing
+       </li>
+       <li>
+        [ES]: Sip cool water
+       </li>
+       <li>
+        [ES]: Apply cool, wet cloths or take a cool bath
+       </li>
+      </ul>
+      <p>
+       <strong>
+        [ES]: Get medical help
+       </strong>
+       [ES]: if the person is vomiting, symptoms get worse, or symptoms last longer than 1 hour.
+      </p>
+     </div>
+     <div class="box emergency">
+      <span class="tag">
+       Heat stroke — emergency
+      </span>
+      <h3>
+       [ES]: What you may see
+      </h3>
+      <ul>
+       <li>
+        🚨[REVIEW_REQUIRED] [ES]: Body temperature of 103°F (39.4°C) or higher
+       </li>
+       <li>
+        [ES]: Hot, red skin that is dry
+        <em>
+         [ES]: or
+        </em>
+        [ES]: damp
+       </li>
+       <li>
+        [ES]: Fast, strong pulse
+       </li>
+       <li>
+        [ES]: Confusion, slurred speech
+       </li>
+       <li>
+        [ES]: Throbbing headache, dizziness
+       </li>
+       <li>
+        [ES]: Losing consciousness
+       </li>
+      </ul>
+      <h3>
+       [ES]: What to do
+      </h3>
+      <ul>
+       <li>
+        <strong>
+         [ES]: Call emergency services immediately
+        </strong>
+       </li>
+       <li>
+        [ES]: Move the person somewhere cool
+       </li>
+       <li>
+        [ES]: Lower their temperature with cool cloths or a cool bath
+       </li>
+       <li>
+        <strong>
+         [ES]: Do not give them anything to drink
+        </strong>
+        [ES]: if they are confused or unconscious
+       </li>
+      </ul>
+     </div>
+    </div>
+    <h2>
+     [ES]: Who is most at risk
+    </h2>
+    <p>
+     [ES]: Heat does not affect everyone equally. Check on these people often during a heat wave:
+    </p>
+    <ul>
+     <li>
+      🚨[REVIEW_REQUIRED] [ES]: Adults aged 65 and older
+     </li>
+     <li>
+      [ES]: Babies and young children
+     </li>
+     <li>
+      [ES]: People with chronic conditions such as heart disease, high blood pressure, diabetes, kidney disease, or mental illness
+     </li>
+     <li>
+      [ES]: People taking certain medications (some affect the body's ability to stay cool — ask a pharmacist if unsure)
+     </li>
+     <li>
+      [ES]: Outdoor workers and athletes
+     </li>
+     <li>
+      [ES]: People who live alone or without air conditioning
+     </li>
+     <li>
+      [ES]: People who are pregnant
+     </li>
+    </ul>
+    <div class="box ok">
+     <span class="tag ok">
+      Prevention
+     </span>
+     <h3>
+      [ES]: Stay ahead of the heat
+     </h3>
+     <ul>
+      <li>
+       <strong>
+        [ES]: Drink water
+       </strong>
+       [ES]: regularly — don't wait until you feel thirsty. (If a doctor limits your fluids, ask them how much to drink in heat.)
+      </li>
+      <li>
+       <strong>
+        [ES]: Stay cool
+       </strong>
+       [ES]: — spend time in air conditioning. If your home is hot, go to a public cooling center, library, or shopping mall.
+      </li>
+      <li>
+       <strong>
+        [ES]: Avoid the hottest hours
+       </strong>
+       [ES]: — limit strenuous activity to early morning or evening.
+      </li>
+      <li>
+       <strong>
+        [ES]: Dress light
+       </strong>
+       [ES]: — wear lightweight, loose, light-colored clothing.
+      </li>
+      <li>
+       <strong>
+        [ES]: Take it easy
+       </strong>
+       [ES]: — rest often in the shade and pace outdoor work.
+      </li>
+     </ul>
+    </div>
+    <div class="box emergency">
+     <span class="tag">
+      Never leave anyone in a parked car
+     </span>
+     <p>
+      🚨[REVIEW_REQUIRED] [ES]: A parked car heats up fast. The temperature inside can rise about 20°F (11°C) in just 10 minutes — even with a window cracked.
+      <strong>
+       [ES]: Never leave children, older adults, or pets in a parked car
+      </strong>
+      [ES]: — not even for a minute.
+     </p>
+    </div>
+    <div class="box ok">
+     <span class="tag ok">
+      Buddy-check tools
+     </span>
+     <h3>
+      [ES]: Turn this guide into a check-in network
+     </h3>
+     <ul>
+      <li>
+       <a href="cooling-guide.html">
+        <strong>
+         [ES]: Read the Evidence-Based Cooling Guide
+        </strong>
+       </a>
+       [ES]: for practical cooling steps, fan caveats, hydration, and home heat workarounds.
+      </li>
+      <li>
+       <a href="flyer.html">
+        <strong>
+         [ES]: Print and share the Heat Safety Flyer
+        </strong>
+       </a>
+       [ES]: — a high-contrast, easy-to-read one-page community guide with local fill-in fields.
+      </li>
+      <li>
+       <a href="buddy-check.html">
+        [ES]: Print a heat buddy-check sheet
+       </a>
+       [ES]: for neighbors, relatives, tenants, coworkers, or community members.
+      </li>
+      <li>
+       <a href="organizer-60-minute-setup.html">
+        🚨[REVIEW_REQUIRED] [ES]: Use the 60-minute setup plan
+       </a>
+       [ES]: to assign buddies, gather local resources, and follow up.
+      </li>
+      <li>
+       <a href="scripts.html">
+        [ES]: Copy SMS and phone scripts
+       </a>
+       [ES]: for friendly, privacy-preserving check-ins.
+      </li>
+     </ul>
+    </div>
+    <h2>
+     [ES]: Be a good neighbor
+    </h2>
+    <p>
+     [ES]: Most people who die in heat waves are found alone. A simple check-in can save lives:
+    </p>
+    <ul>
+     <li>
+      🚨[REVIEW_REQUIRED] [ES]: Pick 2–3 at-risk neighbors, friends, or relatives and agree to check on each other during heat warnings.
+     </li>
+     <li>
+      [ES]: Call or visit in person twice a day during extreme heat.
+     </li>
+     <li>
+      [ES]: Make sure they have water, a way to stay cool, and a working phone.
+     </li>
+     <li>
+      [ES]: Know the route to the nearest cooling center and offer to go together.
+     </li>
+    </ul>
+    <h2>
+     [ES]: Sources
+    </h2>
+    <ul class="sources">
+     <li>
+      <a href="https://www.cdc.gov/heat-health/">
+       🚨[REVIEW_REQUIRED] [ES]: U.S. Centers for Disease Control and Prevention (CDC) —
+       <em>
+        [ES]: Heat &amp; Health
+       </em>
+      </a>
+      [ES]: and warning signs of heat-related illness.
+     </li>
+     <li>
+      <a href="https://www.weather.gov/safety/heat">
+       [ES]: U.S. National Weather Service (NWS) —
+       <em>
+        [ES]: Heat Safety Tips and Resources
+       </em>
+      </a>
+      .
+     </li>
+     <li>
+      <a href="https://www.who.int/news-room/fact-sheets/detail/climate-change-heat-and-health">
+       🚨[REVIEW_REQUIRED] [ES]: World Health Organization (WHO) —
+       <em>
+        [ES]: Heat and health
+       </em>
+       [ES]: fact sheet
+      </a>
+      .
+     </li>
+     <li>
+      <a href="https://www.ready.gov/heat">
+       [ES]: Ready.gov (U.S. Dept. of Homeland Security) —
+       <em>
+        [ES]: Extreme Heat
+       </em>
+      </a>
+      .
+     </li>
+    </ul>
+    <p class="sources">
+     🚨[REVIEW_REQUIRED] [ES]: Guidance summarized from the public-health sources above. Temperature and symptom thresholds follow CDC/NWS guidance; emergency-number examples are general.
+    </p>
+    <p class="disclaimer">
+     [ES]: This guide is general information, not medical advice, and is not a substitute for professional emergency care or training. In an emergency, always call your local emergency number. When symptoms are severe or you are unsure, treat it as an emergency. Reuse and reprint freely.
+    </p>
+   </div>
+  </main>
+  <footer class="site">
+   <div class="wrap">
+    [ES]: A free, open Help Kit ·
+    <a href="https://github.com/ai-village-agents/help-kit">
+     [ES]: source on GitHub
+    </a>
+    [ES]: · Public domain (CC0) · Verify against your local health authority
+   </div>
+  </footer>
+  <script>
+   if("serviceWorker" in navigator){window.addEventListener("load",function(){navigator.serviceWorker.register("/help-kit/sw.js").catch(function(){});});}
+  </script>
+ </body>
+</html>

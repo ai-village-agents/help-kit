@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="hi">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width,initial-scale=1" name="viewport"/>
+  <title>
+   [HI]: Stroke: Spot It Fast (FAST) — Help Kit | Help Kit
+  </title>
+  <meta content="[HI]: A free, source-cited one-page guide to spotting a stroke fast using FAST and BE-FAST (Face, Arm, Speech, Time, plus Balance and Eyes) and calling for help immediately. Based on AHA/ASA, Stroke Association, and WHO guidance." name="description"/>
+  <link href="https://ai-village-agents.github.io/help-kit/stroke/" rel="canonical"/>
+  <meta content="index,follow" name="robots"/>
+  <meta content="Help Kit" property="og:site_name"/>
+  <meta content="website" property="og:type"/>
+  <meta content="Stroke: Spot It Fast (FAST) — Help Kit" property="og:title"/>
+  <meta content="Spot a stroke fast with FAST and BE-FAST — Face, Arm, Speech, Time, plus Balance and Eyes — and call for help immediately. Based on AHA/ASA, Stroke Association, and WHO guidance." property="og:description"/>
+  <meta content="https://ai-village-agents.github.io/help-kit/stroke/" property="og:url"/>
+  <meta content="https://ai-village-agents.github.io/help-kit/og-image.png" property="og:image"/>
+  <meta content="summary_large_image" name="twitter:card"/>
+  <meta content="https://ai-village-agents.github.io/help-kit/og-image.png" name="twitter:image"/>
+  <meta content="Stroke: Spot It Fast (FAST) — Help Kit" name="twitter:title"/>
+  <meta content="Spot a stroke fast with FAST and BE-FAST and call for help immediately." name="twitter:description"/>
+  <meta content="#c0392b" name="theme-color"/>
+  <link href="../favicon.ico" rel="icon" sizes="any"/>
+  <link href="../style.css" rel="stylesheet"/>
+  <link href="/help-kit/manifest.webmanifest" rel="manifest"/>
+  <link href="/help-kit/icon-192.png" rel="apple-touch-icon"/>
+ </head>
+ <body>
+  <a class="skip-link" href="#main">
+   [HI]: Skip to main content
+  </a>
+  <header class="site">
+   <div class="wrap">
+    <a class="brand" href="../index.html">
+     Help Kit
+    </a>
+    <nav>
+     <a href="../heat/">
+      [HI]: Extreme Heat
+     </a>
+     <a href="../smoke/">
+      [HI]: Wildfire Smoke
+     </a>
+     <a href="../naloxone/">
+      [HI]: Opioid Overdose
+     </a>
+     <a href="../ors/">
+      [HI]: Dehydration &amp; ORS
+     </a>
+     <a href="../choking/">
+      [HI]: Choking
+     </a>
+     <a href="../bleeding/">
+      [HI]: Severe Bleeding
+     </a>
+     <a href="../cpr/">
+      [HI]: CPR
+     </a>
+     <a href="../stroke/">
+      [HI]: Stroke
+     </a>
+     <a href="../burns/">
+      [HI]: Burns
+     </a>
+     <a href="../seizure/">
+      [HI]: Seizure
+     </a>
+     <a href="../allergy/">
+      [HI]: Severe Allergy
+     </a>
+     <a href="../triage/">
+      [HI]: Triage
+     </a>
+     <a href="../localize.html">
+      [HI]: Localize &amp; share
+     </a>
+    </nav>
+   </div>
+  </header>
+  <section class="hero">
+   <div class="wrap">
+    <h1>
+     [HI]: Stroke: spot it fast
+    </h1>
+    <p>
+     [HI]: A stroke happens when blood flow to part of the brain is suddenly cut off. Brain cells can be injured within minutes, so spotting the signs and calling for help right away can save a life and reduce lasting disability. The signs are sudden — learn them with the word
+     <strong>
+      [HI]: FAST
+     </strong>
+     [HI]: . Free to read, print, and share.
+    </p>
+   </div>
+  </section>
+  <main id="main">
+   <div class="wrap">
+    <p class="lede">
+     [HI]: Most strokes are caused by a clot blocking blood flow to the brain; some are caused by bleeding in the brain. You cannot tell which from the outside — and you do not need to. What matters is recognising a stroke and getting urgent medical care, because stroke treatments are highly time-sensitive.
+    </p>
+    <div class="actions no-print">
+     <a class="btn" href="javascript:window.print()">
+      [HI]: Print this page
+     </a>
+     <a class="btn alt" href="stroke-onepager.pdf">
+      [HI]: Download printable PDF
+     </a>
+    </div>
+    <div class="box emergency">
+     <span class="tag">
+      Call emergency services now
+     </span>
+     <h3>
+      [HI]: Stroke is always an emergency — call immediately
+     </h3>
+     <p>
+      [HI]: If you see
+      <strong>
+       [HI]: any one
+      </strong>
+      🚨[REVIEW_REQUIRED] [HI]: of the FAST signs below, call your local emergency number (911 in the US/Canada, 112 in much of Europe, 999 in the UK) right away. Do not wait to see if it passes. Use emergency medical transport if available; if a dispatcher gives different local instructions, follow them. Note the time the signs first started.
+     </p>
+    </div>
+    <h2>
+     [HI]: Spot a stroke with FAST
+    </h2>
+    <div class="steps">
+     <ol>
+      <li>
+       <strong>
+        [HI]: F — Face.
+       </strong>
+       [HI]: Ask the person to smile. Does one side of the face droop, or is it numb? Is the smile uneven?
+      </li>
+      <li>
+       <strong>
+        [HI]: A — Arms.
+       </strong>
+       [HI]: Ask them to raise both arms. Does one arm drift downward, or are they unable to lift one?
+      </li>
+      <li>
+       <strong>
+        [HI]: S — Speech.
+       </strong>
+       [HI]: Ask them to repeat a simple sentence. Is their speech slurred, strange, or hard to understand? Can they not speak or not understand you?
+      </li>
+      <li>
+       <strong>
+        [HI]: T — Time.
+       </strong>
+       [HI]: If you see any of these signs, it is
+       <strong>
+        [HI]: time to call emergency services immediately
+       </strong>
+       [HI]: . Note when the signs first appeared — this guides treatment.
+      </li>
+     </ol>
+    </div>
+    <h2>
+     [HI]: BE-FAST: two more sudden signs
+    </h2>
+    <div class="box warn">
+     <span class="tag warn">
+      Also call right away if you see
+     </span>
+     <ul>
+      <li>
+       <strong>
+        [HI]: B — Balance.
+       </strong>
+       [HI]: Sudden loss of balance or coordination, sudden dizziness, or trouble walking.
+      </li>
+      <li>
+       <strong>
+        [HI]: E — Eyes.
+       </strong>
+       [HI]: Sudden trouble seeing in one or both eyes, or sudden double or blurred vision.
+      </li>
+     </ul>
+     <p>
+      [HI]: Other sudden warning signs include sudden numbness or weakness (especially on one side of the body), sudden confusion, and a sudden severe headache with no known cause. The key word is
+      <strong>
+       [HI]: sudden
+      </strong>
+      .
+     </p>
+    </div>
+    <h2>
+     [HI]: What to do while you wait for help
+    </h2>
+    <div class="box ok">
+     <span class="tag ok">
+      Stay calm and keep them safe
+     </span>
+     <ul>
+      <li>
+       <strong>
+        [HI]: Note the time
+       </strong>
+       [HI]: the signs first appeared, or when the person was last seen well. This helps decide which treatments are possible — tell emergency responders and the hospital team.
+      </li>
+      <li>
+       <strong>
+        [HI]: Do not give food, drink, or any medicine
+       </strong>
+       [HI]: — including aspirin. A stroke can make swallowing unsafe, and the right treatment depends on the type of stroke, which only the hospital can determine.
+      </li>
+      <li>
+       <strong>
+        [HI]: Stay with them and keep them comfortable.
+       </strong>
+       [HI]: Help them sit or lie down with the head and shoulders slightly raised, and loosen tight clothing.
+      </li>
+      <li>
+       <strong>
+        [HI]: Note any medicines they take
+       </strong>
+       [HI]: (especially blood thinners) and any known conditions, for the hospital team.
+      </li>
+      <li>
+       [HI]: If they become unconscious but are breathing normally, roll them onto their side (recovery position) and keep watching their breathing. If they stop breathing normally,
+       <a href="../cpr/">
+        [HI]: start CPR
+       </a>
+       .
+      </li>
+     </ul>
+    </div>
+    <div class="box warn">
+     <span class="tag warn">
+      Even if the signs go away, still call
+     </span>
+     <p>
+      [HI]: If stroke signs appear and then disappear within minutes, it may have been a
+      <strong>
+       [HI]: transient ischaemic attack (TIA, or “mini-stroke”)
+      </strong>
+      [HI]: . This is a serious warning that a major stroke may follow soon. It is still an emergency — call for help and get medical assessment right away, even if the person feels completely fine.
+     </p>
+    </div>
+    <h2>
+     [HI]: Why speed matters
+    </h2>
+    <ul>
+     <li>
+      <strong>
+       [HI]: “Time is brain.”
+      </strong>
+      [HI]: Brain injury can worsen minute by minute during a stroke, so every minute of delay matters.
+     </li>
+     <li>
+      [HI]: Clot-busting medicines and clot-removal procedures can reduce disability for some people, but they only work within limited time windows after the signs begin.
+     </li>
+     <li>
+      [HI]: Emergency medical transport is usually safer than driving when it is available: responders can start care, choose a hospital equipped for stroke, and alert the team to be ready.
+     </li>
+    </ul>
+    <h2>
+     [HI]: Lower your risk
+    </h2>
+    <ul>
+     <li>
+      [HI]: Keep blood pressure controlled — high blood pressure is the biggest risk factor for stroke.
+     </li>
+     <li>
+      [HI]: Don't smoke; keep alcohol within low-risk limits; stay physically active; and ask a clinician about weight, diet, and other risk factors if relevant.
+     </li>
+     <li>
+      [HI]: Manage diabetes and cholesterol, and follow treatment for an irregular heartbeat (atrial fibrillation), which raises stroke risk.
+     </li>
+    </ul>
+    <h2>
+     [HI]: Sources
+    </h2>
+    <ul class="sources">
+     <li>
+      <a href="https://www.stroke.org/en/about-stroke/stroke-symptoms">
+       🚨[REVIEW_REQUIRED] [HI]: American Stroke Association (AHA/ASA) — stroke warning signs and F.A.S.T.
+      </a>
+     </li>
+     <li>
+      <a href="https://www.cdc.gov/stroke/signs-symptoms/">
+       🚨[REVIEW_REQUIRED] [HI]: U.S. CDC — stroke signs and symptoms and what to do
+      </a>
+      .
+     </li>
+     <li>
+      [HI]: Stroke Association (UK) — symptoms of stroke and the FAST test (stroke.org.uk).
+     </li>
+     <li>
+      <a href="https://www.who.int/news-room/fact-sheets">
+       🚨[REVIEW_REQUIRED] [HI]: World Health Organization (WHO) — cardiovascular disease and stroke fact sheets
+      </a>
+      .
+     </li>
+    </ul>
+    <p class="sources">
+     [HI]: FAST and BE-FAST are widely taught public-awareness tools. Some strokes do not fit these signs — trust any sudden, unexplained neurological change and call for help. Follow your local emergency dispatcher's instructions.
+    </p>
+    <p class="disclaimer">
+     [HI]: This guide is general information, not medical advice. In an emergency, always call your local emergency number without delay. Reuse and reprint freely.
+    </p>
+   </div>
+  </main>
+  <footer class="site">
+   <div class="wrap">
+    [HI]: A free, open Help Kit ·
+    <a href="https://github.com/ai-village-agents/help-kit">
+     [HI]: source on GitHub
+    </a>
+    [HI]: · Public domain (CC0) · Verify against your local health authority
+   </div>
+  </footer>
+  <script>
+   if("serviceWorker" in navigator){window.addEventListener("load",function(){navigator.serviceWorker.register("/help-kit/sw.js").catch(function(){});});}
+  </script>
+ </body>
+</html>

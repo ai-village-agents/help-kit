@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="hi">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width,initial-scale=1" name="viewport"/>
+  <title>
+   [HI]: Evidence-Based Cooling Guide — Help Kit | Help Kit
+  </title>
+  <meta content="[HI]: A source-cited guide to practical cooling steps, fan caveats, hydration, and environmental heat workarounds." name="description"/>
+  <link href="https://ai-village-agents.github.io/help-kit/heat/cooling-guide.html" rel="canonical"/>
+  <meta content="index,follow" name="robots"/>
+  <meta content="Help Kit" property="og:site_name"/>
+  <meta content="website" property="og:type"/>
+  <meta content="Evidence-Based Cooling Guide — Help Kit" property="og:title"/>
+  <meta content="A source-cited guide to practical cooling steps, fan caveats, hydration, and environmental heat workarounds." property="og:description"/>
+  <meta content="https://ai-village-agents.github.io/help-kit/heat/cooling-guide.html" property="og:url"/>
+  <meta content="https://ai-village-agents.github.io/help-kit/og-image.png" property="og:image"/>
+  <meta content="summary_large_image" name="twitter:card"/>
+  <meta content="https://ai-village-agents.github.io/help-kit/og-image.png" name="twitter:image"/>
+  <meta content="Evidence-Based Cooling Guide — Help Kit" name="twitter:title"/>
+  <meta content="A source-cited guide to practical cooling steps, fan caveats, hydration, and environmental heat workarounds." name="twitter:description"/>
+  <meta content="#c0392b" name="theme-color"/>
+  <link href="../favicon.ico" rel="icon" sizes="any"/>
+  <link href="../style.css" rel="stylesheet"/>
+  <link href="/help-kit/manifest.webmanifest" rel="manifest"/>
+  <link href="/help-kit/icon-192.png" rel="apple-touch-icon"/>
+ </head>
+ <body>
+  <a class="skip-link" href="#main">
+   [HI]: Skip to main content
+  </a>
+  <header class="site">
+   <div class="wrap">
+    <a class="brand" href="../index.html">
+     Help Kit
+    </a>
+    <nav>
+     <a href="../heat/">
+      [HI]: Extreme Heat
+     </a>
+     <a href="../smoke/">
+      [HI]: Wildfire Smoke
+     </a>
+     <a href="../naloxone/">
+      [HI]: Opioid Overdose
+     </a>
+     <a href="../ors/">
+      [HI]: Dehydration &amp; ORS
+     </a>
+     <a href="../choking/">
+      [HI]: Choking
+     </a>
+     <a href="../bleeding/">
+      [HI]: Severe Bleeding
+     </a>
+     <a href="../cpr/">
+      [HI]: CPR
+     </a>
+     <a href="../stroke/">
+      [HI]: Stroke
+     </a>
+     <a href="../burns/">
+      [HI]: Burns
+     </a>
+     <a href="../seizure/">
+      [HI]: Seizure
+     </a>
+     <a href="../allergy/">
+      [HI]: Severe Allergy
+     </a>
+     <a href="../triage/">
+      [HI]: Triage
+     </a>
+     <a href="../localize.html">
+      [HI]: Localize &amp; share
+     </a>
+    </nav>
+   </div>
+  </header>
+  <main id="main">
+   <div class="wrap">
+    <p>
+     <a href="index.html">
+      [HI]: ← Back to heat guide
+     </a>
+    </p>
+    <h1>
+     [HI]: Evidence-Based Cooling Guide: Science and Operations
+    </h1>
+    <p class="lede">
+     [HI]: A practical guide for community organizers, volunteers, and mutual-aid networks on safer cooling, hydration, and home heat workarounds during extreme heat events. Use alongside local public-health guidance and emergency services.
+    </p>
+    <div class="actions no-print">
+     <a class="btn" href="javascript:window.print()">
+      [HI]: Print this page
+     </a>
+    </div>
+    <h2>
+     [HI]: 1. Physiological Mechanisms of Thermal Stress
+    </h2>
+    <p>
+     🚨[REVIEW_REQUIRED] [HI]: Human thermoregulation relies heavily on the cardiovascular system and the skin to dissipate metabolic heat. When ambient temperature exceeds core temperature (approx. 98.6°F / 37°C), heat dissipation shifts almost entirely to
+     <strong>
+      [HI]: evaporative cooling (sweating)
+     </strong>
+     .
+    </p>
+    <div class="box warn">
+     <span class="tag warn">
+      The Wet-Bulb Limit
+     </span>
+     <h3>
+      [HI]: Wet-Bulb Temperature (Tw) Risk Factor
+     </h3>
+     <p>
+      [HI]: Wet-bulb temperature measures the lowest temperature that can be achieved by evaporative cooling of a water-wetted surface, accounting for both temperature and humidity.
+     </p>
+     <ul>
+      <li>
+       <strong>
+        [HI]: Critical Threshold:
+       </strong>
+       [HI]: A sustained wet-bulb temperature around
+       <strong>
+        🚨[REVIEW_REQUIRED] [HI]: 95°F (35°C)
+       </strong>
+       [HI]: is often cited as an extreme upper limit for heat tolerance in idealized conditions; real-world danger can occur well below this, especially with sun exposure, exertion, dehydration, illness, medications, poor ventilation, or limited access to cooling.
+      </li>
+      <li>
+       <strong>
+        [HI]: Vulnerability Multiplier:
+       </strong>
+       [HI]: Older adults, infants and young children, pregnant people, outdoor workers, people with disabilities or chronic illness, and people without reliable cooling may be at serious risk at much lower heat and humidity levels. Follow local heat alerts and check on people early.
+      </li>
+     </ul>
+    </div>
+    <h2>
+     [HI]: 2. Physiological Intervention &amp; Active Cooling
+    </h2>
+    <p>
+     [HI]: When a person has severe heat illness signs, call emergency services and start cooling immediately while you wait. Rapid cooling is critical, but do not delay emergency care.
+    </p>
+    <div class="box emergency">
+     <span class="tag">
+      The Fan Dilemma
+     </span>
+     <h3>
+      [HI]: Do not rely on fans alone in very hot rooms
+     </h3>
+     <p>
+      [HI]: Fans can help sweat evaporate, but in very hot rooms—especially when skin is dry, the person is dehydrated, or the indoor air is hotter than the body—fans alone may not prevent heat illness and can worsen dehydration.
+     </p>
+     <p>
+      <strong>
+       [HI]: The Fix:
+      </strong>
+      [HI]: If using a fan in very hot conditions, combine it with safer cooling: move to the coolest available place, damp skin/clothing with water, use cool cloths or misting, hydrate if the person is alert and able to swallow, and seek air-conditioned shelter if possible. Do not use electrical devices where they may get wet or create trip/fire hazards.
+     </p>
+    </div>
+    <h3>
+     [HI]: Active Cooling Techniques
+    </h3>
+    <ol class="steps">
+     <li>
+      <strong>
+       [HI]: Arterial Ice Placement:
+      </strong>
+      [HI]: Apply ice packs or cold compresses wrapped in thin towels directly to the body's major arterial pulse points:
+      <ul>
+       <li>
+        <strong>
+         [HI]: The Neck
+        </strong>
+        [HI]: (Carotid arteries)
+       </li>
+       <li>
+        <strong>
+         [HI]: The Armpits
+        </strong>
+        [HI]: (Axillary arteries)
+       </li>
+       <li>
+        <strong>
+         [HI]: The Groin
+        </strong>
+        [HI]: (Femoral arteries)
+       </li>
+      </ul>
+      [HI]: This can help cool the body while other cooling steps and emergency care are arranged.
+     </li>
+     <li>
+      <strong>
+       [HI]: Evaporative Misting:
+      </strong>
+      [HI]: Mist the individual's entire body with cool water while placing them in the path of a gentle fan or breeze to simulate natural sweating.
+     </li>
+     <li>
+      <strong>
+       [HI]: Cold Water Foot Baths:
+      </strong>
+      [HI]: Soak feet and ankles in cool water if the person can do so safely. This may help with comfort and cooling; stop if the person feels worse.
+     </li>
+    </ol>
+    <h2>
+     [HI]: 3. Hydration Science &amp; Electrolyte Management
+    </h2>
+    <p>
+     [HI]: Dehydration reduces blood volume, forcing the heart to pump faster and making sweat production less efficient.
+    </p>
+    <div class="box ok">
+     <span class="tag ok">
+      Electrolyte Balance
+     </span>
+     <h3>
+      [HI]: Water vs. Electrolytes &amp; Homemade Recipe
+     </h3>
+     <p>
+      [HI]: Drinking massive volumes of plain water without replenishing salts during prolonged heavy sweating can lead to
+      <strong>
+       [HI]: hyponatremia
+      </strong>
+      [HI]: (dangerously low blood sodium). Symptoms include headache, confusion, nausea, muscle weakness, and in severe cases, seizures.
+     </p>
+     <p>
+      [HI]: For prolonged heavy sweating, oral rehydration solution (ORS), an electrolyte drink, salty foods with water, or a carefully mixed homemade solution can help replace salts. If using the ORS-style mix below, measure carefully:
+     </p>
+     <ul>
+      <li>
+       <strong>
+        [HI]: 1 Liter
+       </strong>
+       [HI]: of clean water
+      </li>
+      <li>
+       <strong>
+        🚨[REVIEW_REQUIRED] [HI]: 1/2 level teaspoon
+       </strong>
+       [HI]: of Table Salt (replenishes sodium)
+      </li>
+      <li>
+       <strong>
+        🚨[REVIEW_REQUIRED] [HI]: 6 level teaspoons
+       </strong>
+       [HI]: of Sugar (helps the body absorb water and sodium rapidly)
+      </li>
+      <li>
+       <em>
+        [HI]: Optional:
+       </em>
+       [HI]: a small amount of citrus juice for flavor. Discard after 24 hours or sooner if contaminated.
+      </li>
+     </ul>
+    </div>
+    <h2>
+     [HI]: 4. Environmental Workarounds for Living Spaces
+    </h2>
+    <p>
+     [HI]: If air conditioning is unavailable or unaffordable, these steps can sometimes reduce indoor heat. If the home remains dangerously hot, help the person reach a cooler place if possible:
+    </p>
+    <ul>
+     <li>
+      <strong>
+       [HI]: Strategic Shading &amp; Solar Block:
+      </strong>
+      [HI]: Block direct sunlight from entering windows. Cover the outside of windows with cardboard, reflective foil (shiny side out), or light-colored sheets. This reflects solar radiation before it gets trapped inside.
+     </li>
+     <li>
+      <strong>
+       [HI]: Thermal Mass Management:
+      </strong>
+      [HI]: Keep windows closed and blinds drawn during the day. Open all windows and utilize fans only when the outside air temperature drops below the indoor temperature (usually after dusk).
+     </li>
+     <li>
+      <strong>
+       [HI]: Utilize Ground Floors:
+      </strong>
+      [HI]: Because hot air rises, basement apartments or ground-level floors are often cooler than upper floors in multi-story buildings. Encourage vulnerable neighbors to rest on lower levels during the hottest peak hours.
+     </li>
+    </ul>
+    <p class="sources">
+     🚨[REVIEW_REQUIRED] [HI]: Sources: CDC Heat &amp; Health, WHO Heat and health fact sheet, U.S. National Weather Service Heat Safety, and peer-reviewed heat-health literature. This is general information, not medical advice; follow local alerts and emergency guidance.
+    </p>
+    <p class="disclaimer">
+     [HI]: This guide is general information, not medical advice, and is not a substitute for professional emergency care or training. In an emergency, always call your local emergency number. When symptoms are severe or you are unsure, treat it as an emergency. Reuse and reprint freely.
+    </p>
+   </div>
+  </main>
+  <footer class="site">
+   <div class="wrap">
+    [HI]: A free, open Help Kit ·
+    <a href="https://github.com/ai-village-agents/help-kit">
+     [HI]: source on GitHub
+    </a>
+    [HI]: · Public domain (CC0)
+   </div>
+  </footer>
+  <script>
+   if("serviceWorker" in navigator){window.addEventListener("load",function(){navigator.serviceWorker.register("/help-kit/sw.js").catch(function(){});});}
+  </script>
+ </body>
+</html>

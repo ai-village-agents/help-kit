@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width,initial-scale=1" name="viewport"/>
+  <title>
+   [ES]: 60-minute Heat Buddy-Check Setup — Help Kit | Help Kit
+  </title>
+  <meta content="[ES]: A 60-minute setup plan for small groups doing heat buddy checks." name="description"/>
+  <link href="https://ai-village-agents.github.io/help-kit/heat/organizer-60-minute-setup.html" rel="canonical"/>
+  <meta content="index,follow" name="robots"/>
+  <meta content="Help Kit" property="og:site_name"/>
+  <meta content="website" property="og:type"/>
+  <meta content="60-minute Heat Buddy-Check Setup — Help Kit" property="og:title"/>
+  <meta content="A 60-minute setup plan for small groups doing heat buddy checks." property="og:description"/>
+  <meta content="https://ai-village-agents.github.io/help-kit/heat/organizer-60-minute-setup.html" property="og:url"/>
+  <meta content="https://ai-village-agents.github.io/help-kit/og-image.png" property="og:image"/>
+  <meta content="summary_large_image" name="twitter:card"/>
+  <meta content="https://ai-village-agents.github.io/help-kit/og-image.png" name="twitter:image"/>
+  <meta content="60-minute Heat Buddy-Check Setup — Help Kit" name="twitter:title"/>
+  <meta content="A 60-minute setup plan for small groups doing heat buddy checks." name="twitter:description"/>
+  <meta content="#c0392b" name="theme-color"/>
+  <link href="../favicon.ico" rel="icon" sizes="any"/>
+  <link href="../style.css" rel="stylesheet"/>
+  <link href="/help-kit/manifest.webmanifest" rel="manifest"/>
+  <link href="/help-kit/icon-192.png" rel="apple-touch-icon"/>
+ </head>
+ <body>
+  <a class="skip-link" href="#main">
+   [ES]: Skip to main content
+  </a>
+  <header class="site">
+   <div class="wrap">
+    <a class="brand" href="../index.html">
+     Help Kit
+    </a>
+    <nav>
+     <a href="../heat/">
+      [ES]: Extreme Heat
+     </a>
+     <a href="../smoke/">
+      [ES]: Wildfire Smoke
+     </a>
+     <a href="../naloxone/">
+      [ES]: Opioid Overdose
+     </a>
+     <a href="../ors/">
+      [ES]: Dehydration &amp; ORS
+     </a>
+     <a href="../choking/">
+      [ES]: Choking
+     </a>
+     <a href="../bleeding/">
+      [ES]: Severe Bleeding
+     </a>
+     <a href="../cpr/">
+      [ES]: CPR
+     </a>
+     <a href="../stroke/">
+      [ES]: Stroke
+     </a>
+     <a href="../burns/">
+      [ES]: Burns
+     </a>
+     <a href="../seizure/">
+      [ES]: Seizure
+     </a>
+     <a href="../allergy/">
+      [ES]: Severe Allergy
+     </a>
+     <a href="../triage/">
+      [ES]: Triage
+     </a>
+     <a href="../localize.html">
+      [ES]: Localize &amp; share
+     </a>
+    </nav>
+   </div>
+  </header>
+  <main id="main">
+   <div class="wrap">
+    <p>
+     <a href="index.html">
+      [ES]: ← Back to heat guide
+     </a>
+    </p>
+    <h1>
+     🚨[REVIEW_REQUIRED] [ES]: 60-minute setup for a heat buddy-check network
+    </h1>
+    <p class="lede">
+     <strong>
+      🚨[REVIEW_REQUIRED] [ES]: Last updated: June 15, 2026.
+     </strong>
+     [ES]: A quick plan for neighbors, libraries, faith groups, tenant associations, workplaces, and mutual-aid groups that want to act today.
+    </p>
+    <div class="actions no-print">
+     <a class="btn" href="javascript:window.print()">
+      [ES]: Print this page
+     </a>
+    </div>
+    <ol>
+     <li>
+      <strong>
+       [ES]: 0–10 min: choose a trigger.
+      </strong>
+      [ES]: Start checks when there is an official heat advisory, unusually hot indoor temperatures, a power outage, a smoke/heat combination, or a local organizer’s judgment that people are at risk.
+     </li>
+     <li>
+      <strong>
+       🚨[REVIEW_REQUIRED] [ES]: 10–20 min: list people and places.
+      </strong>
+      [ES]: Use the minimum information needed. Consider buildings, blocks, encampments, worksites, senior neighbors, and people without cooling. Avoid public spreadsheets with addresses, medical details, immigration status, or phone numbers.
+     </li>
+     <li>
+      <strong>
+       🚨[REVIEW_REQUIRED] [ES]: 20–30 min: assign buddies.
+      </strong>
+      [ES]: Give each volunteer a small list. Include language and access notes only when needed. Tell volunteers not to diagnose and to escalate danger signs.
+     </li>
+     <li>
+      <strong>
+       [ES]: 30–40 min: collect local resources.
+      </strong>
+      [ES]: Emergency number, official heat-alert page, cooling centers, libraries, transit routes, water sites, disability-access contacts, tenant hotline, clinic/pharmacy advice line, and translation help.
+     </li>
+     <li>
+      <strong>
+       🚨[REVIEW_REQUIRED] [ES]: 40–50 min: send the first check.
+      </strong>
+      [ES]: Use calm language. Ask what help is wanted. Offer specific options: water, transport, directions, another check, calling a trusted person.
+     </li>
+     <li>
+      <strong>
+       🚨[REVIEW_REQUIRED] [ES]: 50–60 min: follow up and debrief.
+      </strong>
+      [ES]: Re-check people who are hot, isolated, not responding, or lacking cooling. Decide who needs tomorrow’s check, what resources were missing, and what personal information should be deleted.
+     </li>
+    </ol>
+    <div class="box emergency">
+     <span class="tag">
+      Escalate now
+     </span>
+     <p>
+      [ES]: Call local emergency services for confusion, fainting/unconsciousness, seizure, hot/dry skin or very high body temperature, repeated vomiting, or symptoms that worsen despite cooling.
+     </p>
+    </div>
+    <h2>
+     [ES]: For AI agents or remote volunteers
+    </h2>
+    <ul>
+     <li>
+      [ES]: Do not diagnose heat illness.
+     </li>
+     <li>
+      [ES]: Ask for location, current symptoms, whether the person is alert, and what cooling resources are available.
+     </li>
+     <li>
+      [ES]: Prioritize emergency escalation when danger signs appear.
+     </li>
+     <li>
+      [ES]: Avoid collecting unnecessary personal data.
+     </li>
+    </ul>
+    <p class="sources">
+     🚨[REVIEW_REQUIRED] [ES]: Sources: CDC, WHO, Red Cross, Global Heat Health Information Network, Heat.gov/NIHHIS. General information only.
+    </p>
+    <p class="disclaimer">
+     [ES]: This guide is general information, not medical advice, and is not a substitute for professional emergency care or training. In an emergency, always call your local emergency number. When symptoms are severe or you are unsure, treat it as an emergency. Reuse and reprint freely.
+    </p>
+   </div>
+  </main>
+  <footer class="site">
+   <div class="wrap">
+    [ES]: Public domain (CC0) · Verify local emergency and health guidance
+   </div>
+  </footer>
+  <script>
+   if("serviceWorker" in navigator){window.addEventListener("load",function(){navigator.serviceWorker.register("/help-kit/sw.js").catch(function(){});});}
+  </script>
+ </body>
+</html>

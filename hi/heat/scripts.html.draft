@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="hi">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width,initial-scale=1" name="viewport"/>
+  <title>
+   [HI]: Heat Check SMS and Phone Scripts — Help Kit | Help Kit
+  </title>
+  <meta content="[HI]: Friendly heat-check SMS and phone scripts for neighbors and organizers." name="description"/>
+  <link href="https://ai-village-agents.github.io/help-kit/heat/scripts.html" rel="canonical"/>
+  <meta content="index,follow" name="robots"/>
+  <meta content="Help Kit" property="og:site_name"/>
+  <meta content="website" property="og:type"/>
+  <meta content="Heat Check SMS and Phone Scripts — Help Kit" property="og:title"/>
+  <meta content="Friendly heat-check SMS and phone scripts for neighbors and organizers." property="og:description"/>
+  <meta content="https://ai-village-agents.github.io/help-kit/heat/scripts.html" property="og:url"/>
+  <meta content="https://ai-village-agents.github.io/help-kit/og-image.png" property="og:image"/>
+  <meta content="summary_large_image" name="twitter:card"/>
+  <meta content="https://ai-village-agents.github.io/help-kit/og-image.png" name="twitter:image"/>
+  <meta content="Heat Check SMS and Phone Scripts — Help Kit" name="twitter:title"/>
+  <meta content="Friendly heat-check SMS and phone scripts for neighbors and organizers." name="twitter:description"/>
+  <meta content="#c0392b" name="theme-color"/>
+  <link href="../favicon.ico" rel="icon" sizes="any"/>
+  <link href="../style.css" rel="stylesheet"/>
+  <style>
+   .script{background:#f8fafc;border-left:4px solid var(--accent);padding:14px;margin:12px 0;white-space:pre-wrap}
+  </style>
+  <link href="/help-kit/manifest.webmanifest" rel="manifest"/>
+  <link href="/help-kit/icon-192.png" rel="apple-touch-icon"/>
+ </head>
+ <body>
+  <a class="skip-link" href="#main">
+   [HI]: Skip to main content
+  </a>
+  <header class="site">
+   <div class="wrap">
+    <a class="brand" href="../index.html">
+     Help Kit
+    </a>
+    <nav>
+     <a href="../heat/">
+      [HI]: Extreme Heat
+     </a>
+     <a href="../smoke/">
+      [HI]: Wildfire Smoke
+     </a>
+     <a href="../naloxone/">
+      [HI]: Opioid Overdose
+     </a>
+     <a href="../ors/">
+      [HI]: Dehydration &amp; ORS
+     </a>
+     <a href="../choking/">
+      [HI]: Choking
+     </a>
+     <a href="../bleeding/">
+      [HI]: Severe Bleeding
+     </a>
+     <a href="../cpr/">
+      [HI]: CPR
+     </a>
+     <a href="../stroke/">
+      [HI]: Stroke
+     </a>
+     <a href="../burns/">
+      [HI]: Burns
+     </a>
+     <a href="../seizure/">
+      [HI]: Seizure
+     </a>
+     <a href="../allergy/">
+      [HI]: Severe Allergy
+     </a>
+     <a href="../triage/">
+      [HI]: Triage
+     </a>
+     <a href="../localize.html">
+      [HI]: Localize &amp; share
+     </a>
+    </nav>
+   </div>
+  </header>
+  <main id="main">
+   <div class="wrap">
+    <p>
+     <a href="index.html">
+      [HI]: ← Back to heat guide
+     </a>
+    </p>
+    <h1>
+     [HI]: Heat check SMS and phone scripts
+    </h1>
+    <p class="lede">
+     <strong>
+      🚨[REVIEW_REQUIRED] [HI]: Last updated: June 15, 2026.
+     </strong>
+     [HI]: Use friendly, non-alarming language. Ask what help is wanted. Localize emergency numbers and cooling-center details.
+    </p>
+    <div class="actions no-print">
+     <a class="btn" href="javascript:window.print()">
+      [HI]: Print this page
+     </a>
+    </div>
+    <h2>
+     [HI]: First check text
+    </h2>
+    <div class="script">
+     [HI]: Hi — it’s [NAME]. It’s dangerously hot today, so I’m checking on neighbors. Are you somewhere cool enough right now? Do you have water? Do you want help finding a cooling place or getting a check-in later?
+    </div>
+    <h2>
+     [HI]: Short phone script
+    </h2>
+    <div class="script">
+     [HI]: Hi, I’m doing heat check-ins today. Are you okay to talk for one minute? I’m checking: are you in a cool place, do you have water, and are you feeling dizzy, confused, nauseated, very weak, or unusually hot?
+    </div>
+    <h2>
+     [HI]: If they need cooling help
+    </h2>
+    <div class="script">
+     [HI]: Would any of these help: a ride or directions to [COOLING PLACE], someone bringing water, help calling a family member or neighbor, or another check in 30 minutes?
+    </div>
+    <h2>
+     [HI]: If you are worried
+    </h2>
+    <div class="script">
+     [HI]: I’m worried because you said [SYMPTOM/SITUATION]. Can I call emergency services or a local helper now? If you can, please move to the coolest place nearby and start cooling with water or wet cloths while help is on the way.
+    </div>
+    <h2>
+     [HI]: If no response
+    </h2>
+    <div class="script">
+     [HI]: I didn’t reach you and it is very hot today. I’ll try again at [TIME]. If you need urgent help, call [LOCAL EMERGENCY NUMBER] or go to [LOCAL COOLING PLACE] if you can do so safely.
+    </div>
+    <h2>
+     [HI]: Privacy line
+    </h2>
+    <div class="script">
+     [HI]: We’re only using your information for heat checks and local help. We won’t post your details publicly.
+    </div>
+    <div class="box emergency">
+     <span class="tag">
+      Call emergency services now
+     </span>
+     <p>
+      [HI]: Call now for confusion, fainting or unconsciousness, seizure, hot/dry skin or very high body temperature, repeated vomiting, or symptoms that worsen despite cooling.
+     </p>
+    </div>
+    <p class="sources">
+     🚨[REVIEW_REQUIRED] [HI]: Sources: CDC, WHO, Red Cross, Global Heat Health Information Network, Heat.gov/NIHHIS. General information only.
+    </p>
+    <p class="disclaimer">
+     [HI]: This guide is general information, not medical advice, and is not a substitute for professional emergency care or training. In an emergency, always call your local emergency number. When symptoms are severe or you are unsure, treat it as an emergency. Reuse and reprint freely.
+    </p>
+   </div>
+  </main>
+  <footer class="site">
+   <div class="wrap">
+    [HI]: Public domain (CC0) · Verify local emergency and health guidance
+   </div>
+  </footer>
+  <script>
+   if("serviceWorker" in navigator){window.addEventListener("load",function(){navigator.serviceWorker.register("/help-kit/sw.js").catch(function(){});});}
+  </script>
+ </body>
+</html>

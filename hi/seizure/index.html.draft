@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="hi">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width,initial-scale=1" name="viewport"/>
+  <title>
+   [HI]: Seizure First Aid — Help Kit | Help Kit
+  </title>
+  <meta content="[HI]: A free, source-cited one-page guide to seizure first aid: protect the person, time the seizure, never restrain or put anything in the mouth, use the recovery position, and know when to call for help. Based on CDC, WHO, Epilepsy Foundation, and Red Cross guidance." name="description"/>
+  <link href="https://ai-village-agents.github.io/help-kit/seizure/" rel="canonical"/>
+  <meta content="index,follow" name="robots"/>
+  <meta content="Help Kit" property="og:site_name"/>
+  <meta content="website" property="og:type"/>
+  <meta content="Seizure First Aid — Help Kit" property="og:title"/>
+  <meta content="Protect the person, time it, never restrain or put anything in their mouth, roll them onto their side after, and know when to call. Free, source-cited, print-friendly." property="og:description"/>
+  <meta content="https://ai-village-agents.github.io/help-kit/seizure/" property="og:url"/>
+  <meta content="https://ai-village-agents.github.io/help-kit/og-image.png" property="og:image"/>
+  <meta content="summary_large_image" name="twitter:card"/>
+  <meta content="https://ai-village-agents.github.io/help-kit/og-image.png" name="twitter:image"/>
+  <meta content="Seizure First Aid — Help Kit" name="twitter:title"/>
+  <meta content="Protect the person, time it, never restrain or put anything in their mouth, roll them onto their side after, and know when to call." name="twitter:description"/>
+  <meta content="#c0392b" name="theme-color"/>
+  <link href="../favicon.ico" rel="icon" sizes="any"/>
+  <link href="../style.css" rel="stylesheet"/>
+  <link href="/help-kit/manifest.webmanifest" rel="manifest"/>
+  <link href="/help-kit/icon-192.png" rel="apple-touch-icon"/>
+ </head>
+ <body>
+  <a class="skip-link" href="#main">
+   [HI]: Skip to main content
+  </a>
+  <header class="site">
+   <div class="wrap">
+    <a class="brand" href="../index.html">
+     Help Kit
+    </a>
+    <nav>
+     <a href="../heat/">
+      [HI]: Extreme Heat
+     </a>
+     <a href="../smoke/">
+      [HI]: Wildfire Smoke
+     </a>
+     <a href="../naloxone/">
+      [HI]: Opioid Overdose
+     </a>
+     <a href="../ors/">
+      [HI]: Dehydration &amp; ORS
+     </a>
+     <a href="../choking/">
+      [HI]: Choking
+     </a>
+     <a href="../bleeding/">
+      [HI]: Severe Bleeding
+     </a>
+     <a href="../cpr/">
+      [HI]: CPR
+     </a>
+     <a href="../stroke/">
+      [HI]: Stroke
+     </a>
+     <a href="../burns/">
+      [HI]: Burns
+     </a>
+     <a href="../seizure/">
+      [HI]: Seizure
+     </a>
+     <a href="../allergy/">
+      [HI]: Severe Allergy
+     </a>
+     <a href="../triage/">
+      [HI]: Triage
+     </a>
+     <a href="../localize.html">
+      [HI]: Localize &amp; share
+     </a>
+    </nav>
+   </div>
+  </header>
+  <section class="hero">
+   <div class="wrap">
+    <h1>
+     [HI]: Seizure first aid
+    </h1>
+    <p>
+     [HI]: A seizure is a burst of unusual electrical activity in the brain. Many seizures look frightening but stop on their own within a couple of minutes. The most important things you can do are simple: keep the person safe from injury, do not hold them down or put anything in their mouth, time how long it lasts, and stay with them. Free to read, print, and share.
+    </p>
+   </div>
+  </section>
+  <main id="main">
+   <div class="wrap">
+    <p class="lede">
+     [HI]: Many seizures end by themselves. Your job is to protect the person, prevent injury, and gently care for them afterwards — and to recognise situations that do need urgent medical help.
+    </p>
+    <div class="actions no-print">
+     <a class="btn" href="javascript:window.print()">
+      [HI]: Print this page
+     </a>
+     <a class="btn alt" href="seizure-onepager.pdf">
+      [HI]: Download printable PDF
+     </a>
+    </div>
+    <div class="box emergency">
+     <span class="tag">
+      Call emergency services now if…
+     </span>
+     <h3>
+      [HI]: When a seizure is an emergency
+     </h3>
+     <ul>
+      <li>
+       [HI]: The seizure (shaking/convulsing) lasts
+       <strong>
+        🚨[REVIEW_REQUIRED] [HI]: longer than 5 minutes
+       </strong>
+       .
+      </li>
+      <li>
+       [HI]: Another seizure starts soon after the first, or they do not regain awareness between seizures.
+      </li>
+      <li>
+       [HI]: The person is
+       <strong>
+        [HI]: hurt, has trouble breathing, or does not wake up
+       </strong>
+       [HI]: after the shaking stops.
+      </li>
+      <li>
+       [HI]: The seizure happens
+       <strong>
+        [HI]: in water
+       </strong>
+       .
+      </li>
+      <li>
+       [HI]: It is the person's
+       <strong>
+        [HI]: first-ever seizure
+       </strong>
+       [HI]: , or you do not know their history.
+      </li>
+      <li>
+       [HI]: The person is
+       <strong>
+        [HI]: pregnant
+       </strong>
+       [HI]: , has
+       <strong>
+        [HI]: diabetes
+       </strong>
+       [HI]: , or another serious health condition.
+      </li>
+     </ul>
+     <p>
+      🚨[REVIEW_REQUIRED] [HI]: Call your local emergency number (911 in the US/Canada, 112 in much of Europe, 999 in the UK). When in doubt, call.
+     </p>
+    </div>
+    <h2>
+     [HI]: What to do during a convulsive seizure
+    </h2>
+    <ol class="steps">
+     <li>
+      <strong>
+       [HI]: Stay calm and stay with them.
+      </strong>
+      [HI]: Note the time the seizure starts so you know how long it lasts.
+     </li>
+     <li>
+      <strong>
+       [HI]: Protect them from injury.
+      </strong>
+      [HI]: Move away hard or sharp objects. Cushion the head with something soft (a folded jacket). Take off glasses and loosen anything tight around the neck.
+     </li>
+     <li>
+      <strong>
+       [HI]: Do not restrain them
+      </strong>
+      [HI]: and
+      <strong>
+       [HI]: do not put anything in their mouth.
+      </strong>
+      [HI]: Let the movements happen. Holding them down or putting objects (or your fingers) in the mouth can injure them or you — and you cannot stop the seizure that way.
+     </li>
+     <li>
+      <strong>
+       [HI]: When the shaking stops, roll them onto their side
+      </strong>
+      [HI]: (recovery position). This keeps the airway clear and lets saliva drain. Check they are breathing.
+     </li>
+     <li>
+      <strong>
+       [HI]: Stay until they are fully alert.
+      </strong>
+      [HI]: Reassure them calmly — they may be confused, sleepy, or upset for a while. Do not give food, drink, or medicine until they are fully awake and able to swallow.
+     </li>
+    </ol>
+    <div class="box warn">
+     <span class="tag warn">
+      Common myths — do not do these
+     </span>
+     <ul>
+      <li>
+       <strong>
+        [HI]: Never put anything in the mouth
+       </strong>
+       [HI]: — a spoon, wallet, fingers, or food. A person
+       <strong>
+        [HI]: cannot swallow their tongue
+       </strong>
+       [HI]: . Objects can break teeth, block the airway, or be bitten.
+      </li>
+      <li>
+       <strong>
+        [HI]: Do not hold the person down
+       </strong>
+       [HI]: or try to stop their movements.
+      </li>
+      <li>
+       <strong>
+        [HI]: Do not try to "wake" them
+       </strong>
+       [HI]: by slapping, shouting, or throwing water.
+      </li>
+      <li>
+       [HI]: Do not give anything to eat or drink until they are fully recovered.
+      </li>
+     </ul>
+    </div>
+    <h2>
+     [HI]: Not all seizures involve shaking
+    </h2>
+    <p>
+     [HI]: Some seizures cause staring, confusion, repeated movements (like lip-smacking or fumbling), wandering, or simply being unaware for a short time. The person may not respond normally.
+     <strong>
+      [HI]: Do not grab or restrain them.
+     </strong>
+     [HI]: Gently guide them away from danger (roads, stairs, water), speak calmly and quietly, stay with them, and wait for them to come round. They may not remember it afterwards.
+    </p>
+    <h2>
+     [HI]: Fever-related seizures in young children
+    </h2>
+    <div class="box ok">
+     <span class="tag ok">
+      Often brief, but watch closely
+     </span>
+     <p>
+      🚨[REVIEW_REQUIRED] [HI]: Young children sometimes have a seizure when they have a high fever (a "febrile seizure"). It is frightening to watch; many are brief, but the child still needs careful watching. Give the same first aid: keep them safe, do not restrain or put anything in the mouth, and lay them on their side. Call for emergency help if it lasts more than 5 minutes, if it is their first one, if they have trouble breathing, or if the child seems very unwell or does not recover quickly.
+     </p>
+    </div>
+    <h2>
+     [HI]: After the seizure
+    </h2>
+    <ul>
+     <li>
+      [HI]: Stay calm and kind. Tiredness, confusion, headache, or embarrassment afterwards are normal.
+     </li>
+     <li>
+      [HI]: Give them space and privacy — don't crowd them.
+     </li>
+     <li>
+      [HI]: Note what you saw to tell them or the medical team: how long it lasted, what the body did, and any injury. This information is genuinely helpful.
+     </li>
+     <li>
+      [HI]: If they have a seizure-action plan or rescue medicine and a trained person is present, follow it.
+     </li>
+    </ul>
+    <h2>
+     [HI]: Sources
+    </h2>
+    <ul class="sources">
+     <li>
+      <a href="https://www.cdc.gov/epilepsy/about/index.html">
+       🚨[REVIEW_REQUIRED] [HI]: CDC — About epilepsy
+      </a>
+      [HI]: (background on seizures and epilepsy).
+     </li>
+     <li>
+      [HI]: Epilepsy Foundation — Seizure first aid and safety (stay, safe, side; do not restrain or put anything in the mouth).
+     </li>
+     <li>
+      <a href="https://www.who.int/news-room/fact-sheets/detail/epilepsy">
+       [HI]: World Health Organization — Epilepsy fact sheet
+      </a>
+      [HI]: (global burden; first aid; do not restrain or place objects in the mouth).
+     </li>
+     <li>
+      <a href="https://www.nhs.uk/conditions/epilepsy/">
+       🚨[REVIEW_REQUIRED] [HI]: NHS — Epilepsy and what to do when someone has a seizure
+      </a>
+      .
+     </li>
+     <li>
+      <a href="https://www.redcross.org/take-a-class">
+       [HI]: American Red Cross — first-aid training and resources
+      </a>
+      .
+     </li>
+    </ul>
+    <p class="sources">
+     [HI]: Guidance reflects widely taught seizure first aid for lay responders. Details vary between training bodies and regions — follow your local first-aid training and emergency services.
+    </p>
+    <p class="disclaimer">
+     [HI]: This guide is general information, not medical advice. In an emergency, always call your local emergency number. Reuse and reprint freely.
+    </p>
+   </div>
+  </main>
+  <footer class="site">
+   <div class="wrap">
+    [HI]: A free, open Help Kit ·
+    <a href="https://github.com/ai-village-agents/help-kit">
+     [HI]: source on GitHub
+    </a>
+    [HI]: · Public domain (CC0) · Verify against your local health authority
+   </div>
+  </footer>
+  <script>
+   if("serviceWorker" in navigator){window.addEventListener("load",function(){navigator.serviceWorker.register("/help-kit/sw.js").catch(function(){});});}
+  </script>
+ </body>
+</html>

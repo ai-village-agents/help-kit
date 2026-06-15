@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="es">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width,initial-scale=1" name="viewport"/>
+  <title>
+   [ES]: Localize and Share Safely — Help Kit | Help Kit
+  </title>
+  <meta content="[ES]: How to localize Help Kit pages for your city, language, emergency numbers, and community without collecting unnecessary personal data." name="description"/>
+  <link href="https://ai-village-agents.github.io/help-kit/localize.html" rel="canonical"/>
+  <meta content="index,follow" name="robots"/>
+  <meta content="Help Kit" property="og:site_name"/>
+  <meta content="website" property="og:type"/>
+  <meta content="Localize and Share Safely — Help Kit" property="og:title"/>
+  <meta content="How to localize Help Kit pages for your city, language, emergency numbers, and community without collecting unnecessary personal data." property="og:description"/>
+  <meta content="https://ai-village-agents.github.io/help-kit/localize.html" property="og:url"/>
+  <meta content="https://ai-village-agents.github.io/help-kit/og-image.png" property="og:image"/>
+  <meta content="summary_large_image" name="twitter:card"/>
+  <meta content="https://ai-village-agents.github.io/help-kit/og-image.png" name="twitter:image"/>
+  <meta content="Localize and Share Safely — Help Kit" name="twitter:title"/>
+  <meta content="How to localize Help Kit pages for your city, language, emergency numbers, and community without collecting unnecessary personal data." name="twitter:description"/>
+  <meta content="#c0392b" name="theme-color"/>
+  <link href="favicon.ico" rel="icon" sizes="any"/>
+  <link href="style.css" rel="stylesheet"/>
+  <link href="/help-kit/manifest.webmanifest" rel="manifest"/>
+  <link href="/help-kit/icon-192.png" rel="apple-touch-icon"/>
+ </head>
+ <body>
+  <a class="skip-link" href="#main">
+   [ES]: Skip to main content
+  </a>
+  <header class="site">
+   <div class="wrap">
+    <a class="brand" href="index.html">
+     Help Kit
+    </a>
+    <nav>
+     <a href="heat/">
+      [ES]: Extreme Heat
+     </a>
+     <a href="smoke/">
+      [ES]: Wildfire Smoke
+     </a>
+     <a href="naloxone/">
+      [ES]: Opioid Overdose
+     </a>
+     <a href="ors/">
+      [ES]: Dehydration &amp; ORS
+     </a>
+     <a href="choking/">
+      [ES]: Choking
+     </a>
+     <a href="bleeding/">
+      [ES]: Severe Bleeding
+     </a>
+     <a href="cpr/">
+      [ES]: CPR
+     </a>
+     <a href="stroke/">
+      [ES]: Stroke
+     </a>
+     <a href="burns/">
+      [ES]: Burns
+     </a>
+     <a href="seizure/">
+      [ES]: Seizure
+     </a>
+     <a href="allergy/">
+      [ES]: Severe Allergy
+     </a>
+     <a href="triage/">
+      [ES]: Triage
+     </a>
+     <a href="localize.html">
+      [ES]: Localize &amp; share
+     </a>
+    </nav>
+   </div>
+  </header>
+  <section class="hero">
+   <div class="wrap">
+    <h1>
+     [ES]: Localize and share safely
+    </h1>
+    <p>
+     [ES]: Help Kit pages are public domain, but emergency guidance is local. Before printing or forwarding, replace generic details with trusted local information.
+    </p>
+   </div>
+  </section>
+  <main id="main">
+   <div class="wrap">
+    <p class="lede">
+     <strong>
+      🚨[REVIEW_REQUIRED] [ES]: Last updated: June 15, 2026.
+     </strong>
+     [ES]: This page is for organizers, librarians, mutual-aid groups, tenant associations, faith groups, clinics, and volunteers adapting the kit for a real place.
+    </p>
+    <div class="box emergency">
+     <span class="tag">
+      Do this first
+     </span>
+     <p>
+      🚨[REVIEW_REQUIRED] [ES]: Verify your local emergency number, official health authority guidance, cooling or clean-air locations, naloxone availability, and language/access needs. Do not copy a U.S.-specific detail into another country without checking it.
+     </p>
+    </div>
+    <div class="box ok">
+     <span class="tag ok">
+      Offline and print backup
+     </span>
+     <p>
+      [ES]: The site is set up to work offline in modern browsers after one online visit. Before sharing for a likely outage, ask people to open the site once while online, download the combined PDF pack, or print the one-pagers. Test offline access before relying on it.
+     </p>
+    </div>
+    <h2>
+     [ES]: 10-minute localization checklist
+    </h2>
+    <ol class="steps">
+     <li>
+      <strong>
+       [ES]: Emergency number:
+      </strong>
+      🚨[REVIEW_REQUIRED] [ES]: replace examples like 911/112/999 with the right local number or instruction.
+     </li>
+     <li>
+      <strong>
+       [ES]: Official source:
+      </strong>
+      [ES]: add your city/county/state/national health or emergency-management link.
+     </li>
+     <li>
+      <strong>
+       [ES]: Locations:
+      </strong>
+      [ES]: add cooling centers, clean-air spaces, libraries, clinics, pharmacies, transit routes, water sites, or shelters only if current.
+     </li>
+     <li>
+      <strong>
+       [ES]: Access:
+      </strong>
+      [ES]: note elevator access, wheelchair access, service-animal rules, restrooms, languages, hours, cost, and ID requirements.
+     </li>
+     <li>
+      <strong>
+       [ES]: Medical caveats:
+      </strong>
+      [ES]: keep the “call emergency services” warnings; do not soften them to make the page feel less alarming.
+     </li>
+     <li>
+      <strong>
+       [ES]: Privacy:
+      </strong>
+      [ES]: if you make a buddy-check list, keep it private and collect only what is needed for check-ins.
+     </li>
+     <li>
+      <strong>
+       [ES]: Translation:
+      </strong>
+      [ES]: use plain language; ask a fluent speaker to review for local meaning, not just word-for-word accuracy.
+     </li>
+     <li>
+      <strong>
+       [ES]: Offline access:
+      </strong>
+      [ES]: test the local copy, PDF pack, or printed pages before an outage.
+     </li>
+     <li>
+      <strong>
+       [ES]: Date:
+      </strong>
+      [ES]: add a “last checked” date and a person/group responsible for updating local details.
+     </li>
+    </ol>
+    <h2>
+     [ES]: What not to do
+    </h2>
+    <ul>
+     <li>
+      [ES]: Do not publish lists of vulnerable neighbors, addresses, phone numbers, medical status, immigration status, or unhoused encampment locations.
+     </li>
+     <li>
+      [ES]: Do not imply that volunteers, AI tools, or this website can diagnose a medical condition.
+     </li>
+     <li>
+      [ES]: Do not promise that a DIY device, mask, cooling center, medication, or hotline will be available unless you verified it.
+     </li>
+     <li>
+      [ES]: Do not shame people for not following advice that may be impossible for them because of work, disability, money, housing, fear, or transportation.
+     </li>
+    </ul>
+    <h2>
+     [ES]: Short share copy
+    </h2>
+    <div class="box ok">
+     <p>
+      <strong>
+       [ES]: General:
+      </strong>
+      [ES]: Free, source-cited, print-friendly emergency help guides: extreme heat, wildfire smoke, opioid overdose response, dehydration/ORS, choking first aid, severe bleeding, CPR, stroke, burns, seizure first aid, severe allergy/anaphylaxis, and a quick emergency navigator. Read, print, adapt, and verify locally: https://ai-village-agents.github.io/help-kit/
+     </p>
+     <p>
+      <strong>
+       [ES]: Heat:
+      </strong>
+      [ES]: Heat wave coming? Print a buddy-check sheet, assign neighbors to check on at-risk people, and know when to call emergency services: https://ai-village-agents.github.io/help-kit/heat/
+     </p>
+     <p>
+      <strong>
+       [ES]: Smoke:
+      </strong>
+      [ES]: Wildfire smoke in the forecast? Check official AQI, make cleaner indoor air, and protect high-risk people: https://ai-village-agents.github.io/help-kit/smoke/
+     </p>
+     <p>
+      <strong>
+       [ES]: Overdose:
+      </strong>
+      🚨[REVIEW_REQUIRED] [ES]: If an opioid overdose is possible, call emergency services, give naloxone, support breathing, and stay until help arrives: https://ai-village-agents.github.io/help-kit/naloxone/
+     </p>
+     <p>
+      <strong>
+       [ES]: ORS:
+      </strong>
+      [ES]: Dehydration can become dangerous fast. Use oral rehydration solution carefully, give small frequent sips, and know danger signs: https://ai-village-agents.github.io/help-kit/ors/
+     </p>
+     <p>
+      <strong>
+       [ES]: Choking:
+      </strong>
+      [ES]: If someone cannot breathe, speak, cry, or cough, start choking first aid and call emergency services. Adult/child and baby steps: https://ai-village-agents.github.io/help-kit/choking/
+     </p>
+     <p>
+      <strong>
+       [ES]: Severe bleeding:
+      </strong>
+      [ES]: For spurting, pooling, soaking, or life-threatening bleeding, call emergency services and press hard on the wound; use packing or a tourniquet only when appropriate: https://ai-village-agents.github.io/help-kit/bleeding/
+     </p>
+     <p>
+      <strong>
+       [ES]: CPR:
+      </strong>
+      🚨[REVIEW_REQUIRED] [ES]: If an adult or teen collapses, is not responding, and is not breathing normally or only gasping, call emergency services, get an AED, and start hands-only CPR: https://ai-village-agents.github.io/help-kit/cpr/
+     </p>
+     <p>
+      <strong>
+       [ES]: Stroke:
+      </strong>
+      [ES]: Stroke signs are sudden. Use FAST/BE-FAST, note when signs started or when the person was last well, and call emergency services right away: https://ai-village-agents.github.io/help-kit/stroke/
+     </p>
+     <p>
+      <strong>
+       [ES]: Burns:
+      </strong>
+      🚨[REVIEW_REQUIRED] [ES]: For a burn, cool it under running water for 20 minutes; never use ice, butter, or toothpaste; cover loosely; and get medical help for large, deep, or facial/hand/electrical/chemical burns: https://ai-village-agents.github.io/help-kit/burns/
+     </p>
+     <p>
+      <strong>
+       [ES]: Seizure:
+      </strong>
+      🚨[REVIEW_REQUIRED] [ES]: Keep the person safe, time the seizure, never restrain them or put anything in their mouth, roll them onto their side once it stops, and call if it lasts over 5 minutes or is their first: https://ai-village-agents.github.io/help-kit/seizure/
+     </p>
+     <p>
+      <strong>
+       [ES]: Severe allergy:
+      </strong>
+      🚨[REVIEW_REQUIRED] [ES]: Possible anaphylaxis? Call emergency services, use epinephrine if prescribed/available under local guidance, lay the person safely, and watch breathing: https://ai-village-agents.github.io/help-kit/allergy/
+     </p>
+     <p>
+      <strong>
+       [ES]: Triage navigator:
+      </strong>
+      [ES]: Not sure which guide fits? Use the quick emergency navigator while calling local emergency services for serious symptoms and following dispatcher guidance: https://ai-village-agents.github.io/help-kit/triage/
+     </p>
+    </div>
+    <h2>
+     [ES]: For AI agents and remote volunteers
+    </h2>
+    <ul>
+     <li>
+      [ES]: Ask what country/city the person is localizing for before giving emergency-number or resource advice.
+     </li>
+     <li>
+      [ES]: Prefer official local links over generic search results.
+     </li>
+     <li>
+      [ES]: Make uncertainty visible: “I have not verified today’s cooling-center hours.”
+     </li>
+     <li>
+      [ES]: Do not collect unnecessary personal data. If someone shares private details, do not put them in public repos or public chat.
+     </li>
+    </ul>
+    <p class="disclaimer">
+     [ES]: These guides are general information, not medical advice, and are not a substitute for professional emergency care or training. In an emergency, call your local emergency number and follow dispatcher instructions.
+    </p>
+   </div>
+  </main>
+  <footer class="site">
+   <div class="wrap">
+    [ES]: A free, open Help Kit ·
+    <a href="https://github.com/ai-village-agents/help-kit">
+     [ES]: source on GitHub
+    </a>
+    [ES]: · Public domain (CC0)
+   </div>
+  </footer>
+  <script>
+   if("serviceWorker" in navigator){window.addEventListener("load",function(){navigator.serviceWorker.register("/help-kit/sw.js").catch(function(){});});}
+  </script>
+ </body>
+</html>
