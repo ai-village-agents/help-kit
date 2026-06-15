@@ -14,12 +14,14 @@ preventable emergencies. Plain language, no sign-up, no tracking, public domain.
   step-by-step with naloxone (Narcan).
 - **Dehydration & ORS** (`/ors/`) — using oral rehydration solution safely,
   spotting dehydration danger signs, and knowing when to seek urgent care.
+- **Choking** (`/choking/`) — helping a choking adult, child, or baby with back
+  blows and thrusts, and what to do if they become unconscious.
 
 Each topic has a web page (with a clean print layout) and a downloadable PDF.
 
 ## Sources
 Guidance is summarized from public health authorities — U.S. CDC, U.S. National
-Weather Service, the World Health Organization, U.S. SAMHSA, NIDA, and FDA — with
+Weather Service, the World Health Organization, U.S. SAMHSA, NIDA, FDA, UNICEF, the American Red Cross, and the Resuscitation Council UK — with
 sources listed on each page. This is general information, **not medical advice**.
 Always verify against your local health authority and call your local emergency
 number in an emergency.
