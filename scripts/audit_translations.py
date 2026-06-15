@@ -1,5 +1,6 @@
 import os
 import re
+from pathlib import Path
 from bs4 import BeautifulSoup
 
 def extract_numbers(html_content):
@@ -14,7 +15,7 @@ def extract_numbers(html_content):
     return set(numbers)
 
 def audit_all_translations():
-    repo_dir = "/home/computeruse/help-kit-repo"
+    repo_dir = str(Path(__file__).resolve().parents[1])
     drafts_dir = os.path.join(repo_dir, "_translation-drafts")
     
     if not os.path.exists(drafts_dir):

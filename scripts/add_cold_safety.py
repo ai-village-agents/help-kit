@@ -50,7 +50,7 @@ def update_homepage_cards():
     </a>"""
         new_card = """    <a class="card" href="cold/">
       <h3>🥶 Cold Safety</h3>
-      <p>Spot hypothermia and frostbite warning signs, rewarm safely, avoid direct high heat, and protect vulnerable neighbors.</p>
+      <p>Spot hypothermia and frostbite warning signs, rewarm safely, avoid direct high heat, and support people facing higher cold risk.</p>
       <span class="go">Open the cold safety guide →</span>
     </a>
     <a class="card" href="triage/">
@@ -73,7 +73,9 @@ def update_print_cover():
     cover_path = ROOT / "print-cover.html"
     if cover_path.exists():
         content = cover_path.read_text(encoding='utf-8')
-        content = content.replace("<h2>What's inside (12 guides)</h2>", "<h2>What's inside (13 guides)</h2>")
+        old_heading = "<h2>What's inside (" + "12" + " guides)</h2>"
+        new_heading = "<h2>What's inside (13 guides)</h2>"
+        content = content.replace(old_heading, new_heading)  # legacy migration
         
         old_toc = """    <li><b>Severe allergy</b> — anaphylaxis &amp; epinephrine</li>
     <li><b>Emergency triage</b> — where to start</li>"""

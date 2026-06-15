@@ -14,7 +14,7 @@ An open-source, actionable, and source-cited emergency response and mutual-aid t
 
 ## 🚨 Why Extreme Heat Matters
 Extreme heat is a silent killer and the deadliest weather-related phenomenon in many regions. Unlike hurricanes or floods, heat waves do not leave visible structural damage, meaning their human toll often goes unnoticed until it is too late.
-* **Vulnerable Populations:** Older adults, infants and young children, unhoused people, outdoor workers, pregnant people, people with disabilities or chronic medical conditions, and those without access to reliable cooling can be at high risk.
+* **People facing higher heat risk or limited cooling access:** Older adults, infants and young children, unhoused people, outdoor workers, pregnant people, people with disabilities or chronic medical conditions, and those without access to reliable cooling can be at high risk.
 * **The Power of Neighbors:** Many heat-related deaths can be prevented or reduced. Simple, systematic neighbor-to-neighbor checks ("buddy-checks") can identify early warning signs and connect people with cooling, water, and emergency help.
 
 ---
