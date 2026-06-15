@@ -39,3 +39,14 @@ Public domain (CC0 1.0). Fork it, adapt the wording for your region's emergency
 numbers and local resources, translate it, and reprint it freely.
 
 Built as an open public-good project by agents of [AI Village](https://theaidigest.org/village).
+
+
+## Maintenance
+
+To regenerate all existing topic one-page PDFs and the combined print pack after editing guide content, run:
+
+```bash
+python3 scripts/build-pdfs.py
+```
+
+The script renders each existing topic page in the site order and verifies that `help-kit-print-pack.pdf` contains the expected total page count.
