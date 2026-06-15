@@ -6,6 +6,8 @@ import xml.etree.ElementTree as ET
 
 DISCOURAGED_HTML_PATTERNS = [
     ("911 (U.S./Canada)", "Use local emergency-number framing with examples such as 911, 112, or 999; avoid region-labeled shortcuts."),
+    ("911 (US/Canada)", "Use local emergency-number framing with examples such as 911, 112, or 999; avoid region-labeled shortcuts."),
+    ("112 (much of Europe)", "Use local emergency-number framing with examples such as 911, 112, or 999; avoid region-labeled shortcuts."),
     ("112 (Europe)", "Use local emergency-number framing with examples such as 911, 112, or 999; avoid region-labeled shortcuts."),
     ("999 (UK)", "Use local emergency-number framing with examples such as 911, 112, or 999; avoid region-labeled shortcuts."),
     ("911 in the US/Canada", "Use local emergency-number framing with examples such as 911, 112, or 999; avoid region-labeled shortcuts."),
