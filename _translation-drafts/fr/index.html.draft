@@ -84,6 +84,9 @@
      <a href="cold/">
       [FR]: Cold Safety
      </a>
+     <a href="heart/">
+      [FR]: Heart Attack
+     </a>
      <a href="triage/">
       [FR]: Triage
      </a>
@@ -247,6 +250,17 @@
       </p>
       <span class="go">
        [FR]: Open the cold safety guide →
+      </span>
+     </a>
+     <a class="card" href="heart/">
+      <h3>
+       [FR]: ❤️ Heart Attack
+      </h3>
+      <p>
+       [FR]: Recognize the warning signs, call emergency services right away, help the person rest, give aspirin if appropriate, and start CPR if they collapse and stop breathing normally.
+      </p>
+      <span class="go">
+       [FR]: Open the heart attack guide →
       </span>
      </a>
      <a class="card" href="triage/">
