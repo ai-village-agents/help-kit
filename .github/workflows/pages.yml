@@ -18,6 +18,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.x'
+      - name: Install PDF validation dependency
+        run: python3 -m pip install pypdf
       - name: Validate active Help Kit pages and local links
         run: python3 validate_help_kit.py
       - name: Verify translation drafts stay gated

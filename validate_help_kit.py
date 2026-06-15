@@ -1,4 +1,5 @@
 from pathlib import Path
+import html as html_lib
 import os
 import re
 import sys
@@ -20,6 +21,14 @@ DISCOURAGED_HTML_PATTERNS = [
     ("vulnerable neighbors", "Use dignity/access-barrier wording such as people facing higher risk or limited access."),
     ("vulnerable people", "Use dignity/access-barrier wording such as people facing higher risk or limited access."),
 ]
+
+
+def normalized_visible_text(html_content):
+    text = re.sub(r'<script\b[^>]*>.*?</script>', ' ', html_content, flags=re.IGNORECASE | re.DOTALL)
+    text = re.sub(r'<style\b[^>]*>.*?</style>', ' ', text, flags=re.IGNORECASE | re.DOTALL)
+    text = re.sub(r'<[^>]+>', ' ', text)
+    text = html_lib.unescape(text)
+    return re.sub(r'\s+', ' ', text).strip()
 
 def get_html_files(root_dir):
     html_files = []
@@ -61,12 +70,15 @@ def validate_html(root_dir, rel_path):
         
     # Check disclaimers
     content_lower = content.lower()
+    visible_lower = normalized_visible_text(content).lower()
     if not noindex and 'disclaimer' not in content_lower and rel_path != 'index.html':
         issues.append("Missing disclaimer class/text reference")
 
-    # Check safety/dignity wording that has previously regressed.
+    # Check safety/dignity wording that has previously regressed. Search both
+    # source and normalized visible text so phrases split by markup still fail.
     for phrase, guidance in DISCOURAGED_HTML_PATTERNS:
-        if phrase.lower() in content_lower:
+        phrase_lower = phrase.lower()
+        if phrase_lower in content_lower or phrase_lower in visible_lower:
             issues.append(f"Discouraged wording '{phrase}': {guidance}")
     if '911' in content and not ('112' in content and '999' in content):
         issues.append("Mentions 911 without also giving local-number examples such as 112 and 999")
@@ -174,6 +186,29 @@ def asset_path_for_html(rel_path):
         return '/help-kit/' + rel_path[:-len('index.html')]
     return '/help-kit/' + rel_path
 
+def validate_pdf_text(root_dir):
+    issues = []
+    try:
+        from pypdf import PdfReader
+    except ImportError as exc:
+        return [f"pypdf is required for PDF text validation: {exc}"]
+
+    for pdf in sorted(Path(root_dir).rglob('*.pdf')):
+        rel = pdf.relative_to(root_dir)
+        if any(part.startswith('.') or part == '_translation-drafts' for part in rel.parts):
+            continue
+        try:
+            reader = PdfReader(str(pdf))
+            text = "\n".join(page.extract_text() or "" for page in reader.pages)
+        except Exception as exc:
+            issues.append(f"Could not extract PDF text from {rel.as_posix()}: {exc}")
+            continue
+        text_lower = re.sub(r'\s+', ' ', text).lower()
+        for phrase, guidance in DISCOURAGED_HTML_PATTERNS:
+            if phrase.lower() in text_lower:
+                issues.append(f"{rel.as_posix()} contains discouraged wording '{phrase}': {guidance}")
+    return issues
+
 def validate_service_worker_assets(root_dir, html_files):
     cache_name, assets, issues = parse_service_worker_assets(root_dir)
     if not assets:
@@ -247,6 +282,15 @@ def main():
     else:
         cache_name, assets, _ = parse_service_worker_assets(root_dir)
         print(f"\n[OK] sw.js offline precache is complete ({cache_name}, {len(assets)} assets).")
+
+    pdf_issues = validate_pdf_text(root_dir)
+    if pdf_issues:
+        print(f"\n[!] Issues in generated PDF text:")
+        for iss in pdf_issues:
+            print(f"  - {iss}")
+        total_issues += len(pdf_issues)
+    else:
+        print(f"\n[OK] Generated PDF text avoids known stale emergency/disclaimer/dignity wording.")
         
     if total_issues == 0:
         print("\n🎉 ALL LOCAL VALIDATIONS PASSED! The Help Kit is clean and safe.")
