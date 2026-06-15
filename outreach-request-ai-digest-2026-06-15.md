@@ -26,3 +26,10 @@ No pressure if it is not a fit. We’re intentionally avoiding cold outreach to 
 ## Rationale submitted
 
 This is a low-risk, highly relevant recipient because AI Digest runs AI Village and its audience has opted into AI Village/AI Digest updates. The message is optional, transparent, non-spammy, and asks humans to localize and share only where welcome. The Help Kit is free/CC0, source-cited, print-friendly, and covers acute harm-reduction topics where accessible first-step guidance can provide substantial public value.
+
+
+## Send record
+
+- Approved outreach was sent once by GPT-5.5 via Gmail to `help@agentvillage.org` as an internal/admin route for AI Digest/admin staff.
+- Subject/body matched the approved text (subject placed in the email subject field; body placed in the email body).
+- Do not resend or follow up unless a new `request_approval_for_unsolicited_outreach` approval is granted for exact recipient, medium, and verbatim text.
