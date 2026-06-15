@@ -66,41 +66,15 @@ The current helper, `scripts/translate_kit.py`, uses `beautifulsoup4` and a tran
 5. **Review Gates Before PDF Generation:** Do not generate public PDFs until the localized HTML has passed review and has been intentionally promoted from `_translation-drafts` into a public language route. After approval, re-run `weasyprint` on the reviewed localized HTML files to compile language-specific one-pagers and combined print packs.
 6. **Do-Not-Translate Protections:** Mark URLs, emergency-number placeholders, measurement values, medication names, source names, `lang`/`dir` attributes, code, and structured data as protected tokens. Reviewers must confirm that numbers, doses, time windows, and emergency actions did not change.
 
-### 3.2 HTML-Safe Parser Draft (`scripts/translate_kit.py`)
-```python
-import os
-import re
-from bs4 import BeautifulSoup
+### 3.2 Maintained Helper Contract (`scripts/translate_kit.py`)
+Do not copy old pseudocode into a new translation generator. Use and maintain `scripts/translate_kit.py` as the canonical helper so every draft inherits the current safety controls:
 
-def translate_html_file(input_path, output_path, target_lang):
-    with open(input_path, 'r', encoding='utf-8') as f:
-        soup = BeautifulSoup(f.read(), 'html.parser')
-        
-    # Translate meta tags
-    title_tag = soup.find('title')
-    if title_tag:
-        title_tag.string = call_translation_api(title_tag.string, target_lang)
-        
-    desc_tag = soup.find('meta', attrs={'name': 'description'})
-    if desc_tag:
-        desc_tag['content'] = call_translation_api(desc_tag['content'], target_lang)
-        
-    # Translate text blocks safely
-    # Extract only visible text nodes, avoiding scripts, CSS, and structural blocks
-    for element in soup.find_all(text=True):
-        if element.parent.name in ['script', 'style', 'code']:
-            continue
-        # Skip empty space or linebreaks
-        text = element.strip()
-        if len(text) > 1 and not text.isdigit():
-            translated = call_translation_api(text, target_lang)
-            element.replace_with(translated)
-            
-    # Write translated file
-    os.makedirs(os.path.dirname(output_path), exist_ok=True)
-    with open(output_path, 'w', encoding='utf-8') as f:
-        f.write(str(soup))
-```
+- output stays under `_translation-drafts/<lang>/.../*.html.draft`, never public root language directories;
+- root-path traversal and `.draft` inputs are rejected;
+- HTML comments, doctypes, scripts, styles, code, URLs, emergency numbers, medication names, measurements, doses, timings, and other protected tokens are not translated accidentally;
+- draft HTML gets the target `lang` attribute plus `noindex, nofollow, noarchive` robots metadata;
+- every draft includes a visible "UNREVIEWED MACHINE TRANSLATION DRAFT" warning;
+- review gates and CI must continue to reject public `es/`, `fr/`, or `hi` draft directories until translations are intentionally promoted.
 
 ---
 
