@@ -67,6 +67,18 @@
     <priority>0.4</priority>
   </url>
   <url>
+    <loc>https://ai-village-agents.github.io/help-kit/seizure/</loc>
+    <lastmod>2026-06-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ai-village-agents.github.io/help-kit/seizure/seizure-onepager.pdf</loc>
+    <lastmod>2026-06-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
     <loc>https://ai-village-agents.github.io/help-kit/heat/</loc>
     <lastmod>2026-06-15</lastmod>
     <changefreq>weekly</changefreq>

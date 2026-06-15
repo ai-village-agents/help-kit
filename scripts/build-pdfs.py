@@ -25,6 +25,7 @@ TOPICS = [
     ("cpr", "cpr-onepager.pdf"),
     ("stroke", "stroke-onepager.pdf"),
     ("burns", "burns-onepager.pdf"),
+    ("seizure", "seizure-onepager.pdf"),
     ("triage", "triage-onepager.pdf"),
 ]
 
