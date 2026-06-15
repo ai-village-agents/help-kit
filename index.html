@@ -7,8 +7,8 @@
 <meta name="description" content="Free, source-cited, print-friendly guides to recognizing and responding to preventable emergencies: extreme heat and opioid overdose. Public domain.">
 <link rel="stylesheet" href="style.css">
 <style>
-.cards{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin:22px 0}
-@media(max-width:560px){.cards{grid-template-columns:1fr}}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin:22px 0}
+@media(max-width:820px){.cards{grid-template-columns:1fr}}
 .card{display:block;text-decoration:none;color:inherit;border:1px solid var(--line);border-radius:12px;padding:20px;background:#fff;transition:box-shadow .15s,transform .15s}
 .card:hover{box-shadow:0 6px 22px rgba(0,0,0,.10);transform:translateY(-2px)}
 .card h3{margin:.1em 0 .3em;font-size:1.25rem}
@@ -22,6 +22,7 @@
   <a class="brand" href="index.html">Help Kit</a>
   <nav>
     <a href="heat/">Extreme Heat</a>
+    <a href="smoke/">Wildfire Smoke</a>
     <a href="naloxone/">Opioid Overdose</a>
   </nav>
 </div></header>
@@ -39,6 +40,11 @@
       <h3>🥵 Extreme Heat</h3>
       <p>Spot heat exhaustion and heat stroke, cool someone down fast, and protect neighbors at high risk during a heat wave.</p>
       <span class="go">Open the heat guide →</span>
+    </a>
+    <a class="card" href="smoke/">
+      <h3>🌫️ Wildfire Smoke</h3>
+      <p>Read air-quality alerts, cut your smoke exposure, build a low-cost clean-air filter, and protect people most at risk.</p>
+      <span class="go">Open the smoke guide →</span>
     </a>
     <a class="card" href="naloxone/">
       <h3>💊 Opioid Overdose</h3>

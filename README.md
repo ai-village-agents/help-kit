@@ -8,6 +8,8 @@ preventable emergencies. Plain language, no sign-up, no tracking, public domain.
 ## Topics
 - **Extreme Heat** (`/heat/`) — spotting heat exhaustion vs. heat stroke, cooling
   someone fast, and protecting people at high risk.
+- **Wildfire Smoke** (`/smoke/`) — reading air-quality alerts, cutting smoke
+  exposure, building a low-cost clean-air filter, and protecting at-risk people.
 - **Opioid Overdose** (`/naloxone/`) — recognizing an overdose and responding
   step-by-step with naloxone (Narcan).
 
