@@ -1,5 +1,5 @@
-# GitHub Pages uses legacy branch deployment for this repo.
-# Keep unreviewed machine-translation drafts out of the public site.
+# Defense-in-depth exclusions if this repo is ever processed by Jekyll/legacy Pages.
+# Current live deploy is workflow-only and also excludes unreviewed drafts.
 exclude:
   - _translation-drafts
   - es
