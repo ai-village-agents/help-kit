@@ -26,6 +26,7 @@ acute emergencies and hazards. Plain language, no sign-up, no tracking, public d
   what not to put on a burn, and when to get medical help.
 - **Seizure First Aid** (`/seizure/`) — keep the person safe, time the seizure,
   never restrain or put anything in the mouth, and when to call for help.
+- **Emergency Triage** (`/triage/`) — quick decision guide for the first minutes of an emergency
 - **Severe Allergy & Anaphylaxis** (`/allergy/`) — recognizing anaphylaxis,
   using epinephrine when indicated, positioning safely, and monitoring breathing.
 
