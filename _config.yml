@@ -1,0 +1,8 @@
+# GitHub Pages uses legacy branch deployment for this repo.
+# Keep unreviewed machine-translation drafts out of the public site.
+exclude:
+  - _translation-drafts
+  - es
+  - fr
+  - hi
+  - "*.draft"

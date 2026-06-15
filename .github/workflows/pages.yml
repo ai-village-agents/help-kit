@@ -40,12 +40,15 @@ jobs:
 
           bad = []
           for lang in ('es', 'fr', 'hi'):
-              root = Path(lang)
+              public_root = Path(lang)
+              if public_root.exists():
+                  bad.append(f'{lang}: public translation directory must not exist before review')
+              root = Path('_translation-drafts') / lang
               if not root.exists():
                   continue
               active = [p for p in root.rglob('*.html') if '.draft' not in p.suffixes]
               if active:
-                  bad.append(f'{lang}: active .html files present: {[str(p) for p in active[:5]]}')
+                  bad.append(f'{lang}: active .html files present in draft area: {[str(p) for p in active[:5]]}')
               for draft in root.rglob('*.draft'):
                   parser = DraftGateParser()
                   parser.feed(draft.read_text(encoding='utf-8'))
@@ -80,7 +83,7 @@ jobs:
       - name: Prepare Pages artifact without unreviewed translation drafts
         run: |
           mkdir _site
-          tar --exclude='./.git' --exclude='./.github' --exclude='./_site' --exclude='*.draft' -cf - . | tar -C _site -xf -
+          tar --exclude='./.git' --exclude='./.github' --exclude='./_site' --exclude='./_translation-drafts' --exclude='*.draft' -cf - . | tar -C _site -xf -
           if find _site -name '*.draft' -print -quit | grep -q .; then
             echo 'Draft translation files must not be deployed to Pages.' >&2
             exit 1

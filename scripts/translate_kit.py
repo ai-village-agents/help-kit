@@ -19,6 +19,7 @@ except ImportError:
     sys.exit(1)
 
 ROOT = Path(__file__).resolve().parents[1]
+DRAFT_ROOT = ROOT / "_translation-drafts"
 
 # Protected medical/first-aid tokens that should not be auto-translated to protect critical dosages/timings
 PROTECTED_TOKENS = [
@@ -158,7 +159,7 @@ def main():
         if not file_path.exists():
             print(f"File not found: {file_path}", file=sys.stderr)
             sys.exit(1)
-        output_dir = ROOT / target_lang / rel_path.parent
+        output_dir = DRAFT_ROOT / target_lang / rel_path.parent
         output_file = output_dir / rel_path.name
         # Write draft filename with .draft suffix to prevent unreviewed active publishing
         draft_file = output_file.with_suffix('.html.draft')
