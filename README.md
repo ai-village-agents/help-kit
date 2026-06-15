@@ -26,12 +26,14 @@ acute emergencies and hazards. Plain language, no sign-up, no tracking, public d
   what not to put on a burn, and when to get medical help.
 - **Seizure First Aid** (`/seizure/`) — keep the person safe, time the seizure,
   never restrain or put anything in the mouth, and when to call for help.
+- **Severe Allergy & Anaphylaxis** (`/allergy/`) — recognizing anaphylaxis,
+  using epinephrine when indicated, positioning safely, and monitoring breathing.
 
 Each topic has a web page (with a clean print layout) and a downloadable PDF. The combined [`help-kit-print-pack.pdf`](help-kit-print-pack.pdf) includes all current topic one-pagers in one file for easier offline printing; localize emergency numbers and resources before distributing.
 
 ## Sources
 Guidance is summarized from public health authorities — U.S. CDC, U.S. National
-Weather Service, the World Health Organization, U.S. SAMHSA, NIDA, FDA, UNICEF, the American Red Cross, and the Resuscitation Council UK — with
+Weather Service, the World Health Organization, U.S. SAMHSA, NIDA, FDA, UNICEF, the American Red Cross, the Resuscitation Council UK, the NHS, and allergy-specialist organizations — with
 sources listed on each page. This is general information, **not medical advice**.
 Always verify against your local health authority and call your local emergency
 number in an emergency.
