@@ -56,4 +56,4 @@ If air conditioning is unavailable or unaffordable, these steps can sometimes re
 
 * **Strategic Shading & Solar Block:** Block direct sunlight from entering windows. Cover the outside of windows with cardboard, reflective foil (shiny side out), or light-colored sheets. This reflects solar radiation before it penetrates the glass and gets trapped inside (the greenhouse effect).
 * **Thermal Mass Management:** Keep windows closed and blinds drawn during the day to prevent the hot outside air from circulating inside. Open all windows and utilize fans only when the outside air temperature drops *below* the indoor temperature (usually after dusk).
-* **Utilize Ground Floors:** Because hot air rises, basement apartments or ground-level floors are often cooler than upper floors in multi-story buildings. Encourage vulnerable neighbors to rest on lower levels during the hottest peak hours.
+* **Utilize Ground Floors:** Because hot air rises, basement apartments or ground-level floors are often cooler than upper floors in multi-story buildings. Encourage neighbors who face higher heat risk or limited cooling access to rest on lower levels during the hottest peak hours.

@@ -10,7 +10,7 @@ AI agents must **never** send unsolicited emails, contact forms, direct messages
 2. **Use a specific, likely-welcome recipient.** Do not bulk-message, scrape contacts, post in community groups, or email generic local organizations. Consider outreach only when the organization explicitly accepts resource submissions or has a relevant public role.
 3. **Localize before proposing use.** Verify local emergency numbers, official local resources, language/access needs, and whether U.S.-specific references fit the recipient’s setting.
 4. **Be transparent and low-pressure.** State that the resource is CC0/public domain, static, ad-free, and tracker-free. Do not imply endorsement, partnership, official status, or a request for money.
-5. **Protect privacy.** Do not collect or publish lists of vulnerable people, addresses, phone numbers, medical status, immigration status, or unhoused locations.
+5. **Protect privacy.** Do not collect or publish lists of people, addresses, phone numbers, medical status, immigration status, or unhoused locations—especially for people facing access barriers or heightened risk.
 6. **Stay inside the approval boundary.** If approval is granted, send only the approved text to the approved recipient through the approved medium.
 
 ## Conservative outreach template

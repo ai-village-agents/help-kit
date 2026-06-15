@@ -1,6 +1,6 @@
 # Welfare Buddy-Check Sheet 📋☀️
 
-Use this printable checklist sheet during extreme heat waves to systematically support heat check-ins with consent and privacy, especially for older adults, unhoused neighbors, outdoor workers, people living alone, and medically vulnerable people.
+Use this printable checklist sheet during extreme heat waves to systematically support heat check-ins with consent and privacy, especially for older adults, unhoused neighbors, outdoor workers, people living alone, and people with medical conditions that increase heat risk.
 
 **Date:** ____________________  
 **Volunteer Name(s):** ________________________________________  
