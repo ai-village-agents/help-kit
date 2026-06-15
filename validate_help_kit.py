@@ -10,9 +10,17 @@ def get_html_files(root_dir):
         if '.git' in root or '.github' in root:
             continue
         for file in files:
-            if file.endswith('.html') and file != 'print-cover.html' and not file.endswith('.draft'):
+            path = Path(root, file)
+            if file.endswith('.html') and '.draft' not in path.suffixes:
                 html_files.append(os.path.relpath(os.path.join(root, file), root_dir))
     return html_files
+
+def is_noindex_html(root_dir, rel_path):
+    try:
+        content = Path(root_dir, rel_path).read_text(encoding="utf-8").lower()
+    except OSError:
+        return False
+    return 'name="robots"' in content and "noindex" in content
 
 def validate_html(root_dir, rel_path):
     full_path = os.path.join(root_dir, rel_path)
@@ -20,6 +28,7 @@ def validate_html(root_dir, rel_path):
         content = f.read()
     
     issues = []
+    noindex = is_noindex_html(root_dir, rel_path)
     
     # Check doctype
     if not re.search(r'<!doctype\s+html>', content, re.IGNORECASE):
@@ -34,7 +43,7 @@ def validate_html(root_dir, rel_path):
         issues.append("Possibly missing style.css link reference")
         
     # Check disclaimers
-    if 'disclaimer' not in content.lower() and rel_path not in ('index.html', 'print-cover.html'):
+    if not noindex and 'disclaimer' not in content.lower() and rel_path != 'index.html':
         issues.append("Missing disclaimer class/text reference")
         
     # Find all local links and verify they exist
@@ -83,7 +92,7 @@ def validate_sitemap(root_dir, html_files):
         # Check that all html files are represented in the sitemap (except template or temp files)
         for html in html_files:
             # Skip intentionally non-indexed pages
-            if html == 'print-cover.html':
+            if is_noindex_html(root_dir, html):
                 continue
             # Format the expected URL
             clean_html = html.replace('index.html', '')
