@@ -18,8 +18,8 @@ acute emergencies and hazards. Plain language, no sign-up, no tracking, public d
   blows and thrusts, and what to do if they become unconscious.
 - **Severe Bleeding** (`/bleeding/`) — stopping life-threatening bleeding with
   firm direct pressure, wound packing, and tourniquet basics (Stop the Bleed).
-- **Hands-Only CPR** (`/cpr/`) — recognizing sudden cardiac arrest and keeping
-  someone alive with chest compressions and an AED until help arrives.
+- **Hands-Only CPR** (`/cpr/`) — recognizing sudden cardiac arrest and helping
+  keep blood moving with chest compressions and an AED until help arrives.
 - **Stroke (FAST)** (`/stroke/`) — spotting a stroke fast (Face, Arm, Speech,
   Time, plus Balance and Eyes) and calling for help without delay.
 - **Burns & Scalds** (`/burns/`) — cool a burn with running water for 20 minutes,
