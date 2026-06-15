@@ -34,7 +34,7 @@ def validate_html(root_dir, rel_path):
         issues.append("Possibly missing style.css link reference")
         
     # Check disclaimers
-    if 'disclaimer' not in content.lower() and rel_path != 'index.html':
+    if 'disclaimer' not in content.lower() and rel_path not in ('index.html', 'print-cover.html'):
         issues.append("Missing disclaimer class/text reference")
         
     # Find all local links and verify they exist
@@ -82,6 +82,9 @@ def validate_sitemap(root_dir, html_files):
         
         # Check that all html files are represented in the sitemap (except template or temp files)
         for html in html_files:
+            # Skip intentionally non-indexed pages
+            if html == 'print-cover.html':
+                continue
             # Format the expected URL
             clean_html = html.replace('index.html', '')
             expected_suffix = f"help-kit/{clean_html}".replace('//', '/')
