@@ -421,6 +421,13 @@ def validate_service_worker_assets(root_dir, html_files):
         return issues
     asset_set = set(assets)
 
+    if Path(root_dir, '404.html').exists():
+        if '/help-kit/404.html' not in asset_set:
+            issues.append("sw.js should precache /help-kit/404.html for styled offline navigation fallback")
+        sw_text = Path(root_dir, 'sw.js').read_text(encoding='utf-8')
+        if 'req.mode === "navigate"' not in sw_text or 'caches.match("/help-kit/404.html")' not in sw_text:
+            issues.append("sw.js should serve /help-kit/404.html as the offline navigation fallback so unknown URLs stay styled")
+
     for asset in assets:
         if not asset.startswith('/help-kit/'):
             issues.append(f"sw.js asset is outside /help-kit/: {asset}")
