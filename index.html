@@ -29,6 +29,11 @@
 .card p{margin:.2em 0 0;color:var(--muted);font-size:.98rem}
 .card .go{display:inline-block;margin-top:12px;font-weight:700;color:var(--accent)}
 .intro{font-size:1.12rem;max-width:54ch}
+.search-container{margin:20px 0;display:block}
+.search-label{display:block;font-weight:700;margin-bottom:8px}
+.search-input{width:100%;padding:12px;font-size:1.05rem;border:2px solid var(--line);border-radius:8px;background:var(--card);color:var(--ink)}
+.search-input:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+.search-count{margin-top:8px;font-size:.9rem;color:var(--muted)}
 </style>
   <link rel="manifest" href="/help-kit/manifest.webmanifest">
   <link rel="apple-touch-icon" href="/help-kit/icon-192.png">
@@ -97,73 +102,79 @@
     <a class="btn alt" href="localize.html">Localize before sharing</a>
   </div>
 
+  <div class="search-container no-print">
+    <label for="search-input" class="search-label">Search emergency guides:</label>
+    <input type="text" id="search-input" class="search-input" placeholder="Type keywords, symptoms, or remedies (e.g., CPR, heat, bleed, burn)..." aria-describedby="search-count">
+    <div id="search-count" class="search-count" aria-live="polite">Showing all 14 guides</div>
+  </div>
+
   <div class="cards">
-    <a class="card" href="heat/">
+    <a class="card" href="heat/" data-keywords="heat stroke exhaustion high body temperature cooling water dehydration buddy check door flyer">
       <h3>🥵 Extreme Heat</h3>
       <p>Spot heat exhaustion and heat stroke, cool someone down fast, and protect neighbors at high risk during a heat wave.</p>
       <span class="go">Open the heat guide →</span>
     </a>
-    <a class="card" href="smoke/">
+    <a class="card" href="smoke/" data-keywords="wildfire smoke particulate filter box fan air merv-13 corsi-rosenthal masks n95 kn95 quality">
       <h3>🌫️ Wildfire Smoke</h3>
       <p>Read air-quality alerts, cut your smoke exposure, build a low-cost clean-air filter, and protect people most at risk.</p>
       <span class="go">Open the smoke guide →</span>
     </a>
-    <a class="card" href="naloxone/">
+    <a class="card" href="naloxone/" data-keywords="opioid overdose naloxone narcan respiratory depression unresponsive pinpoint pupils breathing drug">
       <h3>💊 Opioid Overdose</h3>
       <p>Recognize a possible overdose and respond step by step with naloxone (Narcan), an emergency medicine that may reverse opioid overdose while help is coming.</p>
       <span class="go">Open the overdose guide →</span>
     </a>
-    <a class="card" href="ors/">
+    <a class="card" href="ors/" data-keywords="oral rehydration salts dehydration diarrhea vomiting water sugar zinc electrolyte recipe pediatric baby">
       <h3>💧 Dehydration & ORS</h3>
       <p>Use oral rehydration solution safely, spot dehydration danger signs, and know when to seek urgent care.</p>
       <span class="go">Open the ORS guide →</span>
     </a>
-    <a class="card" href="choking/">
+    <a class="card" href="choking/" data-keywords="choking first-aid throat block breathing back blows abdominal thrusts baby pregnant obese infant sweep rescue">
       <h3>🫁 Choking</h3>
       <p>Help a choking adult, child, or baby with back blows and thrusts — and know what to do if they go unconscious.</p>
       <span class="go">Open the choking guide →</span>
     </a>
-    <a class="card" href="bleeding/">
+    <a class="card" href="bleeding/" data-keywords="severe bleeding pressure packing gauze wound tourniquet limb arm leg stop the bleed shock object">
       <h3>🩸 Severe Bleeding</h3>
       <p>Slow or stop life-threatening bleeding with firm pressure, wound packing, and tourniquet basics — and know when to use each.</p>
       <span class="go">Open the bleeding guide →</span>
     </a>
-    <a class="card" href="cpr/">
+    <a class="card" href="cpr/" data-keywords="hands-only cpr sudden cardiac arrest chest compressions dispatcher speaker phone aed rescue breaths baby pediatric">
       <h3>❤️ Hands-Only CPR</h3>
       <p>If someone collapses and isn't breathing normally: call for help, push hard and fast on the centre of the chest, and use an AED.</p>
       <span class="go">Open the CPR guide →</span>
     </a>
-    <a class="card" href="stroke/">
+    <a class="card" href="stroke/" data-keywords="stroke brain fast be-fast face arm speech time droop drift vision slurred balance emergency call">
       <h3>🧠 Stroke (FAST)</h3>
       <p>Spot possible stroke signs fast — Face drooping, Arm weakness, Speech trouble, Time to call — and get urgent help immediately.</p>
       <span class="go">Open the stroke guide →</span>
     </a>
-    <a class="card" href="burns/">
+    <a class="card" href="burns/" data-keywords="burns first aid heat skin fire cool running water blisters clean cling wrap chemical electrical folk remedies">
       <h3>🔥 Burns &amp; Scalds</h3>
       <p>Cool a burn with running water for 20 minutes, never use ice or butter, cover it loosely, and know when a burn needs medical help.</p>
       <span class="go">Open the burns guide →</span>
     </a>
-    <a class="card" href="seizure/">
+    <a class="card" href="seizure/" data-keywords="seizure convulsions shaking safety head protect time recovery position mouth objects swallowing tongue restraint">
       <h3>🧠 Seizure First Aid</h3>
       <p>Keep the person safe, time the seizure, never restrain them or put anything in their mouth, roll them onto their side after, and know when to call.</p>
       <span class="go">Open the seizure guide →</span>
     </a>
-    <a class="card" href="allergy/">
+    <a class="card" href="allergy/" data-keywords="severe allergy anaphylaxis epinephrine auto-injector outer thigh injector throat swelling breathing sting lay flat position rescue">
       <h3>⚠️ Severe Allergy</h3>
       <p>Recognize anaphylaxis, call emergency services, use epinephrine when indicated, position safely, and watch breathing.</p>
       <span class="go">Open the allergy guide →</span>
     </a>
-    <a class="card" href="cold/">
+    <a class="card" href="cold/" data-keywords="cold weather safety extreme frostbite hypothermia shivering numbness rewarming warm water dry blankets friction rub skin">
       <h3>🥶 Cold Safety</h3>
       <p>Spot hypothermia and frostbite warning signs, rewarm safely, avoid direct high heat, and protect neighbors facing higher risk.</p>
       <span class="go">Open the cold safety guide →</span>
     </a>
-    <a class="card" href="heart/">
+    <a class="card" href="heart/" data-keywords="heart attack chest pain pressure jaw pain shortness of breath arm pain sweat vomiting ask about aspirin dispatcher no exertion">
       <h3>❤️ Heart Attack</h3>
       <p>Recognize the warning signs, call emergency services right away, help the person rest, ask about aspirin only if dispatcher/clinician/local protocol says, and start CPR if breathing stops.</p>
       <span class="go">Open the heart attack guide →</span>
     </a>
-    <a class="card" href="triage/">
+    <a class="card" href="triage/" data-keywords="emergency triage navigator index symptoms decisions tree responsive unconscious bleed check scene dispatcher phone">
       <h3>🚦 Emergency Triage</h3>
       <p>Quick decision guide for the first minutes of an emergency.</p>
       <span class="go">Open the triage guide →</span>
@@ -194,5 +205,45 @@
   A free, open Help Kit &middot; <a href="https://github.com/ai-village-agents/help-kit">source on GitHub</a> &middot; Public domain (CC0 1.0)
 </div></footer>
 <script>if("serviceWorker" in navigator){window.addEventListener("load",function(){navigator.serviceWorker.register("/help-kit/sw.js").catch(function(){});});}</script>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  var searchInput = document.getElementById('search-input');
+  var searchCount = document.getElementById('search-count');
+  var cards = document.querySelectorAll('.cards a.card');
+  if (!searchInput || !cards.length) return;
+
+  searchInput.addEventListener('input', function() {
+    var query = searchInput.value.toLowerCase().trim();
+    var count = 0;
+    cards.forEach(function(card) {
+      var h3 = card.querySelector('h3');
+      var p = card.querySelector('p');
+      var keywords = card.getAttribute('data-keywords') || '';
+      var text = (h3 ? h3.textContent : '') + ' ' + (p ? p.textContent : '') + ' ' + keywords;
+      text = text.toLowerCase();
+      var match = true;
+      if (query) {
+        var terms = query.split(/\s+/);
+        terms.forEach(function(term) {
+          if (text.indexOf(term) === -1) {
+            match = false;
+          }
+        });
+      }
+      if (match) {
+        card.style.display = '';
+        count++;
+      } else {
+        card.style.display = 'none';
+      }
+    });
+    if (!query) {
+      searchCount.textContent = 'Showing all 14 guides';
+    } else {
+      searchCount.textContent = 'Showing ' + count + ' of 14 guides matching "' + searchInput.value + '"';
+    }
+  });
+});
+</script>
 </body>
 </html>
