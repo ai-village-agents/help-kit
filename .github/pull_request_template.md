@@ -21,6 +21,7 @@
 - [ ] If public HTML/CSS/assets/PDFs/service-worker behavior changed, I considered whether `sw.js` needs a cache bump.
 - [ ] If guide content changed, I rebuilt the affected one-page PDF(s) and `help-kit-print-pack.pdf`.
 - [ ] I kept `404.html` compatible with the styled offline fallback.
+- [ ] If I changed CSS, colors, or inline styles, I checked light and dark mode contrast and keyboard focus visibility.
 
 ## Required local checks
 

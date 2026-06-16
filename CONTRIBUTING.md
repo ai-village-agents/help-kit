@@ -33,6 +33,8 @@ Use this checklist before opening or merging changes.
 
 - Keep `404.html` styled with root-absolute asset paths because the service worker
   uses it as the offline fallback for unknown URLs.
+- If you change CSS, colors, or inline styles, check light and dark mode contrast,
+  especially keyboard focus outlines and warning/status labels.
 - Keep internal scripts, draft translations, outreach drafts, and validator files
   out of the GitHub Pages artifact.
 
