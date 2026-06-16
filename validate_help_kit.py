@@ -1,5 +1,6 @@
 from pathlib import Path
 import html as html_lib
+import json
 import os
 import re
 import sys
@@ -109,9 +110,12 @@ def validate_html(root_dir, rel_path):
     json_ld_parser = _JsonLdParser()
     json_ld_parser.feed(content)
     for block in json_ld_parser.blocks:
+        try:
+            json.loads(block)
+        except json.JSONDecodeError as exc:
+            issues.append(f"JSON-LD structured data is not valid JSON: {exc}")
         if re.search(r'</?[a-z][^>]*>', block, re.IGNORECASE):
             issues.append("JSON-LD structured data should not contain HTML markup such as <em> in text fields")
-            break
 
     if '911' in content and not ('112' in content and '999' in content):
         issues.append("Mentions 911 without also giving local-number examples such as 112 and 999")
