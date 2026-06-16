@@ -37,7 +37,7 @@ li{margin:.32em 0}
 .box.ok{border-left-color:var(--ok);background:var(--ok-soft)}
 .box h3{margin-top:.1em}
 .tag{display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase;padding:2px 8px;border-radius:20px;color:#fff;background:var(--accent)}
-.tag.warn{background:var(--warn)} .tag.ok{background:var(--ok)}
+.tag.warn{background:var(--warn);color:var(--ink)} .tag.ok{background:var(--ok)}
 .two{display:grid;grid-template-columns:1fr 1fr;gap:14px}
 @media(max-width:560px){.two{grid-template-columns:1fr}}
 .steps{counter-reset:step;list-style:none;padding-left:0}
