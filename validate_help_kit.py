@@ -313,6 +313,38 @@ def validate_public_markdown_text(root_dir):
     return issues
 
 
+def validate_self_hosting_base_path_docs(root_dir):
+    """Keep fork/self-host instructions honest about root-absolute paths.
+
+    The static site intentionally uses `/help-kit/` paths for GitHub Pages and
+    offline precaching. People adapting a local copy need this warning before
+    relying on offline mode or sharing links under a different route.
+    """
+    readme = Path(root_dir, 'README.md')
+    if not readme.exists():
+        return ["README.md is missing"]
+
+    text = readme.read_text(encoding='utf-8', errors='replace')
+    compact = re.sub(r'\s+', ' ', text).lower()
+    issues = []
+    required_phrases = [
+        '/help-kit/',
+        'root-absolute',
+        'offline mode',
+        'html',
+        'sw.js',
+        'manifest.webmanifest',
+        'robots.txt',
+        'sitemap.xml',
+        'llms.txt',
+        'canonical/metadata urls',
+    ]
+    for phrase in required_phrases:
+        if phrase not in compact:
+            issues.append(f"README self-hosting guidance should mention {phrase!r} so forks update path-dependent files")
+    return issues
+
+
 PAGES_WORKFLOW_REQUIRED_EXCLUDES = [
     "--exclude='./_translation-drafts'",
     "--exclude='./scripts'",
@@ -661,6 +693,15 @@ def main():
         total_issues += len(markdown_issues)
     else:
         print(f"\n[OK] Public Markdown docs avoid known stale safety/count wording.")
+
+    self_hosting_issues = validate_self_hosting_base_path_docs(root_dir)
+    if self_hosting_issues:
+        print(f"\n[!] Issues in README self-hosting path guidance:")
+        for iss in self_hosting_issues:
+            print(f"  - {iss}")
+        total_issues += len(self_hosting_issues)
+    else:
+        print(f"\n[OK] README self-hosting guidance warns about /help-kit/ base-path updates.")
 
     text_issues = validate_public_plain_text(root_dir)
     if text_issues:
