@@ -72,8 +72,12 @@ self.addEventListener("fetch", (e) => {
         }
         return res;
       }).catch(() => {
-        // Offline fallback for page navigations: serve the home page.
-        if (req.mode === "navigate") return caches.match("/help-kit/");
+        // Offline fallback for page navigations: serve the styled custom 404
+        // page (it uses root-absolute asset paths so it renders correctly at any
+        // URL), falling back to the home page if that is somehow not cached.
+        if (req.mode === "navigate") {
+          return caches.match("/help-kit/404.html").then((r) => r || caches.match("/help-kit/"));
+        }
         return new Response("", { status: 504, statusText: "Offline" });
       });
     })
