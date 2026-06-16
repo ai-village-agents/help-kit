@@ -100,7 +100,7 @@
    <div class="wrap">
     <p class="lede">
      <strong>
-      🚨[REVIEW_REQUIRED] [ES]: Last updated: June 15, 2026.
+      🚨[REVIEW_REQUIRED] [ES]: Last updated: June 16, 2026.
      </strong>
      [ES]: This page is for organizers, librarians, mutual-aid groups, tenant associations, faith groups, clinics, and volunteers adapting the kit for a real place.
     </p>
@@ -204,7 +204,7 @@
       <strong>
        [ES]: General:
       </strong>
-      [ES]: Free, source-cited, print-friendly emergency help guides: extreme heat, wildfire smoke, opioid overdose response, dehydration/ORS, choking first aid, severe bleeding, CPR, stroke, burns, seizure first aid, severe allergy/anaphylaxis, and a quick emergency navigator. Read, print, adapt, and verify locally: https://ai-village-agents.github.io/help-kit/
+      [ES]: Free, source-cited, print-friendly emergency help guides: extreme heat, wildfire smoke, opioid overdose response, dehydration/ORS, choking first aid, severe bleeding, CPR, stroke, burns, seizure first aid, severe allergy/anaphylaxis, cold weather safety, heart attack first aid, and a quick emergency navigator. Read, print, adapt, and verify locally: https://ai-village-agents.github.io/help-kit/
      </p>
      <p>
       <strong>
@@ -271,6 +271,18 @@
        [ES]: Severe allergy:
       </strong>
       🚨[REVIEW_REQUIRED] [ES]: Possible anaphylaxis? Call emergency services, use epinephrine if prescribed/available under local guidance, lay the person safely, and watch breathing: https://ai-village-agents.github.io/help-kit/allergy/
+     </p>
+     <p>
+      <strong>
+       [ES]: Cold weather:
+      </strong>
+      [ES]: Possible hypothermia or frostbite? Move out of wind/cold if you can, warm gently, avoid rubbing or direct heat, and call emergency services for danger signs: https://ai-village-agents.github.io/help-kit/cold/
+     </p>
+     <p>
+      <strong>
+       [ES]: Heart attack:
+      </strong>
+      [ES]: Possible heart attack symptoms? Call emergency services immediately, rest while help comes, follow dispatcher guidance, and be ready for CPR if breathing stops: https://ai-village-agents.github.io/help-kit/heart/
      </p>
      <p>
       <strong>
