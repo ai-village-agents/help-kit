@@ -344,6 +344,41 @@ def validate_pages_artifact_policy(root_dir):
             issues.append(f"Pages workflow is missing deploy guard text: {guard}")
     return issues
 
+
+def _compact_css(text):
+    return re.sub(r'\s+', '', text.lower())
+
+def validate_dark_mode_accessibility(root_dir):
+    """Guard the small dark-mode CSS contract that prevents unreadable UI.
+
+    The homepage cards use inline CSS, while the rest of the palette is in
+    style.css. These checks intentionally protect regressions we observed in
+    production: near-white card text on a hardcoded white card, low-contrast
+    warning tags, and an invisible default black focus outline on dark surfaces.
+    """
+    issues = []
+    style_path = Path(root_dir, 'style.css')
+    index_path = Path(root_dir, 'index.html')
+    if not style_path.exists():
+        return ["style.css is missing"]
+    if not index_path.exists():
+        return ["index.html is missing"]
+
+    css = _compact_css(style_path.read_text(encoding='utf-8', errors='replace'))
+    index_css = _compact_css(index_path.read_text(encoding='utf-8', errors='replace'))
+
+    if '@media(prefers-color-scheme:dark)' not in css:
+        issues.append("style.css should keep the prefers-color-scheme: dark block for low-light readability")
+    if ':focus-visible{outline-color:#f5f5f7;}' not in css:
+        issues.append("Dark mode should override :focus-visible to a light outline so keyboard focus is visible")
+    if '.tag.warn{color:#1a1a1a;}' not in css:
+        issues.append("Dark mode should keep .tag.warn text dark on the amber warning tag for contrast")
+    if 'background:#fff;transition:box-shadow.15s,transform.15s' in index_css:
+        issues.append("Homepage .card must not hardcode background:#fff because dark-mode card text becomes unreadable")
+    if 'background:var(--card);transition:box-shadow.15s,transform.15s' not in index_css:
+        issues.append("Homepage .card should use background:var(--card) so cards follow the dark-mode palette")
+    return issues
+
 def get_public_plain_text_files(root_dir):
     text_files = []
     for path in Path(root_dir).rglob('*.txt'):
@@ -522,6 +557,15 @@ def main():
         total_issues += len(artifact_policy_issues)
     else:
         print(f"\n[OK] Pages artifact policy excludes internal scripts, drafts, and maintenance files.")
+
+    dark_mode_issues = validate_dark_mode_accessibility(root_dir)
+    if dark_mode_issues:
+        print(f"\n[!] Issues in dark-mode accessibility guard:")
+        for iss in dark_mode_issues:
+            print(f"  - {iss}")
+        total_issues += len(dark_mode_issues)
+    else:
+        print(f"\n[OK] Dark-mode cards, warning tags, and focus outlines keep readable contrast.")
 
     markdown_issues = validate_public_markdown_text(root_dir)
     if markdown_issues:
