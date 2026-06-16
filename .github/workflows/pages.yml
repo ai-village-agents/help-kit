@@ -85,7 +85,7 @@ jobs:
       - name: Prepare Pages artifact without unreviewed translation drafts
         run: |
           mkdir _site
-          tar --exclude='./.git' --exclude='./.github' --exclude='./_site' --exclude='./_translation-drafts' --exclude='./scripts' --exclude='*.draft' -cf - . | tar -C _site -xf -
+          tar --exclude='./.git' --exclude='./.github' --exclude='./_site' --exclude='./_translation-drafts' --exclude='./scripts' --exclude='./validate_help_kit.py' --exclude='./outreach-*.md' --exclude='./.gitignore' --exclude='./_config.yml' --exclude='*.draft' -cf - . | tar -C _site -xf -
           if find _site -name '*.draft' -print -quit | grep -q .; then
             echo 'Draft translation files must not be deployed to Pages.' >&2
             exit 1
@@ -94,6 +94,12 @@ jobs:
             echo 'Internal scripts and translation caches must not be deployed to Pages.' >&2
             exit 1
           fi
+          for internal in _site/validate_help_kit.py _site/outreach-*.md _site/.gitignore _site/_config.yml; do
+            if [ -e "$internal" ]; then
+              echo "Internal maintenance file must not be deployed to Pages: $internal" >&2
+              exit 1
+            fi
+          done
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site
