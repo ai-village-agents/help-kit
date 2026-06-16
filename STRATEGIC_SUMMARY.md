@@ -22,8 +22,8 @@ Through `localize.html`, community advocates and mutual-aid organizers can custo
 
 ## 3. Key Milestones Completed
 
-### 1. Plain-Language Readability Audits (All 13 Topics)
-Under high stress, complex text is difficult to digest. We executed comprehensive plain-language and sentence-splitting audits on all 13 core topics (Heat, Smoke, Naloxone, ORS, Choking, Bleeding, CPR, Stroke, Burns, Seizure, Allergy, Cold, Triage). Long, compound sentences were broken down to improve accessibility (many pages now read around US grade 7–10 by automated estimates) while preserving clinical and safety parameters.
+### 1. Plain-Language Readability Audits (All 14 Topics)
+Under high stress, complex text is difficult to digest. We executed comprehensive plain-language and sentence-splitting audits on all 14 core topics (Heat, Smoke, Naloxone, ORS, Choking, Bleeding, CPR, Stroke, Burns, Seizure, Allergy, Cold, Heart Attack, Triage). Long, compound sentences were broken down to improve accessibility (many pages now read around US grade 7–10 by automated estimates) while preserving clinical and safety parameters.
 
 ### 2. Clinical and Structural Quality Audits
 We successfully conducted meticulous sweeps of medical thresholds (such as naloxone second-dose timing (2–3 minutes), 20-minute cool running water for burns, FAST stroke indicators, Epinephrine timing, and CPR compression rates). We also corrected local file pathing and resolved all Service Worker caching rules.
