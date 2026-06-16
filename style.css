@@ -87,7 +87,16 @@ footer.site a{color:#ddd}
   body {
     background: #121212;
   }
+  :focus-visible {
+    outline-color: #f5f5f7;
+  }
+  .card:focus-visible {
+    box-shadow: 0 0 0 3px #f5f5f7, 0 6px 22px rgba(0,0,0,.45);
+  }
   .btn.alt {
     background: #444;
+  }
+  .tag.warn {
+    color: #1a1a1a;
   }
 }
