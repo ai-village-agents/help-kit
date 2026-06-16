@@ -612,6 +612,67 @@ def validate_service_worker_assets(root_dir, html_files):
 
     return issues
 
+def validate_pwa_install_paths(root_dir, html_files):
+    """Keep the offline/install metadata aligned with the GitHub Pages path."""
+    manifest_path = Path(root_dir, 'manifest.webmanifest')
+    issues = []
+    if not manifest_path.exists():
+        return ["manifest.webmanifest is missing"]
+
+    try:
+        manifest = json.loads(manifest_path.read_text(encoding='utf-8'))
+    except json.JSONDecodeError as exc:
+        return [f"manifest.webmanifest is not valid JSON: {exc}"]
+
+    if manifest.get('start_url') != '/help-kit/':
+        issues.append("manifest.webmanifest start_url should be /help-kit/ for the deployed base path")
+    if manifest.get('scope') != '/help-kit/':
+        issues.append("manifest.webmanifest scope should be /help-kit/ so offline navigation stays inside Help Kit")
+    if manifest.get('display') != 'standalone':
+        issues.append("manifest.webmanifest display should remain standalone for installable offline use")
+
+    icons = manifest.get('icons')
+    if not isinstance(icons, list) or not icons:
+        issues.append("manifest.webmanifest should list local install icons")
+    else:
+        seen_sizes = set()
+        for icon in icons:
+            if not isinstance(icon, dict):
+                issues.append("manifest.webmanifest icons should be objects with src/sizes/type")
+                continue
+            src = icon.get('src', '')
+            if not src.startswith('/help-kit/'):
+                issues.append(f"manifest icon should use a /help-kit/ path, found {src!r}")
+                continue
+            local = Path(root_dir, src[len('/help-kit/'):])
+            if not local.exists():
+                issues.append(f"manifest icon does not exist locally: {src}")
+            if icon.get('type') != 'image/png':
+                issues.append(f"manifest icon should declare image/png type: {src}")
+            seen_sizes.add(icon.get('sizes', ''))
+        for required in ('192x192', '512x512'):
+            if required not in seen_sizes:
+                issues.append(f"manifest.webmanifest should include a {required} icon for installability")
+
+    cache_name, assets, sw_issues = parse_service_worker_assets(root_dir)
+    if sw_issues:
+        issues.extend(sw_issues)
+    asset_set = set(assets)
+    for required_asset in ('/help-kit/manifest.webmanifest', '/help-kit/icon-192.png', '/help-kit/icon-512.png'):
+        if required_asset not in asset_set:
+            issues.append(f"sw.js ASSETS should precache PWA install asset: {required_asset}")
+
+    for rel in html_files:
+        if rel == 'print-cover.html':
+            continue
+        content = Path(root_dir, rel).read_text(encoding='utf-8', errors='replace')
+        if 'rel="manifest" href="/help-kit/manifest.webmanifest"' not in content and "rel='manifest' href='/help-kit/manifest.webmanifest'" not in content:
+            issues.append(f"{rel} should link the /help-kit/manifest.webmanifest file")
+        if 'navigator.serviceWorker.register("/help-kit/sw.js")' not in content and "navigator.serviceWorker.register('/help-kit/sw.js')" not in content:
+            issues.append(f"{rel} should register /help-kit/sw.js for offline use")
+    return issues
+
+
 def main():
     root_dir = Path(__file__).resolve().parent
     html_files = get_html_files(root_dir)
@@ -666,6 +727,15 @@ def main():
         total_issues += len(artifact_policy_issues)
     else:
         print(f"\n[OK] Pages artifact policy excludes internal scripts, drafts, and maintenance files.")
+
+    pwa_issues = validate_pwa_install_paths(root_dir, html_files)
+    if pwa_issues:
+        print(f"\n[!] Issues in PWA manifest/install paths:")
+        for iss in pwa_issues:
+            print(f"  - {iss}")
+        total_issues += len(pwa_issues)
+    else:
+        print(f"\n[OK] PWA manifest, icons, and service-worker registration stay aligned with /help-kit/.")
 
     dark_mode_issues = validate_dark_mode_accessibility(root_dir)
     if dark_mode_issues:
