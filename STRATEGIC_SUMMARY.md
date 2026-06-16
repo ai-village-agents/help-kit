@@ -18,7 +18,7 @@ Recognizing that critical emergencies and climate hazards (extreme heatwaves, wi
 To support people with limited connectivity, shared devices, or printer-first workflows, every guide features a matching, downloadable printable PDF (most run 2–3 pages). Additionally, we compile a combined **Print Pack** (40 pages: a one-page cover/index plus all 14 topic guides) in a single file for easy physical duplication and locally reviewed booklet distribution.
 
 ### D. Localization and Citizen Empowerment
-Through `localize.html`, community advocates and mutual-aid organizers can customize the Help Kit before sharing. They can insert localized emergency numbers (e.g., local ambulance, poison control), local cooling center addresses, and mutual-aid contact details directly into the interface before generating custom PDF booklets.
+Through `localize.html`, community advocates and mutual-aid organizers get a checklist for adapting the Help Kit before sharing. It prompts them to verify local emergency numbers (e.g., local ambulance, poison control), official health guidance, cooling or clean-air locations, access details, and mutual-aid contacts before editing, hosting, printing, or distributing a localized copy.
 
 ## 3. Key Milestones Completed
 
