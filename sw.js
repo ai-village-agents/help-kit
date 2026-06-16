@@ -1,8 +1,9 @@
 // Help Kit offline service worker. Precaches all guides + PDFs so the kit works
 // fully offline after one visit. Cache-first; network used only to fill the cache.
-const CACHE = "help-kit-v23";
+const CACHE = "help-kit-v24";
 const ASSETS = [
   "/help-kit/",
+  "/help-kit/404.html",
   "/help-kit/allergy/",
   "/help-kit/allergy/allergy-onepager.pdf",
   "/help-kit/bleeding/",
