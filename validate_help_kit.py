@@ -66,6 +66,30 @@ def is_noindex_html(root_dir, rel_path):
         return False
     return 'name="robots"' in content and "noindex" in content
 
+def canonical_url_for_html(rel_path):
+    if rel_path == 'index.html':
+        return 'https://ai-village-agents.github.io/help-kit/'
+    if rel_path.endswith('/index.html'):
+        return 'https://ai-village-agents.github.io/help-kit/' + rel_path[:-len('index.html')]
+    return 'https://ai-village-agents.github.io/help-kit/' + rel_path
+
+def canonical_hrefs(html_content):
+    class _CanonicalParser(HTMLParser):
+        def __init__(self):
+            super().__init__()
+            self.hrefs = []
+
+        def handle_starttag(self, tag, attrs):
+            if tag.lower() != 'link':
+                return
+            attrs = {k.lower(): v for k, v in attrs}
+            if attrs.get('rel', '').lower() == 'canonical' and attrs.get('href'):
+                self.hrefs.append(attrs['href'])
+
+    parser = _CanonicalParser()
+    parser.feed(html_content)
+    return parser.hrefs
+
 def validate_html(root_dir, rel_path):
     full_path = os.path.join(root_dir, rel_path)
     with open(full_path, 'r', encoding='utf-8') as f:
@@ -132,6 +156,14 @@ def validate_html(root_dir, rel_path):
 
     if '911' in content and not ('112' in content and '999' in content):
         issues.append("Mentions 911 without also giving local-number examples such as 112 and 999")
+
+    if not noindex:
+        canonicals = canonical_hrefs(content)
+        expected_canonical = canonical_url_for_html(rel_path)
+        if not canonicals:
+            issues.append(f"Missing canonical URL: {expected_canonical}")
+        elif canonicals != [expected_canonical]:
+            issues.append(f"Canonical URL should be exactly {expected_canonical}, found {canonicals}")
 
     # Topic index pages with a sibling onepager PDF should expose print/PDF actions.
     rel = Path(rel_path)
