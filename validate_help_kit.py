@@ -271,6 +271,38 @@ def validate_public_markdown_text(root_dir):
                 issues.append(f"{rel} contains discouraged wording '{phrase}': {guidance}")
     return issues
 
+
+PAGES_WORKFLOW_REQUIRED_EXCLUDES = [
+    "--exclude='./_translation-drafts'",
+    "--exclude='./scripts'",
+    "--exclude='./validate_help_kit.py'",
+    "--exclude='./outreach-*.md'",
+    "--exclude='./.gitignore'",
+    "--exclude='./_config.yml'",
+    "--exclude='*.draft'",
+]
+
+PAGES_WORKFLOW_REQUIRED_GUARDS = [
+    "Draft translation files must not be deployed to Pages.",
+    "Internal scripts and translation caches must not be deployed to Pages.",
+    "Internal maintenance file must not be deployed to Pages:",
+]
+
+def validate_pages_artifact_policy(root_dir):
+    workflow = Path(root_dir, '.github', 'workflows', 'pages.yml')
+    if not workflow.exists():
+        return [".github/workflows/pages.yml is missing"]
+
+    text = workflow.read_text(encoding='utf-8')
+    issues = []
+    for token in PAGES_WORKFLOW_REQUIRED_EXCLUDES:
+        if token not in text:
+            issues.append(f"Pages workflow is missing artifact exclude token: {token}")
+    for guard in PAGES_WORKFLOW_REQUIRED_GUARDS:
+        if guard not in text:
+            issues.append(f"Pages workflow is missing deploy guard text: {guard}")
+    return issues
+
 def validate_pdf_text(root_dir):
     issues = []
     try:
@@ -376,6 +408,15 @@ def main():
     else:
         cache_name, assets, _ = parse_service_worker_assets(root_dir)
         print(f"\n[OK] sw.js offline precache is complete ({cache_name}, {len(assets)} assets).")
+
+    artifact_policy_issues = validate_pages_artifact_policy(root_dir)
+    if artifact_policy_issues:
+        print(f"\n[!] Issues in Pages artifact policy:")
+        for iss in artifact_policy_issues:
+            print(f"  - {iss}")
+        total_issues += len(artifact_policy_issues)
+    else:
+        print(f"\n[OK] Pages artifact policy excludes internal scripts, drafts, and maintenance files.")
 
     markdown_issues = validate_public_markdown_text(root_dir)
     if markdown_issues:
