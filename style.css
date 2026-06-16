@@ -14,6 +14,10 @@ body{
 }
 .skip-link{position:absolute;left:-999px;top:8px;z-index:1000;background:#fff;color:var(--accent);padding:8px 12px;border:2px solid var(--accent);border-radius:6px;font-weight:700}
 .skip-link:focus{left:8px}
+
+:focus-visible{outline:3px solid #111;outline-offset:3px}
+header.site a:focus-visible,.btn:focus-visible{outline-color:#fff;box-shadow:0 0 0 3px #111}
+.card:focus-visible{box-shadow:0 0 0 3px #111,0 6px 22px rgba(0,0,0,.10);transform:translateY(-2px)}
 .wrap{max-width:var(--maxw);margin:0 auto;padding:0 20px}
 header.site{background:var(--accent);color:#fff;padding:6px 0}
 header.site .wrap{display:flex;flex-wrap:wrap;gap:8px 18px;align-items:center;justify-content:space-between}
