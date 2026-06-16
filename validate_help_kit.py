@@ -36,6 +36,8 @@ DISCOURAGED_PUBLIC_TEXT_PATTERNS = DISCOURAGED_HTML_PATTERNS + [
     ("13 guides", "Current-facing public docs should describe the live 14-topic Help Kit."),
     ("37-page", "Current-facing public docs should describe the live 40-page print pack."),
     ("37 pages", "Current-facing public docs should describe the live 40-page print pack."),
+    ("directly into the interface", "Do not imply localize.html has an in-browser customization interface; it is a safe-localization checklist."),
+    ("custom PDF booklets", "Do not imply localize.html generates custom PDF booklets; describe editing, hosting, printing, or distributing a localized copy."),
 ]
 
 
