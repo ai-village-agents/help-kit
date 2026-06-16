@@ -109,6 +109,15 @@ def validate_html(root_dir, rel_path):
     # Check stylesheet
     if 'style.css' not in content:
         issues.append("Possibly missing style.css link reference")
+
+    # Check keyboard/screen-reader navigation landmarks on human-facing pages.
+    if rel_path != 'print-cover.html':
+        if 'href="#main"' not in content and "href='#main'" not in content:
+            issues.append("Missing skip link to #main")
+        if 'id="main"' not in content and "id='main'" not in content:
+            issues.append("Missing id=\"main\" target for skip link")
+        if not re.search(r'<main\b', content, re.IGNORECASE):
+            issues.append("Missing <main> landmark")
         
     # Check disclaimers
     content_lower = content.lower()
