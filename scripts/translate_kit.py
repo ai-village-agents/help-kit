@@ -1,7 +1,6 @@
-import json
-from deep_translator import GoogleTranslator
-import time
 #!/usr/bin/env python3
+import json
+import time
 """HTML-Aware Translation Scaffold Helper for Help Kit.
 
 This script parses our emergency HTML pages, extracts translatable text nodes,
@@ -20,6 +19,11 @@ try:
 except ImportError:
     print("BeautifulSoup4 is required. Install it before running this draft helper.", file=sys.stderr)
     sys.exit(1)
+
+try:
+    from deep_translator import GoogleTranslator
+except ImportError:
+    GoogleTranslator = None
 
 ROOT = Path(__file__).resolve().parents[1]
 DRAFT_ROOT = ROOT / "_translation-drafts"
@@ -79,6 +83,15 @@ def mock_translate(text, target_lang):
     if cache_key in TRANSLATION_CACHE:
         return TRANSLATION_CACHE[cache_key]
         
+    if GoogleTranslator is None:
+        print(
+            "deep-translator is required to generate machine-translation drafts. "
+            "Install it in a local maintenance environment before running this helper; "
+            "do not hand-publish unreviewed medical translations.",
+            file=sys.stderr,
+        )
+        return f"[{target_lang.upper()}]: {text}"
+
     try:
         # Small delay to prevent rate limiting
         time.sleep(0.05)
@@ -96,7 +109,6 @@ def mock_translate(text, target_lang):
             
         return res
     except Exception as e:
-        import sys
         print(f"Translation failed for '{clean_text}' to {target_lang}: {e}", file=sys.stderr)
         # Sleep on failure to let rate limiting cool down
         time.sleep(2.0)
