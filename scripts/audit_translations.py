@@ -1,5 +1,6 @@
 import os
 import re
+import sys
 from pathlib import Path
 from bs4 import BeautifulSoup
 
@@ -86,9 +87,10 @@ def audit_all_translations():
                             issues_found += 1
                                 
     if issues_found == 0:
-        print("[SUCCESS] Numeric and link audits complete: No safety critical discrepancies found between English and draft files!")
+        print("[SUCCESS] Numeric and link audits complete: no numeric or href discrepancies found between English files and existing drafts.")
     else:
         print(f"[AUDIT COMPLETE] Found {issues_found} potential discrepancy issues.")
+        sys.exit(1)
 
 if __name__ == "__main__":
     audit_all_translations()
