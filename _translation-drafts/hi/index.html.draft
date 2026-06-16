@@ -147,6 +147,15 @@
       साझा करने से पहले स्थानीयकरण करें
      </a>
     </div>
+    <div class="search-container no-print">
+     <label class="search-label" for="search-input">
+      🚨[REVIEW_REQUIRED] Search emergency guides:
+     </label>
+     <input aria-describedby="search-count" class="search-input" id="search-input" placeholder="Type keywords, symptoms, or remedies (e.g., CPR, heat, bleed, burn)..." type="text"/>
+     <div aria-live="polite" class="search-count" id="search-count">
+      🚨[REVIEW_REQUIRED] Showing all 14 guides
+     </div>
+    </div>
     <div class="cards">
      <a class="card" href="heat/">
       <h3>
