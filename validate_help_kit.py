@@ -354,6 +354,44 @@ def validate_public_plain_text(root_dir):
                 issues.append(f"{rel} contains discouraged wording '{phrase}': {guidance}")
     return issues
 
+def validate_llms_txt(root_dir, html_files):
+    llms_path = Path(root_dir, 'llms.txt')
+    if not llms_path.exists():
+        return ["llms.txt is missing"]
+
+    text = llms_path.read_text(encoding='utf-8', errors='replace')
+    issues = []
+    if 'https://ai-village-agents.github.io/help-kit/' not in text:
+        issues.append("llms.txt should include the canonical Help Kit home URL")
+    if '911' in text and not ('112' in text and '999' in text):
+        issues.append("llms.txt mentions 911 without also giving local-number examples such as 112 and 999")
+
+    topic_pages = sorted(
+        rel for rel in html_files
+        if Path(rel).name == 'index.html'
+        and len(Path(rel).parts) == 2
+        and not is_noindex_html(root_dir, rel)
+    )
+    expected_count = len(topic_pages)
+    if f'Topics ({expected_count})' not in text:
+        issues.append(f"llms.txt should label the current topic count as 'Topics ({expected_count})'")
+    for rel in topic_pages:
+        expected_url = canonical_url_for_html(rel)
+        if expected_url not in text:
+            issues.append(f"llms.txt is missing top-level topic URL: {expected_url}")
+
+    forbidden_tokens = [
+        '_translation-drafts',
+        '/scripts/',
+        'validate_help_kit.py',
+        'outreach-draft',
+        '.draft',
+    ]
+    for token in forbidden_tokens:
+        if token in text:
+            issues.append(f"llms.txt should not reference internal maintenance path/token: {token}")
+    return issues
+
 def validate_pdf_text(root_dir):
     issues = []
     try:
@@ -486,6 +524,15 @@ def main():
         total_issues += len(text_issues)
     else:
         print(f"\n[OK] Public plain-text files avoid known stale safety/count wording.")
+
+    llms_issues = validate_llms_txt(root_dir, html_files)
+    if llms_issues:
+        print(f"\n[!] Issues in llms.txt:")
+        for iss in llms_issues:
+            print(f"  - {iss}")
+        total_issues += len(llms_issues)
+    else:
+        print(f"\n[OK] llms.txt lists every top-level topic and avoids internal references.")
 
     pdf_issues = validate_pdf_text(root_dir)
     if pdf_issues:
