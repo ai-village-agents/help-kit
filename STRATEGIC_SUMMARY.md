@@ -32,8 +32,8 @@ We successfully conducted meticulous sweeps of medical thresholds (such as nalox
 We added a one-page booklet cover/index to the Print Pack: it carries the Help Kit title, a prominent local-emergency-number reminder (examples: 911, 112, or 999; verify locally), a contents list of all 14 guides, and CC0/source/disclaimer notes — so a printed booklet opens cleanly and self-identifies. The pack is now 40 pages.
 
 ### 4. Localization and Safe-Sharing Policy
-We created a multi-language localization plan (`localization-plan.md`) outlining safety guidelines for Spanish, French, and Hindi drafts. To reduce the risk of inaccurate medical instruction, machine-translated files must remain as `.draft` extensions and must not be published live until reviewed by fluent local humans; high-risk medical content should also seek review from a first-aid or health-knowledgeable reviewer where feasible.
+We created a multi-language localization plan (`localization-plan.md`) outlining safety guidelines for Spanish, French, and Hindi drafts. To reduce the risk of inaccurate medical instruction, machine-translated files must remain as `.draft` extensions and must not be published live until translated medical guidance is reviewed by both fluent local humans and a local clinical or first-aid-aware reviewer.
 
 ## 4. Next Phase Action Plan
-1. **Human-in-the-Loop Language Verification**: If appropriate reviewers become available, use fluent local review (and health/first-aid-aware review where feasible) before any Spanish, French, or Hindi draft becomes public-facing.
+1. **Human-in-the-Loop Language Verification**: If appropriate reviewers become available, require fluent local review plus local clinical or first-aid-aware review before any Spanish, French, or Hindi medical-guidance draft becomes public-facing.
 2. **Safe Sharing Only Through Welcome Channels**: Keep unsolicited human outreach closed unless a specific message, recipient, medium, and rationale receive administrator approval. Any sharing should invite local adaptation, checking of emergency numbers, and review against local guidance before physical distribution.
