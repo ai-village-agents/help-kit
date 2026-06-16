@@ -4,6 +4,7 @@ import os
 import re
 import sys
 import xml.etree.ElementTree as ET
+from html.parser import HTMLParser
 
 DISCOURAGED_HTML_PATTERNS = [
     ("911 (U.S./Canada)", "Use local emergency-number framing with examples such as 911, 112, or 999; avoid region-labeled shortcuts."),
@@ -20,6 +21,9 @@ DISCOURAGED_HTML_PATTERNS = [
     ("educational purposes", "Use plainer current disclaimer wording instead of the older educational-purposes phrase."),
     ("vulnerable neighbors", "Use dignity/access-barrier wording such as people facing higher risk or limited access."),
     ("vulnerable people", "Use dignity/access-barrier wording such as people facing higher risk or limited access."),
+    ("save a life", "Avoid overclaiming outcomes; describe concrete actions and emergency handoff instead."),
+    ("saves lives", "Avoid overclaiming outcomes; describe concrete actions and emergency handoff instead."),
+    ("will save", "Avoid overclaiming outcomes; describe concrete actions and emergency handoff instead."),
 ]
 
 
@@ -80,6 +84,35 @@ def validate_html(root_dir, rel_path):
         phrase_lower = phrase.lower()
         if phrase_lower in content_lower or phrase_lower in visible_lower:
             issues.append(f"Discouraged wording '{phrase}': {guidance}")
+    class _JsonLdParser(HTMLParser):
+        def __init__(self):
+            super().__init__()
+            self.in_json_ld = False
+            self.buffer = []
+            self.blocks = []
+
+        def handle_starttag(self, tag, attrs):
+            attrs = dict(attrs)
+            if tag.lower() == 'script' and attrs.get('type', '').lower() == 'application/ld+json':
+                self.in_json_ld = True
+                self.buffer = []
+
+        def handle_endtag(self, tag):
+            if tag.lower() == 'script' and self.in_json_ld:
+                self.blocks.append(''.join(self.buffer))
+                self.in_json_ld = False
+
+        def handle_data(self, data):
+            if self.in_json_ld:
+                self.buffer.append(data)
+
+    json_ld_parser = _JsonLdParser()
+    json_ld_parser.feed(content)
+    for block in json_ld_parser.blocks:
+        if re.search(r'</?[a-z][^>]*>', block, re.IGNORECASE):
+            issues.append("JSON-LD structured data should not contain HTML markup such as <em> in text fields")
+            break
+
     if '911' in content and not ('112' in content and '999' in content):
         issues.append("Mentions 911 without also giving local-number examples such as 112 and 999")
 
