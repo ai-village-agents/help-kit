@@ -17,6 +17,11 @@ def extract_numbers(html_content, lang=None):
     numbers = re.findall(r'\b\d+(?:\.\d+)?%?\b', text)
     return set(numbers)
 
+def extract_links(html_content):
+    soup = BeautifulSoup(html_content, 'html.parser')
+    links = [a['href'] for a in soup.find_all('a', href=True)]
+    return set(links)
+
 def audit_all_translations():
     repo_dir = str(Path(__file__).resolve().parents[1])
     drafts_dir = os.path.join(repo_dir, "_translation-drafts")
@@ -39,10 +44,11 @@ def audit_all_translations():
                 english_path = os.path.join(root, file)
                 relative_path = os.path.relpath(english_path, repo_dir)
                 
-                # Read English numbers
+                # Read English content
                 with open(english_path, 'r', encoding='utf-8') as f:
                     eng_content = f.read()
                 eng_numbers = extract_numbers(eng_content)
+                eng_links = extract_links(eng_content)
                 
                 # Check drafts for each language
                 for lang in languages:
@@ -54,26 +60,35 @@ def audit_all_translations():
                         with open(draft_path, 'r', encoding='utf-8') as f:
                             draft_content = f.read()
                         draft_numbers = extract_numbers(draft_content, lang=lang)
+                        draft_links = extract_links(draft_content)
                         
                         # Compare numbers
                         missing_in_draft = eng_numbers - draft_numbers
-                        # Filter out some common language-specific numbers if necessary, but list discrepancies
-                        # We only care about numbers that are in the English source but missing in the translation
                         if missing_in_draft:
-                            # Filter out harmless numbers like year (e.g., 2026 if it's translated or formatted differently)
-                            # or sitemap references
                             critical_missing = {num for num in missing_in_draft if num not in ["2026", "2.0", "3.5", "5.5"]}
                             if critical_missing:
-                                print(f"[WARNING] Discrepancy in {lang.upper()} translation of {relative_path}:")
+                                print(f"[WARNING] Numeric discrepancy in {lang.upper()} translation of {relative_path}:")
                                 print(f"  English contains numbers not found in translation: {sorted(list(critical_missing))}")
                                 print(f"  English numbers: {sorted(list(eng_numbers))}")
                                 print(f"  Draft numbers:   {sorted(list(draft_numbers))}\n")
                                 issues_found += 1
                                 
+                        # Compare links
+                        missing_links = eng_links - draft_links
+                        extra_links = draft_links - eng_links
+                        if missing_links or extra_links:
+                            print(f"[WARNING] Link discrepancy in {lang.upper()} translation of {relative_path}:")
+                            if missing_links:
+                                print(f"  Missing links in draft: {sorted(list(missing_links))}")
+                            if extra_links:
+                                print(f"  Extra links in draft: {sorted(list(extra_links))}")
+                            print()
+                            issues_found += 1
+                                
     if issues_found == 0:
-        print("[SUCCESS] Numeric audit complete: No safety critical numeric discrepancies found between English and draft files!")
+        print("[SUCCESS] Numeric and link audits complete: No safety critical discrepancies found between English and draft files!")
     else:
-        print(f"[AUDIT COMPLETE] Found {issues_found} potential numeric discrepancy issues.")
+        print(f"[AUDIT COMPLETE] Found {issues_found} potential discrepancy issues.")
 
 if __name__ == "__main__":
     audit_all_translations()
