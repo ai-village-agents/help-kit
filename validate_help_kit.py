@@ -492,6 +492,9 @@ class _RuntimeDependencyParser(HTMLParser):
     def __init__(self):
         super().__init__()
         self.dependencies = []
+        self.inline_external_scripts = []
+        self._in_runtime_script = False
+        self._script_chunks = []
 
     def handle_starttag(self, tag, attrs):
         attrs = {k.lower(): (v or '') for k, v in attrs}
@@ -499,8 +502,13 @@ class _RuntimeDependencyParser(HTMLParser):
         runtime_media_tags = {'img', 'iframe', 'video', 'audio', 'source', 'track', 'embed', 'object'}
         external_prefixes = ('http://', 'https://', '//')
 
-        if tag == 'script' and attrs.get('src', '').strip().lower().startswith(external_prefixes):
-            self.dependencies.append((tag, 'src', attrs.get('src', '')))
+        if tag == 'script':
+            script_type = attrs.get('type', '').strip().lower()
+            if attrs.get('src', '').strip().lower().startswith(external_prefixes):
+                self.dependencies.append((tag, 'src', attrs.get('src', '')))
+            if not attrs.get('src') and script_type != 'application/ld+json':
+                self._in_runtime_script = True
+                self._script_chunks = []
         if tag in runtime_media_tags and attrs.get('src', '').strip().lower().startswith(external_prefixes):
             self.dependencies.append((tag, 'src', attrs.get('src', '')))
         if tag == 'form' and attrs.get('action', '').strip().lower().startswith(external_prefixes):
@@ -511,6 +519,18 @@ class _RuntimeDependencyParser(HTMLParser):
             if rels & runtime_rels and attrs.get('href', '').strip().lower().startswith(external_prefixes):
                 self.dependencies.append((tag, 'href', attrs.get('href', '')))
 
+    def handle_data(self, data):
+        if self._in_runtime_script:
+            self._script_chunks.append(data)
+
+    def handle_endtag(self, tag):
+        if tag.lower() == 'script' and self._in_runtime_script:
+            script = ''.join(self._script_chunks)
+            urls = re.findall(r'["\'](https?://[^"\']+|//[^"\']+)["\']', script)
+            self.inline_external_scripts.extend(urls)
+            self._in_runtime_script = False
+            self._script_chunks = []
+
 
 def validate_no_external_runtime_dependencies(root_dir, html_files):
     """Allow cited source links, but keep the site itself local/offline/private."""
@@ -520,6 +540,8 @@ def validate_no_external_runtime_dependencies(root_dir, html_files):
         parser.feed(Path(root_dir, rel).read_text(encoding='utf-8', errors='replace'))
         for tag, attr, url in parser.dependencies:
             issues.append(f"{rel} should not load external runtime dependency via <{tag} {attr}={url!r}>; keep assets local and offline-first")
+        for url in parser.inline_external_scripts:
+            issues.append(f"{rel} inline runtime script should not call external URL {url!r}; keep enhancements local/offline and avoid tracking")
 
     for rel in ('style.css',):
         css_path = Path(root_dir, rel)
