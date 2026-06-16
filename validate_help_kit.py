@@ -379,6 +379,83 @@ def validate_dark_mode_accessibility(root_dir):
         issues.append("Homepage .card should use background:var(--card) so cards follow the dark-mode palette")
     return issues
 
+class _HomepageInteractionParser(HTMLParser):
+    def __init__(self):
+        super().__init__()
+        self.inputs = []
+        self.labels_for = set()
+        self.aria_live = []
+        self.card_count = 0
+        self.external_scripts = []
+
+    def handle_starttag(self, tag, attrs):
+        attrs = {k.lower(): (v or '') for k, v in attrs}
+        tag = tag.lower()
+        if tag == 'input':
+            self.inputs.append(attrs)
+        if tag == 'label' and attrs.get('for'):
+            self.labels_for.add(attrs['for'])
+        if attrs.get('aria-live'):
+            self.aria_live.append(attrs.get('aria-live'))
+        if tag == 'a' and 'card' in attrs.get('class', '').split():
+            self.card_count += 1
+        if tag == 'script' and attrs.get('src'):
+            src = attrs['src'].strip().lower()
+            if src.startswith(('http://', 'https://', '//')):
+                self.external_scripts.append(attrs['src'])
+
+
+def validate_homepage_interactive_filter(root_dir):
+    """If the homepage gains a search/filter input, keep it safe offline.
+
+    The 14 guide cards must remain in raw HTML for no-JS/emergency use. A filter
+    input should be a progressive enhancement with an accessible name, an
+    aria-live result announcement, no external script dependency, and a service
+    worker cache bump because index.html is precached.
+    """
+    issues = []
+    index_path = Path(root_dir, 'index.html')
+    sw_path = Path(root_dir, 'sw.js')
+    if not index_path.exists():
+        return ["index.html is missing"]
+    if not sw_path.exists():
+        return ["sw.js is missing"]
+
+    content = index_path.read_text(encoding='utf-8', errors='replace')
+    parser = _HomepageInteractionParser()
+    parser.feed(content)
+
+    if parser.external_scripts:
+        issues.append("Homepage should not depend on external scripts; keep emergency navigation offline-first")
+
+    if not parser.inputs:
+        return issues
+
+    if parser.card_count != 14:
+        issues.append(f"Homepage progressive enhancement should keep 14 guide cards in static HTML; found {parser.card_count}")
+
+    for attrs in parser.inputs:
+        input_id = attrs.get('id', '')
+        has_accessible_name = bool(
+            attrs.get('aria-label', '').strip()
+            or attrs.get('aria-labelledby', '').strip()
+            or (input_id and input_id in parser.labels_for)
+        )
+        if not has_accessible_name:
+            issues.append("Homepage filter/search input must have a visible label or aria-label/aria-labelledby")
+
+    if not parser.aria_live:
+        issues.append("Homepage filter/search results should be announced with an aria-live region")
+
+    sw_text = sw_path.read_text(encoding='utf-8', errors='replace')
+    cache_match = re.search(r'const CACHE = "help-kit-v(\d+)"', sw_text)
+    if not cache_match:
+        issues.append("sw.js cache name should use help-kit-vN format")
+    elif int(cache_match.group(1)) < 29:
+        issues.append("Homepage filter/search changes require a service-worker cache bump to help-kit-v29 or later")
+
+    return issues
+
 def get_public_plain_text_files(root_dir):
     text_files = []
     for path in Path(root_dir).rglob('*.txt'):
@@ -566,6 +643,15 @@ def main():
         total_issues += len(dark_mode_issues)
     else:
         print(f"\n[OK] Dark-mode cards, warning tags, and focus outlines keep readable contrast.")
+
+    homepage_filter_issues = validate_homepage_interactive_filter(root_dir)
+    if homepage_filter_issues:
+        print(f"\n[!] Issues in homepage interactive filter guard:")
+        for iss in homepage_filter_issues:
+            print(f"  - {iss}")
+        total_issues += len(homepage_filter_issues)
+    else:
+        print(f"\n[OK] Homepage guide discovery stays usable without JavaScript and accessible if enhanced.")
 
     markdown_issues = validate_public_markdown_text(root_dir)
     if markdown_issues:
