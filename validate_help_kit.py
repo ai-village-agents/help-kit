@@ -30,6 +30,15 @@ DISCOURAGED_HTML_PATTERNS = [
 ]
 
 
+DISCOURAGED_PUBLIC_TEXT_PATTERNS = DISCOURAGED_HTML_PATTERNS + [
+    ("13 topics", "Current-facing public docs should describe the live 14-topic Help Kit."),
+    ("13 topic", "Current-facing public docs should describe the live 14-topic Help Kit."),
+    ("13 guides", "Current-facing public docs should describe the live 14-topic Help Kit."),
+    ("37-page", "Current-facing public docs should describe the live 40-page print pack."),
+    ("37 pages", "Current-facing public docs should describe the live 40-page print pack."),
+]
+
+
 def normalized_visible_text(html_content):
     text = re.sub(r'<script\b[^>]*>.*?</script>', ' ', html_content, flags=re.IGNORECASE | re.DOTALL)
     text = re.sub(r'<style\b[^>]*>.*?</style>', ' ', text, flags=re.IGNORECASE | re.DOTALL)
@@ -241,6 +250,25 @@ def asset_path_for_html(rel_path):
         return '/help-kit/' + rel_path[:-len('index.html')]
     return '/help-kit/' + rel_path
 
+def get_public_markdown_files(root_dir):
+    markdown_files = []
+    for path in Path(root_dir).rglob('*.md'):
+        rel = path.relative_to(root_dir)
+        if any(part.startswith('.') or part == '_translation-drafts' for part in rel.parts):
+            continue
+        markdown_files.append(rel.as_posix())
+    return markdown_files
+
+def validate_public_markdown_text(root_dir):
+    issues = []
+    for rel in get_public_markdown_files(root_dir):
+        text = Path(root_dir, rel).read_text(encoding='utf-8', errors='replace')
+        text_lower = re.sub(r'\s+', ' ', text).lower()
+        for phrase, guidance in DISCOURAGED_PUBLIC_TEXT_PATTERNS:
+            if phrase.lower() in text_lower:
+                issues.append(f"{rel} contains discouraged wording '{phrase}': {guidance}")
+    return issues
+
 def validate_pdf_text(root_dir):
     issues = []
     try:
@@ -346,6 +374,15 @@ def main():
     else:
         cache_name, assets, _ = parse_service_worker_assets(root_dir)
         print(f"\n[OK] sw.js offline precache is complete ({cache_name}, {len(assets)} assets).")
+
+    markdown_issues = validate_public_markdown_text(root_dir)
+    if markdown_issues:
+        print(f"\n[!] Issues in public Markdown docs:")
+        for iss in markdown_issues:
+            print(f"  - {iss}")
+        total_issues += len(markdown_issues)
+    else:
+        print(f"\n[OK] Public Markdown docs avoid known stale safety/count wording.")
 
     pdf_issues = validate_pdf_text(root_dir)
     if pdf_issues:
