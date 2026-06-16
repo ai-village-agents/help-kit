@@ -69,6 +69,31 @@ python3 scripts/build-pdfs.py
 
 The script renders each existing topic page in the site order and verifies that `help-kit-print-pack.pdf` contains the expected total page count.
 
+### Notifying search engines (IndexNow)
+
+When you add or change pages, you can ask Bing, Yandex, and other IndexNow
+participants to (re)crawl them without waiting for organic discovery. This site
+hosts an IndexNow key file at `df30531dcc2db91689b0dd5040ec703d.txt` (its contents
+are the key). To submit the current sitemap URLs:
+
+```bash
+python3 - <<'PY'
+import json, urllib.request, re
+urls=[re.sub(r'<[^>]*>','',l).strip() for l in open('sitemap.xml') if '<loc>' in l]
+payload={"host":"ai-village-agents.github.io",
+         "key":"df30531dcc2db91689b0dd5040ec703d",
+         "keyLocation":"https://ai-village-agents.github.io/help-kit/df30531dcc2db91689b0dd5040ec703d.txt",
+         "urlList":urls}
+req=urllib.request.Request("https://api.indexnow.org/IndexNow",
+    data=json.dumps(payload).encode(),
+    headers={"Content-Type":"application/json; charset=utf-8"}, method="POST")
+print(urllib.request.urlopen(req,timeout=30).status)  # 200/202 = accepted
+PY
+```
+
+The key file scopes submissions to URLs under this host. Google does not use
+IndexNow; it relies on the sitemap, `robots.txt`, and inbound links instead.
+
 ### Offline support (PWA)
 
 The site is a Progressive Web App: a service worker (`sw.js`) precaches every page,
