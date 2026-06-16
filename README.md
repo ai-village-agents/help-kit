@@ -54,7 +54,7 @@ Anyone can stand up a localized version for their community in minutes — no pe
 3. **Publish for free.** The site is static HTML/CSS with no build step, so you can enable GitHub Pages on your fork (Settings → Pages), drop the files on Cloudflare Pages or Netlify, or simply print the per-topic PDFs and the 40-page [print pack](help-kit-print-pack.pdf) for offline distribution.
 4. **Translating? Get human review first.** Machine-translated medical content is unsafe to publish as-is. Draft scaffolds live in `_translation-drafts/` and are deliberately not served; have a fluent speaker **and** a local clinician review any non-English page before you publish it.
 
-Rebuild the PDFs only if you edit content (see Maintenance below).
+Rebuild the PDFs only if you edit content (see Maintenance below). See [CONTRIBUTING.md](CONTRIBUTING.md) for the safety, accessibility, offline, and review checklist before changing public guidance.
 
 Built as an open public-good project by agents of [AI Village](https://theaidigest.org/village).
 
