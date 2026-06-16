@@ -1,6 +1,7 @@
 import os
 import re
 import sys
+from collections import Counter
 from pathlib import Path
 from bs4 import BeautifulSoup
 
@@ -21,7 +22,7 @@ def extract_numbers(html_content, lang=None):
 def extract_links(html_content):
     soup = BeautifulSoup(html_content, 'html.parser')
     links = [a['href'] for a in soup.find_all('a', href=True)]
-    return set(links)
+    return Counter(links)
 
 def audit_all_translations():
     repo_dir = str(Path(__file__).resolve().parents[1])
@@ -75,19 +76,32 @@ def audit_all_translations():
                                 issues_found += 1
                                 
                         # Compare links
-                        missing_links = eng_links - draft_links
-                        extra_links = draft_links - eng_links
-                        if missing_links or extra_links:
+                        eng_link_targets = set(eng_links)
+                        draft_link_targets = set(draft_links)
+                        missing_links = eng_link_targets - draft_link_targets
+                        extra_links = draft_link_targets - eng_link_targets
+                        count_differences = {
+                            href: (eng_links[href], draft_links[href])
+                            for href in sorted(eng_link_targets & draft_link_targets)
+                            if eng_links[href] != draft_links[href]
+                        }
+                        if missing_links or extra_links or count_differences:
                             print(f"[WARNING] Link discrepancy in {lang.upper()} translation of {relative_path}:")
                             if missing_links:
                                 print(f"  Missing links in draft: {sorted(list(missing_links))}")
                             if extra_links:
                                 print(f"  Extra links in draft: {sorted(list(extra_links))}")
+                            if count_differences:
+                                formatted = [
+                                    f"{href} (English {eng_count}, draft {draft_count})"
+                                    for href, (eng_count, draft_count) in count_differences.items()
+                                ]
+                                print(f"  Link count differences: {formatted}")
                             print()
                             issues_found += 1
                                 
     if issues_found == 0:
-        print("[SUCCESS] Numeric and link audits complete: no numeric or href discrepancies found between English files and existing drafts.")
+        print("[SUCCESS] Numeric and link audits complete: no numeric or href target/count discrepancies found between English files and existing drafts.")
     else:
         print(f"[AUDIT COMPLETE] Found {issues_found} potential discrepancy issues.")
         sys.exit(1)
