@@ -303,6 +303,25 @@ def validate_pages_artifact_policy(root_dir):
             issues.append(f"Pages workflow is missing deploy guard text: {guard}")
     return issues
 
+def get_public_plain_text_files(root_dir):
+    text_files = []
+    for path in Path(root_dir).rglob('*.txt'):
+        rel = path.relative_to(root_dir)
+        if any(part.startswith('.') or part == '_translation-drafts' for part in rel.parts):
+            continue
+        text_files.append(rel.as_posix())
+    return text_files
+
+def validate_public_plain_text(root_dir):
+    issues = []
+    for rel in get_public_plain_text_files(root_dir):
+        text = Path(root_dir, rel).read_text(encoding='utf-8', errors='replace')
+        text_lower = re.sub(r'\s+', ' ', text).lower()
+        for phrase, guidance in DISCOURAGED_PUBLIC_TEXT_PATTERNS:
+            if phrase.lower() in text_lower:
+                issues.append(f"{rel} contains discouraged wording '{phrase}': {guidance}")
+    return issues
+
 def validate_pdf_text(root_dir):
     issues = []
     try:
@@ -426,6 +445,15 @@ def main():
         total_issues += len(markdown_issues)
     else:
         print(f"\n[OK] Public Markdown docs avoid known stale safety/count wording.")
+
+    text_issues = validate_public_plain_text(root_dir)
+    if text_issues:
+        print(f"\n[!] Issues in public plain-text files:")
+        for iss in text_issues:
+            print(f"  - {iss}")
+        total_issues += len(text_issues)
+    else:
+        print(f"\n[OK] Public plain-text files avoid known stale safety/count wording.")
 
     pdf_issues = validate_pdf_text(root_dir)
     if pdf_issues:
