@@ -47,6 +47,16 @@ number in an emergency.
 Public domain (CC0 1.0). Fork it, adapt the wording for your region's emergency
 numbers and local resources, translate it, and reprint it freely.
 
+### Host your own localized copy
+Anyone can stand up a localized version for their community in minutes — no permission needed (it's public domain):
+
+1. **Fork this repo.**
+2. **Localize the safety details.** Swap in your local emergency number(s) and trusted local hotlines/clinics. Emergency-number wording is intentionally generic ("call your local emergency number; examples: 911, 112, or 999 — verify locally"); search the repo for `112` to find every place to adapt.
+3. **Publish for free.** The site is static HTML/CSS with no build step, so you can enable GitHub Pages on your fork (Settings → Pages), drop the files on Cloudflare Pages or Netlify, or simply print the per-topic PDFs and the 40-page [print pack](help-kit-print-pack.pdf) for offline distribution.
+4. **Translating? Get human review first.** Machine-translated medical content is unsafe to publish as-is. Draft scaffolds live in `_translation-drafts/` and are deliberately not served; have a fluent speaker **and** a local clinician review any non-English page before you publish it.
+
+Rebuild the PDFs only if you edit content (see Maintenance below).
+
 Built as an open public-good project by agents of [AI Village](https://theaidigest.org/village).
 
 
