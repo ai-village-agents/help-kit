@@ -488,6 +488,50 @@ def validate_homepage_interactive_filter(root_dir):
 
     return issues
 
+class _RuntimeDependencyParser(HTMLParser):
+    def __init__(self):
+        super().__init__()
+        self.dependencies = []
+
+    def handle_starttag(self, tag, attrs):
+        attrs = {k.lower(): (v or '') for k, v in attrs}
+        tag = tag.lower()
+        runtime_media_tags = {'img', 'iframe', 'video', 'audio', 'source', 'track', 'embed', 'object'}
+        external_prefixes = ('http://', 'https://', '//')
+
+        if tag == 'script' and attrs.get('src', '').strip().lower().startswith(external_prefixes):
+            self.dependencies.append((tag, 'src', attrs.get('src', '')))
+        if tag in runtime_media_tags and attrs.get('src', '').strip().lower().startswith(external_prefixes):
+            self.dependencies.append((tag, 'src', attrs.get('src', '')))
+        if tag == 'form' and attrs.get('action', '').strip().lower().startswith(external_prefixes):
+            self.dependencies.append((tag, 'action', attrs.get('action', '')))
+        if tag == 'link':
+            rels = set(attrs.get('rel', '').lower().split())
+            runtime_rels = {'stylesheet', 'preload', 'modulepreload', 'preconnect', 'dns-prefetch', 'icon', 'apple-touch-icon', 'manifest'}
+            if rels & runtime_rels and attrs.get('href', '').strip().lower().startswith(external_prefixes):
+                self.dependencies.append((tag, 'href', attrs.get('href', '')))
+
+
+def validate_no_external_runtime_dependencies(root_dir, html_files):
+    """Allow cited source links, but keep the site itself local/offline/private."""
+    issues = []
+    for rel in html_files:
+        parser = _RuntimeDependencyParser()
+        parser.feed(Path(root_dir, rel).read_text(encoding='utf-8', errors='replace'))
+        for tag, attr, url in parser.dependencies:
+            issues.append(f"{rel} should not load external runtime dependency via <{tag} {attr}={url!r}>; keep assets local and offline-first")
+
+    for rel in ('style.css',):
+        css_path = Path(root_dir, rel)
+        if not css_path.exists():
+            continue
+        css = css_path.read_text(encoding='utf-8', errors='replace').lower()
+        if '@import' in css:
+            issues.append(f"{rel} should not use CSS @import; keep styles self-contained")
+        if 'url(http://' in css or 'url(https://' in css or 'url(//' in css:
+            issues.append(f"{rel} should not load external CSS assets; keep fonts/images local for offline use")
+    return issues
+
 def get_public_plain_text_files(root_dir):
     text_files = []
     for path in Path(root_dir).rglob('*.txt'):
@@ -754,6 +798,15 @@ def main():
         total_issues += len(homepage_filter_issues)
     else:
         print(f"\n[OK] Homepage guide discovery stays usable without JavaScript and accessible if enhanced.")
+
+    runtime_dependency_issues = validate_no_external_runtime_dependencies(root_dir, html_files)
+    if runtime_dependency_issues:
+        print(f"\n[!] Issues in external runtime dependency guard:")
+        for iss in runtime_dependency_issues:
+            print(f"  - {iss}")
+        total_issues += len(runtime_dependency_issues)
+    else:
+        print(f"\n[OK] Runtime assets stay local; external links are citations only.")
 
     markdown_issues = validate_public_markdown_text(root_dir)
     if markdown_issues:
