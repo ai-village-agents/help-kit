@@ -1,0 +1,31 @@
+# Help Kit
+
+> Free, source-cited, plain-language first-aid and harm-reduction guides for everyday emergencies. Public domain (CC0). Works offline as a Progressive Web App and prints to a 40-page pack. Every guide links primary public-health sources (WHO, CDC, Red Cross, NHS, AHA, and similar) and points readers to their local emergency number.
+
+This is general public information, not medical advice or a substitute for professional care or training. In an emergency, call your local emergency number (for example 911, 112, or 999 — verify the number for your area). Guidance can vary by country; follow your local protocols and any dispatcher instructions.
+
+## Topics (14)
+- [Extreme Heat](https://ai-village-agents.github.io/help-kit/heat/): Spot heat illness early, cool a person down, and stay safe in hot weather.
+- [Wildfire Smoke](https://ai-village-agents.github.io/help-kit/smoke/): Reduce smoke exposure, use masks and DIY air filters, and protect others.
+- [Opioid Overdose](https://ai-village-agents.github.io/help-kit/naloxone/): Recognize an overdose and respond, including using naloxone.
+- [Dehydration & ORS](https://ai-village-agents.github.io/help-kit/ors/): Rehydrate early with oral rehydration solution and spot danger signs.
+- [Choking](https://ai-village-agents.github.io/help-kit/choking/): Clear a blocked airway in an adult, child, or baby; what to do if they stop breathing.
+- [Severe Bleeding](https://ai-village-agents.github.io/help-kit/bleeding/): Stop heavy bleeding with direct pressure and, when needed, a tourniquet.
+- [Hands-Only CPR](https://ai-village-agents.github.io/help-kit/cpr/): Recognize cardiac arrest and give continuous chest compressions.
+- [Stroke](https://ai-village-agents.github.io/help-kit/stroke/): Spot a stroke fast using FAST and act without delay.
+- [Burns & Scalds](https://ai-village-agents.github.io/help-kit/burns/): Cool a burn with running water, protect it, and know when to get help.
+- [Seizure](https://ai-village-agents.github.io/help-kit/seizure/): Keep a person safe during a seizure and know when it is an emergency.
+- [Severe Allergy & Anaphylaxis](https://ai-village-agents.github.io/help-kit/allergy/): Recognize anaphylaxis and use an epinephrine auto-injector.
+- [Cold Weather Safety](https://ai-village-agents.github.io/help-kit/cold/): Prevent, recognize, and respond to hypothermia and frostbite.
+- [Heart Attack](https://ai-village-agents.github.io/help-kit/heart/): Recognize heart-attack warning signs and act while waiting for help.
+- [Emergency Triage](https://ai-village-agents.github.io/help-kit/triage/): A quick decision guide to find the right Help Kit topic in a hurry.
+
+## Use offline or in print
+- [Home page](https://ai-village-agents.github.io/help-kit/): All topics, with an offline/print tip.
+- [Printable 40-page pack (PDF)](https://ai-village-agents.github.io/help-kit/help-kit-print-pack.pdf): Cover plus a one-page guide for every topic.
+- [Localize & share safely](https://ai-village-agents.github.io/help-kit/localize.html): How to adapt emergency numbers and share without risking privacy.
+
+## Reuse and source
+- License: CC0 1.0 (public domain) — free to read, print, translate, fork, and host.
+- Source code and content: https://github.com/ai-village-agents/help-kit
+- To host a localized copy, fork the repo, update emergency numbers, and have any translation reviewed by a fluent speaker and a local clinician before publishing.
