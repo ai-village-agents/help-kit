@@ -4,21 +4,21 @@
   <meta charset="utf-8"/>
   <meta content="width=device-width,initial-scale=1" name="viewport"/>
   <title>
-   [HI]: Help Kit — Free, source-cited guides for moments that matter | Help Kit
+   सहायता किट - महत्वपूर्ण क्षणों के लिए निःशुल्क, स्रोत-उद्धृत मार्गदर्शिकाएँ | Help Kit
   </title>
-  <meta content="[HI]: Free, source-cited, print-friendly guides to recognizing and responding to acute emergencies and hazards: extreme heat, wildfire smoke, opioid overdose, dehydration, choking, severe bleeding, CPR, stroke, burns, seizure first aid, severe allergy/anaphylaxis, and a quick emergency navigator. Public domain (CC0)." name="description"/>
+  <meta content="नि:शुल्क CC0, स्रोत-उद्धृत प्राथमिक चिकित्सा मार्गदर्शिकाएँ: गर्मी, धुआं, अधिक मात्रा, ओआरएस, दम घुटना, रक्तस्राव, सीपीआर, स्ट्रोक, जलन, दौरे, एलर्जी, सर्दी, दिल का दौरा और ट्राइएज।" name="description"/>
   <link href="https://ai-village-agents.github.io/help-kit/" rel="canonical"/>
   <meta content="noindex, nofollow, noarchive" name="robots"/>
   <meta content="Help Kit" property="og:site_name"/>
   <meta content="website" property="og:type"/>
   <meta content="Help Kit — Free, source-cited guides for moments that matter" property="og:title"/>
-  <meta content="Free, source-cited, print-friendly guides to recognizing and responding to acute emergencies and hazards: extreme heat, wildfire smoke, opioid overdose, dehydration, choking, severe bleeding, CPR, stroke, burns, seizure first aid, severe allergy/anaphylaxis, and a quick emergency navigator. Public domain (CC0)." property="og:description"/>
+  <meta content="Free CC0, source-cited first-aid guides: heat, smoke, overdose, ORS, choking, bleeding, CPR, stroke, burns, seizure, allergy, cold, heart attack, and triage." property="og:description"/>
   <meta content="https://ai-village-agents.github.io/help-kit/" property="og:url"/>
   <meta content="https://ai-village-agents.github.io/help-kit/og-image.png" property="og:image"/>
   <meta content="summary_large_image" name="twitter:card"/>
   <meta content="https://ai-village-agents.github.io/help-kit/og-image.png" name="twitter:image"/>
   <meta content="Help Kit — Free, source-cited guides for moments that matter" name="twitter:title"/>
-  <meta content="Free, source-cited, print-friendly guides to recognizing and responding to acute emergencies and hazards: extreme heat, wildfire smoke, opioid overdose, dehydration, choking, severe bleeding, CPR, stroke, burns, seizure first aid, severe allergy/anaphylaxis, and a quick emergency navigator. Public domain (CC0)." name="twitter:description"/>
+  <meta content="Free CC0, source-cited first-aid guides: heat, smoke, overdose, ORS, choking, bleeding, CPR, stroke, burns, seizure, allergy, cold, heart attack, and triage." name="twitter:description"/>
   <meta content="#c0392b" name="theme-color"/>
   <link href="favicon.ico" rel="icon" sizes="any"/>
   <link href="style.css" rel="stylesheet"/>
@@ -34,13 +34,41 @@
   </style>
   <link href="/help-kit/manifest.webmanifest" rel="manifest"/>
   <link href="/help-kit/icon-192.png" rel="apple-touch-icon"/>
+  <script type="application/ld+json">
+   {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://ai-village-agents.github.io/help-kit/#website",
+      "name": "Help Kit",
+      "url": "https://ai-village-agents.github.io/help-kit/",
+      "description": "Free CC0, source-cited first-aid guides: heat, smoke, overdose, ORS, choking, bleeding, CPR, stroke, burns, seizure, allergy, cold, heart attack, and triage.",
+      "inLanguage": "en",
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "publisher": {
+        "@id": "https://ai-village-agents.github.io/help-kit/#org"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://ai-village-agents.github.io/help-kit/#org",
+      "name": "Help Kit",
+      "url": "https://ai-village-agents.github.io/help-kit/",
+      "sameAs": [
+        "https://github.com/ai-village-agents/help-kit"
+      ]
+    }
+  ]
+}
+  </script>
  </head>
  <body>
   <div class="notice danger" data-draft-warning="true">
    UNREVIEWED MACHINE TRANSLATION DRAFT (hi). Do not use for medical guidance, sharing, printing, or training until fluent local reviewers verify all emergency numbers, doses, timings, and local guidance against the English source.
   </div>
   <a class="skip-link" href="#main">
-   [HI]: Skip to main content
+   मुख्य सामग्री पर जाएँ
   </a>
   <header class="site">
    <div class="wrap">
@@ -49,49 +77,49 @@
     </a>
     <nav>
      <a href="heat/">
-      [HI]: Extreme Heat
+      अत्यधिक गर्मी
      </a>
      <a href="smoke/">
-      [HI]: Wildfire Smoke
+      जंगल की आग का धुआं
      </a>
      <a href="naloxone/">
-      [HI]: Opioid Overdose
+      ओपिओइड ओवरडोज़
      </a>
      <a href="ors/">
-      [HI]: Dehydration &amp; ORS
+      निर्जलीकरण एवं ओ.आर.एस
      </a>
      <a href="choking/">
-      [HI]: Choking
+      दम घुट रहा है
      </a>
      <a href="bleeding/">
-      [HI]: Severe Bleeding
+      गंभीर रक्तस्राव
      </a>
      <a href="cpr/">
-      [HI]: CPR
+      सीपीआर
      </a>
      <a href="stroke/">
-      [HI]: Stroke
+      आघात
      </a>
      <a href="burns/">
-      [HI]: Burns
+      बर्न्स
      </a>
      <a href="seizure/">
-      [HI]: Seizure
+      जब्ती
      </a>
      <a href="allergy/">
-      [HI]: Severe Allergy
+      गंभीर एलर्जी
      </a>
      <a href="cold/">
-      [HI]: Cold Safety
+      शीत सुरक्षा
      </a>
      <a href="heart/">
-      [HI]: Heart Attack
+      दिल का दौरा
      </a>
      <a href="triage/">
-      [HI]: Triage
+      ट्राइएज
      </a>
      <a href="localize.html">
-      [HI]: Localize &amp; share
+      स्थानीयकृत करें और साझा करें
      </a>
     </nav>
    </div>
@@ -99,179 +127,179 @@
   <section class="hero">
    <div class="wrap">
     <h1>
-     [HI]: Help Kit
+     सहायता किट
     </h1>
     <p>
-     [HI]: Free, clear, source-cited guides for moments that matter — so anyone can recognize an emergency and act in time.
+     महत्वपूर्ण क्षणों के लिए नि:शुल्क, स्पष्ट, स्रोत-उद्धृत मार्गदर्शिकाएँ - ताकि कोई भी किसी आपात स्थिति को पहचान सके और समय पर कार्रवाई कर सके।
     </p>
    </div>
   </section>
   <main id="main">
    <div class="wrap">
     <p class="intro">
-     [HI]: Many acute emergencies can be spotted earlier or made less harmful. These short guides distill guidance from public health authorities and trusted medical/public-safety sources into plain language anyone can use, print, and share. No sign-up, no tracking, public domain.
+     कई तीव्र आपात स्थितियों को पहले ही देखा जा सकता है या कम हानिकारक बनाया जा सकता है। ये संक्षिप्त मार्गदर्शिकाएँ सार्वजनिक स्वास्थ्य अधिकारियों और विश्वसनीय चिकित्सा/सार्वजनिक-सुरक्षा स्रोतों से मार्गदर्शन को सरल भाषा में वितरित करती हैं जिन्हें कोई भी उपयोग, प्रिंट और साझा कर सकता है। कोई साइन-अप नहीं, कोई ट्रैकिंग नहीं, सार्वजनिक डोमेन।
     </p>
     <div class="actions no-print">
      <a class="btn" href="help-kit-print-pack.pdf">
-      [HI]: Download all printable one-pagers (PDF)
+      सभी प्रिंट करने योग्य एक-पेजर्स डाउनलोड करें (पीडीएफ)
      </a>
      <a class="btn alt" href="localize.html">
-      [HI]: Localize before sharing
+      साझा करने से पहले स्थानीयकरण करें
      </a>
     </div>
     <div class="cards">
      <a class="card" href="heat/">
       <h3>
-       [HI]: 🥵 Extreme Heat
+       🥵अत्यधिक गर्मी
       </h3>
       <p>
-       [HI]: Spot heat exhaustion and heat stroke, cool someone down fast, and protect neighbors at high risk during a heat wave.
+       गर्मी की थकावट और हीट स्ट्रोक का पता लगाएं, किसी को तेजी से ठंडा करें, और गर्मी की लहर के दौरान उच्च जोखिम वाले पड़ोसियों की रक्षा करें।
       </p>
       <span class="go">
-       [HI]: Open the heat guide →
+       हीट गाइड खोलें →
       </span>
      </a>
      <a class="card" href="smoke/">
       <h3>
-       [HI]: 🌫️ Wildfire Smoke
+       🌫️ जंगल की आग का धुआं
       </h3>
       <p>
-       [HI]: Read air-quality alerts, cut your smoke exposure, build a low-cost clean-air filter, and protect people most at risk.
+       वायु-गुणवत्ता अलर्ट पढ़ें, अपने धुएं के जोखिम को कम करें, कम लागत वाला स्वच्छ-वायु फ़िल्टर बनाएं और सबसे अधिक जोखिम वाले लोगों की रक्षा करें।
       </p>
       <span class="go">
-       [HI]: Open the smoke guide →
+       स्मोक गाइड खोलें →
       </span>
      </a>
      <a class="card" href="naloxone/">
       <h3>
-       [HI]: 💊 Opioid Overdose
+       💊ओपिऑइड ओवरडोज़
       </h3>
       <p>
-       🚨[REVIEW_REQUIRED] [HI]: Recognize a possible overdose and respond step by step with naloxone (Narcan), an emergency medicine that may reverse opioid overdose while help is coming.
+       🚨[REVIEW_REQUIRED] संभावित ओवरडोज़ को पहचानें और नालोक्सोन (नार्कन) के साथ कदम दर कदम प्रतिक्रिया करें, एक आपातकालीन दवा जो मदद आने पर ओपियोइड ओवरडोज़ को उलट सकती है।
       </p>
       <span class="go">
-       [HI]: Open the overdose guide →
+       ओवरडोज़ गाइड खोलें →
       </span>
      </a>
      <a class="card" href="ors/">
       <h3>
-       [HI]: 💧 Dehydration &amp; ORS
+       💧 निर्जलीकरण एवं ओ.आर.एस
       </h3>
       <p>
-       [HI]: Use oral rehydration solution safely, spot dehydration danger signs, and know when to seek urgent care.
+       मौखिक पुनर्जलीकरण समाधान का सुरक्षित रूप से उपयोग करें, निर्जलीकरण के खतरे के संकेतों को पहचानें, और जानें कि तत्काल देखभाल कब लेनी है।
       </p>
       <span class="go">
-       [HI]: Open the ORS guide →
+       ओआरएस गाइड खोलें →
       </span>
      </a>
      <a class="card" href="choking/">
       <h3>
-       [HI]: 🫁 Choking
+       🫁घुटन
       </h3>
       <p>
-       [HI]: Help a choking adult, child, or baby with back blows and thrusts — and know what to do if they go unconscious.
+       किसी दम घुटने वाले वयस्क, बच्चे या बच्चे को पीठ पर वार और जोर से मदद करें - और जानें कि अगर वे बेहोश हो जाएं तो क्या करना चाहिए।
       </p>
       <span class="go">
-       [HI]: Open the choking guide →
+       चोकिंग गाइड खोलें →
       </span>
      </a>
      <a class="card" href="bleeding/">
       <h3>
-       [HI]: 🩸 Severe Bleeding
+       🩸 गंभीर रक्तस्राव
       </h3>
       <p>
-       [HI]: Slow or stop life-threatening bleeding with firm pressure, wound packing, and tourniquet basics — and know when to use each.
+       मजबूत दबाव, घाव की पैकिंग और टूर्निकेट की बुनियादी बातों से जीवन-घातक रक्तस्राव को धीमा या रोकें - और जानें कि प्रत्येक का उपयोग कब करना है।
       </p>
       <span class="go">
-       [HI]: Open the bleeding guide →
+       ब्लीडिंग गाइड खोलें →
       </span>
      </a>
      <a class="card" href="cpr/">
       <h3>
-       [HI]: ❤️ Hands-Only CPR
+       ❤️ केवल हाथों के लिए सीपीआर
       </h3>
       <p>
-       🚨[REVIEW_REQUIRED] [HI]: If someone collapses and isn't breathing normally: call for help, push hard and fast on the centre of the chest, and use an AED.
+       🚨[REVIEW_REQUIRED] यदि कोई गिर जाता है और सामान्य रूप से सांस नहीं ले रहा है: मदद के लिए बुलाएं, छाती के केंद्र पर जोर से और तेजी से धक्का दें, और एईडी का उपयोग करें।
       </p>
       <span class="go">
-       [HI]: Open the CPR guide →
+       सीपीआर गाइड खोलें →
       </span>
      </a>
      <a class="card" href="stroke/">
       <h3>
-       [HI]: 🧠 Stroke (FAST)
+       🧠 स्ट्रोक (तेज़)
       </h3>
       <p>
-       [HI]: Spot possible stroke signs fast — Face drooping, Arm weakness, Speech trouble, Time to call — and get urgent help immediately.
+       संभावित स्ट्रोक संकेतों को तेजी से पहचानें - चेहरा झुकना, बांह में कमजोरी, बोलने में परेशानी, कॉल करने का समय - और तुरंत तत्काल सहायता प्राप्त करें।
       </p>
       <span class="go">
-       [HI]: Open the stroke guide →
+       स्ट्रोक गाइड खोलें →
       </span>
      </a>
      <a class="card" href="burns/">
       <h3>
-       [HI]: 🔥 Burns &amp; Scalds
+       🔥जलना और झुलसना
       </h3>
       <p>
-       🚨[REVIEW_REQUIRED] [HI]: Cool a burn with running water for 20 minutes, never use ice or butter, cover it loosely, and know when a burn needs medical help.
+       🚨[REVIEW_REQUIRED] जले हुए स्थान को बहते पानी से 20 मिनट तक ठंडा करें, कभी भी बर्फ या मक्खन का उपयोग न करें, इसे ढीला ढकें और जानें कि जले हुए स्थान पर कब चिकित्सा सहायता की आवश्यकता होती है।
       </p>
       <span class="go">
-       [HI]: Open the burns guide →
+       बर्न्स गाइड खोलें →
       </span>
      </a>
      <a class="card" href="seizure/">
       <h3>
-       [HI]: 🧠 Seizure First Aid
+       🧠 जब्ती प्राथमिक चिकित्सा
       </h3>
       <p>
-       [HI]: Keep the person safe, time the seizure, never restrain them or put anything in their mouth, roll them onto their side after, and know when to call.
+       व्यक्ति को सुरक्षित रखें, दौरे का समय निर्धारित करें, उन्हें कभी भी रोकें नहीं या उनके मुंह में कुछ न डालें, बाद में उन्हें अपनी तरफ लिटा दें और जानें कि कब कॉल करना है।
       </p>
       <span class="go">
-       [HI]: Open the seizure guide →
+       जब्ती गाइड खोलें →
       </span>
      </a>
      <a class="card" href="allergy/">
       <h3>
-       [HI]: ⚠️ Severe Allergy
+       ⚠️ गंभीर एलर्जी
       </h3>
       <p>
-       🚨[REVIEW_REQUIRED] [HI]: Recognize anaphylaxis, call emergency services, use epinephrine when indicated, position safely, and watch breathing.
+       🚨[REVIEW_REQUIRED] एनाफिलेक्सिस को पहचानें, आपातकालीन सेवाओं को कॉल करें, संकेत मिलने पर एपिनेफ्रिन का उपयोग करें, सुरक्षित स्थिति में रहें और सांस लेने पर नज़र रखें।
       </p>
       <span class="go">
-       [HI]: Open the allergy guide →
+       एलर्जी गाइड खोलें →
       </span>
      </a>
      <a class="card" href="cold/">
       <h3>
-       [HI]: 🥶 Cold Safety
+       🥶 शीत सुरक्षा
       </h3>
       <p>
-       [HI]: Spot hypothermia and frostbite warning signs, rewarm safely, avoid direct high heat, and protect neighbors facing higher risk.
+       हाइपोथर्मिया और शीतदंश चेतावनी संकेतों को पहचानें, सुरक्षित रूप से पुनः गर्म करें, सीधे उच्च गर्मी से बचें, और उच्च जोखिम का सामना करने वाले पड़ोसियों की रक्षा करें।
       </p>
       <span class="go">
-       [HI]: Open the cold safety guide →
+       शीत सुरक्षा गाइड खोलें →
       </span>
      </a>
      <a class="card" href="heart/">
       <h3>
-       [HI]: ❤️ Heart Attack
+       ❤️ दिल का दौरा
       </h3>
       <p>
-       [HI]: Recognize the warning signs, call emergency services right away, help the person rest, give aspirin if appropriate, and start CPR if they collapse and stop breathing normally.
+       चेतावनी के संकेतों को पहचानें, तुरंत आपातकालीन सेवाओं को कॉल करें, व्यक्ति को आराम करने में मदद करें, यदि उचित हो तो एस्पिरिन दें, और यदि वे गिर जाएं और सामान्य रूप से सांस लेना बंद कर दें तो सीपीआर शुरू करें।
       </p>
       <span class="go">
-       [HI]: Open the heart attack guide →
+       हार्ट अटैक गाइड खोलें →
       </span>
      </a>
      <a class="card" href="triage/">
       <h3>
-       [HI]: 🚦 Emergency Triage
+       🚦आपातकालीन ट्राइएज
       </h3>
       <p>
-       [HI]: Quick decision guide for the first minutes of an emergency.
+       आपात्कालीन स्थिति के पहले मिनटों के लिए त्वरित निर्णय मार्गदर्शिका।
       </p>
       <span class="go">
-       [HI]: Open the triage guide →
+       ट्राइएज गाइड खोलें →
       </span>
      </a>
     </div>
@@ -280,78 +308,78 @@
       Offline tip
      </span>
      <p>
-      [HI]: Before a storm, heat wave, wildfire, or other outage, open this site once on each phone while online. In modern browsers, the pages and PDFs are saved for offline use after that first visit. Also download or print the
+      तूफ़ान, लू, जंगल की आग, या अन्य तबाही से पहले, ऑनलाइन रहते हुए प्रत्येक फ़ोन पर एक बार इस साइट को खोलें। आधुनिक ब्राउज़रों में, पेज और पीडीएफ़ उस पहली विज़िट के बाद ऑफ़लाइन उपयोग के लिए सहेजे जाते हैं। साथ ही डाउनलोड या प्रिंट कर लें
       <a href="help-kit-print-pack.pdf">
-       [HI]: combined PDF pack
+       संयुक्त पीडीएफ पैक
       </a>
-      [HI]: for a backup.
+      बैकअप के लिए.
      </p>
     </div>
     <h2>
-     [HI]: How to use these
+     इनका उपयोग कैसे करें
     </h2>
     <ul>
      <li>
       <strong>
-       [HI]: Localize before distributing
+       वितरण से पहले स्थानीयकरण करें
       </strong>
-      [HI]: — use the
+      - उपयोग
       <a href="localize.html">
-       [HI]: localization checklist and share copy
+       स्थानीयकरण चेकलिस्ट और शेयर कॉपी
       </a>
-      [HI]: to verify emergency numbers, access details, and official local resources.
+      आपातकालीन नंबरों, पहुंच विवरण और आधिकारिक स्थानीय संसाधनों को सत्यापित करने के लिए।
      </li>
      <li>
       <strong>
-       [HI]: Read on any phone
+       किसी भी फ़ोन पर पढ़ें
       </strong>
-      [HI]: — pages are mobile-friendly and load quickly.
+      — पेज मोबाइल-अनुकूल हैं और तेज़ी से लोड होते हैं।
      </li>
      <li>
       <strong>
-       [HI]: Save for offline use
+       ऑफ़लाइन उपयोग के लिए सहेजें
       </strong>
-      [HI]: — open the site once while online so a modern browser can cache the pages and PDFs; test before relying on it during an outage.
+      - ऑनलाइन रहते हुए एक बार साइट खोलें ताकि एक आधुनिक ब्राउज़र पृष्ठों और पीडीएफ को कैश कर सके; किसी आउटेज के दौरान इस पर भरोसा करने से पहले परीक्षण करें।
      </li>
      <li>
       <strong>
-       [HI]: Print a handout
+       एक हैंडआउट प्रिंट करें
       </strong>
-      [HI]: — each guide has a clean print layout and a downloadable PDF; the
+      - प्रत्येक गाइड में एक साफ प्रिंट लेआउट और एक डाउनलोड करने योग्य पीडीएफ है;
       <a href="help-kit-print-pack.pdf">
-       [HI]: combined print pack
+       संयुक्त प्रिंट पैक
       </a>
-      [HI]: includes all current one-pagers for paper backup.
+      इसमें पेपर बैकअप के लिए सभी मौजूदा एक-पेजर शामिल हैं।
      </li>
      <li>
       <strong>
-       [HI]: Share freely
+       स्वतंत्र रूप से साझा करें
       </strong>
-      [HI]: — everything here is public domain (CC0). Copy it, translate it, reprint it, no permission needed.
+      - यहां सब कुछ सार्वजनिक डोमेन (CC0) है। इसे कॉपी करें, इसका अनुवाद करें, इसे दोबारा प्रिंट करें, किसी अनुमति की आवश्यकता नहीं है।
      </li>
     </ul>
     <h2>
-     [HI]: For community organizers &amp; mutual-aid groups
+     सामुदायिक आयोजकों और पारस्परिक सहायता समूहों के लिए
     </h2>
     <p>
-     [HI]: These pages are built to be reused. The full source is on
+     ये पृष्ठ पुन: उपयोग के लिए बनाए गए हैं। पूरा स्रोत चालू है
      <a href="https://github.com/ai-village-agents/help-kit">
-      [HI]: GitHub
+      GitHub
      </a>
-     [HI]: — fork it, adapt the wording for your region's emergency numbers and local resources, and host your own copy.
+     - इसे फोर्क करें, अपने क्षेत्र के आपातकालीन नंबरों और स्थानीय संसाधनों के लिए शब्दों को अनुकूलित करें, और अपनी स्वयं की प्रति होस्ट करें।
     </p>
     <p class="disclaimer">
-     [HI]: These guides are general information, not medical advice, and are not a substitute for professional emergency care or training. In an emergency, always call your local emergency number, and verify against your local health authority. Created as an open public-good project.
+     ये मार्गदर्शिकाएँ सामान्य जानकारी हैं, चिकित्सीय सलाह नहीं, और पेशेवर आपातकालीन देखभाल या प्रशिक्षण का विकल्प नहीं हैं। आपात्कालीन स्थिति में, हमेशा अपने स्थानीय आपातकालीन नंबर पर कॉल करें, और अपने स्थानीय स्वास्थ्य प्राधिकारी से पुष्टि करें। एक खुली सार्वजनिक-भलाई परियोजना के रूप में बनाया गया।
     </p>
    </div>
   </main>
   <footer class="site">
    <div class="wrap">
-    [HI]: A free, open Help Kit ·
+    एक मुफ़्त, खुली सहायता किट ·
     <a href="https://github.com/ai-village-agents/help-kit">
-     [HI]: source on GitHub
+     GitHub पर स्रोत
     </a>
-    [HI]: · Public domain (CC0 1.0)
+    · सार्वजनिक डोमेन (CC0 1.0)
    </div>
   </footer>
   <script>

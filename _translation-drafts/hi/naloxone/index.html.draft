@@ -4,9 +4,9 @@
   <meta charset="utf-8"/>
   <meta content="width=device-width,initial-scale=1" name="viewport"/>
   <title>
-   [HI]: Opioid Overdose: Recognize It, Reverse It with Naloxone — Help Kit | Help Kit
+   ओपियोइड ओवरडोज़: इसे पहचानें, इसे नालोक्सोन के साथ उलटें - सहायता किट | Help Kit
   </title>
-  <meta content="[HI]: A free, source-cited one-page guide to recognizing an opioid overdose and responding with naloxone (Narcan), step by step." name="description"/>
+  <meta content="ओपियोइड ओवरडोज़ को पहचानने और नालोक्सोन (नार्कन) के साथ प्रतिक्रिया देने के लिए चरण दर चरण एक निःशुल्क, स्रोत-उद्धृत एक-पृष्ठ मार्गदर्शिका।" name="description"/>
   <link href="https://ai-village-agents.github.io/help-kit/naloxone/" rel="canonical"/>
   <meta content="noindex, nofollow, noarchive" name="robots"/>
   <meta content="Help Kit" property="og:site_name"/>
@@ -24,13 +24,51 @@
   <link href="../style.css" rel="stylesheet"/>
   <link href="/help-kit/manifest.webmanifest" rel="manifest"/>
   <link href="/help-kit/icon-192.png" rel="apple-touch-icon"/>
+  <script type="application/ld+json">
+   {
+  "@context": "https://schema.org",
+  "@type": "MedicalWebPage",
+  "name": "Opioid Overdose: Recognize It, Reverse It with Naloxone",
+  "description": "A free, source-cited one-page guide to recognizing an opioid overdose and responding with naloxone (Narcan), step by step.",
+  "url": "https://ai-village-agents.github.io/help-kit/naloxone/",
+  "inLanguage": "en",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "Help Kit",
+    "url": "https://ai-village-agents.github.io/help-kit/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Help Kit",
+    "url": "https://ai-village-agents.github.io/help-kit/"
+  },
+  "citation": [
+    {
+      "@type": "WebPage",
+      "name": "U.S. Centers for Disease Control and Prevention (CDC) — about naloxone",
+      "url": "https://www.cdc.gov/overdose-prevention/reversing-overdose/about-naloxone.html"
+    },
+    {
+      "@type": "WebPage",
+      "name": "U.S. National Institute on Drug Abuse (NIDA) — Naloxone DrugFacts",
+      "url": "https://nida.nih.gov/publications/drugfacts/naloxone"
+    },
+    {
+      "@type": "WebPage",
+      "name": "U.S. Food and Drug Administration (FDA) drug information",
+      "url": "https://www.fda.gov/drugs"
+    }
+  ]
+}
+  </script>
  </head>
  <body>
   <div class="notice danger" data-draft-warning="true">
    UNREVIEWED MACHINE TRANSLATION DRAFT (hi). Do not use for medical guidance, sharing, printing, or training until fluent local reviewers verify all emergency numbers, doses, timings, and local guidance against the English source.
   </div>
   <a class="skip-link" href="#main">
-   [HI]: Skip to main content
+   मुख्य सामग्री पर जाएँ
   </a>
   <header class="site">
    <div class="wrap">
@@ -39,49 +77,49 @@
     </a>
     <nav>
      <a href="../heat/">
-      [HI]: Extreme Heat
+      अत्यधिक गर्मी
      </a>
      <a href="../smoke/">
-      [HI]: Wildfire Smoke
+      जंगल की आग का धुआं
      </a>
      <a href="../naloxone/">
-      [HI]: Opioid Overdose
+      ओपिओइड ओवरडोज़
      </a>
      <a href="../ors/">
-      [HI]: Dehydration &amp; ORS
+      निर्जलीकरण एवं ओ.आर.एस
      </a>
      <a href="../choking/">
-      [HI]: Choking
+      दम घुट रहा है
      </a>
      <a href="../bleeding/">
-      [HI]: Severe Bleeding
+      गंभीर रक्तस्राव
      </a>
      <a href="../cpr/">
-      [HI]: CPR
+      सीपीआर
      </a>
      <a href="../stroke/">
-      [HI]: Stroke
+      आघात
      </a>
      <a href="../burns/">
-      [HI]: Burns
+      बर्न्स
      </a>
      <a href="../seizure/">
-      [HI]: Seizure
+      जब्ती
      </a>
      <a href="../allergy/">
-      [HI]: Severe Allergy
+      गंभीर एलर्जी
      </a>
      <a href="../cold/">
-      [HI]: Cold Safety
+      शीत सुरक्षा
      </a>
      <a href="../heart/">
-      [HI]: Heart Attack
+      दिल का दौरा
      </a>
      <a href="../triage/">
-      [HI]: Triage
+      ट्राइएज
      </a>
      <a href="../localize.html">
-      [HI]: Localize &amp; share
+      स्थानीयकृत करें और साझा करें
      </a>
     </nav>
    </div>
@@ -89,32 +127,32 @@
   <section class="hero">
    <div class="wrap">
     <h1>
-     [HI]: Opioid overdose: recognize it, reverse it
+     ओपिओइड ओवरडोज़: इसे पहचानें, इसे उल्टा करें
     </h1>
     <p>
-     🚨[REVIEW_REQUIRED] [HI]: How to spot an opioid overdose and respond with naloxone (Narcan). Naloxone is very unlikely to harm someone, is designed for layperson use, and may reverse an opioid overdose while help is coming. Free to read, print, and share.
+     🚨[REVIEW_REQUIRED] ओपियोइड ओवरडोज़ का पता कैसे लगाएं और नालोक्सोन (नार्कन) से कैसे प्रतिक्रिया दें। नालोक्सोन से किसी को नुकसान पहुंचाने की बहुत कम संभावना है, इसे आम लोगों के उपयोग के लिए डिज़ाइन किया गया है, और मदद आने पर ओपियोइड ओवरडोज़ को उलट सकता है। पढ़ने, प्रिंट करने और साझा करने के लिए निःशुल्क।
     </p>
    </div>
   </section>
   <main id="main">
    <div class="wrap">
     <p class="lede">
-     [HI]: An opioid overdose slows or stops a person's breathing.
+     ओपिओइड की अधिक खुराक से व्यक्ति की सांस धीमी हो जाती है या रुक जाती है।
      <strong>
-      🚨[REVIEW_REQUIRED] [HI]: Naloxone
+      🚨[REVIEW_REQUIRED] नालोक्सोन
      </strong>
-     [HI]: is a medicine that can quickly reverse it. It only works on opioids, it is not addictive, and giving it to someone who is
+     एक ऐसी दवा है जो इसे तुरंत उलट सकती है। यह केवल ओपियोइड पर काम करता है, यह नशे की लत नहीं है, और इसे किसी ऐसे व्यक्ति को दिया जा सकता है जिसे इसकी लत है
      <em>
-      [HI]: not
+      नहीं
      </em>
-     [HI]: overdosing is very unlikely to harm them — so when in doubt, use it and call for help.
+     अधिक खुराक से उन्हें नुकसान होने की बहुत कम संभावना है - इसलिए जब संदेह हो, तो इसका उपयोग करें और मदद के लिए कॉल करें।
     </p>
     <div class="actions no-print">
      <a class="btn" href="javascript:window.print()">
-      [HI]: Print this page
+      इस पेज को प्रिंट करें
      </a>
      <a class="btn alt" href="naloxone-onepager.pdf">
-      [HI]: Download printable PDF
+      प्रिंट करने योग्य पीडीएफ डाउनलोड करें
      </a>
     </div>
     <div class="box emergency">
@@ -122,18 +160,18 @@
       Call emergency services first
      </span>
      <h3>
-      [HI]: Always call for help
+      हमेशा मदद के लिए कॉल करें
      </h3>
      <p>
-      🚨[REVIEW_REQUIRED] [HI]: If you think someone is overdosing, call your local emergency number (examples: 911, 112, or 999; verify locally)
+      🚨[REVIEW_REQUIRED] यदि आपको लगता है कि कोई व्यक्ति अधिक खुराक ले रहा है, तो अपने स्थानीय आपातकालीन नंबर पर कॉल करें (उदाहरण: 911, 112, या 999; स्थानीय रूप से सत्यापित करें)
       <strong>
-       [HI]: right away
+       बिल्कुल अभी
       </strong>
-      🚨[REVIEW_REQUIRED] [HI]: , then give naloxone. Naloxone can wear off before the opioids do, so professional help is still needed even if the person wakes up.
+      🚨[REVIEW_REQUIRED] , फिर नालोक्सोन दें। ओपिओइड के खत्म होने से पहले ही नालोक्सोन ख़त्म हो सकता है, इसलिए व्यक्ति के जागने पर भी पेशेवर मदद की ज़रूरत होती है।
      </p>
     </div>
     <h2>
-     [HI]: Know the signs of an overdose
+     जानिए ओवरडोज़ के लक्षण
     </h2>
     <div class="box warn">
      <span class="tag warn">
@@ -141,71 +179,71 @@
      </span>
      <ul>
       <li>
-       [HI]: Will not wake up or respond to your voice or touch
+       आपकी आवाज़ या स्पर्श पर जागेगा या प्रतिक्रिया नहीं देगा
       </li>
       <li>
-       [HI]: Breathing is very slow, shallow, or has stopped
+       साँस बहुत धीमी, उथली या रुकी हुई है
       </li>
       <li>
-       [HI]: Gurgling, gasping, or snoring/choking sounds
+       गुर्राने, हाँफने, या खर्राटों/घुटन की आवाजें
       </li>
       <li>
-       [HI]: Lips, fingertips, or skin turning blue, gray, or pale
+       होंठ, उंगलियां या त्वचा का नीला, भूरा या पीला पड़ना
       </li>
       <li>
-       [HI]: Very small, "pinpoint" pupils
+       बहुत छोटी, "पिनपॉइंट" पुतलियाँ
       </li>
       <li>
-       [HI]: Limp body; cold or clammy skin
+       लंगड़ा शरीर; ठंडी या चिपचिपी त्वचा
       </li>
      </ul>
      <p>
-      [HI]: To check responsiveness, call their name, tap or shake their shoulder if safe, and follow local first-aid or dispatcher instructions. If they do not respond and are not breathing normally, treat it as an overdose emergency.
+      प्रतिक्रियाशीलता की जाँच करने के लिए, उनका नाम पुकारें, यदि सुरक्षित हो तो उनके कंधे को थपथपाएँ या हिलाएँ, और स्थानीय प्राथमिक चिकित्सा या डिस्पैचर के निर्देशों का पालन करें। यदि वे प्रतिक्रिया नहीं देते हैं और सामान्य रूप से सांस नहीं ले रहे हैं, तो इसे अत्यधिक आपात स्थिति के रूप में मानें।
      </p>
     </div>
     <h2>
-     [HI]: What to do — step by step
+     क्या करें - चरण दर चरण
     </h2>
     <ol class="steps">
      <li>
       <strong>
-       [HI]: Call emergency services.
+       आपातकालीन सेवाओं को कॉल करें.
       </strong>
-      [HI]: Report that someone is unresponsive and not breathing normally, and give your location.
+      रिपोर्ट करें कि कोई प्रतिक्रिया नहीं दे रहा है और सामान्य रूप से सांस नहीं ले रहा है, और अपना स्थान बताएं।
      </li>
      <li>
       <strong>
-       🚨[REVIEW_REQUIRED] [HI]: Give naloxone.
+       🚨[REVIEW_REQUIRED] नालोक्सोन दें.
       </strong>
-      🚨[REVIEW_REQUIRED] [HI]: For nasal spray (e.g. Narcan): tilt the head back, insert the nozzle into one nostril until your fingers touch the bottom of their nose, and press the plunger firmly all the way in.
+      🚨[REVIEW_REQUIRED] नेज़ल स्प्रे (जैसे नारकन) के लिए: सिर को पीछे झुकाएं, नोजल को एक नथुने में तब तक डालें जब तक कि आपकी उंगलियां उनकी नाक के निचले हिस्से को न छू लें, और प्लंजर को पूरी तरह से अंदर तक मजबूती से दबाएं।
      </li>
      <li>
       <strong>
-       [HI]: Support their breathing.
+       उनकी सांस लेने में सहायता करें.
       </strong>
-      [HI]: Follow dispatcher instructions. If trained, give rescue breaths or CPR as appropriate. If not trained, keep their airway clear and stay with them until help arrives.
+      डिस्पैचर के निर्देशों का पालन करें. यदि प्रशिक्षित है, तो उचित बचाव श्वास या सीपीआर दें। यदि प्रशिक्षित नहीं हैं, तो उनके वायुमार्ग को साफ़ रखें और सहायता आने तक उनके साथ रहें।
      </li>
      <li>
       <strong>
-       🚨[REVIEW_REQUIRED] [HI]: Wait 2–3 minutes.
+       🚨[REVIEW_REQUIRED] 2-3 मिनट प्रतीक्षा करें।
       </strong>
-      [HI]: If there is no improvement (still not breathing or not awake), give a
+      यदि कोई सुधार नहीं होता है (अभी भी सांस नहीं ले रहा है या जाग नहीं रहा है), तो एक दें
       <strong>
-       [HI]: second dose
+       दूसरी खुराक
       </strong>
-      [HI]: in the other nostril.
+      दूसरे नथुने में.
      </li>
      <li>
       <strong>
-       [HI]: Put them in the recovery position.
+       उन्हें पुनर्प्राप्ति स्थिति में रखें.
       </strong>
-      [HI]: Once breathing, lay them on their side so they don't choke if they vomit.
+      एक बार सांस लेने के बाद, उन्हें उनकी तरफ लिटा दें ताकि उल्टी होने पर उनका दम न घुटे।
      </li>
      <li>
       <strong>
-       [HI]: Stay with them
+       उनके साथ रहो
       </strong>
-      🚨[REVIEW_REQUIRED] [HI]: until emergency help arrives. Naloxone can wear off in 30–90 minutes and the overdose can return.
+      🚨[REVIEW_REQUIRED] जब तक आपातकालीन सहायता नहीं आ जाती. नालोक्सोन 30-90 मिनट में ख़त्म हो सकता है और अधिक मात्रा वापस आ सकती है।
      </li>
     </ol>
     <div class="box ok">
@@ -215,27 +253,27 @@
      <ul>
       <li>
        <strong>
-        🚨[REVIEW_REQUIRED] [HI]: Naloxone is safe to use in an emergency.
+        🚨[REVIEW_REQUIRED] आपातकालीन स्थिति में नालोक्सोन का उपयोग करना सुरक्षित है।
        </strong>
-       [HI]: It only reverses opioids and is very unlikely to harm someone who has not taken opioids. Do not delay when overdose is possible.
+       यह केवल ओपिओइड को उलट देता है और किसी ऐसे व्यक्ति को नुकसान पहुंचाने की संभावना बहुत कम है जिसने ओपिओइड नहीं लिया है। जब ओवरडोज़ संभव हो तो देरी न करें।
       </li>
       <li>
        <strong>
-        [HI]: It is widely available.
+        यह व्यापक रूप से उपलब्ध है.
        </strong>
-       🚨[REVIEW_REQUIRED] [HI]: In the U.S., naloxone nasal spray is approved for over-the-counter sale and is free or low-cost through many pharmacies, health departments, and harm-reduction programs. Availability varies by country — ask a local pharmacist or health service.
+       🚨[REVIEW_REQUIRED] अमेरिका में, नालोक्सोन नेज़ल स्प्रे को ओवर-द-काउंटर बिक्री के लिए अनुमोदित किया गया है और यह कई फार्मेसियों, स्वास्थ्य विभागों और नुकसान-घटाने वाले कार्यक्रमों के माध्यम से मुफ़्त या कम लागत वाला है। उपलब्धता देश के अनुसार अलग-अलग होती है - स्थानीय फार्मासिस्ट या स्वास्थ्य सेवा से पूछें।
       </li>
       <li>
        <strong>
-        [HI]: Withdrawal may follow.
+        वापसी का पालन हो सकता है.
        </strong>
-       🚨[REVIEW_REQUIRED] [HI]: Naloxone can cause sudden, uncomfortable opioid withdrawal (sweating, nausea, agitation). Reassure the person, keep them from using more opioids, and keep monitoring until emergency help arrives.
+       🚨[REVIEW_REQUIRED] नालोक्सोन अचानक, असुविधाजनक ओपिओइड वापसी (पसीना, मतली, आंदोलन) का कारण बन सकता है। व्यक्ति को आश्वस्त करें, उन्हें अधिक ओपिओइड का उपयोग करने से रोकें, और आपातकालीन सहायता आने तक निगरानी रखें।
       </li>
       <li>
        <strong>
-        [HI]: Many overdoses involve fentanyl,
+        कई ओवरडोज़ में फेंटेनल शामिल होता है,
        </strong>
-       🚨[REVIEW_REQUIRED] [HI]: a very strong opioid. A second or additional dose of naloxone may be needed if breathing does not improve after 2–3 minutes — follow product directions and dispatcher guidance.
+       🚨[REVIEW_REQUIRED] एक बहुत ही मजबूत ओपिओइड. यदि 2-3 मिनट के बाद भी सांस लेने में सुधार नहीं होता है तो नालोक्सोन की दूसरी या अतिरिक्त खुराक की आवश्यकता हो सकती है - उत्पाद निर्देशों और डिस्पैचर मार्गदर्शन का पालन करें।
       </li>
      </ul>
     </div>
@@ -244,74 +282,71 @@
       Good Samaritan protections
      </span>
      <p>
-      [HI]: Many places have "Good Samaritan" laws that protect people who call for help during an overdose from certain drug-possession charges. Protections vary by location — but
+      कई स्थानों पर "अच्छे सामरी" कानून हैं जो उन लोगों की रक्षा करते हैं जो अधिक मात्रा में दवा लेने के दौरान मदद मांगते हैं और उन्हें नशीली दवाओं के कब्जे के आरोपों से बचाया जाता है। सुरक्षा स्थान के अनुसार भिन्न होती है - लेकिन
       <strong>
-       [HI]: calling for help is always the right thing to do.
+       मदद के लिए पुकारना हमेशा सही काम होता है।
       </strong>
-      [HI]: A life comes first.
+      एक जीवन पहले आता है.
      </p>
     </div>
     <h2>
-     [HI]: Be prepared before an emergency
+     आपात्कालीन स्थिति से पहले तैयार रहें
     </h2>
     <ul>
      <li>
-      🚨[REVIEW_REQUIRED] [HI]: Carry naloxone if you or someone you know uses opioids (including prescription painkillers).
+      🚨[REVIEW_REQUIRED] यदि आप या आपका कोई परिचित ओपिओइड (प्रिस्क्रिप्शन दर्द निवारक दवाओं सहित) का उपयोग करता है तो नालोक्सोन अपने साथ रखें।
      </li>
      <li>
-      [HI]: Ask a pharmacist or local health department how to get it and how to use your specific product.
+      फार्मासिस्ट या स्थानीय स्वास्थ्य विभाग से पूछें कि इसे कैसे प्राप्त करें और अपने विशिष्ट उत्पाद का उपयोग कैसे करें।
      </li>
      <li>
-      🚨[REVIEW_REQUIRED] [HI]: Tell the people around you where your naloxone is kept.
+      🚨[REVIEW_REQUIRED] अपने आस-पास के लोगों को बताएं कि आपका नालोक्सोन कहाँ रखा गया है।
      </li>
      <li>
-      [HI]: Encourage people not to use alone; if they do, ask them to tell someone or use a "never use alone" hotline where available.
+      लोगों को अकेले उपयोग न करने के लिए प्रोत्साहित करें; यदि वे ऐसा करते हैं, तो उन्हें किसी को बताने के लिए कहें या जहां उपलब्ध हो, "अकेले उपयोग न करें" हॉटलाइन का उपयोग करें।
      </li>
     </ul>
     <h2>
-     [HI]: Sources
+     सूत्रों का कहना है
     </h2>
     <ul class="sources">
      <li>
-      🚨[REVIEW_REQUIRED] [HI]: U.S. Substance Abuse and Mental Health Services Administration (SAMHSA) — overdose prevention and naloxone guidance. samhsa.gov
+      🚨[REVIEW_REQUIRED] अमेरिकी मादक द्रव्य दुरुपयोग और मानसिक स्वास्थ्य सेवा प्रशासन (एसएएमएचएसए) - ओवरडोज़ रोकथाम और नालोक्सोन मार्गदर्शन। samhsa.gov
      </li>
      <li>
       <a href="https://www.cdc.gov/overdose-prevention/reversing-overdose/about-naloxone.html">
-       🚨[REVIEW_REQUIRED] [HI]: U.S. Centers for Disease Control and Prevention (CDC) — about naloxone
+       🚨[REVIEW_REQUIRED] अमेरिकी रोग नियंत्रण और रोकथाम केंद्र (सीडीसी) - नालोक्सोन के बारे में
       </a>
-      [HI]: and overdose prevention.
+      और ओवरडोज़ की रोकथाम।
      </li>
      <li>
       <a href="https://nida.nih.gov/publications/drugfacts/naloxone">
-       [HI]: U.S. National Institute on Drug Abuse (NIDA) —
-       <em>
-        🚨[REVIEW_REQUIRED] [HI]: Naloxone DrugFacts
-       </em>
+       🚨[REVIEW_REQUIRED] यू.एस. नेशनल इंस्टीट्यूट ऑन ड्रग एब्यूज (एनआईडीए) - नालोक्सोन ड्रगफैक्ट्स
       </a>
       .
      </li>
      <li>
       <a href="https://www.fda.gov/drugs">
-       [HI]: U.S. Food and Drug Administration (FDA) drug information
+       अमेरिकी खाद्य एवं औषधि प्रशासन (एफडीए) दवा की जानकारी
       </a>
-      🚨[REVIEW_REQUIRED] [HI]: and over-the-counter naloxone information.
+      🚨[REVIEW_REQUIRED] और ओवर-द-काउंटर नालोक्सोन जानकारी।
      </li>
     </ul>
     <p class="sources">
-     🚨[REVIEW_REQUIRED] [HI]: Steps reflect SAMHSA/CDC overdose-response guidance. Always follow the instructions printed on your specific naloxone product, and your local emergency services' direction.
+     🚨[REVIEW_REQUIRED] चरण SAMHSA/CDC ओवरडोज़-प्रतिक्रिया मार्गदर्शन को प्रतिबिंबित करते हैं। हमेशा अपने विशिष्ट नालोक्सोन उत्पाद पर मुद्रित निर्देशों और अपनी स्थानीय आपातकालीन सेवाओं के निर्देशों का पालन करें।
     </p>
     <p class="disclaimer">
-     🚨[REVIEW_REQUIRED] [HI]: This guide is general information, not medical advice, and is not a substitute for professional emergency care or training. In an emergency, always call your local emergency number. Hands-on naloxone and rescue-breathing training is widely available and recommended. Reuse and reprint freely.
+     🚨[REVIEW_REQUIRED] यह मार्गदर्शिका सामान्य जानकारी है, चिकित्सीय सलाह नहीं, और पेशेवर आपातकालीन देखभाल या प्रशिक्षण का विकल्प नहीं है। आपातकालीन स्थिति में, हमेशा अपने स्थानीय आपातकालीन नंबर पर कॉल करें। हैंड्स-ऑन नालोक्सोन और बचाव-सांस लेने का प्रशिक्षण व्यापक रूप से उपलब्ध और अनुशंसित है। पुन: उपयोग करें और स्वतंत्र रूप से पुनर्मुद्रण करें।
     </p>
    </div>
   </main>
   <footer class="site">
    <div class="wrap">
-    [HI]: A free, open Help Kit ·
+    एक मुफ़्त, खुली सहायता किट ·
     <a href="https://github.com/ai-village-agents/help-kit">
-     [HI]: source on GitHub
+     GitHub पर स्रोत
     </a>
-    [HI]: · Public domain (CC0) · Verify against your local health authority
+    · सार्वजनिक डोमेन (CC0) · अपने स्थानीय स्वास्थ्य प्राधिकरण के विरुद्ध सत्यापन करें
    </div>
   </footer>
   <script>

@@ -4,9 +4,9 @@
   <meta charset="utf-8"/>
   <meta content="width=device-width,initial-scale=1" name="viewport"/>
   <title>
-   [FR]: Cold Weather Safety: Hypothermia &amp; Frostbite — Help Kit | Help Kit
+   Sécurité par temps froid : hypothermie et engelures — Trousse d'aide | Help Kit
   </title>
-  <meta content="[FR]: A free, source-cited one-page guide to cold weather safety, hypothermia, and frostbite: spot the warnings, rewarm safely, avoid direct heat, do not rub frozen tissue, and know when to call for help. Based on CDC, Red Cross, and Wilderness Medical Society guidance." name="description"/>
+  <meta content="Un guide gratuit et cité par une source sur la sécurité par temps froid et l'hypothermie : repérez les avertissements, réchauffez-vous en toute sécurité, évitez la chaleur directe et sachez quand appeler à l'aide." name="description"/>
   <link href="https://ai-village-agents.github.io/help-kit/cold/" rel="canonical"/>
   <meta content="noindex, nofollow, noarchive" name="robots"/>
   <meta content="Help Kit" property="og:site_name"/>
@@ -24,13 +24,61 @@
   <link href="../style.css" rel="stylesheet"/>
   <link href="/help-kit/manifest.webmanifest" rel="manifest"/>
   <link href="/help-kit/icon-192.png" rel="apple-touch-icon"/>
+  <script type="application/ld+json">
+   {
+  "@context": "https://schema.org",
+  "@type": "MedicalWebPage",
+  "name": "Cold Weather Safety: Hypothermia & Frostbite",
+  "description": "A free, source-cited guide to cold weather safety and hypothermia: spot warnings, rewarm safely, avoid direct heat, and know when to call for help.",
+  "url": "https://ai-village-agents.github.io/help-kit/cold/",
+  "inLanguage": "en",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "Help Kit",
+    "url": "https://ai-village-agents.github.io/help-kit/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Help Kit",
+    "url": "https://ai-village-agents.github.io/help-kit/"
+  },
+  "citation": [
+    {
+      "@type": "WebPage",
+      "name": "CDC — Prevent hypothermia and frostbite",
+      "url": "https://www.cdc.gov/winter-weather/about/index.html"
+    },
+    {
+      "@type": "WebPage",
+      "name": "American Red Cross — Cold-related emergencies first aid",
+      "url": "https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/winter-storm.html"
+    },
+    {
+      "@type": "WebPage",
+      "name": "Wilderness Medical Society (WMS)",
+      "url": "https://wms.org/WMS/Research/WEM/Clinical-Practice-Guidelines.aspx"
+    },
+    {
+      "@type": "WebPage",
+      "name": "NHS — Hypothermia first-aid guidance",
+      "url": "https://www.nhs.uk/conditions/hypothermia/"
+    },
+    {
+      "@type": "WebPage",
+      "name": "NHS — Frostbite rewarming and safety",
+      "url": "https://www.nhs.uk/conditions/frostbite/"
+    }
+  ]
+}
+  </script>
  </head>
  <body>
   <div class="notice danger" data-draft-warning="true">
    UNREVIEWED MACHINE TRANSLATION DRAFT (fr). Do not use for medical guidance, sharing, printing, or training until fluent local reviewers verify all emergency numbers, doses, timings, and local guidance against the English source.
   </div>
   <a class="skip-link" href="#main">
-   [FR]: Skip to main content
+   Passer au contenu principal
   </a>
   <header class="site">
    <div class="wrap">
@@ -39,49 +87,49 @@
     </a>
     <nav>
      <a href="../heat/">
-      [FR]: Extreme Heat
+      Chaleur extrême
      </a>
      <a href="../smoke/">
-      [FR]: Wildfire Smoke
+      Fumée de feux de forêt
      </a>
      <a href="../naloxone/">
-      [FR]: Opioid Overdose
+      Surdose d'opioïdes
      </a>
      <a href="../ors/">
-      [FR]: Dehydration &amp; ORS
+      Déshydratation et SOR
      </a>
      <a href="../choking/">
-      [FR]: Choking
+      Étouffement
      </a>
      <a href="../bleeding/">
-      [FR]: Severe Bleeding
+      Saignement sévère
      </a>
      <a href="../cpr/">
-      [FR]: CPR
+      RCR
      </a>
      <a href="../stroke/">
-      [FR]: Stroke
+      Accident vasculaire cérébral
      </a>
      <a href="../burns/">
-      [FR]: Burns
+      Brûlures
      </a>
      <a href="../seizure/">
-      [FR]: Seizure
+      Crise d'épilepsie
      </a>
      <a href="../allergy/">
-      [FR]: Severe Allergy
+      Allergie sévère
      </a>
      <a href="../cold/">
-      [FR]: Cold Safety
+      Sécurité contre le froid
      </a>
      <a href="../heart/">
-      [FR]: Heart Attack
+      Crise cardiaque
      </a>
      <a href="../triage/">
-      [FR]: Triage
+      Triage
      </a>
      <a href="../localize.html">
-      [FR]: Localize &amp; share
+      Localiser et partager
      </a>
     </nav>
    </div>
@@ -89,24 +137,24 @@
   <section class="hero">
    <div class="wrap">
     <h1>
-     [FR]: Cold weather safety
+     Sécurité par temps froid
     </h1>
     <p>
-     🚨[REVIEW_REQUIRED] [FR]: Extreme cold waves can cause life-threatening cold stress. Hypothermia occurs when the body's temperature drops below 95°F (35°C), while frostbite causes severe tissue freezing. Recognizing the signs early and rewarming safely are critical to preventing injury, limb loss, and death. Free to read, print, and share.
+     🚨[REVIEW_REQUIRED] Les vagues de froid extrême peuvent provoquer un stress dû au froid potentiellement mortel. L'hypothermie survient lorsque la température du corps descend en dessous de 95 °F (35 °C), tandis que les engelures provoquent un gel sévère des tissus. Reconnaître les signes tôt et se réchauffer en toute sécurité sont essentiels pour prévenir les blessures, la perte de membres et la mort. Lecture, impression et partage gratuits.
     </p>
    </div>
   </section>
   <main id="main">
    <div class="wrap">
     <p class="lede">
-     [FR]: When exposed to cold, the body loses heat faster than it can produce it. Your job is to recognize warning signs, shelter the person, remove wet gear, and warm them gradually — without causing secondary burns or tissue damage.
+     Lorsqu’il est exposé au froid, le corps perd de la chaleur plus rapidement qu’il ne peut en produire. Votre travail consiste à reconnaître les signes avant-coureurs, à abriter la personne, à retirer les vêtements mouillés et à les réchauffer progressivement, sans causer de brûlures secondaires ni de lésions tissulaires.
     </p>
     <div class="actions no-print">
      <a class="btn" href="javascript:window.print()">
-      [FR]: Print this page
+      Imprimer cette page
      </a>
      <a class="btn alt" href="cold-onepager.pdf">
-      [FR]: Download printable PDF
+      Télécharger le PDF imprimable
      </a>
     </div>
     <div class="box emergency">
@@ -114,186 +162,186 @@
       Call emergency services now if…
      </span>
      <h3>
-      [FR]: When extreme cold becomes an emergency
+      Quand le grand froid devient une urgence
      </h3>
      <ul>
       <li>
-       [FR]: The person shows signs of
+       La personne montre des signes de
        <strong>
-        [FR]: severe hypothermia
+        hypothermie sévère
        </strong>
-       [FR]: : confusion, memory loss, slurred speech, extreme drowsiness, or shivering that stops completely while they remain cold.
+       : confusion, perte de mémoire, troubles de l'élocution, somnolence extrême ou frissons qui s'arrêtent complètement tant qu'ils restent froids.
       </li>
       <li>
-       [FR]: The person is
+       La personne est
        <strong>
-        [FR]: unresponsive or unconscious
+        insensible ou inconscient
        </strong>
-       [FR]: and feels cold to the touch.
+       et est froid au toucher.
       </li>
       <li>
-       [FR]: The person is suffering from
+       La personne souffre
        <strong>
-        [FR]: severe frostbite
+        engelures sévères
        </strong>
-       [FR]: (skin is blue, gray, white, or black, or feels hard/waxy).
+       (la peau est bleue, grise, blanche ou noire, ou semble dure/cireuse).
       </li>
      </ul>
      <p>
-      🚨[REVIEW_REQUIRED] [FR]: Call your local emergency number (examples: 911, 112, or 999; verify locally). Put the phone on speaker and follow dispatcher instructions.
+      🚨[REVIEW_REQUIRED] Appelez votre numéro d'urgence local (exemples : 911, 112 ou 999 ; vérifiez localement). Mettez le téléphone sur haut-parleur et suivez les instructions du répartiteur.
      </p>
     </div>
     <h2>
-     [FR]: How to treat hypothermia (low body temperature)
+     Comment traiter l'hypothermie (basse température corporelle)
     </h2>
     <ol class="steps">
      <li>
       <strong>
-       [FR]: Get them to a warm, dry shelter.
+       Amenez-les dans un abri chaud et sec.
       </strong>
-      [FR]: Protect them from the wind and cold ground.
+      Protégez-les du vent et du sol froid.
      </li>
      <li>
       <strong>
-       [FR]: Remove wet clothing immediately.
+       Retirez immédiatement les vêtements mouillés.
       </strong>
-      [FR]: Dry wet skin. Dress them in dry, warm clothes and wrap them in warm blankets (covering the head and chest first, leaving the face clear).
+      Peau sèche et humide. Habillez-les de vêtements secs et chauds et enveloppez-les dans des couvertures chaudes (couvrant d'abord la tête et la poitrine, en laissant le visage dégagé).
      </li>
      <li>
       <strong>
-       [FR]: Warm the center of the body first.
+       Réchauffez d’abord le centre du corps.
       </strong>
-      [FR]: Use dry blankets, sleeping bags, or skin-to-skin contact. Focus on the chest, neck, head, and groin.
+      Utilisez des couvertures sèches, des sacs de couchage ou un contact peau à peau. Concentrez-vous sur la poitrine, le cou, la tête et l'aine.
      </li>
      <li>
       <strong>
-       [FR]: Do NOT use direct high heat
+       N'utilisez PAS de chaleur directe élevée
       </strong>
-      [FR]: like hot water, fire, heating lamps, or heating pads. Warming someone too fast can cause severe burns, rapid blood pressure drop, or shock.
+      comme l'eau chaude, le feu, les lampes chauffantes ou les coussins chauffants. Réchauffer une personne trop rapidement peut provoquer de graves brûlures, une chute rapide de la tension artérielle ou un choc.
      </li>
      <li>
       <strong>
-       [FR]: Give warm, non-alcoholic, sweet drinks
+       Donnez des boissons chaudes, non alcoolisées et sucrées
       </strong>
-      [FR]: if they are fully conscious, awake, and able to swallow. Never force a sleepy or confused person to drink. Do not give caffeine or alcohol.
+      s'ils sont pleinement conscients, éveillés et capables d'avaler. Ne forcez jamais une personne somnolente ou confuse à boire. Ne donnez pas de caféine ou d'alcool.
      </li>
      <li>
       <strong>
-       [FR]: If they are unresponsive and not breathing normally
+       S'ils ne répondent pas et ne respirent pas normalement
       </strong>
-      [FR]: , start hands-only CPR immediately. Keep rewarming them while CPR is ongoing.
+      , commencez immédiatement la RCR avec les mains seules. Continuez à les réchauffer pendant la RCR.
      </li>
     </ol>
     <h2>
-     [FR]: How to treat frostbite (frozen tissue)
+     Comment traiter les engelures (tissus gelés)
     </h2>
     <div class="box warn">
      <span class="tag warn">
       Protect frozen skin from further damage
      </span>
      <p>
-      [FR]: Frostbite occurs when skin freezes. Never rub or massage frostbitten skin — rubbing snow or friction can worsen tissue damage. Warm the area gradually:
+      Les engelures se produisent lorsque la peau gèle. Ne frottez ni ne massez jamais la peau gelée – le frottement de la neige ou la friction peuvent aggraver les lésions tissulaires. Réchauffez la zone progressivement :
      </p>
      <ul>
       <li>
        <strong>
-        [FR]: Get out of the cold.
+        Sortez du froid.
        </strong>
-       [FR]: Do not attempt to rewarm if there is a risk of refreezing (refreezing can cause severe tissue damage).
+       N'essayez pas de réchauffer s'il existe un risque de recongélation (la recongélation peut provoquer de graves lésions tissulaires).
       </li>
       <li>
        <strong>
-        [FR]: Do NOT walk on frostbitten feet or toes
+        Ne marchez PAS sur des pieds ou des orteils gelés
        </strong>
-       [FR]: unless absolutely necessary to get to safety, as walking causes severe structural damage.
+       sauf si cela est absolument nécessaire pour se mettre en sécurité, car la marche provoque de graves dommages structurels.
       </li>
       <li>
        <strong>
-        [FR]: Use body heat
+        Utiliser la chaleur corporelle
        </strong>
-       [FR]: to warm the area (for example, tuck frostbitten fingers under the armpit).
+       pour réchauffer la zone (par exemple, rentrez les doigts gelés sous l'aisselle).
       </li>
       <li>
        <strong>
-        [FR]: Immerse the area in warm water
+        Plongez la zone dans de l'eau tiède
        </strong>
-       [FR]: — NOT hot water. The water should be comfortable to touch for unaffected skin (about 99-104°F / 37-40°C). Do not use heating pads, stoves, or fires, as numb skin burns easily without the person feeling it.
+       — PAS d'eau chaude. L'eau doit être agréable au toucher pour la peau non affectée (environ 99-104°F / 37-40°C). N'utilisez pas de coussins chauffants, de poêles ou de feux, car la peau engourdie brûle facilement sans que la personne ne le ressente.
       </li>
      </ul>
     </div>
     <h2>
-     [FR]: Extra support for people facing higher cold risk
+     Un soutien supplémentaire pour les personnes confrontées à un risque plus élevé de rhume
     </h2>
     <ul>
      <li>
       <strong>
-       [FR]: Infants (&lt;1 year):
+       Nourrissons (&lt;1 an) :
       </strong>
-      [FR]: Infants lose heat quickly. Keep infants warm and away from cold rooms or drafts whenever possible. For infants, warning signs are bright red, cold skin and very low energy. Wrap them securely and seek a warm environment immediately.
+      Les nourrissons perdent rapidement de la chaleur. Gardez les nourrissons au chaud et à l'écart des chambres froides ou des courants d'air autant que possible. Pour les nourrissons, les signes avant-coureurs sont le rouge vif, une peau froide et une énergie très faible. Enveloppez-les solidement et recherchez immédiatement un environnement chaleureux.
      </li>
      <li>
       <strong>
-       [FR]: Older adults:
+       Personnes âgées :
       </strong>
-      [FR]: Older adults may produce less body heat and may have medical conditions or take medicines that make it harder to sense cold or regulate temperature. Check on older neighbors regularly during cold snaps.
+      Les personnes âgées peuvent produire moins de chaleur corporelle et souffrir de problèmes de santé ou prendre des médicaments qui rendent plus difficile la sensation du froid ou la régulation de la température. Vérifiez régulièrement les voisins plus âgés pendant les vagues de froid.
      </li>
      <li>
       <strong>
-       [FR]: Unhoused individuals:
+       Personnes non hébergées :
       </strong>
-      [FR]: Cold weather can be especially dangerous for people without stable shelter. Coordinate with local outreach teams to distribute dry socks, hand warmers, and sleeping bags.
+      Le temps froid peut être particulièrement dangereux pour les personnes sans abri stable. Coordonnez-vous avec les équipes de sensibilisation locales pour distribuer des chaussettes sèches, des chauffe-mains et des sacs de couchage.
      </li>
     </ul>
     <h2>
-     [FR]: Sources
+     Sources
     </h2>
     <ul class="sources">
      <li>
       <a href="https://www.cdc.gov/winter-weather/about/index.html">
-       🚨[REVIEW_REQUIRED] [FR]: CDC — Prevent hypothermia and frostbite
+       🚨[REVIEW_REQUIRED] CDC – Prévenir l’hypothermie et les engelures
       </a>
-      [FR]: (signs of hypothermia, rewarming center-first, no direct high heat).
+      (signes d'hypothermie, réchauffement du centre en premier, pas de chaleur directe élevée).
      </li>
      <li>
       <a href="https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/winter-storm.html">
-       [FR]: American Red Cross — Cold-related emergencies first aid
+       Croix-Rouge américaine — Premiers secours d'urgence liés au froid
       </a>
-      [FR]: (gradual warming, avoid friction/rubbing for frostbite, CPR).
+      (réchauffement progressif, éviter les frottements en cas d'engelures, RCP).
      </li>
      <li>
       <a href="https://wms.org/WMS/Research/WEM/Clinical-Practice-Guidelines.aspx">
-       [FR]: Wilderness Medical Society (WMS)
+       Société médicale de la nature (WMS)
       </a>
-      [FR]: — Practice guidelines for accidental hypothermia and frostbite (field evaluation, risk of refreezing, core warming focus).
+      — Lignes directrices de pratique en cas d'hypothermie et d'engelures accidentelles (évaluation sur le terrain, risque de regel, concentration sur le réchauffement central).
      </li>
      <li>
       <a href="https://www.nhs.uk/conditions/hypothermia/">
-       🚨[REVIEW_REQUIRED] [FR]: NHS — Hypothermia first-aid guidance
+       🚨[REVIEW_REQUIRED] NHS — Conseils de premiers secours en cas d'hypothermie
       </a>
-      [FR]: (warm drinks, wrap head, check responsiveness).
+      (boissons chaudes, envelopper la tête, vérifier la réactivité).
      </li>
      <li>
       <a href="https://www.nhs.uk/conditions/frostbite/">
-       🚨[REVIEW_REQUIRED] [FR]: NHS — Frostbite rewarming and safety
+       🚨[REVIEW_REQUIRED] NHS — Réchauffement et sécurité des engelures
       </a>
-      [FR]: (warm water rewarming, avoid direct high heat, avoid friction).
+      (réchauffement de l'eau chaude, éviter la chaleur directe élevée, éviter les frottements).
      </li>
     </ul>
     <p class="sources">
-     [FR]: Guidance reflects standard lay-responder first aid for cold-related injuries. Follow local emergency services and professional medical training.
+     Les directives reflètent les premiers soins standard dispensés par un intervenant non professionnel en cas de blessures liées au froid. Suivez les services d’urgence locaux et la formation médicale professionnelle.
     </p>
     <p class="disclaimer">
-     [FR]: This guide is general information, not medical advice. In an emergency, call your local emergency number and follow dispatcher/local guidance. Reuse and reprint freely.
+     Ce guide est une information générale et non un avis médical. En cas d'urgence, appelez votre numéro d'urgence local et suivez les instructions du répartiteur/local. Réutilisez et réimprimez librement.
     </p>
    </div>
   </main>
   <footer class="site">
    <div class="wrap">
-    [FR]: A free, open Help Kit ·
+    Un kit d'aide gratuit et ouvert ·
     <a href="https://github.com/ai-village-agents/help-kit">
-     [FR]: source on GitHub
+     source sur GitHub
     </a>
-    [FR]: · Public domain (CC0) · Verify against your local health authority
+    · Domaine public (CC0) · Vérifiez auprès de votre autorité sanitaire locale
    </div>
   </footer>
   <script>

@@ -4,9 +4,9 @@
   <meta charset="utf-8"/>
   <meta content="width=device-width,initial-scale=1" name="viewport"/>
   <title>
-   [ES]: Burns &amp; Scalds: First Aid — Help Kit | Help Kit
+   Quemaduras y escaldaduras: primeros auxilios — Botiquín de ayuda | Help Kit
   </title>
-  <meta content="[ES]: A free, source-cited one-page guide to first aid for burns and scalds: cool the burn with running water for 20 minutes, what not to put on a burn, and when to get medical help. Based on WHO, Red Cross, and burn-care guidance." name="description"/>
+  <meta content="Una guía gratuita y citada por fuentes para primeros auxilios en quemaduras: enfríe con agua corriente durante 20 minutos, sepa qué no poner en una quemadura y cuándo buscar ayuda." name="description"/>
   <link href="https://ai-village-agents.github.io/help-kit/burns/" rel="canonical"/>
   <meta content="noindex, nofollow, noarchive" name="robots"/>
   <meta content="Help Kit" property="og:site_name"/>
@@ -24,13 +24,56 @@
   <link href="../style.css" rel="stylesheet"/>
   <link href="/help-kit/manifest.webmanifest" rel="manifest"/>
   <link href="/help-kit/icon-192.png" rel="apple-touch-icon"/>
+  <script type="application/ld+json">
+   {
+  "@context": "https://schema.org",
+  "@type": "MedicalWebPage",
+  "name": "Burns & Scalds: First Aid",
+  "description": "A free, source-cited guide to burn first aid: cool with running water for 20 minutes, know what not to put on a burn, and when to get help.",
+  "url": "https://ai-village-agents.github.io/help-kit/burns/",
+  "inLanguage": "en",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "Help Kit",
+    "url": "https://ai-village-agents.github.io/help-kit/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Help Kit",
+    "url": "https://ai-village-agents.github.io/help-kit/"
+  },
+  "citation": [
+    {
+      "@type": "WebPage",
+      "name": "World Health Organization — Burns fact sheet",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/burns"
+    },
+    {
+      "@type": "WebPage",
+      "name": "American Red Cross — first-aid training and resources",
+      "url": "https://www.redcross.org/take-a-class"
+    },
+    {
+      "@type": "WebPage",
+      "name": "American Heart Association — first-aid guidelines",
+      "url": "https://cpr.heart.org/en/resuscitation-science/first-aid-guidelines/first-aid"
+    },
+    {
+      "@type": "WebPage",
+      "name": "NHS — Burns and scalds",
+      "url": "https://www.nhs.uk/conditions/burns-and-scalds/"
+    }
+  ]
+}
+  </script>
  </head>
  <body>
   <div class="notice danger" data-draft-warning="true">
    UNREVIEWED MACHINE TRANSLATION DRAFT (es). Do not use for medical guidance, sharing, printing, or training until fluent local reviewers verify all emergency numbers, doses, timings, and local guidance against the English source.
   </div>
   <a class="skip-link" href="#main">
-   [ES]: Skip to main content
+   Saltar al contenido principal
   </a>
   <header class="site">
    <div class="wrap">
@@ -39,49 +82,49 @@
     </a>
     <nav>
      <a href="../heat/">
-      [ES]: Extreme Heat
+      Calor extremo
      </a>
      <a href="../smoke/">
-      [ES]: Wildfire Smoke
+      Humo de incendios forestales
      </a>
      <a href="../naloxone/">
-      [ES]: Opioid Overdose
+      Sobredosis de opioides
      </a>
      <a href="../ors/">
-      [ES]: Dehydration &amp; ORS
+      Deshidratación y SRO
      </a>
      <a href="../choking/">
-      [ES]: Choking
+      asfixia
      </a>
      <a href="../bleeding/">
-      [ES]: Severe Bleeding
+      Sangrado severo
      </a>
      <a href="../cpr/">
-      [ES]: CPR
+      RCP
      </a>
      <a href="../stroke/">
-      [ES]: Stroke
+      Ataque
      </a>
      <a href="../burns/">
-      [ES]: Burns
+      quemaduras
      </a>
      <a href="../seizure/">
-      [ES]: Seizure
+      Convulsión
      </a>
      <a href="../allergy/">
-      [ES]: Severe Allergy
+      Alergia severa
      </a>
      <a href="../cold/">
-      [ES]: Cold Safety
+      Seguridad en frío
      </a>
      <a href="../heart/">
-      [ES]: Heart Attack
+      Infarto de miocardio
      </a>
      <a href="../triage/">
-      [ES]: Triage
+      Triaje
      </a>
      <a href="../localize.html">
-      [ES]: Localize &amp; share
+      Localizar y compartir
      </a>
     </nav>
    </div>
@@ -89,24 +132,24 @@
   <section class="hero">
    <div class="wrap">
     <h1>
-     [ES]: Burns and scalds: first aid
+     Quemaduras y escaldaduras: primeros auxilios
     </h1>
     <p>
-     [ES]: Most burns happen at home — hot drinks, cooking, steam, hot water, fire, the sun, electricity, or chemicals. Cooling a burn with running water straight away, and keeping the wrong things off it, can reduce pain and may limit deeper injury and later scarring or infection risk. Free to read, print, and share.
+     La mayoría de las quemaduras ocurren en casa: bebidas calientes, cocinar, vapor, agua caliente, fuego, sol, electricidad o productos químicos. Enfriar una quemadura con agua corriente inmediatamente y mantener alejada los elementos incorrectos puede reducir el dolor y limitar lesiones más profundas y posteriores cicatrices o riesgo de infección. Gratis para leer, imprimir y compartir.
     </p>
    </div>
   </section>
   <main id="main">
    <div class="wrap">
     <p class="lede">
-     [ES]: A burn is damage to the skin from heat, hot liquids (a "scald"), electricity, chemicals, or radiation such as the sun. What you do in the first minutes matters. One of the most useful first actions for most burns is simple: cool it with running water, and do not put creams, oils, or home remedies on the fresh burn as first aid unless a clinician or local guidance tells you to.
+     Una quemadura es un daño a la piel causado por el calor, líquidos calientes (una "escaldadura"), electricidad, productos químicos o radiación como la del sol. Lo que hagas en los primeros minutos importa. Una de las primeras acciones más útiles para la mayoría de las quemaduras es simple: enfriar con agua corriente y no aplicar cremas, aceites o remedios caseros sobre la quemadura reciente como primeros auxilios a menos que un médico o una guía local se lo indique.
     </p>
     <div class="actions no-print">
      <a class="btn" href="javascript:window.print()">
-      [ES]: Print this page
+      Imprime esta pagina
      </a>
      <a class="btn alt" href="burns-onepager.pdf">
-      [ES]: Download printable PDF
+      Descargar PDF imprimible
      </a>
     </div>
     <div class="box emergency">
@@ -114,60 +157,60 @@
       Call emergency services now
      </span>
      <h3>
-      [ES]: Get emergency help for a serious burn
+      Obtenga ayuda de emergencia para una quemadura grave
      </h3>
      <p>
-      🚨[REVIEW_REQUIRED] [ES]: Call your local emergency number (examples: 911, 112, or 999; verify locally) for a burn that is large (bigger than the person's hand), deep, or on the face, hands, feet, genitals, or over a joint; any burn that goes all the way around a limb; any electrical or chemical burn; any burn with trouble breathing, coughing, a hoarse voice, or soot around the nose or mouth (the airway may be burned); and any serious burn in a baby, young child, pregnant person, or older or frail person.
+      🚨[REVIEW_REQUIRED] Llame a su número de emergencia local (ejemplos: 911, 112 o 999; verifique localmente) si tiene una quemadura grande (más grande que la mano de la persona), profunda o en la cara, manos, pies, genitales o sobre una articulación; cualquier quemadura que abarque toda una extremidad; cualquier quemadura eléctrica o química; cualquier quemadura con dificultad para respirar, tos, voz ronca u hollín alrededor de la nariz o la boca (las vías respiratorias pueden quemarse); y cualquier quemadura grave en un bebé, un niño pequeño, una persona embarazada o una persona mayor o frágil.
       <strong>
-       [ES]: While you wait for help, start cooling the burn.
+       Mientras espera ayuda, comience a enfriar la quemadura.
       </strong>
      </p>
     </div>
     <h2>
-     [ES]: What to do, step by step
+     Qué hacer, paso a paso
     </h2>
     <ol class="steps">
      <li>
       <strong>
-       [ES]: Stop the burning and stay safe.
+       Detén la quema y mantente a salvo.
       </strong>
-      [ES]: Move the person away from the heat source. If clothing is on fire,
+      Aleje a la persona de la fuente de calor. Si la ropa está en llamas,
       <strong>
-       [ES]: stop, drop, and roll
+       detenerse, caer y rodar
       </strong>
-      [ES]: , or smother the flames with a blanket. Switch off the power before touching someone with an electrical burn. For a chemical burn, brush off any dry chemical and remove contaminated clothing, protecting your own skin.
+      , o sofocar las llamas con una manta. Apague la energía antes de tocar a alguien con una quemadura eléctrica. Para una quemadura química, elimine cualquier químico seco y quítese la ropa contaminada, protegiendo su propia piel.
      </li>
      <li>
       <strong>
-       🚨[REVIEW_REQUIRED] [ES]: Cool the burn with running water for 20 minutes.
+       🚨[REVIEW_REQUIRED] Enfríe la quemadura con agua corriente durante 20 minutos.
       </strong>
-      [ES]: Hold the burned area under cool or lukewarm
+      Mantenga el área quemada bajo agua fría o tibia.
       <em>
-       [ES]: running
+       correr
       </em>
-      🚨[REVIEW_REQUIRED] [ES]: water as soon as possible. Keep cooling for a full 20 minutes — it still helps even up to about 3 hours after the burn. Do
+      🚨[REVIEW_REQUIRED]  agua lo antes posible. Continúe enfriando durante 20 minutos completos; todavía ayuda incluso hasta aproximadamente 3 horas después de la quemadura. Hacer
       <strong>
-       [ES]: not
+       no
       </strong>
-      [ES]: use ice, iced water, or very cold water, which can deepen the injury. If there is no running water, use any clean, cool water you can pour over it.
+      use hielo, agua helada o agua muy fría, que puede profundizar la lesión. Si no hay agua corriente, use agua limpia y fría que pueda verter sobre ella.
      </li>
      <li>
       <strong>
-       [ES]: Remove jewellery and tight or soaked clothing
+       Quitarse las joyas y la ropa ajustada o empapada.
       </strong>
-      [ES]: from near the burn before it starts to swell — but do not pull off anything that is stuck to the skin.
+      cerca de la quemadura antes de que comience a hincharse, pero no retire nada que esté pegado a la piel.
      </li>
      <li>
       <strong>
-       [ES]: Keep the rest of the person warm.
+       Mantenga caliente al resto de la persona.
       </strong>
-      [ES]: Cooling a large burn can quickly chill the body, especially in children and older people. Cover the parts you are not cooling with a blanket or coat, and avoid cooling so much that they start to shiver.
+      Enfriar una quemadura grande puede enfriar rápidamente el cuerpo, especialmente en niños y personas mayores. Cubre las partes que no estás enfriando con una manta o abrigo y evita que se enfríen tanto que empiecen a temblar.
      </li>
      <li>
       <strong>
-       [ES]: Cover the burn loosely
+       Cubra la quemadura sin apretar
       </strong>
-      [ES]: once it is cooled. A layer of clean kitchen cling film (plastic wrap) laid over the burn is ideal — lay it on lengthwise, do not wrap it tightly around a limb. A clean, non-fluffy cloth or a clean plastic bag (good for a hand or foot) also works. This eases pain and keeps the wound clean.
+      una vez que se haya enfriado. Lo ideal es colocar una capa de film transparente de cocina (envoltura de plástico) limpia sobre la quemadura; colóquela a lo largo, no la envuelva apretadamente alrededor de una extremidad. También sirve un paño limpio y no esponjoso o una bolsa de plástico limpia (buena para la mano o el pie). Esto alivia el dolor y mantiene la herida limpia.
      </li>
     </ol>
     <div class="box warn">
@@ -175,68 +218,68 @@
       Do not use home remedies on a fresh burn
      </span>
      <p>
-      [ES]: Do
+      Hacer
       <strong>
-       [ES]: not
+       no
       </strong>
-      [ES]: apply butter, oil, lard, toothpaste, egg, soy sauce, ash, soil, cow dung, herbs, ice, or "burn creams" and ointments to a fresh burn as first aid unless a clinician or local guidance specifically tells you to. These can trap heat, raise the risk of infection, and make it harder for medical staff to see and treat the burn.
+      aplique mantequilla, aceite, manteca de cerdo, pasta de dientes, huevo, salsa de soja, ceniza, tierra, estiércol de vaca, hierbas, hielo o "cremas para quemaduras" y ungüentos en una quemadura reciente como primeros auxilios, a menos que un médico o una guía local se lo indique específicamente. Estos pueden atrapar el calor, aumentar el riesgo de infección y dificultar que el personal médico vea y trate la quemadura.
       <strong>
-       [ES]: Do not burst blisters
+       No reventar las ampollas
       </strong>
-      [ES]: — they protect the skin underneath. Cool water and a clean loose cover are usually the safest first-aid choice.
+      — protegen la piel que se encuentra debajo. El agua fría y una funda limpia y suelta suelen ser la opción de primeros auxilios más segura.
      </p>
     </div>
     <h2>
-     [ES]: Chemical and electrical burns
+     Quemaduras químicas y eléctricas.
     </h2>
     <div class="two">
      <div>
       <h3>
-       [ES]: Chemical burns
+       Quemaduras químicas
       </h3>
       <ul>
        <li>
-        [ES]: Protect yourself first — wear gloves or use a barrier if you can.
+        Protégete primero: usa guantes o utiliza una barrera si puedes.
        </li>
        <li>
-        [ES]: Brush off any
+        Cepille cualquier
         <strong>
-         [ES]: dry
+         seco
         </strong>
-        🚨[REVIEW_REQUIRED] [ES]: powder, then rinse the area with lots of cool running water for at least 20 minutes, unless the product label, poison centre, or emergency guidance tells you not to use water.
+        🚨[REVIEW_REQUIRED]  polvo, luego enjuague el área con abundante agua corriente fría durante al menos 20 minutos, a menos que la etiqueta del producto, el centro de intoxicaciones o las instrucciones de emergencia le indiquen que no use agua.
        </li>
        <li>
-        [ES]: Remove clothing and jewellery the chemical has touched while rinsing.
+        Quítese la ropa y las joyas que el químico haya tocado mientras enjuaga.
        </li>
        <li>
-        🚨[REVIEW_REQUIRED] [ES]: If a chemical is in the eye, rinse the eye gently with clean water for at least 20 minutes and get medical help.
+        🚨[REVIEW_REQUIRED] Si hay una sustancia química en el ojo, enjuáguelo suavemente con agua limpia durante al menos 20 minutos y busque ayuda médica.
        </li>
        <li>
-        [ES]: If you know the chemical, tell the medical team or poison centre.
+        Si conoce la sustancia química, informe al equipo médico o al centro de intoxicaciones.
        </li>
       </ul>
      </div>
      <div>
       <h3>
-       [ES]: Electrical burns
+       Quemaduras eléctricas
       </h3>
       <ul>
        <li>
         <strong>
-         [ES]: Do not touch the person
+         No toques a la persona
         </strong>
-        [ES]: until you are sure the power is switched off — you can be electrocuted too.
+        hasta que esté seguro de que la energía está apagada; usted también puede electrocutarse.
        </li>
        <li>
-        [ES]: Electrical burns can be far deeper than they look on the surface and can affect the heart.
+        Las quemaduras eléctricas pueden ser mucho más profundas de lo que parecen en la superficie y pueden afectar el corazón.
        </li>
        <li>
-        [ES]: Always seek medical care, even if the skin damage seems small.
+        Busque siempre atención médica, incluso si el daño en la piel parece pequeño.
        </li>
        <li>
-        [ES]: If the person is unresponsive and not breathing normally, call for help and start
+        Si la persona no responde y no respira normalmente, llame para pedir ayuda y comience
         <a href="../cpr/">
-         [ES]: CPR
+         RCP
         </a>
         .
        </li>
@@ -244,90 +287,90 @@
      </div>
     </div>
     <h2>
-     [ES]: Smaller burns you can treat at home
+     Quemaduras más pequeñas que puedes tratar en casa
     </h2>
     <p>
-     [ES]: A small, shallow burn — red and sore, perhaps with small blisters, no bigger than the person's hand and not on the face, hands, feet, genitals, or a joint — can usually be cared for at home: cool it, cover it loosely, and keep it clean. Simple pain relief such as paracetamol/acetaminophen or ibuprofen can help if safe for that person (follow the label and any local guidance).
+     Una quemadura pequeña y superficial (roja y dolorosa, tal vez con pequeñas ampollas, no más grandes que la mano de la persona y que no se encuentran en la cara, las manos, los pies, los genitales o una articulación) generalmente se puede tratar en casa: enfríela, cúbrala sin apretar y manténgala limpia. Un simple alivio del dolor como paracetamol/acetaminofén o ibuprofeno puede ayudar si es seguro para esa persona (siga la etiqueta y cualquier guía local).
      <strong>
-      [ES]: Get medical advice if
+      Obtenga asesoramiento médico si
      </strong>
-     [ES]: the burn becomes more painful, swollen, smelly, or oozing, or the person develops a fever — these can be signs of infection. Make sure tetanus protection is up to date for any burn that breaks the skin.
+     la quemadura se vuelve más dolorosa, se hincha, huele mal o supura, o la persona presenta fiebre; estos pueden ser signos de infección. Asegúrese de que la protección contra el tétanos esté actualizada para cualquier quemadura que rompa la piel.
     </p>
     <h2>
-     [ES]: Babies, children, and others at higher risk
+     Bebés, niños y otras personas en mayor riesgo
     </h2>
     <div class="box warn">
      <span class="tag warn">
       Lower the threshold to get help
      </span>
      <p>
-      [ES]: Babies and young children, older or frail people, and pregnant women are more easily harmed by burns. Get medical advice for any burn that blisters in a baby or child, and don't wait if you are unsure. Children also chill quickly when a burn is cooled, so keep the rest of the body warm.
+      Los bebés y los niños pequeños, las personas mayores o frágiles y las mujeres embarazadas sufren quemaduras más fácilmente. Busque asesoramiento médico para cualquier quemadura con ampollas en un bebé o un niño, y no espere si no está seguro. Los niños también se enfrían rápidamente cuando se enfría una quemadura, así que mantenga caliente el resto del cuerpo.
      </p>
     </div>
     <h2>
-     [ES]: Preventing burns and scalds
+     Prevenir quemaduras y escaldaduras
     </h2>
     <ul>
      <li>
-      [ES]: Keep hot drinks, pots, and kettles out of children's reach; turn pot handles inward; use the back rings of the stove.
+      Mantenga las bebidas calientes, ollas y hervidores fuera del alcance de los niños; gire los mangos de las ollas hacia adentro; Utilice los aros traseros de la estufa.
      </li>
      <li>
-      🚨[REVIEW_REQUIRED] [ES]: If you control the water heater, set it to a safer temperature (about 50 °C / 120 °F) and test bath water before a child gets in.
+      🚨[REVIEW_REQUIRED] Si controla el calentador de agua, configúrelo a una temperatura más segura (aproximadamente 50 °C / 120 °F) y pruebe el agua del baño antes de que un niño entre.
      </li>
      <li>
-      [ES]: Keep cooking fires and stoves stable and away from children; keep flammable clothing away from open flames.
+      Mantenga los fuegos para cocinar y las estufas estables y fuera del alcance de los niños; Mantenga la ropa inflamable alejada de las llamas abiertas.
      </li>
      <li>
-      [ES]: Fit smoke alarms and check them; keep matches, lighters, and chemicals locked away.
+      Instale alarmas de humo y revíselas; Mantenga cerillas, encendedores y productos químicos bajo llave.
      </li>
      <li>
-      [ES]: Protect skin from the sun and avoid sunburn.
+      Protege la piel del sol y evita las quemaduras solares.
      </li>
     </ul>
     <h2>
-     [ES]: Sources
+     Fuentes
     </h2>
     <ul class="sources">
      <li>
       <a href="https://www.who.int/news-room/fact-sheets/detail/burns">
-       [ES]: World Health Organization — Burns fact sheet
+       Organización Mundial de la Salud: hoja informativa sobre quemaduras
       </a>
-      [ES]: (global burden, prevention, and first aid: cool with running water, do not apply harmful substances).
+      (carga global, prevención y primeros auxilios: enfriar con agua corriente, no aplicar sustancias nocivas).
      </li>
      <li>
       <a href="https://www.redcross.org/take-a-class">
-       [ES]: American Red Cross — first-aid training and resources
+       Cruz Roja Estadounidense: capacitación y recursos en primeros auxilios
       </a>
-      [ES]: (burn first aid and when to seek care).
+      (quemar primeros auxilios y cuándo buscar atención).
      </li>
      <li>
       <a href="https://cpr.heart.org/en/resuscitation-science/first-aid-guidelines/first-aid">
-       [ES]: American Heart Association — first-aid guidelines
+       Asociación Estadounidense del Corazón: pautas de primeros auxilios
       </a>
-      [ES]: (cooling burns; thermal, chemical, and electrical injuries).
+      (quemaduras por enfriamiento; lesiones térmicas, químicas y eléctricas).
      </li>
      <li>
       <a href="https://www.nhs.uk/conditions/burns-and-scalds/">
-       🚨[REVIEW_REQUIRED] [ES]: NHS — Burns and scalds
+       🚨[REVIEW_REQUIRED] NHS – Quemaduras y escaldaduras
       </a>
-      🚨[REVIEW_REQUIRED] [ES]: (cool 20 minutes, cover with cling film, do not burst blisters, when to get help).
+      🚨[REVIEW_REQUIRED]  (deje enfriar durante 20 minutos, cubra con film transparente, no reviente las ampollas, cuando busque ayuda).
      </li>
     </ul>
     <p class="sources">
-     [ES]: Guidance reflects widely taught burn first aid for lay responders. Details vary between training bodies and regions — follow your local first-aid training and emergency services.
+     La orientación refleja los primeros auxilios para quemaduras que se enseñan ampliamente a los socorristas no profesionales. Los detalles varían según los organismos de capacitación y las regiones; siga la capacitación local en primeros auxilios y los servicios de emergencia.
     </p>
     <p class="disclaimer">
-     [ES]: This guide is general information, not medical advice. In an emergency, always call your local emergency number. Reuse and reprint freely.
+     Esta guía es información general, no consejo médico. En caso de emergencia, llame siempre a su número de emergencia local. Reutilice y reimprima libremente.
     </p>
    </div>
   </main>
   <footer class="site">
    <div class="wrap">
-    [ES]: A free, open Help Kit ·
+    Un kit de ayuda abierto y gratuito ·
     <a href="https://github.com/ai-village-agents/help-kit">
-     [ES]: source on GitHub
+     fuente en GitHub
     </a>
-    [ES]: · Public domain (CC0) · Verify against your local health authority
+    · Dominio público (CC0) · Verificar con su autoridad sanitaria local
    </div>
   </footer>
   <script>

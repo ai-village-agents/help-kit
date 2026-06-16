@@ -4,9 +4,9 @@
   <meta charset="utf-8"/>
   <meta content="width=device-width,initial-scale=1" name="viewport"/>
   <title>
-   [HI]: Localize and Share Safely — Help Kit | Help Kit
+   स्थानीयकरण करें और सुरक्षित रूप से साझा करें - सहायता किट | Help Kit
   </title>
-  <meta content="[HI]: How to localize Help Kit pages for your city, language, emergency numbers, and community without collecting unnecessary personal data." name="description"/>
+  <meta content="अनावश्यक व्यक्तिगत डेटा एकत्र किए बिना अपने शहर, भाषा, आपातकालीन नंबरों और समुदाय के लिए सहायता किट पृष्ठों को स्थानीयकृत कैसे करें।" name="description"/>
   <link href="https://ai-village-agents.github.io/help-kit/localize.html" rel="canonical"/>
   <meta content="noindex, nofollow, noarchive" name="robots"/>
   <meta content="Help Kit" property="og:site_name"/>
@@ -30,7 +30,7 @@
    UNREVIEWED MACHINE TRANSLATION DRAFT (hi). Do not use for medical guidance, sharing, printing, or training until fluent local reviewers verify all emergency numbers, doses, timings, and local guidance against the English source.
   </div>
   <a class="skip-link" href="#main">
-   [HI]: Skip to main content
+   मुख्य सामग्री पर जाएँ
   </a>
   <header class="site">
    <div class="wrap">
@@ -39,49 +39,49 @@
     </a>
     <nav>
      <a href="heat/">
-      [HI]: Extreme Heat
+      अत्यधिक गर्मी
      </a>
      <a href="smoke/">
-      [HI]: Wildfire Smoke
+      जंगल की आग का धुआं
      </a>
      <a href="naloxone/">
-      [HI]: Opioid Overdose
+      ओपिओइड ओवरडोज़
      </a>
      <a href="ors/">
-      [HI]: Dehydration &amp; ORS
+      निर्जलीकरण एवं ओ.आर.एस
      </a>
      <a href="choking/">
-      [HI]: Choking
+      दम घुट रहा है
      </a>
      <a href="bleeding/">
-      [HI]: Severe Bleeding
+      गंभीर रक्तस्राव
      </a>
      <a href="cpr/">
-      [HI]: CPR
+      सीपीआर
      </a>
      <a href="stroke/">
-      [HI]: Stroke
+      आघात
      </a>
      <a href="burns/">
-      [HI]: Burns
+      बर्न्स
      </a>
      <a href="seizure/">
-      [HI]: Seizure
+      जब्ती
      </a>
      <a href="allergy/">
-      [HI]: Severe Allergy
+      गंभीर एलर्जी
      </a>
      <a href="cold/">
-      [HI]: Cold Safety
+      शीत सुरक्षा
      </a>
      <a href="heart/">
-      [HI]: Heart Attack
+      दिल का दौरा
      </a>
      <a href="triage/">
-      [HI]: Triage
+      ट्राइएज
      </a>
      <a href="localize.html">
-      [HI]: Localize &amp; share
+      स्थानीयकृत करें और साझा करें
      </a>
     </nav>
    </div>
@@ -89,10 +89,10 @@
   <section class="hero">
    <div class="wrap">
     <h1>
-     [HI]: Localize and share safely
+     स्थानीयकरण करें और सुरक्षित रूप से साझा करें
     </h1>
     <p>
-     [HI]: Help Kit pages are public domain, but emergency guidance is local. Before printing or forwarding, replace generic details with trusted local information.
+     सहायता किट पृष्ठ सार्वजनिक डोमेन हैं, लेकिन आपातकालीन मार्गदर्शन स्थानीय है। मुद्रण या अग्रेषित करने से पहले, सामान्य विवरण को विश्वसनीय स्थानीय जानकारी से बदलें।
     </p>
    </div>
   </section>
@@ -100,16 +100,16 @@
    <div class="wrap">
     <p class="lede">
      <strong>
-      🚨[REVIEW_REQUIRED] [HI]: Last updated: June 16, 2026.
+      🚨[REVIEW_REQUIRED] अंतिम अद्यतन: 16 जून, 2026।
      </strong>
-     [HI]: This page is for organizers, librarians, mutual-aid groups, tenant associations, faith groups, clinics, and volunteers adapting the kit for a real place.
+     यह पृष्ठ आयोजकों, पुस्तकालयाध्यक्षों, पारस्परिक सहायता समूहों, किरायेदार संघों, आस्था समूहों, क्लीनिकों और वास्तविक स्थान के लिए किट को अपनाने वाले स्वयंसेवकों के लिए है।
     </p>
     <div class="box emergency">
      <span class="tag">
       Do this first
      </span>
      <p>
-      🚨[REVIEW_REQUIRED] [HI]: Verify your local emergency number, official health authority guidance, cooling or clean-air locations, naloxone availability, and language/access needs. Do not copy a U.S.-specific detail into another country without checking it.
+      🚨[REVIEW_REQUIRED] अपने स्थानीय आपातकालीन नंबर, आधिकारिक स्वास्थ्य प्राधिकरण मार्गदर्शन, शीतलन या स्वच्छ हवा वाले स्थान, नालोक्सोन उपलब्धता और भाषा/पहुंच आवश्यकताओं को सत्यापित करें। किसी यू.एस.-विशिष्ट विवरण की जाँच किए बिना उसे किसी अन्य देश में कॉपी न करें।
      </p>
     </div>
     <div class="box ok">
@@ -117,209 +117,209 @@
       Offline and print backup
      </span>
      <p>
-      [HI]: The site is set up to work offline in modern browsers after one online visit. Before sharing for a likely outage, ask people to open the site once while online, download the combined PDF pack, or print the one-pagers. Test offline access before relying on it.
+      साइट को एक ऑनलाइन विज़िट के बाद आधुनिक ब्राउज़रों में ऑफ़लाइन काम करने के लिए सेट किया गया है। किसी संभावित रुकावट के लिए साझा करने से पहले, लोगों से ऑनलाइन रहते हुए एक बार साइट खोलने, संयुक्त पीडीएफ पैक डाउनलोड करने, या एक पेजर प्रिंट करने के लिए कहें। इस पर भरोसा करने से पहले ऑफ़लाइन पहुंच का परीक्षण करें।
      </p>
     </div>
     <h2>
-     [HI]: 10-minute localization checklist
+     10 मिनट की स्थानीयकरण चेकलिस्ट
     </h2>
     <ol class="steps">
      <li>
       <strong>
-       [HI]: Emergency number:
+       आपातकालीन नंबर:
       </strong>
-      🚨[REVIEW_REQUIRED] [HI]: replace examples like 911/112/999 with the right local number or instruction.
+      🚨[REVIEW_REQUIRED] 911/112/999 जैसे उदाहरणों को सही स्थानीय नंबर या निर्देश से बदलें।
      </li>
      <li>
       <strong>
-       [HI]: Official source:
+       आधिकारिक स्रोत:
       </strong>
-      [HI]: add your city/county/state/national health or emergency-management link.
+      अपना शहर/काउंटी/राज्य/राष्ट्रीय स्वास्थ्य या आपातकालीन-प्रबंधन लिंक जोड़ें।
      </li>
      <li>
       <strong>
-       [HI]: Locations:
+       स्थान:
       </strong>
-      [HI]: add cooling centers, clean-air spaces, libraries, clinics, pharmacies, transit routes, water sites, or shelters only if current.
+      यदि चालू हो तो शीतलन केंद्र, स्वच्छ वायु स्थान, पुस्तकालय, क्लीनिक, फार्मेसियों, पारगमन मार्ग, जल स्थल या आश्रय जोड़ें।
      </li>
      <li>
       <strong>
-       [HI]: Access:
+       पहुँच:
       </strong>
-      [HI]: note elevator access, wheelchair access, service-animal rules, restrooms, languages, hours, cost, and ID requirements.
+      लिफ्ट पहुंच, व्हीलचेयर पहुंच, सेवा-पशु नियम, शौचालय, भाषाएं, घंटे, लागत और आईडी आवश्यकताओं पर ध्यान दें।
      </li>
      <li>
       <strong>
-       [HI]: Medical caveats:
+       चिकित्सा चेतावनियाँ:
       </strong>
-      [HI]: keep the “call emergency services” warnings; do not soften them to make the page feel less alarming.
+      "आपातकालीन सेवाओं को कॉल करें" चेतावनियाँ रखें; पृष्ठ को कम चिंताजनक बनाने के लिए उन्हें नरम न करें।
      </li>
      <li>
       <strong>
-       [HI]: Privacy:
+       गोपनीयता:
       </strong>
-      [HI]: if you make a buddy-check list, keep it private and collect only what is needed for check-ins.
+      यदि आप मित्र-चेक सूची बनाते हैं, तो इसे निजी रखें और केवल वही एकत्र करें जो चेक-इन के लिए आवश्यक है।
      </li>
      <li>
       <strong>
-       [HI]: Translation:
+       अनुवाद:
       </strong>
-      [HI]: use plain language; ask a fluent speaker to review for local meaning, not just word-for-word accuracy.
+      सरल भाषा का प्रयोग करें; किसी धाराप्रवाह वक्ता से स्थानीय अर्थ की समीक्षा करने के लिए कहें, न कि केवल शब्द-दर-शब्द सटीकता की समीक्षा करने के लिए।
      </li>
      <li>
       <strong>
-       [HI]: Offline access:
+       ऑफ़लाइन पहुंच:
       </strong>
-      [HI]: test the local copy, PDF pack, or printed pages before an outage.
+      आउटेज से पहले स्थानीय प्रतिलिपि, पीडीएफ पैक, या मुद्रित पृष्ठों का परीक्षण करें।
      </li>
      <li>
       <strong>
-       [HI]: Date:
+       तारीख:
       </strong>
-      [HI]: add a “last checked” date and a person/group responsible for updating local details.
+      एक "अंतिम जांच" तिथि और स्थानीय विवरण अपडेट करने के लिए जिम्मेदार व्यक्ति/समूह जोड़ें।
      </li>
     </ol>
     <h2>
-     [HI]: What not to do
+     जो नहीं करना है
     </h2>
     <ul>
      <li>
-      [HI]: Do not publish lists of neighbors, addresses, phone numbers, medical status, immigration status, or unhoused encampment locations—especially for people facing access barriers or heightened risk.
+      पड़ोसियों, पते, फोन नंबर, चिकित्सा स्थिति, आव्रजन स्थिति, या गैर-आवासीय पड़ाव स्थानों की सूची प्रकाशित न करें - विशेष रूप से उन लोगों के लिए जो पहुंच बाधाओं या बढ़े हुए जोखिम का सामना कर रहे हैं।
      </li>
      <li>
-      [HI]: Do not imply that volunteers, AI tools, or this website can diagnose a medical condition.
+      यह मत समझिए कि स्वयंसेवक, एआई उपकरण या यह वेबसाइट किसी चिकित्सीय स्थिति का निदान कर सकते हैं।
      </li>
      <li>
-      [HI]: Do not promise that a DIY device, mask, cooling center, medication, or hotline will be available unless you verified it.
+      यह वादा न करें कि DIY उपकरण, मास्क, कूलिंग सेंटर, दवा, या हॉटलाइन तब तक उपलब्ध होगी जब तक कि आप इसे सत्यापित नहीं कर लेते।
      </li>
      <li>
-      [HI]: Do not shame people for not following advice that may be impossible for them because of work, disability, money, housing, fear, or transportation.
+      सलाह का पालन न करने के लिए लोगों को शर्मिंदा न करें जो काम, विकलांगता, धन, आवास, भय या परिवहन के कारण उनके लिए असंभव हो सकता है।
      </li>
     </ul>
     <h2>
-     [HI]: Short share copy
+     लघु शेयर प्रति
     </h2>
     <div class="box ok">
      <p>
       <strong>
-       [HI]: General:
+       सामान्य:
       </strong>
-      [HI]: Free, source-cited, print-friendly emergency help guides: extreme heat, wildfire smoke, opioid overdose response, dehydration/ORS, choking first aid, severe bleeding, CPR, stroke, burns, seizure first aid, severe allergy/anaphylaxis, cold weather safety, heart attack first aid, and a quick emergency navigator. Read, print, adapt, and verify locally: https://ai-village-agents.github.io/help-kit/
+      नि:शुल्क, स्रोत-उद्धृत, प्रिंट-अनुकूल आपातकालीन सहायता मार्गदर्शिकाएँ: अत्यधिक गर्मी, जंगल की आग का धुआँ, ओपिओइड ओवरडोज़ प्रतिक्रिया, निर्जलीकरण/ओआरएस, घुटन प्राथमिक चिकित्सा, गंभीर रक्तस्राव, सीपीआर, स्ट्रोक, जलन, दौरे की प्राथमिक चिकित्सा, गंभीर एलर्जी/एनाफिलेक्सिस, ठंड के मौसम में सुरक्षा, दिल का दौरा प्राथमिक चिकित्सा, और एक त्वरित आपातकालीन नेविगेटर। पढ़ें, प्रिंट करें, अनुकूलित करें और स्थानीय रूप से सत्यापित करें: https://ai-village-agents.github.io/help-kit/
      </p>
      <p>
       <strong>
-       [HI]: Heat:
+       गर्मी:
       </strong>
-      [HI]: Heat wave coming? Print a buddy-check sheet, assign neighbors to check on at-risk people, and know when to call emergency services: https://ai-village-agents.github.io/help-kit/heat/
+      लू आ रही है? एक मित्र-जांच शीट प्रिंट करें, जोखिम वाले लोगों की जांच करने के लिए पड़ोसियों को नियुक्त करें, और जानें कि आपातकालीन सेवाओं को कब कॉल करना है: https://ai-village-agents.github.io/help-kit/heat/
      </p>
      <p>
       <strong>
-       [HI]: Smoke:
+       धुआँ:
       </strong>
-      [HI]: Wildfire smoke in the forecast? Check official AQI, make cleaner indoor air, and protect high-risk people: https://ai-village-agents.github.io/help-kit/smoke/
+      पूर्वानुमान में जंगल की आग का धुआं? आधिकारिक AQI की जाँच करें, घर के अंदर की हवा को साफ़ करें और उच्च जोखिम वाले लोगों की सुरक्षा करें: https://ai-village-agents.github.io/help-kit/smoke/
      </p>
      <p>
       <strong>
-       [HI]: Overdose:
+       ओवरडोज़:
       </strong>
-      🚨[REVIEW_REQUIRED] [HI]: If an opioid overdose is possible, call emergency services, give naloxone, support breathing, and stay until help arrives: https://ai-village-agents.github.io/help-kit/naloxone/
+      🚨[REVIEW_REQUIRED] यदि ओपिओइड का ओवरडोज़ संभव है, तो आपातकालीन सेवाओं को कॉल करें, नालोक्सोन दें, सांस लेने में सहायता करें और सहायता आने तक रुकें: https://ai-village-agents.github.io/help-kit/naloxone/
      </p>
      <p>
       <strong>
-       [HI]: ORS:
+       ओआरएस:
       </strong>
-      [HI]: Dehydration can become dangerous fast. Use oral rehydration solution carefully, give small frequent sips, and know danger signs: https://ai-village-agents.github.io/help-kit/ors/
+      निर्जलीकरण तेजी से खतरनाक हो सकता है। मौखिक पुनर्जलीकरण समाधान का सावधानीपूर्वक उपयोग करें, बार-बार छोटे-छोटे घूंट-घूंट लें और खतरे के संकेतों को जानें: https://ai-village-agents.github.io/help-kit/ors/
      </p>
      <p>
       <strong>
-       [HI]: Choking:
+       दम घुटना:
       </strong>
-      [HI]: If someone cannot breathe, speak, cry, or cough, start choking first aid and call emergency services. Adult/child and baby steps: https://ai-village-agents.github.io/help-kit/choking/
+      यदि कोई साँस नहीं ले सकता, बोल नहीं सकता, रो नहीं सकता, या खाँस नहीं सकता, तो प्राथमिक उपचार देना शुरू कर दें और आपातकालीन सेवाओं को कॉल करें। वयस्क/बच्चे और शिशु के कदम: https://ai-village-agents.github.io/help-kit/choking/
      </p>
      <p>
       <strong>
-       [HI]: Severe bleeding:
+       गंभीर रक्तस्राव:
       </strong>
-      [HI]: For spurting, pooling, soaking, or life-threatening bleeding, call emergency services and press hard on the wound; use packing or a tourniquet only when appropriate: https://ai-village-agents.github.io/help-kit/bleeding/
+      तेजी से बहने, जमा होने, भीगने या जीवन के लिए खतरा पैदा करने वाले रक्तस्राव के लिए, आपातकालीन सेवाओं को कॉल करें और घाव पर जोर से दबाएं; उपयुक्त होने पर ही पैकिंग या टूर्निकेट का उपयोग करें: https://ai-village-agents.github.io/help-kit/bleeding/
      </p>
      <p>
       <strong>
-       [HI]: CPR:
+       सीपीआर:
       </strong>
-      🚨[REVIEW_REQUIRED] [HI]: If an adult or teen collapses, is not responding, and is not breathing normally or only gasping, call emergency services, get an AED, and start hands-only CPR: https://ai-village-agents.github.io/help-kit/cpr/
+      🚨[REVIEW_REQUIRED] यदि कोई वयस्क या किशोर गिर जाता है, प्रतिक्रिया नहीं दे रहा है, और सामान्य रूप से सांस नहीं ले रहा है या केवल हांफ रहा है, तो आपातकालीन सेवाओं को कॉल करें, एईडी प्राप्त करें, और केवल हाथों से सीपीआर शुरू करें: https://ai-village-agents.github.io/help-kit/cpr/
      </p>
      <p>
       <strong>
-       [HI]: Stroke:
+       आघात:
       </strong>
-      [HI]: Stroke signs are sudden. Use FAST/BE-FAST, note when signs started or when the person was last well, and call emergency services right away: https://ai-village-agents.github.io/help-kit/stroke/
+      स्ट्रोक के लक्षण अचानक होते हैं। FAST/BE-FAST का उपयोग करें, ध्यान दें कि लक्षण कब शुरू हुए या व्यक्ति कब ठीक हुआ, और तुरंत आपातकालीन सेवाओं को कॉल करें: https://ai-village-agents.github.io/help-kit/stroke/
      </p>
      <p>
       <strong>
-       [HI]: Burns:
+       जलना:
       </strong>
-      🚨[REVIEW_REQUIRED] [HI]: For a burn, cool it under running water for 20 minutes; never use ice, butter, or toothpaste; cover loosely; and get medical help for large, deep, or facial/hand/electrical/chemical burns: https://ai-village-agents.github.io/help-kit/burns/
+      🚨[REVIEW_REQUIRED] जलने पर, इसे बहते पानी के नीचे 20 मिनट तक ठंडा करें; कभी भी बर्फ, मक्खन या टूथपेस्ट का प्रयोग न करें; ढीला कवर करें; और बड़े, गहरे, या चेहरे/हाथ/इलेक्ट्रिकल/रासायनिक जलने के लिए चिकित्सा सहायता प्राप्त करें: https://ai-village-agents.github.io/help-kit/burns/
      </p>
      <p>
       <strong>
-       [HI]: Seizure:
+       जब्ती:
       </strong>
-      🚨[REVIEW_REQUIRED] [HI]: Keep the person safe, time the seizure, never restrain them or put anything in their mouth, roll them onto their side once it stops, and call if it lasts over 5 minutes or is their first: https://ai-village-agents.github.io/help-kit/seizure/
+      🚨[REVIEW_REQUIRED] व्यक्ति को सुरक्षित रखें, दौरे का समय बताएं, उन्हें कभी भी रोकें नहीं या उनके मुंह में कुछ भी न डालें, दौरे बंद होने पर उन्हें अपनी तरफ घुमाएं, और यदि यह 5 मिनट से अधिक समय तक रहता है या उनका पहला दौरा है तो कॉल करें: https://ai-village-agents.github.io/help-kit/seizure/
      </p>
      <p>
       <strong>
-       [HI]: Severe allergy:
+       गंभीर एलर्जी:
       </strong>
-      🚨[REVIEW_REQUIRED] [HI]: Possible anaphylaxis? Call emergency services, use epinephrine if prescribed/available under local guidance, lay the person safely, and watch breathing: https://ai-village-agents.github.io/help-kit/allergy/
+      🚨[REVIEW_REQUIRED] संभावित एनाफिलेक्सिस? आपातकालीन सेवाओं को कॉल करें, यदि निर्धारित/उपलब्ध हो तो स्थानीय मार्गदर्शन के तहत एपिनेफ्रीन का उपयोग करें, व्यक्ति को सुरक्षित रूप से लिटाएं और सांस लेते हुए देखें: https://ai-village-agents.github.io/help-kit/allergy/
      </p>
      <p>
       <strong>
-       [HI]: Cold weather:
+       ठंड का मौसम:
       </strong>
-      [HI]: Possible hypothermia or frostbite? Move out of wind/cold if you can, warm gently, avoid rubbing or direct heat, and call emergency services for danger signs: https://ai-village-agents.github.io/help-kit/cold/
+      संभावित हाइपोथर्मिया या शीतदंश? यदि आप कर सकते हैं तो हवा/ठंड से बाहर निकलें, धीरे से गर्म करें, रगड़ने या सीधी गर्मी से बचें, और खतरे के संकेतों के लिए आपातकालीन सेवाओं को कॉल करें: https://ai-village-agents.github.io/help-kit/cold/
      </p>
      <p>
       <strong>
-       [HI]: Heart attack:
+       दिल का दौरा:
       </strong>
-      [HI]: Possible heart attack symptoms? Call emergency services immediately, rest while help comes, follow dispatcher guidance, and be ready for CPR if breathing stops: https://ai-village-agents.github.io/help-kit/heart/
+      संभावित दिल का दौरा लक्षण? आपातकालीन सेवाओं को तुरंत कॉल करें, मदद आने तक आराम करें, डिस्पैचर के मार्गदर्शन का पालन करें और यदि सांस रुक जाए तो सीपीआर के लिए तैयार रहें: https://ai-village-agents.github.io/help-kit/heart/
      </p>
      <p>
       <strong>
-       [HI]: Triage navigator:
+       ट्राइएज नेविगेटर:
       </strong>
-      [HI]: Not sure which guide fits? Use the quick emergency navigator while calling local emergency services for serious symptoms and following dispatcher guidance: https://ai-village-agents.github.io/help-kit/triage/
+      निश्चित नहीं कि कौन सी मार्गदर्शिका फिट बैठती है? गंभीर लक्षणों के लिए स्थानीय आपातकालीन सेवाओं को कॉल करते समय और डिस्पैचर मार्गदर्शन का पालन करते समय त्वरित आपातकालीन नेविगेटर का उपयोग करें: https://ai-village-agents.github.io/help-kit/triage/
      </p>
     </div>
     <h2>
-     [HI]: For AI agents and remote volunteers
+     एआई एजेंटों और दूरस्थ स्वयंसेवकों के लिए
     </h2>
     <ul>
      <li>
-      [HI]: Ask what country/city the person is localizing for before giving emergency-number or resource advice.
+      आपातकालीन-नंबर या संसाधन सलाह देने से पहले पूछें कि व्यक्ति किस देश/शहर में जा रहा है।
      </li>
      <li>
-      [HI]: Prefer official local links over generic search results.
+      सामान्य खोज परिणामों के स्थान पर आधिकारिक स्थानीय लिंक को प्राथमिकता दें।
      </li>
      <li>
-      [HI]: Make uncertainty visible: “I have not verified today’s cooling-center hours.”
+      अनिश्चितता को दृश्यमान बनाएं: "मैंने आज के कूलिंग-सेंटर घंटों का सत्यापन नहीं किया है।"
      </li>
      <li>
-      [HI]: Do not collect unnecessary personal data. If someone shares private details, do not put them in public repos or public chat.
+      अनावश्यक व्यक्तिगत डेटा एकत्र न करें. यदि कोई निजी विवरण साझा करता है, तो उसे सार्वजनिक रिपोज़ या सार्वजनिक चैट में न डालें।
      </li>
     </ul>
     <p class="disclaimer">
-     [HI]: These guides are general information, not medical advice, and are not a substitute for professional emergency care or training. In an emergency, call your local emergency number and follow dispatcher instructions.
+     ये मार्गदर्शिकाएँ सामान्य जानकारी हैं, चिकित्सीय सलाह नहीं, और पेशेवर आपातकालीन देखभाल या प्रशिक्षण का विकल्प नहीं हैं। आपातकालीन स्थिति में, अपने स्थानीय आपातकालीन नंबर पर कॉल करें और डिस्पैचर के निर्देशों का पालन करें।
     </p>
    </div>
   </main>
   <footer class="site">
    <div class="wrap">
-    [HI]: A free, open Help Kit ·
+    एक मुफ़्त, खुली सहायता किट ·
     <a href="https://github.com/ai-village-agents/help-kit">
-     [HI]: source on GitHub
+     GitHub पर स्रोत
     </a>
-    [HI]: · Public domain (CC0)
+    · सार्वजनिक डोमेन (CC0)
    </div>
   </footer>
   <script>

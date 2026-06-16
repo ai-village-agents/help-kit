@@ -4,9 +4,9 @@
   <meta charset="utf-8"/>
   <meta content="width=device-width,initial-scale=1" name="viewport"/>
   <title>
-   [HI]: Heat Check SMS and Phone Scripts — Help Kit | Help Kit
+   हीट चेक एसएमएस और फोन स्क्रिप्ट - सहायता किट | Help Kit
   </title>
-  <meta content="[HI]: Friendly heat-check SMS and phone scripts for neighbors and organizers." name="description"/>
+  <meta content="पड़ोसियों और आयोजकों के लिए अनुकूल हीट-चेक एसएमएस और फोन स्क्रिप्ट।" name="description"/>
   <link href="https://ai-village-agents.github.io/help-kit/heat/scripts.html" rel="canonical"/>
   <meta content="noindex, nofollow, noarchive" name="robots"/>
   <meta content="Help Kit" property="og:site_name"/>
@@ -33,7 +33,7 @@
    UNREVIEWED MACHINE TRANSLATION DRAFT (hi). Do not use for medical guidance, sharing, printing, or training until fluent local reviewers verify all emergency numbers, doses, timings, and local guidance against the English source.
   </div>
   <a class="skip-link" href="#main">
-   [HI]: Skip to main content
+   मुख्य सामग्री पर जाएँ
   </a>
   <header class="site">
    <div class="wrap">
@@ -42,49 +42,49 @@
     </a>
     <nav>
      <a href="../heat/">
-      [HI]: Extreme Heat
+      अत्यधिक गर्मी
      </a>
      <a href="../smoke/">
-      [HI]: Wildfire Smoke
+      जंगल की आग का धुआं
      </a>
      <a href="../naloxone/">
-      [HI]: Opioid Overdose
+      ओपिओइड ओवरडोज़
      </a>
      <a href="../ors/">
-      [HI]: Dehydration &amp; ORS
+      निर्जलीकरण एवं ओ.आर.एस
      </a>
      <a href="../choking/">
-      [HI]: Choking
+      दम घुट रहा है
      </a>
      <a href="../bleeding/">
-      [HI]: Severe Bleeding
+      गंभीर रक्तस्राव
      </a>
      <a href="../cpr/">
-      [HI]: CPR
+      सीपीआर
      </a>
      <a href="../stroke/">
-      [HI]: Stroke
+      आघात
      </a>
      <a href="../burns/">
-      [HI]: Burns
+      बर्न्स
      </a>
      <a href="../seizure/">
-      [HI]: Seizure
+      जब्ती
      </a>
      <a href="../allergy/">
-      [HI]: Severe Allergy
+      गंभीर एलर्जी
      </a>
      <a href="../cold/">
-      [HI]: Cold Safety
+      शीत सुरक्षा
      </a>
      <a href="../heart/">
-      [HI]: Heart Attack
+      दिल का दौरा
      </a>
      <a href="../triage/">
-      [HI]: Triage
+      ट्राइएज
      </a>
      <a href="../localize.html">
-      [HI]: Localize &amp; share
+      स्थानीयकृत करें और साझा करें
      </a>
     </nav>
    </div>
@@ -93,78 +93,78 @@
    <div class="wrap">
     <p>
      <a href="index.html">
-      [HI]: ← Back to heat guide
+      ← हीट गाइड पर वापस जाएँ
      </a>
     </p>
     <h1>
-     [HI]: Heat check SMS and phone scripts
+     हीट चेक एसएमएस और फोन स्क्रिप्ट
     </h1>
     <p class="lede">
      <strong>
-      🚨[REVIEW_REQUIRED] [HI]: Last updated: June 15, 2026.
+      🚨[REVIEW_REQUIRED] अंतिम अद्यतन: 15 जून, 2026।
      </strong>
-     [HI]: Use friendly, non-alarming language. Ask what help is wanted. Localize emergency numbers and cooling-center details.
+     मैत्रीपूर्ण, गैर-चिंताजनक भाषा का प्रयोग करें। पूछें कि क्या मदद चाहिए. आपातकालीन नंबरों और कूलिंग-सेंटर विवरणों को स्थानीयकृत करें।
     </p>
     <div class="actions no-print">
      <a class="btn" href="javascript:window.print()">
-      [HI]: Print this page
+      इस पेज को प्रिंट करें
      </a>
     </div>
     <h2>
-     [HI]: First check text
+     पहले पाठ की जाँच करें
     </h2>
     <div class="script">
-     [HI]: Hi — it’s [NAME]. It’s dangerously hot today, so I’m checking on neighbors. Are you somewhere cool enough right now? Do you have water? Do you want help finding a cooling place or getting a check-in later?
+     नमस्ते - यह [नाम] है। आज बहुत गर्मी है, इसलिए मैं पड़ोसियों से पूछताछ कर रहा हूँ। क्या आप अभी कहीं शांत हैं? क्या आपके पास पानी है? क्या आप ठंडी जगह ढूंढने या बाद में चेक-इन कराने में मदद चाहते हैं?
     </div>
     <h2>
-     [HI]: Short phone script
+     लघु फ़ोन स्क्रिप्ट
     </h2>
     <div class="script">
-     [HI]: Hi, I’m doing heat check-ins today. Are you okay to talk for one minute? I’m checking: are you in a cool place, do you have water, and are you feeling dizzy, confused, nauseated, very weak, or unusually hot?
+     नमस्ते, मैं आज हीट चेक-इन कर रहा हूं। क्या आपको एक मिनट बात करना ठीक है? मैं जाँच कर रहा हूँ: क्या आप ठंडी जगह पर हैं, क्या आपके पास पानी है, और क्या आपको चक्कर आ रहा है, भ्रम हो रहा है, मतली हो रही है, बहुत कमज़ोरी महसूस हो रही है, या असामान्य रूप से गर्मी महसूस हो रही है?
     </div>
     <h2>
-     [HI]: If they need cooling help
+     यदि उन्हें शीतलन सहायता की आवश्यकता है
     </h2>
     <div class="script">
-     [HI]: Would any of these help: a ride or directions to [COOLING PLACE], someone bringing water, help calling a family member or neighbor, or another check in 30 minutes?
+     क्या इनमें से कोई मदद करेगा: [कूलिंग प्लेस] के लिए सवारी या दिशा-निर्देश, कोई पानी ला रहा है, परिवार के किसी सदस्य या पड़ोसी को बुलाने में मदद, या 30 मिनट में कोई अन्य चेक?
     </div>
     <h2>
-     [HI]: If you are worried
+     यदि आप चिंतित हैं
     </h2>
     <div class="script">
-     [HI]: I’m worried because you said [SYMPTOM/SITUATION]. Can I call emergency services or a local helper now? If you can, please move to the coolest place nearby and start cooling with water or wet cloths while help is on the way.
+     मैं चिंतित हूं क्योंकि आपने कहा था [लक्षण/स्थिति]। क्या मैं अब आपातकालीन सेवाओं या स्थानीय सहायक को कॉल कर सकता हूँ? यदि आप कर सकते हैं, तो कृपया पास के सबसे ठंडे स्थान पर चले जाएं और जब तक मदद मिल रही हो, पानी या गीले कपड़े से ठंडा करना शुरू करें।
     </div>
     <h2>
-     [HI]: If no response
+     अगर कोई प्रतिक्रिया नहीं
     </h2>
     <div class="script">
-     [HI]: I didn’t reach you and it is very hot today. I’ll try again at [TIME]. If you need urgent help, call [LOCAL EMERGENCY NUMBER] or go to [LOCAL COOLING PLACE] if you can do so safely.
+     मैं आप तक नहीं पहुंच सका और आज बहुत गर्मी है। मैं [TIME] पर पुनः प्रयास करूँगा। यदि आपको तत्काल सहायता की आवश्यकता है, तो [स्थानीय आपातकालीन नंबर] पर कॉल करें या यदि आप सुरक्षित रूप से ऐसा कर सकते हैं तो [स्थानीय शीतलन स्थल] पर जाएं।
     </div>
     <h2>
-     [HI]: Privacy line
+     गोपनीयता रेखा
     </h2>
     <div class="script">
-     [HI]: We’re only using your information for heat checks and local help. We won’t post your details publicly.
+     हम आपकी जानकारी का उपयोग केवल गर्मी जांच और स्थानीय सहायता के लिए कर रहे हैं। हम आपका विवरण सार्वजनिक रूप से पोस्ट नहीं करेंगे.
     </div>
     <div class="box emergency">
      <span class="tag">
       Call emergency services now
      </span>
      <p>
-      [HI]: Call now for confusion, fainting or unconsciousness, seizure, hot/dry skin or very high body temperature, repeated vomiting, or symptoms that worsen despite cooling.
+      भ्रम, बेहोशी या बेहोशी, दौरा, गर्म/शुष्क त्वचा या बहुत अधिक शरीर का तापमान, बार-बार उल्टी होना, या ठंडक के बावजूद बदतर होने वाले लक्षणों के लिए अभी कॉल करें।
      </p>
     </div>
     <p class="sources">
-     🚨[REVIEW_REQUIRED] [HI]: Sources: CDC, WHO, Red Cross, Global Heat Health Information Network, Heat.gov/NIHHIS. General information only.
+     🚨[REVIEW_REQUIRED] स्रोत: सीडीसी, डब्ल्यूएचओ, रेड क्रॉस, ग्लोबल हीट हेल्थ इंफॉर्मेशन नेटवर्क, हीट.जीओवी/एनआईएचएचआईएस। केवल सामान्य जानकारी.
     </p>
     <p class="disclaimer">
-     [HI]: This guide is general information, not medical advice, and is not a substitute for professional emergency care or training. In an emergency, always call your local emergency number. When symptoms are severe or you are unsure, treat it as an emergency. Reuse and reprint freely.
+     यह मार्गदर्शिका सामान्य जानकारी है, चिकित्सीय सलाह नहीं, और पेशेवर आपातकालीन देखभाल या प्रशिक्षण का विकल्प नहीं है। आपातकालीन स्थिति में, हमेशा अपने स्थानीय आपातकालीन नंबर पर कॉल करें। जब लक्षण गंभीर हों या आप अनिश्चित हों, तो इसे आपात स्थिति के रूप में लें। पुन: उपयोग करें और स्वतंत्र रूप से पुनर्मुद्रण करें।
     </p>
    </div>
   </main>
   <footer class="site">
    <div class="wrap">
-    [HI]: Public domain (CC0) · Verify local emergency and health guidance
+    सार्वजनिक डोमेन (CC0) · स्थानीय आपातकालीन और स्वास्थ्य मार्गदर्शन सत्यापित करें
    </div>
   </footer>
   <script>

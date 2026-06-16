@@ -4,9 +4,9 @@
   <meta charset="utf-8"/>
   <meta content="width=device-width,initial-scale=1" name="viewport"/>
   <title>
-   [HI]: Seizure First Aid — Help Kit | Help Kit
+   जब्ती प्राथमिक चिकित्सा - सहायता किट | Help Kit
   </title>
-  <meta content="[HI]: A free, source-cited one-page guide to seizure first aid: protect the person, time the seizure, never restrain or put anything in the mouth, use the recovery position, and know when to call for help. Based on CDC, WHO, Epilepsy Foundation, and Red Cross guidance." name="description"/>
+  <meta content="दौरे की प्राथमिक चिकित्सा के लिए एक नि:शुल्क, स्रोत-उद्धृत मार्गदर्शिका: व्यक्ति की रक्षा करें, दौरे का समय बताएं, रोकें नहीं या मुंह में कुछ भी न डालें, और जानें कि कब कॉल करना है।" name="description"/>
   <link href="https://ai-village-agents.github.io/help-kit/seizure/" rel="canonical"/>
   <meta content="noindex, nofollow, noarchive" name="robots"/>
   <meta content="Help Kit" property="og:site_name"/>
@@ -24,13 +24,56 @@
   <link href="../style.css" rel="stylesheet"/>
   <link href="/help-kit/manifest.webmanifest" rel="manifest"/>
   <link href="/help-kit/icon-192.png" rel="apple-touch-icon"/>
+  <script type="application/ld+json">
+   {
+  "@context": "https://schema.org",
+  "@type": "MedicalWebPage",
+  "name": "Seizure First Aid",
+  "description": "A free, source-cited guide to seizure first aid: protect the person, time the seizure, don't restrain or put anything in the mouth, and know when to call.",
+  "url": "https://ai-village-agents.github.io/help-kit/seizure/",
+  "inLanguage": "en",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "Help Kit",
+    "url": "https://ai-village-agents.github.io/help-kit/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Help Kit",
+    "url": "https://ai-village-agents.github.io/help-kit/"
+  },
+  "citation": [
+    {
+      "@type": "WebPage",
+      "name": "CDC — About epilepsy",
+      "url": "https://www.cdc.gov/epilepsy/about/index.html"
+    },
+    {
+      "@type": "WebPage",
+      "name": "World Health Organization — Epilepsy fact sheet",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/epilepsy"
+    },
+    {
+      "@type": "WebPage",
+      "name": "NHS — Epilepsy and what to do when someone has a seizure",
+      "url": "https://www.nhs.uk/conditions/epilepsy/"
+    },
+    {
+      "@type": "WebPage",
+      "name": "American Red Cross — first-aid training and resources",
+      "url": "https://www.redcross.org/take-a-class"
+    }
+  ]
+}
+  </script>
  </head>
  <body>
   <div class="notice danger" data-draft-warning="true">
    UNREVIEWED MACHINE TRANSLATION DRAFT (hi). Do not use for medical guidance, sharing, printing, or training until fluent local reviewers verify all emergency numbers, doses, timings, and local guidance against the English source.
   </div>
   <a class="skip-link" href="#main">
-   [HI]: Skip to main content
+   मुख्य सामग्री पर जाएँ
   </a>
   <header class="site">
    <div class="wrap">
@@ -39,49 +82,49 @@
     </a>
     <nav>
      <a href="../heat/">
-      [HI]: Extreme Heat
+      अत्यधिक गर्मी
      </a>
      <a href="../smoke/">
-      [HI]: Wildfire Smoke
+      जंगल की आग का धुआं
      </a>
      <a href="../naloxone/">
-      [HI]: Opioid Overdose
+      ओपिओइड ओवरडोज़
      </a>
      <a href="../ors/">
-      [HI]: Dehydration &amp; ORS
+      निर्जलीकरण एवं ओ.आर.एस
      </a>
      <a href="../choking/">
-      [HI]: Choking
+      दम घुट रहा है
      </a>
      <a href="../bleeding/">
-      [HI]: Severe Bleeding
+      गंभीर रक्तस्राव
      </a>
      <a href="../cpr/">
-      [HI]: CPR
+      सीपीआर
      </a>
      <a href="../stroke/">
-      [HI]: Stroke
+      आघात
      </a>
      <a href="../burns/">
-      [HI]: Burns
+      बर्न्स
      </a>
      <a href="../seizure/">
-      [HI]: Seizure
+      जब्ती
      </a>
      <a href="../allergy/">
-      [HI]: Severe Allergy
+      गंभीर एलर्जी
      </a>
      <a href="../cold/">
-      [HI]: Cold Safety
+      शीत सुरक्षा
      </a>
      <a href="../heart/">
-      [HI]: Heart Attack
+      दिल का दौरा
      </a>
      <a href="../triage/">
-      [HI]: Triage
+      ट्राइएज
      </a>
      <a href="../localize.html">
-      [HI]: Localize &amp; share
+      स्थानीयकृत करें और साझा करें
      </a>
     </nav>
    </div>
@@ -89,24 +132,24 @@
   <section class="hero">
    <div class="wrap">
     <h1>
-     [HI]: Seizure first aid
+     जब्ती प्राथमिक चिकित्सा
     </h1>
     <p>
-     [HI]: A seizure is a burst of unusual electrical activity in the brain. Many seizures look frightening but stop on their own within a couple of minutes. The most important things you can do are simple: keep the person safe from injury, do not hold them down or put anything in their mouth, time how long it lasts, and stay with them. Free to read, print, and share.
+     दौरा मस्तिष्क में असामान्य विद्युत गतिविधि का विस्फोट है। कई दौरे भयावह लगते हैं लेकिन कुछ ही मिनटों में अपने आप रुक जाते हैं। सबसे महत्वपूर्ण चीजें जो आप कर सकते हैं वे सरल हैं: व्यक्ति को चोट से सुरक्षित रखें, उन्हें पकड़कर न रखें या उनके मुंह में कुछ भी न डालें, यह कितनी देर तक रहेगा, और उनके साथ रहें। पढ़ने, प्रिंट करने और साझा करने के लिए निःशुल्क।
     </p>
    </div>
   </section>
   <main id="main">
    <div class="wrap">
     <p class="lede">
-     [HI]: Many seizures end by themselves. Your job is to protect the person, prevent injury, and gently care for them afterwards — and to recognise situations that do need urgent medical help.
+     कई दौरे अपने आप समाप्त हो जाते हैं। आपका काम व्यक्ति की रक्षा करना, चोट लगने से रोकना और उसके बाद धीरे-धीरे उनकी देखभाल करना है - और उन स्थितियों को पहचानना है जिनमें तत्काल चिकित्सा सहायता की आवश्यकता होती है।
     </p>
     <div class="actions no-print">
      <a class="btn" href="javascript:window.print()">
-      [HI]: Print this page
+      इस पेज को प्रिंट करें
      </a>
      <a class="btn alt" href="seizure-onepager.pdf">
-      [HI]: Download printable PDF
+      प्रिंट करने योग्य पीडीएफ डाउनलोड करें
      </a>
     </div>
     <div class="box emergency">
@@ -114,93 +157,93 @@
       Call emergency services now if…
      </span>
      <h3>
-      [HI]: When a seizure is an emergency
+      जब दौरा एक आपातकालीन स्थिति हो
      </h3>
      <ul>
       <li>
-       [HI]: The seizure (shaking/convulsing) lasts
+       दौरा (कंपकंपी/ऐंठन) लंबे समय तक रहता है
        <strong>
-        🚨[REVIEW_REQUIRED] [HI]: longer than 5 minutes
+        🚨[REVIEW_REQUIRED] 5 मिनट से अधिक समय
        </strong>
        .
       </li>
       <li>
-       [HI]: Another seizure starts soon after the first, or they do not regain awareness between seizures.
+       पहले दौरे के तुरंत बाद दूसरा दौरा शुरू हो जाता है, या उन्हें दौरे के बीच जागरूकता नहीं आती है।
       </li>
       <li>
-       [HI]: The person is
+       व्यक्ति है
        <strong>
-        [HI]: hurt, has trouble breathing, or does not wake up
+        चोट लगती है, सांस लेने में परेशानी होती है, या जागता नहीं है
        </strong>
-       [HI]: after the shaking stops.
+       झटके रुकने के बाद.
       </li>
       <li>
-       [HI]: The seizure happens
+       दौरा पड़ जाता है
        <strong>
-        [HI]: in water
+        पानी में
        </strong>
        .
       </li>
       <li>
-       [HI]: It is the person's
+       यह व्यक्ति का है
        <strong>
-        [HI]: first-ever seizure
+        पहली बार जब्ती
        </strong>
-       [HI]: , or you do not know their history.
+       , या आप उनका इतिहास नहीं जानते।
       </li>
       <li>
-       [HI]: The person is
+       व्यक्ति है
        <strong>
-        [HI]: pregnant
+        गर्भवती
        </strong>
-       [HI]: , has
+       , है
        <strong>
-        [HI]: diabetes
+        मधुमेह
        </strong>
-       [HI]: , or another serious health condition.
+       , या कोई अन्य गंभीर स्वास्थ्य स्थिति।
       </li>
      </ul>
      <p>
-      🚨[REVIEW_REQUIRED] [HI]: Call your local emergency number (examples: 911, 112, or 999; verify locally). When in doubt, call.
+      🚨[REVIEW_REQUIRED] अपने स्थानीय आपातकालीन नंबर पर कॉल करें (उदाहरण: 911, 112, या 999; स्थानीय रूप से सत्यापित करें)। जब संदेह हो तो कॉल करें.
      </p>
     </div>
     <h2>
-     [HI]: What to do during a convulsive seizure
+     ऐंठन वाले दौरे के दौरान क्या करें?
     </h2>
     <ol class="steps">
      <li>
       <strong>
-       [HI]: Stay calm and stay with them.
+       शांत रहें और उनके साथ रहें।
       </strong>
-      [HI]: Note the time the seizure starts so you know how long it lasts.
+      दौरा शुरू होने का समय नोट करें ताकि आप जान सकें कि यह कितने समय तक रहता है।
      </li>
      <li>
       <strong>
-       [HI]: Protect them from injury.
+       उन्हें चोट से बचाएं.
       </strong>
-      [HI]: Move away hard or sharp objects. Cushion the head with something soft (a folded jacket). Take off glasses and loosen anything tight around the neck.
+      कठोर या नुकीली वस्तुओं को दूर हटा दें। सिर को किसी नरम चीज़ (मुड़ी हुई जैकेट) से ढकें। चश्मा उतारें और गर्दन के आसपास कसी हुई किसी भी चीज़ को ढीला करें।
      </li>
      <li>
       <strong>
-       [HI]: Do not restrain them
+       उन पर लगाम मत लगाओ
       </strong>
-      [HI]: and
+      और
       <strong>
-       [HI]: do not put anything in their mouth.
+       उनके मुँह में कुछ मत डालो.
       </strong>
-      [HI]: Let the movements happen. Holding them down or putting objects (or your fingers) in the mouth can injure them or you — and you cannot stop the seizure that way.
+      आंदोलन होने दीजिए. उन्हें पकड़कर रखने या मुंह में कोई वस्तु (या अपनी उंगलियां) डालने से उन्हें या आपको चोट लग सकती है - और आप इस तरह दौरे को नहीं रोक सकते।
      </li>
      <li>
       <strong>
-       [HI]: When the shaking stops, roll them onto their side
+       जब झटके बंद हो जाएं तो उन्हें अपनी तरफ घुमाएं
       </strong>
-      [HI]: (recovery position). This keeps the airway clear and lets saliva drain. Check they are breathing.
+      (पुनर्प्राप्ति स्थिति). यह वायुमार्ग को साफ़ रखता है और लार को निकलने देता है। जांचें कि वे सांस ले रहे हैं।
      </li>
      <li>
       <strong>
-       [HI]: Stay until they are fully alert.
+       जब तक वे पूरी तरह सतर्क न हो जाएं, तब तक रुकें।
       </strong>
-      [HI]: Reassure them calmly — they may be confused, sleepy, or upset for a while. Do not give food, drink, or medicine until they are fully awake and able to swallow.
+      उन्हें शांति से आश्वस्त करें - वे कुछ समय के लिए भ्रमित, नींद में या परेशान हो सकते हैं। जब तक वे पूरी तरह से जाग न जाएं और निगलने में सक्षम न हो जाएं, उन्हें भोजन, पेय या दवा न दें।
      </li>
     </ol>
     <div class="box warn">
@@ -210,116 +253,116 @@
      <ul>
       <li>
        <strong>
-        [HI]: Never put anything in the mouth
+        मुंह में कभी भी कुछ न डालें
        </strong>
-       [HI]: — a spoon, wallet, fingers, or food. A person
+       - एक चम्मच, बटुआ, उंगलियाँ, या भोजन। एक व्यक्ति
        <strong>
-        [HI]: cannot swallow their tongue
+        अपनी जीभ निगल नहीं सकते
        </strong>
-       [HI]: . Objects can break teeth, block the airway, or be bitten.
+       . वस्तुएँ दाँत तोड़ सकती हैं, वायुमार्ग को अवरुद्ध कर सकती हैं, या काटी जा सकती हैं।
       </li>
       <li>
        <strong>
-        [HI]: Do not hold the person down
+        व्यक्ति को दबाकर न रखें
        </strong>
-       [HI]: or try to stop their movements.
+       या उनकी हरकतों को रोकने की कोशिश करें.
       </li>
       <li>
        <strong>
-        [HI]: Do not try to "wake" them
+        उन्हें "जगाने" की कोशिश मत करो
        </strong>
-       [HI]: by slapping, shouting, or throwing water.
+       थप्पड़ मारने, चिल्लाने या पानी फेंकने से।
       </li>
       <li>
-       [HI]: Do not give anything to eat or drink until they are fully recovered.
+       जब तक वे पूरी तरह ठीक न हो जाएं, उन्हें कुछ भी खाने या पीने को न दें।
       </li>
      </ul>
     </div>
     <h2>
-     [HI]: Not all seizures involve shaking
+     सभी दौरों में कंपकंपी शामिल नहीं होती
     </h2>
     <p>
-     [HI]: Some seizures cause staring, confusion, repeated movements (like lip-smacking or fumbling), wandering, or simply being unaware for a short time. The person may not respond normally.
+     कुछ दौरे घूरने, भ्रम, बार-बार हिलने-डुलने (जैसे होंठ चटकाना या लड़खड़ाना), भटकना, या बस थोड़े समय के लिए अनजान रहने का कारण बनते हैं। व्यक्ति सामान्य रूप से प्रतिक्रिया नहीं दे सकता है।
      <strong>
-      [HI]: Do not grab or restrain them.
+      उन्हें पकड़ें या रोकें नहीं.
      </strong>
-     [HI]: Gently guide them away from danger (roads, stairs, water), speak calmly and quietly, stay with them, and wait for them to come round. They may not remember it afterwards.
+     धीरे से उन्हें खतरे (सड़कों, सीढ़ियों, पानी) से दूर ले जाएं, शांति और शांति से बात करें, उनके साथ रहें और उनके आने का इंतजार करें। हो सकता है कि उन्हें बाद में यह याद न रहे।
     </p>
     <h2>
-     [HI]: Fever-related seizures in young children
+     छोटे बच्चों में बुखार से संबंधित दौरे
     </h2>
     <div class="box ok">
      <span class="tag ok">
       Often brief, but watch closely
      </span>
      <p>
-      🚨[REVIEW_REQUIRED] [HI]: Young children sometimes have a seizure when they have a high fever (a "febrile seizure"). It is frightening to watch; many are brief, but the child still needs careful watching. Give the same first aid: keep them safe, do not restrain or put anything in the mouth, and lay them on their side. Call for emergency help if it lasts more than 5 minutes, if it is their first one, if they have trouble breathing, or if the child seems very unwell or does not recover quickly.
+      🚨[REVIEW_REQUIRED] छोटे बच्चों को कभी-कभी तेज बुखार होने पर दौरा पड़ता है (एक "ज्वर संबंधी दौरा")। यह देखना भयावह है; कई संक्षिप्त हैं, लेकिन बच्चे को अभी भी सावधानीपूर्वक निगरानी की आवश्यकता है। वही प्राथमिक उपचार दें: उन्हें सुरक्षित रखें, रोकें नहीं या मुँह में कुछ न डालें, और उन्हें उनकी तरफ लिटा दें। यदि यह 5 मिनट से अधिक समय तक चलता है, यदि यह उनका पहला है, यदि उन्हें सांस लेने में परेशानी हो रही है, या यदि बच्चा बहुत अस्वस्थ लगता है या जल्दी ठीक नहीं होता है, तो आपातकालीन सहायता के लिए कॉल करें।
      </p>
     </div>
     <h2>
-     [HI]: After the seizure
+     जब्ती के बाद
     </h2>
     <ul>
      <li>
-      [HI]: Stay calm and kind. Tiredness, confusion, headache, or embarrassment afterwards are normal.
+      शांत और दयालु रहें. इसके बाद थकान, भ्रम, सिरदर्द या शर्मिंदगी सामान्य है।
      </li>
      <li>
-      [HI]: Give them space and privacy — don't crowd them.
+      उन्हें जगह और गोपनीयता दें - उन पर भीड़ न लगाएं।
      </li>
      <li>
-      [HI]: Note what you saw to tell them or the medical team: how long it lasted, what the body did, and any injury. This information is genuinely helpful.
+      ध्यान दें कि आपने उन्हें या मेडिकल टीम को बताने के लिए क्या देखा: यह कितने समय तक रहा, शरीर पर क्या असर हुआ, और कोई चोट। यह जानकारी वास्तव में उपयोगी है.
      </li>
      <li>
-      [HI]: If they have a seizure-action plan or rescue medicine and a trained person is present, follow it.
+      यदि उनके पास जब्ती-कार्य योजना या बचाव दवा है और एक प्रशिक्षित व्यक्ति मौजूद है, तो उसका पालन करें।
      </li>
     </ul>
     <h2>
-     [HI]: Sources
+     सूत्रों का कहना है
     </h2>
     <ul class="sources">
      <li>
       <a href="https://www.cdc.gov/epilepsy/about/index.html">
-       🚨[REVIEW_REQUIRED] [HI]: CDC — About epilepsy
+       🚨[REVIEW_REQUIRED] सीडीसी - मिर्गी के बारे में
       </a>
-      [HI]: (background on seizures and epilepsy).
+      (दौरे और मिर्गी पर पृष्ठभूमि)।
      </li>
      <li>
-      [HI]: Epilepsy Foundation — Seizure first aid and safety (stay, safe, side; do not restrain or put anything in the mouth).
+      मिर्गी फाउंडेशन - दौरे की प्राथमिक चिकित्सा और सुरक्षा (रहें, सुरक्षित रहें, किनारे रखें; रोकें नहीं या मुंह में कुछ भी न डालें)।
      </li>
      <li>
       <a href="https://www.who.int/news-room/fact-sheets/detail/epilepsy">
-       [HI]: World Health Organization — Epilepsy fact sheet
+       विश्व स्वास्थ्य संगठन - मिर्गी तथ्य पत्रक
       </a>
-      [HI]: (global burden; first aid; do not restrain or place objects in the mouth).
+      (वैश्विक बोझ; प्राथमिक उपचार; वस्तुओं को मुंह में न रखें या न रखें)।
      </li>
      <li>
       <a href="https://www.nhs.uk/conditions/epilepsy/">
-       🚨[REVIEW_REQUIRED] [HI]: NHS — Epilepsy and what to do when someone has a seizure
+       🚨[REVIEW_REQUIRED] एनएचएस - मिर्गी और जब किसी को दौरा पड़े तो क्या करें
       </a>
       .
      </li>
      <li>
       <a href="https://www.redcross.org/take-a-class">
-       [HI]: American Red Cross — first-aid training and resources
+       अमेरिकन रेड क्रॉस - प्राथमिक चिकित्सा प्रशिक्षण और संसाधन
       </a>
       .
      </li>
     </ul>
     <p class="sources">
-     [HI]: Guidance reflects widely taught seizure first aid for lay responders. Details vary between training bodies and regions — follow your local first-aid training and emergency services.
+     मार्गदर्शन सामान्य उत्तरदाताओं के लिए व्यापक रूप से सिखाई गई जब्ती प्राथमिक चिकित्सा को दर्शाता है। प्रशिक्षण निकायों और क्षेत्रों के बीच विवरण अलग-अलग होते हैं - अपने स्थानीय प्राथमिक चिकित्सा प्रशिक्षण और आपातकालीन सेवाओं का पालन करें।
     </p>
     <p class="disclaimer">
-     [HI]: This guide is general information, not medical advice. In an emergency, always call your local emergency number. Reuse and reprint freely.
+     यह मार्गदर्शिका सामान्य जानकारी है, चिकित्सीय सलाह नहीं। आपातकालीन स्थिति में, हमेशा अपने स्थानीय आपातकालीन नंबर पर कॉल करें। पुन: उपयोग करें और स्वतंत्र रूप से पुनर्मुद्रण करें।
     </p>
    </div>
   </main>
   <footer class="site">
    <div class="wrap">
-    [HI]: A free, open Help Kit ·
+    एक मुफ़्त, खुली सहायता किट ·
     <a href="https://github.com/ai-village-agents/help-kit">
-     [HI]: source on GitHub
+     GitHub पर स्रोत
     </a>
-    [HI]: · Public domain (CC0) · Verify against your local health authority
+    · सार्वजनिक डोमेन (CC0) · अपने स्थानीय स्वास्थ्य प्राधिकरण के विरुद्ध सत्यापन करें
    </div>
   </footer>
   <script>

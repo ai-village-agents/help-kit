@@ -4,9 +4,9 @@
   <meta charset="utf-8"/>
   <meta content="width=device-width,initial-scale=1" name="viewport"/>
   <title>
-   [ES]: Seizure First Aid — Help Kit | Help Kit
+   Primeros auxilios para convulsiones: kit de ayuda | Help Kit
   </title>
-  <meta content="[ES]: A free, source-cited one-page guide to seizure first aid: protect the person, time the seizure, never restrain or put anything in the mouth, use the recovery position, and know when to call for help. Based on CDC, WHO, Epilepsy Foundation, and Red Cross guidance." name="description"/>
+  <meta content="Una guía gratuita y citada por fuentes sobre primeros auxilios para las convulsiones: proteja a la persona, cronometre la convulsión, no restrinja ni se lleve nada a la boca y sepa cuándo llamar." name="description"/>
   <link href="https://ai-village-agents.github.io/help-kit/seizure/" rel="canonical"/>
   <meta content="noindex, nofollow, noarchive" name="robots"/>
   <meta content="Help Kit" property="og:site_name"/>
@@ -24,13 +24,56 @@
   <link href="../style.css" rel="stylesheet"/>
   <link href="/help-kit/manifest.webmanifest" rel="manifest"/>
   <link href="/help-kit/icon-192.png" rel="apple-touch-icon"/>
+  <script type="application/ld+json">
+   {
+  "@context": "https://schema.org",
+  "@type": "MedicalWebPage",
+  "name": "Seizure First Aid",
+  "description": "A free, source-cited guide to seizure first aid: protect the person, time the seizure, don't restrain or put anything in the mouth, and know when to call.",
+  "url": "https://ai-village-agents.github.io/help-kit/seizure/",
+  "inLanguage": "en",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "Help Kit",
+    "url": "https://ai-village-agents.github.io/help-kit/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Help Kit",
+    "url": "https://ai-village-agents.github.io/help-kit/"
+  },
+  "citation": [
+    {
+      "@type": "WebPage",
+      "name": "CDC — About epilepsy",
+      "url": "https://www.cdc.gov/epilepsy/about/index.html"
+    },
+    {
+      "@type": "WebPage",
+      "name": "World Health Organization — Epilepsy fact sheet",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/epilepsy"
+    },
+    {
+      "@type": "WebPage",
+      "name": "NHS — Epilepsy and what to do when someone has a seizure",
+      "url": "https://www.nhs.uk/conditions/epilepsy/"
+    },
+    {
+      "@type": "WebPage",
+      "name": "American Red Cross — first-aid training and resources",
+      "url": "https://www.redcross.org/take-a-class"
+    }
+  ]
+}
+  </script>
  </head>
  <body>
   <div class="notice danger" data-draft-warning="true">
    UNREVIEWED MACHINE TRANSLATION DRAFT (es). Do not use for medical guidance, sharing, printing, or training until fluent local reviewers verify all emergency numbers, doses, timings, and local guidance against the English source.
   </div>
   <a class="skip-link" href="#main">
-   [ES]: Skip to main content
+   Saltar al contenido principal
   </a>
   <header class="site">
    <div class="wrap">
@@ -39,49 +82,49 @@
     </a>
     <nav>
      <a href="../heat/">
-      [ES]: Extreme Heat
+      Calor extremo
      </a>
      <a href="../smoke/">
-      [ES]: Wildfire Smoke
+      Humo de incendios forestales
      </a>
      <a href="../naloxone/">
-      [ES]: Opioid Overdose
+      Sobredosis de opioides
      </a>
      <a href="../ors/">
-      [ES]: Dehydration &amp; ORS
+      Deshidratación y SRO
      </a>
      <a href="../choking/">
-      [ES]: Choking
+      asfixia
      </a>
      <a href="../bleeding/">
-      [ES]: Severe Bleeding
+      Sangrado severo
      </a>
      <a href="../cpr/">
-      [ES]: CPR
+      RCP
      </a>
      <a href="../stroke/">
-      [ES]: Stroke
+      Ataque
      </a>
      <a href="../burns/">
-      [ES]: Burns
+      quemaduras
      </a>
      <a href="../seizure/">
-      [ES]: Seizure
+      Convulsión
      </a>
      <a href="../allergy/">
-      [ES]: Severe Allergy
+      Alergia severa
      </a>
      <a href="../cold/">
-      [ES]: Cold Safety
+      Seguridad en frío
      </a>
      <a href="../heart/">
-      [ES]: Heart Attack
+      Infarto de miocardio
      </a>
      <a href="../triage/">
-      [ES]: Triage
+      Triaje
      </a>
      <a href="../localize.html">
-      [ES]: Localize &amp; share
+      Localizar y compartir
      </a>
     </nav>
    </div>
@@ -89,24 +132,24 @@
   <section class="hero">
    <div class="wrap">
     <h1>
-     [ES]: Seizure first aid
+     Primeros auxilios para convulsiones
     </h1>
     <p>
-     [ES]: A seizure is a burst of unusual electrical activity in the brain. Many seizures look frightening but stop on their own within a couple of minutes. The most important things you can do are simple: keep the person safe from injury, do not hold them down or put anything in their mouth, time how long it lasts, and stay with them. Free to read, print, and share.
+     Una convulsión es un estallido de actividad eléctrica inusual en el cerebro. Muchas convulsiones parecen aterradoras pero desaparecen por sí solas en un par de minutos. Las cosas más importantes que puedes hacer son simples: mantener a la persona a salvo de lesiones, no sujetarla ni meterle nada en la boca, cronometrar cuánto dura y quédate con ella. Gratis para leer, imprimir y compartir.
     </p>
    </div>
   </section>
   <main id="main">
    <div class="wrap">
     <p class="lede">
-     [ES]: Many seizures end by themselves. Your job is to protect the person, prevent injury, and gently care for them afterwards — and to recognise situations that do need urgent medical help.
+     Muchas convulsiones terminan por sí solas. Su trabajo es proteger a la persona, prevenir lesiones y cuidarla con delicadeza después, y reconocer situaciones que necesitan ayuda médica urgente.
     </p>
     <div class="actions no-print">
      <a class="btn" href="javascript:window.print()">
-      [ES]: Print this page
+      Imprime esta pagina
      </a>
      <a class="btn alt" href="seizure-onepager.pdf">
-      [ES]: Download printable PDF
+      Descargar PDF imprimible
      </a>
     </div>
     <div class="box emergency">
@@ -114,93 +157,93 @@
       Call emergency services now if…
      </span>
      <h3>
-      [ES]: When a seizure is an emergency
+      Cuando una convulsión es una emergencia
      </h3>
      <ul>
       <li>
-       [ES]: The seizure (shaking/convulsing) lasts
+       La convulsión (temblores/convulsiones) dura
        <strong>
-        🚨[REVIEW_REQUIRED] [ES]: longer than 5 minutes
+        🚨[REVIEW_REQUIRED] más de 5 minutos
        </strong>
        .
       </li>
       <li>
-       [ES]: Another seizure starts soon after the first, or they do not regain awareness between seizures.
+       Otra convulsión comienza poco después de la primera, o no recuperan el conocimiento entre las convulsiones.
       </li>
       <li>
-       [ES]: The person is
+       la persona es
        <strong>
-        [ES]: hurt, has trouble breathing, or does not wake up
+        duele, tiene problemas para respirar o no se despierta
        </strong>
-       [ES]: after the shaking stops.
+       después de que cesa el temblor.
       </li>
       <li>
-       [ES]: The seizure happens
+       La convulsión ocurre
        <strong>
-        [ES]: in water
+        en agua
        </strong>
        .
       </li>
       <li>
-       [ES]: It is the person's
+       es de la persona
        <strong>
-        [ES]: first-ever seizure
+        primera convulsión
        </strong>
-       [ES]: , or you do not know their history.
+       , o no conoces su historia.
       </li>
       <li>
-       [ES]: The person is
+       la persona es
        <strong>
-        [ES]: pregnant
+        embarazada
        </strong>
-       [ES]: , has
+       , tiene
        <strong>
-        [ES]: diabetes
+        diabetes
        </strong>
-       [ES]: , or another serious health condition.
+       u otra condición de salud grave.
       </li>
      </ul>
      <p>
-      🚨[REVIEW_REQUIRED] [ES]: Call your local emergency number (examples: 911, 112, or 999; verify locally). When in doubt, call.
+      🚨[REVIEW_REQUIRED] Llame a su número de emergencia local (ejemplos: 911, 112 o 999; verifique localmente). En caso de duda, llame.
      </p>
     </div>
     <h2>
-     [ES]: What to do during a convulsive seizure
+     Qué hacer durante una crisis convulsiva
     </h2>
     <ol class="steps">
      <li>
       <strong>
-       [ES]: Stay calm and stay with them.
+       Mantén la calma y quédate con ellos.
       </strong>
-      [ES]: Note the time the seizure starts so you know how long it lasts.
+      Anote la hora en que comienza la convulsión para saber cuánto dura.
      </li>
      <li>
       <strong>
-       [ES]: Protect them from injury.
+       Protégelos de lesiones.
       </strong>
-      [ES]: Move away hard or sharp objects. Cushion the head with something soft (a folded jacket). Take off glasses and loosen anything tight around the neck.
+      Aleje los objetos duros o punzantes. Acolcha la cabeza con algo suave (una chaqueta doblada). Quítese las gafas y afloje todo lo que esté apretado alrededor del cuello.
      </li>
      <li>
       <strong>
-       [ES]: Do not restrain them
+       No los retengas
       </strong>
-      [ES]: and
+      y
       <strong>
-       [ES]: do not put anything in their mouth.
+       no les pongas nada en la boca.
       </strong>
-      [ES]: Let the movements happen. Holding them down or putting objects (or your fingers) in the mouth can injure them or you — and you cannot stop the seizure that way.
+      Deja que los movimientos sucedan. Mantenerlos presionados o colocar objetos (o los dedos) en la boca puede lesionarlos a usted o a usted, y no podrá detener la convulsión de esa manera.
      </li>
      <li>
       <strong>
-       [ES]: When the shaking stops, roll them onto their side
+       Cuando cese el temblor, colóquelos de costado.
       </strong>
-      [ES]: (recovery position). This keeps the airway clear and lets saliva drain. Check they are breathing.
+      (posición de recuperación). Esto mantiene las vías respiratorias despejadas y permite que la saliva drene. Compruebe que estén respirando.
      </li>
      <li>
       <strong>
-       [ES]: Stay until they are fully alert.
+       Quédese hasta que esté completamente alerta.
       </strong>
-      [ES]: Reassure them calmly — they may be confused, sleepy, or upset for a while. Do not give food, drink, or medicine until they are fully awake and able to swallow.
+      Tranquilícelos con calma: es posible que estén confundidos, somnolientos o molestos por un tiempo. No le dé alimentos, bebidas ni medicamentos hasta que esté completamente despierto y pueda tragar.
      </li>
     </ol>
     <div class="box warn">
@@ -210,116 +253,116 @@
      <ul>
       <li>
        <strong>
-        [ES]: Never put anything in the mouth
+        Nunca te metas nada en la boca.
        </strong>
-       [ES]: — a spoon, wallet, fingers, or food. A person
+       — una cuchara, una billetera, los dedos o la comida. una persona
        <strong>
-        [ES]: cannot swallow their tongue
+        no pueden tragarse la lengua
        </strong>
-       [ES]: . Objects can break teeth, block the airway, or be bitten.
+       . Los objetos pueden romper los dientes, bloquear las vías respiratorias o ser mordidos.
       </li>
       <li>
        <strong>
-        [ES]: Do not hold the person down
+        No sujetes a la persona
        </strong>
-       [ES]: or try to stop their movements.
+       o intentar detener sus movimientos.
       </li>
       <li>
        <strong>
-        [ES]: Do not try to "wake" them
+        No intentes "despertarlos"
        </strong>
-       [ES]: by slapping, shouting, or throwing water.
+       abofeteando, gritando o tirando agua.
       </li>
       <li>
-       [ES]: Do not give anything to eat or drink until they are fully recovered.
+       No darle nada de comer ni de beber hasta que se recupere por completo.
       </li>
      </ul>
     </div>
     <h2>
-     [ES]: Not all seizures involve shaking
+     No todas las convulsiones implican sacudidas
     </h2>
     <p>
-     [ES]: Some seizures cause staring, confusion, repeated movements (like lip-smacking or fumbling), wandering, or simply being unaware for a short time. The person may not respond normally.
+     Algunas convulsiones provocan miradas fijas, confusión, movimientos repetidos (como chasquear los labios o buscar torpemente), deambular o simplemente perder el conocimiento durante un breve periodo de tiempo. Es posible que la persona no responda normalmente.
      <strong>
-      [ES]: Do not grab or restrain them.
+      No los agarre ni los sujete.
      </strong>
-     [ES]: Gently guide them away from danger (roads, stairs, water), speak calmly and quietly, stay with them, and wait for them to come round. They may not remember it afterwards.
+     Guíelos con cuidado lejos del peligro (carreteras, escaleras, agua), hábleles con calma y tranquilidad, quédese con ellos y espere a que se recuperen. Puede que después no lo recuerden.
     </p>
     <h2>
-     [ES]: Fever-related seizures in young children
+     Convulsiones relacionadas con la fiebre en niños pequeños
     </h2>
     <div class="box ok">
      <span class="tag ok">
       Often brief, but watch closely
      </span>
      <p>
-      🚨[REVIEW_REQUIRED] [ES]: Young children sometimes have a seizure when they have a high fever (a "febrile seizure"). It is frightening to watch; many are brief, but the child still needs careful watching. Give the same first aid: keep them safe, do not restrain or put anything in the mouth, and lay them on their side. Call for emergency help if it lasts more than 5 minutes, if it is their first one, if they have trouble breathing, or if the child seems very unwell or does not recover quickly.
+      🚨[REVIEW_REQUIRED] Los niños pequeños a veces sufren convulsiones cuando tienen fiebre alta (una "convulsión febril"). Da miedo verlo; muchos son breves, pero el niño aún necesita una observación cuidadosa. Dale los mismos primeros auxilios: mantenlo seguro, no lo sujetes ni le metas nada en la boca y acuéstalo de lado. Pida ayuda de emergencia si dura más de 5 minutos, si es el primero, si tiene problemas para respirar o si el niño parece muy mal o no se recupera rápidamente.
      </p>
     </div>
     <h2>
-     [ES]: After the seizure
+     Después de la convulsión
     </h2>
     <ul>
      <li>
-      [ES]: Stay calm and kind. Tiredness, confusion, headache, or embarrassment afterwards are normal.
+      Mantente tranquilo y amable. El cansancio, la confusión, el dolor de cabeza o la vergüenza posterior son normales.
      </li>
      <li>
-      [ES]: Give them space and privacy — don't crowd them.
+      Bríndeles espacio y privacidad, no los amontone.
      </li>
      <li>
-      [ES]: Note what you saw to tell them or the medical team: how long it lasted, what the body did, and any injury. This information is genuinely helpful.
+      Anota lo que viste para contarles a ellos o al equipo médico: cuánto duró, qué hizo el cuerpo y cualquier lesión. Esta información es realmente útil.
      </li>
      <li>
-      [ES]: If they have a seizure-action plan or rescue medicine and a trained person is present, follow it.
+      Si tienen un plan de acción para las convulsiones o un medicamento de rescate y hay una persona capacitada presente, síganlo.
      </li>
     </ul>
     <h2>
-     [ES]: Sources
+     Fuentes
     </h2>
     <ul class="sources">
      <li>
       <a href="https://www.cdc.gov/epilepsy/about/index.html">
-       🚨[REVIEW_REQUIRED] [ES]: CDC — About epilepsy
+       🚨[REVIEW_REQUIRED] CDC — Acerca de la epilepsia
       </a>
-      [ES]: (background on seizures and epilepsy).
+      (antecedentes sobre convulsiones y epilepsia).
      </li>
      <li>
-      [ES]: Epilepsy Foundation — Seizure first aid and safety (stay, safe, side; do not restrain or put anything in the mouth).
+      Fundación para la epilepsia: primeros auxilios y seguridad en caso de convulsiones (manténgase a salvo, de lado; no se sujete ni se meta nada en la boca).
      </li>
      <li>
       <a href="https://www.who.int/news-room/fact-sheets/detail/epilepsy">
-       [ES]: World Health Organization — Epilepsy fact sheet
+       Organización Mundial de la Salud: hoja informativa sobre la epilepsia
       </a>
-      [ES]: (global burden; first aid; do not restrain or place objects in the mouth).
+      (carga global; primeros auxilios; no sujetar ni colocar objetos en la boca).
      </li>
      <li>
       <a href="https://www.nhs.uk/conditions/epilepsy/">
-       🚨[REVIEW_REQUIRED] [ES]: NHS — Epilepsy and what to do when someone has a seizure
+       🚨[REVIEW_REQUIRED] NHS — Epilepsia y qué hacer cuando alguien tiene una convulsión
       </a>
       .
      </li>
      <li>
       <a href="https://www.redcross.org/take-a-class">
-       [ES]: American Red Cross — first-aid training and resources
+       Cruz Roja Estadounidense: capacitación y recursos en primeros auxilios
       </a>
       .
      </li>
     </ul>
     <p class="sources">
-     [ES]: Guidance reflects widely taught seizure first aid for lay responders. Details vary between training bodies and regions — follow your local first-aid training and emergency services.
+     La guía refleja los primeros auxilios para las convulsiones que se enseñan ampliamente a los socorristas no profesionales. Los detalles varían según los organismos de capacitación y las regiones; siga la capacitación local en primeros auxilios y los servicios de emergencia.
     </p>
     <p class="disclaimer">
-     [ES]: This guide is general information, not medical advice. In an emergency, always call your local emergency number. Reuse and reprint freely.
+     Esta guía es información general, no consejo médico. En caso de emergencia, llame siempre a su número de emergencia local. Reutilice y reimprima libremente.
     </p>
    </div>
   </main>
   <footer class="site">
    <div class="wrap">
-    [ES]: A free, open Help Kit ·
+    Un kit de ayuda abierto y gratuito ·
     <a href="https://github.com/ai-village-agents/help-kit">
-     [ES]: source on GitHub
+     fuente en GitHub
     </a>
-    [ES]: · Public domain (CC0) · Verify against your local health authority
+    · Dominio público (CC0) · Verificar con su autoridad sanitaria local
    </div>
   </footer>
   <script>

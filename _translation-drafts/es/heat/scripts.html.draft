@@ -4,9 +4,9 @@
   <meta charset="utf-8"/>
   <meta content="width=device-width,initial-scale=1" name="viewport"/>
   <title>
-   [ES]: Heat Check SMS and Phone Scripts — Help Kit | Help Kit
+   SMS de comprobación de calor y scripts telefónicos: kit de ayuda | Help Kit
   </title>
-  <meta content="[ES]: Friendly heat-check SMS and phone scripts for neighbors and organizers." name="description"/>
+  <meta content="SMS amigables de control de calor y guiones telefónicos para vecinos y organizadores." name="description"/>
   <link href="https://ai-village-agents.github.io/help-kit/heat/scripts.html" rel="canonical"/>
   <meta content="noindex, nofollow, noarchive" name="robots"/>
   <meta content="Help Kit" property="og:site_name"/>
@@ -33,7 +33,7 @@
    UNREVIEWED MACHINE TRANSLATION DRAFT (es). Do not use for medical guidance, sharing, printing, or training until fluent local reviewers verify all emergency numbers, doses, timings, and local guidance against the English source.
   </div>
   <a class="skip-link" href="#main">
-   [ES]: Skip to main content
+   Saltar al contenido principal
   </a>
   <header class="site">
    <div class="wrap">
@@ -42,49 +42,49 @@
     </a>
     <nav>
      <a href="../heat/">
-      [ES]: Extreme Heat
+      Calor extremo
      </a>
      <a href="../smoke/">
-      [ES]: Wildfire Smoke
+      Humo de incendios forestales
      </a>
      <a href="../naloxone/">
-      [ES]: Opioid Overdose
+      Sobredosis de opioides
      </a>
      <a href="../ors/">
-      [ES]: Dehydration &amp; ORS
+      Deshidratación y SRO
      </a>
      <a href="../choking/">
-      [ES]: Choking
+      asfixia
      </a>
      <a href="../bleeding/">
-      [ES]: Severe Bleeding
+      Sangrado severo
      </a>
      <a href="../cpr/">
-      [ES]: CPR
+      RCP
      </a>
      <a href="../stroke/">
-      [ES]: Stroke
+      Ataque
      </a>
      <a href="../burns/">
-      [ES]: Burns
+      quemaduras
      </a>
      <a href="../seizure/">
-      [ES]: Seizure
+      Convulsión
      </a>
      <a href="../allergy/">
-      [ES]: Severe Allergy
+      Alergia severa
      </a>
      <a href="../cold/">
-      [ES]: Cold Safety
+      Seguridad en frío
      </a>
      <a href="../heart/">
-      [ES]: Heart Attack
+      Infarto de miocardio
      </a>
      <a href="../triage/">
-      [ES]: Triage
+      Triaje
      </a>
      <a href="../localize.html">
-      [ES]: Localize &amp; share
+      Localizar y compartir
      </a>
     </nav>
    </div>
@@ -93,78 +93,78 @@
    <div class="wrap">
     <p>
      <a href="index.html">
-      [ES]: ← Back to heat guide
+      ← Volver a la guía de calor
      </a>
     </p>
     <h1>
-     [ES]: Heat check SMS and phone scripts
+     Comprobación de calor SMS y guiones telefónicos
     </h1>
     <p class="lede">
      <strong>
-      🚨[REVIEW_REQUIRED] [ES]: Last updated: June 15, 2026.
+      🚨[REVIEW_REQUIRED] Última actualización: 15 de junio de 2026.
      </strong>
-     [ES]: Use friendly, non-alarming language. Ask what help is wanted. Localize emergency numbers and cooling-center details.
+     Utilice un lenguaje amigable y no alarmante. Pregunte qué ayuda necesita. Localice números de emergencia y detalles del centro de enfriamiento.
     </p>
     <div class="actions no-print">
      <a class="btn" href="javascript:window.print()">
-      [ES]: Print this page
+      Imprime esta pagina
      </a>
     </div>
     <h2>
-     [ES]: First check text
+     Primer texto de verificación
     </h2>
     <div class="script">
-     [ES]: Hi — it’s [NAME]. It’s dangerously hot today, so I’m checking on neighbors. Are you somewhere cool enough right now? Do you have water? Do you want help finding a cooling place or getting a check-in later?
+     Hola, soy [NOMBRE]. Hace un calor peligroso hoy, así que estoy controlando a los vecinos. ¿Estás en algún lugar lo suficientemente fresco en este momento? ¿Tienes agua? ¿Quiere ayuda para encontrar un lugar fresco o registrarse más tarde?
     </div>
     <h2>
-     [ES]: Short phone script
+     Guión telefónico corto
     </h2>
     <div class="script">
-     [ES]: Hi, I’m doing heat check-ins today. Are you okay to talk for one minute? I’m checking: are you in a cool place, do you have water, and are you feeling dizzy, confused, nauseated, very weak, or unusually hot?
+     Hola, hoy voy a hacer controles de calefacción. ¿Estás bien para hablar por un minuto? Estoy comprobando: ¿estás en un lugar fresco, tienes agua y te sientes mareado, confundido, con náuseas, muy débil o inusualmente caliente?
     </div>
     <h2>
-     [ES]: If they need cooling help
+     Si necesitan ayuda para enfriarse
     </h2>
     <div class="script">
-     [ES]: Would any of these help: a ride or directions to [COOLING PLACE], someone bringing water, help calling a family member or neighbor, or another check in 30 minutes?
+     ¿Algo de esto ayudaría: un transporte o indicaciones para llegar a [COOLING LUGAR], alguien que traiga agua, ayuda para llamar a un familiar o vecino, u otra verificación en 30 minutos?
     </div>
     <h2>
-     [ES]: If you are worried
+     si estas preocupado
     </h2>
     <div class="script">
-     [ES]: I’m worried because you said [SYMPTOM/SITUATION]. Can I call emergency services or a local helper now? If you can, please move to the coolest place nearby and start cooling with water or wet cloths while help is on the way.
+     Estoy preocupado porque dijiste [SÍNTOMA/SITUACIÓN]. ¿Puedo llamar a los servicios de emergencia o a un ayudante local ahora? Si puede, muévase al lugar más fresco cercano y comience a refrescarse con agua o paños húmedos mientras la ayuda está en camino.
     </div>
     <h2>
-     [ES]: If no response
+     Si no hay respuesta
     </h2>
     <div class="script">
-     [ES]: I didn’t reach you and it is very hot today. I’ll try again at [TIME]. If you need urgent help, call [LOCAL EMERGENCY NUMBER] or go to [LOCAL COOLING PLACE] if you can do so safely.
+     No te alcancé y hoy hace mucho calor. Lo intentaré de nuevo a las [HORA]. Si necesita ayuda urgente, llame al [NÚMERO DE EMERGENCIA LOCAL] o vaya al [LUGAR DE REFRIGERACIÓN LOCAL] si puede hacerlo de manera segura.
     </div>
     <h2>
-     [ES]: Privacy line
+     Línea de privacidad
     </h2>
     <div class="script">
-     [ES]: We’re only using your information for heat checks and local help. We won’t post your details publicly.
+     Solo utilizamos su información para comprobaciones de calefacción y ayuda local. No publicaremos sus datos públicamente.
     </div>
     <div class="box emergency">
      <span class="tag">
       Call emergency services now
      </span>
      <p>
-      [ES]: Call now for confusion, fainting or unconsciousness, seizure, hot/dry skin or very high body temperature, repeated vomiting, or symptoms that worsen despite cooling.
+      Llame ahora en caso de confusión, desmayos o pérdida del conocimiento, convulsiones, piel caliente/seca o temperatura corporal muy alta, vómitos repetidos o síntomas que empeoran a pesar del enfriamiento.
      </p>
     </div>
     <p class="sources">
-     🚨[REVIEW_REQUIRED] [ES]: Sources: CDC, WHO, Red Cross, Global Heat Health Information Network, Heat.gov/NIHHIS. General information only.
+     🚨[REVIEW_REQUIRED] Fuentes: CDC, OMS, Cruz Roja, Red Global de Información sobre Salud sobre el Calor, Heat.gov/NIHHIS. Sólo información general.
     </p>
     <p class="disclaimer">
-     [ES]: This guide is general information, not medical advice, and is not a substitute for professional emergency care or training. In an emergency, always call your local emergency number. When symptoms are severe or you are unsure, treat it as an emergency. Reuse and reprint freely.
+     Esta guía es información general, no asesoramiento médico, y no sustituye la atención de emergencia ni la capacitación profesional. En caso de emergencia, llame siempre a su número de emergencia local. Cuando los síntomas sean graves o no esté seguro, trátelo como una emergencia. Reutilice y reimprima libremente.
     </p>
    </div>
   </main>
   <footer class="site">
    <div class="wrap">
-    [ES]: Public domain (CC0) · Verify local emergency and health guidance
+    Dominio público (CC0) · Verificar la guía local de emergencia y salud.
    </div>
   </footer>
   <script>

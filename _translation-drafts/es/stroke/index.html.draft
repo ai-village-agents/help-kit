@@ -4,9 +4,9 @@
   <meta charset="utf-8"/>
   <meta content="width=device-width,initial-scale=1" name="viewport"/>
   <title>
-   [ES]: Stroke: Spot It Fast (FAST) — Help Kit | Help Kit
+   Accidente cerebrovascular: Detectelo rápidamente (FAST) — Kit de ayuda | Help Kit
   </title>
-  <meta content="[ES]: A free, source-cited one-page guide to spotting a stroke fast using FAST and BE-FAST (Face, Arm, Speech, Time, plus Balance and Eyes) and calling for help immediately. Based on AHA/ASA, Stroke Association, and WHO guidance." name="description"/>
+  <meta content="Una guía gratuita, citada por fuentes, para detectar rápidamente un derrame cerebral usando FAST y BE-FAST, y pedir ayuda de inmediato. Basado en la guía de la AHA/ASA y la OMS." name="description"/>
   <link href="https://ai-village-agents.github.io/help-kit/stroke/" rel="canonical"/>
   <meta content="noindex, nofollow, noarchive" name="robots"/>
   <meta content="Help Kit" property="og:site_name"/>
@@ -24,13 +24,51 @@
   <link href="../style.css" rel="stylesheet"/>
   <link href="/help-kit/manifest.webmanifest" rel="manifest"/>
   <link href="/help-kit/icon-192.png" rel="apple-touch-icon"/>
+  <script type="application/ld+json">
+   {
+  "@context": "https://schema.org",
+  "@type": "MedicalWebPage",
+  "name": "Stroke: Spot It Fast (FAST)",
+  "description": "A free, source-cited guide to spotting stroke fast using FAST and BE-FAST, and calling for help immediately. Based on AHA/ASA and WHO guidance.",
+  "url": "https://ai-village-agents.github.io/help-kit/stroke/",
+  "inLanguage": "en",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "Help Kit",
+    "url": "https://ai-village-agents.github.io/help-kit/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Help Kit",
+    "url": "https://ai-village-agents.github.io/help-kit/"
+  },
+  "citation": [
+    {
+      "@type": "WebPage",
+      "name": "American Stroke Association (AHA/ASA) — stroke warning signs and F.A.S.T.",
+      "url": "https://www.stroke.org/en/about-stroke/stroke-symptoms"
+    },
+    {
+      "@type": "WebPage",
+      "name": "U.S. CDC — stroke signs and symptoms and what to do",
+      "url": "https://www.cdc.gov/stroke/signs-symptoms/"
+    },
+    {
+      "@type": "WebPage",
+      "name": "World Health Organization (WHO) — cardiovascular disease and stroke fact sheets",
+      "url": "https://www.who.int/news-room/fact-sheets"
+    }
+  ]
+}
+  </script>
  </head>
  <body>
   <div class="notice danger" data-draft-warning="true">
    UNREVIEWED MACHINE TRANSLATION DRAFT (es). Do not use for medical guidance, sharing, printing, or training until fluent local reviewers verify all emergency numbers, doses, timings, and local guidance against the English source.
   </div>
   <a class="skip-link" href="#main">
-   [ES]: Skip to main content
+   Saltar al contenido principal
   </a>
   <header class="site">
    <div class="wrap">
@@ -39,49 +77,49 @@
     </a>
     <nav>
      <a href="../heat/">
-      [ES]: Extreme Heat
+      Calor extremo
      </a>
      <a href="../smoke/">
-      [ES]: Wildfire Smoke
+      Humo de incendios forestales
      </a>
      <a href="../naloxone/">
-      [ES]: Opioid Overdose
+      Sobredosis de opioides
      </a>
      <a href="../ors/">
-      [ES]: Dehydration &amp; ORS
+      Deshidratación y SRO
      </a>
      <a href="../choking/">
-      [ES]: Choking
+      asfixia
      </a>
      <a href="../bleeding/">
-      [ES]: Severe Bleeding
+      Sangrado severo
      </a>
      <a href="../cpr/">
-      [ES]: CPR
+      RCP
      </a>
      <a href="../stroke/">
-      [ES]: Stroke
+      Ataque
      </a>
      <a href="../burns/">
-      [ES]: Burns
+      quemaduras
      </a>
      <a href="../seizure/">
-      [ES]: Seizure
+      Convulsión
      </a>
      <a href="../allergy/">
-      [ES]: Severe Allergy
+      Alergia severa
      </a>
      <a href="../cold/">
-      [ES]: Cold Safety
+      Seguridad en frío
      </a>
      <a href="../heart/">
-      [ES]: Heart Attack
+      Infarto de miocardio
      </a>
      <a href="../triage/">
-      [ES]: Triage
+      Triaje
      </a>
      <a href="../localize.html">
-      [ES]: Localize &amp; share
+      Localizar y compartir
      </a>
     </nav>
    </div>
@@ -89,28 +127,28 @@
   <section class="hero">
    <div class="wrap">
     <h1>
-     [ES]: Stroke: spot it fast
+     Accidente cerebrovascular: detectarlo rápido
     </h1>
     <p>
-     [ES]: A stroke happens when blood flow to part of the brain is suddenly cut off. Brain cells can be injured within minutes, so spotting the signs and calling for help right away can save a life and reduce lasting disability. The signs are sudden — learn them with the word
+     Un derrame cerebral ocurre cuando se corta repentinamente el flujo de sangre a una parte del cerebro. Las células cerebrales pueden lesionarse en cuestión de minutos, por lo que detectar los signos y pedir ayuda de inmediato puede mejorar las posibilidades de tratamiento y reducir la discapacidad duradera. Las señales son repentinas: apréndelas con la palabra.
      <strong>
-      [ES]: FAST
+      RÁPIDO
      </strong>
-     [ES]: . Free to read, print, and share.
+     . Gratis para leer, imprimir y compartir.
     </p>
    </div>
   </section>
   <main id="main">
    <div class="wrap">
     <p class="lede">
-     [ES]: Most strokes are caused by a clot blocking blood flow to the brain; some are caused by bleeding in the brain. You cannot tell which from the outside — and you do not need to. What matters is recognising a stroke and getting urgent medical care, because stroke treatments are highly time-sensitive.
+     La mayoría de los accidentes cerebrovasculares son causados ​​por un coágulo que bloquea el flujo sanguíneo al cerebro; algunos son causados ​​por una hemorragia en el cerebro. No se puede saber cuál desde el exterior, y no es necesario. Lo que importa es reconocer un derrame cerebral y obtener atención médica urgente, porque los tratamientos para el derrame cerebral son muy urgentes.
     </p>
     <div class="actions no-print">
      <a class="btn" href="javascript:window.print()">
-      [ES]: Print this page
+      Imprime esta pagina
      </a>
      <a class="btn alt" href="stroke-onepager.pdf">
-      [ES]: Download printable PDF
+      Descargar PDF imprimible
      </a>
     </div>
     <div class="box emergency">
@@ -118,53 +156,53 @@
       Call emergency services now
      </span>
      <h3>
-      [ES]: Stroke is always an emergency — call immediately
+      El accidente cerebrovascular es siempre una emergencia: llame de inmediato
      </h3>
      <p>
-      [ES]: If you see
+      si ves
       <strong>
-       [ES]: any one
+       alguien
       </strong>
-      🚨[REVIEW_REQUIRED] [ES]: of the FAST signs below, call your local emergency number (examples: 911, 112, or 999; verify locally) right away. Do not wait to see if it passes. Use emergency medical transport if available; if a dispatcher gives different local instructions, follow them. Note the time the signs first started.
+      🚨[REVIEW_REQUIRED]  de las señales FAST a continuación, llame a su número de emergencia local (ejemplos: 911, 112 o 999; verifique localmente) de inmediato. No esperes a ver si pasa. Utilice transporte médico de emergencia si está disponible; Si un despachador da instrucciones locales diferentes, sígalas. Tenga en cuenta la hora en que comenzaron las señales.
      </p>
     </div>
     <h2>
-     [ES]: Spot a stroke with FAST
+     Detecta un derrame cerebral con FAST
     </h2>
     <div class="steps">
      <ol>
       <li>
        <strong>
-        [ES]: F — Face.
+        F—Cara.
        </strong>
-       [ES]: Ask the person to smile. Does one side of the face droop, or is it numb? Is the smile uneven?
+       Pídele a la persona que sonría. ¿Se cae un lado de la cara o está entumecido? ¿La sonrisa es desigual?
       </li>
       <li>
        <strong>
-        [ES]: A — Arms.
+        A—Armas.
        </strong>
-       [ES]: Ask them to raise both arms. Does one arm drift downward, or are they unable to lift one?
+       Pídales que levanten ambos brazos. ¿Un brazo cae hacia abajo o no puede levantarlo?
       </li>
       <li>
        <strong>
-        [ES]: S — Speech.
+        S—Discurso.
        </strong>
-       [ES]: Ask them to repeat a simple sentence. Is their speech slurred, strange, or hard to understand? Can they not speak or not understand you?
+       Pídales que repitan una oración simple. ¿Su discurso es confuso, extraño o difícil de entender? ¿No pueden hablar o no entenderte?
       </li>
       <li>
        <strong>
-        [ES]: T — Time.
+        T—Tiempo.
        </strong>
-       [ES]: If you see any of these signs, it is
+       Si ve alguno de estos signos, es
        <strong>
-        [ES]: time to call emergency services immediately
+        Es hora de llamar a los servicios de emergencia inmediatamente.
        </strong>
-       [ES]: . Note when the signs first appeared — this guides treatment.
+       . Observe cuándo aparecieron los signos por primera vez; esto guía el tratamiento.
       </li>
      </ol>
     </div>
     <h2>
-     [ES]: BE-FAST: two more sudden signs
+     BE-FAST: dos señales repentinas más
     </h2>
     <div class="box warn">
      <span class="tag warn">
@@ -173,27 +211,27 @@
      <ul>
       <li>
        <strong>
-        [ES]: B — Balance.
+        B—Saldo.
        </strong>
-       [ES]: Sudden loss of balance or coordination, sudden dizziness, or trouble walking.
+       Pérdida repentina del equilibrio o la coordinación, mareos repentinos o dificultad para caminar.
       </li>
       <li>
        <strong>
-        [ES]: E — Eyes.
+        E—Ojos.
        </strong>
-       [ES]: Sudden trouble seeing in one or both eyes, or sudden double or blurred vision.
+       Problemas repentinos para ver con uno o ambos ojos, o visión doble o borrosa repentina.
       </li>
      </ul>
      <p>
-      [ES]: Other sudden warning signs include sudden numbness or weakness (especially on one side of the body), sudden confusion, and a sudden severe headache with no known cause. The key word is
+      Otras señales de advertencia repentinas incluyen entumecimiento o debilidad repentinos (especialmente en un lado del cuerpo), confusión repentina y un dolor de cabeza intenso y repentino sin causa conocida. La palabra clave es
       <strong>
-       [ES]: sudden
+       repentino
       </strong>
       .
      </p>
     </div>
     <h2>
-     [ES]: What to do while you wait for help
+     Qué hacer mientras esperas ayuda
     </h2>
     <div class="box ok">
      <span class="tag ok">
@@ -202,32 +240,32 @@
      <ul>
       <li>
        <strong>
-        [ES]: Note the time
+        Tenga en cuenta la hora
        </strong>
-       [ES]: the signs first appeared, or when the person was last seen well. This helps decide which treatments are possible — tell emergency responders and the hospital team.
+       los signos aparecieron por primera vez o cuándo se vio bien a la persona por última vez. Esto ayuda a decidir qué tratamientos son posibles; infórmeselo a los servicios de emergencia y al equipo del hospital.
       </li>
       <li>
        <strong>
-        [ES]: Do not give food, drink, or any medicine
+        No le dé comida, bebida ni ningún medicamento.
        </strong>
-       [ES]: — including aspirin. A stroke can make swallowing unsafe, and the right treatment depends on the type of stroke, which only the hospital can determine.
+       - incluida la aspirina. Un derrame cerebral puede hacer que tragar sea peligroso y el tratamiento adecuado depende del tipo de derrame cerebral, que sólo el hospital puede determinar.
       </li>
       <li>
        <strong>
-        [ES]: Stay with them and keep them comfortable.
+        Quédese con ellos y manténgalos cómodos.
        </strong>
-       [ES]: Help them sit or lie down with the head and shoulders slightly raised, and loosen tight clothing.
+       Ayúdelo a sentarse o acostarse con la cabeza y los hombros ligeramente levantados y afloje la ropa ajustada.
       </li>
       <li>
        <strong>
-        [ES]: Note any medicines they take
+        Anota cualquier medicamento que tome.
        </strong>
-       [ES]: (especially blood thinners) and any known conditions, for the hospital team.
+       (especialmente anticoagulantes) y cualquier condición conocida, para el equipo del hospital.
       </li>
       <li>
-       [ES]: If they become unconscious but are breathing normally, roll them onto their side (recovery position) and keep watching their breathing. If they stop breathing normally,
+       Si pierde el conocimiento pero respira normalmente, gírelo hacia un lado (posición de recuperación) y siga observando su respiración. Si dejan de respirar normalmente,
        <a href="../cpr/">
-        [ES]: start CPR
+        iniciar RCP
        </a>
        .
       </li>
@@ -238,84 +276,84 @@
       Even if the signs go away, still call
      </span>
      <p>
-      [ES]: If stroke signs appear and then disappear within minutes, it may have been a
+      Si los signos de un derrame cerebral aparecen y luego desaparecen en cuestión de minutos, es posible que haya sido un
       <strong>
-       [ES]: transient ischaemic attack (TIA, or “mini-stroke”)
+       ataque isquémico transitorio (AIT o “mini accidente cerebrovascular”)
       </strong>
-      [ES]: . This is a serious warning that a major stroke may follow soon. It is still an emergency — call for help and get medical assessment right away, even if the person feels completely fine.
+      . Esta es una advertencia seria de que pronto podría producirse un derrame cerebral importante. Sigue siendo una emergencia: llame para pedir ayuda y obtenga una evaluación médica de inmediato, incluso si la persona se siente completamente bien.
      </p>
     </div>
     <h2>
-     [ES]: Why speed matters
+     Por qué es importante la velocidad
     </h2>
     <ul>
      <li>
       <strong>
-       [ES]: “Time is brain.”
+       "El tiempo es cerebro".
       </strong>
-      [ES]: Brain injury can worsen minute by minute during a stroke, so every minute of delay matters.
+      La lesión cerebral puede empeorar minuto a minuto durante un derrame cerebral, por lo que cada minuto de retraso es importante.
      </li>
      <li>
-      [ES]: Clot-busting medicines and clot-removal procedures can reduce disability for some people, but they only work within limited time windows after the signs begin.
+      Los medicamentos anticoagulantes y los procedimientos para eliminar coágulos pueden reducir la discapacidad en algunas personas, pero solo funcionan dentro de períodos de tiempo limitados después de que comienzan los signos.
      </li>
      <li>
-      [ES]: Emergency medical transport is usually safer than driving when it is available: responders can start care, choose a hospital equipped for stroke, and alert the team to be ready.
+      El transporte médico de emergencia suele ser más seguro que conducir cuando está disponible: los socorristas pueden iniciar la atención, elegir un hospital equipado para un accidente cerebrovascular y alertar al equipo para que esté preparado.
      </li>
     </ul>
     <h2>
-     [ES]: Lower your risk
+     Reduce tu riesgo
     </h2>
     <ul>
      <li>
-      [ES]: Keep blood pressure controlled — high blood pressure is the biggest risk factor for stroke.
+      Mantenga la presión arterial controlada: la presión arterial alta es el mayor factor de riesgo de sufrir un accidente cerebrovascular.
      </li>
      <li>
-      [ES]: Don't smoke; keep alcohol within low-risk limits; stay physically active; and ask a clinician about weight, diet, and other risk factors if relevant.
+      No fumes; mantener el alcohol dentro de límites de bajo riesgo; mantenerse físicamente activo; y pregunte a un médico sobre el peso, la dieta y otros factores de riesgo, si son relevantes.
      </li>
      <li>
-      [ES]: Manage diabetes and cholesterol, and follow treatment for an irregular heartbeat (atrial fibrillation), which raises stroke risk.
+      Controle la diabetes y el colesterol, y siga el tratamiento para los latidos cardíacos irregulares (fibrilación auricular), que aumenta el riesgo de accidente cerebrovascular.
      </li>
     </ul>
     <h2>
-     [ES]: Sources
+     Fuentes
     </h2>
     <ul class="sources">
      <li>
       <a href="https://www.stroke.org/en/about-stroke/stroke-symptoms">
-       🚨[REVIEW_REQUIRED] [ES]: American Stroke Association (AHA/ASA) — stroke warning signs and F.A.S.T.
+       🚨[REVIEW_REQUIRED] Asociación Estadounidense de Accidentes Cerebrovasculares (AHA/ASA): señales de advertencia de accidentes cerebrovasculares y F.A.S.T.
       </a>
      </li>
      <li>
       <a href="https://www.cdc.gov/stroke/signs-symptoms/">
-       🚨[REVIEW_REQUIRED] [ES]: U.S. CDC — stroke signs and symptoms and what to do
+       🚨[REVIEW_REQUIRED] CDC de EE. UU.: signos y síntomas de accidente cerebrovascular y qué hacer
       </a>
       .
      </li>
      <li>
-      [ES]: Stroke Association (UK) — symptoms of stroke and the FAST test (stroke.org.uk).
+      Stroke Association (Reino Unido): síntomas de accidente cerebrovascular y prueba FAST (stroke.org.uk).
      </li>
      <li>
       <a href="https://www.who.int/news-room/fact-sheets">
-       🚨[REVIEW_REQUIRED] [ES]: World Health Organization (WHO) — cardiovascular disease and stroke fact sheets
+       🚨[REVIEW_REQUIRED] Organización Mundial de la Salud (OMS): hojas informativas sobre enfermedades cardiovasculares y accidentes cerebrovasculares
       </a>
       .
      </li>
     </ul>
     <p class="sources">
-     [ES]: FAST and BE-FAST are widely taught public-awareness tools. Some strokes do not fit these signs — trust any sudden, unexplained neurological change and call for help. Follow your local emergency dispatcher's instructions.
+     FAST y BE-FAST son herramientas de concientización pública ampliamente enseñadas. Algunos accidentes cerebrovasculares no se ajustan a estos signos: confíe en cualquier cambio neurológico repentino e inexplicable y solicite ayuda. Siga las instrucciones de su operador de emergencia local.
     </p>
     <p class="disclaimer">
-     [ES]: This guide is general information, not medical advice. In an emergency, always call your local emergency number without delay. Reuse and reprint freely.
+     Esta guía es información general, no consejo médico. En caso de emergencia, llame siempre a su número de emergencia local sin demora. Reutilice y reimprima libremente.
     </p>
    </div>
   </main>
   <footer class="site">
    <div class="wrap">
-    [ES]: A free, open Help Kit ·
+    Un kit de ayuda abierto y gratuito ·
     <a href="https://github.com/ai-village-agents/help-kit">
-     [ES]: source on GitHub
+     fuente en GitHub
     </a>
-    [ES]: · Public domain (CC0) · Verify against your local health authority
+    · Dominio público (CC0) · Verificar con su autoridad sanitaria local
    </div>
   </footer>
   <script>

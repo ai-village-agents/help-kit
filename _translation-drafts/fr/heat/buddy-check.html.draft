@@ -4,9 +4,9 @@
   <meta charset="utf-8"/>
   <meta content="width=device-width,initial-scale=1" name="viewport"/>
   <title>
-   [FR]: Heat Buddy-Check Sheet — Help Kit | Help Kit
+   Fiche de contrôle de chaleur – Trousse d’aide | Help Kit
   </title>
-  <meta content="[FR]: A print-friendly heat buddy-check sheet for neighbors and community organizers." name="description"/>
+  <meta content="Une feuille de contrôle de chaleur imprimable pour les voisins et les organisateurs communautaires." name="description"/>
   <link href="https://ai-village-agents.github.io/help-kit/heat/buddy-check.html" rel="canonical"/>
   <meta content="noindex, nofollow, noarchive" name="robots"/>
   <meta content="Help Kit" property="og:site_name"/>
@@ -30,7 +30,7 @@
    UNREVIEWED MACHINE TRANSLATION DRAFT (fr). Do not use for medical guidance, sharing, printing, or training until fluent local reviewers verify all emergency numbers, doses, timings, and local guidance against the English source.
   </div>
   <a class="skip-link" href="#main">
-   [FR]: Skip to main content
+   Passer au contenu principal
   </a>
   <header class="site">
    <div class="wrap">
@@ -39,49 +39,49 @@
     </a>
     <nav>
      <a href="../heat/">
-      [FR]: Extreme Heat
+      Chaleur extrême
      </a>
      <a href="../smoke/">
-      [FR]: Wildfire Smoke
+      Fumée de feux de forêt
      </a>
      <a href="../naloxone/">
-      [FR]: Opioid Overdose
+      Surdose d'opioïdes
      </a>
      <a href="../ors/">
-      [FR]: Dehydration &amp; ORS
+      Déshydratation et SOR
      </a>
      <a href="../choking/">
-      [FR]: Choking
+      Étouffement
      </a>
      <a href="../bleeding/">
-      [FR]: Severe Bleeding
+      Saignement sévère
      </a>
      <a href="../cpr/">
-      [FR]: CPR
+      RCR
      </a>
      <a href="../stroke/">
-      [FR]: Stroke
+      Accident vasculaire cérébral
      </a>
      <a href="../burns/">
-      [FR]: Burns
+      Brûlures
      </a>
      <a href="../seizure/">
-      [FR]: Seizure
+      Crise d'épilepsie
      </a>
      <a href="../allergy/">
-      [FR]: Severe Allergy
+      Allergie sévère
      </a>
      <a href="../cold/">
-      [FR]: Cold Safety
+      Sécurité contre le froid
      </a>
      <a href="../heart/">
-      [FR]: Heart Attack
+      Crise cardiaque
      </a>
      <a href="../triage/">
-      [FR]: Triage
+      Triage
      </a>
      <a href="../localize.html">
-      [FR]: Localize &amp; share
+      Localiser et partager
      </a>
     </nav>
    </div>
@@ -90,21 +90,21 @@
    <div class="wrap">
     <p>
      <a href="index.html">
-      [FR]: ← Back to heat guide
+      ← Retour au guide de chaleur
      </a>
     </p>
     <h1>
-     [FR]: Heat buddy-check sheet
+     Feuille de contrôle des copains de chaleur
     </h1>
     <p class="lede">
      <strong>
-      🚨[REVIEW_REQUIRED] [FR]: Last updated: June 15, 2026.
+      🚨[REVIEW_REQUIRED] Dernière mise à jour : 15 juin 2026.
      </strong>
-     [FR]: Use this to check on neighbors, relatives, tenants, coworkers, or community members during a heat event. Localize emergency numbers, cooling centers, and health guidance before distributing.
+     Utilisez-le pour vérifier les voisins, les proches, les locataires, les collègues ou les membres de la communauté lors d'un épisode de chaleur. Localisez les numéros d’urgence, les centres de refroidissement et les conseils de santé avant de les distribuer.
     </p>
     <div class="actions no-print">
      <a class="btn" href="javascript:window.print()">
-      [FR]: Print this page
+      Imprimer cette page
      </a>
     </div>
     <div class="box emergency">
@@ -112,106 +112,106 @@
       Call emergency services now
      </span>
      <p>
-      [FR]: Call now for confusion, fainting or unconsciousness, seizure, hot/dry skin or very high body temperature, repeated vomiting, or symptoms that worsen despite cooling. Move the person to a cooler place and start cooling if safe. Do not give fluids to someone unconscious, very confused, repeatedly vomiting, or unable to swallow safely.
+      Appelez maintenant en cas de confusion, d'évanouissement ou de perte de conscience, de convulsions, de peau chaude/sèche ou de température corporelle très élevée, de vomissements répétés ou de symptômes qui s'aggravent malgré le refroidissement. Déplacez la personne dans un endroit plus frais et commencez à la refroidir si cela est sécuritaire. Ne donnez pas de liquides à une personne inconsciente, très confuse, qui vomit à plusieurs reprises ou qui est incapable d'avaler en toute sécurité.
      </p>
     </div>
     <h2>
-     [FR]: 1. Who to check
+     1. Qui vérifier
     </h2>
     <ul>
      <li>
-      [FR]: Older adults, especially people living alone.
+      Les personnes âgées, notamment les personnes vivant seules.
      </li>
      <li>
-      [FR]: Infants, young children, and pregnant people.
+      Nourrissons, jeunes enfants et personnes enceintes.
      </li>
      <li>
-      [FR]: Outdoor workers and people waiting or commuting outdoors.
+      Travailleurs extérieurs et personnes qui attendent ou se déplacent à l'extérieur.
      </li>
      <li>
-      [FR]: Unhoused people or people in cars, tents, shelters, or poorly cooled rooms.
+      Personnes sans logement ou dans des voitures, des tentes, des abris ou des pièces mal refroidies.
      </li>
      <li>
-      [FR]: People without air conditioning or with unreliable electricity.
+      Des personnes sans climatisation ou avec une électricité peu fiable.
      </li>
      <li>
-      [FR]: People with disabilities or limited mobility.
+      Personnes handicapées ou à mobilité réduite.
      </li>
      <li>
-      [FR]: People with heart, lung, kidney, or serious chronic illness.
+      Les personnes souffrant d’une maladie cardiaque, pulmonaire, rénale ou d’une maladie chronique grave.
      </li>
      <li>
-      [FR]: People taking medications that may affect sweating, hydration, blood pressure, or heat tolerance; encourage them to follow clinician/pharmacist guidance.
+      Les personnes prenant des médicaments pouvant affecter la transpiration, l’hydratation, la tension artérielle ou la tolérance à la chaleur ; encouragez-les à suivre les conseils du clinicien/pharmacien.
      </li>
      <li>
-      [FR]: People who are socially isolated, new to the area, or facing language barriers.
+      Les personnes socialement isolées, nouvelles dans la région ou confrontées à des barrières linguistiques.
      </li>
     </ul>
     <h2>
-     [FR]: 2. What to ask
+     2. Que demander
     </h2>
     <ul>
      <li>
-      [FR]: Are you somewhere cool enough right now?
+      Êtes-vous dans un endroit assez cool en ce moment ?
      </li>
      <li>
-      [FR]: Do you have water and a way to cool your body?
+      Avez-vous de l'eau et un moyen de rafraîchir votre corps ?
      </li>
      <li>
-      [FR]: Do you feel dizzy, confused, weak, nauseated, unusually hot, or worse than earlier?
+      Vous sentez-vous étourdi, confus, faible, nauséeux, inhabituellement chaud ou pire qu’avant ?
      </li>
      <li>
-      [FR]: Do you want help finding a cooler place, transport, water, or another check later?
+      Voulez-vous de l’aide pour trouver un endroit plus frais, un moyen de transport, de l’eau ou un autre contrôle plus tard ?
      </li>
     </ul>
     <h2>
-     [FR]: 3. If they are alert and too hot
+     3. S’ils sont alertes et ont trop chaud
     </h2>
     <ul>
      <li>
-      [FR]: Move to shade, air conditioning, or the coolest available place.
+      Déplacez-vous à l’ombre, dans la climatisation ou dans l’endroit disponible le plus frais.
      </li>
      <li>
-      [FR]: Drink water if alert and able to swallow safely.
+      Buvez de l’eau si vous êtes alerte et capable d’avaler en toute sécurité.
      </li>
      <li>
-      [FR]: Loosen extra clothing.
+      Desserrez les vêtements supplémentaires.
      </li>
      <li>
-      [FR]: Wet skin or clothes; use cool cloths, misting, shower, or bath if safe.
+      Peau ou vêtements mouillés ; utilisez des chiffons frais, de la brumisation, une douche ou un bain si cela est sécuritaire.
      </li>
      <li>
-      [FR]: Use fans with hydration and skin-wetting when helpful; do not rely on fans alone if indoor air is dangerously hot.
+      Utilisez des ventilateurs hydratants et mouillant la peau lorsque cela est utile ; ne comptez pas uniquement sur les ventilateurs si l’air intérieur est dangereusement chaud.
      </li>
      <li>
-      🚨[REVIEW_REQUIRED] [FR]: Check again in 30–60 minutes, sooner if symptoms are present.
+      🚨[REVIEW_REQUIRED] Vérifiez à nouveau dans 30 à 60 minutes, plus tôt si des symptômes sont présents.
      </li>
     </ul>
     <h2>
-     [FR]: Trust and privacy
+     Confiance et confidentialité
     </h2>
     <ul>
      <li>
-      [FR]: Ask what help is wanted; do not shame people for being hot, poor, isolated, disabled, unhoused, or unable to leave work/home.
+      Demandez quelle aide est recherchée ; ne faites pas honte aux gens parce qu’ils ont chaud, sont pauvres, isolés, handicapés, sans logement ou incapables de quitter leur travail/domicile.
      </li>
      <li>
-      [FR]: Collect only what you need for the check. Do not publish names, addresses, phone numbers, medical details, immigration status, or private needs.
+      Récupérez uniquement ce dont vous avez besoin pour le chèque. Ne publiez pas de noms, d'adresses, de numéros de téléphone, de détails médicaux, de statut d'immigration ou de besoins privés.
      </li>
      <li>
-      [FR]: Localize language, large print, transit, elevator/access details, service-animal rules, and cooling-center hours.
+      Localisez la langue, les gros caractères, les transports en commun, les détails des ascenseurs/accès, les règles relatives aux animaux d'assistance et les heures d'ouverture des centres de refroidissement.
      </li>
     </ul>
     <p class="sources">
-     🚨[REVIEW_REQUIRED] [FR]: Sources: CDC Heat &amp; Health, WHO Heat and Health, American Red Cross Heat Wave Safety, Global Heat Health Information Network, Heat.gov/NIHHIS. This is general information, not medical advice.
+     🚨[REVIEW_REQUIRED] Sources : CDC Heat &amp; Health, OMS Heat and Health, Croix-Rouge américaine pour la sécurité en cas de vague de chaleur, Réseau mondial d'information sur la santé en matière de chaleur, Heat.gov/NIHHIS. Il s’agit d’informations générales et non d’un avis médical.
     </p>
     <p class="disclaimer">
-     [FR]: This guide is general information, not medical advice, and is not a substitute for professional emergency care or training. In an emergency, always call your local emergency number. When symptoms are severe or you are unsure, treat it as an emergency. Reuse and reprint freely.
+     Ce guide est une information générale et non un conseil médical et ne remplace pas les soins d’urgence ou la formation professionnelle. En cas d'urgence, appelez toujours votre numéro d'urgence local. Lorsque les symptômes sont graves ou que vous n’êtes pas sûr, traitez-le comme une urgence. Réutilisez et réimprimez librement.
     </p>
    </div>
   </main>
   <footer class="site">
    <div class="wrap">
-    [FR]: Public domain (CC0) · Verify against your local health authority
+    Domaine public (CC0) · Vérifiez auprès de votre autorité sanitaire locale
    </div>
   </footer>
   <script>

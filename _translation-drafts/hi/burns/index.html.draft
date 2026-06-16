@@ -4,9 +4,9 @@
   <meta charset="utf-8"/>
   <meta content="width=device-width,initial-scale=1" name="viewport"/>
   <title>
-   [HI]: Burns &amp; Scalds: First Aid — Help Kit | Help Kit
+   जलन और झुलसना: प्राथमिक चिकित्सा - सहायता किट | Help Kit
   </title>
-  <meta content="[HI]: A free, source-cited one-page guide to first aid for burns and scalds: cool the burn with running water for 20 minutes, what not to put on a burn, and when to get medical help. Based on WHO, Red Cross, and burn-care guidance." name="description"/>
+  <meta content="जलने पर प्राथमिक उपचार के लिए एक निःशुल्क, स्रोत-उद्धृत मार्गदर्शिका: 20 मिनट तक बहते पानी से ठंडा करें, जानें कि जले हुए स्थान पर क्या नहीं लगाना चाहिए और कब सहायता प्राप्त करनी चाहिए।" name="description"/>
   <link href="https://ai-village-agents.github.io/help-kit/burns/" rel="canonical"/>
   <meta content="noindex, nofollow, noarchive" name="robots"/>
   <meta content="Help Kit" property="og:site_name"/>
@@ -24,13 +24,56 @@
   <link href="../style.css" rel="stylesheet"/>
   <link href="/help-kit/manifest.webmanifest" rel="manifest"/>
   <link href="/help-kit/icon-192.png" rel="apple-touch-icon"/>
+  <script type="application/ld+json">
+   {
+  "@context": "https://schema.org",
+  "@type": "MedicalWebPage",
+  "name": "Burns & Scalds: First Aid",
+  "description": "A free, source-cited guide to burn first aid: cool with running water for 20 minutes, know what not to put on a burn, and when to get help.",
+  "url": "https://ai-village-agents.github.io/help-kit/burns/",
+  "inLanguage": "en",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "Help Kit",
+    "url": "https://ai-village-agents.github.io/help-kit/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Help Kit",
+    "url": "https://ai-village-agents.github.io/help-kit/"
+  },
+  "citation": [
+    {
+      "@type": "WebPage",
+      "name": "World Health Organization — Burns fact sheet",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/burns"
+    },
+    {
+      "@type": "WebPage",
+      "name": "American Red Cross — first-aid training and resources",
+      "url": "https://www.redcross.org/take-a-class"
+    },
+    {
+      "@type": "WebPage",
+      "name": "American Heart Association — first-aid guidelines",
+      "url": "https://cpr.heart.org/en/resuscitation-science/first-aid-guidelines/first-aid"
+    },
+    {
+      "@type": "WebPage",
+      "name": "NHS — Burns and scalds",
+      "url": "https://www.nhs.uk/conditions/burns-and-scalds/"
+    }
+  ]
+}
+  </script>
  </head>
  <body>
   <div class="notice danger" data-draft-warning="true">
    UNREVIEWED MACHINE TRANSLATION DRAFT (hi). Do not use for medical guidance, sharing, printing, or training until fluent local reviewers verify all emergency numbers, doses, timings, and local guidance against the English source.
   </div>
   <a class="skip-link" href="#main">
-   [HI]: Skip to main content
+   मुख्य सामग्री पर जाएँ
   </a>
   <header class="site">
    <div class="wrap">
@@ -39,49 +82,49 @@
     </a>
     <nav>
      <a href="../heat/">
-      [HI]: Extreme Heat
+      अत्यधिक गर्मी
      </a>
      <a href="../smoke/">
-      [HI]: Wildfire Smoke
+      जंगल की आग का धुआं
      </a>
      <a href="../naloxone/">
-      [HI]: Opioid Overdose
+      ओपिओइड ओवरडोज़
      </a>
      <a href="../ors/">
-      [HI]: Dehydration &amp; ORS
+      निर्जलीकरण एवं ओ.आर.एस
      </a>
      <a href="../choking/">
-      [HI]: Choking
+      दम घुट रहा है
      </a>
      <a href="../bleeding/">
-      [HI]: Severe Bleeding
+      गंभीर रक्तस्राव
      </a>
      <a href="../cpr/">
-      [HI]: CPR
+      सीपीआर
      </a>
      <a href="../stroke/">
-      [HI]: Stroke
+      आघात
      </a>
      <a href="../burns/">
-      [HI]: Burns
+      बर्न्स
      </a>
      <a href="../seizure/">
-      [HI]: Seizure
+      जब्ती
      </a>
      <a href="../allergy/">
-      [HI]: Severe Allergy
+      गंभीर एलर्जी
      </a>
      <a href="../cold/">
-      [HI]: Cold Safety
+      शीत सुरक्षा
      </a>
      <a href="../heart/">
-      [HI]: Heart Attack
+      दिल का दौरा
      </a>
      <a href="../triage/">
-      [HI]: Triage
+      ट्राइएज
      </a>
      <a href="../localize.html">
-      [HI]: Localize &amp; share
+      स्थानीयकृत करें और साझा करें
      </a>
     </nav>
    </div>
@@ -89,24 +132,24 @@
   <section class="hero">
    <div class="wrap">
     <h1>
-     [HI]: Burns and scalds: first aid
+     जलना और झुलसना: प्राथमिक उपचार
     </h1>
     <p>
-     [HI]: Most burns happen at home — hot drinks, cooking, steam, hot water, fire, the sun, electricity, or chemicals. Cooling a burn with running water straight away, and keeping the wrong things off it, can reduce pain and may limit deeper injury and later scarring or infection risk. Free to read, print, and share.
+     अधिकांश जलने की घटनाएँ घर पर होती हैं - गर्म पेय, खाना पकाने, भाप, गर्म पानी, आग, सूरज, बिजली, या रसायन। जले हुए स्थान को तुरंत बहते पानी से ठंडा करने और गलत चीजों से दूर रखने से दर्द कम हो सकता है और गहरी चोट और बाद में घाव या संक्रमण का खतरा सीमित हो सकता है। पढ़ने, प्रिंट करने और साझा करने के लिए निःशुल्क।
     </p>
    </div>
   </section>
   <main id="main">
    <div class="wrap">
     <p class="lede">
-     [HI]: A burn is damage to the skin from heat, hot liquids (a "scald"), electricity, chemicals, or radiation such as the sun. What you do in the first minutes matters. One of the most useful first actions for most burns is simple: cool it with running water, and do not put creams, oils, or home remedies on the fresh burn as first aid unless a clinician or local guidance tells you to.
+     जलन गर्मी, गर्म तरल पदार्थ ("स्कैल्ड"), बिजली, रसायन, या सूरज जैसे विकिरण से त्वचा को होने वाली क्षति है। आप पहले मिनटों में क्या करते हैं यह मायने रखता है। अधिकांश जलने के लिए सबसे उपयोगी पहली क्रियाओं में से एक सरल है: इसे बहते पानी से ठंडा करें, और ताजा जले पर प्राथमिक उपचार के रूप में क्रीम, तेल या घरेलू उपचार न डालें जब तक कि कोई चिकित्सक या स्थानीय मार्गदर्शन आपको न बताए।
     </p>
     <div class="actions no-print">
      <a class="btn" href="javascript:window.print()">
-      [HI]: Print this page
+      इस पेज को प्रिंट करें
      </a>
      <a class="btn alt" href="burns-onepager.pdf">
-      [HI]: Download printable PDF
+      प्रिंट करने योग्य पीडीएफ डाउनलोड करें
      </a>
     </div>
     <div class="box emergency">
@@ -114,60 +157,60 @@
       Call emergency services now
      </span>
      <h3>
-      [HI]: Get emergency help for a serious burn
+      गंभीर रूप से जलने पर आपातकालीन सहायता प्राप्त करें
      </h3>
      <p>
-      🚨[REVIEW_REQUIRED] [HI]: Call your local emergency number (examples: 911, 112, or 999; verify locally) for a burn that is large (bigger than the person's hand), deep, or on the face, hands, feet, genitals, or over a joint; any burn that goes all the way around a limb; any electrical or chemical burn; any burn with trouble breathing, coughing, a hoarse voice, or soot around the nose or mouth (the airway may be burned); and any serious burn in a baby, young child, pregnant person, or older or frail person.
+      🚨[REVIEW_REQUIRED] बड़े (व्यक्ति के हाथ से बड़ा), गहरा, या चेहरे, हाथ, पैर, जननांगों, या किसी जोड़ पर जले के लिए अपने स्थानीय आपातकालीन नंबर (उदाहरण: 911, 112, या 999; स्थानीय रूप से सत्यापित करें) पर कॉल करें; कोई भी जलन जो किसी अंग के चारों ओर जाती हो; कोई विद्युत या रासायनिक जलन; सांस लेने में परेशानी, खांसी, कर्कश आवाज, या नाक या मुंह के आसपास कालिख (श्वसनमार्ग जल सकता है) के साथ कोई जलन; और किसी शिशु, छोटे बच्चे, गर्भवती व्यक्ति, या वृद्ध या कमजोर व्यक्ति में कोई गंभीर जलन।
       <strong>
-       [HI]: While you wait for help, start cooling the burn.
+       जब आप मदद की प्रतीक्षा कर रहे हों, तो जले को ठंडा करना शुरू करें।
       </strong>
      </p>
     </div>
     <h2>
-     [HI]: What to do, step by step
+     क्या करें, चरण दर चरण
     </h2>
     <ol class="steps">
      <li>
       <strong>
-       [HI]: Stop the burning and stay safe.
+       जलाना बंद करो और सुरक्षित रहो.
       </strong>
-      [HI]: Move the person away from the heat source. If clothing is on fire,
+      व्यक्ति को ताप स्रोत से दूर ले जाएँ। अगर कपड़ों में आग लगी हो,
       <strong>
-       [HI]: stop, drop, and roll
+       ड्रॉप गिराएं और रॉल करें
       </strong>
-      [HI]: , or smother the flames with a blanket. Switch off the power before touching someone with an electrical burn. For a chemical burn, brush off any dry chemical and remove contaminated clothing, protecting your own skin.
+      , या कंबल से आग की लपटों को बुझाएं। बिजली से जले हुए किसी व्यक्ति को छूने से पहले बिजली बंद कर दें। रासायनिक जलन के लिए, अपनी त्वचा की रक्षा करते हुए, किसी भी सूखे रसायन को साफ़ करें और दूषित कपड़ों को हटा दें।
      </li>
      <li>
       <strong>
-       🚨[REVIEW_REQUIRED] [HI]: Cool the burn with running water for 20 minutes.
+       🚨[REVIEW_REQUIRED] जले को 20 मिनट तक बहते पानी से ठंडा करें।
       </strong>
-      [HI]: Hold the burned area under cool or lukewarm
+      जले हुए हिस्से को ठंडे या गुनगुने तापमान पर रखें
       <em>
-       [HI]: running
+       दौड़ना
       </em>
-      🚨[REVIEW_REQUIRED] [HI]: water as soon as possible. Keep cooling for a full 20 minutes — it still helps even up to about 3 hours after the burn. Do
+      🚨[REVIEW_REQUIRED] जितनी जल्दी हो सके पानी. पूरे 20 मिनट तक ठंडा करते रहें - यह जलने के लगभग 3 घंटे बाद तक भी मदद करता है। करना
       <strong>
-       [HI]: not
+       नहीं
       </strong>
-      [HI]: use ice, iced water, or very cold water, which can deepen the injury. If there is no running water, use any clean, cool water you can pour over it.
+      बर्फ, ठंडा पानी या बहुत ठंडे पानी का उपयोग करें, जिससे चोट और गहरी हो सकती है। यदि बहता पानी नहीं है, तो किसी भी साफ, ठंडे पानी का उपयोग करें जिसे आप डाल सकते हैं।
      </li>
      <li>
       <strong>
-       [HI]: Remove jewellery and tight or soaked clothing
+       आभूषण और तंग या भीगे हुए कपड़े हटा दें
       </strong>
-      [HI]: from near the burn before it starts to swell — but do not pull off anything that is stuck to the skin.
+      जले के सूजने से पहले उसके पास से हटाएँ - लेकिन त्वचा से चिपकी हुई किसी भी चीज़ को न निकालें।
      </li>
      <li>
       <strong>
-       [HI]: Keep the rest of the person warm.
+       बाकी व्यक्ति को गर्म रखें.
       </strong>
-      [HI]: Cooling a large burn can quickly chill the body, especially in children and older people. Cover the parts you are not cooling with a blanket or coat, and avoid cooling so much that they start to shiver.
+      बड़े जले को ठंडा करने से शरीर जल्दी ठंडा हो सकता है, खासकर बच्चों और वृद्ध लोगों में। जिन हिस्सों को आप ठंडा नहीं कर रहे हैं उन्हें कंबल या कोट से ढक दें और इतना ठंडा करने से बचें कि वे कांपने लगें।
      </li>
      <li>
       <strong>
-       [HI]: Cover the burn loosely
+       जले को ढीला ढकें
       </strong>
-      [HI]: once it is cooled. A layer of clean kitchen cling film (plastic wrap) laid over the burn is ideal — lay it on lengthwise, do not wrap it tightly around a limb. A clean, non-fluffy cloth or a clean plastic bag (good for a hand or foot) also works. This eases pain and keeps the wound clean.
+      एक बार यह ठंडा हो जाए. जले हुए स्थान पर साफ किचन क्लिंग फिल्म (प्लास्टिक रैप) की एक परत बिछाना आदर्श है - इसे लंबाई में बिछाएं, इसे किसी अंग के चारों ओर कसकर न लपेटें। एक साफ़, बिना रोएँदार कपड़ा या साफ़ प्लास्टिक बैग (हाथ या पैर के लिए अच्छा) भी काम करेगा। इससे दर्द कम होता है और घाव साफ रहता है।
      </li>
     </ol>
     <div class="box warn">
@@ -175,68 +218,68 @@
       Do not use home remedies on a fresh burn
      </span>
      <p>
-      [HI]: Do
+      करना
       <strong>
-       [HI]: not
+       नहीं
       </strong>
-      [HI]: apply butter, oil, lard, toothpaste, egg, soy sauce, ash, soil, cow dung, herbs, ice, or "burn creams" and ointments to a fresh burn as first aid unless a clinician or local guidance specifically tells you to. These can trap heat, raise the risk of infection, and make it harder for medical staff to see and treat the burn.
+      ताज़ा जले पर प्राथमिक उपचार के रूप में मक्खन, तेल, चरबी, टूथपेस्ट, अंडा, सोया सॉस, राख, मिट्टी, गाय का गोबर, जड़ी-बूटियाँ, बर्फ, या "बर्न क्रीम" और मलहम लगाएँ, जब तक कि कोई चिकित्सक या स्थानीय मार्गदर्शन आपको विशेष रूप से ऐसा करने के लिए न कहे। ये गर्मी को फँसा सकते हैं, संक्रमण का खतरा बढ़ा सकते हैं, और चिकित्सा कर्मचारियों के लिए जले को देखना और उसका इलाज करना कठिन बना सकते हैं।
       <strong>
-       [HI]: Do not burst blisters
+       छाले न फोड़ें
       </strong>
-      [HI]: — they protect the skin underneath. Cool water and a clean loose cover are usually the safest first-aid choice.
+      - वे नीचे की त्वचा की रक्षा करते हैं। ठंडा पानी और एक साफ ढीला कवर आमतौर पर सबसे सुरक्षित प्राथमिक चिकित्सा विकल्प हैं।
      </p>
     </div>
     <h2>
-     [HI]: Chemical and electrical burns
+     रासायनिक और विद्युत जलन
     </h2>
     <div class="two">
      <div>
       <h3>
-       [HI]: Chemical burns
+       रासायनिक जलन
       </h3>
       <ul>
        <li>
-        [HI]: Protect yourself first — wear gloves or use a barrier if you can.
+        पहले स्वयं को सुरक्षित रखें - यदि संभव हो तो दस्ताने पहनें या किसी बैरियर का उपयोग करें।
        </li>
        <li>
-        [HI]: Brush off any
+        किसी को भी ब्रश करें
         <strong>
-         [HI]: dry
+         सूखा
         </strong>
-        🚨[REVIEW_REQUIRED] [HI]: powder, then rinse the area with lots of cool running water for at least 20 minutes, unless the product label, poison centre, or emergency guidance tells you not to use water.
+        🚨[REVIEW_REQUIRED] पाउडर, फिर उस क्षेत्र को बहुत सारे ठंडे बहते पानी से कम से कम 20 मिनट तक धोएं, जब तक कि उत्पाद लेबल, जहर केंद्र, या आपातकालीन मार्गदर्शन आपको पानी का उपयोग न करने के लिए न कहे।
        </li>
        <li>
-        [HI]: Remove clothing and jewellery the chemical has touched while rinsing.
+        धोते समय जिन कपड़ों और आभूषणों पर रसायन का स्पर्श हुआ हो उन्हें हटा दें।
        </li>
        <li>
-        🚨[REVIEW_REQUIRED] [HI]: If a chemical is in the eye, rinse the eye gently with clean water for at least 20 minutes and get medical help.
+        🚨[REVIEW_REQUIRED] यदि आंख में कोई रसायन चला गया है, तो कम से कम 20 मिनट तक आंख को साफ पानी से धीरे-धीरे धोएं और चिकित्सीय सहायता लें।
        </li>
        <li>
-        [HI]: If you know the chemical, tell the medical team or poison centre.
+        यदि आप रसायन के बारे में जानते हैं, तो मेडिकल टीम या ज़हर केंद्र को बताएं।
        </li>
       </ul>
      </div>
      <div>
       <h3>
-       [HI]: Electrical burns
+       बिजली जलना
       </h3>
       <ul>
        <li>
         <strong>
-         [HI]: Do not touch the person
+         व्यक्ति को मत छुओ
         </strong>
-        [HI]: until you are sure the power is switched off — you can be electrocuted too.
+        जब तक आप आश्वस्त न हो जाएं कि बिजली बंद है - आपको भी करंट लग सकता है।
        </li>
        <li>
-        [HI]: Electrical burns can be far deeper than they look on the surface and can affect the heart.
+        बिजली की जलन सतह पर दिखने से कहीं अधिक गहरी हो सकती है और हृदय को प्रभावित कर सकती है।
        </li>
        <li>
-        [HI]: Always seek medical care, even if the skin damage seems small.
+        हमेशा चिकित्सीय देखभाल लें, भले ही त्वचा की क्षति छोटी लगे।
        </li>
        <li>
-        [HI]: If the person is unresponsive and not breathing normally, call for help and start
+        यदि व्यक्ति प्रतिक्रिया नहीं दे रहा है और सामान्य रूप से सांस नहीं ले रहा है, तो मदद के लिए कॉल करें और शुरुआत करें
         <a href="../cpr/">
-         [HI]: CPR
+         सीपीआर
         </a>
         .
        </li>
@@ -244,90 +287,90 @@
      </div>
     </div>
     <h2>
-     [HI]: Smaller burns you can treat at home
+     छोटी-छोटी चोटों का इलाज आप घर पर ही कर सकते हैं
     </h2>
     <p>
-     [HI]: A small, shallow burn — red and sore, perhaps with small blisters, no bigger than the person's hand and not on the face, hands, feet, genitals, or a joint — can usually be cared for at home: cool it, cover it loosely, and keep it clean. Simple pain relief such as paracetamol/acetaminophen or ibuprofen can help if safe for that person (follow the label and any local guidance).
+     एक छोटी, उथली जलन - लाल और पीड़ादायक, शायद छोटे फफोले के साथ, जो व्यक्ति के हाथ से अधिक बड़ी न हो और चेहरे, हाथ, पैर, जननांगों या जोड़ पर न हो - की देखभाल आमतौर पर घर पर की जा सकती है: इसे ठंडा करें, इसे ढीला ढकें और इसे साफ रखें। यदि उस व्यक्ति के लिए सुरक्षित है तो पेरासिटामोल/एसिटामिनोफेन या इबुप्रोफेन जैसी साधारण दर्द निवारक मदद कर सकती है (लेबल और किसी भी स्थानीय मार्गदर्शन का पालन करें)।
      <strong>
-      [HI]: Get medical advice if
+      यदि चिकित्सीय सलाह लें
      </strong>
-     [HI]: the burn becomes more painful, swollen, smelly, or oozing, or the person develops a fever — these can be signs of infection. Make sure tetanus protection is up to date for any burn that breaks the skin.
+     जलन अधिक दर्दनाक, सूजी हुई, बदबूदार या रिसने वाली हो जाती है, या व्यक्ति को बुखार हो जाता है - ये संक्रमण के लक्षण हो सकते हैं। सुनिश्चित करें कि त्वचा को तोड़ने वाली किसी भी जलन के लिए टेटनस सुरक्षा अद्यतित है।
     </p>
     <h2>
-     [HI]: Babies, children, and others at higher risk
+     शिशु, बच्चे और अन्य लोग अधिक जोखिम में हैं
     </h2>
     <div class="box warn">
      <span class="tag warn">
       Lower the threshold to get help
      </span>
      <p>
-      [HI]: Babies and young children, older or frail people, and pregnant women are more easily harmed by burns. Get medical advice for any burn that blisters in a baby or child, and don't wait if you are unsure. Children also chill quickly when a burn is cooled, so keep the rest of the body warm.
+      शिशुओं और छोटे बच्चों, वृद्ध या कमजोर लोगों और गर्भवती महिलाओं को जलने से अधिक आसानी से नुकसान होता है। शिशु या बच्चे में किसी भी जले हुए छाले के लिए चिकित्सीय सलाह लें और यदि आप अनिश्चित हों तो प्रतीक्षा न करें। जले हुए स्थान को ठंडा करने पर बच्चे भी जल्दी ठिठुर जाते हैं, इसलिए शरीर के बाकी हिस्सों को गर्म रखें।
      </p>
     </div>
     <h2>
-     [HI]: Preventing burns and scalds
+     जलने और झुलसने से बचाव
     </h2>
     <ul>
      <li>
-      [HI]: Keep hot drinks, pots, and kettles out of children's reach; turn pot handles inward; use the back rings of the stove.
+      गर्म पेय, बर्तन और केतली को बच्चों की पहुंच से दूर रखें; बर्तन के हैंडल को अंदर की ओर मोड़ें; स्टोव के पिछले छल्लों का उपयोग करें।
      </li>
      <li>
-      🚨[REVIEW_REQUIRED] [HI]: If you control the water heater, set it to a safer temperature (about 50 °C / 120 °F) and test bath water before a child gets in.
+      🚨[REVIEW_REQUIRED] यदि आप वॉटर हीटर को नियंत्रित करते हैं, तो इसे सुरक्षित तापमान (लगभग 50 डिग्री सेल्सियस / 120 डिग्री फ़ारेनहाइट) पर सेट करें और बच्चे के प्रवेश करने से पहले नहाने के पानी का परीक्षण करें।
      </li>
      <li>
-      [HI]: Keep cooking fires and stoves stable and away from children; keep flammable clothing away from open flames.
+      खाना पकाने की आग और चूल्हे को स्थिर और बच्चों से दूर रखें; ज्वलनशील कपड़ों को खुली लपटों से दूर रखें।
      </li>
      <li>
-      [HI]: Fit smoke alarms and check them; keep matches, lighters, and chemicals locked away.
+      धूम्रपान अलार्म फिट करें और उनकी जांच करें; माचिस, लाइटर और रसायनों को बंद करके रखें।
      </li>
      <li>
-      [HI]: Protect skin from the sun and avoid sunburn.
+      त्वचा को धूप से बचाएं और सनबर्न से बचाएं।
      </li>
     </ul>
     <h2>
-     [HI]: Sources
+     सूत्रों का कहना है
     </h2>
     <ul class="sources">
      <li>
       <a href="https://www.who.int/news-room/fact-sheets/detail/burns">
-       [HI]: World Health Organization — Burns fact sheet
+       विश्व स्वास्थ्य संगठन - बर्न्स फैक्ट शीट
       </a>
-      [HI]: (global burden, prevention, and first aid: cool with running water, do not apply harmful substances).
+      (वैश्विक बोझ, रोकथाम और प्राथमिक उपचार: बहते पानी से ठंडा करें, हानिकारक पदार्थ न लगाएं)।
      </li>
      <li>
       <a href="https://www.redcross.org/take-a-class">
-       [HI]: American Red Cross — first-aid training and resources
+       अमेरिकन रेड क्रॉस - प्राथमिक चिकित्सा प्रशिक्षण और संसाधन
       </a>
-      [HI]: (burn first aid and when to seek care).
+      (जला प्राथमिक उपचार और देखभाल कब लेनी है)।
      </li>
      <li>
       <a href="https://cpr.heart.org/en/resuscitation-science/first-aid-guidelines/first-aid">
-       [HI]: American Heart Association — first-aid guidelines
+       अमेरिकन हार्ट एसोसिएशन - प्राथमिक चिकित्सा दिशानिर्देश
       </a>
-      [HI]: (cooling burns; thermal, chemical, and electrical injuries).
+      (ठंडी जलन; थर्मल, रासायनिक और विद्युत चोटें)।
      </li>
      <li>
       <a href="https://www.nhs.uk/conditions/burns-and-scalds/">
-       🚨[REVIEW_REQUIRED] [HI]: NHS — Burns and scalds
+       🚨[REVIEW_REQUIRED] एनएचएस - जलन और झुलसना
       </a>
-      🚨[REVIEW_REQUIRED] [HI]: (cool 20 minutes, cover with cling film, do not burst blisters, when to get help).
+      🚨[REVIEW_REQUIRED] (20 मिनट ठंडा करें, क्लिंग फिल्म से ढकें, फफोले न फूटें, मदद कब मिलेगी)।
      </li>
     </ul>
     <p class="sources">
-     [HI]: Guidance reflects widely taught burn first aid for lay responders. Details vary between training bodies and regions — follow your local first-aid training and emergency services.
+     मार्गदर्शन सामान्य उत्तरदाताओं के लिए व्यापक रूप से सिखाई गई जला प्राथमिक चिकित्सा को दर्शाता है। प्रशिक्षण निकायों और क्षेत्रों के बीच विवरण अलग-अलग होते हैं - अपने स्थानीय प्राथमिक चिकित्सा प्रशिक्षण और आपातकालीन सेवाओं का पालन करें।
     </p>
     <p class="disclaimer">
-     [HI]: This guide is general information, not medical advice. In an emergency, always call your local emergency number. Reuse and reprint freely.
+     यह मार्गदर्शिका सामान्य जानकारी है, चिकित्सीय सलाह नहीं। आपातकालीन स्थिति में, हमेशा अपने स्थानीय आपातकालीन नंबर पर कॉल करें। पुन: उपयोग करें और स्वतंत्र रूप से पुनर्मुद्रण करें।
     </p>
    </div>
   </main>
   <footer class="site">
    <div class="wrap">
-    [HI]: A free, open Help Kit ·
+    एक मुफ़्त, खुली सहायता किट ·
     <a href="https://github.com/ai-village-agents/help-kit">
-     [HI]: source on GitHub
+     GitHub पर स्रोत
     </a>
-    [HI]: · Public domain (CC0) · Verify against your local health authority
+    · सार्वजनिक डोमेन (CC0) · अपने स्थानीय स्वास्थ्य प्राधिकरण के विरुद्ध सत्यापन करें
    </div>
   </footer>
   <script>

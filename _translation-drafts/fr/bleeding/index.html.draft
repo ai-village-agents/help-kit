@@ -4,9 +4,9 @@
   <meta charset="utf-8"/>
   <meta content="width=device-width,initial-scale=1" name="viewport"/>
   <title>
-   [FR]: Severe Bleeding: Stop the Bleed — Help Kit | Help Kit
+   Saignement sévère : arrêter le saignement – Kit d'aide | Help Kit
   </title>
-  <meta content="[FR]: A free, source-cited one-page guide to stopping life-threatening bleeding: firm direct pressure, wound packing, and tourniquet basics, and when to use each. Based on Stop the Bleed (American College of Surgeons) and Red Cross guidance." name="description"/>
+  <meta content="Un guide gratuit cité par une source pour arrêter les saignements sévères : pression directe, pansement des plaies, bases du garrot et quand demander de l'aide d'urgence." name="description"/>
   <link href="https://ai-village-agents.github.io/help-kit/bleeding/" rel="canonical"/>
   <meta content="noindex, nofollow, noarchive" name="robots"/>
   <meta content="Help Kit" property="og:site_name"/>
@@ -24,13 +24,56 @@
   <link href="../style.css" rel="stylesheet"/>
   <link href="/help-kit/manifest.webmanifest" rel="manifest"/>
   <link href="/help-kit/icon-192.png" rel="apple-touch-icon"/>
+  <script type="application/ld+json">
+   {
+  "@context": "https://schema.org",
+  "@type": "MedicalWebPage",
+  "name": "Severe Bleeding: Stop the Bleed",
+  "description": "A free, source-cited guide to stopping severe bleeding: direct pressure, wound packing, tourniquet basics, and when to seek emergency help.",
+  "url": "https://ai-village-agents.github.io/help-kit/bleeding/",
+  "inLanguage": "en",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "Help Kit",
+    "url": "https://ai-village-agents.github.io/help-kit/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Help Kit",
+    "url": "https://ai-village-agents.github.io/help-kit/"
+  },
+  "citation": [
+    {
+      "@type": "WebPage",
+      "name": "American College of Surgeons — Stop the Bleed",
+      "url": "https://www.stopthebleed.org/"
+    },
+    {
+      "@type": "WebPage",
+      "name": "American Red Cross — first aid training and resources",
+      "url": "https://www.redcross.org/take-a-class"
+    },
+    {
+      "@type": "WebPage",
+      "name": "World Health Organization — basic emergency care approach to the acutely ill and injured",
+      "url": "https://www.who.int/publications/i/item/basic-emergency-care-approach-to-the-acutely-ill-and-injured"
+    },
+    {
+      "@type": "WebPage",
+      "name": "U.S. Centers for Disease Control and Prevention (CDC) — tetanus and wound-care related guidance",
+      "url": "https://www.cdc.gov/tetanus/about/index.html"
+    }
+  ]
+}
+  </script>
  </head>
  <body>
   <div class="notice danger" data-draft-warning="true">
    UNREVIEWED MACHINE TRANSLATION DRAFT (fr). Do not use for medical guidance, sharing, printing, or training until fluent local reviewers verify all emergency numbers, doses, timings, and local guidance against the English source.
   </div>
   <a class="skip-link" href="#main">
-   [FR]: Skip to main content
+   Passer au contenu principal
   </a>
   <header class="site">
    <div class="wrap">
@@ -39,49 +82,49 @@
     </a>
     <nav>
      <a href="../heat/">
-      [FR]: Extreme Heat
+      Chaleur extrême
      </a>
      <a href="../smoke/">
-      [FR]: Wildfire Smoke
+      Fumée de feux de forêt
      </a>
      <a href="../naloxone/">
-      [FR]: Opioid Overdose
+      Surdose d'opioïdes
      </a>
      <a href="../ors/">
-      [FR]: Dehydration &amp; ORS
+      Déshydratation et SOR
      </a>
      <a href="../choking/">
-      [FR]: Choking
+      Étouffement
      </a>
      <a href="../bleeding/">
-      [FR]: Severe Bleeding
+      Saignement sévère
      </a>
      <a href="../cpr/">
-      [FR]: CPR
+      RCR
      </a>
      <a href="../stroke/">
-      [FR]: Stroke
+      Accident vasculaire cérébral
      </a>
      <a href="../burns/">
-      [FR]: Burns
+      Brûlures
      </a>
      <a href="../seizure/">
-      [FR]: Seizure
+      Crise d'épilepsie
      </a>
      <a href="../allergy/">
-      [FR]: Severe Allergy
+      Allergie sévère
      </a>
      <a href="../cold/">
-      [FR]: Cold Safety
+      Sécurité contre le froid
      </a>
      <a href="../heart/">
-      [FR]: Heart Attack
+      Crise cardiaque
      </a>
      <a href="../triage/">
-      [FR]: Triage
+      Triage
      </a>
      <a href="../localize.html">
-      [FR]: Localize &amp; share
+      Localiser et partager
      </a>
     </nav>
    </div>
@@ -89,28 +132,28 @@
   <section class="hero">
    <div class="wrap">
     <h1>
-     [FR]: Severe bleeding: stop the bleed
+     Saignement sévère : arrêter le saignement
     </h1>
     <p>
-     [FR]: How to slow or stop life-threatening bleeding while you wait for help. A person can bleed to death in minutes, so fast pressure, packing, or a tourniquet when appropriate can save a life. Free to read, print, and share.
+     Comment ralentir ou arrêter un saignement potentiellement mortel en attendant de l'aide. Une personne peut se vider de son sang en quelques minutes, donc une pression rapide, un emballage ou un garrot, le cas échéant, peuvent lui donner les meilleures chances pendant que les secours arrivent. Lecture, impression et partage gratuits.
     </p>
    </div>
   </section>
   <main id="main">
    <div class="wrap">
     <p class="lede">
-     [FR]: Most bleeding you will see is minor and stops on its own or with a little pressure. But bleeding that is
+     La plupart des saignements que vous verrez sont mineurs et s’arrêtent tout seuls ou avec une petite pression. Mais c'est du saignement
      <strong>
-      [FR]: spurting, pooling, soaking through clothing or bandages, or coming from a deep wound to an arm or leg
+      giclant, s'accumulant, trempant à travers les vêtements ou les bandages, ou provenant d'une blessure profonde à un bras ou à une jambe
      </strong>
-     [FR]: can be life-threatening. The single most important thing you can do is press hard on the wound and not let up.
+     peut mettre la vie en danger. La chose la plus importante que vous puissiez faire est d’appuyer fort sur la plaie et de ne pas relâcher la pression.
     </p>
     <div class="actions no-print">
      <a class="btn" href="javascript:window.print()">
-      [FR]: Print this page
+      Imprimer cette page
      </a>
      <a class="btn alt" href="bleeding-onepager.pdf">
-      [FR]: Download printable PDF
+      Télécharger le PDF imprimable
      </a>
     </div>
     <div class="box emergency">
@@ -118,83 +161,83 @@
       Call emergency services
      </span>
      <h3>
-      [FR]: Life-threatening bleeding is an emergency
+      Une hémorragie potentiellement mortelle est une urgence
      </h3>
      <p>
-      🚨[REVIEW_REQUIRED] [FR]: Call your local emergency number (examples: 911, 112, or 999; verify locally), or have someone else call, for spurting blood, pooling blood, bleeding that soaks through clothing/bandages, an amputation, or any heavy bleeding you are worried about. If you are alone, it is reasonable to
+      🚨[REVIEW_REQUIRED] Appelez votre numéro d'urgence local (exemples : 911, 112 ou 999 ; vérifiez localement), ou demandez à quelqu'un d'autre d'appeler, en cas de jet de sang, d'accumulation de sang, de saignement qui traverse les vêtements/pansements, d'une amputation ou de tout saignement abondant qui vous inquiète. Si vous êtes seul, il est raisonnable de
       <strong>
-       [FR]: start pressure first
+       démarrer la pression en premier
       </strong>
-      [FR]: and call as soon as you can — put the phone on speaker and follow dispatcher instructions. Get yourself safe first if there is traffic, fire, weapons, or other danger.
+      et appelez dès que vous le pouvez – mettez le téléphone sur haut-parleur et suivez les instructions du répartiteur. Protégez-vous d'abord en cas de circulation, d'incendie, d'armes ou tout autre danger.
      </p>
     </div>
     <h2>
-     [FR]: Three actions that stop bleeding
+     Trois actions qui arrêtent le saignement
     </h2>
     <p>
-     [FR]: If you have gloves or any barrier (a plastic bag can help), use them to protect yourself from blood. If no barrier is available and the bleeding is life-threatening, do the best you safely can and wash thoroughly afterward. Find where the blood is coming from — you may need to move or cut away clothing to see the wound clearly.
+     Si vous avez des gants ou une barrière (un sac en plastique peut vous aider), utilisez-les pour vous protéger du sang. Si aucune barrière n’est disponible et que le saignement met la vie en danger, faites de votre mieux en toute sécurité et lavez-vous soigneusement ensuite. Trouvez d'où vient le sang : vous devrez peut-être déplacer ou couper les vêtements pour voir clairement la plaie.
     </p>
     <ol class="steps">
      <li>
       <strong>
-       [FR]: Press hard with both hands.
+       Appuyez fort avec les deux mains.
       </strong>
-      [FR]: Place a clean cloth, gauze, or your protected hands directly on the wound and push down as hard as you can, right on the spot the blood is coming from. Keep steady, firm pressure — do not lift up to check unless a dispatcher or trained responder tells you to. Many serious bleeds slow or stop when pressure is applied firmly enough and held long enough.
+      Placez un chiffon propre, une gaze ou vos mains protégées directement sur la plaie et appuyez aussi fort que possible, juste à l'endroit d'où vient le sang. Maintenez une pression constante et ferme – ne soulevez pas pour vérifier à moins qu’un répartiteur ou un intervenant qualifié ne vous le demande. De nombreux saignements graves ralentissent ou s’arrêtent lorsque la pression est appliquée suffisamment fermement et maintenue suffisamment longtemps.
      </li>
      <li>
       <strong>
-       [FR]: If it keeps bleeding, pack the wound.
+       Si le saignement continue, pansez la plaie.
       </strong>
-      [FR]: For a deep wound in a place you can pack — an arm, leg, armpit, or groin (
+      Pour une blessure profonde dans un endroit que vous pouvez emballer : un bras, une jambe, une aisselle ou une aine (
       <em>
-       [FR]: not
+       pas
       </em>
-      [FR]: the chest, abdomen, neck, or head) — push clean gauze or cloth firmly all the way into the wound, filling it completely, then press down hard over the top with both hands and keep pressing.
+      la poitrine, l'abdomen, le cou ou la tête) — poussez fermement la gaze ou le chiffon propre jusqu'au fond de la plaie, en la remplissant complètement, puis appuyez fort sur le dessus avec les deux mains et continuez à appuyer.
      </li>
      <li>
       <strong>
-       [FR]: For a limb that won't stop, use a tourniquet.
+       Pour un membre qui ne s'arrête pas, utilisez un garrot.
       </strong>
-      [FR]: If heavy bleeding from an arm or leg does not stop with pressure and packing, or the injury is an amputation/near-amputation, apply a tourniquet (see below) if one is available or you are trained to improvise. For life-threatening limb bleeding, tourniquets can be the right choice — follow local training and dispatcher instructions.
+      Si un saignement abondant d'un bras ou d'une jambe ne s'arrête pas avec la pression et le compactage, ou si la blessure est une amputation/quasi-amputation, appliquez un garrot (voir ci-dessous) s'il en existe un ou si vous êtes formé pour improviser. En cas d'hémorragie d'un membre potentiellement mortelle, les garrots peuvent être le bon choix : suivez la formation locale et les instructions du répartiteur.
      </li>
     </ol>
     <h2>
-     [FR]: How to use a tourniquet
+     Comment utiliser un garrot
     </h2>
     <div class="box warn">
      <span class="tag warn">
       For arms and legs only
      </span>
      <p>
-      [FR]: Use a manufactured tourniquet if you have one. Improvised tourniquets are harder to make effective and can injure tissue; use one only when life-threatening limb bleeding cannot be controlled another way and no manufactured tourniquet is available. Avoid thin cord or rope because it can cut the skin.
+      Utilisez un garrot fabriqué si vous en avez un. Les garrots improvisés sont plus difficiles à rendre efficaces et peuvent blesser les tissus ; utilisez-en un uniquement lorsque les saignements de membres potentiellement mortels ne peuvent pas être contrôlés d’une autre manière et qu’aucun garrot fabriqué n’est disponible. Évitez les cordons ou cordes fins car ils peuvent couper la peau.
      </p>
     </div>
     <ol class="steps">
      <li>
       <strong>
-       🚨[REVIEW_REQUIRED] [FR]: Place it 5–7 cm (2–3 inches) above the wound
+       🚨[REVIEW_REQUIRED] Placez-le 5 à 7 cm (2 à 3 pouces) au-dessus de la plaie
       </strong>
-      [FR]: , between the wound and the heart. Do not place it directly over a joint (knee or elbow) — go above the joint if needed. Never put it on the wound itself.
+      , entre la blessure et le cœur. Ne le placez pas directement sur une articulation (genou ou coude) – allez au-dessus de l’articulation si nécessaire. Ne le mettez jamais sur la plaie elle-même.
      </li>
      <li>
       <strong>
-       [FR]: Pull it tight and tighten until the bleeding stops.
+       Tirez-le fermement et serrez jusqu'à ce que le saignement s'arrête.
       </strong>
-      [FR]: A tourniquet that is tight enough to work will hurt — that is expected. If one is not enough to stop the bleeding, apply a second one just above the first.
+      Un garrot suffisamment serré pour fonctionner fera mal – c’est normal. Si un seul ne suffit pas à arrêter le saignement, appliquez-en un deuxième juste au-dessus du premier.
      </li>
      <li>
       <strong>
-       [FR]: Note the time
+       Notez l'heure
       </strong>
-      [FR]: you put it on (write it on the tourniquet, tape, or a visible note if you can) and tell the medics.
+      vous le mettez (écrivez-le sur le garrot, le ruban adhésif ou une note visible si vous le pouvez) et informez les médecins.
       <strong>
-       [FR]: Do not loosen or remove it
+       Ne le desserrez pas et ne le retirez pas
       </strong>
-      [FR]: — leave that to medical professionals.
+      – laissez cela aux professionnels de la santé.
      </li>
     </ol>
     <h2>
-     [FR]: While you wait for help
+     Pendant que tu attends de l'aide
     </h2>
     <div class="box ok">
      <span class="tag ok">
@@ -203,97 +246,97 @@
      <ul>
       <li>
        <strong>
-        [FR]: Keep pressing
+        Continuez à appuyer
        </strong>
-       [FR]: the whole time, even once bleeding seems controlled, until help takes over.
+       tout le temps, même une fois que le saignement semble maîtrisé, jusqu'à ce que l'aide prenne le relais.
       </li>
       <li>
-       [FR]: Help the person
+       Aider la personne
        <strong>
-        [FR]: lie down
+        allongez-vous
        </strong>
-       [FR]: and keep them warm with a coat or blanket; heavy blood loss makes people cold and can cause shock.
+       et gardez-les au chaud avec un manteau ou une couverture ; une perte de sang importante donne froid aux gens et peut provoquer un choc.
       </li>
       <li>
-       [FR]: Reassure them and keep talking to them. Watch their breathing and alertness.
+       Rassurez-les et continuez à leur parler. Surveillez leur respiration et leur vigilance.
       </li>
       <li>
        <strong>
-        [FR]: Do not remove an object stuck in a wound
+        Ne retirez pas un objet coincé dans une plaie
        </strong>
-       [FR]: (knife, glass, metal). Leave it in place and press firmly
+       (couteau, verre, métal). Laissez-le en place et appuyez fermement
        <em>
-        [FR]: around
+        autour
        </em>
-       [FR]: it — pulling it out can make bleeding much worse.
+       - le retirer peut aggraver le saignement.
       </li>
      </ul>
     </div>
     <h2>
-     [FR]: Minor cuts and scrapes
+     Petites coupures et éraflures
     </h2>
     <ul>
      <li>
-      [FR]: Wash your hands, then rinse the wound under clean running water and gently clean around it.
+      Lavez-vous les mains, puis rincez la plaie sous l’eau courante propre et nettoyez délicatement tout autour.
      </li>
      <li>
-      [FR]: Apply gentle pressure with a clean cloth for a few minutes until it stops, then cover with a clean dressing or bandage.
+      Appliquez une légère pression avec un chiffon propre pendant quelques minutes jusqu'à ce qu'elle s'arrête, puis recouvrez d'un pansement ou d'un bandage propre.
      </li>
      <li>
-      [FR]: Watch for signs of infection over the next days — spreading redness, warmth, swelling, pus, or fever — and seek care if they appear. Ask a health worker about tetanus protection for dirty or deep wounds and animal bites.
+      Surveillez les signes d'infection au cours des prochains jours (rougeurs, chaleur, gonflement, pus ou fièvre) et consultez des soins s'ils apparaissent. Demandez à un agent de santé quelle est la protection contre le tétanos en cas de blessures sales ou profondes et de morsures d'animaux.
      </li>
     </ul>
     <h2>
-     [FR]: Sources
+     Sources
     </h2>
     <ul class="sources">
      <li>
       <a href="https://www.stopthebleed.org/">
-       [FR]: American College of Surgeons —
+       Collège américain des chirurgiens —
        <em>
-        [FR]: Stop the Bleed
+        Arrêtez le saignement
        </em>
       </a>
-      [FR]: (apply pressure, pack the wound, apply a tourniquet).
+      (appliquer une pression, panser la plaie, poser un garrot).
      </li>
      <li>
       <a href="https://www.redcross.org/take-a-class">
-       [FR]: American Red Cross — first aid training and resources
+       Croix-Rouge américaine — formation et ressources en premiers secours
       </a>
-      [FR]: , including severe bleeding and wound care guidance.
+      , y compris des conseils en matière de saignements graves et de soins des plaies.
      </li>
      <li>
       <a href="https://www.who.int/publications/i/item/basic-emergency-care-approach-to-the-acutely-ill-and-injured">
-       [FR]: World Health Organization — basic emergency care approach to the acutely ill and injured
+       Organisation mondiale de la santé — Approche de base en matière de soins d'urgence pour les malades et les blessés graves
       </a>
       .
      </li>
      <li>
       <a href="https://www.cdc.gov/tetanus/about/index.html">
-       🚨[REVIEW_REQUIRED] [FR]: U.S. Centers for Disease Control and Prevention (CDC) — tetanus and wound-care related guidance
+       🚨[REVIEW_REQUIRED] Centres pour le contrôle et la prévention des maladies (CDC) des États-Unis — directives relatives au tétanos et au soin des plaies
       </a>
       .
      </li>
     </ul>
     <p class="sources">
-     [FR]: Steps reflect widely taught
+     Les étapes reflètent largement enseignées
      <em>
-      [FR]: Stop the Bleed
+      Arrêtez le saignement
      </em>
-     [FR]: / first-aid sequences for lay responders. Training bodies vary in detail, especially around wound packing and improvised tourniquets — follow your local first-aid training and emergency dispatcher's instructions.
+     / séquences de premiers secours pour les intervenants profanes. Les organismes de formation varient en détail, en particulier en ce qui concerne le pansement des plaies et les garrots improvisés : suivez votre formation locale en premiers secours et les instructions du répartiteur d'urgence.
     </p>
     <p class="disclaimer">
-     [FR]: This guide is general information, not medical advice, and is not a substitute for hands-on first-aid training, which is widely available and strongly recommended. In an emergency, always call your local emergency number. Reuse and reprint freely.
+     Ce guide est une information générale, et non un avis médical, et ne remplace pas une formation pratique aux premiers secours, largement disponible et fortement recommandée. En cas d'urgence, appelez toujours votre numéro d'urgence local. Réutilisez et réimprimez librement.
     </p>
    </div>
   </main>
   <footer class="site">
    <div class="wrap">
-    [FR]: A free, open Help Kit ·
+    Un kit d'aide gratuit et ouvert ·
     <a href="https://github.com/ai-village-agents/help-kit">
-     [FR]: source on GitHub
+     source sur GitHub
     </a>
-    [FR]: · Public domain (CC0) · Verify against your local health authority
+    · Domaine public (CC0) · Vérifiez auprès de votre autorité sanitaire locale
    </div>
   </footer>
   <script>

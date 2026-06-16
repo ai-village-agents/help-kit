@@ -4,9 +4,9 @@
   <meta charset="utf-8"/>
   <meta content="width=device-width,initial-scale=1" name="viewport"/>
   <title>
-   [ES]: Dehydration &amp; ORS: Rehydrate Early, Know Danger Signs — Help Kit | Help Kit
+   Deshidratación y SRO: rehidrátese temprano, conozca las señales de peligro: kit de ayuda | Help Kit
   </title>
-  <meta content="[ES]: A source-cited, print-friendly guide to oral rehydration solution (ORS), dehydration danger signs, and when to seek urgent care." name="description"/>
+  <meta content="Una guía para imprimir, citada como fuente, sobre la solución de rehidratación oral (SRO), los signos de peligro de deshidratación y cuándo buscar atención de urgencia." name="description"/>
   <link href="https://ai-village-agents.github.io/help-kit/ors/" rel="canonical"/>
   <meta content="noindex, nofollow, noarchive" name="robots"/>
   <meta content="Help Kit" property="og:site_name"/>
@@ -24,13 +24,56 @@
   <link href="../style.css" rel="stylesheet"/>
   <link href="/help-kit/manifest.webmanifest" rel="manifest"/>
   <link href="/help-kit/icon-192.png" rel="apple-touch-icon"/>
+  <script type="application/ld+json">
+   {
+  "@context": "https://schema.org",
+  "@type": "MedicalWebPage",
+  "name": "Dehydration & ORS: Rehydrate Early, Know Danger Signs",
+  "description": "A source-cited, print-friendly guide to oral rehydration solution (ORS), dehydration danger signs, and when to seek urgent care.",
+  "url": "https://ai-village-agents.github.io/help-kit/ors/",
+  "inLanguage": "en",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "Help Kit",
+    "url": "https://ai-village-agents.github.io/help-kit/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Help Kit",
+    "url": "https://ai-village-agents.github.io/help-kit/"
+  },
+  "citation": [
+    {
+      "@type": "WebPage",
+      "name": "World Health Organization (WHO) — diarrhoeal disease and oral rehydration guidance",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/diarrhoeal-disease"
+    },
+    {
+      "@type": "WebPage",
+      "name": "WHO/UNICEF — joint statement on clinical management of acute diarrhoea, including ORS and zinc",
+      "url": "https://www.who.int/publications/i/item/9241593180"
+    },
+    {
+      "@type": "WebPage",
+      "name": "U.S. Centers for Disease Control and Prevention (CDC) — diarrheal illness prevention and dehydration-related guidance",
+      "url": "https://www.cdc.gov/healthy-water-data/"
+    },
+    {
+      "@type": "WebPage",
+      "name": "MedlinePlus / U.S. National Library of Medicine — dehydration information",
+      "url": "https://medlineplus.gov/dehydration.html"
+    }
+  ]
+}
+  </script>
  </head>
  <body>
   <div class="notice danger" data-draft-warning="true">
    UNREVIEWED MACHINE TRANSLATION DRAFT (es). Do not use for medical guidance, sharing, printing, or training until fluent local reviewers verify all emergency numbers, doses, timings, and local guidance against the English source.
   </div>
   <a class="skip-link" href="#main">
-   [ES]: Skip to main content
+   Saltar al contenido principal
   </a>
   <header class="site">
    <div class="wrap">
@@ -39,49 +82,49 @@
     </a>
     <nav>
      <a href="../heat/">
-      [ES]: Extreme Heat
+      Calor extremo
      </a>
      <a href="../smoke/">
-      [ES]: Wildfire Smoke
+      Humo de incendios forestales
      </a>
      <a href="../naloxone/">
-      [ES]: Opioid Overdose
+      Sobredosis de opioides
      </a>
      <a href="../ors/">
-      [ES]: Dehydration &amp; ORS
+      Deshidratación y SRO
      </a>
      <a href="../choking/">
-      [ES]: Choking
+      asfixia
      </a>
      <a href="../bleeding/">
-      [ES]: Severe Bleeding
+      Sangrado severo
      </a>
      <a href="../cpr/">
-      [ES]: CPR
+      RCP
      </a>
      <a href="../stroke/">
-      [ES]: Stroke
+      Ataque
      </a>
      <a href="../burns/">
-      [ES]: Burns
+      quemaduras
      </a>
      <a href="../seizure/">
-      [ES]: Seizure
+      Convulsión
      </a>
      <a href="../allergy/">
-      [ES]: Severe Allergy
+      Alergia severa
      </a>
      <a href="../cold/">
-      [ES]: Cold Safety
+      Seguridad en frío
      </a>
      <a href="../heart/">
-      [ES]: Heart Attack
+      Infarto de miocardio
      </a>
      <a href="../triage/">
-      [ES]: Triage
+      Triaje
      </a>
      <a href="../localize.html">
-      [ES]: Localize &amp; share
+      Localizar y compartir
      </a>
     </nav>
    </div>
@@ -89,28 +132,28 @@
   <section class="hero">
    <div class="wrap">
     <h1>
-     [ES]: Dehydration &amp; ORS: rehydrate early, know danger signs
+     Deshidratación y SRO: rehidrátese temprano, conozca las señales de peligro
     </h1>
     <p>
-     [ES]: How to use oral rehydration solution during diarrhea, vomiting, heat, or heavy sweating — and when to seek urgent care.
+     Cómo usar la solución de rehidratación oral durante la diarrea, los vómitos, el calor o la sudoración intensa y cuándo buscar atención de urgencia.
     </p>
    </div>
   </section>
   <main id="main">
    <div class="wrap">
     <p class="lede">
-     [ES]: Dehydration can become dangerous fast. Babies, young children, older adults, and people who are ill are at higher risk.
+     La deshidratación puede volverse peligrosa rápidamente. Los bebés, los niños pequeños, los adultos mayores y las personas enfermas corren un mayor riesgo.
      <strong>
-      [ES]: Oral rehydration solution (ORS)
+      Solución de rehidratación oral (SRO)
      </strong>
-     [ES]: replaces water and salts. It works better than plain water when dehydration risk is high.
+     Reemplaza el agua y las sales. Funciona mejor que el agua corriente cuando el riesgo de deshidratación es alto.
     </p>
     <div class="actions no-print">
      <a class="btn" href="javascript:window.print()">
-      [ES]: Print this page
+      Imprime esta pagina
      </a>
      <a class="btn alt" href="ors-onepager.pdf">
-      [ES]: Download printable PDF
+      Descargar PDF imprimible
      </a>
     </div>
     <div class="box emergency">
@@ -118,85 +161,85 @@
       Seek urgent medical help now
      </span>
      <p>
-      [ES]: Get urgent help if the person is very drowsy, confused, unconscious, or has a seizure. Also get help if they cannot drink, cannot keep fluids down, vomit again and again, have blood in stool, have severe belly pain, show signs of severe dehydration, are a very young infant, or keep getting worse despite rehydration. Use local emergency services when needed.
+      Busque ayuda urgente si la persona está muy somnolienta, confundida, inconsciente o tiene convulsiones. También busque ayuda si no puede beber, no puede retener líquidos, vomita una y otra vez, tiene sangre en las heces, tiene dolor abdominal intenso, muestra signos de deshidratación grave, es un bebé muy pequeño o sigue empeorando a pesar de la rehidratación. Utilice los servicios de emergencia locales cuando sea necesario.
      </p>
     </div>
     <h2>
-     [ES]: Use packaged ORS if available
+     Utilice SRO envasadas si están disponibles
     </h2>
     <p>
-     [ES]: Use commercially prepared ORS packets when you can. Mix exactly as the packet says. Use safe water and the full amount of water listed. Too little water can make the drink too salty. Too much water can make it work less well.
+     Utilice paquetes de SRO preparados comercialmente cuando pueda. Mezclar exactamente como dice el paquete. Utilice agua segura y la cantidad total de agua indicada. Muy poca agua puede hacer que la bebida sea demasiado salada. Demasiada agua puede hacer que funcione peor.
     </p>
     <h2>
-     [ES]: If no packet is available: emergency home mix
+     Si no hay ningún paquete disponible: mezcla casera de emergencia
     </h2>
     <div class="box warn">
      <span class="tag warn">
       Measure carefully
      </span>
      <p>
-      [ES]: Only use a home mix when packaged ORS is not available and you can measure carefully.
+      Utilice una mezcla casera únicamente cuando no haya SRO envasadas disponibles y pueda medirlas con cuidado.
      </p>
      <ul>
       <li>
-       🚨[REVIEW_REQUIRED] [ES]: 1 liter safe water
+       🚨[REVIEW_REQUIRED] 1 litro de agua potable
       </li>
       <li>
-       🚨[REVIEW_REQUIRED] [ES]: 6 level teaspoons sugar
+       🚨[REVIEW_REQUIRED] 6 cucharaditas rasas de azúcar
       </li>
       <li>
-       🚨[REVIEW_REQUIRED] [ES]: 1/2 level teaspoon salt
+       🚨[REVIEW_REQUIRED] 1/2 cucharadita rasa de sal
       </li>
      </ul>
      <p>
-      [ES]: Stir until the sugar and salt dissolve. The drink should taste no saltier than tears. If it tastes very salty, throw it away and mix again. Throw it away after 24 hours, or sooner if it gets dirty.
+      Remueve hasta que el azúcar y la sal se disuelvan. La bebida no debe tener un sabor más salado que las lágrimas. Si tiene un sabor muy salado, tíralo y vuelve a mezclar. Deséchelo después de 24 horas o antes si se ensucia.
      </p>
     </div>
     <h2>
-     [ES]: How to give fluids
+     como dar liquidos
     </h2>
     <ul>
      <li>
-      🚨[REVIEW_REQUIRED] [ES]: Give small, frequent sips. If vomiting occurs, wait 5–10 minutes and try again slowly.
+      🚨[REVIEW_REQUIRED] Dé sorbos pequeños y frecuentes. Si vomita, espere de 5 a 10 minutos y vuelva a intentarlo lentamente.
      </li>
      <li>
-      [ES]: For infants and young children, use a spoon, cup, or syringe in small amounts often.
+      Para bebés y niños pequeños, use con frecuencia una cuchara, una taza o una jeringa en pequeñas cantidades.
      </li>
      <li>
-      [ES]: Continue breastfeeding and normal age-appropriate feeding when possible.
+      Continúe amamantando y alimentando normalmente a su edad cuando sea posible.
      </li>
      <li>
-      [ES]: Do not give fluids by mouth to someone who is unconscious, very confused, unable to swallow safely, or having a seizure.
+      No le dé líquidos por vía oral a alguien que esté inconsciente, muy confundido, incapaz de tragar con seguridad o que tenga convulsiones.
      </li>
      <li>
-      [ES]: Avoid alcohol. Avoid very sugary drinks as the main rehydration fluid during diarrhea; they can worsen diarrhea for some people.
+      Evite el alcohol. Evite las bebidas muy azucaradas como principal líquido de rehidratación durante la diarrea; pueden empeorar la diarrea en algunas personas.
      </li>
     </ul>
     <h2>
-     [ES]: For children: also give zinc
+     Para niños: dar también zinc.
     </h2>
     <div class="box ok">
      <span class="tag ok">
       Recommended by WHO &amp; UNICEF
      </span>
      <p>
-      🚨[REVIEW_REQUIRED] [ES]: For a child with diarrhea, WHO and UNICEF recommend
+      🚨[REVIEW_REQUIRED] Para un niño con diarrea, la OMS y UNICEF recomiendan
       <strong>
-       🚨[REVIEW_REQUIRED] [ES]: zinc every day for 10–14 days
+       🚨[REVIEW_REQUIRED] zinc todos los días durante 10 a 14 días
       </strong>
-      [ES]: , along with ORS. Zinc can shorten the illness. It can also make it less severe and help prevent diarrhea in the following months. The usual amount is
+      , junto con SRO. El zinc puede acortar la enfermedad. También puede hacerlo menos severo y ayudar a prevenir la diarrea en los meses siguientes. La cantidad habitual es
       <strong>
-       🚨[REVIEW_REQUIRED] [ES]: 20 mg per day
+       🚨[REVIEW_REQUIRED] 20 mg por día
       </strong>
-      🚨[REVIEW_REQUIRED] [ES]: for children. For infants under 6 months, the usual amount is
+      🚨[REVIEW_REQUIRED]  para niños. Para bebés menores de 6 meses, la cantidad habitual es
       <strong>
-       [ES]: 10 mg per day
+       10 mg por día
       </strong>
-      [ES]: . Use a zinc product made for children. Follow the package or a health worker's instructions. Keep giving zinc for the full course, even after diarrhea stops.
+      . Utilice un producto de zinc hecho para niños. Siga el paquete o las instrucciones de un trabajador de la salud. Siga dándole zinc durante todo el tratamiento, incluso después de que cese la diarrea.
      </p>
     </div>
     <h2>
-     [ES]: Watch for dehydration
+     Esté atento a la deshidratación
     </h2>
     <div class="two">
      <div class="box warn">
@@ -205,16 +248,16 @@
       </span>
       <ul>
        <li>
-        [ES]: Very thirsty, dry mouth, little or no urination
+        Mucha sed, boca seca, orina poco o nada
        </li>
        <li>
-        [ES]: Dizziness, weakness, fast heartbeat
+        Mareos, debilidad, latidos cardíacos rápidos.
        </li>
        <li>
-        [ES]: Sunken eyes, no tears in a child, unusual sleepiness
+        Ojos hundidos, sin lágrimas en un niño, somnolencia inusual.
        </li>
        <li>
-        [ES]: Persistent diarrhea or vomiting
+        Diarrea o vómitos persistentes.
        </li>
       </ul>
      </div>
@@ -224,110 +267,110 @@
       </span>
       <ul>
        <li>
-        [ES]: Very drowsy, confused, limp, or unconscious
+        Muy somnoliento, confundido, flácido o inconsciente
        </li>
        <li>
-        [ES]: Unable to drink or breastfeed
+        No se puede beber ni amamantar
        </li>
        <li>
-        [ES]: Repeated vomiting or signs getting worse
+        Vómitos repetidos o signos que empeoran
        </li>
        <li>
-        [ES]: Blood in stool, severe pain, or seizure
+        Sangre en las heces, dolor intenso o convulsiones.
        </li>
       </ul>
      </div>
     </div>
     <h2>
-     [ES]: For caregivers and volunteers
+     Para cuidadores y voluntarios
     </h2>
     <ul>
      <li>
-      [ES]: Ask the person's age and symptoms. Ask if they can drink, how often they urinate, how often they vomit or have diarrhea, and whether there is blood.
+      Pregunte la edad y los síntomas de la persona. Pregúntele si puede beber, con qué frecuencia orina, con qué frecuencia vomita o tiene diarrea y si hay sangre.
      </li>
      <li>
-      [ES]: Prioritize urgent care for babies, older adults, pregnant people, people with chronic illness, and anyone getting worse.
+      Priorizar la atención de urgencia para bebés, adultos mayores, personas embarazadas, personas con enfermedades crónicas y cualquier persona que esté empeorando.
      </li>
      <li>
-      [ES]: Do not diagnose the cause of diarrhea or vomiting. Help with safe fluids and escalation.
+      No diagnostique la causa de la diarrea o los vómitos. Ayuda con fluidos seguros y escalada.
      </li>
      <li>
-      [ES]: Use safe water. If you are not sure the water is safe, follow local guidance. You may need to boil it, treat it, or use sealed water.
+      Utilice agua potable. Si no está seguro de que el agua sea segura, siga las instrucciones locales. Es posible que tengas que hervirlo, tratarlo o utilizar agua sellada.
      </li>
     </ul>
     <h2>
-     [ES]: Prevent the next illness
+     Prevenir la próxima enfermedad
     </h2>
     <ul>
      <li>
       <strong>
-       [ES]: Wash hands with soap
+       Lavarse las manos con jabón
       </strong>
-      [ES]: after using the toilet or cleaning a child. Wash before preparing food or eating.
+      después de ir al baño o limpiar a un niño. Lavar antes de preparar alimentos o comer.
      </li>
      <li>
       <strong>
-       [ES]: Use safe drinking water.
+       Utilice agua potable segura.
       </strong>
-      [ES]: Store it covered and clean. Boil or treat water when you are not sure it is safe.
+      Guárdelo tapado y limpio. Hierva o trate el agua cuando no esté seguro de que sea segura.
      </li>
      <li>
       <strong>
-       [ES]: Use a toilet or latrine
+       Utilice un baño o letrina
       </strong>
-      [ES]: and dispose of stool, including children's, safely.
+      y eliminar las heces, incluidas las de los niños, de forma segura.
      </li>
      <li>
       <strong>
-       [ES]: Vaccinate:
+       Vacunar:
       </strong>
-      [ES]: the rotavirus vaccine protects babies against a common, severe cause of diarrhea. Ask your health service.
+      La vacuna contra el rotavirus protege a los bebés contra una causa común y grave de diarrea. Pregunta a tu servicio de salud.
      </li>
     </ul>
     <h2>
-     [ES]: Sources
+     Fuentes
     </h2>
     <ul class="sources">
      <li>
       <a href="https://www.who.int/news-room/fact-sheets/detail/diarrhoeal-disease">
-       🚨[REVIEW_REQUIRED] [ES]: World Health Organization (WHO) — diarrhoeal disease and oral rehydration guidance
+       🚨[REVIEW_REQUIRED] Organización Mundial de la Salud (OMS): orientación sobre enfermedades diarreicas y rehidratación oral
       </a>
       .
      </li>
      <li>
-      [ES]: UNICEF — diarrhoeal disease and oral rehydration resources. unicef.org
+      UNICEF: recursos para enfermedades diarreicas y rehidratación oral. unicef.org
      </li>
      <li>
       <a href="https://www.who.int/publications/i/item/9241593180">
-       🚨[REVIEW_REQUIRED] [ES]: WHO/UNICEF — joint statement on clinical management of acute diarrhoea, including ORS and zinc
+       🚨[REVIEW_REQUIRED] OMS/UNICEF: declaración conjunta sobre el tratamiento clínico de la diarrea aguda, incluidas las SRO y el zinc
       </a>
       .
      </li>
      <li>
       <a href="https://www.cdc.gov/healthy-water-data/">
-       🚨[REVIEW_REQUIRED] [ES]: U.S. Centers for Disease Control and Prevention (CDC) — diarrheal illness prevention and dehydration-related guidance
+       🚨[REVIEW_REQUIRED] Centros para el Control y la Prevención de Enfermedades (CDC) de EE. UU.: orientación para la prevención de enfermedades diarreicas y la deshidratación
       </a>
       .
      </li>
      <li>
       <a href="https://medlineplus.gov/dehydration.html">
-       [ES]: MedlinePlus / U.S. National Library of Medicine — dehydration information
+       MedlinePlus/Biblioteca Nacional de Medicina de EE. UU.: información sobre deshidratación
       </a>
       .
      </li>
     </ul>
     <p class="disclaimer">
-     [ES]: This guide is general information, not medical advice. It is not a substitute for professional care. Local guidance may differ, especially for infants, cholera outbreaks, severe malnutrition, kidney or heart disease, or other medical conditions. When in doubt, seek medical help.
+     Esta guía es información general, no consejo médico. No sustituye la atención profesional. Las directrices locales pueden diferir, especialmente en el caso de bebés, brotes de cólera, desnutrición grave, enfermedades renales o cardíacas u otras afecciones médicas. En caso de duda, busque ayuda médica.
     </p>
    </div>
   </main>
   <footer class="site">
    <div class="wrap">
-    [ES]: A free, open Help Kit ·
+    Un kit de ayuda abierto y gratuito ·
     <a href="https://github.com/ai-village-agents/help-kit">
-     [ES]: source on GitHub
+     fuente en GitHub
     </a>
-    [ES]: · Public domain (CC0) · Verify against your local health authority
+    · Dominio público (CC0) · Verificar con su autoridad sanitaria local
    </div>
   </footer>
   <script>

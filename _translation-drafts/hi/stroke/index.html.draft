@@ -4,9 +4,9 @@
   <meta charset="utf-8"/>
   <meta content="width=device-width,initial-scale=1" name="viewport"/>
   <title>
-   [HI]: Stroke: Spot It Fast (FAST) — Help Kit | Help Kit
+   स्ट्रोक: इसे तेजी से पहचानें (फास्ट) - सहायता किट | Help Kit
   </title>
-  <meta content="[HI]: A free, source-cited one-page guide to spotting a stroke fast using FAST and BE-FAST (Face, Arm, Speech, Time, plus Balance and Eyes) and calling for help immediately. Based on AHA/ASA, Stroke Association, and WHO guidance." name="description"/>
+  <meta content="FAST और BE-FAST का उपयोग करके स्ट्रोक का तेजी से पता लगाने और तुरंत मदद के लिए कॉल करने के लिए एक निःशुल्क, स्रोत-उद्धृत मार्गदर्शिका। एएचए/एएसए और डब्ल्यूएचओ मार्गदर्शन के आधार पर।" name="description"/>
   <link href="https://ai-village-agents.github.io/help-kit/stroke/" rel="canonical"/>
   <meta content="noindex, nofollow, noarchive" name="robots"/>
   <meta content="Help Kit" property="og:site_name"/>
@@ -24,13 +24,51 @@
   <link href="../style.css" rel="stylesheet"/>
   <link href="/help-kit/manifest.webmanifest" rel="manifest"/>
   <link href="/help-kit/icon-192.png" rel="apple-touch-icon"/>
+  <script type="application/ld+json">
+   {
+  "@context": "https://schema.org",
+  "@type": "MedicalWebPage",
+  "name": "Stroke: Spot It Fast (FAST)",
+  "description": "A free, source-cited guide to spotting stroke fast using FAST and BE-FAST, and calling for help immediately. Based on AHA/ASA and WHO guidance.",
+  "url": "https://ai-village-agents.github.io/help-kit/stroke/",
+  "inLanguage": "en",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "Help Kit",
+    "url": "https://ai-village-agents.github.io/help-kit/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Help Kit",
+    "url": "https://ai-village-agents.github.io/help-kit/"
+  },
+  "citation": [
+    {
+      "@type": "WebPage",
+      "name": "American Stroke Association (AHA/ASA) — stroke warning signs and F.A.S.T.",
+      "url": "https://www.stroke.org/en/about-stroke/stroke-symptoms"
+    },
+    {
+      "@type": "WebPage",
+      "name": "U.S. CDC — stroke signs and symptoms and what to do",
+      "url": "https://www.cdc.gov/stroke/signs-symptoms/"
+    },
+    {
+      "@type": "WebPage",
+      "name": "World Health Organization (WHO) — cardiovascular disease and stroke fact sheets",
+      "url": "https://www.who.int/news-room/fact-sheets"
+    }
+  ]
+}
+  </script>
  </head>
  <body>
   <div class="notice danger" data-draft-warning="true">
    UNREVIEWED MACHINE TRANSLATION DRAFT (hi). Do not use for medical guidance, sharing, printing, or training until fluent local reviewers verify all emergency numbers, doses, timings, and local guidance against the English source.
   </div>
   <a class="skip-link" href="#main">
-   [HI]: Skip to main content
+   मुख्य सामग्री पर जाएँ
   </a>
   <header class="site">
    <div class="wrap">
@@ -39,49 +77,49 @@
     </a>
     <nav>
      <a href="../heat/">
-      [HI]: Extreme Heat
+      अत्यधिक गर्मी
      </a>
      <a href="../smoke/">
-      [HI]: Wildfire Smoke
+      जंगल की आग का धुआं
      </a>
      <a href="../naloxone/">
-      [HI]: Opioid Overdose
+      ओपिओइड ओवरडोज़
      </a>
      <a href="../ors/">
-      [HI]: Dehydration &amp; ORS
+      निर्जलीकरण एवं ओ.आर.एस
      </a>
      <a href="../choking/">
-      [HI]: Choking
+      दम घुट रहा है
      </a>
      <a href="../bleeding/">
-      [HI]: Severe Bleeding
+      गंभीर रक्तस्राव
      </a>
      <a href="../cpr/">
-      [HI]: CPR
+      सीपीआर
      </a>
      <a href="../stroke/">
-      [HI]: Stroke
+      आघात
      </a>
      <a href="../burns/">
-      [HI]: Burns
+      बर्न्स
      </a>
      <a href="../seizure/">
-      [HI]: Seizure
+      जब्ती
      </a>
      <a href="../allergy/">
-      [HI]: Severe Allergy
+      गंभीर एलर्जी
      </a>
      <a href="../cold/">
-      [HI]: Cold Safety
+      शीत सुरक्षा
      </a>
      <a href="../heart/">
-      [HI]: Heart Attack
+      दिल का दौरा
      </a>
      <a href="../triage/">
-      [HI]: Triage
+      ट्राइएज
      </a>
      <a href="../localize.html">
-      [HI]: Localize &amp; share
+      स्थानीयकृत करें और साझा करें
      </a>
     </nav>
    </div>
@@ -89,28 +127,28 @@
   <section class="hero">
    <div class="wrap">
     <h1>
-     [HI]: Stroke: spot it fast
+     स्ट्रोक: इसे तेजी से पहचानें
     </h1>
     <p>
-     [HI]: A stroke happens when blood flow to part of the brain is suddenly cut off. Brain cells can be injured within minutes, so spotting the signs and calling for help right away can save a life and reduce lasting disability. The signs are sudden — learn them with the word
+     स्ट्रोक तब होता है जब मस्तिष्क के एक हिस्से में रक्त का प्रवाह अचानक बंद हो जाता है। मस्तिष्क कोशिकाएं कुछ ही मिनटों में घायल हो सकती हैं, इसलिए संकेतों को पहचानने और तुरंत मदद मांगने से उपचार की संभावना में सुधार हो सकता है और स्थायी विकलांगता कम हो सकती है। संकेत अचानक होते हैं - उन्हें शब्द से सीखें
      <strong>
-      [HI]: FAST
+      तेज़
      </strong>
-     [HI]: . Free to read, print, and share.
+     . पढ़ने, प्रिंट करने और साझा करने के लिए निःशुल्क।
     </p>
    </div>
   </section>
   <main id="main">
    <div class="wrap">
     <p class="lede">
-     [HI]: Most strokes are caused by a clot blocking blood flow to the brain; some are caused by bleeding in the brain. You cannot tell which from the outside — and you do not need to. What matters is recognising a stroke and getting urgent medical care, because stroke treatments are highly time-sensitive.
+     अधिकांश स्ट्रोक मस्तिष्क में रक्त के प्रवाह को अवरुद्ध करने वाले थक्के के कारण होते हैं; कुछ मस्तिष्क में रक्तस्राव के कारण होते हैं। आप यह नहीं बता सकते कि कौन सा बाहर से है - और आपको इसकी आवश्यकता भी नहीं है। जो बात मायने रखती है वह स्ट्रोक को पहचानना और तत्काल चिकित्सा देखभाल प्राप्त करना है, क्योंकि स्ट्रोक के उपचार अत्यधिक समय-संवेदनशील होते हैं।
     </p>
     <div class="actions no-print">
      <a class="btn" href="javascript:window.print()">
-      [HI]: Print this page
+      इस पेज को प्रिंट करें
      </a>
      <a class="btn alt" href="stroke-onepager.pdf">
-      [HI]: Download printable PDF
+      प्रिंट करने योग्य पीडीएफ डाउनलोड करें
      </a>
     </div>
     <div class="box emergency">
@@ -118,53 +156,53 @@
       Call emergency services now
      </span>
      <h3>
-      [HI]: Stroke is always an emergency — call immediately
+      स्ट्रोक हमेशा एक आपातकालीन स्थिति होती है - तुरंत कॉल करें
      </h3>
      <p>
-      [HI]: If you see
+      यदि आप देखें
       <strong>
-       [HI]: any one
+       कोई भी
       </strong>
-      🚨[REVIEW_REQUIRED] [HI]: of the FAST signs below, call your local emergency number (examples: 911, 112, or 999; verify locally) right away. Do not wait to see if it passes. Use emergency medical transport if available; if a dispatcher gives different local instructions, follow them. Note the time the signs first started.
+      🚨[REVIEW_REQUIRED] नीचे दिए गए FAST संकेतों में से, तुरंत अपने स्थानीय आपातकालीन नंबर (उदाहरण: 911, 112, या 999; स्थानीय रूप से सत्यापित करें) पर कॉल करें। यह देखने के लिए प्रतीक्षा न करें कि यह बीत जाता है या नहीं। यदि उपलब्ध हो तो आपातकालीन चिकित्सा परिवहन का उपयोग करें; यदि कोई डिस्पैचर अलग-अलग स्थानीय निर्देश देता है, तो उनका पालन करें। उस समय पर ध्यान दें जब संकेत पहली बार शुरू हुए थे।
      </p>
     </div>
     <h2>
-     [HI]: Spot a stroke with FAST
+     FAST के साथ एक स्ट्रोक का पता लगाएं
     </h2>
     <div class="steps">
      <ol>
       <li>
        <strong>
-        [HI]: F — Face.
+        एफ - चेहरा.
        </strong>
-       [HI]: Ask the person to smile. Does one side of the face droop, or is it numb? Is the smile uneven?
+       व्यक्ति को मुस्कुराने के लिए कहें. क्या चेहरे का एक हिस्सा झुक जाता है या वह सुन्न हो जाता है? क्या मुस्कान असमान है?
       </li>
       <li>
        <strong>
-        [HI]: A — Arms.
+        ए - हथियार.
        </strong>
-       [HI]: Ask them to raise both arms. Does one arm drift downward, or are they unable to lift one?
+       उन्हें दोनों हाथ ऊपर उठाने के लिए कहें। क्या उनका एक हाथ नीचे की ओर खिसक जाता है, या वे उसे उठाने में असमर्थ हो जाते हैं?
       </li>
       <li>
        <strong>
-        [HI]: S — Speech.
+        एस - भाषण.
        </strong>
-       [HI]: Ask them to repeat a simple sentence. Is their speech slurred, strange, or hard to understand? Can they not speak or not understand you?
+       उनसे एक साधारण वाक्य दोहराने को कहें। क्या उनकी बोली अस्पष्ट, अजीब या समझने में कठिन है? क्या वे बोल नहीं सकते या आपकी बात समझ नहीं सकते?
       </li>
       <li>
        <strong>
-        [HI]: T — Time.
+        टी - समय.
        </strong>
-       [HI]: If you see any of these signs, it is
+       यदि आपको इनमें से कोई भी संकेत दिखाई देता है, तो यह है
        <strong>
-        [HI]: time to call emergency services immediately
+        आपातकालीन सेवाओं को तुरंत कॉल करने का समय
        </strong>
-       [HI]: . Note when the signs first appeared — this guides treatment.
+       . ध्यान दें कि लक्षण पहली बार कब प्रकट हुए - यह उपचार का मार्गदर्शन करता है।
       </li>
      </ol>
     </div>
     <h2>
-     [HI]: BE-FAST: two more sudden signs
+     तेजी से रहें: दो और अचानक संकेत
     </h2>
     <div class="box warn">
      <span class="tag warn">
@@ -173,27 +211,27 @@
      <ul>
       <li>
        <strong>
-        [HI]: B — Balance.
+        बी - संतुलन.
        </strong>
-       [HI]: Sudden loss of balance or coordination, sudden dizziness, or trouble walking.
+       अचानक संतुलन या समन्वय की हानि, अचानक चक्कर आना, या चलने में परेशानी।
       </li>
       <li>
        <strong>
-        [HI]: E — Eyes.
+        ई - आंखें.
        </strong>
-       [HI]: Sudden trouble seeing in one or both eyes, or sudden double or blurred vision.
+       एक या दोनों आँखों से देखने में अचानक परेशानी, या अचानक दोहरी या धुंधली दृष्टि।
       </li>
      </ul>
      <p>
-      [HI]: Other sudden warning signs include sudden numbness or weakness (especially on one side of the body), sudden confusion, and a sudden severe headache with no known cause. The key word is
+      अन्य अचानक चेतावनी संकेतों में अचानक सुन्नता या कमजोरी (विशेष रूप से शरीर के एक तरफ), अचानक भ्रम, और बिना किसी ज्ञात कारण के अचानक गंभीर सिरदर्द शामिल हैं। मुख्य शब्द है
       <strong>
-       [HI]: sudden
+       अचानक
       </strong>
       .
      </p>
     </div>
     <h2>
-     [HI]: What to do while you wait for help
+     जब आप सहायता की प्रतीक्षा कर रहे हों तो क्या करें?
     </h2>
     <div class="box ok">
      <span class="tag ok">
@@ -202,32 +240,32 @@
      <ul>
       <li>
        <strong>
-        [HI]: Note the time
+        समय नोट करें
        </strong>
-       [HI]: the signs first appeared, or when the person was last seen well. This helps decide which treatments are possible — tell emergency responders and the hospital team.
+       लक्षण पहली बार प्रकट हुए, या जब व्यक्ति को आखिरी बार ठीक से देखा गया था। इससे यह तय करने में मदद मिलती है कि कौन से उपचार संभव हैं - आपातकालीन उत्तरदाताओं और अस्पताल टीम को बताएं।
       </li>
       <li>
        <strong>
-        [HI]: Do not give food, drink, or any medicine
+        भोजन, पेय या कोई दवा न दें
        </strong>
-       [HI]: — including aspirin. A stroke can make swallowing unsafe, and the right treatment depends on the type of stroke, which only the hospital can determine.
+       - एस्पिरिन सहित। स्ट्रोक के कारण निगलना असुरक्षित हो सकता है और सही उपचार स्ट्रोक के प्रकार पर निर्भर करता है, जिसे केवल अस्पताल ही निर्धारित कर सकता है।
       </li>
       <li>
        <strong>
-        [HI]: Stay with them and keep them comfortable.
+        उनके साथ रहें और उन्हें सहज रखें।
        </strong>
-       [HI]: Help them sit or lie down with the head and shoulders slightly raised, and loosen tight clothing.
+       उन्हें सिर और कंधों को थोड़ा ऊपर उठाकर बैठने या लेटने में मदद करें और तंग कपड़ों को ढीला करें।
       </li>
       <li>
        <strong>
-        [HI]: Note any medicines they take
+        उनके द्वारा ली जाने वाली किसी भी दवा पर ध्यान दें
        </strong>
-       [HI]: (especially blood thinners) and any known conditions, for the hospital team.
+       (विशेष रूप से रक्त को पतला करने वाली दवाएं) और अस्पताल टीम के लिए कोई भी ज्ञात स्थिति।
       </li>
       <li>
-       [HI]: If they become unconscious but are breathing normally, roll them onto their side (recovery position) and keep watching their breathing. If they stop breathing normally,
+       यदि वे बेहोश हो गए हैं, लेकिन सामान्य रूप से सांस ले रहे हैं, तो उन्हें अपनी तरफ करवट ले लें (वसूली की स्थिति में) और उनकी सांस लेते हुए देखते रहें। यदि वे सामान्य रूप से सांस लेना बंद कर दें,
        <a href="../cpr/">
-        [HI]: start CPR
+        सीपीआर शुरू करें
        </a>
        .
       </li>
@@ -238,84 +276,84 @@
       Even if the signs go away, still call
      </span>
      <p>
-      [HI]: If stroke signs appear and then disappear within minutes, it may have been a
+      यदि स्ट्रोक के लक्षण दिखाई देते हैं और फिर कुछ ही मिनटों में गायब हो जाते हैं, तो यह हो सकता है
       <strong>
-       [HI]: transient ischaemic attack (TIA, or “mini-stroke”)
+       क्षणिक इस्केमिक हमला (टीआईए, या "मिनी-स्ट्रोक")
       </strong>
-      [HI]: . This is a serious warning that a major stroke may follow soon. It is still an emergency — call for help and get medical assessment right away, even if the person feels completely fine.
+      . यह एक गंभीर चेतावनी है कि जल्द ही एक बड़ा स्ट्रोक आ सकता है। यह अभी भी एक आपातकालीन स्थिति है - मदद के लिए कॉल करें और तुरंत चिकित्सा मूल्यांकन करवाएं, भले ही व्यक्ति पूरी तरह से ठीक महसूस कर रहा हो।
      </p>
     </div>
     <h2>
-     [HI]: Why speed matters
+     गति क्यों मायने रखती है
     </h2>
     <ul>
      <li>
       <strong>
-       [HI]: “Time is brain.”
+       "समय मस्तिष्क है।"
       </strong>
-      [HI]: Brain injury can worsen minute by minute during a stroke, so every minute of delay matters.
+      स्ट्रोक के दौरान मस्तिष्क की चोट मिनट-दर-मिनट खराब हो सकती है, इसलिए देरी का हर मिनट मायने रखता है।
      </li>
      <li>
-      [HI]: Clot-busting medicines and clot-removal procedures can reduce disability for some people, but they only work within limited time windows after the signs begin.
+      क्लॉट-बस्टिंग दवाएं और क्लॉट-हटाने की प्रक्रियाएं कुछ लोगों के लिए विकलांगता को कम कर सकती हैं, लेकिन वे लक्षण शुरू होने के बाद सीमित समय के भीतर ही काम करती हैं।
      </li>
      <li>
-      [HI]: Emergency medical transport is usually safer than driving when it is available: responders can start care, choose a hospital equipped for stroke, and alert the team to be ready.
+      आपातकालीन चिकित्सा परिवहन आमतौर पर उपलब्ध होने पर ड्राइविंग से अधिक सुरक्षित होता है: उत्तरदाता देखभाल शुरू कर सकते हैं, स्ट्रोक के लिए सुसज्जित अस्पताल चुन सकते हैं, और टीम को तैयार रहने के लिए सचेत कर सकते हैं।
      </li>
     </ul>
     <h2>
-     [HI]: Lower your risk
+     अपना जोखिम कम करें
     </h2>
     <ul>
      <li>
-      [HI]: Keep blood pressure controlled — high blood pressure is the biggest risk factor for stroke.
+      रक्तचाप को नियंत्रित रखें- उच्च रक्तचाप स्ट्रोक का सबसे बड़ा जोखिम कारक है।
      </li>
      <li>
-      [HI]: Don't smoke; keep alcohol within low-risk limits; stay physically active; and ask a clinician about weight, diet, and other risk factors if relevant.
+      धूम्रपान मत करो; शराब को कम जोखिम वाली सीमा के भीतर रखें; शारीरिक रूप से सक्रिय रहें; और यदि प्रासंगिक हो तो वजन, आहार और अन्य जोखिम कारकों के बारे में चिकित्सक से पूछें।
      </li>
      <li>
-      [HI]: Manage diabetes and cholesterol, and follow treatment for an irregular heartbeat (atrial fibrillation), which raises stroke risk.
+      मधुमेह और कोलेस्ट्रॉल का प्रबंधन करें, और अनियमित दिल की धड़कन (आलिंद फिब्रिलेशन) के लिए उपचार का पालन करें, जिससे स्ट्रोक का खतरा बढ़ जाता है।
      </li>
     </ul>
     <h2>
-     [HI]: Sources
+     सूत्रों का कहना है
     </h2>
     <ul class="sources">
      <li>
       <a href="https://www.stroke.org/en/about-stroke/stroke-symptoms">
-       🚨[REVIEW_REQUIRED] [HI]: American Stroke Association (AHA/ASA) — stroke warning signs and F.A.S.T.
+       🚨[REVIEW_REQUIRED] अमेरिकन स्ट्रोक एसोसिएशन (एएचए/एएसए) - स्ट्रोक चेतावनी संकेत और एफ.ए.एस.टी.
       </a>
      </li>
      <li>
       <a href="https://www.cdc.gov/stroke/signs-symptoms/">
-       🚨[REVIEW_REQUIRED] [HI]: U.S. CDC — stroke signs and symptoms and what to do
+       🚨[REVIEW_REQUIRED] यू.एस. सीडीसी - स्ट्रोक के संकेत और लक्षण और क्या करें
       </a>
       .
      </li>
      <li>
-      [HI]: Stroke Association (UK) — symptoms of stroke and the FAST test (stroke.org.uk).
+      स्ट्रोक एसोसिएशन (यूके) - स्ट्रोक के लक्षण और फास्ट टेस्ट (stroke.org.uk)।
      </li>
      <li>
       <a href="https://www.who.int/news-room/fact-sheets">
-       🚨[REVIEW_REQUIRED] [HI]: World Health Organization (WHO) — cardiovascular disease and stroke fact sheets
+       🚨[REVIEW_REQUIRED] विश्व स्वास्थ्य संगठन (डब्ल्यूएचओ) - हृदय रोग और स्ट्रोक तथ्य पत्रक
       </a>
       .
      </li>
     </ul>
     <p class="sources">
-     [HI]: FAST and BE-FAST are widely taught public-awareness tools. Some strokes do not fit these signs — trust any sudden, unexplained neurological change and call for help. Follow your local emergency dispatcher's instructions.
+     FAST और BE-FAST व्यापक रूप से जन-जागरूकता उपकरण सिखाए जाते हैं। कुछ स्ट्रोक इन संकेतों में फिट नहीं होते - किसी भी अचानक, अस्पष्टीकृत न्यूरोलॉजिकल परिवर्तन पर भरोसा करें और मदद के लिए कॉल करें। अपने स्थानीय आपातकालीन डिस्पैचर के निर्देशों का पालन करें।
     </p>
     <p class="disclaimer">
-     [HI]: This guide is general information, not medical advice. In an emergency, always call your local emergency number without delay. Reuse and reprint freely.
+     यह मार्गदर्शिका सामान्य जानकारी है, चिकित्सीय सलाह नहीं। किसी आपात स्थिति में, बिना देर किए हमेशा अपने स्थानीय आपातकालीन नंबर पर कॉल करें। पुन: उपयोग करें और स्वतंत्र रूप से पुनर्मुद्रण करें।
     </p>
    </div>
   </main>
   <footer class="site">
    <div class="wrap">
-    [HI]: A free, open Help Kit ·
+    एक मुफ़्त, खुली सहायता किट ·
     <a href="https://github.com/ai-village-agents/help-kit">
-     [HI]: source on GitHub
+     GitHub पर स्रोत
     </a>
-    [HI]: · Public domain (CC0) · Verify against your local health authority
+    · सार्वजनिक डोमेन (CC0) · अपने स्थानीय स्वास्थ्य प्राधिकरण के विरुद्ध सत्यापन करें
    </div>
   </footer>
   <script>

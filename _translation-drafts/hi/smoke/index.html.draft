@@ -4,9 +4,9 @@
   <meta charset="utf-8"/>
   <meta content="width=device-width,initial-scale=1" name="viewport"/>
   <title>
-   [HI]: Wildfire Smoke: Breathe Safe, Help Others — Help Kit | Help Kit
+   जंगल की आग का धुआं: सुरक्षित सांस लें, दूसरों की मदद करें - सहायता किट | Help Kit
   </title>
-  <meta content="[HI]: A free, source-cited one-page guide to protecting yourself and others from wildfire smoke, building DIY clean-air filters, and knowing when air quality becomes dangerous." name="description"/>
+  <meta content="जंगल की आग के धुएं से सुरक्षा के लिए एक मुफ़्त, स्रोत-उद्धृत मार्गदर्शिका: अपनी और दूसरों की सुरक्षा करें, DIY स्वच्छ-वायु फ़िल्टर बनाएं, और जानें कि हवा की गुणवत्ता कब खतरनाक है।" name="description"/>
   <link href="https://ai-village-agents.github.io/help-kit/smoke/" rel="canonical"/>
   <meta content="noindex, nofollow, noarchive" name="robots"/>
   <meta content="Help Kit" property="og:site_name"/>
@@ -24,13 +24,56 @@
   <link href="../style.css" rel="stylesheet"/>
   <link href="/help-kit/manifest.webmanifest" rel="manifest"/>
   <link href="/help-kit/icon-192.png" rel="apple-touch-icon"/>
+  <script type="application/ld+json">
+   {
+  "@context": "https://schema.org",
+  "@type": "MedicalWebPage",
+  "name": "Wildfire Smoke: Breathe Safe, Help Others",
+  "description": "A free, source-cited guide to wildfire smoke safety: protect yourself and others, build DIY clean-air filters, and know when air quality is dangerous.",
+  "url": "https://ai-village-agents.github.io/help-kit/smoke/",
+  "inLanguage": "en",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "Help Kit",
+    "url": "https://ai-village-agents.github.io/help-kit/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Help Kit",
+    "url": "https://ai-village-agents.github.io/help-kit/"
+  },
+  "citation": [
+    {
+      "@type": "WebPage",
+      "name": "AirNow — wildfire smoke and air quality information",
+      "url": "https://www.airnow.gov/wildfires/"
+    },
+    {
+      "@type": "WebPage",
+      "name": "U.S. Environmental Protection Agency (EPA) — wildfire smoke and health guidance",
+      "url": "https://www.epa.gov/wildfire-smoke-course"
+    },
+    {
+      "@type": "WebPage",
+      "name": "U.S. Centers for Disease Control and Prevention (CDC) — wildfire smoke and health",
+      "url": "https://www.cdc.gov/wildfires/about/index.html"
+    },
+    {
+      "@type": "WebPage",
+      "name": "U.S. National Weather Service — wildfire safety",
+      "url": "https://www.weather.gov/safety/wildfire"
+    }
+  ]
+}
+  </script>
  </head>
  <body>
   <div class="notice danger" data-draft-warning="true">
    UNREVIEWED MACHINE TRANSLATION DRAFT (hi). Do not use for medical guidance, sharing, printing, or training until fluent local reviewers verify all emergency numbers, doses, timings, and local guidance against the English source.
   </div>
   <a class="skip-link" href="#main">
-   [HI]: Skip to main content
+   मुख्य सामग्री पर जाएँ
   </a>
   <header class="site">
    <div class="wrap">
@@ -39,49 +82,49 @@
     </a>
     <nav>
      <a href="../heat/">
-      [HI]: Extreme Heat
+      अत्यधिक गर्मी
      </a>
      <a href="../smoke/">
-      [HI]: Wildfire Smoke
+      जंगल की आग का धुआं
      </a>
      <a href="../naloxone/">
-      [HI]: Opioid Overdose
+      ओपिओइड ओवरडोज़
      </a>
      <a href="../ors/">
-      [HI]: Dehydration &amp; ORS
+      निर्जलीकरण एवं ओ.आर.एस
      </a>
      <a href="../choking/">
-      [HI]: Choking
+      दम घुट रहा है
      </a>
      <a href="../bleeding/">
-      [HI]: Severe Bleeding
+      गंभीर रक्तस्राव
      </a>
      <a href="../cpr/">
-      [HI]: CPR
+      सीपीआर
      </a>
      <a href="../stroke/">
-      [HI]: Stroke
+      आघात
      </a>
      <a href="../burns/">
-      [HI]: Burns
+      बर्न्स
      </a>
      <a href="../seizure/">
-      [HI]: Seizure
+      जब्ती
      </a>
      <a href="../allergy/">
-      [HI]: Severe Allergy
+      गंभीर एलर्जी
      </a>
      <a href="../cold/">
-      [HI]: Cold Safety
+      शीत सुरक्षा
      </a>
      <a href="../heart/">
-      [HI]: Heart Attack
+      दिल का दौरा
      </a>
      <a href="../triage/">
-      [HI]: Triage
+      ट्राइएज
      </a>
      <a href="../localize.html">
-      [HI]: Localize &amp; share
+      स्थानीयकृत करें और साझा करें
      </a>
     </nav>
    </div>
@@ -89,31 +132,31 @@
   <section class="hero">
    <div class="wrap">
     <h1>
-     [HI]: Wildfire Smoke: breathe safe, help others
+     जंगल की आग का धुआं: सुरक्षित सांस लें, दूसरों की मदद करें
     </h1>
     <p>
-     [HI]: How to read air-quality alerts, protect your lungs, build a low-cost clean-air filter, and check on people most at risk. Free to read, print, and share.
+     वायु-गुणवत्ता अलर्ट कैसे पढ़ें, अपने फेफड़ों की सुरक्षा कैसे करें, कम लागत वाला स्वच्छ-वायु फिल्टर कैसे बनाएं और सबसे अधिक जोखिम वाले लोगों की जांच कैसे करें। पढ़ने, प्रिंट करने और साझा करने के लिए निःशुल्क।
     </p>
    </div>
   </section>
   <main id="main">
    <div class="wrap">
     <p class="lede">
-     [HI]: Wildfire smoke carries tiny particles. They can enter your lungs and bloodstream. Much smoke exposure can be reduced. The two things that matter most:
+     जंगल की आग का धुआं छोटे कणों को अपने साथ ले जाता है। वे आपके फेफड़ों और रक्तप्रवाह में प्रवेश कर सकते हैं। अधिक धुएँ के संपर्क को कम किया जा सकता है। दो चीजें जो सबसे ज्यादा मायने रखती हैं:
      <strong>
-      [HI]: check air quality
+      वायु गुणवत्ता की जाँच करें
      </strong>
-     [HI]: and
+     और
      <strong>
-      [HI]: reduce smoke exposure indoors and out.
+      घर के अंदर और बाहर धुएं का जोखिम कम करें।
      </strong>
     </p>
     <div class="actions no-print">
      <a class="btn" href="javascript:window.print()">
-      [HI]: Print this page
+      इस पेज को प्रिंट करें
      </a>
      <a class="btn alt" href="smoke-onepager.pdf">
-      [HI]: Download printable PDF
+      प्रिंट करने योग्य पीडीएफ डाउनलोड करें
      </a>
     </div>
     <div class="box emergency">
@@ -121,25 +164,25 @@
       Medical emergency
      </span>
      <h3>
-      [HI]: Smoke can trigger life-threatening reactions
+      धुआं जीवन-घातक प्रतिक्रियाओं को ट्रिगर कर सकता है
      </h3>
      <p>
-      [HI]: Call your local emergency number
+      अपने स्थानीय आपातकालीन नंबर पर कॉल करें
       <strong>
-       [HI]: immediately
+       तुरंत
       </strong>
-      [HI]: if someone has chest pain, severe shortness of breath, confusion, or blue lips or fingernails. People with asthma or COPD should follow their emergency action plan. Seek care if rescue inhalers do not help.
+      अगर किसी को सीने में दर्द, सांस लेने में गंभीर तकलीफ, भ्रम, या नीले होंठ या नाखून हैं। अस्थमा या सीओपीडी से पीड़ित लोगों को अपनी आपातकालीन कार्य योजना का पालन करना चाहिए। यदि बचाव इन्हेलर मदद नहीं करते हैं तो देखभाल की तलाश करें।
      </p>
     </div>
     <h2>
-     [HI]: Air Quality Index — know the colors
+     वायु गुणवत्ता सूचकांक - रंगों को जानें
     </h2>
     <p>
-     [HI]: The AQI tells you how dangerous the air is right now. Check an official local air-quality source when you can. In the U.S., use
+     AQI आपको बताता है कि अभी हवा कितनी खतरनाक है। जब संभव हो तो आधिकारिक स्थानीय वायु-गुणवत्ता स्रोत की जाँच करें। यू.एस. में, उपयोग करें
      <strong>
-      [HI]: AirNow.gov
+      AirNow.gov
      </strong>
-     [HI]: . Elsewhere, use your national or regional environment agency, or a trusted local weather alert service.
+     . अन्यत्र, अपनी राष्ट्रीय या क्षेत्रीय पर्यावरण एजेंसी, या किसी विश्वसनीय स्थानीय मौसम चेतावनी सेवा का उपयोग करें।
     </p>
     <div class="two">
      <div class="box ok">
@@ -147,10 +190,10 @@
        0–50 Green
       </span>
       <h3>
-       [HI]: Good
+       अच्छा
       </h3>
       <p>
-       [HI]: Air quality is fine. Normal activities are safe for most people.
+       हवा की गुणवत्ता ठीक है. अधिकांश लोगों के लिए सामान्य गतिविधियाँ सुरक्षित हैं।
       </p>
      </div>
      <div class="box warn">
@@ -158,10 +201,10 @@
        51–100 Yellow
       </span>
       <h3>
-       [HI]: Moderate
+       मध्यम
       </h3>
       <p>
-       [HI]: People unusually sensitive to smoke should consider reducing long outdoor exertion. This includes children, older adults, and people with asthma, COPD, or heart disease.
+       धूम्रपान के प्रति असामान्य रूप से संवेदनशील लोगों को लंबे समय तक बाहरी परिश्रम को कम करने पर विचार करना चाहिए। इसमें बच्चे, बड़े वयस्क और अस्थमा, सीओपीडी या हृदय रोग से पीड़ित लोग शामिल हैं।
       </p>
      </div>
      <div class="box warn">
@@ -169,10 +212,10 @@
        101–150 Orange
       </span>
       <h3>
-       [HI]: Unhealthy for sensitive groups
+       संवेदनशील समूहों के लिए अस्वास्थ्यकर
       </h3>
       <p>
-       [HI]: Sensitive groups should avoid long or heavy outdoor exertion. Everyone else should consider reducing it, especially if symptoms appear.
+       संवेदनशील समूहों को लंबे या भारी बाहरी परिश्रम से बचना चाहिए। बाकी सभी को इसे कम करने पर विचार करना चाहिए, खासकर यदि लक्षण दिखाई दें।
       </p>
      </div>
      <div class="box emergency">
@@ -180,10 +223,10 @@
        151–200 Red
       </span>
       <h3>
-       [HI]: Unhealthy
+       बीमार
       </h3>
       <p>
-       [HI]: Everyone should avoid prolonged exertion outdoors. Sensitive groups should stay inside.
+       हर किसी को बाहर लंबे समय तक परिश्रम करने से बचना चाहिए। संवेदनशील समूहों को अंदर रहना चाहिए.
       </p>
      </div>
      <div class="box emergency">
@@ -191,10 +234,10 @@
        201–300 Purple
       </span>
       <h3>
-       [HI]: Very unhealthy
+       बहुत ही अस्वास्थ्यकर
       </h3>
       <p>
-       [HI]: Everyone should reduce activity. Stay indoors in cleaner air if possible. Keep windows closed unless indoor heat creates a bigger immediate danger.
+       सभी को सक्रियता कम करनी चाहिए. यदि संभव हो तो स्वच्छ हवा में घर के अंदर रहें। खिड़कियाँ तब तक बंद रखें जब तक घर के अंदर की गर्मी कोई बड़ा तात्कालिक ख़तरा पैदा न कर दे।
       </p>
      </div>
      <div class="box emergency">
@@ -202,88 +245,88 @@
        301+ Maroon
       </span>
       <h3>
-       [HI]: Hazardous
+       खतरनाक
       </h3>
       <p>
-       🚨[REVIEW_REQUIRED] [HI]: Emergency conditions. Avoid outdoor exertion. If you must go out and can wear one safely, use a well-fitting N95, KN95, or P100 respirator.
+       🚨[REVIEW_REQUIRED] आपातकालीन स्थितियाँ. बाहरी परिश्रम से बचें. यदि आपको बाहर जाना है और आप इसे सुरक्षित रूप से पहन सकते हैं, तो अच्छी फिटिंग वाले N95, KN95, या P100 रेस्पिरेटर का उपयोग करें।
       </p>
      </div>
     </div>
     <h2>
-     [HI]: Who is most at risk?
+     सबसे ज्यादा जोखिम किसे है?
     </h2>
     <ul>
      <li>
-      [HI]: Children and teenagers (lungs still developing)
+      बच्चे और किशोर (फेफड़े अभी भी विकसित हो रहे हैं)
      </li>
      <li>
-      🚨[REVIEW_REQUIRED] [HI]: Adults 65 and older
+      🚨[REVIEW_REQUIRED] 65 वर्ष और उससे अधिक उम्र के वयस्क
      </li>
      <li>
-      [HI]: Pregnant people
+      गर्भवती लोग
      </li>
      <li>
-      [HI]: People with asthma, COPD, or other lung diseases
+      अस्थमा, सीओपीडी, या फेफड़ों की अन्य बीमारियों से पीड़ित लोग
      </li>
      <li>
-      [HI]: People with heart disease or diabetes
+      हृदय रोग या मधुमेह वाले लोग
      </li>
      <li>
-      [HI]: Outdoor workers
+      बाहरी कर्मचारी
      </li>
      <li>
-      [HI]: People experiencing homelessness or without reliable shelter
+      लोग बेघर होने या विश्वसनीय आश्रय के बिना अनुभव कर रहे हैं
      </li>
     </ul>
     <h2>
-     [HI]: Protect yourself and others
+     अपनी और दूसरों की सुरक्षा करें
     </h2>
     <ol class="steps">
      <li>
       <strong>
-       [HI]: Check the AQI every morning
+       हर सुबह AQI जांचें
       </strong>
-      [HI]: during wildfire season. Set alerts on AirNow or your weather app.
+      जंगल की आग के मौसम के दौरान. AirNow या अपने मौसम ऐप पर अलर्ट सेट करें।
      </li>
      <li>
       <strong>
-       [HI]: Stay indoors in cleaner air
+       स्वच्छ हवा में घर के अंदर रहें
       </strong>
-      [HI]: when smoke is unhealthy. Keep windows and doors closed unless indoor heat or another hazard makes that unsafe.
+      जब धुआं अस्वास्थ्यकर हो. खिड़कियाँ और दरवाज़े तब तक बंद रखें जब तक घर के अंदर की गर्मी या कोई अन्य खतरा उसे असुरक्षित न बना दे।
      </li>
      <li>
       <strong>
-       [HI]: Create a clean-air room.
+       एक साफ हवा वाला कमरा बनाएं।
       </strong>
-      [HI]: Choose an inside room with few windows. Run an air purifier continuously. Avoid candles, frying, vacuuming, or gas stoves without ventilation.
+      कुछ खिड़कियों वाला अंदर का कमरा चुनें। एयर प्यूरीफायर लगातार चलाते रहें। मोमबत्तियाँ, तलने, वैक्यूमिंग या बिना वेंटिलेशन वाले गैस स्टोव से बचें।
      </li>
      <li>
       <strong>
-       🚨[REVIEW_REQUIRED] [HI]: Wear a well-fitting N95, KN95, or P100 respirator
+       🚨[REVIEW_REQUIRED] अच्छी फिटिंग वाला N95, KN95, या P100 रेस्पिरेटर पहनें
       </strong>
-      🚨[REVIEW_REQUIRED] [HI]: if you must go outside in unhealthy smoke and can wear one safely. Cloth masks do not reliably block PM2.5. Respirators may not fit infants or young children. They may also be hard for some people with breathing conditions.
+      🚨[REVIEW_REQUIRED] यदि आपको अस्वास्थ्यकर धुएं में बाहर जाना है और इसे सुरक्षित रूप से पहन सकते हैं। कपड़े के मास्क विश्वसनीय रूप से PM2.5 को अवरुद्ध नहीं करते हैं। श्वसन यंत्र शिशुओं या छोटे बच्चों के लिए उपयुक्त नहीं हो सकते हैं। सांस लेने की समस्या वाले कुछ लोगों के लिए भी ये कठिन हो सकते हैं।
      </li>
      <li>
       <strong>
-       [HI]: Consider a Corsi-Rosenthal box.
+       कोर्सी-रोसेन्थल बॉक्स पर विचार करें।
       </strong>
-      [HI]: This DIY air cleaner uses a box fan and MERV-13 or better filters. It can reduce indoor particle levels when built and used correctly. Follow current build and electrical-safety guidance. Use newer, safety-certified fans where possible. Do not block exits or create trip hazards.
+      यह DIY एयर क्लीनर एक बॉक्स फैन और MERV-13 या बेहतर फिल्टर का उपयोग करता है। सही ढंग से निर्मित और उपयोग किए जाने पर यह इनडोर कण स्तर को कम कर सकता है। वर्तमान निर्माण और विद्युत-सुरक्षा मार्गदर्शन का पालन करें। जहां संभव हो नए, सुरक्षा-प्रमाणित पंखों का उपयोग करें। निकास को अवरुद्ध न करें या यात्रा के खतरे पैदा न करें।
      </li>
      <li>
       <strong>
-       [HI]: Check on neighbors at higher risk daily.
+       अधिक जोखिम वाले पड़ोसियों की प्रतिदिन जाँच करें।
       </strong>
-      [HI]: Offer masks, a ride to a clean-air shelter, or help running a filter.
+      मास्क प्रदान करें, स्वच्छ हवा वाले आश्रय की सवारी करें, या फ़िल्टर चलाने में सहायता करें।
      </li>
      <li>
       <strong>
-       [HI]: Reduce or cancel outdoor events
+       बाहरी आयोजनों को कम करें या रद्द करें
       </strong>
-      🚨[REVIEW_REQUIRED] [HI]: when AQI is over 150.
+      🚨[REVIEW_REQUIRED] जब AQI 150 से अधिक हो.
      </li>
     </ol>
     <h2>
-     [HI]: For community organizers
+     सामुदायिक आयोजकों के लिए
     </h2>
     <div class="box ok">
      <span class="tag ok">
@@ -291,142 +334,142 @@
      </span>
      <ul>
       <li>
-       [HI]: Identify or coordinate
+       पहचानें या समन्वय करें
        <strong>
-        [HI]: clean-air spaces
+        स्वच्छ हवा वाले स्थान
        </strong>
-       🚨[REVIEW_REQUIRED] [HI]: . Use HEPA filtration, safe DIY air cleaners, or other verified filtration.
+       🚨[REVIEW_REQUIRED] . HEPA निस्पंदन, सुरक्षित DIY एयर क्लीनर, या अन्य सत्यापित निस्पंदन का उपयोग करें।
       </li>
       <li>
        <strong>
-        [HI]: Distribute well-fitting respirators
+        अच्छी फिटिंग वाले श्वासयंत्र वितरित करें
        </strong>
-       [HI]: to outdoor workers and unhoused neighbors. Share fit and use caveats. Follow local worker-safety guidance.
+       बाहरी श्रमिकों और गैर-घर वाले पड़ोसियों के लिए। फिट साझा करें और चेतावनियों का उपयोग करें। स्थानीय कार्यकर्ता-सुरक्षा मार्गदर्शन का पालन करें।
       </li>
       <li>
-       [HI]: Share AQI alerts via text, social media, and local networks.
+       टेक्स्ट, सोशल मीडिया और स्थानीय नेटवर्क के माध्यम से AQI अलर्ट साझा करें।
       </li>
       <li>
-       🚨[REVIEW_REQUIRED] [HI]: Reschedule outdoor community events when AQI &gt; 150.
+       🚨[REVIEW_REQUIRED] AQI &gt; 150 होने पर बाहरी सामुदायिक कार्यक्रमों को पुनर्निर्धारित करें।
       </li>
       <li>
-       [HI]: Partner with local libraries, community centers, and faith groups. Work together to extend shelter hours.
+       स्थानीय पुस्तकालयों, सामुदायिक केंद्रों और आस्था समूहों के साथ साझेदारी करें। आश्रय के घंटे बढ़ाने के लिए मिलकर काम करें।
       </li>
      </ul>
     </div>
     <h2>
-     [HI]: When to seek medical help
+     चिकित्सा सहायता कब लेनी है
     </h2>
     <ul>
      <li>
-      [HI]: Difficulty breathing or shortness of breath
+      सांस लेने में कठिनाई या सांस फूलना
      </li>
      <li>
-      [HI]: Persistent cough, especially with phlegm or blood
+      लगातार खांसी, विशेषकर कफ या खून के साथ
      </li>
      <li>
-      [HI]: Chest pain or tightness
+      सीने में दर्द या जकड़न
      </li>
      <li>
-      [HI]: Wheezing that does not improve with medication
+      घरघराहट जो दवा से ठीक नहीं होती
      </li>
      <li>
-      [HI]: Dizziness or confusion
+      चक्कर आना या भ्रम होना
      </li>
      <li>
-      [HI]: Palpitations or irregular heartbeat
+      धड़कन या अनियमित दिल की धड़कन
      </li>
     </ul>
     <h2>
-     [HI]: Key resources
+     प्रमुख संसाधन
     </h2>
     <ul>
      <li>
       <strong>
-       [HI]: AirNow.gov
+       AirNow.gov
       </strong>
-      [HI]: — Real-time AQI and fire maps (U.S.)
+      - वास्तविक समय AQI और अग्नि मानचित्र (यू.एस.)
      </li>
      <li>
       <strong>
-       [HI]: Fire and Smoke Map
+       आग और धुआं मानचित्र
       </strong>
       —
       <a href="https://fire.airnow.gov/">
-       [HI]: fire.airnow.gov
+       fire.airnow.gov
       </a>
      </li>
      <li>
       <strong>
-       🚨[REVIEW_REQUIRED] [HI]: EPA Wildfire Smoke Guide
+       🚨[REVIEW_REQUIRED] ईपीए वाइल्डफ़ायर स्मोक गाइड
       </strong>
       —
       <a href="https://www.epa.gov/wildfire-smoke-course">
-       [HI]: epa.gov/pm-pollution/wildfire-smoke-guide-factsheets
+       epa.gov/pm-pollution/wildfire-smoke-guide-factशीट्स
       </a>
      </li>
      <li>
       <strong>
-       [HI]: Corsi-Rosenthal Box build guides
+       कोर्सी-रोसेन्थल बॉक्स बिल्ड गाइड
       </strong>
       —
       <a href="https://cleanaircrew.org/">
-       [HI]: cleanaircrew.org
+       Cleanaircrew.org
       </a>
      </li>
      <li>
       <strong>
-       [HI]: Emergency
+       आपातकाल
       </strong>
-      🚨[REVIEW_REQUIRED] [HI]: — your local emergency number (examples: 911, 112, or 999; verify locally)
+      🚨[REVIEW_REQUIRED] - आपका स्थानीय आपातकालीन नंबर (उदाहरण: 911, 112, या 999; स्थानीय रूप से सत्यापित करें)
      </li>
     </ul>
     <div class="disclaimer">
      <p>
       <strong>
-       [HI]: Sources include:
+       सूत्रों में शामिल हैं:
       </strong>
      </p>
      <ul class="sources">
       <li>
        <a href="https://www.airnow.gov/wildfires/">
-        [HI]: AirNow — wildfire smoke and air quality information
+        AirNow - जंगल की आग का धुआं और वायु गुणवत्ता की जानकारी
        </a>
        .
       </li>
       <li>
        <a href="https://www.epa.gov/wildfire-smoke-course">
-        🚨[REVIEW_REQUIRED] [HI]: U.S. Environmental Protection Agency (EPA) — wildfire smoke and health guidance
+        🚨[REVIEW_REQUIRED] अमेरिकी पर्यावरण संरक्षण एजेंसी (ईपीए) - जंगल की आग का धुआं और स्वास्थ्य मार्गदर्शन
        </a>
        .
       </li>
       <li>
        <a href="https://www.cdc.gov/wildfires/about/index.html">
-        🚨[REVIEW_REQUIRED] [HI]: U.S. Centers for Disease Control and Prevention (CDC) — wildfire smoke and health
+        🚨[REVIEW_REQUIRED] अमेरिकी रोग नियंत्रण और रोकथाम केंद्र (सीडीसी) - जंगल की आग का धुआं और स्वास्थ्य
        </a>
        .
       </li>
       <li>
        <a href="https://www.weather.gov/safety/wildfire">
-        [HI]: U.S. National Weather Service — wildfire safety
+        अमेरिकी राष्ट्रीय मौसम सेवा - जंगल की आग से सुरक्षा
        </a>
        .
       </li>
       <li>
-       [HI]: Published research and public guidance on DIY air filtration. Verify device-building instructions against current safety guidance before use.
+       DIY वायु निस्पंदन पर प्रकाशित शोध और सार्वजनिक मार्गदर्शन। उपयोग से पहले वर्तमान सुरक्षा मार्गदर्शन के अनुसार डिवाइस-निर्माण निर्देशों को सत्यापित करें।
       </li>
      </ul>
      <p>
-      [HI]: This guide is general information, not medical advice or first-aid training. In an emergency, call your local emergency number and follow dispatcher/local guidance.
+      यह मार्गदर्शिका सामान्य जानकारी है, चिकित्सीय सलाह या प्राथमिक चिकित्सा प्रशिक्षण नहीं। आपातकालीन स्थिति में, अपने स्थानीय आपातकालीन नंबर पर कॉल करें और डिस्पैचर/स्थानीय मार्गदर्शन का पालन करें।
      </p>
     </div>
    </div>
   </main>
   <footer class="site">
    <div class="wrap">
-    [HI]: Made by AI Village agents to reduce harm.
+    नुकसान को कम करने के लिए एआई विलेज एजेंटों द्वारा बनाया गया।
     <a href="https://github.com/ai-village-agents/help-kit">
-     [HI]: Edit on GitHub
+     GitHub पर संपादित करें
     </a>
     .
    </div>

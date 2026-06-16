@@ -4,9 +4,9 @@
   <meta charset="utf-8"/>
   <meta content="width=device-width,initial-scale=1" name="viewport"/>
   <title>
-   [FR]: Severe Allergy &amp; Anaphylaxis First Aid — Help Kit | Help Kit
+   Premiers soins en cas d'allergies graves et d'anaphylaxie — Trousse d'aide | Help Kit
   </title>
-  <meta content="[FR]: A free, source-cited one-page guide to severe allergic reaction and anaphylaxis first aid: call emergency services, use epinephrine if prescribed or available under local guidance, position safely, monitor breathing, and know when a second dose may be needed. Based on NHS, Resuscitation Council UK, AAAAI, and Red Cross guidance." name="description"/>
+  <meta content="Un guide gratuit sur les premiers soins en cas de réaction allergique grave : appelez les services d'urgence, utilisez de l'épinéphrine si disponible, positionnez-vous en toute sécurité et surveillez votre respiration." name="description"/>
   <link href="https://ai-village-agents.github.io/help-kit/allergy/" rel="canonical"/>
   <meta content="noindex, nofollow, noarchive" name="robots"/>
   <meta content="Help Kit" property="og:site_name"/>
@@ -24,13 +24,56 @@
   <link href="../style.css" rel="stylesheet"/>
   <link href="/help-kit/manifest.webmanifest" rel="manifest"/>
   <link href="/help-kit/icon-192.png" rel="apple-touch-icon"/>
+  <script type="application/ld+json">
+   {
+  "@context": "https://schema.org",
+  "@type": "MedicalWebPage",
+  "name": "Severe Allergy & Anaphylaxis First Aid",
+  "description": "A free guide to severe allergic reaction first aid: call emergency services, use epinephrine if available, position safely, and monitor breathing.",
+  "url": "https://ai-village-agents.github.io/help-kit/allergy/",
+  "inLanguage": "en",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "Help Kit",
+    "url": "https://ai-village-agents.github.io/help-kit/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Help Kit",
+    "url": "https://ai-village-agents.github.io/help-kit/"
+  },
+  "citation": [
+    {
+      "@type": "WebPage",
+      "name": "NHS — Anaphylaxis",
+      "url": "https://www.nhs.uk/conditions/anaphylaxis/"
+    },
+    {
+      "@type": "WebPage",
+      "name": "Resuscitation Council UK — Emergency treatment of anaphylaxis",
+      "url": "https://www.resus.org.uk/library/additional-guidance/guidance-anaphylaxis"
+    },
+    {
+      "@type": "WebPage",
+      "name": "American Academy of Allergy, Asthma & Immunology — Anaphylaxis",
+      "url": "https://www.aaaai.org/tools-for-the-public/conditions-library/allergies/anaphylaxis"
+    },
+    {
+      "@type": "WebPage",
+      "name": "American Red Cross — first-aid training and resources",
+      "url": "https://www.redcross.org/take-a-class"
+    }
+  ]
+}
+  </script>
  </head>
  <body>
   <div class="notice danger" data-draft-warning="true">
    UNREVIEWED MACHINE TRANSLATION DRAFT (fr). Do not use for medical guidance, sharing, printing, or training until fluent local reviewers verify all emergency numbers, doses, timings, and local guidance against the English source.
   </div>
   <a class="skip-link" href="#main">
-   [FR]: Skip to main content
+   Passer au contenu principal
   </a>
   <header class="site">
    <div class="wrap">
@@ -39,49 +82,49 @@
     </a>
     <nav>
      <a href="../heat/">
-      [FR]: Extreme Heat
+      Chaleur extrême
      </a>
      <a href="../smoke/">
-      [FR]: Wildfire Smoke
+      Fumée de feux de forêt
      </a>
      <a href="../naloxone/">
-      [FR]: Opioid Overdose
+      Surdose d'opioïdes
      </a>
      <a href="../ors/">
-      [FR]: Dehydration &amp; ORS
+      Déshydratation et SOR
      </a>
      <a href="../choking/">
-      [FR]: Choking
+      Étouffement
      </a>
      <a href="../bleeding/">
-      [FR]: Severe Bleeding
+      Saignement sévère
      </a>
      <a href="../cpr/">
-      [FR]: CPR
+      RCR
      </a>
      <a href="../stroke/">
-      [FR]: Stroke
+      Accident vasculaire cérébral
      </a>
      <a href="../burns/">
-      [FR]: Burns
+      Brûlures
      </a>
      <a href="../seizure/">
-      [FR]: Seizure
+      Crise d'épilepsie
      </a>
      <a href="../allergy/">
-      [FR]: Severe Allergy
+      Allergie sévère
      </a>
      <a href="../cold/">
-      [FR]: Cold Safety
+      Sécurité contre le froid
      </a>
      <a href="../heart/">
-      [FR]: Heart Attack
+      Crise cardiaque
      </a>
      <a href="../triage/">
-      [FR]: Triage
+      Triage
      </a>
      <a href="../localize.html">
-      [FR]: Localize &amp; share
+      Localiser et partager
      </a>
     </nav>
    </div>
@@ -89,24 +132,24 @@
   <section class="hero">
    <div class="wrap">
     <h1>
-     [FR]: Severe allergy and anaphylaxis: first aid
+     Allergie sévère et anaphylaxie : premiers secours
     </h1>
     <p>
-     🚨[REVIEW_REQUIRED] [FR]: Anaphylaxis is a severe allergic reaction that can affect breathing, the throat, or blood circulation. It can worsen quickly after food, insect stings, medicines, latex, or another trigger. Clear first steps — call for help, use epinephrine when indicated, position safely, and watch breathing — can reduce danger while emergency care is coming. Free to read, print, and share.
+     🚨[REVIEW_REQUIRED] L'anaphylaxie est une réaction allergique grave qui peut affecter la respiration, la gorge ou la circulation sanguine. Cela peut s’aggraver rapidement après de la nourriture, des piqûres d’insectes, des médicaments, du latex ou un autre déclencheur. Des premiers pas clairs – appeler à l’aide, utiliser de l’épinéphrine lorsque cela est indiqué, se positionner en toute sécurité et surveiller la respiration – peuvent réduire le danger pendant l’arrivée des soins d’urgence. Lecture, impression et partage gratuits.
     </p>
    </div>
   </section>
   <main id="main">
    <div class="wrap">
     <p class="lede">
-     🚨[REVIEW_REQUIRED] [FR]: Epinephrine (adrenaline) is the first-line emergency treatment for anaphylaxis. If the person has a prescribed auto-injector or an allergy action plan, follow it. In some places, trained responders may use stock epinephrine; follow local rules, product instructions, and dispatcher guidance.
+     🚨[REVIEW_REQUIRED] L'épinéphrine (adrénaline) est le traitement d'urgence de première intention contre l'anaphylaxie. Si la personne a un auto-injecteur prescrit ou un plan d’action contre les allergies, suivez-le. Dans certains endroits, les intervenants formés peuvent utiliser de l'épinéphrine de base ; suivez les règles locales, les instructions du produit et les conseils du répartiteur.
     </p>
     <div class="actions no-print">
      <a class="btn" href="javascript:window.print()">
-      [FR]: Print this page
+      Imprimer cette page
      </a>
      <a class="btn alt" href="allergy-onepager.pdf">
-      [FR]: Download printable PDF
+      Télécharger le PDF imprimable
      </a>
     </div>
     <div class="box emergency">
@@ -114,62 +157,62 @@
       Call emergency services now
      </span>
      <h3>
-      [FR]: Treat this as anaphylaxis if severe symptoms appear
+      Traitez cela comme une anaphylaxie si des symptômes graves apparaissent
      </h3>
      <p>
-      🚨[REVIEW_REQUIRED] [FR]: Call your local emergency number (examples: 911, 112, or 999; verify locally) if someone has a possible allergic reaction with severe symptoms. Warning signs include trouble breathing, wheeze, repeated cough, throat/tongue/lip swelling, trouble swallowing or speaking, hoarse voice, faintness, collapse, a pale or floppy child, confusion, or symptoms after a known serious allergen exposure. Severe belly pain, vomiting, or widespread hives plus other symptoms can also be a warning sign.
+      🚨[REVIEW_REQUIRED] Appelez votre numéro d'urgence local (exemples : 911, 112 ou 999 ; vérifiez localement) si quelqu'un a une possible réaction allergique avec des symptômes graves. Les signes avant-coureurs comprennent des difficultés respiratoires, une respiration sifflante, une toux répétée, un gonflement de la gorge/de la langue/des lèvres, des difficultés à avaler ou à parler, une voix rauque, un évanouissement, un collapsus, un enfant pâle ou flasque, une confusion ou des symptômes après une exposition grave connue à un allergène. Des douleurs abdominales sévères, des vomissements ou de l'urticaire généralisée ainsi que d'autres symptômes peuvent également être un signe d'avertissement.
       <strong>
-       [FR]: Do not wait for a rash before acting.
+       N'attendez pas une éruption cutanée pour agir.
       </strong>
      </p>
     </div>
     <h2>
-     [FR]: What to do, step by step
+     Que faire, étape par étape
     </h2>
     <ol class="steps">
      <li>
       <strong>
-       [FR]: Call for emergency help.
+       Appelez à l’aide d’urgence.
       </strong>
-      [FR]: Put the phone on speaker if you can. Say “possible anaphylaxis” and follow dispatcher instructions.
+      Mettez le téléphone sur haut-parleur si vous le pouvez. Dites « anaphylaxie possible » et suivez les instructions du répartiteur.
      </li>
      <li>
       <strong>
-       🚨[REVIEW_REQUIRED] [FR]: Use epinephrine if indicated.
+       🚨[REVIEW_REQUIRED] Utilisez de l'épinéphrine si indiqué.
       </strong>
-      [FR]: Help the person use their prescribed auto-injector if they cannot do it themselves, or follow their allergy action plan/local responder rules. Most auto-injectors go into the outer middle thigh and can be used through clothing. Press and hold for the time shown on that device. Then note the time it was given.
+      Aidez la personne à utiliser l’auto-injecteur qui lui a été prescrit si elle ne peut pas le faire elle-même, ou suivez son plan d’action contre les allergies/les règles de l’intervenant local. La plupart des auto-injecteurs pénètrent dans la partie externe de la cuisse et peuvent être utilisés à travers les vêtements. Appuyez et maintenez enfoncé pendant la durée indiquée sur cet appareil. Notez ensuite l'heure à laquelle elle a été donnée.
      </li>
      <li>
       <strong>
-       [FR]: Position them safely.
+       Positionnez-les en toute sécurité.
       </strong>
-      [FR]: If they feel faint, weak, or dizzy, lay them flat and raise their legs if possible. Do
+      S'ils se sentent faibles, faibles ou étourdis, posez-les à plat et levez les jambes si possible. Faire
       <strong>
-       [FR]: not
+       pas
       </strong>
-      [FR]: make them stand or walk. If breathing is difficult, let them sit upright. If vomiting or unconscious but breathing, place them on their side. A pregnant person is often positioned on the left side.
+      faites-les se tenir debout ou marcher. Si la respiration est difficile, laissez-le s'asseoir droit. S’il vomit ou est inconscient mais respire, placez-le sur le côté. Une personne enceinte est souvent positionnée du côté gauche.
      </li>
      <li>
       <strong>
-       [FR]: Remove the trigger only if safe and quick.
+       Retirez la gâchette uniquement si cela est sûr et rapide.
       </strong>
-      🚨[REVIEW_REQUIRED] [FR]: Move away from insects, stop exposure, or brush/scrape away a visible stinger if you can do it without delay. Do not delay epinephrine or the emergency call to search for a trigger.
+      🚨[REVIEW_REQUIRED] Éloignez-vous des insectes, arrêtez l'exposition ou brossez/grattez un dard visible si vous pouvez le faire sans délai. Ne retardez pas l'épinéphrine ou l'appel d'urgence pour rechercher un déclencheur.
      </li>
      <li>
       <strong>
-       [FR]: Watch breathing and stay with them.
+       Observez leur respiration et restez avec eux.
       </strong>
-      🚨[REVIEW_REQUIRED] [FR]: Symptoms can return. If symptoms do not improve after about 5–15 minutes, or they return, a second auto-injector may be needed. Give it only if one is available and the product instructions, action plan, or dispatcher say to. Keep them under observation until emergency help takes over.
+      🚨[REVIEW_REQUIRED] Les symptômes peuvent réapparaître. Si les symptômes ne s’améliorent pas après environ 5 à 15 minutes, ou s’ils réapparaissent, un deuxième auto-injecteur peut être nécessaire. Ne le donnez que s'il y en a un disponible et que les instructions du produit, le plan d'action ou le répartiteur le disent. Gardez-les sous observation jusqu'à ce que les secours prennent le relais.
      </li>
      <li>
       <strong>
-       [FR]: If they become unresponsive and are not breathing normally,
+       S'ils ne répondent plus et ne respirent pas normalement,
       </strong>
-      [FR]: call for help, start
+      appeler à l'aide, commencer
       <a href="../cpr/">
-       [FR]: CPR
+       RCR
       </a>
-      🚨[REVIEW_REQUIRED] [FR]: , and use an AED if available.
+      🚨[REVIEW_REQUIRED] , et utilisez un DAE si disponible.
      </li>
     </ol>
     <div class="box warn">
@@ -178,94 +221,94 @@
      </span>
      <ul>
       <li>
-       [FR]: Antihistamines may help itching or hives, but they do
+       Les antihistaminiques peuvent soulager les démangeaisons ou l'urticaire, mais ils le font
        <strong>
-        [FR]: not
+        pas
        </strong>
-       🚨[REVIEW_REQUIRED] [FR]: treat airway swelling or shock and should not replace epinephrine in anaphylaxis.
+       🚨[REVIEW_REQUIRED] traiter l’enflure ou le choc des voies respiratoires et ne doit pas remplacer l’épinéphrine en cas d’anaphylaxie.
       </li>
       <li>
-       [FR]: Asthma inhalers may help wheeze for some people, but they do
+       Les inhalateurs contre l'asthme peuvent aider certaines personnes à avoir une respiration sifflante, mais ils le font
        <strong>
-        [FR]: not
+        pas
        </strong>
-       🚨[REVIEW_REQUIRED] [FR]: replace epinephrine for a severe allergic reaction.
+       🚨[REVIEW_REQUIRED] remplacer l'épinéphrine en cas de réaction allergique grave.
       </li>
       <li>
-       [FR]: Do not give food or drink if the person is having trouble breathing, swallowing, staying awake, or may need urgent treatment.
+       Ne donnez pas de nourriture ou de boisson si la personne a des difficultés à respirer, à avaler, à rester éveillée ou si elle a besoin d'un traitement urgent.
       </li>
       <li>
-       [FR]: Do not stand the person up or walk them around if they feel faint or weak.
+       Ne mettez pas la personne debout et ne la promenez pas si elle se sent faible ou faible.
       </li>
      </ul>
     </div>
     <h2>
-     [FR]: Milder allergy symptoms still need watching
+     Les symptômes d’allergie plus légers doivent encore être surveillés
     </h2>
     <p>
-     [FR]: Itchy skin, a small area of hives, sneezing, or mild swelling without breathing trouble, throat/tongue symptoms, vomiting, faintness, or confusion may be less urgent. Follow the person’s allergy plan or local medical advice, and keep watching because symptoms can worsen. If you are unsure, if symptoms spread quickly, or if severe symptoms appear, treat it as an emergency.
+     Des démangeaisons cutanées, une petite zone d'urticaire, des éternuements ou un léger gonflement sans difficulté respiratoire, des symptômes de gorge/langue, des vomissements, un évanouissement ou une confusion peuvent être moins urgents. Suivez le plan d’allergie de la personne ou les conseils médicaux locaux et continuez à surveiller car les symptômes peuvent s’aggraver. Si vous n'êtes pas sûr, si les symptômes se propagent rapidement ou si des symptômes graves apparaissent, traitez-le comme une urgence.
     </p>
     <h2>
-     [FR]: Prepare before an emergency
+     Se préparer avant une urgence
     </h2>
     <ul>
      <li>
-      🚨[REVIEW_REQUIRED] [FR]: People prescribed epinephrine should carry it as instructed and check expiry dates. Many action plans recommend having two doses available.
+      🚨[REVIEW_REQUIRED] Les personnes à qui l’on prescrit de l’épinéphrine doivent la transporter comme indiqué et vérifier les dates de péremption. De nombreux plans d’action recommandent de disposer de deux doses.
      </li>
      <li>
-      [FR]: Make sure family, caregivers, teachers, coworkers, and trip leaders know where the auto-injector is and how to use that specific device.
+      Assurez-vous que la famille, les soignants, les enseignants, les collègues et les accompagnateurs du voyage savent où se trouve l'auto-injecteur et comment utiliser ce dispositif spécifique.
      </li>
      <li>
-      [FR]: Have a written allergy action plan when possible, especially for children, schools, camps, workplaces, and travel.
+      Ayez un plan d'action écrit contre les allergies lorsque cela est possible, en particulier pour les enfants, les écoles, les camps, les lieux de travail et les voyages.
      </li>
      <li>
-      [FR]: Read food and medicine labels carefully and ask about ingredients when eating away from home if a known trigger could be present.
+      Lisez attentivement les étiquettes des aliments et des médicaments et renseignez-vous sur les ingrédients lorsque vous mangez à l'extérieur de la maison si un déclencheur connu pourrait être présent.
      </li>
     </ul>
     <h2>
-     [FR]: Sources
+     Sources
     </h2>
     <ul class="sources">
      <li>
       <a href="https://www.nhs.uk/conditions/anaphylaxis/">
-       🚨[REVIEW_REQUIRED] [FR]: NHS — Anaphylaxis
+       🚨[REVIEW_REQUIRED] NHS — Anaphylaxie
       </a>
-      🚨[REVIEW_REQUIRED] [FR]: (symptoms, epinephrine auto-injector use, positioning, and emergency care).
+      🚨[REVIEW_REQUIRED] (symptômes, utilisation de l'auto-injecteur d'épinéphrine, positionnement et soins d'urgence).
      </li>
      <li>
       <a href="https://www.resus.org.uk/library/additional-guidance/guidance-anaphylaxis">
-       [FR]: Resuscitation Council UK — Emergency treatment of anaphylaxis
+       Resuscitation Council UK — Traitement d’urgence de l’anaphylaxie
       </a>
-      🚨[REVIEW_REQUIRED] [FR]: (recognition, adrenaline/epinephrine, positioning, and repeat dosing guidance).
+      🚨[REVIEW_REQUIRED] (reconnaissance, adrénaline/épinéphrine, positionnement et conseils de répétition du dosage).
      </li>
      <li>
       <a href="https://www.aaaai.org/tools-for-the-public/conditions-library/allergies/anaphylaxis">
-       [FR]: American Academy of Allergy, Asthma &amp; Immunology — Anaphylaxis
+       Académie américaine d'allergie, d'asthme et d'immunologie — Anaphylaxie
       </a>
-      [FR]: (recognition and treatment overview).
+      (aperçu de la reconnaissance et du traitement).
      </li>
      <li>
       <a href="https://www.redcross.org/take-a-class">
-       [FR]: American Red Cross — first-aid training and resources
+       Croix-Rouge américaine — formation et ressources en premiers secours
       </a>
-      [FR]: (allergic reaction/anaphylaxis training).
+      (formation sur les réactions allergiques/anaphylaxie).
      </li>
     </ul>
     <p class="sources">
-     🚨[REVIEW_REQUIRED] [FR]: Guidance reflects widely taught first aid for lay responders. Laws and training standards for helping with epinephrine vary by region — follow local training, product instructions, and emergency services.
+     🚨[REVIEW_REQUIRED] Les conseils reflètent les premiers secours largement enseignés aux intervenants profanes. Les lois et les normes de formation concernant l'épinéphrine varient selon les régions : suivez la formation locale, les instructions sur les produits et les services d'urgence.
     </p>
     <p class="disclaimer">
-     [FR]: This guide is general information, not medical advice. In an emergency, always call your local emergency number. Reuse and reprint freely.
+     Ce guide est une information générale et non un avis médical. En cas d'urgence, appelez toujours votre numéro d'urgence local. Réutilisez et réimprimez librement.
     </p>
    </div>
   </main>
   <footer class="site">
    <div class="wrap">
-    [FR]: A free, open Help Kit ·
+    Un kit d'aide gratuit et ouvert ·
     <a href="https://github.com/ai-village-agents/help-kit">
-     [FR]: source on GitHub
+     source sur GitHub
     </a>
-    [FR]: · Public domain (CC0) · Verify against your local health authority
+    · Domaine public (CC0) · Vérifiez auprès de votre autorité sanitaire locale
    </div>
   </footer>
   <script>

@@ -4,9 +4,9 @@
   <meta charset="utf-8"/>
   <meta content="width=device-width,initial-scale=1" name="viewport"/>
   <title>
-   [ES]: Hands-Only CPR: Cardiac Arrest — Help Kit | Help Kit
+   RCP solo con las manos: paro cardíaco: kit de ayuda | Help Kit
   </title>
-  <meta content="[ES]: A free, source-cited one-page guide to hands-only CPR for sudden cardiac arrest: how to check, call, push hard and fast on the centre of the chest, and use an AED. Based on AHA, Red Cross, and Resuscitation Council guidance." name="description"/>
+  <meta content="Una guía gratuita y citada por fuentes sobre RCP con solo las manos: verifique la capacidad de respuesta, llame a los servicios de emergencia, presione con fuerza y ​​rapidez en el pecho y use un DEA." name="description"/>
   <link href="https://ai-village-agents.github.io/help-kit/cpr/" rel="canonical"/>
   <meta content="noindex, nofollow, noarchive" name="robots"/>
   <meta content="Help Kit" property="og:site_name"/>
@@ -24,13 +24,61 @@
   <link href="../style.css" rel="stylesheet"/>
   <link href="/help-kit/manifest.webmanifest" rel="manifest"/>
   <link href="/help-kit/icon-192.png" rel="apple-touch-icon"/>
+  <script type="application/ld+json">
+   {
+  "@context": "https://schema.org",
+  "@type": "MedicalWebPage",
+  "name": "Hands-Only CPR: Cardiac Arrest",
+  "description": "A free, source-cited guide to hands-only CPR: check responsiveness, call emergency services, push hard and fast on the chest, and use an AED.",
+  "url": "https://ai-village-agents.github.io/help-kit/cpr/",
+  "inLanguage": "en",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "Help Kit",
+    "url": "https://ai-village-agents.github.io/help-kit/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Help Kit",
+    "url": "https://ai-village-agents.github.io/help-kit/"
+  },
+  "citation": [
+    {
+      "@type": "WebPage",
+      "name": "American Heart Association (AHA) — Hands-Only CPR",
+      "url": "https://cpr.heart.org/en/cpr-courses-and-kits/hands-only-cpr"
+    },
+    {
+      "@type": "WebPage",
+      "name": "AHA CPR & first-aid guidelines",
+      "url": "https://cpr.heart.org/en/resuscitation-science/first-aid-guidelines/first-aid"
+    },
+    {
+      "@type": "WebPage",
+      "name": "American Red Cross — CPR/AED training and resources",
+      "url": "https://www.redcross.org/take-a-class"
+    },
+    {
+      "@type": "WebPage",
+      "name": "Resuscitation Council UK — resuscitation and basic life support guidance library",
+      "url": "https://www.resus.org.uk/library"
+    },
+    {
+      "@type": "WebPage",
+      "name": "European Resuscitation Council (ERC) — CPR guidelines",
+      "url": "https://cprguidelines.eu/"
+    }
+  ]
+}
+  </script>
  </head>
  <body>
   <div class="notice danger" data-draft-warning="true">
    UNREVIEWED MACHINE TRANSLATION DRAFT (es). Do not use for medical guidance, sharing, printing, or training until fluent local reviewers verify all emergency numbers, doses, timings, and local guidance against the English source.
   </div>
   <a class="skip-link" href="#main">
-   [ES]: Skip to main content
+   Saltar al contenido principal
   </a>
   <header class="site">
    <div class="wrap">
@@ -39,49 +87,49 @@
     </a>
     <nav>
      <a href="../heat/">
-      [ES]: Extreme Heat
+      Calor extremo
      </a>
      <a href="../smoke/">
-      [ES]: Wildfire Smoke
+      Humo de incendios forestales
      </a>
      <a href="../naloxone/">
-      [ES]: Opioid Overdose
+      Sobredosis de opioides
      </a>
      <a href="../ors/">
-      [ES]: Dehydration &amp; ORS
+      Deshidratación y SRO
      </a>
      <a href="../choking/">
-      [ES]: Choking
+      asfixia
      </a>
      <a href="../bleeding/">
-      [ES]: Severe Bleeding
+      Sangrado severo
      </a>
      <a href="../cpr/">
-      [ES]: CPR
+      RCP
      </a>
      <a href="../stroke/">
-      [ES]: Stroke
+      Ataque
      </a>
      <a href="../burns/">
-      [ES]: Burns
+      quemaduras
      </a>
      <a href="../seizure/">
-      [ES]: Seizure
+      Convulsión
      </a>
      <a href="../allergy/">
-      [ES]: Severe Allergy
+      Alergia severa
      </a>
      <a href="../cold/">
-      [ES]: Cold Safety
+      Seguridad en frío
      </a>
      <a href="../heart/">
-      [ES]: Heart Attack
+      Infarto de miocardio
      </a>
      <a href="../triage/">
-      [ES]: Triage
+      Triaje
      </a>
      <a href="../localize.html">
-      [ES]: Localize &amp; share
+      Localizar y compartir
      </a>
     </nav>
    </div>
@@ -89,24 +137,24 @@
   <section class="hero">
    <div class="wrap">
     <h1>
-     [ES]: Hands-only CPR for sudden cardiac arrest
+     RCP con las manos únicamente en caso de paro cardíaco repentino
     </h1>
     <p>
-     [ES]: If an adult or teenager suddenly collapses, is not responding, and is not breathing normally, their heart may have stopped. Calling for help and pushing hard and fast on the chest can help keep blood moving until help arrives. You do not need training or special equipment to try. Free to read, print, and share.
+     Si un adulto o adolescente colapsa repentinamente, no responde y no respira normalmente, es posible que su corazón se haya detenido. Pedir ayuda y empujar con fuerza y ​​rapidez el pecho puede ayudar a mantener la sangre en movimiento hasta que llegue la ayuda. No necesitas entrenamiento ni equipo especial para intentarlo. Gratis para leer, imprimir y compartir.
     </p>
    </div>
   </section>
   <main id="main">
    <div class="wrap">
     <p class="lede">
-     [ES]: Sudden cardiac arrest is when the heart suddenly stops pumping blood. The person collapses, stops responding, and stops breathing normally (or only gasps). Without blood flow to the brain, every minute counts. Starting CPR right away can improve the chance of survival.
+     El paro cardíaco repentino ocurre cuando el corazón deja de bombear sangre repentinamente. La persona colapsa, deja de responder y deja de respirar normalmente (o sólo jadea). Sin flujo sanguíneo al cerebro, cada minuto cuenta. Iniciar la RCP de inmediato puede mejorar las posibilidades de supervivencia.
     </p>
     <div class="actions no-print">
      <a class="btn" href="javascript:window.print()">
-      [ES]: Print this page
+      Imprime esta pagina
      </a>
      <a class="btn alt" href="cpr-onepager.pdf">
-      [ES]: Download printable PDF
+      Descargar PDF imprimible
      </a>
     </div>
     <div class="box emergency">
@@ -114,46 +162,46 @@
       Call emergency services first
      </span>
      <h3>
-      [ES]: Collapsed and not breathing normally = emergency
+      Colapsado y sin respirar normalmente = emergencia
      </h3>
      <p>
-      🚨[REVIEW_REQUIRED] [ES]: Call your local emergency number (examples: 911, 112, or 999; verify locally) immediately, or tell a specific person to call and to find an AED. Put the phone on speaker so the dispatcher can guide you. Do not wait to be sure — if someone is unresponsive and not breathing normally, start CPR.
+      🚨[REVIEW_REQUIRED] Llame a su número de emergencia local (ejemplos: 911, 112 o 999; verifique localmente) inmediatamente o dígale a una persona específica que llame y busque un DEA. Pon el teléfono en altavoz para que el despachador pueda guiarte. No espere para estar seguro: si alguien no responde y no respira normalmente, comience la RCP.
      </p>
     </div>
     <h2>
-     [ES]: Three quick checks
+     Tres comprobaciones rápidas
     </h2>
     <div class="steps">
      <ol>
       <li>
        <strong>
-        [ES]: Check for a response.
+        Busque una respuesta.
        </strong>
-       [ES]: Tap their shoulders firmly and shout, “Are you OK?” If they do not respond, they need help now.
+       Toque sus hombros con firmeza y grite: "¿Estás bien?" Si no responden, necesitan ayuda ahora.
       </li>
       <li>
        <strong>
-        [ES]: Check breathing.
+        Comprobar la respiración.
        </strong>
-       [ES]: Look at the chest for no more than about 10 seconds. If they are not breathing, or are only gasping, struggling, or making occasional noisy breaths, treat it as cardiac arrest.
+       Mire el cofre durante no más de 10 segundos. Si no respira, o sólo jadea, lucha o respira ruidosamente de vez en cuando, trátelo como un paro cardíaco.
       </li>
       <li>
        <strong>
-        🚨[REVIEW_REQUIRED] [ES]: Call and get an AED.
+        🚨[REVIEW_REQUIRED] Llame y consiga un DEA.
        </strong>
-       🚨[REVIEW_REQUIRED] [ES]: Call emergency services (speaker phone) and send someone for the nearest automated external defibrillator (AED). If you are alone with a phone, call first, then start CPR.
+       🚨[REVIEW_REQUIRED]  Llame a los servicios de emergencia (teléfono con altavoz) y envíe a alguien al desfibrilador externo automático (DEA) más cercano. Si está solo con un teléfono, llame primero y luego inicie la RCP.
       </li>
      </ol>
     </div>
     <p>
-     [ES]: Gasping — slow, noisy, irregular breaths in the first minutes — is
+     Jadear (respiraciones lentas, ruidosas e irregulares en los primeros minutos) es
      <strong>
-      [ES]: not
+      no
      </strong>
-     [ES]: normal breathing. It is a sign of cardiac arrest. Start CPR.
+     respiración normal. Es un signo de paro cardíaco. Iniciar RCP.
     </p>
     <h2>
-     [ES]: How to do hands-only CPR (adults &amp; teens)
+     Cómo realizar RCP solo con las manos (adultos y adolescentes)
     </h2>
     <div class="box warn">
      <span class="tag warn">
@@ -162,182 +210,182 @@
      <ol>
       <li>
        <strong>
-        [ES]: Kneel beside them
+        Arrodíllate junto a ellos
        </strong>
-       [ES]: on a firm, flat surface. Place the heel of one hand on the
+       sobre una superficie firme y plana. Coloque la palma de una mano sobre la
        <strong>
-        [ES]: centre of the chest
+        centro del pecho
        </strong>
-       [ES]: (on the breastbone, between the nipples). Put your other hand on top and interlock your fingers.
+       (en el esternón, entre los pezones). Pon tu otra mano encima y entrelaza los dedos.
       </li>
       <li>
        <strong>
-        [ES]: Push down hard and fast.
+        Empuja hacia abajo fuerte y rápido.
        </strong>
-       [ES]: Keep your arms straight and your shoulders directly over your hands, and press straight down at least
+       Mantenga los brazos rectos y los hombros directamente sobre las manos y presione hacia abajo al menos
        <strong>
-        🚨[REVIEW_REQUIRED] [ES]: 5 cm (2 inches)
+        🚨[REVIEW_REQUIRED] 5 centímetros (2 pulgadas)
        </strong>
-       🚨[REVIEW_REQUIRED] [ES]: deep — about one-third the depth of the chest — but not more than about 6 cm (2.4 inches).
+       🚨[REVIEW_REQUIRED]  de profundidad, aproximadamente un tercio de la profundidad del tórax, pero no más de unos 6 cm (2,4 pulgadas).
       </li>
       <li>
        <strong>
-        [ES]: Let the chest come all the way back up
+        Deja que el cofre vuelva a subir por completo.
        </strong>
-       [ES]: between pushes (full recoil) without lifting your hands off. This lets the heart refill.
+       entre empujones (retroceso total) sin levantar las manos. Esto permite que el corazón se rellene.
       </li>
       <li>
        <strong>
-        🚨[REVIEW_REQUIRED] [ES]: Keep a fast, steady rate of 100–120 pushes per minute
+        🚨[REVIEW_REQUIRED] Mantenga un ritmo rápido y constante de 100 a 120 pulsaciones por minuto.
        </strong>
-       [ES]: — about two per second. The beat of many well-known upbeat songs works as a guide.
+       – alrededor de dos por segundo. El ritmo de muchas canciones alegres conocidas sirve como guía.
       </li>
       <li>
        <strong>
-        [ES]: Do not stop
+        no te detengas
        </strong>
-       🚨[REVIEW_REQUIRED] [ES]: except to use an AED or to swap with someone. Switch with another bystander about every 2 minutes if you can, to keep pushes strong — good compressions are tiring.
+       🚨[REVIEW_REQUIRED]  excepto para usar un DEA o intercambiarlo con alguien. Si puede, cambie con otra persona cada 2 minutos para mantener los empujones fuertes; las buenas compresiones cansan.
       </li>
      </ol>
     </div>
     <p>
-     [ES]: For an untrained rescuer helping an adult or teen,
+     Para un socorrista no capacitado que ayude a un adulto o adolescente,
      <strong>
-      [ES]: hands-only CPR
+      RCP solo con las manos
      </strong>
-     [ES]: — continuous chest compressions with no rescue breaths — is recommended and effective. If you are trained and willing, give 30 compressions then 2 rescue breaths, but never let giving breaths delay or interrupt good chest compressions for long.
+     — compresiones torácicas continuas sin respiración boca a boca — se recomienda y es eficaz. Si está capacitado y dispuesto, realice 30 compresiones y luego 2 respiraciones de rescate, pero nunca permita que las respiraciones retrasen o interrumpan las buenas compresiones torácicas por mucho tiempo.
     </p>
     <h2>
-     🚨[REVIEW_REQUIRED] [ES]: Use an AED as soon as one arrives
+     🚨[REVIEW_REQUIRED] Utilice un DEA tan pronto como llegue
     </h2>
     <div class="box ok">
      <span class="tag ok">
       AEDs are made for untrained bystanders
      </span>
      <p>
-      🚨[REVIEW_REQUIRED] [ES]: An AED is a small device, often found in airports, schools, gyms, offices, and shopping centres.
+      🚨[REVIEW_REQUIRED] Un DEA es un dispositivo pequeño que suele encontrarse en aeropuertos, escuelas, gimnasios, oficinas y centros comerciales.
       <strong>
-       [ES]: Turn it on and follow the spoken instructions
+       Enciéndelo y sigue las instrucciones habladas.
       </strong>
-      🚨[REVIEW_REQUIRED] [ES]: — it tells you exactly what to do. Stick the pads on the person's bare chest as shown in the pictures on the pads. Keep doing chest compressions while the pads go on. When the AED says “analysing,” make sure no one is touching the person. If it advises a shock, make sure everyone is clear, then press the button. Right after any shock or any “no shock” message,
+      🚨[REVIEW_REQUIRED]  - te dice exactamente qué hacer. Pegue las almohadillas en el pecho desnudo de la persona como se muestra en las imágenes de las almohadillas. Continúe haciendo compresiones torácicas mientras se colocan las almohadillas. Cuando el DEA diga "analizando", asegúrese de que nadie esté tocando a la persona. Si indica una descarga, asegúrese de que todos estén despejados y luego presione el botón. Inmediatamente después de cualquier shock o mensaje de “no shock”,
       <strong>
-       [ES]: resume compressions immediately
+       reanudar las compresiones inmediatamente
       </strong>
-      🚨[REVIEW_REQUIRED] [ES]: and keep following the AED.
+      🚨[REVIEW_REQUIRED]  y siga el DEA.
      </p>
     </div>
     <h2>
-     [ES]: When to stop
+     cuando parar
     </h2>
     <ul>
      <li>
-      [ES]: Emergency responders or another trained person takes over.
+      Los socorristas u otra persona capacitada se hacen cargo.
      </li>
      <li>
-      [ES]: The person clearly wakes up, moves, opens their eyes, and starts to breathe normally. If so, roll them onto their side (recovery position) and keep watching their breathing.
+      La persona claramente se despierta, se mueve, abre los ojos y comienza a respirar normalmente. Si es así, gírelo hacia un lado (posición de recuperación) y siga observando su respiración.
      </li>
      <li>
-      🚨[REVIEW_REQUIRED] [ES]: An AED instructs you to stop while it analyses or delivers a shock (resume immediately afterward).
+      🚨[REVIEW_REQUIRED] Un DEA le indica que se detenga mientras analiza o administra una descarga (reanude inmediatamente después).
      </li>
      <li>
-      [ES]: You are too exhausted to continue and no one can take over.
+      Estás demasiado agotado para continuar y nadie puede hacerte cargo.
      </li>
     </ul>
     <h2>
-     [ES]: Children, babies, drowning, and overdose
+     Niños, bebés, ahogamiento y sobredosis
     </h2>
     <div class="box warn">
      <span class="tag warn">
       Breaths matter more here
      </span>
      <p>
-      [ES]: In babies and children, and when collapse is caused by drowning, choking, or a drug overdose, lack of oxygen is usually the cause, so
+      En bebés y niños, y cuando el colapso es causado por ahogamiento, asfixia o sobredosis de drogas, la causa suele ser la falta de oxígeno, por lo que
       <strong>
-       [ES]: rescue breaths are especially valuable
+       Las respiraciones de rescate son especialmente valiosas.
       </strong>
-      🚨[REVIEW_REQUIRED] [ES]: . If you are trained, give breaths with compressions (commonly 30 compressions to 2 breaths; trained child/infant responders often use 15:2 with two rescuers). For a baby, use two fingers in the centre of the chest and push about 4 cm (1.5 inches) deep. If you are not trained, the dispatcher can guide you — and doing chest compressions alone is far better than doing nothing.
+      🚨[REVIEW_REQUIRED] . Si está capacitado, administre respiraciones con compresiones (comúnmente 30 compresiones por 2 respiraciones; los socorristas capacitados para niños/bebés a menudo usan 15:2 con dos rescatistas). Para un bebé, use dos dedos en el centro del pecho y empuje unos 4 cm (1,5 pulgadas) de profundidad. Si no está capacitado, el operador puede guiarlo, y hacer compresiones torácicas solo es mucho mejor que no hacer nada.
      </p>
     </div>
     <h2>
-     [ES]: Good to know
+     Es bueno saberlo
     </h2>
     <ul>
      <li>
       <strong>
-       [ES]: Do not wait because you are worried about being perfect.
+       No esperes porque te preocupa ser perfecto.
       </strong>
-      [ES]: The biggest mistake is doing nothing. A person in cardiac arrest needs immediate help.
+      El mayor error es no hacer nada. Una persona en paro cardíaco necesita ayuda inmediata.
      </li>
      <li>
       <strong>
-       [ES]: Cracked ribs can happen
+       Pueden ocurrir costillas rotas
       </strong>
-      [ES]: and are not a reason to stop if the person is in cardiac arrest — effective compressions can save a life.
+      y no son motivo para detenerse si la persona sufre un paro cardíaco: las compresiones efectivas pueden ayudar a mantener la sangre en movimiento hasta que llegue la ayuda.
      </li>
      <li>
       <strong>
-       [ES]: Don't check for a pulse
+       No compruebes el pulso
       </strong>
-      [ES]: if you are untrained — it wastes time and is easy to get wrong. Go by responsiveness and breathing.
+      si no está capacitado, es una pérdida de tiempo y es fácil equivocarse. Vaya por la capacidad de respuesta y la respiración.
      </li>
      <li>
-      [ES]: A heart attack (a blocked artery, often with chest pain) is different from cardiac arrest, but a heart attack can lead to cardiac arrest — so if someone with chest pain collapses and stops breathing normally, start CPR.
+      Un ataque cardíaco (una arteria bloqueada, a menudo con dolor en el pecho) es diferente de un paro cardíaco, pero un ataque cardíaco puede provocar un paro cardíaco, por lo que si alguien con dolor en el pecho colapsa y deja de respirar normalmente, comience la RCP.
      </li>
      <li>
       <strong>
-       [ES]: Learn CPR in person
+       Aprenda RCP en persona
       </strong>
-      [ES]: if you can. Short, low-cost or free classes are widely available and build the confidence to act.
+      si puedes. Hay clases cortas, de bajo costo o gratuitas que están ampliamente disponibles y generan confianza para actuar.
      </li>
     </ul>
     <h2>
-     [ES]: Sources
+     Fuentes
     </h2>
     <ul class="sources">
      <li>
       <a href="https://cpr.heart.org/en/cpr-courses-and-kits/hands-only-cpr">
-       🚨[REVIEW_REQUIRED] [ES]: American Heart Association (AHA) — Hands-Only CPR
+       🚨[REVIEW_REQUIRED] Asociación Estadounidense del Corazón (AHA): RCP solo con las manos
       </a>
-      [ES]: and
+      y
       <a href="https://cpr.heart.org/en/resuscitation-science/first-aid-guidelines/first-aid">
-       🚨[REVIEW_REQUIRED] [ES]: AHA CPR &amp; first-aid guidelines
+       🚨[REVIEW_REQUIRED] Pautas de primeros auxilios y RCP de la AHA
       </a>
-      🚨[REVIEW_REQUIRED] [ES]: (compression rate 100–120/min, depth at least 2 in / 5 cm, full recoil, minimise interruptions).
+      🚨[REVIEW_REQUIRED]  (tasa de compresión de 100 a 120/min, profundidad de al menos 5 cm/2 pulgadas, retroceso total, minimizar las interrupciones).
      </li>
      <li>
       <a href="https://www.redcross.org/take-a-class">
-       🚨[REVIEW_REQUIRED] [ES]: American Red Cross — CPR/AED training and resources
+       🚨[REVIEW_REQUIRED] Cruz Roja Americana: capacitación y recursos en RCP/DEA
       </a>
-      [ES]: for adults, children, and infants.
+      para adultos, niños y bebés.
      </li>
      <li>
       <a href="https://www.resus.org.uk/library">
-       [ES]: Resuscitation Council UK — resuscitation and basic life support guidance library
+       Resuscitation Council UK: biblioteca de orientación sobre reanimación y soporte vital básico
       </a>
-      [ES]: (adult and paediatric).
+      (adultos y pediátricos).
      </li>
      <li>
       <a href="https://cprguidelines.eu/">
-       🚨[REVIEW_REQUIRED] [ES]: European Resuscitation Council (ERC) — CPR guidelines
+       🚨[REVIEW_REQUIRED] Consejo Europeo de Reanimación (ERC): directrices sobre RCP
       </a>
       .
      </li>
     </ul>
     <p class="sources">
-     [ES]: Steps reflect widely taught basic-life-support sequences for lay responders. Training bodies differ in small details — follow your local first-aid training and your emergency dispatcher's instructions.
+     Los pasos reflejan secuencias de soporte vital básico ampliamente enseñadas por personal de respuesta no especializado. Los organismos de capacitación difieren en pequeños detalles: siga la capacitación local en primeros auxilios y las instrucciones de su operador de emergencia.
     </p>
     <p class="disclaimer">
-     🚨[REVIEW_REQUIRED] [ES]: This guide is general information, not medical advice, and is not a substitute for hands-on CPR and AED training, which is widely available and strongly recommended. In an emergency, always call your local emergency number. Reuse and reprint freely.
+     🚨[REVIEW_REQUIRED] Esta guía es información general, no asesoramiento médico, y no sustituye la capacitación práctica en RCP y DEA, que está ampliamente disponible y se recomienda encarecidamente. En caso de emergencia, llame siempre a su número de emergencia local. Reutilice y reimprima libremente.
     </p>
    </div>
   </main>
   <footer class="site">
    <div class="wrap">
-    [ES]: A free, open Help Kit ·
+    Un kit de ayuda abierto y gratuito ·
     <a href="https://github.com/ai-village-agents/help-kit">
-     [ES]: source on GitHub
+     fuente en GitHub
     </a>
-    [ES]: · Public domain (CC0) · Verify against your local health authority
+    · Dominio público (CC0) · Verificar con su autoridad sanitaria local
    </div>
   </footer>
   <script>

@@ -4,9 +4,9 @@
   <meta charset="utf-8"/>
   <meta content="width=device-width,initial-scale=1" name="viewport"/>
   <title>
-   [FR]: Heat Check SMS and Phone Scripts — Help Kit | Help Kit
+   SMS et scripts téléphoniques de contrôle thermique — Kit d'aide | Help Kit
   </title>
-  <meta content="[FR]: Friendly heat-check SMS and phone scripts for neighbors and organizers." name="description"/>
+  <meta content="SMS et scripts téléphoniques conviviaux de contrôle thermique pour les voisins et les organisateurs." name="description"/>
   <link href="https://ai-village-agents.github.io/help-kit/heat/scripts.html" rel="canonical"/>
   <meta content="noindex, nofollow, noarchive" name="robots"/>
   <meta content="Help Kit" property="og:site_name"/>
@@ -33,7 +33,7 @@
    UNREVIEWED MACHINE TRANSLATION DRAFT (fr). Do not use for medical guidance, sharing, printing, or training until fluent local reviewers verify all emergency numbers, doses, timings, and local guidance against the English source.
   </div>
   <a class="skip-link" href="#main">
-   [FR]: Skip to main content
+   Passer au contenu principal
   </a>
   <header class="site">
    <div class="wrap">
@@ -42,49 +42,49 @@
     </a>
     <nav>
      <a href="../heat/">
-      [FR]: Extreme Heat
+      Chaleur extrême
      </a>
      <a href="../smoke/">
-      [FR]: Wildfire Smoke
+      Fumée de feux de forêt
      </a>
      <a href="../naloxone/">
-      [FR]: Opioid Overdose
+      Surdose d'opioïdes
      </a>
      <a href="../ors/">
-      [FR]: Dehydration &amp; ORS
+      Déshydratation et SOR
      </a>
      <a href="../choking/">
-      [FR]: Choking
+      Étouffement
      </a>
      <a href="../bleeding/">
-      [FR]: Severe Bleeding
+      Saignement sévère
      </a>
      <a href="../cpr/">
-      [FR]: CPR
+      RCR
      </a>
      <a href="../stroke/">
-      [FR]: Stroke
+      Accident vasculaire cérébral
      </a>
      <a href="../burns/">
-      [FR]: Burns
+      Brûlures
      </a>
      <a href="../seizure/">
-      [FR]: Seizure
+      Crise d'épilepsie
      </a>
      <a href="../allergy/">
-      [FR]: Severe Allergy
+      Allergie sévère
      </a>
      <a href="../cold/">
-      [FR]: Cold Safety
+      Sécurité contre le froid
      </a>
      <a href="../heart/">
-      [FR]: Heart Attack
+      Crise cardiaque
      </a>
      <a href="../triage/">
-      [FR]: Triage
+      Triage
      </a>
      <a href="../localize.html">
-      [FR]: Localize &amp; share
+      Localiser et partager
      </a>
     </nav>
    </div>
@@ -93,78 +93,78 @@
    <div class="wrap">
     <p>
      <a href="index.html">
-      [FR]: ← Back to heat guide
+      ← Retour au guide de chaleur
      </a>
     </p>
     <h1>
-     [FR]: Heat check SMS and phone scripts
+     SMS de contrôle thermique et scripts téléphoniques
     </h1>
     <p class="lede">
      <strong>
-      🚨[REVIEW_REQUIRED] [FR]: Last updated: June 15, 2026.
+      🚨[REVIEW_REQUIRED] Dernière mise à jour : 15 juin 2026.
      </strong>
-     [FR]: Use friendly, non-alarming language. Ask what help is wanted. Localize emergency numbers and cooling-center details.
+     Utilisez un langage amical et non alarmant. Demandez quelle aide est recherchée. Localisez les numéros d’urgence et les détails du centre de refroidissement.
     </p>
     <div class="actions no-print">
      <a class="btn" href="javascript:window.print()">
-      [FR]: Print this page
+      Imprimer cette page
      </a>
     </div>
     <h2>
-     [FR]: First check text
+     Vérifiez d'abord le texte
     </h2>
     <div class="script">
-     [FR]: Hi — it’s [NAME]. It’s dangerously hot today, so I’m checking on neighbors. Are you somewhere cool enough right now? Do you have water? Do you want help finding a cooling place or getting a check-in later?
+     Salut, c'est [NOM]. Il fait dangereusement chaud aujourd’hui, alors je vérifie les voisins. Êtes-vous dans un endroit assez cool en ce moment ? As-tu de l'eau ? Voulez-vous de l’aide pour trouver un endroit frais ou pour vous enregistrer plus tard ?
     </div>
     <h2>
-     [FR]: Short phone script
+     Court script téléphonique
     </h2>
     <div class="script">
-     [FR]: Hi, I’m doing heat check-ins today. Are you okay to talk for one minute? I’m checking: are you in a cool place, do you have water, and are you feeling dizzy, confused, nauseated, very weak, or unusually hot?
+     Salut, je fais des enregistrements de chaleur aujourd'hui. Êtes-vous d'accord pour parler une minute ? Je vérifie : êtes-vous dans un endroit frais, avez-vous de l'eau et vous sentez-vous étourdi, confus, nauséeux, très faible ou inhabituellement chaud ?
     </div>
     <h2>
-     [FR]: If they need cooling help
+     S'ils ont besoin d'aide pour se rafraîchir
     </h2>
     <div class="script">
-     [FR]: Would any of these help: a ride or directions to [COOLING PLACE], someone bringing water, help calling a family member or neighbor, or another check in 30 minutes?
+     L'un de ces éléments pourrait-il aider : un trajet ou un itinéraire jusqu'à [COOLING PLACE], quelqu'un apportant de l'eau, de l'aide pour appeler un membre de la famille ou un voisin, ou un autre contrôle dans 30 minutes ?
     </div>
     <h2>
-     [FR]: If you are worried
+     Si tu es inquiet
     </h2>
     <div class="script">
-     [FR]: I’m worried because you said [SYMPTOM/SITUATION]. Can I call emergency services or a local helper now? If you can, please move to the coolest place nearby and start cooling with water or wet cloths while help is on the way.
+     Je suis inquiet parce que vous avez dit [SYMPTOME/SITUATION]. Puis-je appeler les services d’urgence ou une aide locale maintenant ? Si vous le pouvez, déplacez-vous vers l'endroit le plus frais à proximité et commencez à vous rafraîchir avec de l'eau ou des chiffons humides pendant que les secours arrivent.
     </div>
     <h2>
-     [FR]: If no response
+     Si aucune réponse
     </h2>
     <div class="script">
-     [FR]: I didn’t reach you and it is very hot today. I’ll try again at [TIME]. If you need urgent help, call [LOCAL EMERGENCY NUMBER] or go to [LOCAL COOLING PLACE] if you can do so safely.
+     Je ne vous ai pas contacté et il fait très chaud aujourd'hui. Je réessayerai à [TIME]. Si vous avez besoin d'une aide urgente, appelez le [NUMÉRO D'URGENCE LOCAL] ou rendez-vous au [PLACE DE REFROIDISSEMENT LOCAL] si vous pouvez le faire en toute sécurité.
     </div>
     <h2>
-     [FR]: Privacy line
+     Ligne de confidentialité
     </h2>
     <div class="script">
-     [FR]: We’re only using your information for heat checks and local help. We won’t post your details publicly.
+     Nous utilisons vos informations uniquement pour les contrôles thermiques et l'aide locale. Nous ne publierons pas vos coordonnées publiquement.
     </div>
     <div class="box emergency">
      <span class="tag">
       Call emergency services now
      </span>
      <p>
-      [FR]: Call now for confusion, fainting or unconsciousness, seizure, hot/dry skin or very high body temperature, repeated vomiting, or symptoms that worsen despite cooling.
+      Appelez maintenant en cas de confusion, d'évanouissement ou de perte de conscience, de convulsions, de peau chaude/sèche ou de température corporelle très élevée, de vomissements répétés ou de symptômes qui s'aggravent malgré le refroidissement.
      </p>
     </div>
     <p class="sources">
-     🚨[REVIEW_REQUIRED] [FR]: Sources: CDC, WHO, Red Cross, Global Heat Health Information Network, Heat.gov/NIHHIS. General information only.
+     🚨[REVIEW_REQUIRED] Sources : CDC, OMS, Croix-Rouge, Réseau mondial d'information sur la santé en matière de chaleur, Heat.gov/NIHHIS. Informations générales uniquement.
     </p>
     <p class="disclaimer">
-     [FR]: This guide is general information, not medical advice, and is not a substitute for professional emergency care or training. In an emergency, always call your local emergency number. When symptoms are severe or you are unsure, treat it as an emergency. Reuse and reprint freely.
+     Ce guide est une information générale et non un conseil médical et ne remplace pas les soins d’urgence ou la formation professionnelle. En cas d'urgence, appelez toujours votre numéro d'urgence local. Lorsque les symptômes sont graves ou que vous n’êtes pas sûr, traitez-le comme une urgence. Réutilisez et réimprimez librement.
     </p>
    </div>
   </main>
   <footer class="site">
    <div class="wrap">
-    [FR]: Public domain (CC0) · Verify local emergency and health guidance
+    Domaine public (CC0) · Vérifier les directives locales d'urgence et de santé
    </div>
   </footer>
   <script>

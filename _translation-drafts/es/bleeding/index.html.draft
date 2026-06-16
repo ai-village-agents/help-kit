@@ -4,9 +4,9 @@
   <meta charset="utf-8"/>
   <meta content="width=device-width,initial-scale=1" name="viewport"/>
   <title>
-   [ES]: Severe Bleeding: Stop the Bleed — Help Kit | Help Kit
+   Sangrado severo: detener el sangrado - Kit de ayuda | Help Kit
   </title>
-  <meta content="[ES]: A free, source-cited one-page guide to stopping life-threatening bleeding: firm direct pressure, wound packing, and tourniquet basics, and when to use each. Based on Stop the Bleed (American College of Surgeons) and Red Cross guidance." name="description"/>
+  <meta content="Una guía gratuita, citada por fuentes, para detener hemorragias graves: presión directa, taponamiento de heridas, conceptos básicos sobre torniquetes y cuándo buscar ayuda de emergencia." name="description"/>
   <link href="https://ai-village-agents.github.io/help-kit/bleeding/" rel="canonical"/>
   <meta content="noindex, nofollow, noarchive" name="robots"/>
   <meta content="Help Kit" property="og:site_name"/>
@@ -24,13 +24,56 @@
   <link href="../style.css" rel="stylesheet"/>
   <link href="/help-kit/manifest.webmanifest" rel="manifest"/>
   <link href="/help-kit/icon-192.png" rel="apple-touch-icon"/>
+  <script type="application/ld+json">
+   {
+  "@context": "https://schema.org",
+  "@type": "MedicalWebPage",
+  "name": "Severe Bleeding: Stop the Bleed",
+  "description": "A free, source-cited guide to stopping severe bleeding: direct pressure, wound packing, tourniquet basics, and when to seek emergency help.",
+  "url": "https://ai-village-agents.github.io/help-kit/bleeding/",
+  "inLanguage": "en",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "Help Kit",
+    "url": "https://ai-village-agents.github.io/help-kit/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Help Kit",
+    "url": "https://ai-village-agents.github.io/help-kit/"
+  },
+  "citation": [
+    {
+      "@type": "WebPage",
+      "name": "American College of Surgeons — Stop the Bleed",
+      "url": "https://www.stopthebleed.org/"
+    },
+    {
+      "@type": "WebPage",
+      "name": "American Red Cross — first aid training and resources",
+      "url": "https://www.redcross.org/take-a-class"
+    },
+    {
+      "@type": "WebPage",
+      "name": "World Health Organization — basic emergency care approach to the acutely ill and injured",
+      "url": "https://www.who.int/publications/i/item/basic-emergency-care-approach-to-the-acutely-ill-and-injured"
+    },
+    {
+      "@type": "WebPage",
+      "name": "U.S. Centers for Disease Control and Prevention (CDC) — tetanus and wound-care related guidance",
+      "url": "https://www.cdc.gov/tetanus/about/index.html"
+    }
+  ]
+}
+  </script>
  </head>
  <body>
   <div class="notice danger" data-draft-warning="true">
    UNREVIEWED MACHINE TRANSLATION DRAFT (es). Do not use for medical guidance, sharing, printing, or training until fluent local reviewers verify all emergency numbers, doses, timings, and local guidance against the English source.
   </div>
   <a class="skip-link" href="#main">
-   [ES]: Skip to main content
+   Saltar al contenido principal
   </a>
   <header class="site">
    <div class="wrap">
@@ -39,49 +82,49 @@
     </a>
     <nav>
      <a href="../heat/">
-      [ES]: Extreme Heat
+      Calor extremo
      </a>
      <a href="../smoke/">
-      [ES]: Wildfire Smoke
+      Humo de incendios forestales
      </a>
      <a href="../naloxone/">
-      [ES]: Opioid Overdose
+      Sobredosis de opioides
      </a>
      <a href="../ors/">
-      [ES]: Dehydration &amp; ORS
+      Deshidratación y SRO
      </a>
      <a href="../choking/">
-      [ES]: Choking
+      asfixia
      </a>
      <a href="../bleeding/">
-      [ES]: Severe Bleeding
+      Sangrado severo
      </a>
      <a href="../cpr/">
-      [ES]: CPR
+      RCP
      </a>
      <a href="../stroke/">
-      [ES]: Stroke
+      Ataque
      </a>
      <a href="../burns/">
-      [ES]: Burns
+      quemaduras
      </a>
      <a href="../seizure/">
-      [ES]: Seizure
+      Convulsión
      </a>
      <a href="../allergy/">
-      [ES]: Severe Allergy
+      Alergia severa
      </a>
      <a href="../cold/">
-      [ES]: Cold Safety
+      Seguridad en frío
      </a>
      <a href="../heart/">
-      [ES]: Heart Attack
+      Infarto de miocardio
      </a>
      <a href="../triage/">
-      [ES]: Triage
+      Triaje
      </a>
      <a href="../localize.html">
-      [ES]: Localize &amp; share
+      Localizar y compartir
      </a>
     </nav>
    </div>
@@ -89,28 +132,28 @@
   <section class="hero">
    <div class="wrap">
     <h1>
-     [ES]: Severe bleeding: stop the bleed
+     Sangrado severo: detener el sangrado
     </h1>
     <p>
-     [ES]: How to slow or stop life-threatening bleeding while you wait for help. A person can bleed to death in minutes, so fast pressure, packing, or a tourniquet when appropriate can save a life. Free to read, print, and share.
+     Cómo retardar o detener un sangrado que pone en peligro su vida mientras espera ayuda. Una persona puede morir desangrada en minutos, por lo que una presión rápida, un vendaje o un torniquete, cuando sea apropiado, pueden brindarle la mejor oportunidad mientras llega la ayuda. Gratis para leer, imprimir y compartir.
     </p>
    </div>
   </section>
   <main id="main">
    <div class="wrap">
     <p class="lede">
-     [ES]: Most bleeding you will see is minor and stops on its own or with a little pressure. But bleeding that is
+     La mayor parte del sangrado que verá es menor y se detiene por sí solo o con un poco de presión. Pero sangrar eso es
      <strong>
-      [ES]: spurting, pooling, soaking through clothing or bandages, or coming from a deep wound to an arm or leg
+      chorros, charcos, empapando ropa o vendajes, o provenientes de una herida profunda en un brazo o pierna
      </strong>
-     [ES]: can be life-threatening. The single most important thing you can do is press hard on the wound and not let up.
+     puede poner en peligro la vida. Lo más importante que puedes hacer es presionar con fuerza la herida y no soltarla.
     </p>
     <div class="actions no-print">
      <a class="btn" href="javascript:window.print()">
-      [ES]: Print this page
+      Imprime esta pagina
      </a>
      <a class="btn alt" href="bleeding-onepager.pdf">
-      [ES]: Download printable PDF
+      Descargar PDF imprimible
      </a>
     </div>
     <div class="box emergency">
@@ -118,83 +161,83 @@
       Call emergency services
      </span>
      <h3>
-      [ES]: Life-threatening bleeding is an emergency
+      El sangrado potencialmente mortal es una emergencia
      </h3>
      <p>
-      🚨[REVIEW_REQUIRED] [ES]: Call your local emergency number (examples: 911, 112, or 999; verify locally), or have someone else call, for spurting blood, pooling blood, bleeding that soaks through clothing/bandages, an amputation, or any heavy bleeding you are worried about. If you are alone, it is reasonable to
+      🚨[REVIEW_REQUIRED] Llame a su número de emergencia local (ejemplos: 911, 112 o 999; verifique localmente), o pídale a otra persona que llame, en caso de sangre a borbotones, acumulación de sangre, sangrado que empapa la ropa/vendas, una amputación o cualquier sangrado abundante que le preocupe. Si está solo, es razonable
       <strong>
-       [ES]: start pressure first
+       iniciar la presión primero
       </strong>
-      [ES]: and call as soon as you can — put the phone on speaker and follow dispatcher instructions. Get yourself safe first if there is traffic, fire, weapons, or other danger.
+      y llame tan pronto como pueda: ponga el teléfono en altavoz y siga las instrucciones del operador. Primero, póngase a salvo si hay tráfico, fuego, armas u otro peligro.
      </p>
     </div>
     <h2>
-     [ES]: Three actions that stop bleeding
+     Tres acciones que detienen el sangrado
     </h2>
     <p>
-     [ES]: If you have gloves or any barrier (a plastic bag can help), use them to protect yourself from blood. If no barrier is available and the bleeding is life-threatening, do the best you safely can and wash thoroughly afterward. Find where the blood is coming from — you may need to move or cut away clothing to see the wound clearly.
+     Si tienes guantes o alguna barrera (una bolsa de plástico puede ayudar), úsalos para protegerte de la sangre. Si no hay una barrera disponible y el sangrado pone en peligro la vida, haga lo mejor que pueda de manera segura y luego lávese bien. Encuentre de dónde proviene la sangre; es posible que deba moverse o cortarse la ropa para ver la herida con claridad.
     </p>
     <ol class="steps">
      <li>
       <strong>
-       [ES]: Press hard with both hands.
+       Presione fuerte con ambas manos.
       </strong>
-      [ES]: Place a clean cloth, gauze, or your protected hands directly on the wound and push down as hard as you can, right on the spot the blood is coming from. Keep steady, firm pressure — do not lift up to check unless a dispatcher or trained responder tells you to. Many serious bleeds slow or stop when pressure is applied firmly enough and held long enough.
+      Coloque un paño limpio, una gasa o sus manos protegidas directamente sobre la herida y presione con tanta fuerza como pueda, justo en el lugar de donde sale la sangre. Mantenga una presión constante y firme; no levante el dispositivo para verificar a menos que un despachador o un socorrista capacitado se lo indique. Muchos sangrados graves disminuyen o se detienen cuando se aplica presión con suficiente firmeza y se mantiene durante el tiempo suficiente.
      </li>
      <li>
       <strong>
-       [ES]: If it keeps bleeding, pack the wound.
+       Si sigue sangrando, empaquete la herida.
       </strong>
-      [ES]: For a deep wound in a place you can pack — an arm, leg, armpit, or groin (
+      Para una herida profunda en un lugar que pueda empacar: un brazo, una pierna, una axila o una ingle (
       <em>
-       [ES]: not
+       no
       </em>
-      [ES]: the chest, abdomen, neck, or head) — push clean gauze or cloth firmly all the way into the wound, filling it completely, then press down hard over the top with both hands and keep pressing.
+      el pecho, el abdomen, el cuello o la cabeza): empuje firmemente una gasa o un paño limpio hasta el fondo de la herida, llenándola por completo, luego presione con fuerza sobre la parte superior con ambas manos y siga presionando.
      </li>
      <li>
       <strong>
-       [ES]: For a limb that won't stop, use a tourniquet.
+       Para una extremidad que no se detiene, use un torniquete.
       </strong>
-      [ES]: If heavy bleeding from an arm or leg does not stop with pressure and packing, or the injury is an amputation/near-amputation, apply a tourniquet (see below) if one is available or you are trained to improvise. For life-threatening limb bleeding, tourniquets can be the right choice — follow local training and dispatcher instructions.
+      Si el sangrado abundante de un brazo o una pierna no se detiene con la presión y el empaquetamiento, o si la lesión es una amputación o casi amputación, aplique un torniquete (ver a continuación) si hay uno disponible o si está capacitado para improvisar. Para el sangrado de una extremidad que pone en riesgo la vida, los torniquetes pueden ser la opción correcta: siga la capacitación local y las instrucciones del operador.
      </li>
     </ol>
     <h2>
-     [ES]: How to use a tourniquet
+     Cómo usar un torniquete
     </h2>
     <div class="box warn">
      <span class="tag warn">
       For arms and legs only
      </span>
      <p>
-      [ES]: Use a manufactured tourniquet if you have one. Improvised tourniquets are harder to make effective and can injure tissue; use one only when life-threatening limb bleeding cannot be controlled another way and no manufactured tourniquet is available. Avoid thin cord or rope because it can cut the skin.
+      Utilice un torniquete fabricado si tiene uno. Los torniquetes improvisados ​​son más difíciles de hacer efectivos y pueden dañar el tejido; Úselo solo cuando la hemorragia de una extremidad que ponga en peligro la vida no pueda controlarse de otra manera y no haya ningún torniquete fabricado disponible. Evite cuerdas o cordones finos porque pueden cortar la piel.
      </p>
     </div>
     <ol class="steps">
      <li>
       <strong>
-       🚨[REVIEW_REQUIRED] [ES]: Place it 5–7 cm (2–3 inches) above the wound
+       🚨[REVIEW_REQUIRED] Colóquelo de 5 a 7 cm (2 a 3 pulgadas) por encima de la herida.
       </strong>
-      [ES]: , between the wound and the heart. Do not place it directly over a joint (knee or elbow) — go above the joint if needed. Never put it on the wound itself.
+      , entre la herida y el corazón. No lo coloque directamente sobre una articulación (rodilla o codo); vaya por encima de la articulación si es necesario. Nunca lo pongas sobre la herida misma.
      </li>
      <li>
       <strong>
-       [ES]: Pull it tight and tighten until the bleeding stops.
+       Tire con fuerza y ​​apriete hasta que se detenga el sangrado.
       </strong>
-      [ES]: A tourniquet that is tight enough to work will hurt — that is expected. If one is not enough to stop the bleeding, apply a second one just above the first.
+      Un torniquete que esté lo suficientemente apretado como para funcionar dolerá, eso es lo que se espera. Si uno no es suficiente para detener el sangrado, aplica otro justo encima del primero.
      </li>
      <li>
       <strong>
-       [ES]: Note the time
+       Tenga en cuenta la hora
       </strong>
-      [ES]: you put it on (write it on the tourniquet, tape, or a visible note if you can) and tell the medics.
+      te lo pones (escríbelo en el torniquete, en la cinta adhesiva o en una nota visible si puedes) y avisas a los médicos.
       <strong>
-       [ES]: Do not loosen or remove it
+       No lo aflojes ni lo quites.
       </strong>
-      [ES]: — leave that to medical professionals.
+      – Déjelo en manos de los profesionales médicos.
      </li>
     </ol>
     <h2>
-     [ES]: While you wait for help
+     Mientras esperas ayuda
     </h2>
     <div class="box ok">
      <span class="tag ok">
@@ -203,97 +246,97 @@
      <ul>
       <li>
        <strong>
-        [ES]: Keep pressing
+        Sigue presionando
        </strong>
-       [ES]: the whole time, even once bleeding seems controlled, until help takes over.
+       todo el tiempo, incluso cuando el sangrado parece controlado, hasta que llega la ayuda.
       </li>
       <li>
-       [ES]: Help the person
+       ayudar a la persona
        <strong>
-        [ES]: lie down
+        acostarse
        </strong>
-       [ES]: and keep them warm with a coat or blanket; heavy blood loss makes people cold and can cause shock.
+       y mantenlos abrigados con un abrigo o manta; La pérdida abundante de sangre produce frío y puede provocar shock.
       </li>
       <li>
-       [ES]: Reassure them and keep talking to them. Watch their breathing and alertness.
+       Tranquilízalos y sigue hablando con ellos. Observe su respiración y estado de alerta.
       </li>
       <li>
        <strong>
-        [ES]: Do not remove an object stuck in a wound
+        No retires un objeto atrapado en una herida.
        </strong>
-       [ES]: (knife, glass, metal). Leave it in place and press firmly
+       (cuchillo, vidrio, metal). Déjalo en su lugar y presiona firmemente.
        <em>
-        [ES]: around
+        alrededor
        </em>
-       [ES]: it — pulling it out can make bleeding much worse.
+       sacarlo puede empeorar mucho el sangrado.
       </li>
      </ul>
     </div>
     <h2>
-     [ES]: Minor cuts and scrapes
+     Cortes y rasguños menores
     </h2>
     <ul>
      <li>
-      [ES]: Wash your hands, then rinse the wound under clean running water and gently clean around it.
+      Lávese las manos, luego enjuague la herida con agua corriente limpia y limpie suavemente alrededor.
      </li>
      <li>
-      [ES]: Apply gentle pressure with a clean cloth for a few minutes until it stops, then cover with a clean dressing or bandage.
+      Aplique una suave presión con un paño limpio durante unos minutos hasta que se detenga, luego cubra con un apósito o vendaje limpio.
      </li>
      <li>
-      [ES]: Watch for signs of infection over the next days — spreading redness, warmth, swelling, pus, or fever — and seek care if they appear. Ask a health worker about tetanus protection for dirty or deep wounds and animal bites.
+      Esté atento a los signos de infección durante los próximos días (enrojecimiento, calor, hinchazón, pus o fiebre que se extienden) y busque atención médica si aparecen. Pregunte a un trabajador de salud sobre la protección contra el tétanos para heridas sucias o profundas y mordeduras de animales.
      </li>
     </ul>
     <h2>
-     [ES]: Sources
+     Fuentes
     </h2>
     <ul class="sources">
      <li>
       <a href="https://www.stopthebleed.org/">
-       [ES]: American College of Surgeons —
+       Colegio Americano de Cirujanos -
        <em>
-        [ES]: Stop the Bleed
+        detener el sangrado
        </em>
       </a>
-      [ES]: (apply pressure, pack the wound, apply a tourniquet).
+      (aplicar presión, taponar la herida, aplicar un torniquete).
      </li>
      <li>
       <a href="https://www.redcross.org/take-a-class">
-       [ES]: American Red Cross — first aid training and resources
+       Cruz Roja Americana: recursos y capacitación en primeros auxilios
       </a>
-      [ES]: , including severe bleeding and wound care guidance.
+      , incluidas hemorragias graves y orientación sobre el cuidado de las heridas.
      </li>
      <li>
       <a href="https://www.who.int/publications/i/item/basic-emergency-care-approach-to-the-acutely-ill-and-injured">
-       [ES]: World Health Organization — basic emergency care approach to the acutely ill and injured
+       Organización Mundial de la Salud: enfoque de atención básica de emergencia para los enfermos y heridos graves
       </a>
       .
      </li>
      <li>
       <a href="https://www.cdc.gov/tetanus/about/index.html">
-       🚨[REVIEW_REQUIRED] [ES]: U.S. Centers for Disease Control and Prevention (CDC) — tetanus and wound-care related guidance
+       🚨[REVIEW_REQUIRED] Centros para el Control y la Prevención de Enfermedades (CDC) de EE. UU.: orientación relacionada con el tétanos y el cuidado de heridas
       </a>
       .
      </li>
     </ul>
     <p class="sources">
-     [ES]: Steps reflect widely taught
+     Los pasos reflejan lo que se enseña ampliamente
      <em>
-      [ES]: Stop the Bleed
+      detener el sangrado
      </em>
-     [ES]: / first-aid sequences for lay responders. Training bodies vary in detail, especially around wound packing and improvised tourniquets — follow your local first-aid training and emergency dispatcher's instructions.
+     / Secuencias de primeros auxilios para socorristas no profesionales. Los cuerpos de capacitación varían en detalle, especialmente en lo que respecta al vendaje de heridas y los torniquetes improvisados; siga las instrucciones de su capacitación local en primeros auxilios y del operador de emergencias.
     </p>
     <p class="disclaimer">
-     [ES]: This guide is general information, not medical advice, and is not a substitute for hands-on first-aid training, which is widely available and strongly recommended. In an emergency, always call your local emergency number. Reuse and reprint freely.
+     Esta guía es información general, no asesoramiento médico, y no sustituye la capacitación práctica en primeros auxilios, que está ampliamente disponible y es muy recomendable. En caso de emergencia, llame siempre a su número de emergencia local. Reutilice y reimprima libremente.
     </p>
    </div>
   </main>
   <footer class="site">
    <div class="wrap">
-    [ES]: A free, open Help Kit ·
+    Un kit de ayuda abierto y gratuito ·
     <a href="https://github.com/ai-village-agents/help-kit">
-     [ES]: source on GitHub
+     fuente en GitHub
     </a>
-    [ES]: · Public domain (CC0) · Verify against your local health authority
+    · Dominio público (CC0) · Verificar con su autoridad sanitaria local
    </div>
   </footer>
   <script>

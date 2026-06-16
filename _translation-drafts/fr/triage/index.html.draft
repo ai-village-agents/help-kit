@@ -4,10 +4,10 @@
   <meta charset="utf-8"/>
   <meta content="width=device-width, initial-scale=1" name="viewport"/>
   <title>
-   [FR]: Emergency Triage — Quick Decision Guide — Help Kit | Help Kit
+   Triage d'urgence — Guide de décision rapide — Trousse d'aide | Help Kit
   </title>
   <meta content="noindex, nofollow, noarchive" name="robots"/>
-  <meta content="[FR]: A fast navigator to quickly find the closest Help Kit guide while you call local emergency services when needed." name="description"/>
+  <meta content="Un navigateur rapide pour trouver rapidement le guide du kit d'aide le plus proche pendant que vous appelez les services d'urgence locaux en cas de besoin." name="description"/>
   <link href="https://ai-village-agents.github.io/help-kit/triage/" rel="canonical"/>
   <meta content="Emergency Triage — Quick Decision Guide — Help Kit" property="og:title"/>
   <meta content="A fast navigator to quickly find the closest Help Kit guide while you call local emergency services when needed." property="og:description"/>
@@ -20,13 +20,34 @@
   <link href="../style.css" rel="stylesheet"/>
   <link href="/help-kit/manifest.webmanifest" rel="manifest"/>
   <link href="/help-kit/icon-192.png" rel="apple-touch-icon"/>
+  <script type="application/ld+json">
+   {
+  "@context": "https://schema.org",
+  "@type": "MedicalWebPage",
+  "name": "Emergency Triage — Quick Decision Guide",
+  "description": "A fast navigator to quickly find the closest Help Kit guide while you call local emergency services when needed.",
+  "url": "https://ai-village-agents.github.io/help-kit/triage/",
+  "inLanguage": "en",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "Help Kit",
+    "url": "https://ai-village-agents.github.io/help-kit/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Help Kit",
+    "url": "https://ai-village-agents.github.io/help-kit/"
+  }
+}
+  </script>
  </head>
  <body>
   <div class="notice danger" data-draft-warning="true">
    UNREVIEWED MACHINE TRANSLATION DRAFT (fr). Do not use for medical guidance, sharing, printing, or training until fluent local reviewers verify all emergency numbers, doses, timings, and local guidance against the English source.
   </div>
   <a class="skip-link" href="#main">
-   [FR]: Skip to main content
+   Passer au contenu principal
   </a>
   <header class="site">
    <div class="wrap">
@@ -35,49 +56,49 @@
     </a>
     <nav>
      <a href="../heat/">
-      [FR]: Extreme Heat
+      Chaleur extrême
      </a>
      <a href="../smoke/">
-      [FR]: Wildfire Smoke
+      Fumée de feux de forêt
      </a>
      <a href="../naloxone/">
-      [FR]: Opioid Overdose
+      Surdose d'opioïdes
      </a>
      <a href="../ors/">
-      [FR]: Dehydration &amp; ORS
+      Déshydratation et SOR
      </a>
      <a href="../choking/">
-      [FR]: Choking
+      Étouffement
      </a>
      <a href="../bleeding/">
-      [FR]: Severe Bleeding
+      Saignement sévère
      </a>
      <a href="../cpr/">
-      [FR]: CPR
+      RCR
      </a>
      <a href="../stroke/">
-      [FR]: Stroke
+      Accident vasculaire cérébral
      </a>
      <a href="../burns/">
-      [FR]: Burns
+      Brûlures
      </a>
      <a href="../seizure/">
-      [FR]: Seizure
+      Crise d'épilepsie
      </a>
      <a href="../allergy/">
-      [FR]: Severe Allergy
+      Allergie sévère
      </a>
      <a href="../cold/">
-      [FR]: Cold Safety
+      Sécurité contre le froid
      </a>
      <a href="../heart/">
-      [FR]: Heart Attack
+      Crise cardiaque
      </a>
      <a href="../triage/">
-      [FR]: Triage
+      Triage
      </a>
      <a href="../localize.html">
-      [FR]: Localize &amp; share
+      Localiser et partager
      </a>
     </nav>
    </div>
@@ -85,163 +106,163 @@
   <main id="main">
    <header class="hero">
     <h1>
-     [FR]: 🚨 Emergency Triage
+     🚨Triage d'urgence
     </h1>
     <p>
-     [FR]: Fast navigator for the first moments of an emergency. It is not a diagnosis: choose the closest match, call your local emergency number for life-threatening symptoms, and follow dispatcher/local guidance.
+     Navigateur rapide pour les premiers instants d'une urgence. Il ne s'agit pas d'un diagnostic : choisissez la correspondance la plus proche, appelez votre numéro d'urgence local en cas de symptômes potentiellement mortels et suivez les instructions du répartiteur/local.
     </p>
    </header>
    <div class="actions no-print">
     <a class="btn" href="javascript:window.print()">
-     [FR]: Print this page
+     Imprimer cette page
     </a>
     <a class="btn alt" href="triage-onepager.pdf">
-     [FR]: Download printable PDF
+     Télécharger le PDF imprimable
     </a>
    </div>
    <section>
     <div class="box warn">
      <strong>
-      [FR]: If the scene is unsafe
+      Si la scène est dangereuse
      </strong>
-     [FR]: — move yourself away from fire, traffic, violence, electrical hazards, chemicals, smoke, or other danger if you can. Call your local emergency number and follow dispatcher guidance before approaching.
+     — éloignez-vous du feu, de la circulation, de la violence, des risques électriques, des produits chimiques, de la fumée ou de tout autre danger si vous le pouvez. Appelez votre numéro d'urgence local et suivez les instructions du répartiteur avant de vous approcher.
     </div>
     <div class="box emergency">
      <strong>
-      [FR]: If someone is unconscious and not breathing normally
+      Si quelqu'un est inconscient et ne respire pas normalement
      </strong>
-     🚨[REVIEW_REQUIRED] [FR]: — gasping or not breathing at all — call your local emergency number, put the phone on speaker, send someone for an AED if available, and start CPR immediately.
+     🚨[REVIEW_REQUIRED] — haletant ou ne respirant pas du tout — appelez votre numéro d'urgence local, mettez le téléphone sur haut-parleur, envoyez quelqu'un chercher un DAE si disponible et commencez immédiatement la RCR.
      <br/>
      <br/>
      <a class="btn" href="../cpr/">
-      [FR]: Open CPR guide →
+      Ouvrir le guide de RCR →
      </a>
     </div>
    </section>
    <section>
     <h2>
-     [FR]: What do you see?
+     Que vois-tu ?
     </h2>
     <div class="two">
      <div class="box">
       <h3>
-       [FR]: 😮 Can't breathe, speak, or cough
+       😮 Je ne peux pas respirer, parler ou tousser
       </h3>
       <p>
-       [FR]: Person is clutching their throat, turning blue, or making high-pitched sounds.
+       La personne serre la gorge, devient bleue ou émet des sons aigus.
       </p>
       <a class="btn alt" href="../choking/">
-       [FR]: Choking guide →
+       Guide d'étouffement →
       </a>
      </div>
      <div class="box emergency">
       <h3>
-       [FR]: 🩸 Heavy bleeding
+       🩸 Saignements abondants
       </h3>
       <p>
-       [FR]: Blood is spurting, pooling, soaking through bandages, or the limb is severed.
+       Le sang jaillit, s’accumule, traverse les bandages ou le membre est sectionné.
       </p>
       <a class="btn" href="../bleeding/">
-       [FR]: Severe Bleeding guide →
+       Guide des saignements graves →
       </a>
      </div>
      <div class="box">
       <h3>
-       [FR]: 🧠 Sudden face droop, arm weakness, slurred speech
+       🧠 Affaissement soudain du visage, faiblesse des bras, troubles de l'élocution
       </h3>
       <p>
-       [FR]: Or sudden severe headache, confusion, trouble seeing, or loss of balance.
+       Ou des maux de tête soudains et sévères, de la confusion, des difficultés à voir ou une perte d’équilibre.
       </p>
       <a class="btn alt" href="../stroke/">
-       [FR]: Stroke guide →
+       Guide des courses →
       </a>
      </div>
      <div class="box">
       <h3>
-       [FR]: 💊 Cannot wake, slow or abnormal breathing after possible opioid use
+       💊 Impossible de se réveiller, respiration lente ou anormale après une éventuelle consommation d'opioïdes
       </h3>
       <p>
-       🚨[REVIEW_REQUIRED] [FR]: Possible opioid overdose. Call emergency services, give naloxone if available, and support breathing/follow dispatcher guidance.
+       🚨[REVIEW_REQUIRED] Surdose possible d'opioïdes. Appelez les services d'urgence, donnez de la naloxone si disponible et aidez à respirer/suivez les instructions du répartiteur.
       </p>
       <a class="btn alt" href="../naloxone/">
-       [FR]: Opioid Overdose guide →
+       Guide sur les surdoses d’opioïdes →
       </a>
      </div>
      <div class="box warn">
       <h3>
-       [FR]: 🥵 Confusion, fainting, very hot skin
+       🥵 Confusion, évanouissement, peau très chaude
       </h3>
       <p>
-       [FR]: In hot weather or after exertion. Could be heat stroke.
+       Par temps chaud ou après un effort. Ça pourrait être un coup de chaleur.
       </p>
       <a class="btn alt" href="../heat/">
-       [FR]: Extreme Heat guide →
+       Guide Chaleur Extrême →
       </a>
      </div>
      <div class="box warn">
       <h3>
-       [FR]: 🌫️ Coughing, chest tightness, smoky air
+       🌫️ Toux, oppression thoracique, air enfumé
       </h3>
       <p>
-       [FR]: During a wildfire or heavy air pollution. Higher risk for people with heart/lung conditions, pregnancy, older age, young children, outdoor work, or limited access to clean indoor air.
+       Lors d’un incendie de forêt ou d’une forte pollution atmosphérique. Risque plus élevé pour les personnes souffrant de maladies cardiaques ou pulmonaires, de grossesse, de personnes âgées, de jeunes enfants, de travaux extérieurs ou d'un accès limité à l'air intérieur pur.
       </p>
       <a class="btn alt" href="../smoke/">
-       [FR]: Wildfire Smoke guide →
+       Guide sur la fumée des feux de forêt →
       </a>
      </div>
      <div class="box ok">
       <h3>
-       [FR]: 💧 Vomiting, diarrhea, very thirsty, dark urine
+       💧 Vomissements, diarrhée, très soif, urine foncée
       </h3>
       <p>
-       [FR]: Signs of dehydration. Especially dangerous for children and older adults.
+       Signes de déshydratation. Particulièrement dangereux pour les enfants et les personnes âgées.
       </p>
       <a class="btn alt" href="../ors/">
-       [FR]: Dehydration &amp; ORS guide →
+       Guide déshydratation et SOR →
       </a>
      </div>
      <div class="box emergency">
       <h3>
-       [FR]: 🐝 Trouble breathing, swelling, or faintness after allergen exposure
+       🐝 Difficultés à respirer, gonflement ou évanouissement après une exposition à un allergène
       </h3>
       <p>
-       🚨[REVIEW_REQUIRED] [FR]: Possible anaphylaxis: call emergency services, use epinephrine if indicated by an action plan/product/local responder rules, and position safely.
+       🚨[REVIEW_REQUIRED] Anaphylaxie possible : appelez les services d'urgence, utilisez de l'épinéphrine si cela est indiqué par un plan d'action/un produit/les règles d'un intervenant local, et positionnez-vous en toute sécurité.
       </p>
       <a class="btn" href="../allergy/">
-       [FR]: Severe Allergy guide →
+       Guide des allergies sévères →
       </a>
      </div>
      <div class="box">
       <h3>
-       [FR]: 🔥 Burn from fire, hot liquid, or chemical
+       🔥 Brûlure causée par le feu, un liquide chaud ou un produit chimique
       </h3>
       <p>
-       🚨[REVIEW_REQUIRED] [FR]: Cool under running water for 20 minutes if possible, cover loosely, and do not use ice or home remedies.
+       🚨[REVIEW_REQUIRED] Laisser refroidir sous l'eau courante pendant 20 minutes si possible, couvrir sans serrer et n'utiliser pas de glace ou de remèdes maison.
       </p>
       <a class="btn alt" href="../burns/">
-       [FR]: Burns guide →
+       Guide des brûlures →
       </a>
      </div>
      <div class="box">
       <h3>
-       [FR]: ⚡ Rigid jerking, loss of consciousness
+       ⚡ Secousses rigides, perte de conscience
       </h3>
       <p>
-       [FR]: Seizure. Protect the head, time it, do not restrain or put anything in the mouth.
+       Crise d'épilepsie. Protégez la tête, chronométrez-la, ne retenez pas et ne mettez rien dans la bouche.
       </p>
       <a class="btn alt" href="../seizure/">
-       [FR]: Seizure guide →
+       Guide des saisies →
       </a>
      </div>
      <div class="box warn">
       <h3>
-       [FR]: 🥶 Cold, shivering, confused, numb skin
+       🥶 Peau froide, frissonnante, confuse et engourdie
       </h3>
       <p>
-       [FR]: Hypothermia or frostbite. Get to warm shelter, remove wet clothes, warm center-first gradually, and never rub frozen skin.
+       Hypothermie ou engelures. Installez-vous dans un abri chaud, enlevez les vêtements mouillés, réchauffez progressivement le centre en premier et ne frottez jamais la peau gelée.
       </p>
       <a class="btn alt" href="../cold/">
-       [FR]: Cold Safety guide →
+       Guide de sécurité contre le froid →
       </a>
      </div>
     </div>
@@ -249,44 +270,44 @@
    <section>
     <div class="box">
      <h3>
-      [FR]: General first steps for any emergency
+      Premières étapes générales en cas d'urgence
      </h3>
      <ol class="steps">
       <li>
        <strong>
-        [FR]: Check safety.
+        Vérifiez la sécurité.
        </strong>
-       [FR]: If unsafe, move away and call for help before approaching.
+       En cas de danger, éloignez-vous et appelez à l’aide avant de vous approcher.
       </li>
       <li>
        <strong>
-        [FR]: Check responsiveness.
+        Vérifiez la réactivité.
        </strong>
-       [FR]: Tap their shoulder and shout. No response + not breathing normally → CPR.
+       Tapez-leur l'épaule et criez. Aucune réponse + ne respire pas normalement → RCP.
       </li>
       <li>
        <strong>
-        [FR]: Call for help.
+        Appelez à l'aide.
        </strong>
-       [FR]: Call your local emergency number. Put the phone on speaker so the dispatcher can guide you.
+       Appelez votre numéro d'urgence local. Mettez le téléphone sur haut-parleur pour que le répartiteur puisse vous guider.
       </li>
       <li>
        <strong>
-        [FR]: Use the guide above
+        Utilisez le guide ci-dessus
        </strong>
-       [FR]: that matches what you see, while following dispatcher/local guidance.
+       qui correspond à ce que vous voyez, tout en suivant les instructions du répartiteur/local.
       </li>
      </ol>
     </div>
    </section>
    <section class="disclaimer">
     <p>
-     [FR]: This navigator is not a diagnosis and is not a substitute for first-aid training. When in doubt about a serious or rapidly worsening symptom, call your local emergency number. Verify guidance against your local health authority.
+     Ce navigateur ne constitue pas un diagnostic et ne remplace pas une formation aux premiers secours. En cas de doute sur un symptôme grave ou qui s’aggrave rapidement, appelez votre numéro d’urgence local. Vérifiez les directives auprès de votre autorité sanitaire locale.
     </p>
     <p>
-     [FR]: Reuse and reprint freely.
+     Réutilisez et réimprimez librement.
      <a href="../localize.html">
-      [FR]: Localize before sharing
+      Localiser avant de partager
      </a>
      .
     </p>
@@ -294,11 +315,11 @@
   </main>
   <footer>
    <p>
-    [FR]: A free, open Help Kit ·
+    Un kit d'aide gratuit et ouvert ·
     <a href="https://github.com/ai-village-agents/help-kit">
-     [FR]: source on GitHub
+     source sur GitHub
     </a>
-    [FR]: · Public domain (CC0) · Verify against your local health authority
+    · Domaine public (CC0) · Vérifiez auprès de votre autorité sanitaire locale
    </p>
   </footer>
   <script>

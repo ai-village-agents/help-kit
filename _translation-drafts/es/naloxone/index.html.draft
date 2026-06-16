@@ -4,9 +4,9 @@
   <meta charset="utf-8"/>
   <meta content="width=device-width,initial-scale=1" name="viewport"/>
   <title>
-   [ES]: Opioid Overdose: Recognize It, Reverse It with Naloxone — Help Kit | Help Kit
+   Sobredosis de opioides: reconocerla y revertirla con naloxona — Kit de ayuda | Help Kit
   </title>
-  <meta content="[ES]: A free, source-cited one-page guide to recognizing an opioid overdose and responding with naloxone (Narcan), step by step." name="description"/>
+  <meta content="Una guía gratuita de una página, citada por la fuente, para reconocer una sobredosis de opioides y responder con naloxona (Narcan), paso a paso." name="description"/>
   <link href="https://ai-village-agents.github.io/help-kit/naloxone/" rel="canonical"/>
   <meta content="noindex, nofollow, noarchive" name="robots"/>
   <meta content="Help Kit" property="og:site_name"/>
@@ -24,13 +24,51 @@
   <link href="../style.css" rel="stylesheet"/>
   <link href="/help-kit/manifest.webmanifest" rel="manifest"/>
   <link href="/help-kit/icon-192.png" rel="apple-touch-icon"/>
+  <script type="application/ld+json">
+   {
+  "@context": "https://schema.org",
+  "@type": "MedicalWebPage",
+  "name": "Opioid Overdose: Recognize It, Reverse It with Naloxone",
+  "description": "A free, source-cited one-page guide to recognizing an opioid overdose and responding with naloxone (Narcan), step by step.",
+  "url": "https://ai-village-agents.github.io/help-kit/naloxone/",
+  "inLanguage": "en",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "Help Kit",
+    "url": "https://ai-village-agents.github.io/help-kit/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Help Kit",
+    "url": "https://ai-village-agents.github.io/help-kit/"
+  },
+  "citation": [
+    {
+      "@type": "WebPage",
+      "name": "U.S. Centers for Disease Control and Prevention (CDC) — about naloxone",
+      "url": "https://www.cdc.gov/overdose-prevention/reversing-overdose/about-naloxone.html"
+    },
+    {
+      "@type": "WebPage",
+      "name": "U.S. National Institute on Drug Abuse (NIDA) — Naloxone DrugFacts",
+      "url": "https://nida.nih.gov/publications/drugfacts/naloxone"
+    },
+    {
+      "@type": "WebPage",
+      "name": "U.S. Food and Drug Administration (FDA) drug information",
+      "url": "https://www.fda.gov/drugs"
+    }
+  ]
+}
+  </script>
  </head>
  <body>
   <div class="notice danger" data-draft-warning="true">
    UNREVIEWED MACHINE TRANSLATION DRAFT (es). Do not use for medical guidance, sharing, printing, or training until fluent local reviewers verify all emergency numbers, doses, timings, and local guidance against the English source.
   </div>
   <a class="skip-link" href="#main">
-   [ES]: Skip to main content
+   Saltar al contenido principal
   </a>
   <header class="site">
    <div class="wrap">
@@ -39,49 +77,49 @@
     </a>
     <nav>
      <a href="../heat/">
-      [ES]: Extreme Heat
+      Calor extremo
      </a>
      <a href="../smoke/">
-      [ES]: Wildfire Smoke
+      Humo de incendios forestales
      </a>
      <a href="../naloxone/">
-      [ES]: Opioid Overdose
+      Sobredosis de opioides
      </a>
      <a href="../ors/">
-      [ES]: Dehydration &amp; ORS
+      Deshidratación y SRO
      </a>
      <a href="../choking/">
-      [ES]: Choking
+      asfixia
      </a>
      <a href="../bleeding/">
-      [ES]: Severe Bleeding
+      Sangrado severo
      </a>
      <a href="../cpr/">
-      [ES]: CPR
+      RCP
      </a>
      <a href="../stroke/">
-      [ES]: Stroke
+      Ataque
      </a>
      <a href="../burns/">
-      [ES]: Burns
+      quemaduras
      </a>
      <a href="../seizure/">
-      [ES]: Seizure
+      Convulsión
      </a>
      <a href="../allergy/">
-      [ES]: Severe Allergy
+      Alergia severa
      </a>
      <a href="../cold/">
-      [ES]: Cold Safety
+      Seguridad en frío
      </a>
      <a href="../heart/">
-      [ES]: Heart Attack
+      Infarto de miocardio
      </a>
      <a href="../triage/">
-      [ES]: Triage
+      Triaje
      </a>
      <a href="../localize.html">
-      [ES]: Localize &amp; share
+      Localizar y compartir
      </a>
     </nav>
    </div>
@@ -89,32 +127,32 @@
   <section class="hero">
    <div class="wrap">
     <h1>
-     [ES]: Opioid overdose: recognize it, reverse it
+     Sobredosis de opioides: reconocerla, revertirla
     </h1>
     <p>
-     🚨[REVIEW_REQUIRED] [ES]: How to spot an opioid overdose and respond with naloxone (Narcan). Naloxone is very unlikely to harm someone, is designed for layperson use, and may reverse an opioid overdose while help is coming. Free to read, print, and share.
+     🚨[REVIEW_REQUIRED] Cómo detectar una sobredosis de opioides y responder con naloxona (Narcan). Es muy poco probable que la naloxona cause daño a alguien, está diseñada para uso no especializado y puede revertir una sobredosis de opioides mientras llega la ayuda. Gratis para leer, imprimir y compartir.
     </p>
    </div>
   </section>
   <main id="main">
    <div class="wrap">
     <p class="lede">
-     [ES]: An opioid overdose slows or stops a person's breathing.
+     Una sobredosis de opioides ralentiza o detiene la respiración de una persona.
      <strong>
-      🚨[REVIEW_REQUIRED] [ES]: Naloxone
+      🚨[REVIEW_REQUIRED] naloxona
      </strong>
-     [ES]: is a medicine that can quickly reverse it. It only works on opioids, it is not addictive, and giving it to someone who is
+     es un medicamento que puede revertirlo rápidamente. Sólo funciona con opioides, no es adictivo y dárselo a alguien que lo esté
      <em>
-      [ES]: not
+      no
      </em>
-     [ES]: overdosing is very unlikely to harm them — so when in doubt, use it and call for help.
+     Es muy poco probable que una sobredosis les haga daño, así que en caso de duda, úselo y solicite ayuda.
     </p>
     <div class="actions no-print">
      <a class="btn" href="javascript:window.print()">
-      [ES]: Print this page
+      Imprime esta pagina
      </a>
      <a class="btn alt" href="naloxone-onepager.pdf">
-      [ES]: Download printable PDF
+      Descargar PDF imprimible
      </a>
     </div>
     <div class="box emergency">
@@ -122,18 +160,18 @@
       Call emergency services first
      </span>
      <h3>
-      [ES]: Always call for help
+      Siempre pide ayuda
      </h3>
      <p>
-      🚨[REVIEW_REQUIRED] [ES]: If you think someone is overdosing, call your local emergency number (examples: 911, 112, or 999; verify locally)
+      🚨[REVIEW_REQUIRED] Si cree que alguien está sufriendo una sobredosis, llame a su número de emergencia local (ejemplos: 911, 112 o 999; verifique localmente)
       <strong>
-       [ES]: right away
+       de inmediato
       </strong>
-      🚨[REVIEW_REQUIRED] [ES]: , then give naloxone. Naloxone can wear off before the opioids do, so professional help is still needed even if the person wakes up.
+      🚨[REVIEW_REQUIRED] , luego administre naloxona. La naloxona puede desaparecer antes que los opioides, por lo que aún se necesita ayuda profesional incluso si la persona se despierta.
      </p>
     </div>
     <h2>
-     [ES]: Know the signs of an overdose
+     Conozca los signos de una sobredosis
     </h2>
     <div class="box warn">
      <span class="tag warn">
@@ -141,71 +179,71 @@
      </span>
      <ul>
       <li>
-       [ES]: Will not wake up or respond to your voice or touch
+       No se despertará ni responderá a su voz o tacto.
       </li>
       <li>
-       [ES]: Breathing is very slow, shallow, or has stopped
+       La respiración es muy lenta, superficial o se ha detenido.
       </li>
       <li>
-       [ES]: Gurgling, gasping, or snoring/choking sounds
+       Sonidos de gorgoteo, jadeo o ronquido/asfixia
       </li>
       <li>
-       [ES]: Lips, fingertips, or skin turning blue, gray, or pale
+       Labios, yemas de los dedos o piel que se vuelven azules, grises o pálidos.
       </li>
       <li>
-       [ES]: Very small, "pinpoint" pupils
+       Pupilas muy pequeñas y "puntiagudas".
       </li>
       <li>
-       [ES]: Limp body; cold or clammy skin
+       Cuerpo flácido; piel fría o húmeda
       </li>
      </ul>
      <p>
-      [ES]: To check responsiveness, call their name, tap or shake their shoulder if safe, and follow local first-aid or dispatcher instructions. If they do not respond and are not breathing normally, treat it as an overdose emergency.
+      Para comprobar la capacidad de respuesta, llame su nombre, toque o sacuda su hombro si es seguro y siga las instrucciones locales de primeros auxilios o del despachador. Si no responde y no respira normalmente, trátelo como una emergencia por sobredosis.
      </p>
     </div>
     <h2>
-     [ES]: What to do — step by step
+     Qué hacer: paso a paso
     </h2>
     <ol class="steps">
      <li>
       <strong>
-       [ES]: Call emergency services.
+       Llame a los servicios de emergencia.
       </strong>
-      [ES]: Report that someone is unresponsive and not breathing normally, and give your location.
+      Informe que alguien no responde y no respira normalmente, y proporcione su ubicación.
      </li>
      <li>
       <strong>
-       🚨[REVIEW_REQUIRED] [ES]: Give naloxone.
+       🚨[REVIEW_REQUIRED] Administre naloxona.
       </strong>
-      🚨[REVIEW_REQUIRED] [ES]: For nasal spray (e.g. Narcan): tilt the head back, insert the nozzle into one nostril until your fingers touch the bottom of their nose, and press the plunger firmly all the way in.
+      🚨[REVIEW_REQUIRED]  Para aerosol nasal (por ejemplo, Narcan): incline la cabeza hacia atrás, inserte la boquilla en una fosa nasal hasta que sus dedos toquen la parte inferior de la nariz y presione el émbolo firmemente hasta el fondo.
      </li>
      <li>
       <strong>
-       [ES]: Support their breathing.
+       Apoye su respiración.
       </strong>
-      [ES]: Follow dispatcher instructions. If trained, give rescue breaths or CPR as appropriate. If not trained, keep their airway clear and stay with them until help arrives.
+      Siga las instrucciones del despachador. Si está capacitado, proporcione respiración boca a boca o RCP según corresponda. Si no está capacitado, mantenga sus vías respiratorias despejadas y quédese con ellos hasta que llegue la ayuda.
      </li>
      <li>
       <strong>
-       🚨[REVIEW_REQUIRED] [ES]: Wait 2–3 minutes.
+       🚨[REVIEW_REQUIRED] Espere de 2 a 3 minutos.
       </strong>
-      [ES]: If there is no improvement (still not breathing or not awake), give a
+      Si no hay mejoría (todavía no respira o no está despierto), administre un
       <strong>
-       [ES]: second dose
+       segunda dosis
       </strong>
-      [ES]: in the other nostril.
+      en la otra fosa nasal.
      </li>
      <li>
       <strong>
-       [ES]: Put them in the recovery position.
+       Ponlos en posición de recuperación.
       </strong>
-      [ES]: Once breathing, lay them on their side so they don't choke if they vomit.
+      Una vez que respire, acuéstelo de costado para que no se ahogue si vomita.
      </li>
      <li>
       <strong>
-       [ES]: Stay with them
+       quédate con ellos
       </strong>
-      🚨[REVIEW_REQUIRED] [ES]: until emergency help arrives. Naloxone can wear off in 30–90 minutes and the overdose can return.
+      🚨[REVIEW_REQUIRED]  hasta que llegue la ayuda de emergencia. La naloxona puede desaparecer en 30 a 90 minutos y la sobredosis puede regresar.
      </li>
     </ol>
     <div class="box ok">
@@ -215,27 +253,27 @@
      <ul>
       <li>
        <strong>
-        🚨[REVIEW_REQUIRED] [ES]: Naloxone is safe to use in an emergency.
+        🚨[REVIEW_REQUIRED] La naloxona es segura de usar en caso de emergencia.
        </strong>
-       [ES]: It only reverses opioids and is very unlikely to harm someone who has not taken opioids. Do not delay when overdose is possible.
+       Sólo revierte los opioides y es muy poco probable que dañe a alguien que no los haya tomado. No se demore cuando sea posible una sobredosis.
       </li>
       <li>
        <strong>
-        [ES]: It is widely available.
+        Está ampliamente disponible.
        </strong>
-       🚨[REVIEW_REQUIRED] [ES]: In the U.S., naloxone nasal spray is approved for over-the-counter sale and is free or low-cost through many pharmacies, health departments, and harm-reduction programs. Availability varies by country — ask a local pharmacist or health service.
+       🚨[REVIEW_REQUIRED]  En los EE. UU., el aerosol nasal de naloxona está aprobado para su venta sin receta y es gratuito o de bajo costo en muchas farmacias, departamentos de salud y programas de reducción de daños. La disponibilidad varía según el país; consulte a un farmacéutico o servicio de salud local.
       </li>
       <li>
        <strong>
-        [ES]: Withdrawal may follow.
+        Puede seguir la retirada.
        </strong>
-       🚨[REVIEW_REQUIRED] [ES]: Naloxone can cause sudden, uncomfortable opioid withdrawal (sweating, nausea, agitation). Reassure the person, keep them from using more opioids, and keep monitoring until emergency help arrives.
+       🚨[REVIEW_REQUIRED]  La naloxona puede provocar una abstinencia repentina e incómoda de opioides (sudoración, náuseas, agitación). Tranquilice a la persona, evite que use más opioides y siga monitoreándola hasta que llegue ayuda de emergencia.
       </li>
       <li>
        <strong>
-        [ES]: Many overdoses involve fentanyl,
+        Muchas sobredosis involucran fentanilo,
        </strong>
-       🚨[REVIEW_REQUIRED] [ES]: a very strong opioid. A second or additional dose of naloxone may be needed if breathing does not improve after 2–3 minutes — follow product directions and dispatcher guidance.
+       🚨[REVIEW_REQUIRED]  un opioide muy fuerte. Es posible que se necesite una segunda dosis o una dosis adicional de naloxona si la respiración no mejora después de 2 a 3 minutos; siga las instrucciones del producto y las instrucciones del operador.
       </li>
      </ul>
     </div>
@@ -244,74 +282,71 @@
       Good Samaritan protections
      </span>
      <p>
-      [ES]: Many places have "Good Samaritan" laws that protect people who call for help during an overdose from certain drug-possession charges. Protections vary by location — but
+      Muchos lugares tienen leyes de "buen samaritano" que protegen a las personas que piden ayuda durante una sobredosis de ciertos cargos por posesión de drogas. Las protecciones varían según la ubicación, pero
       <strong>
-       [ES]: calling for help is always the right thing to do.
+       pedir ayuda es siempre lo correcto.
       </strong>
-      [ES]: A life comes first.
+      Una vida es lo primero.
      </p>
     </div>
     <h2>
-     [ES]: Be prepared before an emergency
+     Esté preparado ante una emergencia
     </h2>
     <ul>
      <li>
-      🚨[REVIEW_REQUIRED] [ES]: Carry naloxone if you or someone you know uses opioids (including prescription painkillers).
+      🚨[REVIEW_REQUIRED] Lleve consigo naloxona si usted o alguien que conoce usa opioides (incluidos analgésicos recetados).
      </li>
      <li>
-      [ES]: Ask a pharmacist or local health department how to get it and how to use your specific product.
+      Pregúntele a un farmacéutico o al departamento de salud local cómo obtenerlo y cómo utilizar su producto específico.
      </li>
      <li>
-      🚨[REVIEW_REQUIRED] [ES]: Tell the people around you where your naloxone is kept.
+      🚨[REVIEW_REQUIRED] Dígale a las personas que lo rodean dónde se guarda su naloxona.
      </li>
      <li>
-      [ES]: Encourage people not to use alone; if they do, ask them to tell someone or use a "never use alone" hotline where available.
+      Anime a las personas a no consumir solas; Si lo hacen, pídales que se lo digan a alguien o utilice una línea directa de "nunca usar solo" cuando esté disponible.
      </li>
     </ul>
     <h2>
-     [ES]: Sources
+     Fuentes
     </h2>
     <ul class="sources">
      <li>
-      🚨[REVIEW_REQUIRED] [ES]: U.S. Substance Abuse and Mental Health Services Administration (SAMHSA) — overdose prevention and naloxone guidance. samhsa.gov
+      🚨[REVIEW_REQUIRED] Administración de Servicios de Salud Mental y Abuso de Sustancias de EE. UU. (SAMHSA): prevención de sobredosis y orientación sobre naloxona. samhsa.gov
      </li>
      <li>
       <a href="https://www.cdc.gov/overdose-prevention/reversing-overdose/about-naloxone.html">
-       🚨[REVIEW_REQUIRED] [ES]: U.S. Centers for Disease Control and Prevention (CDC) — about naloxone
+       🚨[REVIEW_REQUIRED] Centros para el Control y la Prevención de Enfermedades (CDC) de EE. UU.: sobre la naloxona
       </a>
-      [ES]: and overdose prevention.
+      y prevención de sobredosis.
      </li>
      <li>
       <a href="https://nida.nih.gov/publications/drugfacts/naloxone">
-       [ES]: U.S. National Institute on Drug Abuse (NIDA) —
-       <em>
-        🚨[REVIEW_REQUIRED] [ES]: Naloxone DrugFacts
-       </em>
+       🚨[REVIEW_REQUIRED] Instituto Nacional sobre el Abuso de Drogas de EE. UU. (NIDA) — Naloxona DrugFacts
       </a>
       .
      </li>
      <li>
       <a href="https://www.fda.gov/drugs">
-       [ES]: U.S. Food and Drug Administration (FDA) drug information
+       Información sobre medicamentos de la Administración de Alimentos y Medicamentos de EE. UU. (FDA)
       </a>
-      🚨[REVIEW_REQUIRED] [ES]: and over-the-counter naloxone information.
+      🚨[REVIEW_REQUIRED]  e información sobre naloxona de venta libre.
      </li>
     </ul>
     <p class="sources">
-     🚨[REVIEW_REQUIRED] [ES]: Steps reflect SAMHSA/CDC overdose-response guidance. Always follow the instructions printed on your specific naloxone product, and your local emergency services' direction.
+     🚨[REVIEW_REQUIRED] Los pasos reflejan la guía de respuesta a sobredosis de SAMHSA/CDC. Siga siempre las instrucciones impresas en su producto de naloxona específico y las instrucciones de sus servicios de emergencia locales.
     </p>
     <p class="disclaimer">
-     🚨[REVIEW_REQUIRED] [ES]: This guide is general information, not medical advice, and is not a substitute for professional emergency care or training. In an emergency, always call your local emergency number. Hands-on naloxone and rescue-breathing training is widely available and recommended. Reuse and reprint freely.
+     🚨[REVIEW_REQUIRED] Esta guía es información general, no asesoramiento médico, y no sustituye la atención de emergencia ni la capacitación profesional. En caso de emergencia, llame siempre a su número de emergencia local. La capacitación práctica sobre naloxona y respiración boca a boca está ampliamente disponible y se recomienda. Reutilice y reimprima libremente.
     </p>
    </div>
   </main>
   <footer class="site">
    <div class="wrap">
-    [ES]: A free, open Help Kit ·
+    Un kit de ayuda abierto y gratuito ·
     <a href="https://github.com/ai-village-agents/help-kit">
-     [ES]: source on GitHub
+     fuente en GitHub
     </a>
-    [ES]: · Public domain (CC0) · Verify against your local health authority
+    · Dominio público (CC0) · Verificar con su autoridad sanitaria local
    </div>
   </footer>
   <script>

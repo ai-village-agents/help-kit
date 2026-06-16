@@ -4,9 +4,9 @@
   <meta charset="utf-8"/>
   <meta content="width=device-width,initial-scale=1" name="viewport"/>
   <title>
-   [FR]: Stroke: Spot It Fast (FAST) — Help Kit | Help Kit
+   AVC : Repérez-le rapidement (FAST) – Kit d'aide | Help Kit
   </title>
-  <meta content="[FR]: A free, source-cited one-page guide to spotting a stroke fast using FAST and BE-FAST (Face, Arm, Speech, Time, plus Balance and Eyes) and calling for help immediately. Based on AHA/ASA, Stroke Association, and WHO guidance." name="description"/>
+  <meta content="Un guide gratuit cité par la source pour repérer rapidement les accidents vasculaires cérébraux en utilisant FAST et BE-FAST et appeler à l'aide immédiatement. Basé sur les directives de l’AHA/ASA et de l’OMS." name="description"/>
   <link href="https://ai-village-agents.github.io/help-kit/stroke/" rel="canonical"/>
   <meta content="noindex, nofollow, noarchive" name="robots"/>
   <meta content="Help Kit" property="og:site_name"/>
@@ -24,13 +24,51 @@
   <link href="../style.css" rel="stylesheet"/>
   <link href="/help-kit/manifest.webmanifest" rel="manifest"/>
   <link href="/help-kit/icon-192.png" rel="apple-touch-icon"/>
+  <script type="application/ld+json">
+   {
+  "@context": "https://schema.org",
+  "@type": "MedicalWebPage",
+  "name": "Stroke: Spot It Fast (FAST)",
+  "description": "A free, source-cited guide to spotting stroke fast using FAST and BE-FAST, and calling for help immediately. Based on AHA/ASA and WHO guidance.",
+  "url": "https://ai-village-agents.github.io/help-kit/stroke/",
+  "inLanguage": "en",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "Help Kit",
+    "url": "https://ai-village-agents.github.io/help-kit/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Help Kit",
+    "url": "https://ai-village-agents.github.io/help-kit/"
+  },
+  "citation": [
+    {
+      "@type": "WebPage",
+      "name": "American Stroke Association (AHA/ASA) — stroke warning signs and F.A.S.T.",
+      "url": "https://www.stroke.org/en/about-stroke/stroke-symptoms"
+    },
+    {
+      "@type": "WebPage",
+      "name": "U.S. CDC — stroke signs and symptoms and what to do",
+      "url": "https://www.cdc.gov/stroke/signs-symptoms/"
+    },
+    {
+      "@type": "WebPage",
+      "name": "World Health Organization (WHO) — cardiovascular disease and stroke fact sheets",
+      "url": "https://www.who.int/news-room/fact-sheets"
+    }
+  ]
+}
+  </script>
  </head>
  <body>
   <div class="notice danger" data-draft-warning="true">
    UNREVIEWED MACHINE TRANSLATION DRAFT (fr). Do not use for medical guidance, sharing, printing, or training until fluent local reviewers verify all emergency numbers, doses, timings, and local guidance against the English source.
   </div>
   <a class="skip-link" href="#main">
-   [FR]: Skip to main content
+   Passer au contenu principal
   </a>
   <header class="site">
    <div class="wrap">
@@ -39,49 +77,49 @@
     </a>
     <nav>
      <a href="../heat/">
-      [FR]: Extreme Heat
+      Chaleur extrême
      </a>
      <a href="../smoke/">
-      [FR]: Wildfire Smoke
+      Fumée de feux de forêt
      </a>
      <a href="../naloxone/">
-      [FR]: Opioid Overdose
+      Surdose d'opioïdes
      </a>
      <a href="../ors/">
-      [FR]: Dehydration &amp; ORS
+      Déshydratation et SOR
      </a>
      <a href="../choking/">
-      [FR]: Choking
+      Étouffement
      </a>
      <a href="../bleeding/">
-      [FR]: Severe Bleeding
+      Saignement sévère
      </a>
      <a href="../cpr/">
-      [FR]: CPR
+      RCR
      </a>
      <a href="../stroke/">
-      [FR]: Stroke
+      Accident vasculaire cérébral
      </a>
      <a href="../burns/">
-      [FR]: Burns
+      Brûlures
      </a>
      <a href="../seizure/">
-      [FR]: Seizure
+      Crise d'épilepsie
      </a>
      <a href="../allergy/">
-      [FR]: Severe Allergy
+      Allergie sévère
      </a>
      <a href="../cold/">
-      [FR]: Cold Safety
+      Sécurité contre le froid
      </a>
      <a href="../heart/">
-      [FR]: Heart Attack
+      Crise cardiaque
      </a>
      <a href="../triage/">
-      [FR]: Triage
+      Triage
      </a>
      <a href="../localize.html">
-      [FR]: Localize &amp; share
+      Localiser et partager
      </a>
     </nav>
    </div>
@@ -89,28 +127,28 @@
   <section class="hero">
    <div class="wrap">
     <h1>
-     [FR]: Stroke: spot it fast
+     AVC : repérez-le rapidement
     </h1>
     <p>
-     [FR]: A stroke happens when blood flow to part of the brain is suddenly cut off. Brain cells can be injured within minutes, so spotting the signs and calling for help right away can save a life and reduce lasting disability. The signs are sudden — learn them with the word
+     Un accident vasculaire cérébral survient lorsque le flux sanguin vers une partie du cerveau est soudainement interrompu. Les cellules cérébrales peuvent être endommagées en quelques minutes, donc repérer les signes et appeler immédiatement à l’aide peut améliorer les chances de traitement et réduire l’invalidité durable. Les signes sont soudains – apprenez-les avec le mot
      <strong>
-      [FR]: FAST
+      RAPIDE
      </strong>
-     [FR]: . Free to read, print, and share.
+     . Lecture, impression et partage gratuits.
     </p>
    </div>
   </section>
   <main id="main">
    <div class="wrap">
     <p class="lede">
-     [FR]: Most strokes are caused by a clot blocking blood flow to the brain; some are caused by bleeding in the brain. You cannot tell which from the outside — and you do not need to. What matters is recognising a stroke and getting urgent medical care, because stroke treatments are highly time-sensitive.
+     La plupart des accidents vasculaires cérébraux sont causés par un caillot bloquant le flux sanguin vers le cerveau ; certains sont causés par un saignement dans le cerveau. Vous ne pouvez pas savoir lequel de l’extérieur – et ce n’est pas nécessaire. Ce qui compte, c’est de reconnaître un accident vasculaire cérébral et d’obtenir des soins médicaux d’urgence, car les traitements contre l’AVC sont très sensibles au facteur temps.
     </p>
     <div class="actions no-print">
      <a class="btn" href="javascript:window.print()">
-      [FR]: Print this page
+      Imprimer cette page
      </a>
      <a class="btn alt" href="stroke-onepager.pdf">
-      [FR]: Download printable PDF
+      Télécharger le PDF imprimable
      </a>
     </div>
     <div class="box emergency">
@@ -118,53 +156,53 @@
       Call emergency services now
      </span>
      <h3>
-      [FR]: Stroke is always an emergency — call immediately
+      Un accident vasculaire cérébral est toujours une urgence : appelez immédiatement
      </h3>
      <p>
-      [FR]: If you see
+      Si tu vois
       <strong>
-       [FR]: any one
+       n'importe qui
       </strong>
-      🚨[REVIEW_REQUIRED] [FR]: of the FAST signs below, call your local emergency number (examples: 911, 112, or 999; verify locally) right away. Do not wait to see if it passes. Use emergency medical transport if available; if a dispatcher gives different local instructions, follow them. Note the time the signs first started.
+      🚨[REVIEW_REQUIRED] des panneaux FAST ci-dessous, appelez immédiatement votre numéro d'urgence local (exemples : 911, 112 ou 999 ; vérifiez localement). N'attendez pas pour voir si ça passe. Utiliser le transport médical d’urgence si disponible ; si un répartiteur donne des instructions locales différentes, suivez-les. Notez l’heure à laquelle les signes ont commencé pour la première fois.
      </p>
     </div>
     <h2>
-     [FR]: Spot a stroke with FAST
+     Repérez un accident vasculaire cérébral avec FAST
     </h2>
     <div class="steps">
      <ol>
       <li>
        <strong>
-        [FR]: F — Face.
+        F-Visage.
        </strong>
-       [FR]: Ask the person to smile. Does one side of the face droop, or is it numb? Is the smile uneven?
+       Demandez à la personne de sourire. Un côté du visage s'affaisse-t-il ou est-il engourdi ? Le sourire est-il inégal ?
       </li>
       <li>
        <strong>
-        [FR]: A — Arms.
+        A — Armes.
        </strong>
-       [FR]: Ask them to raise both arms. Does one arm drift downward, or are they unable to lift one?
+       Demandez-leur de lever les deux bras. Un bras dérive-t-il vers le bas ou est-il incapable d’en soulever un ?
       </li>
       <li>
        <strong>
-        [FR]: S — Speech.
+        S — Discours.
        </strong>
-       [FR]: Ask them to repeat a simple sentence. Is their speech slurred, strange, or hard to understand? Can they not speak or not understand you?
+       Demandez-leur de répéter une phrase simple. Leur discours est-il trouble, étrange ou difficile à comprendre ? Ne peuvent-ils pas parler ou ne pas vous comprendre ?
       </li>
       <li>
        <strong>
-        [FR]: T — Time.
+        T - Temps.
        </strong>
-       [FR]: If you see any of these signs, it is
+       Si vous voyez l'un de ces signes, c'est
        <strong>
-        [FR]: time to call emergency services immediately
+        il est temps d'appeler les services d'urgence immédiatement
        </strong>
-       [FR]: . Note when the signs first appeared — this guides treatment.
+       . Notez quand les signes sont apparus pour la première fois – cela guide le traitement.
       </li>
      </ol>
     </div>
     <h2>
-     [FR]: BE-FAST: two more sudden signs
+     BE-FAST : deux autres signes soudains
     </h2>
     <div class="box warn">
      <span class="tag warn">
@@ -173,27 +211,27 @@
      <ul>
       <li>
        <strong>
-        [FR]: B — Balance.
+        B — Solde.
        </strong>
-       [FR]: Sudden loss of balance or coordination, sudden dizziness, or trouble walking.
+       Perte soudaine d’équilibre ou de coordination, étourdissements soudains ou difficultés à marcher.
       </li>
       <li>
        <strong>
-        [FR]: E — Eyes.
+        E — Les yeux.
        </strong>
-       [FR]: Sudden trouble seeing in one or both eyes, or sudden double or blurred vision.
+       Difficulté soudaine à voir dans un ou les deux yeux, ou vision soudaine double ou floue.
       </li>
      </ul>
      <p>
-      [FR]: Other sudden warning signs include sudden numbness or weakness (especially on one side of the body), sudden confusion, and a sudden severe headache with no known cause. The key word is
+      D'autres signes avant-coureurs soudains comprennent un engourdissement ou une faiblesse soudaine (en particulier d'un côté du corps), une confusion soudaine et un mal de tête soudain et sévère sans cause connue. Le mot clé est
       <strong>
-       [FR]: sudden
+       soudain
       </strong>
       .
      </p>
     </div>
     <h2>
-     [FR]: What to do while you wait for help
+     Que faire en attendant de l'aide
     </h2>
     <div class="box ok">
      <span class="tag ok">
@@ -202,32 +240,32 @@
      <ul>
       <li>
        <strong>
-        [FR]: Note the time
+        Notez l'heure
        </strong>
-       [FR]: the signs first appeared, or when the person was last seen well. This helps decide which treatments are possible — tell emergency responders and the hospital team.
+       les signes sont apparus pour la première fois ou la dernière fois que la personne a été bien vue. Cela aide à décider quels traitements sont possibles – informez-en les secouristes et l’équipe hospitalière.
       </li>
       <li>
        <strong>
-        [FR]: Do not give food, drink, or any medicine
+        Ne donnez pas de nourriture, de boisson ou tout autre médicament
        </strong>
-       [FR]: — including aspirin. A stroke can make swallowing unsafe, and the right treatment depends on the type of stroke, which only the hospital can determine.
+       – y compris l’aspirine. Un accident vasculaire cérébral peut rendre la déglutition dangereuse, et le traitement approprié dépend du type d'accident vasculaire cérébral, que seul l'hôpital peut déterminer.
       </li>
       <li>
        <strong>
-        [FR]: Stay with them and keep them comfortable.
+        Restez avec eux et gardez-les à l'aise.
        </strong>
-       [FR]: Help them sit or lie down with the head and shoulders slightly raised, and loosen tight clothing.
+       Aidez-les à s'asseoir ou à s'allonger avec la tête et les épaules légèrement relevées et à desserrer les vêtements serrés.
       </li>
       <li>
        <strong>
-        [FR]: Note any medicines they take
+        Notez tous les médicaments qu’ils prennent
        </strong>
-       [FR]: (especially blood thinners) and any known conditions, for the hospital team.
+       (notamment les anticoagulants) et toute pathologie connue, pour l'équipe hospitalière.
       </li>
       <li>
-       [FR]: If they become unconscious but are breathing normally, roll them onto their side (recovery position) and keep watching their breathing. If they stop breathing normally,
+       S’il perd connaissance mais respire normalement, faites-le rouler sur le côté (position de récupération) et continuez à surveiller sa respiration. S'ils arrêtent de respirer normalement,
        <a href="../cpr/">
-        [FR]: start CPR
+        commencer la RCP
        </a>
        .
       </li>
@@ -238,84 +276,84 @@
       Even if the signs go away, still call
      </span>
      <p>
-      [FR]: If stroke signs appear and then disappear within minutes, it may have been a
+      Si les signes d’un AVC apparaissent puis disparaissent en quelques minutes, il s’agit peut-être d’un
       <strong>
-       [FR]: transient ischaemic attack (TIA, or “mini-stroke”)
+       accident ischémique transitoire (AIT, ou « mini-accident vasculaire cérébral »)
       </strong>
-      [FR]: . This is a serious warning that a major stroke may follow soon. It is still an emergency — call for help and get medical assessment right away, even if the person feels completely fine.
+      . Il s’agit d’un avertissement sérieux indiquant qu’un accident vasculaire cérébral majeur pourrait bientôt survenir. Il s’agit toujours d’une urgence : appelez à l’aide et obtenez une évaluation médicale immédiatement, même si la personne se sent tout à fait bien.
      </p>
     </div>
     <h2>
-     [FR]: Why speed matters
+     Pourquoi la vitesse est importante
     </h2>
     <ul>
      <li>
       <strong>
-       [FR]: “Time is brain.”
+       "Le temps est le cerveau."
       </strong>
-      [FR]: Brain injury can worsen minute by minute during a stroke, so every minute of delay matters.
+      Les lésions cérébrales peuvent s’aggraver de minute en minute lors d’un accident vasculaire cérébral, donc chaque minute de retard compte.
      </li>
      <li>
-      [FR]: Clot-busting medicines and clot-removal procedures can reduce disability for some people, but they only work within limited time windows after the signs begin.
+      Les médicaments anti-caillots et les procédures d'élimination des caillots peuvent réduire l'invalidité chez certaines personnes, mais ils n'agissent que dans des délais limités après l'apparition des signes.
      </li>
      <li>
-      [FR]: Emergency medical transport is usually safer than driving when it is available: responders can start care, choose a hospital equipped for stroke, and alert the team to be ready.
+      Le transport médical d’urgence est généralement plus sûr que la voiture lorsqu’il est disponible : les intervenants peuvent commencer les soins, choisir un hôpital équipé pour les accidents vasculaires cérébraux et alerter l’équipe pour qu’elle soit prête.
      </li>
     </ul>
     <h2>
-     [FR]: Lower your risk
+     Réduisez votre risque
     </h2>
     <ul>
      <li>
-      [FR]: Keep blood pressure controlled — high blood pressure is the biggest risk factor for stroke.
+      Gardez votre tension artérielle sous contrôle – l’hypertension artérielle est le plus grand facteur de risque d’accident vasculaire cérébral.
      </li>
      <li>
-      [FR]: Don't smoke; keep alcohol within low-risk limits; stay physically active; and ask a clinician about weight, diet, and other risk factors if relevant.
+      Ne fumez pas ; maintenir l'alcool dans les limites de faible risque ; rester physiquement actif; et interrogez un clinicien sur le poids, le régime alimentaire et d'autres facteurs de risque, le cas échéant.
      </li>
      <li>
-      [FR]: Manage diabetes and cholesterol, and follow treatment for an irregular heartbeat (atrial fibrillation), which raises stroke risk.
+      Gérez le diabète et le cholestérol et suivez un traitement contre un rythme cardiaque irrégulier (fibrillation auriculaire), qui augmente le risque d'accident vasculaire cérébral.
      </li>
     </ul>
     <h2>
-     [FR]: Sources
+     Sources
     </h2>
     <ul class="sources">
      <li>
       <a href="https://www.stroke.org/en/about-stroke/stroke-symptoms">
-       🚨[REVIEW_REQUIRED] [FR]: American Stroke Association (AHA/ASA) — stroke warning signs and F.A.S.T.
+       🚨[REVIEW_REQUIRED] American Stroke Association (AHA/ASA) – signes avant-coureurs d’un AVC et F.A.S.T.
       </a>
      </li>
      <li>
       <a href="https://www.cdc.gov/stroke/signs-symptoms/">
-       🚨[REVIEW_REQUIRED] [FR]: U.S. CDC — stroke signs and symptoms and what to do
+       🚨[REVIEW_REQUIRED] U.S. CDC — Signes et symptômes d’un AVC et que faire
       </a>
       .
      </li>
      <li>
-      [FR]: Stroke Association (UK) — symptoms of stroke and the FAST test (stroke.org.uk).
+      Stroke Association (Royaume-Uni) – symptômes de l’AVC et test FAST (Stroke.org.uk).
      </li>
      <li>
       <a href="https://www.who.int/news-room/fact-sheets">
-       🚨[REVIEW_REQUIRED] [FR]: World Health Organization (WHO) — cardiovascular disease and stroke fact sheets
+       🚨[REVIEW_REQUIRED] Organisation mondiale de la santé (OMS) — fiches d'information sur les maladies cardiovasculaires et les accidents vasculaires cérébraux
       </a>
       .
      </li>
     </ul>
     <p class="sources">
-     [FR]: FAST and BE-FAST are widely taught public-awareness tools. Some strokes do not fit these signs — trust any sudden, unexplained neurological change and call for help. Follow your local emergency dispatcher's instructions.
+     FAST et BE-FAST sont des outils de sensibilisation du public largement enseignés. Certains accidents vasculaires cérébraux ne correspondent pas à ces signes : faites confiance à tout changement neurologique soudain et inexpliqué et appelez à l'aide. Suivez les instructions de votre répartiteur d'urgence local.
     </p>
     <p class="disclaimer">
-     [FR]: This guide is general information, not medical advice. In an emergency, always call your local emergency number without delay. Reuse and reprint freely.
+     Ce guide est une information générale et non un avis médical. En cas d’urgence, appelez toujours sans délai votre numéro d’urgence local. Réutilisez et réimprimez librement.
     </p>
    </div>
   </main>
   <footer class="site">
    <div class="wrap">
-    [FR]: A free, open Help Kit ·
+    Un kit d'aide gratuit et ouvert ·
     <a href="https://github.com/ai-village-agents/help-kit">
-     [FR]: source on GitHub
+     source sur GitHub
     </a>
-    [FR]: · Public domain (CC0) · Verify against your local health authority
+    · Domaine public (CC0) · Vérifiez auprès de votre autorité sanitaire locale
    </div>
   </footer>
   <script>

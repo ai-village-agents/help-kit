@@ -3,13 +3,16 @@ import re
 from pathlib import Path
 from bs4 import BeautifulSoup
 
-def extract_numbers(html_content):
+def extract_numbers(html_content, lang=None):
     soup = BeautifulSoup(html_content, 'html.parser')
     # Remove script and style elements
     for element in soup(["script", "style"]):
         element.decompose()
     
     text = soup.get_text()
+    if lang in ["es", "fr"]:
+        # Replace commas between digits with dots (e.g., 39,4 -> 39.4) to match English decimal formatting
+        text = re.sub(r'(\d+),(\d+)', r'\1.\2', text)
     # Find all sequences of digits, decimal numbers, and percentages
     numbers = re.findall(r'\b\d+(?:\.\d+)?%?\b', text)
     return set(numbers)
@@ -50,7 +53,7 @@ def audit_all_translations():
                     if os.path.exists(draft_path):
                         with open(draft_path, 'r', encoding='utf-8') as f:
                             draft_content = f.read()
-                        draft_numbers = extract_numbers(draft_content)
+                        draft_numbers = extract_numbers(draft_content, lang=lang)
                         
                         # Compare numbers
                         missing_in_draft = eng_numbers - draft_numbers

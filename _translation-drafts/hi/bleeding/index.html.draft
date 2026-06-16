@@ -4,9 +4,9 @@
   <meta charset="utf-8"/>
   <meta content="width=device-width,initial-scale=1" name="viewport"/>
   <title>
-   [HI]: Severe Bleeding: Stop the Bleed — Help Kit | Help Kit
+   गंभीर रक्तस्राव: रक्तस्राव रोकें - सहायता किट | Help Kit
   </title>
-  <meta content="[HI]: A free, source-cited one-page guide to stopping life-threatening bleeding: firm direct pressure, wound packing, and tourniquet basics, and when to use each. Based on Stop the Bleed (American College of Surgeons) and Red Cross guidance." name="description"/>
+  <meta content="गंभीर रक्तस्राव को रोकने के लिए एक निःशुल्क, स्रोत-उद्धृत मार्गदर्शिका: प्रत्यक्ष दबाव, घाव की पैकिंग, टूर्निकेट की मूल बातें, और आपातकालीन सहायता कब लेनी है।" name="description"/>
   <link href="https://ai-village-agents.github.io/help-kit/bleeding/" rel="canonical"/>
   <meta content="noindex, nofollow, noarchive" name="robots"/>
   <meta content="Help Kit" property="og:site_name"/>
@@ -24,13 +24,56 @@
   <link href="../style.css" rel="stylesheet"/>
   <link href="/help-kit/manifest.webmanifest" rel="manifest"/>
   <link href="/help-kit/icon-192.png" rel="apple-touch-icon"/>
+  <script type="application/ld+json">
+   {
+  "@context": "https://schema.org",
+  "@type": "MedicalWebPage",
+  "name": "Severe Bleeding: Stop the Bleed",
+  "description": "A free, source-cited guide to stopping severe bleeding: direct pressure, wound packing, tourniquet basics, and when to seek emergency help.",
+  "url": "https://ai-village-agents.github.io/help-kit/bleeding/",
+  "inLanguage": "en",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "Help Kit",
+    "url": "https://ai-village-agents.github.io/help-kit/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Help Kit",
+    "url": "https://ai-village-agents.github.io/help-kit/"
+  },
+  "citation": [
+    {
+      "@type": "WebPage",
+      "name": "American College of Surgeons — Stop the Bleed",
+      "url": "https://www.stopthebleed.org/"
+    },
+    {
+      "@type": "WebPage",
+      "name": "American Red Cross — first aid training and resources",
+      "url": "https://www.redcross.org/take-a-class"
+    },
+    {
+      "@type": "WebPage",
+      "name": "World Health Organization — basic emergency care approach to the acutely ill and injured",
+      "url": "https://www.who.int/publications/i/item/basic-emergency-care-approach-to-the-acutely-ill-and-injured"
+    },
+    {
+      "@type": "WebPage",
+      "name": "U.S. Centers for Disease Control and Prevention (CDC) — tetanus and wound-care related guidance",
+      "url": "https://www.cdc.gov/tetanus/about/index.html"
+    }
+  ]
+}
+  </script>
  </head>
  <body>
   <div class="notice danger" data-draft-warning="true">
    UNREVIEWED MACHINE TRANSLATION DRAFT (hi). Do not use for medical guidance, sharing, printing, or training until fluent local reviewers verify all emergency numbers, doses, timings, and local guidance against the English source.
   </div>
   <a class="skip-link" href="#main">
-   [HI]: Skip to main content
+   मुख्य सामग्री पर जाएँ
   </a>
   <header class="site">
    <div class="wrap">
@@ -39,49 +82,49 @@
     </a>
     <nav>
      <a href="../heat/">
-      [HI]: Extreme Heat
+      अत्यधिक गर्मी
      </a>
      <a href="../smoke/">
-      [HI]: Wildfire Smoke
+      जंगल की आग का धुआं
      </a>
      <a href="../naloxone/">
-      [HI]: Opioid Overdose
+      ओपिओइड ओवरडोज़
      </a>
      <a href="../ors/">
-      [HI]: Dehydration &amp; ORS
+      निर्जलीकरण एवं ओ.आर.एस
      </a>
      <a href="../choking/">
-      [HI]: Choking
+      दम घुट रहा है
      </a>
      <a href="../bleeding/">
-      [HI]: Severe Bleeding
+      गंभीर रक्तस्राव
      </a>
      <a href="../cpr/">
-      [HI]: CPR
+      सीपीआर
      </a>
      <a href="../stroke/">
-      [HI]: Stroke
+      आघात
      </a>
      <a href="../burns/">
-      [HI]: Burns
+      बर्न्स
      </a>
      <a href="../seizure/">
-      [HI]: Seizure
+      जब्ती
      </a>
      <a href="../allergy/">
-      [HI]: Severe Allergy
+      गंभीर एलर्जी
      </a>
      <a href="../cold/">
-      [HI]: Cold Safety
+      शीत सुरक्षा
      </a>
      <a href="../heart/">
-      [HI]: Heart Attack
+      दिल का दौरा
      </a>
      <a href="../triage/">
-      [HI]: Triage
+      ट्राइएज
      </a>
      <a href="../localize.html">
-      [HI]: Localize &amp; share
+      स्थानीयकृत करें और साझा करें
      </a>
     </nav>
    </div>
@@ -89,28 +132,28 @@
   <section class="hero">
    <div class="wrap">
     <h1>
-     [HI]: Severe bleeding: stop the bleed
+     गंभीर रक्तस्राव: रक्तस्राव रोकें
     </h1>
     <p>
-     [HI]: How to slow or stop life-threatening bleeding while you wait for help. A person can bleed to death in minutes, so fast pressure, packing, or a tourniquet when appropriate can save a life. Free to read, print, and share.
+     जब आप मदद की प्रतीक्षा कर रहे हों तो जीवन-घातक रक्तस्राव को कैसे धीमा या रोकें। एक व्यक्ति का खून बहकर कुछ ही मिनटों में मर सकता है, इसलिए जब उचित हो तो तेज दबाव, पैकिंग, या एक टूर्निकेट उन्हें मदद मिलने का सबसे अच्छा मौका दे सकता है। पढ़ने, प्रिंट करने और साझा करने के लिए निःशुल्क।
     </p>
    </div>
   </section>
   <main id="main">
    <div class="wrap">
     <p class="lede">
-     [HI]: Most bleeding you will see is minor and stops on its own or with a little pressure. But bleeding that is
+     आप देखेंगे कि अधिकांश रक्तस्राव मामूली होता है और अपने आप या थोड़े से दबाव से रुक जाता है। लेकिन वह खून बह रहा है
      <strong>
-      [HI]: spurting, pooling, soaking through clothing or bandages, or coming from a deep wound to an arm or leg
+      उछलना, जमा होना, कपड़ों या पट्टियों में भीगना, या किसी गहरे घाव से हाथ या पैर में लगना
      </strong>
-     [HI]: can be life-threatening. The single most important thing you can do is press hard on the wound and not let up.
+     जीवन के लिए खतरा हो सकता है. सबसे महत्वपूर्ण चीज जो आप कर सकते हैं वह है घाव पर जोर से दबाना और छोड़ना नहीं।
     </p>
     <div class="actions no-print">
      <a class="btn" href="javascript:window.print()">
-      [HI]: Print this page
+      इस पेज को प्रिंट करें
      </a>
      <a class="btn alt" href="bleeding-onepager.pdf">
-      [HI]: Download printable PDF
+      प्रिंट करने योग्य पीडीएफ डाउनलोड करें
      </a>
     </div>
     <div class="box emergency">
@@ -118,83 +161,83 @@
       Call emergency services
      </span>
      <h3>
-      [HI]: Life-threatening bleeding is an emergency
+      जीवन-घातक रक्तस्राव एक आपातकालीन स्थिति है
      </h3>
      <p>
-      🚨[REVIEW_REQUIRED] [HI]: Call your local emergency number (examples: 911, 112, or 999; verify locally), or have someone else call, for spurting blood, pooling blood, bleeding that soaks through clothing/bandages, an amputation, or any heavy bleeding you are worried about. If you are alone, it is reasonable to
+      🚨[REVIEW_REQUIRED] अपने स्थानीय आपातकालीन नंबर पर कॉल करें (उदाहरण: 911, 112, या 999; स्थानीय रूप से सत्यापित करें), या किसी और को कॉल करने के लिए कहें, खून बहने, रक्त जमा होने, कपड़ों/पट्टियों को भीगने वाले रक्तस्राव, अंग विच्छेदन, या किसी भी भारी रक्तस्राव के बारे में जिसके बारे में आप चिंतित हैं। यदि आप अकेले हैं, तो यह उचित है
       <strong>
-       [HI]: start pressure first
+       पहले दबाव शुरू करो
       </strong>
-      [HI]: and call as soon as you can — put the phone on speaker and follow dispatcher instructions. Get yourself safe first if there is traffic, fire, weapons, or other danger.
+      और जितनी जल्दी हो सके कॉल करें - फोन को स्पीकर पर रखें और डिस्पैचर के निर्देशों का पालन करें। यदि यातायात, आग, हथियार या अन्य कोई खतरा हो तो सबसे पहले खुद को सुरक्षित रखें।
      </p>
     </div>
     <h2>
-     [HI]: Three actions that stop bleeding
+     तीन क्रियाएं जो रक्तस्राव रोकती हैं
     </h2>
     <p>
-     [HI]: If you have gloves or any barrier (a plastic bag can help), use them to protect yourself from blood. If no barrier is available and the bleeding is life-threatening, do the best you safely can and wash thoroughly afterward. Find where the blood is coming from — you may need to move or cut away clothing to see the wound clearly.
+     यदि आपके पास दस्ताने या कोई बाधा है (एक प्लास्टिक बैग मदद कर सकता है), तो अपने आप को रक्त से बचाने के लिए उनका उपयोग करें। यदि कोई बाधा उपलब्ध नहीं है और रक्तस्राव जीवन के लिए खतरा है, तो सुरक्षित रूप से अपना सर्वश्रेष्ठ प्रयास करें और बाद में अच्छी तरह से धो लें। पता लगाएं कि खून कहां से आ रहा है - घाव को स्पष्ट रूप से देखने के लिए आपको कपड़ों को हटाने या काटने की आवश्यकता हो सकती है।
     </p>
     <ol class="steps">
      <li>
       <strong>
-       [HI]: Press hard with both hands.
+       दोनों हाथों से जोर से दबाएं.
       </strong>
-      [HI]: Place a clean cloth, gauze, or your protected hands directly on the wound and push down as hard as you can, right on the spot the blood is coming from. Keep steady, firm pressure — do not lift up to check unless a dispatcher or trained responder tells you to. Many serious bleeds slow or stop when pressure is applied firmly enough and held long enough.
+      एक साफ कपड़ा, जाली, या अपने सुरक्षित हाथों को सीधे घाव पर रखें और जितना हो सके उतना जोर से दबाएं, ठीक उसी स्थान पर जहां से खून आ रहा है। स्थिर, दृढ़ दबाव बनाए रखें - जब तक डिस्पैचर या प्रशिक्षित उत्तरदाता आपको न कहे, तब तक जांच करने के लिए ऊपर न उठें। जब दबाव काफी मजबूती से लगाया जाता है और काफी देर तक रखा जाता है तो कई गंभीर रक्तस्राव धीमा या बंद हो जाता है।
      </li>
      <li>
       <strong>
-       [HI]: If it keeps bleeding, pack the wound.
+       यदि खून बहता रहे तो घाव को पैक करें।
       </strong>
-      [HI]: For a deep wound in a place you can pack — an arm, leg, armpit, or groin (
+      किसी स्थान पर गहरे घाव के लिए जिसे आप पैक कर सकते हैं - एक हाथ, पैर, बगल, या कमर (
       <em>
-       [HI]: not
+       नहीं
       </em>
-      [HI]: the chest, abdomen, neck, or head) — push clean gauze or cloth firmly all the way into the wound, filling it completely, then press down hard over the top with both hands and keep pressing.
+      छाती, पेट, गर्दन, या सिर) - साफ धुंध या कपड़े को घाव के अंदर मजबूती से डालें, इसे पूरी तरह से भर दें, फिर दोनों हाथों से ऊपर से जोर से दबाएं और दबाते रहें।
      </li>
      <li>
       <strong>
-       [HI]: For a limb that won't stop, use a tourniquet.
+       जो अंग रुकता नहीं है, उसके लिए टूर्निकेट का उपयोग करें।
       </strong>
-      [HI]: If heavy bleeding from an arm or leg does not stop with pressure and packing, or the injury is an amputation/near-amputation, apply a tourniquet (see below) if one is available or you are trained to improvise. For life-threatening limb bleeding, tourniquets can be the right choice — follow local training and dispatcher instructions.
+      यदि हाथ या पैर से भारी रक्तस्राव दबाव और पैकिंग से नहीं रुकता है, या चोट एक विच्छेदन/विच्छेदन के करीब है, तो एक टर्निकेट (नीचे देखें) लागू करें यदि कोई उपलब्ध है या आप सुधार करने के लिए प्रशिक्षित हैं। जीवन-घातक अंग रक्तस्राव के लिए, टूर्निकेट सही विकल्प हो सकता है - स्थानीय प्रशिक्षण और डिस्पैचर निर्देशों का पालन करें।
      </li>
     </ol>
     <h2>
-     [HI]: How to use a tourniquet
+     टूर्निकेट का उपयोग कैसे करें
     </h2>
     <div class="box warn">
      <span class="tag warn">
       For arms and legs only
      </span>
      <p>
-      [HI]: Use a manufactured tourniquet if you have one. Improvised tourniquets are harder to make effective and can injure tissue; use one only when life-threatening limb bleeding cannot be controlled another way and no manufactured tourniquet is available. Avoid thin cord or rope because it can cut the skin.
+      यदि आपके पास निर्मित टूर्निकेट है तो उसका उपयोग करें। इम्प्रोवाइज्ड टूर्निकेट को प्रभावी बनाना कठिन होता है और यह ऊतकों को नुकसान पहुंचा सकता है; इसका उपयोग केवल तभी करें जब जीवन-घातक अंग रक्तस्राव को किसी अन्य तरीके से नियंत्रित नहीं किया जा सकता है और कोई निर्मित टूर्निकेट उपलब्ध नहीं है। पतली रस्सी या रस्सी से बचें क्योंकि इससे त्वचा कट सकती है।
      </p>
     </div>
     <ol class="steps">
      <li>
       <strong>
-       🚨[REVIEW_REQUIRED] [HI]: Place it 5–7 cm (2–3 inches) above the wound
+       🚨[REVIEW_REQUIRED] इसे घाव से 5-7 सेमी (2-3 इंच) ऊपर रखें
       </strong>
-      [HI]: , between the wound and the heart. Do not place it directly over a joint (knee or elbow) — go above the joint if needed. Never put it on the wound itself.
+      , घाव और दिल के बीच। इसे सीधे जोड़ (घुटने या कोहनी) पर न रखें - यदि आवश्यक हो तो जोड़ के ऊपर रखें। इसे कभी भी घाव पर न लगाएं।
      </li>
      <li>
       <strong>
-       [HI]: Pull it tight and tighten until the bleeding stops.
+       इसे तब तक खींचे और कसते रहें जब तक खून बहना बंद न हो जाए।
       </strong>
-      [HI]: A tourniquet that is tight enough to work will hurt — that is expected. If one is not enough to stop the bleeding, apply a second one just above the first.
+      एक टूर्निकेट जो काम करने के लिए पर्याप्त तंग है, चोट पहुंचाएगा - यह अपेक्षित है। यदि रक्तस्राव रोकने के लिए एक पर्याप्त नहीं है, तो पहले के ठीक ऊपर दूसरा लगाएं।
      </li>
      <li>
       <strong>
-       [HI]: Note the time
+       समय नोट करें
       </strong>
-      [HI]: you put it on (write it on the tourniquet, tape, or a visible note if you can) and tell the medics.
+      आप इसे पहनें (यदि आप कर सकते हैं तो इसे टर्निकेट, टेप, या किसी दृश्यमान नोट पर लिखें) और डॉक्टरों को बताएं।
       <strong>
-       [HI]: Do not loosen or remove it
+       इसे ढीला न करें या हटाएँ नहीं
       </strong>
-      [HI]: — leave that to medical professionals.
+      - इसे चिकित्सा पेशेवरों पर छोड़ दें।
      </li>
     </ol>
     <h2>
-     [HI]: While you wait for help
+     जब आप मदद की प्रतीक्षा कर रहे हों
     </h2>
     <div class="box ok">
      <span class="tag ok">
@@ -203,97 +246,97 @@
      <ul>
       <li>
        <strong>
-        [HI]: Keep pressing
+        दबाते रहो
        </strong>
-       [HI]: the whole time, even once bleeding seems controlled, until help takes over.
+       पूरे समय, यहां तक ​​कि एक बार भी रक्तस्राव नियंत्रित लगता है, जब तक कि मदद नहीं मिल जाती।
       </li>
       <li>
-       [HI]: Help the person
+       व्यक्ति की मदद करें
        <strong>
-        [HI]: lie down
+        लेट जाओ
        </strong>
-       [HI]: and keep them warm with a coat or blanket; heavy blood loss makes people cold and can cause shock.
+       और उन्हें कोट या कंबल से गर्म रखें; भारी रक्त हानि से लोग ठंडे हो जाते हैं और सदमे का कारण बन सकते हैं।
       </li>
       <li>
-       [HI]: Reassure them and keep talking to them. Watch their breathing and alertness.
+       उन्हें आश्वस्त करें और उनसे बात करते रहें। उनकी सांस लेने और सतर्कता पर नजर रखें।
       </li>
       <li>
        <strong>
-        [HI]: Do not remove an object stuck in a wound
+        घाव में फंसी वस्तु को न निकालें
        </strong>
-       [HI]: (knife, glass, metal). Leave it in place and press firmly
+       (चाकू, कांच, धातु)। इसे अपनी जगह पर छोड़ दें और मजबूती से दबाएं
        <em>
-        [HI]: around
+        आस-पास
        </em>
-       [HI]: it — pulling it out can make bleeding much worse.
+       इसे - इसे बाहर खींचने से रक्तस्राव बहुत अधिक खराब हो सकता है।
       </li>
      </ul>
     </div>
     <h2>
-     [HI]: Minor cuts and scrapes
+     मामूली कट और खरोंचें
     </h2>
     <ul>
      <li>
-      [HI]: Wash your hands, then rinse the wound under clean running water and gently clean around it.
+      अपने हाथ धोएं, फिर घाव को साफ बहते पानी से धोएं और उसके चारों ओर धीरे से साफ करें।
      </li>
      <li>
-      [HI]: Apply gentle pressure with a clean cloth for a few minutes until it stops, then cover with a clean dressing or bandage.
+      एक साफ कपड़े से कुछ मिनट तक हल्का दबाव डालें जब तक कि यह बंद न हो जाए, फिर एक साफ ड्रेसिंग या पट्टी से ढक दें।
      </li>
      <li>
-      [HI]: Watch for signs of infection over the next days — spreading redness, warmth, swelling, pus, or fever — and seek care if they appear. Ask a health worker about tetanus protection for dirty or deep wounds and animal bites.
+      अगले दिनों में संक्रमण के लक्षणों - लालिमा, गर्मी, सूजन, मवाद या बुखार फैलना - पर नज़र रखें और यदि वे दिखाई दें तो देखभाल करें। गंदे या गहरे घावों और जानवरों के काटने पर टिटनेस से सुरक्षा के बारे में किसी स्वास्थ्य कार्यकर्ता से पूछें।
      </li>
     </ul>
     <h2>
-     [HI]: Sources
+     सूत्रों का कहना है
     </h2>
     <ul class="sources">
      <li>
       <a href="https://www.stopthebleed.org/">
-       [HI]: American College of Surgeons —
+       अमेरिकन कॉलेज ऑफ सर्जन्स -
        <em>
-        [HI]: Stop the Bleed
+        खून बहना बंद करो
        </em>
       </a>
-      [HI]: (apply pressure, pack the wound, apply a tourniquet).
+      (दबाव डालें, घाव को पैक करें, टूर्निकेट लगाएं)।
      </li>
      <li>
       <a href="https://www.redcross.org/take-a-class">
-       [HI]: American Red Cross — first aid training and resources
+       अमेरिकन रेड क्रॉस - प्राथमिक चिकित्सा प्रशिक्षण और संसाधन
       </a>
-      [HI]: , including severe bleeding and wound care guidance.
+      , जिसमें गंभीर रक्तस्राव और घाव देखभाल मार्गदर्शन शामिल है।
      </li>
      <li>
       <a href="https://www.who.int/publications/i/item/basic-emergency-care-approach-to-the-acutely-ill-and-injured">
-       [HI]: World Health Organization — basic emergency care approach to the acutely ill and injured
+       विश्व स्वास्थ्य संगठन - गंभीर रूप से बीमार और घायलों के लिए बुनियादी आपातकालीन देखभाल दृष्टिकोण
       </a>
       .
      </li>
      <li>
       <a href="https://www.cdc.gov/tetanus/about/index.html">
-       🚨[REVIEW_REQUIRED] [HI]: U.S. Centers for Disease Control and Prevention (CDC) — tetanus and wound-care related guidance
+       🚨[REVIEW_REQUIRED] अमेरिकी रोग नियंत्रण और रोकथाम केंद्र (सीडीसी) - टेटनस और घाव-देखभाल संबंधी मार्गदर्शन
       </a>
       .
      </li>
     </ul>
     <p class="sources">
-     [HI]: Steps reflect widely taught
+     कदम व्यापक रूप से सिखाए गए प्रतिबिंबित होते हैं
      <em>
-      [HI]: Stop the Bleed
+      खून बहना बंद करो
      </em>
-     [HI]: / first-aid sequences for lay responders. Training bodies vary in detail, especially around wound packing and improvised tourniquets — follow your local first-aid training and emergency dispatcher's instructions.
+     / सामान्य उत्तरदाताओं के लिए प्राथमिक चिकित्सा क्रम। प्रशिक्षण निकाय विस्तार से भिन्न होते हैं, विशेष रूप से घाव पैकिंग और तात्कालिक टूर्निकेट के आसपास - अपने स्थानीय प्राथमिक चिकित्सा प्रशिक्षण और आपातकालीन डिस्पैचर के निर्देशों का पालन करें।
     </p>
     <p class="disclaimer">
-     [HI]: This guide is general information, not medical advice, and is not a substitute for hands-on first-aid training, which is widely available and strongly recommended. In an emergency, always call your local emergency number. Reuse and reprint freely.
+     यह मार्गदर्शिका सामान्य जानकारी है, चिकित्सीय सलाह नहीं है, और यह व्यावहारिक प्राथमिक चिकित्सा प्रशिक्षण का विकल्प नहीं है, जो व्यापक रूप से उपलब्ध है और दृढ़ता से अनुशंसित है। आपातकालीन स्थिति में, हमेशा अपने स्थानीय आपातकालीन नंबर पर कॉल करें। पुन: उपयोग करें और स्वतंत्र रूप से पुनर्मुद्रण करें।
     </p>
    </div>
   </main>
   <footer class="site">
    <div class="wrap">
-    [HI]: A free, open Help Kit ·
+    एक मुफ़्त, खुली सहायता किट ·
     <a href="https://github.com/ai-village-agents/help-kit">
-     [HI]: source on GitHub
+     GitHub पर स्रोत
     </a>
-    [HI]: · Public domain (CC0) · Verify against your local health authority
+    · सार्वजनिक डोमेन (CC0) · अपने स्थानीय स्वास्थ्य प्राधिकरण के विरुद्ध सत्यापन करें
    </div>
   </footer>
   <script>

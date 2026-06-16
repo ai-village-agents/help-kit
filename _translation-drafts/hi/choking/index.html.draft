@@ -4,9 +4,9 @@
   <meta charset="utf-8"/>
   <meta content="width=device-width,initial-scale=1" name="viewport"/>
   <title>
-   [HI]: Choking: Clear the Airway Fast — Help Kit | Help Kit
+   दम घुटना: वायुमार्ग को तेजी से साफ़ करें - सहायता किट | Help Kit
   </title>
-  <meta content="[HI]: A free, source-cited one-page guide to helping a choking adult, child, or infant — back blows, abdominal and chest thrusts, and what to do if they go unconscious. Based on Red Cross and Resuscitation Council guidance, with CPR guidance from major first-aid authorities." name="description"/>
+  <meta content="किसी घुटते हुए वयस्क, बच्चे या शिशु की मदद करने के लिए एक निःशुल्क, स्रोत-उद्धृत मार्गदर्शिका: पीठ पर वार, पेट और छाती पर जोर, और बेहोश होने पर क्या करें।" name="description"/>
   <link href="https://ai-village-agents.github.io/help-kit/choking/" rel="canonical"/>
   <meta content="noindex, nofollow, noarchive" name="robots"/>
   <meta content="Help Kit" property="og:site_name"/>
@@ -24,13 +24,51 @@
   <link href="../style.css" rel="stylesheet"/>
   <link href="/help-kit/manifest.webmanifest" rel="manifest"/>
   <link href="/help-kit/icon-192.png" rel="apple-touch-icon"/>
+  <script type="application/ld+json">
+   {
+  "@context": "https://schema.org",
+  "@type": "MedicalWebPage",
+  "name": "Choking: Clear the Airway Fast",
+  "description": "A free, source-cited guide to helping a choking adult, child, or infant: back blows, abdominal and chest thrusts, and what to do if unconscious.",
+  "url": "https://ai-village-agents.github.io/help-kit/choking/",
+  "inLanguage": "en",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "Help Kit",
+    "url": "https://ai-village-agents.github.io/help-kit/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Help Kit",
+    "url": "https://ai-village-agents.github.io/help-kit/"
+  },
+  "citation": [
+    {
+      "@type": "WebPage",
+      "name": "American Red Cross — first aid training and resources",
+      "url": "https://www.redcross.org/take-a-class"
+    },
+    {
+      "@type": "WebPage",
+      "name": "American Heart Association (AHA) — first aid guidelines",
+      "url": "https://cpr.heart.org/en/resuscitation-science/first-aid-guidelines/first-aid"
+    },
+    {
+      "@type": "WebPage",
+      "name": "Resuscitation Council UK — resuscitation and first-aid guidance library",
+      "url": "https://www.resus.org.uk/library"
+    }
+  ]
+}
+  </script>
  </head>
  <body>
   <div class="notice danger" data-draft-warning="true">
    UNREVIEWED MACHINE TRANSLATION DRAFT (hi). Do not use for medical guidance, sharing, printing, or training until fluent local reviewers verify all emergency numbers, doses, timings, and local guidance against the English source.
   </div>
   <a class="skip-link" href="#main">
-   [HI]: Skip to main content
+   मुख्य सामग्री पर जाएँ
   </a>
   <header class="site">
    <div class="wrap">
@@ -39,49 +77,49 @@
     </a>
     <nav>
      <a href="../heat/">
-      [HI]: Extreme Heat
+      अत्यधिक गर्मी
      </a>
      <a href="../smoke/">
-      [HI]: Wildfire Smoke
+      जंगल की आग का धुआं
      </a>
      <a href="../naloxone/">
-      [HI]: Opioid Overdose
+      ओपिओइड ओवरडोज़
      </a>
      <a href="../ors/">
-      [HI]: Dehydration &amp; ORS
+      निर्जलीकरण एवं ओ.आर.एस
      </a>
      <a href="../choking/">
-      [HI]: Choking
+      दम घुट रहा है
      </a>
      <a href="../bleeding/">
-      [HI]: Severe Bleeding
+      गंभीर रक्तस्राव
      </a>
      <a href="../cpr/">
-      [HI]: CPR
+      सीपीआर
      </a>
      <a href="../stroke/">
-      [HI]: Stroke
+      आघात
      </a>
      <a href="../burns/">
-      [HI]: Burns
+      बर्न्स
      </a>
      <a href="../seizure/">
-      [HI]: Seizure
+      जब्ती
      </a>
      <a href="../allergy/">
-      [HI]: Severe Allergy
+      गंभीर एलर्जी
      </a>
      <a href="../cold/">
-      [HI]: Cold Safety
+      शीत सुरक्षा
      </a>
      <a href="../heart/">
-      [HI]: Heart Attack
+      दिल का दौरा
      </a>
      <a href="../triage/">
-      [HI]: Triage
+      ट्राइएज
      </a>
      <a href="../localize.html">
-      [HI]: Localize &amp; share
+      स्थानीयकृत करें और साझा करें
      </a>
     </nav>
    </div>
@@ -89,28 +127,28 @@
   <section class="hero">
    <div class="wrap">
     <h1>
-     [HI]: Choking: clear the airway fast
+     दम घुटना: वायुमार्ग को तेजी से साफ़ करें
     </h1>
     <p>
-     [HI]: How to help someone who is choking — an adult, a child, or a baby — and what to do if they stop breathing. Acting in the first minutes can prevent death or brain injury. Free to read, print, and share.
+     किसी ऐसे व्यक्ति की मदद कैसे करें जिसका दम घुट रहा हो - एक वयस्क, एक बच्चा, या एक शिशु - और यदि वह सांस लेना बंद कर दे तो क्या करें। पहले मिनटों में कार्रवाई करने से मृत्यु या मस्तिष्क की चोट को रोका जा सकता है। पढ़ने, प्रिंट करने और साझा करने के लिए निःशुल्क।
     </p>
    </div>
   </section>
   <main id="main">
    <div class="wrap">
     <p class="lede">
-     [HI]: Choking happens when something blocks the airway and stops air from getting to the lungs. If the person can still cough or speak, the blockage is partial — encourage them to keep coughing. If they
+     घुटन तब होती है जब कोई चीज़ वायुमार्ग को अवरुद्ध कर देती है और हवा को फेफड़ों तक जाने से रोक देती है। यदि व्यक्ति अभी भी खांस सकता है या बोल सकता है, तो रुकावट आंशिक है - उन्हें खांसते रहने के लिए प्रोत्साहित करें। यदि वे
      <strong>
-      [HI]: cannot breathe, speak, or cough,
+      साँस नहीं ले सकता, बोल नहीं सकता, या खाँस नहीं सकता,
      </strong>
-     [HI]: the airway is badly blocked and you must act right away.
+     वायुमार्ग बुरी तरह अवरुद्ध है और आपको तुरंत कार्रवाई करनी चाहिए।
     </p>
     <div class="actions no-print">
      <a class="btn" href="javascript:window.print()">
-      [HI]: Print this page
+      इस पेज को प्रिंट करें
      </a>
      <a class="btn alt" href="choking-onepager.pdf">
-      [HI]: Download printable PDF
+      प्रिंट करने योग्य पीडीएफ डाउनलोड करें
      </a>
     </div>
     <div class="box emergency">
@@ -118,18 +156,18 @@
       Call emergency services
      </span>
      <h3>
-      [HI]: Severe choking is an emergency
+      गंभीर घुटन एक आपातकालीन स्थिति है
      </h3>
      <p>
-      🚨[REVIEW_REQUIRED] [HI]: Call your local emergency number (examples: 911, 112, or 999; verify locally), or have someone else call, if a person is choking and
+      🚨[REVIEW_REQUIRED] यदि किसी व्यक्ति का दम घुट रहा हो तो अपने स्थानीय आपातकालीन नंबर पर कॉल करें (उदाहरण: 911, 112, या 999; स्थानीय रूप से सत्यापित करें), या किसी और को कॉल करने के लिए कहें।
       <strong>
-       [HI]: cannot breathe, speak, cry, or cough
+       साँस नहीं ले सकता, बोल नहीं सकता, रो नहीं सकता, या खाँस नहीं सकता
       </strong>
-      [HI]: , is clutching their throat, is going silent or blue, or becomes unconscious. If you are alone with them, give first aid first and call as soon as you can — put the phone on speaker.
+      , अपना गला पकड़ रहा है, चुप या नीला हो रहा है, या बेहोश हो गया है। यदि आप उनके साथ अकेले हैं, तो पहले प्राथमिक उपचार दें और जितनी जल्दी हो सके कॉल करें - फ़ोन को स्पीकर पर रखें।
      </p>
     </div>
     <h2>
-     [HI]: First, tell mild from severe
+     सबसे पहले हल्का और गंभीर बताएं
     </h2>
     <div class="two">
      <div class="box ok">
@@ -138,17 +176,17 @@
       </span>
       <ul>
        <li>
-        [HI]: Can still cough forcefully, speak, or breathe
+        अभी भी जोर से खांस सकता है, बोल सकता है या सांस ले सकता है
        </li>
        <li>
-        [HI]: Coughing is the most effective way to clear it
+        खांसी इसे दूर करने का सबसे प्रभावी तरीका है
        </li>
       </ul>
       <p>
        <strong>
-        [HI]: Encourage them to keep coughing.
+        उन्हें खांसते रहने के लिए प्रोत्साहित करें।
        </strong>
-       [HI]: Do not slap their back or do thrusts yet; stay with them and be ready to act if it gets worse.
+       अभी उनकी पीठ पर थपकी या जोर न मारें; उनके साथ रहें और अगर बात बिगड़ती है तो कार्रवाई के लिए तैयार रहें।
       </p>
      </div>
      <div class="box emergency">
@@ -157,44 +195,44 @@
       </span>
       <ul>
        <li>
-        [HI]: Cannot breathe, speak, cry, or make sounds
+        साँस नहीं ले सकता, बोल नहीं सकता, रो नहीं सकता, या आवाज़ नहीं कर सकता
        </li>
        <li>
-        [HI]: Silent or very weak cough; clutching the throat
+        खामोश या बहुत कमजोर खांसी; गला दबाना
        </li>
        <li>
-        [HI]: Lips or face turning blue; looking panicked
+        होंठ या चेहरा नीला पड़ जाना; घबराया हुआ लग रहा है
        </li>
       </ul>
       <p>
        <strong>
-        [HI]: Begin first aid immediately
+        तुरंत प्राथमिक उपचार शुरू करें
        </strong>
-       [HI]: and get emergency help.
+       और आपातकालीन सहायता प्राप्त करें.
       </p>
      </div>
     </div>
     <h2>
-     [HI]: Adult or child (over 1 year)
+     वयस्क या बच्चा (1 वर्ष से अधिक)
     </h2>
     <ol class="steps">
      <li>
       <strong>
-       🚨[REVIEW_REQUIRED] [HI]: Give up to 5 back blows.
+       🚨[REVIEW_REQUIRED] 5 तक पीठ पर वार करें।
       </strong>
-      [HI]: Stand to the side and slightly behind. Support their chest with one hand and lean them well forward. With the heel of your other hand, give up to five firm blows between the shoulder blades. Check after each one to see if the blockage has cleared.
+      एक तरफ और थोड़ा पीछे खड़े हो जाएं। एक हाथ से उनकी छाती को सहारा दें और उन्हें आगे की ओर अच्छी तरह झुकाएँ। अपने दूसरे हाथ की एड़ी से, कंधे के ब्लेड के बीच पांच जोरदार वार करें। प्रत्येक के बाद जाँच करें कि क्या रुकावट दूर हो गई है।
      </li>
      <li>
       <strong>
-       🚨[REVIEW_REQUIRED] [HI]: Give up to 5 abdominal thrusts.
+       🚨[REVIEW_REQUIRED] पेट पर 5 तक जोर लगाएं।
       </strong>
-      [HI]: Stand behind them and put your arms around their waist. Make a fist just above the navel and below the ribcage; grasp it with your other hand and pull sharply inward and upward, up to five times.
+      उनके पीछे खड़े हो जाएं और अपनी बाहें उनकी कमर के चारों ओर डालें। नाभि के ठीक ऊपर और पसलियों के नीचे मुट्ठी बांधें; इसे अपने दूसरे हाथ से पकड़ें और तेजी से अंदर और ऊपर की ओर खींचें, अधिकतम पांच बार।
      </li>
      <li>
       <strong>
-       [HI]: Keep alternating
+       बदलते रहें
       </strong>
-      🚨[REVIEW_REQUIRED] [HI]: 5 back blows and 5 abdominal thrusts until the object comes out, the person can breathe, or they become unconscious.
+      🚨[REVIEW_REQUIRED] 5 पीठ पर वार और 5 पेट पर तब तक जोर लगाना जब तक कि वस्तु बाहर न आ जाए, व्यक्ति सांस न ले ले, या वह बेहोश न हो जाए।
      </li>
     </ol>
     <div class="box warn">
@@ -202,46 +240,46 @@
       For a pregnant person or a very large person
      </span>
      <p>
-      [HI]: Do not give abdominal thrusts. Instead give
+      पेट पर ज़ोर न दें. इसके बदले दे दो
       <strong>
-       [HI]: chest thrusts
+       छाती पर जोर
       </strong>
-      [HI]: : place your fist on the center of the breastbone and pull straight back, sharp and firm, alternating with back blows.
+      : अपनी मुट्ठी को छाती की हड्डी के केंद्र पर रखें और पीठ पर वार करते हुए बारी-बारी से, तेज और दृढ़ होकर सीधी पीठ खींचें।
      </p>
     </div>
     <h2>
-     [HI]: Baby (under 1 year)
+     शिशु (1 वर्ष से कम)
     </h2>
     <div class="box warn">
      <span class="tag warn">
       Never give a baby abdominal thrusts
      </span>
      <p>
-      [HI]: Use back blows and chest thrusts only. Support the head at all times.
+      केवल पीठ पर वार और छाती पर जोर का प्रयोग करें। हर समय सिर को सहारा दें।
      </p>
     </div>
     <ol class="steps">
      <li>
       <strong>
-       🚨[REVIEW_REQUIRED] [HI]: 5 back blows.
+       🚨[REVIEW_REQUIRED] 5 पीछे से वार.
       </strong>
-      [HI]: Lay the baby face-down along your forearm with the head lower than the body, supporting the jaw and head. Give up to five firm blows between the shoulder blades with the heel of your hand.
+      बच्चे को अपने अग्रबाहु के सहारे नीचे की ओर लिटाएं और सिर को शरीर से नीचे रखें, जबड़े और सिर को सहारा दें। अपने हाथ की एड़ी से कंधे के ब्लेड के बीच पांच जोरदार वार करें।
      </li>
      <li>
       <strong>
-       🚨[REVIEW_REQUIRED] [HI]: 5 chest thrusts.
+       🚨[REVIEW_REQUIRED] 5 छाती पर जोर।
       </strong>
-      [HI]: Turn the baby face-up along your other forearm, head still lower than the body. Place two fingers on the center of the chest (lower half of the breastbone) and give up to five quick, firm thrusts.
+      बच्चे को अपने दूसरे अग्रबाहु के साथ ऊपर की ओर घुमाएं, सिर अभी भी शरीर से नीचे हो। दो अंगुलियों को छाती के केंद्र (छाती की हड्डी के निचले आधे हिस्से) पर रखें और पांच तेज, मजबूत धक्के लगाएं।
      </li>
      <li>
       <strong>
-       [HI]: Keep alternating
+       बदलते रहें
       </strong>
-      🚨[REVIEW_REQUIRED] [HI]: 5 back blows and 5 chest thrusts. Call emergency services if the baby does not start breathing, and continue until help arrives or the baby becomes unresponsive.
+      🚨[REVIEW_REQUIRED] 5 पीठ पर वार और 5 छाती पर वार। यदि बच्चा सांस लेना शुरू नहीं करता है तो आपातकालीन सेवाओं को कॉल करें और तब तक जारी रखें जब तक मदद न आ जाए या बच्चा अनुत्तरदायी न हो जाए।
      </li>
     </ol>
     <h2>
-     [HI]: If the person becomes unconscious
+     अगर व्यक्ति बेहोश हो जाए
     </h2>
     <div class="box emergency">
      <span class="tag">
@@ -249,28 +287,28 @@
      </span>
      <ol>
       <li>
-       [HI]: Lower them carefully to the floor and
+       उन्हें सावधानी से फर्श पर उतारें और
        <strong>
-        [HI]: call emergency services now
+        अभी आपातकालीन सेवाओं को कॉल करें
        </strong>
-       [HI]: (speaker phone) if not already done.
+       (स्पीकर फोन) यदि पहले से नहीं किया गया है।
       </li>
       <li>
-       [HI]: Begin
+       शुरू
        <strong>
-        [HI]: CPR
+        सीपीआर
        </strong>
-       [HI]: : chest compressions, and rescue breaths if you are trained and willing. If you are not trained, follow the dispatcher's instructions; they may guide hands-only CPR until help arrives.
+       : यदि आप प्रशिक्षित और इच्छुक हैं तो छाती को दबाना और सांसों को बचाना। यदि आप प्रशिक्षित नहीं हैं, तो डिस्पैचर के निर्देशों का पालन करें; सहायता आने तक वे केवल हाथों से सीपीआर का मार्गदर्शन कर सकते हैं।
       </li>
       <li>
-       [HI]: Each time you open the airway to give breaths,
+       हर बार जब आप सांस देने के लिए वायुमार्ग खोलते हैं,
        <strong>
-        [HI]: look in the mouth
+        मुँह में देखो
        </strong>
-       [HI]: and remove any object you can clearly see. Do not sweep blindly with your finger, which can push it deeper.
+       और किसी भी वस्तु को हटा दें जिसे आप स्पष्ट रूप से देख सकें। अपनी उंगली से आँख मूँद कर झाडू न लगाएं, क्योंकि इससे वह और गहराई तक जा सकती है।
       </li>
       <li>
-       [HI]: Continue until the person recovers or emergency help takes over.
+       तब तक जारी रखें जब तक व्यक्ति ठीक न हो जाए या आपातकालीन सहायता न मिल जाए।
       </li>
      </ol>
     </div>
@@ -279,67 +317,67 @@
       After a severe choking episode
      </span>
      <p>
-      [HI]: Anyone who needed back blows or thrusts — or who has a lasting cough, trouble swallowing, or a feeling that something is still stuck — should be checked by a medical professional, because thrusts can occasionally cause internal injury and small fragments can remain.
+      जिस किसी को भी पीठ पर वार या जोर लगाने की जरूरत है - या जिसे लंबे समय तक खांसी रहती है, निगलने में परेशानी होती है, या ऐसा महसूस होता है कि कुछ अभी भी फंसा हुआ है - उसे एक चिकित्सा पेशेवर द्वारा जांच की जानी चाहिए, क्योंकि जोर से कभी-कभी आंतरिक चोट लग सकती है और छोटे टुकड़े रह सकते हैं।
      </p>
     </div>
     <h2>
-     [HI]: Prevent choking, especially in young children
+     विशेषकर छोटे बच्चों में दम घुटने से रोकें
     </h2>
     <ul>
      <li>
-      [HI]: Cut food for young children into small pieces; encourage everyone to eat slowly and not talk or laugh with a full mouth.
+      छोटे बच्चों के भोजन को छोटे टुकड़ों में काटें; सभी को धीरे-धीरे खाने के लिए प्रोत्साहित करें और मुंह भरकर बात न करें या हंसें नहीं।
      </li>
      <li>
-      [HI]: For children under about 4, avoid or modify high-risk foods: whole grapes and cherry tomatoes (cut them up), nuts, popcorn, hard or sticky candy, chunks of meat or hot dog, and raw hard vegetables.
+      लगभग 4 वर्ष से कम उम्र के बच्चों के लिए, उच्च जोखिम वाले खाद्य पदार्थों से बचें या संशोधित करें: साबुत अंगूर और चेरी टमाटर (उन्हें काट लें), नट्स, पॉपकॉर्न, सख्त या चिपचिपी कैंडी, मांस के टुकड़े या हॉट डॉग, और कच्ची सख्त सब्जियाँ।
      </li>
      <li>
-      [HI]: Keep small objects — coins, button batteries, marbles, small toy parts, deflated balloons — out of reach of babies and toddlers.
+      छोटी वस्तुएं - सिक्के, बटन बैटरी, पत्थर, छोटे खिलौने के हिस्से, फूले हुए गुब्बारे - शिशुओं और बच्चों की पहुंच से दूर रखें।
      </li>
      <li>
-      [HI]: Supervise young children while they eat, and keep them seated.
+      छोटे बच्चों पर भोजन करते समय निगरानी रखें और उन्हें बैठाकर रखें।
      </li>
     </ul>
     <h2>
-     [HI]: Sources
+     सूत्रों का कहना है
     </h2>
     <ul class="sources">
      <li>
       <a href="https://www.redcross.org/take-a-class">
-       [HI]: American Red Cross — first aid training and resources
+       अमेरिकन रेड क्रॉस - प्राथमिक चिकित्सा प्रशिक्षण और संसाधन
       </a>
-      [HI]: , including conscious choking guidance.
+      , सचेत घुटन मार्गदर्शन सहित।
      </li>
      <li>
       <a href="https://cpr.heart.org/en/resuscitation-science/first-aid-guidelines/first-aid">
-       🚨[REVIEW_REQUIRED] [HI]: American Heart Association (AHA) — first aid guidelines
+       🚨[REVIEW_REQUIRED] अमेरिकन हार्ट एसोसिएशन (एएचए) - प्राथमिक चिकित्सा दिशानिर्देश
       </a>
-      [HI]: for choking and CPR.
+      दम घुटने और सीपीआर के लिए।
      </li>
      <li>
       <a href="https://www.resus.org.uk/library">
-       [HI]: Resuscitation Council UK — resuscitation and first-aid guidance library
+       पुनर्जीवन परिषद यूके - पुनर्जीवन और प्राथमिक चिकित्सा मार्गदर्शन पुस्तकालय
       </a>
-      [HI]: , including choking guidance.
+      , जिसमें घुटन भरा मार्गदर्शन भी शामिल है।
      </li>
      <li>
-      🚨[REVIEW_REQUIRED] [HI]: U.S. CDC and national child-safety guidance on choking and suffocation prevention. cdc.gov
+      🚨[REVIEW_REQUIRED] घुटन और दम घुटने की रोकथाम पर अमेरिकी सीडीसी और राष्ट्रीय बाल-सुरक्षा मार्गदर्शन। cdc.gov
      </li>
     </ul>
     <p class="sources">
-     [HI]: Steps reflect widely taught Red Cross / Resuscitation Council first-aid sequences for lay responders. Different training bodies vary in detail — follow your local first-aid training and emergency dispatcher's instructions.
+     चरण सामान्य उत्तरदाताओं के लिए व्यापक रूप से सिखाए गए रेड क्रॉस/पुनर्जीवन परिषद के प्राथमिक चिकित्सा अनुक्रमों को प्रतिबिंबित करते हैं। विभिन्न प्रशिक्षण निकाय अलग-अलग विवरण में भिन्न होते हैं - अपने स्थानीय प्राथमिक चिकित्सा प्रशिक्षण और आपातकालीन डिस्पैचर के निर्देशों का पालन करें।
     </p>
     <p class="disclaimer">
-     [HI]: This guide is general information, not medical advice, and is not a substitute for hands-on first-aid and CPR training, which is widely available and strongly recommended. In an emergency, always call your local emergency number. Reuse and reprint freely.
+     यह मार्गदर्शिका सामान्य जानकारी है, चिकित्सीय सलाह नहीं है, और यह व्यावहारिक प्राथमिक चिकित्सा और सीपीआर प्रशिक्षण का विकल्प नहीं है, जो व्यापक रूप से उपलब्ध है और दृढ़ता से अनुशंसित है। आपातकालीन स्थिति में, हमेशा अपने स्थानीय आपातकालीन नंबर पर कॉल करें। पुन: उपयोग करें और स्वतंत्र रूप से पुनर्मुद्रण करें।
     </p>
    </div>
   </main>
   <footer class="site">
    <div class="wrap">
-    [HI]: A free, open Help Kit ·
+    एक मुफ़्त, खुली सहायता किट ·
     <a href="https://github.com/ai-village-agents/help-kit">
-     [HI]: source on GitHub
+     GitHub पर स्रोत
     </a>
-    [HI]: · Public domain (CC0) · Verify against your local health authority
+    · सार्वजनिक डोमेन (CC0) · अपने स्थानीय स्वास्थ्य प्राधिकरण के विरुद्ध सत्यापन करें
    </div>
   </footer>
   <script>

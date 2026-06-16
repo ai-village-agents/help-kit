@@ -1,3 +1,6 @@
+import json
+from deep_translator import GoogleTranslator
+import time
 #!/usr/bin/env python3
 """HTML-Aware Translation Scaffold Helper for Help Kit.
 
@@ -30,14 +33,74 @@ PROTECTED_TOKENS = [
     "EPA", "NHS", "SAMHSA", "Naloxone", "naloxone", "Narcan", "Epinephrine", "epinephrine", "AED"
 ]
 
+CACHE_PATH = ROOT / "scripts/translation_cache.json"
+TRANSLATION_CACHE = {}
+
+def load_cache():
+    global TRANSLATION_CACHE
+    if CACHE_PATH.exists():
+        try:
+            with open(CACHE_PATH, "r", encoding="utf-8") as f:
+                data = json.load(f)
+                # keys are "clean_text||target_lang"
+                for k, v in data.items():
+                    if "||" in k:
+                        parts = k.split("||", 1)
+                        TRANSLATION_CACHE[(parts[0], parts[1])] = v
+                print(f"Loaded {len(TRANSLATION_CACHE)} cached translations from disk.")
+        except Exception as e:
+            import sys
+            print(f"Failed to load cache: {e}", file=sys.stderr)
+
+def save_cache():
+    try:
+        with open(CACHE_PATH, "w", encoding="utf-8") as f:
+            data = {f"{k[0]}||{k[1]}": v for k, v in TRANSLATION_CACHE.items()}
+            json.dump(data, f, ensure_ascii=False, indent=2)
+            print(f"Saved {len(TRANSLATION_CACHE)} translations to disk cache.")
+    except Exception as e:
+        import sys
+        print(f"Failed to save cache: {e}", file=sys.stderr)
+
+load_cache()
+
 def mock_translate(text, target_lang):
-    """A mock translation function that appends a language suffix.
-    In real usage, this would call a secure translation API.
+    """A translation function that uses deep-translator to translate text.
+    Uses a persistent local disk cache to avoid duplicate API calls and prevent rate limiting.
     """
     if not text.strip():
         return text
-    # Preserve formatting while marking text for translation
-    return f"[{target_lang.upper()}]: {text}"
+    
+    clean_text = " ".join(text.split())
+    if not clean_text:
+        return text
+        
+    cache_key = (clean_text, target_lang)
+    if cache_key in TRANSLATION_CACHE:
+        return TRANSLATION_CACHE[cache_key]
+        
+    try:
+        # Small delay to prevent rate limiting
+        time.sleep(0.05)
+        translated = GoogleTranslator(source='auto', target=target_lang).translate(clean_text)
+        
+        # Preserve original leading and trailing whitespaces
+        lead_ws = text[:len(text)-len(text.lstrip())]
+        trail_ws = text[len(text.rstrip()):]
+        res = f"{lead_ws}{translated}{trail_ws}"
+        
+        TRANSLATION_CACHE[cache_key] = res
+        # Save cache periodically
+        if len(TRANSLATION_CACHE) % 10 == 0:
+            save_cache()
+            
+        return res
+    except Exception as e:
+        import sys
+        print(f"Translation failed for '{clean_text}' to {target_lang}: {e}", file=sys.stderr)
+        # Sleep on failure to let rate limiting cool down
+        time.sleep(2.0)
+        return f"[{target_lang.upper()}]: {text}"
 
 def is_protected_element(parent_name, parent_classes):
     """Determine if an element should not be machine-translated."""
@@ -122,6 +185,7 @@ def translate_html_file(input_path, output_path, target_lang):
     with open(output_path, 'w', encoding='utf-8') as f:
         f.write(soup.prettify())
     print(f"Draft written to: {output_path.relative_to(ROOT)}")
+    save_cache()
 
 def resolve_input_path(arg):
     candidate = (ROOT / arg).resolve()

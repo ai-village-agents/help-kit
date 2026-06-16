@@ -4,9 +4,9 @@
   <meta charset="utf-8"/>
   <meta content="width=device-width,initial-scale=1" name="viewport"/>
   <title>
-   [ES]: Heart Attack: Recognize Signs &amp; Act — Help Kit | Help Kit
+   Ataque cardíaco: reconozca las señales y actúe: kit de ayuda | Help Kit
   </title>
-  <meta content="[ES]: A free, source-cited one-page guide to spotting possible heart attack symptoms, calling emergency help immediately, and following dispatcher guidance. Based on AHA, CDC, NHS, NHLBI, and BHF guidance." name="description"/>
+  <meta content="Una guía gratuita, citada por fuentes, para detectar síntomas de ataque cardíaco y obtener ayuda de emergencia rápidamente. Basado en las directrices de la AHA, los CDC, el NHS, el NHLBI y el BHF." name="description"/>
   <link href="https://ai-village-agents.github.io/help-kit/heart/" rel="canonical"/>
   <meta content="noindex, nofollow, noarchive" name="robots"/>
   <meta content="Help Kit" property="og:site_name"/>
@@ -24,13 +24,61 @@
   <link href="../style.css" rel="stylesheet"/>
   <link href="/help-kit/manifest.webmanifest" rel="manifest"/>
   <link href="/help-kit/icon-192.png" rel="apple-touch-icon"/>
+  <script type="application/ld+json">
+   {
+  "@context": "https://schema.org",
+  "@type": "MedicalWebPage",
+  "name": "Heart Attack: Recognize Signs & Act",
+  "description": "A free, source-cited guide to spotting heart attack symptoms and getting emergency help fast. Based on AHA, CDC, NHS, NHLBI, and BHF guidance.",
+  "url": "https://ai-village-agents.github.io/help-kit/heart/",
+  "inLanguage": "en",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "Help Kit",
+    "url": "https://ai-village-agents.github.io/help-kit/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Help Kit",
+    "url": "https://ai-village-agents.github.io/help-kit/"
+  },
+  "citation": [
+    {
+      "@type": "WebPage",
+      "name": "American Heart Association (AHA) — Heart Attack Symptoms and Warning Signs",
+      "url": "https://www.heart.org/en/health-topics/heart-attack/warning-signs-of-a-heart-attack"
+    },
+    {
+      "@type": "WebPage",
+      "name": "U.S. CDC — Heart Attack Symptoms and Risk Factors",
+      "url": "https://www.cdc.gov/heart-disease/about/heart-attack.html"
+    },
+    {
+      "@type": "WebPage",
+      "name": "National Heart, Lung, and Blood Institute (NHLBI) — Heart Attack",
+      "url": "https://www.nhlbi.nih.gov/health/heart-attack"
+    },
+    {
+      "@type": "WebPage",
+      "name": "NHS — Heart attack symptoms and what to do",
+      "url": "https://www.nhs.uk/conditions/heart-attack/"
+    },
+    {
+      "@type": "WebPage",
+      "name": "British Heart Foundation (BHF) — Heart Attack Symptoms and Action Guide",
+      "url": "https://www.bhf.org.uk/informationsupport/conditions/heart-attack"
+    }
+  ]
+}
+  </script>
  </head>
  <body>
   <div class="notice danger" data-draft-warning="true">
    UNREVIEWED MACHINE TRANSLATION DRAFT (es). Do not use for medical guidance, sharing, printing, or training until fluent local reviewers verify all emergency numbers, doses, timings, and local guidance against the English source.
   </div>
   <a class="skip-link" href="#main">
-   [ES]: Skip to main content
+   Saltar al contenido principal
   </a>
   <header class="site">
    <div class="wrap">
@@ -39,49 +87,49 @@
     </a>
     <nav>
      <a href="../heat/">
-      [ES]: Extreme Heat
+      Calor extremo
      </a>
      <a href="../smoke/">
-      [ES]: Wildfire Smoke
+      Humo de incendios forestales
      </a>
      <a href="../naloxone/">
-      [ES]: Opioid Overdose
+      Sobredosis de opioides
      </a>
      <a href="../ors/">
-      [ES]: Dehydration &amp; ORS
+      Deshidratación y SRO
      </a>
      <a href="../choking/">
-      [ES]: Choking
+      asfixia
      </a>
      <a href="../bleeding/">
-      [ES]: Severe Bleeding
+      Sangrado severo
      </a>
      <a href="../cpr/">
-      [ES]: CPR
+      RCP
      </a>
      <a href="../stroke/">
-      [ES]: Stroke
+      Ataque
      </a>
      <a href="../burns/">
-      [ES]: Burns
+      quemaduras
      </a>
      <a href="../seizure/">
-      [ES]: Seizure
+      Convulsión
      </a>
      <a href="../allergy/">
-      [ES]: Severe Allergy
+      Alergia severa
      </a>
      <a href="../cold/">
-      [ES]: Cold Safety
+      Seguridad en frío
      </a>
      <a href="../heart/">
-      [ES]: Heart Attack
+      Infarto de miocardio
      </a>
      <a href="../triage/">
-      [ES]: Triage
+      Triaje
      </a>
      <a href="../localize.html">
-      [ES]: Localize &amp; share
+      Localizar y compartir
      </a>
     </nav>
    </div>
@@ -89,24 +137,24 @@
   <section class="hero">
    <div class="wrap">
     <h1>
-     [ES]: Heart Attack: recognize and act
+     Infarto: reconocer y actuar
     </h1>
     <p>
-     [ES]: A heart attack occurs when blood flow to part of the heart muscle is severely reduced or blocked. The longer the block is left untreated, the greater the damage to the heart muscle. Recognizing possible symptoms and acting immediately can help the person get urgent care. Free to read, print, and share.
+     Un ataque cardíaco ocurre cuando el flujo sanguíneo a parte del músculo cardíaco se reduce o bloquea gravemente. Cuanto más tiempo se deje sin tratar el bloqueo, mayor será el daño al músculo cardíaco. Reconocer los posibles síntomas y actuar de inmediato puede ayudar a que la persona reciba atención de urgencia. Gratis para leer, imprimir y compartir.
     </p>
    </div>
   </section>
   <main id="main">
    <div class="wrap">
     <p class="lede">
-     [ES]: Some heart attacks start slowly, with mild pain or discomfort, while others are sudden and intense. Symptoms can vary widely, and many people do not experience classic crushing chest pain. When in doubt, call emergency help right away and follow dispatcher guidance.
+     Algunos ataques cardíacos comienzan lentamente, con dolor o malestar leves, mientras que otros son repentinos e intensos. Los síntomas pueden variar ampliamente y muchas personas no experimentan el clásico dolor opresivo en el pecho. En caso de duda, llame a la ayuda de emergencia de inmediato y siga las instrucciones del operador.
     </p>
     <div class="actions no-print">
      <a class="btn" href="javascript:window.print()">
-      [ES]: Print this page
+      Imprime esta pagina
      </a>
      <a class="btn alt" href="heart-onepager.pdf">
-      [ES]: Download printable PDF
+      Descargar PDF imprimible
      </a>
     </div>
     <div class="box emergency">
@@ -114,40 +162,40 @@
       Call emergency services now
      </span>
      <h3>
-      [ES]: A heart attack is a medical emergency — call immediately
+      Un ataque cardíaco es una emergencia médica: llame de inmediato
      </h3>
      <p>
-      🚨[REVIEW_REQUIRED] [ES]: If you or someone else might be having a heart attack, call your local emergency number (examples: 911, 112, or 999; verify locally) right away. Do not wait to see if symptoms go away. Put the phone on speaker if you can and follow dispatcher or local emergency guidance.
+      🚨[REVIEW_REQUIRED] Si usted u otra persona podría estar sufriendo un ataque cardíaco, llame a su número de emergencia local (ejemplos: 911, 112 o 999; verifique localmente) de inmediato. No espere a ver si los síntomas desaparecen. Si puede, ponga el teléfono en altavoz y siga las instrucciones del despachador o de emergencia local.
      </p>
     </div>
     <h2>
-     [ES]: Recognize the signs of a heart attack
+     Reconocer los signos de un infarto
     </h2>
     <div class="steps">
      <ol>
       <li>
        <strong>
-        [ES]: Chest discomfort.
+        Malestar en el pecho.
        </strong>
-       [ES]: Most heart attacks involve discomfort in the center of the chest that lasts more than a few minutes, or that goes away and comes back. It can feel like uncomfortable pressure, squeezing, fullness, or pain.
+       La mayoría de los ataques cardíacos implican una molestia en el centro del pecho que dura más de unos pocos minutos o que desaparece y regresa. Puede sentirse como una presión incómoda, opresión, plenitud o dolor.
       </li>
       <li>
        <strong>
-        [ES]: Discomfort in other upper-body areas.
+        Malestar en otras zonas de la parte superior del cuerpo.
        </strong>
-       [ES]: Symptoms can include pain or discomfort in one or both arms, the back, neck, jaw, or stomach.
+       Los síntomas pueden incluir dolor o malestar en uno o ambos brazos, la espalda, el cuello, la mandíbula o el estómago.
       </li>
       <li>
        <strong>
-        [ES]: Shortness of breath.
+        Dificultad para respirar.
        </strong>
-       [ES]: This can happen with or without chest discomfort, sometimes as the only symptom.
+       Esto puede ocurrir con o sin molestias en el pecho, a veces como único síntoma.
       </li>
       <li>
        <strong>
-        [ES]: Other signs.
+        Otros signos.
        </strong>
-       [ES]: These may include breaking out in a cold sweat, feeling lightheaded or dizzy, or experiencing unexplained nausea or vomiting.
+       Estos pueden incluir sudar frío, sentirse aturdido o mareado, o experimentar náuseas o vómitos inexplicables.
       </li>
      </ol>
     </div>
@@ -156,11 +204,11 @@
       Symptoms can be different for women
      </span>
      <p>
-      [ES]: Like men, women's most common heart attack symptom is chest pain or discomfort. However, women are somewhat more likely than men to experience other common symptoms, particularly shortness of breath, nausea, vomiting, and back or jaw pain, without any chest pressure or pain. Do not ignore these subtler signs.
+      Al igual que los hombres, el síntoma de ataque cardíaco más común en las mujeres es dolor o malestar en el pecho. Sin embargo, las mujeres tienen algo más de probabilidades que los hombres de experimentar otros síntomas comunes, en particular dificultad para respirar, náuseas, vómitos y dolor de espalda o mandíbula, sin presión ni dolor en el pecho. No ignores estos signos más sutiles.
      </p>
     </div>
     <h2>
-     [ES]: What to do while you wait for medical help
+     Qué hacer mientras espera ayuda médica
     </h2>
     <div class="box ok">
      <span class="tag ok">
@@ -169,37 +217,37 @@
      <ul>
       <li>
        <strong>
-        [ES]: Sit down, rest, and stay calm.
+        Siéntate, descansa y mantén la calma.
        </strong>
-       [ES]: Do not allow the person to walk, climb stairs, or exert themselves, as physical effort increases the strain on the heart.
+       No permita que la persona camine, suba escaleras o se esfuerce, ya que el esfuerzo físico aumenta la tensión sobre el corazón.
       </li>
       <li>
        <strong>
-        [ES]: Ask about aspirin only after calling.
+        Pregunte acerca de la aspirina solo después de llamar.
        </strong>
-       [ES]: Do not delay the emergency call to find aspirin. Give aspirin only if the dispatcher, a clinician, or local protocol tells you to and the person is alert enough to chew/swallow and has no aspirin allergy, aspirin intolerance, bleeding disorder or serious recent bleeding, blood-thinner concern, or other known reason to avoid it.
+       No demore la llamada de emergencia para encontrar aspirina. Administre aspirina solo si el operador, un médico o el protocolo local se lo indican y la persona está lo suficientemente alerta para masticar/tragar y no tiene alergia a la aspirina, intolerancia a la aspirina, trastorno hemorrágico o sangrado reciente grave, preocupación por los anticoagulantes u otra razón conocida para evitarlo.
       </li>
       <li>
        <strong>
-        [ES]: Loosen tight clothing.
+        Afloje la ropa ajustada.
        </strong>
-       [ES]: Unbutton collars, loosen belts, and make sure their airway is completely clear.
+       Desabroche los cuellos, afloje los cinturones y asegúrese de que sus vías respiratorias estén completamente despejadas.
       </li>
       <li>
        <strong>
-        [ES]: Stay with them.
+        Quédate con ellos.
        </strong>
-       [ES]: Reassure them continuously. Keep them sitting comfortably to help them breathe more easily.
+       Tranquilícelos continuamente. Manténgalos sentados cómodamente para ayudarlos a respirar más fácilmente.
       </li>
       <li>
        <strong>
-        [ES]: Be ready to start CPR.
+        Esté preparado para iniciar la RCP.
        </strong>
-       [ES]: If the person becomes unresponsive and is not breathing normally,
+       Si la persona deja de responder y no respira normalmente,
        <a href="../cpr/">
-        [ES]: start Hands-Only CPR
+        iniciar RCP solo con las manos
        </a>
-       [ES]: immediately. Put the phone on speaker and follow dispatcher instructions.
+       inmediatamente. Ponga el teléfono en altavoz y siga las instrucciones del operador.
       </li>
      </ul>
     </div>
@@ -210,94 +258,94 @@
      <ul>
       <li>
        <strong>
-        [ES]: Do not drive yourself or the patient to the hospital if emergency medical services are available.
+        No conduzca ni usted ni el paciente al hospital si hay servicios médicos de emergencia disponibles.
        </strong>
-       [ES]: Driving can be dangerous if symptoms worsen, and emergency responders can assess and guide care on the way.
+       Conducir puede ser peligroso si los síntomas empeoran, y los servicios de emergencia pueden evaluar y guiar la atención en el camino.
       </li>
       <li>
        <strong>
-        [ES]: Do not ignore symptoms or wait to see if they pass.
+        No ignore los síntomas ni espere a ver si pasan.
        </strong>
-       [ES]: Many people delay seeking help because symptoms seem mild, unusual, or like indigestion or muscle strain.
+       Muchas personas retrasan la búsqueda de ayuda porque los síntomas parecen leves, inusuales o como indigestión o distensión muscular.
       </li>
       <li>
        <strong>
-        [ES]: Do not try “cough CPR.”
+        No intente realizar “RCP para la tos”.
        </strong>
-       [ES]: Coughing repeatedly and vigorously is an unsafe internet myth for bystanders and should not be used instead of calling emergency help.
+       Toser repetida y vigorosamente es un mito peligroso en Internet para los transeúntes y no debe utilizarse en lugar de llamar a ayuda de emergencia.
       </li>
       <li>
        <strong>
-        [ES]: Do not give food or drink.
+        No le dé comida ni bebida.
        </strong>
-       [ES]: Avoid food, alcohol, or unnecessary drinks while waiting for emergency help, especially if the person is nauseated, short of breath, confused, drowsy, or may need urgent treatment.
+       Evite alimentos, alcohol o bebidas innecesarias mientras espera ayuda de emergencia, especialmente si la persona tiene náuseas, le falta el aire, está confundida, somnolienta o puede necesitar tratamiento urgente.
       </li>
      </ul>
     </div>
     <h2>
-     [ES]: Lower your risk
+     Reduce tu riesgo
     </h2>
     <ul>
      <li>
-      [ES]: Monitor and control high blood pressure, high cholesterol, and diabetes under a clinician's care.
+      Monitoree y controle la presión arterial alta, el colesterol alto y la diabetes bajo el cuidado de un médico.
      </li>
      <li>
-      [ES]: Avoid smoking and limit alcohol consumption to low-risk levels.
+      Evite fumar y limite el consumo de alcohol a niveles de bajo riesgo.
      </li>
      <li>
-      [ES]: Maintain a healthy weight, eat a heart-healthy diet, and stay physically active.
+      Mantenga un peso saludable, siga una dieta saludable para el corazón y manténgase físicamente activo.
      </li>
      <li>
-      [ES]: Understand your family medical history and discuss your cardiovascular risk factors with a doctor.
+      Comprenda su historial médico familiar y analice sus factores de riesgo cardiovascular con un médico.
      </li>
     </ul>
     <h2>
-     [ES]: Sources
+     Fuentes
     </h2>
     <ul class="sources">
      <li>
       <a href="https://www.heart.org/en/health-topics/heart-attack/warning-signs-of-a-heart-attack">
-       🚨[REVIEW_REQUIRED] [ES]: American Heart Association (AHA) — Heart Attack Symptoms and Warning Signs
+       🚨[REVIEW_REQUIRED] Asociación Estadounidense del Corazón (AHA): síntomas y señales de advertencia de un ataque cardíaco
       </a>
       .
      </li>
      <li>
       <a href="https://www.cdc.gov/heart-disease/about/heart-attack.html">
-       🚨[REVIEW_REQUIRED] [ES]: U.S. CDC — Heart Attack Symptoms and Risk Factors
+       🚨[REVIEW_REQUIRED] CDC de EE. UU.: Síntomas y factores de riesgo de un ataque cardíaco
       </a>
       .
      </li>
      <li>
       <a href="https://www.nhlbi.nih.gov/health/heart-attack">
-       [ES]: National Heart, Lung, and Blood Institute (NHLBI) — Heart Attack
+       Instituto Nacional del Corazón, los Pulmones y la Sangre (NHLBI) — Ataque cardíaco
       </a>
       .
      </li>
      <li>
       <a href="https://www.nhs.uk/conditions/heart-attack/">
-       🚨[REVIEW_REQUIRED] [ES]: NHS — Heart attack symptoms and what to do
+       🚨[REVIEW_REQUIRED] NHS: síntomas de un ataque cardíaco y qué hacer
       </a>
       .
      </li>
      <li>
       <a href="https://www.bhf.org.uk/informationsupport/conditions/heart-attack">
-       [ES]: British Heart Foundation (BHF) — Heart Attack Symptoms and Action Guide
+       British Heart Foundation (BHF): síntomas de ataque cardíaco y guía de acción
       </a>
       .
      </li>
     </ul>
     <p class="disclaimer">
-     [ES]: This guide is general information, not medical advice. In an emergency, always call your local emergency number without delay. Reuse and reprint freely.
+     Esta guía es información general, no consejo médico. En caso de emergencia, llame siempre a su número de emergencia local sin demora. Reutilice y reimprima libremente.
     </p>
    </div>
   </main>
   <footer class="site">
    <div class="wrap">
-    [ES]: A free, open Help Kit ·
+    Un kit de ayuda abierto y gratuito ·
     <a href="https://github.com/ai-village-agents/help-kit">
-     [ES]: source on GitHub
+     fuente en GitHub
     </a>
-    [ES]: · Public domain (CC0) · Verify against your local health authority
+    · Dominio público (CC0) · Verificar con su autoridad sanitaria local
    </div>
   </footer>
   <script>

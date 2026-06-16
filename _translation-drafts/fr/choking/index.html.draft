@@ -4,9 +4,9 @@
   <meta charset="utf-8"/>
   <meta content="width=device-width,initial-scale=1" name="viewport"/>
   <title>
-   [FR]: Choking: Clear the Airway Fast — Help Kit | Help Kit
+   Étouffement : dégagez rapidement les voies respiratoires – Kit d'aide | Help Kit
   </title>
-  <meta content="[FR]: A free, source-cited one-page guide to helping a choking adult, child, or infant — back blows, abdominal and chest thrusts, and what to do if they go unconscious. Based on Red Cross and Resuscitation Council guidance, with CPR guidance from major first-aid authorities." name="description"/>
+  <meta content="Un guide gratuit cité par une source pour aider un adulte, un enfant ou un nourrisson qui s'étouffe : coups dans le dos, poussées abdominales et thoraciques, et que faire en cas d'inconscience." name="description"/>
   <link href="https://ai-village-agents.github.io/help-kit/choking/" rel="canonical"/>
   <meta content="noindex, nofollow, noarchive" name="robots"/>
   <meta content="Help Kit" property="og:site_name"/>
@@ -24,13 +24,51 @@
   <link href="../style.css" rel="stylesheet"/>
   <link href="/help-kit/manifest.webmanifest" rel="manifest"/>
   <link href="/help-kit/icon-192.png" rel="apple-touch-icon"/>
+  <script type="application/ld+json">
+   {
+  "@context": "https://schema.org",
+  "@type": "MedicalWebPage",
+  "name": "Choking: Clear the Airway Fast",
+  "description": "A free, source-cited guide to helping a choking adult, child, or infant: back blows, abdominal and chest thrusts, and what to do if unconscious.",
+  "url": "https://ai-village-agents.github.io/help-kit/choking/",
+  "inLanguage": "en",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "Help Kit",
+    "url": "https://ai-village-agents.github.io/help-kit/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Help Kit",
+    "url": "https://ai-village-agents.github.io/help-kit/"
+  },
+  "citation": [
+    {
+      "@type": "WebPage",
+      "name": "American Red Cross — first aid training and resources",
+      "url": "https://www.redcross.org/take-a-class"
+    },
+    {
+      "@type": "WebPage",
+      "name": "American Heart Association (AHA) — first aid guidelines",
+      "url": "https://cpr.heart.org/en/resuscitation-science/first-aid-guidelines/first-aid"
+    },
+    {
+      "@type": "WebPage",
+      "name": "Resuscitation Council UK — resuscitation and first-aid guidance library",
+      "url": "https://www.resus.org.uk/library"
+    }
+  ]
+}
+  </script>
  </head>
  <body>
   <div class="notice danger" data-draft-warning="true">
    UNREVIEWED MACHINE TRANSLATION DRAFT (fr). Do not use for medical guidance, sharing, printing, or training until fluent local reviewers verify all emergency numbers, doses, timings, and local guidance against the English source.
   </div>
   <a class="skip-link" href="#main">
-   [FR]: Skip to main content
+   Passer au contenu principal
   </a>
   <header class="site">
    <div class="wrap">
@@ -39,49 +77,49 @@
     </a>
     <nav>
      <a href="../heat/">
-      [FR]: Extreme Heat
+      Chaleur extrême
      </a>
      <a href="../smoke/">
-      [FR]: Wildfire Smoke
+      Fumée de feux de forêt
      </a>
      <a href="../naloxone/">
-      [FR]: Opioid Overdose
+      Surdose d'opioïdes
      </a>
      <a href="../ors/">
-      [FR]: Dehydration &amp; ORS
+      Déshydratation et SOR
      </a>
      <a href="../choking/">
-      [FR]: Choking
+      Étouffement
      </a>
      <a href="../bleeding/">
-      [FR]: Severe Bleeding
+      Saignement sévère
      </a>
      <a href="../cpr/">
-      [FR]: CPR
+      RCR
      </a>
      <a href="../stroke/">
-      [FR]: Stroke
+      Accident vasculaire cérébral
      </a>
      <a href="../burns/">
-      [FR]: Burns
+      Brûlures
      </a>
      <a href="../seizure/">
-      [FR]: Seizure
+      Crise d'épilepsie
      </a>
      <a href="../allergy/">
-      [FR]: Severe Allergy
+      Allergie sévère
      </a>
      <a href="../cold/">
-      [FR]: Cold Safety
+      Sécurité contre le froid
      </a>
      <a href="../heart/">
-      [FR]: Heart Attack
+      Crise cardiaque
      </a>
      <a href="../triage/">
-      [FR]: Triage
+      Triage
      </a>
      <a href="../localize.html">
-      [FR]: Localize &amp; share
+      Localiser et partager
      </a>
     </nav>
    </div>
@@ -89,28 +127,28 @@
   <section class="hero">
    <div class="wrap">
     <h1>
-     [FR]: Choking: clear the airway fast
+     Étouffement : dégagez rapidement les voies respiratoires
     </h1>
     <p>
-     [FR]: How to help someone who is choking — an adult, a child, or a baby — and what to do if they stop breathing. Acting in the first minutes can prevent death or brain injury. Free to read, print, and share.
+     Comment aider une personne qui s'étouffe – un adulte, un enfant ou un bébé – et que faire si elle arrête de respirer. Agir dès les premières minutes peut éviter la mort ou des lésions cérébrales. Lecture, impression et partage gratuits.
     </p>
    </div>
   </section>
   <main id="main">
    <div class="wrap">
     <p class="lede">
-     [FR]: Choking happens when something blocks the airway and stops air from getting to the lungs. If the person can still cough or speak, the blockage is partial — encourage them to keep coughing. If they
+     L'étouffement se produit lorsque quelque chose bloque les voies respiratoires et empêche l'air d'atteindre les poumons. Si la personne peut encore tousser ou parler, le blocage est partiel – encouragez-la à continuer de tousser. S'ils
      <strong>
-      [FR]: cannot breathe, speak, or cough,
+      ne peut pas respirer, parler ou tousser,
      </strong>
-     [FR]: the airway is badly blocked and you must act right away.
+     les voies respiratoires sont gravement bloquées et vous devez agir immédiatement.
     </p>
     <div class="actions no-print">
      <a class="btn" href="javascript:window.print()">
-      [FR]: Print this page
+      Imprimer cette page
      </a>
      <a class="btn alt" href="choking-onepager.pdf">
-      [FR]: Download printable PDF
+      Télécharger le PDF imprimable
      </a>
     </div>
     <div class="box emergency">
@@ -118,18 +156,18 @@
       Call emergency services
      </span>
      <h3>
-      [FR]: Severe choking is an emergency
+      Un étouffement grave est une urgence
      </h3>
      <p>
-      🚨[REVIEW_REQUIRED] [FR]: Call your local emergency number (examples: 911, 112, or 999; verify locally), or have someone else call, if a person is choking and
+      🚨[REVIEW_REQUIRED] Appelez votre numéro d'urgence local (exemples : 911, 112 ou 999 ; vérifiez localement) ou demandez à quelqu'un d'autre d'appeler si une personne s'étouffe et
       <strong>
-       [FR]: cannot breathe, speak, cry, or cough
+       ne peut pas respirer, parler, pleurer ou tousser
       </strong>
-      [FR]: , is clutching their throat, is going silent or blue, or becomes unconscious. If you are alone with them, give first aid first and call as soon as you can — put the phone on speaker.
+      , se serre la gorge, devient silencieux ou bleu, ou perd connaissance. Si vous êtes seul avec eux, donnez d'abord les premiers soins et appelez dès que possible – mettez le téléphone sur haut-parleur.
      </p>
     </div>
     <h2>
-     [FR]: First, tell mild from severe
+     Tout d’abord, distinguez les cas légers des cas graves.
     </h2>
     <div class="two">
      <div class="box ok">
@@ -138,17 +176,17 @@
       </span>
       <ul>
        <li>
-        [FR]: Can still cough forcefully, speak, or breathe
+        Peut encore tousser avec force, parler ou respirer
        </li>
        <li>
-        [FR]: Coughing is the most effective way to clear it
+        La toux est le moyen le plus efficace de l'éliminer
        </li>
       </ul>
       <p>
        <strong>
-        [FR]: Encourage them to keep coughing.
+        Encouragez-les à continuer à tousser.
        </strong>
-       [FR]: Do not slap their back or do thrusts yet; stay with them and be ready to act if it gets worse.
+       Ne leur donnez pas encore de gifles dans le dos et ne faites pas de poussées ; restez avec eux et soyez prêt à agir si la situation empire.
       </p>
      </div>
      <div class="box emergency">
@@ -157,44 +195,44 @@
       </span>
       <ul>
        <li>
-        [FR]: Cannot breathe, speak, cry, or make sounds
+        Impossible de respirer, de parler, de pleurer ou d'émettre des sons
        </li>
        <li>
-        [FR]: Silent or very weak cough; clutching the throat
+        Toux silencieuse ou très faible ; se serrant la gorge
        </li>
        <li>
-        [FR]: Lips or face turning blue; looking panicked
+        Lèvres ou visage devenant bleus ; l'air paniqué
        </li>
       </ul>
       <p>
        <strong>
-        [FR]: Begin first aid immediately
+        Commencez immédiatement les premiers secours
        </strong>
-       [FR]: and get emergency help.
+       et obtenez de l'aide d'urgence.
       </p>
      </div>
     </div>
     <h2>
-     [FR]: Adult or child (over 1 year)
+     Adulte ou enfant (plus de 1 an)
     </h2>
     <ol class="steps">
      <li>
       <strong>
-       🚨[REVIEW_REQUIRED] [FR]: Give up to 5 back blows.
+       🚨[REVIEW_REQUIRED] Donnez jusqu'à 5 coups dans le dos.
       </strong>
-      [FR]: Stand to the side and slightly behind. Support their chest with one hand and lean them well forward. With the heel of your other hand, give up to five firm blows between the shoulder blades. Check after each one to see if the blockage has cleared.
+      Tenez-vous sur le côté et légèrement en arrière. Soutenez leur poitrine d’une main et penchez-les bien en avant. Avec le talon de votre autre main, donnez jusqu'à cinq coups fermes entre les omoplates. Vérifiez après chacun pour voir si le blocage a disparu.
      </li>
      <li>
       <strong>
-       🚨[REVIEW_REQUIRED] [FR]: Give up to 5 abdominal thrusts.
+       🚨[REVIEW_REQUIRED] Donnez jusqu'à 5 poussées abdominales.
       </strong>
-      [FR]: Stand behind them and put your arms around their waist. Make a fist just above the navel and below the ribcage; grasp it with your other hand and pull sharply inward and upward, up to five times.
+      Tenez-vous derrière eux et passez vos bras autour de leur taille. Fermez le poing juste au-dessus du nombril et en dessous de la cage thoracique ; saisissez-le avec votre autre main et tirez brusquement vers l'intérieur et vers le haut, jusqu'à cinq fois.
      </li>
      <li>
       <strong>
-       [FR]: Keep alternating
+       Continuez à alterner
       </strong>
-      🚨[REVIEW_REQUIRED] [FR]: 5 back blows and 5 abdominal thrusts until the object comes out, the person can breathe, or they become unconscious.
+      🚨[REVIEW_REQUIRED] 5 coups dans le dos et 5 poussées abdominales jusqu'à ce que l'objet sorte, que la personne puisse respirer ou qu'elle perde connaissance.
      </li>
     </ol>
     <div class="box warn">
@@ -202,46 +240,46 @@
       For a pregnant person or a very large person
      </span>
      <p>
-      [FR]: Do not give abdominal thrusts. Instead give
+      Ne donnez pas de poussées abdominales. Donnez plutôt
       <strong>
-       [FR]: chest thrusts
+       poussées de poitrine
       </strong>
-      [FR]: : place your fist on the center of the breastbone and pull straight back, sharp and firm, alternating with back blows.
+      : placez votre poing au centre du sternum et tirez droit vers l'arrière, sec et ferme, en alternant avec des coups dans le dos.
      </p>
     </div>
     <h2>
-     [FR]: Baby (under 1 year)
+     Bébé (moins de 1 an)
     </h2>
     <div class="box warn">
      <span class="tag warn">
       Never give a baby abdominal thrusts
      </span>
      <p>
-      [FR]: Use back blows and chest thrusts only. Support the head at all times.
+      Utilisez uniquement des coups dans le dos et des poussées thoraciques. Soutenez la tête à tout moment.
      </p>
     </div>
     <ol class="steps">
      <li>
       <strong>
-       🚨[REVIEW_REQUIRED] [FR]: 5 back blows.
+       🚨[REVIEW_REQUIRED] 5 coups dans le dos.
       </strong>
-      [FR]: Lay the baby face-down along your forearm with the head lower than the body, supporting the jaw and head. Give up to five firm blows between the shoulder blades with the heel of your hand.
+      Allongez le bébé face contre terre le long de votre avant-bras, la tête plus basse que le corps, en soutenant la mâchoire et la tête. Donnez jusqu'à cinq coups fermes entre les omoplates avec le talon de votre main.
      </li>
      <li>
       <strong>
-       🚨[REVIEW_REQUIRED] [FR]: 5 chest thrusts.
+       🚨[REVIEW_REQUIRED] 5 poussées thoraciques.
       </strong>
-      [FR]: Turn the baby face-up along your other forearm, head still lower than the body. Place two fingers on the center of the chest (lower half of the breastbone) and give up to five quick, firm thrusts.
+      Retournez le bébé face vers le haut le long de votre autre avant-bras, la tête toujours plus basse que le corps. Placez deux doigts au centre de la poitrine (moitié inférieure du sternum) et donnez jusqu'à cinq poussées rapides et fermes.
      </li>
      <li>
       <strong>
-       [FR]: Keep alternating
+       Continuez à alterner
       </strong>
-      🚨[REVIEW_REQUIRED] [FR]: 5 back blows and 5 chest thrusts. Call emergency services if the baby does not start breathing, and continue until help arrives or the baby becomes unresponsive.
+      🚨[REVIEW_REQUIRED] 5 coups dans le dos et 5 poussées thoraciques. Appelez les services d'urgence si le bébé ne commence pas à respirer et continuez jusqu'à ce que les secours arrivent ou que le bébé ne réponde plus.
      </li>
     </ol>
     <h2>
-     [FR]: If the person becomes unconscious
+     Si la personne perd connaissance
     </h2>
     <div class="box emergency">
      <span class="tag">
@@ -249,28 +287,28 @@
      </span>
      <ol>
       <li>
-       [FR]: Lower them carefully to the floor and
+       Abaissez-les soigneusement au sol et
        <strong>
-        [FR]: call emergency services now
+        appelle les services d'urgence maintenant
        </strong>
-       [FR]: (speaker phone) if not already done.
+       (haut-parleur) si ce n'est pas déjà fait.
       </li>
       <li>
-       [FR]: Begin
+       Commencer
        <strong>
-        [FR]: CPR
+        RCR
        </strong>
-       [FR]: : chest compressions, and rescue breaths if you are trained and willing. If you are not trained, follow the dispatcher's instructions; they may guide hands-only CPR until help arrives.
+       : compressions thoraciques et insufflations si vous êtes formé et disposé. Si vous n'êtes pas formé, suivez les instructions du répartiteur ; ils peuvent guider la RCR à mains seules jusqu'à l'arrivée de l'aide.
       </li>
       <li>
-       [FR]: Each time you open the airway to give breaths,
+       Chaque fois que vous ouvrez les voies respiratoires pour respirer,
        <strong>
-        [FR]: look in the mouth
+        regarde dans la bouche
        </strong>
-       [FR]: and remove any object you can clearly see. Do not sweep blindly with your finger, which can push it deeper.
+       et supprimez tout objet que vous pouvez clairement voir. Ne balayez pas aveuglément avec votre doigt, car cela pourrait l’enfoncer plus profondément.
       </li>
       <li>
-       [FR]: Continue until the person recovers or emergency help takes over.
+       Continuez jusqu'à ce que la personne se rétablisse ou que l'aide d'urgence prenne le relais.
       </li>
      </ol>
     </div>
@@ -279,67 +317,67 @@
       After a severe choking episode
      </span>
      <p>
-      [FR]: Anyone who needed back blows or thrusts — or who has a lasting cough, trouble swallowing, or a feeling that something is still stuck — should be checked by a medical professional, because thrusts can occasionally cause internal injury and small fragments can remain.
+      Toute personne ayant besoin de coups dans le dos ou de poussées – ou ayant une toux persistante, des difficultés à avaler ou la sensation que quelque chose est encore coincé – doit être examinée par un professionnel de la santé, car les poussées peuvent parfois provoquer des blessures internes et de petits fragments peuvent subsister.
      </p>
     </div>
     <h2>
-     [FR]: Prevent choking, especially in young children
+     Prévenir l'étouffement, surtout chez les jeunes enfants
     </h2>
     <ul>
      <li>
-      [FR]: Cut food for young children into small pieces; encourage everyone to eat slowly and not talk or laugh with a full mouth.
+      Coupez les aliments destinés aux jeunes enfants en petits morceaux ; encouragez tout le monde à manger lentement et à ne pas parler ou rire la bouche pleine.
      </li>
      <li>
-      [FR]: For children under about 4, avoid or modify high-risk foods: whole grapes and cherry tomatoes (cut them up), nuts, popcorn, hard or sticky candy, chunks of meat or hot dog, and raw hard vegetables.
+      Pour les enfants de moins de 4 ans environ, évitez ou modifiez les aliments à risque : raisins entiers et tomates cerises (coupées), noix, pop-corn, bonbons durs ou collants, morceaux de viande ou de hot-dog et légumes durs crus.
      </li>
      <li>
-      [FR]: Keep small objects — coins, button batteries, marbles, small toy parts, deflated balloons — out of reach of babies and toddlers.
+      Gardez les petits objets – pièces de monnaie, piles boutons, billes, petites pièces de jouets, ballons dégonflés – hors de portée des bébés et des tout-petits.
      </li>
      <li>
-      [FR]: Supervise young children while they eat, and keep them seated.
+      Surveillez les jeunes enfants pendant qu’ils mangent et gardez-les assis.
      </li>
     </ul>
     <h2>
-     [FR]: Sources
+     Sources
     </h2>
     <ul class="sources">
      <li>
       <a href="https://www.redcross.org/take-a-class">
-       [FR]: American Red Cross — first aid training and resources
+       Croix-Rouge américaine — formation et ressources en premiers secours
       </a>
-      [FR]: , including conscious choking guidance.
+      , y compris des conseils conscients en matière d'étouffement.
      </li>
      <li>
       <a href="https://cpr.heart.org/en/resuscitation-science/first-aid-guidelines/first-aid">
-       🚨[REVIEW_REQUIRED] [FR]: American Heart Association (AHA) — first aid guidelines
+       🚨[REVIEW_REQUIRED] American Heart Association (AHA) — directives de premiers secours
       </a>
-      [FR]: for choking and CPR.
+      pour étouffement et RCR.
      </li>
      <li>
       <a href="https://www.resus.org.uk/library">
-       [FR]: Resuscitation Council UK — resuscitation and first-aid guidance library
+       Resuscitation Council UK — bibliothèque d'orientation sur la réanimation et les premiers secours
       </a>
-      [FR]: , including choking guidance.
+      , y compris des conseils d'étouffement.
      </li>
      <li>
-      🚨[REVIEW_REQUIRED] [FR]: U.S. CDC and national child-safety guidance on choking and suffocation prevention. cdc.gov
+      🚨[REVIEW_REQUIRED] CDC américain et directives nationales de sécurité des enfants sur la prévention de l'étouffement et de la suffocation. cdc.gov
      </li>
     </ul>
     <p class="sources">
-     [FR]: Steps reflect widely taught Red Cross / Resuscitation Council first-aid sequences for lay responders. Different training bodies vary in detail — follow your local first-aid training and emergency dispatcher's instructions.
+     Les étapes reflètent les séquences de premiers secours largement enseignées par la Croix-Rouge et le Conseil de réanimation pour les intervenants profanes. Les différents organismes de formation varient en détail : suivez votre formation locale en premiers secours et les instructions du répartiteur d'urgence.
     </p>
     <p class="disclaimer">
-     [FR]: This guide is general information, not medical advice, and is not a substitute for hands-on first-aid and CPR training, which is widely available and strongly recommended. In an emergency, always call your local emergency number. Reuse and reprint freely.
+     Ce guide est une information générale, et non un avis médical, et ne remplace pas une formation pratique en premiers secours et en RCR, qui est largement disponible et fortement recommandée. En cas d'urgence, appelez toujours votre numéro d'urgence local. Réutilisez et réimprimez librement.
     </p>
    </div>
   </main>
   <footer class="site">
    <div class="wrap">
-    [FR]: A free, open Help Kit ·
+    Un kit d'aide gratuit et ouvert ·
     <a href="https://github.com/ai-village-agents/help-kit">
-     [FR]: source on GitHub
+     source sur GitHub
     </a>
-    [FR]: · Public domain (CC0) · Verify against your local health authority
+    · Domaine public (CC0) · Vérifiez auprès de votre autorité sanitaire locale
    </div>
   </footer>
   <script>

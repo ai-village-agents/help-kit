@@ -4,33 +4,76 @@
   <meta charset="utf-8"/>
   <meta content="width=device-width,initial-scale=1" name="viewport"/>
   <title>
-   [ES]: Extreme Heat: Spot It, Cool It, Save a Life — Help Kit | Help Kit
+   Calor extremo: Detectarlo, enfriarlo, mantenerse a salvo — Kit de ayuda | Help Kit
   </title>
-  <meta content="[ES]: A free, source-cited one-page guide to recognizing and responding to heat exhaustion and heat stroke, and protecting people at high risk during extreme heat." name="description"/>
+  <meta content="Una guía gratuita de una página, citada por una fuente, para reconocer y responder al agotamiento por calor y la insolación, y para proteger a las personas en alto riesgo durante el calor extremo." name="description"/>
   <link href="https://ai-village-agents.github.io/help-kit/heat/" rel="canonical"/>
   <meta content="noindex, nofollow, noarchive" name="robots"/>
   <meta content="Help Kit" property="og:site_name"/>
   <meta content="website" property="og:type"/>
-  <meta content="Extreme Heat: Spot It, Cool It, Save a Life — Help Kit" property="og:title"/>
+  <meta content="Extreme Heat: Spot It, Cool It, Stay Safe — Help Kit" property="og:title"/>
   <meta content="A free, source-cited one-page guide to recognizing and responding to heat exhaustion and heat stroke, and protecting people at high risk during extreme heat." property="og:description"/>
   <meta content="https://ai-village-agents.github.io/help-kit/heat/" property="og:url"/>
   <meta content="https://ai-village-agents.github.io/help-kit/og-image.png" property="og:image"/>
   <meta content="summary_large_image" name="twitter:card"/>
   <meta content="https://ai-village-agents.github.io/help-kit/og-image.png" name="twitter:image"/>
-  <meta content="Extreme Heat: Spot It, Cool It, Save a Life — Help Kit" name="twitter:title"/>
+  <meta content="Extreme Heat: Spot It, Cool It, Stay Safe — Help Kit" name="twitter:title"/>
   <meta content="A free, source-cited one-page guide to recognizing and responding to heat exhaustion and heat stroke, and protecting people at high risk during extreme heat." name="twitter:description"/>
   <meta content="#c0392b" name="theme-color"/>
   <link href="../favicon.ico" rel="icon" sizes="any"/>
   <link href="../style.css" rel="stylesheet"/>
   <link href="/help-kit/manifest.webmanifest" rel="manifest"/>
   <link href="/help-kit/icon-192.png" rel="apple-touch-icon"/>
+  <script type="application/ld+json">
+   {
+  "@context": "https://schema.org",
+  "@type": "MedicalWebPage",
+  "name": "Extreme Heat: Spot It, Cool It, Stay Safe",
+  "description": "A free, source-cited one-page guide to recognizing and responding to heat exhaustion and heat stroke, and protecting people at high risk during extreme heat.",
+  "url": "https://ai-village-agents.github.io/help-kit/heat/",
+  "inLanguage": "en",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "Help Kit",
+    "url": "https://ai-village-agents.github.io/help-kit/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Help Kit",
+    "url": "https://ai-village-agents.github.io/help-kit/"
+  },
+  "citation": [
+    {
+      "@type": "WebPage",
+      "name": "U.S. Centers for Disease Control and Prevention (CDC) — Heat & Health",
+      "url": "https://www.cdc.gov/heat-health/"
+    },
+    {
+      "@type": "WebPage",
+      "name": "U.S. National Weather Service (NWS) — Heat Safety Tips and Resources",
+      "url": "https://www.weather.gov/safety/heat"
+    },
+    {
+      "@type": "WebPage",
+      "name": "World Health Organization (WHO) — Heat and health fact sheet",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/climate-change-heat-and-health"
+    },
+    {
+      "@type": "WebPage",
+      "name": "Ready.gov (U.S. Dept. of Homeland Security) — Extreme Heat",
+      "url": "https://www.ready.gov/heat"
+    }
+  ]
+}
+  </script>
  </head>
  <body>
   <div class="notice danger" data-draft-warning="true">
    UNREVIEWED MACHINE TRANSLATION DRAFT (es). Do not use for medical guidance, sharing, printing, or training until fluent local reviewers verify all emergency numbers, doses, timings, and local guidance against the English source.
   </div>
   <a class="skip-link" href="#main">
-   [ES]: Skip to main content
+   Saltar al contenido principal
   </a>
   <header class="site">
    <div class="wrap">
@@ -39,49 +82,49 @@
     </a>
     <nav>
      <a href="../heat/">
-      [ES]: Extreme Heat
+      Calor extremo
      </a>
      <a href="../smoke/">
-      [ES]: Wildfire Smoke
+      Humo de incendios forestales
      </a>
      <a href="../naloxone/">
-      [ES]: Opioid Overdose
+      Sobredosis de opioides
      </a>
      <a href="../ors/">
-      [ES]: Dehydration &amp; ORS
+      Deshidratación y SRO
      </a>
      <a href="../choking/">
-      [ES]: Choking
+      asfixia
      </a>
      <a href="../bleeding/">
-      [ES]: Severe Bleeding
+      Sangrado severo
      </a>
      <a href="../cpr/">
-      [ES]: CPR
+      RCP
      </a>
      <a href="../stroke/">
-      [ES]: Stroke
+      Ataque
      </a>
      <a href="../burns/">
-      [ES]: Burns
+      quemaduras
      </a>
      <a href="../seizure/">
-      [ES]: Seizure
+      Convulsión
      </a>
      <a href="../allergy/">
-      [ES]: Severe Allergy
+      Alergia severa
      </a>
      <a href="../cold/">
-      [ES]: Cold Safety
+      Seguridad en frío
      </a>
      <a href="../heart/">
-      [ES]: Heart Attack
+      Infarto de miocardio
      </a>
      <a href="../triage/">
-      [ES]: Triage
+      Triaje
      </a>
      <a href="../localize.html">
-      [ES]: Localize &amp; share
+      Localizar y compartir
      </a>
     </nav>
    </div>
@@ -89,31 +132,31 @@
   <section class="hero">
    <div class="wrap">
     <h1>
-     [ES]: Extreme Heat: spot it, cool it, save a life
+     Calor extremo: detectarlo, enfriarlo, mantenerse a salvo
     </h1>
     <p>
-     [ES]: How to recognize heat illness, act fast in an emergency, and protect the people most at risk. Free to read, print, and share.
+     Cómo reconocer las enfermedades causadas por el calor, actuar rápido en caso de emergencia y proteger a las personas en mayor riesgo. Gratis para leer, imprimir y compartir.
     </p>
    </div>
   </section>
   <main id="main">
    <div class="wrap">
     <p class="lede">
-     [ES]: Extreme heat is the deadliest type of weather in many countries. But most heat deaths can be prevented. Two things matter most:
+     El calor extremo es el tipo de clima más mortífero en muchos países. Pero la mayoría de las muertes por calor se pueden prevenir. Dos cosas importan más:
      <strong>
-      [ES]: cool the body down fast
+      enfriar el cuerpo rápidamente
      </strong>
-     [ES]: , and
+     , y
      <strong>
-      [ES]: check on people at high risk before they get into trouble.
+      Controle a las personas en alto riesgo antes de que se metan en problemas.
      </strong>
     </p>
     <div class="actions no-print">
      <a class="btn" href="javascript:window.print()">
-      [ES]: Print this page
+      Imprime esta pagina
      </a>
      <a class="btn alt" href="heat-onepager.pdf">
-      [ES]: Download printable PDF
+      Descargar PDF imprimible
      </a>
     </div>
     <div class="box emergency">
@@ -121,18 +164,18 @@
       Call emergency services now
      </span>
      <h3>
-      [ES]: Heat stroke is a life-threatening emergency
+      El golpe de calor es una emergencia potencialmente mortal
      </h3>
      <p>
-      🚨[REVIEW_REQUIRED] [ES]: Call your local emergency number right away — examples: 911, 112, or 999; verify locally. Do this if a person is very hot and shows
+      🚨[REVIEW_REQUIRED] Llame a su número de emergencia local de inmediato; ejemplos: 911, 112 o 999; verificar localmente. Haga esto si una persona tiene mucho calor y muestra
       <strong>
-       [ES]: confusion, slurred speech, fainting, seizures, or loss of consciousness.
+       confusión, dificultad para hablar, desmayos, convulsiones o pérdida del conocimiento.
       </strong>
-      [ES]: Start cooling them right away while you wait (see below). Do not wait to see if they improve.
+      Comience a enfriarlos de inmediato mientras espera (ver más abajo). No esperes a ver si mejoran.
      </p>
     </div>
     <h2>
-     [ES]: Know the two stages
+     Conoce las dos etapas
     </h2>
     <div class="two">
      <div class="box warn">
@@ -140,53 +183,53 @@
        Heat exhaustion — act now
       </span>
       <h3>
-       [ES]: What you may see
+       Lo que puedes ver
       </h3>
       <ul>
        <li>
-        [ES]: Heavy sweating
+        sudoración intensa
        </li>
        <li>
-        [ES]: Cool, pale, clammy skin
+        Piel fría, pálida y húmeda
        </li>
        <li>
-        [ES]: Fast, weak pulse
+        Pulso rápido y débil
        </li>
        <li>
-        [ES]: Nausea, vomiting
+        Náuseas, vómitos
        </li>
        <li>
-        [ES]: Muscle cramps
+        Calambres musculares
        </li>
        <li>
-        [ES]: Tiredness, weakness, dizziness, headache
+        Cansancio, debilidad, mareos, dolor de cabeza.
        </li>
        <li>
-        [ES]: Fainting
+        Desmayo
        </li>
       </ul>
       <h3>
-       [ES]: What to do
+       que hacer
       </h3>
       <ul>
        <li>
-        [ES]: Move to a cool place (shade or air conditioning)
+        Trasladarse a un lugar fresco (sombra o aire acondicionado)
        </li>
        <li>
-        [ES]: Loosen clothing
+        Aflojar la ropa
        </li>
        <li>
-        [ES]: Sip cool water
+        Bebe agua fría
        </li>
        <li>
-        [ES]: Apply cool, wet cloths or take a cool bath
+        Aplique paños húmedos y fríos o tome un baño frío.
        </li>
       </ul>
       <p>
        <strong>
-        [ES]: Get medical help
+        Obtener ayuda médica
        </strong>
-       [ES]: if the person is vomiting, symptoms get worse, or symptoms last longer than 1 hour.
+       si la persona vomita, los síntomas empeoran o los síntomas duran más de 1 hora.
       </p>
      </div>
      <div class="box emergency">
@@ -194,83 +237,83 @@
        Heat stroke — emergency
       </span>
       <h3>
-       [ES]: What you may see
+       Lo que puedes ver
       </h3>
       <ul>
        <li>
-        🚨[REVIEW_REQUIRED] [ES]: Body temperature of 103°F (39.4°C) or higher
+        🚨[REVIEW_REQUIRED] Temperatura corporal de 103°F (39,4°C) o superior
        </li>
        <li>
-        [ES]: Hot, red skin that is dry
+        Piel caliente, roja y seca.
         <em>
-         [ES]: or
+         o
         </em>
-        [ES]: damp
+        húmedo
        </li>
        <li>
-        [ES]: Fast, strong pulse
+        Pulso rápido y fuerte
        </li>
        <li>
-        [ES]: Confusion, slurred speech
+        Confusión, dificultad para hablar
        </li>
        <li>
-        [ES]: Throbbing headache, dizziness
+        Dolor de cabeza punzante, mareos.
        </li>
        <li>
-        [ES]: Losing consciousness
+        Perdiendo el conocimiento
        </li>
       </ul>
       <h3>
-       [ES]: What to do
+       que hacer
       </h3>
       <ul>
        <li>
         <strong>
-         [ES]: Call emergency services immediately
+         Llame a los servicios de emergencia inmediatamente.
         </strong>
        </li>
        <li>
-        [ES]: Move the person somewhere cool
+        Lleva a la persona a un lugar fresco
        </li>
        <li>
-        [ES]: Lower their temperature with cool cloths or a cool bath
+        Baje su temperatura con paños fríos o un baño frío.
        </li>
        <li>
         <strong>
-         [ES]: Do not give them anything to drink
+         No les des nada de beber.
         </strong>
-        [ES]: if they are confused or unconscious
+        si están confundidos o inconscientes
        </li>
       </ul>
      </div>
     </div>
     <h2>
-     [ES]: Who is most at risk
+     ¿Quién corre mayor riesgo?
     </h2>
     <p>
-     [ES]: Heat does not affect everyone equally. Check on these people often during a heat wave:
+     El calor no afecta a todos por igual. Controle a estas personas con frecuencia durante una ola de calor:
     </p>
     <ul>
      <li>
-      🚨[REVIEW_REQUIRED] [ES]: Adults aged 65 and older
+      🚨[REVIEW_REQUIRED] Adultos de 65 años y más
      </li>
      <li>
-      [ES]: Babies and young children
+      Bebés y niños pequeños
      </li>
      <li>
-      [ES]: People with chronic conditions such as heart disease, high blood pressure, diabetes, kidney disease, or mental illness
+      Personas con enfermedades crónicas como enfermedades cardíacas, presión arterial alta, diabetes, enfermedades renales o enfermedades mentales.
      </li>
      <li>
-      [ES]: People taking certain medications (some affect the body's ability to stay cool — ask a pharmacist if unsure)
+      Personas que toman ciertos medicamentos (algunos afectan la capacidad del cuerpo para mantenerse fresco; consulte a un farmacéutico si no está seguro)
      </li>
      <li>
-      [ES]: Outdoor workers and athletes
+      Trabajadores al aire libre y atletas
      </li>
      <li>
-      [ES]: People who live alone or without air conditioning
+      Personas que viven solas o sin aire acondicionado
      </li>
      <li>
-      [ES]: People who are pregnant
+      personas que estan embarazadas
      </li>
     </ul>
     <div class="box ok">
@@ -278,38 +321,38 @@
       Prevention
      </span>
      <h3>
-      [ES]: Stay ahead of the heat
+      Manténgase por delante del calor
      </h3>
      <ul>
       <li>
        <strong>
-        [ES]: Drink water
+        beber agua
        </strong>
-       [ES]: regularly — don't wait until you feel thirsty. (If a doctor limits your fluids, ask them how much to drink in heat.)
+       regularmente; no espere hasta tener sed. (Si un médico limita sus líquidos, pregúntele cuánto debe beber en calor).
       </li>
       <li>
        <strong>
-        [ES]: Stay cool
+        mantente fresco
        </strong>
-       [ES]: — spend time in air conditioning. If your home is hot, go to a public cooling center, library, or shopping mall.
+       — pasar tiempo en el aire acondicionado. Si hace calor en su casa, vaya a un centro público de refrigeración, una biblioteca o un centro comercial.
       </li>
       <li>
        <strong>
-        [ES]: Avoid the hottest hours
+        Evita las horas más calurosas
        </strong>
-       [ES]: — limit strenuous activity to early morning or evening.
+       — limite la actividad extenuante a primera hora de la mañana o de la tarde.
       </li>
       <li>
        <strong>
-        [ES]: Dress light
+        vestido ligero
        </strong>
-       [ES]: — wear lightweight, loose, light-colored clothing.
+       — use ropa ligera, holgada y de colores claros.
       </li>
       <li>
        <strong>
-        [ES]: Take it easy
+        Tómalo con calma
        </strong>
-       [ES]: — rest often in the shade and pace outdoor work.
+       — descansar a menudo en la sombra y realizar trabajos al aire libre.
       </li>
      </ul>
     </div>
@@ -318,11 +361,11 @@
       Never leave anyone in a parked car
      </span>
      <p>
-      🚨[REVIEW_REQUIRED] [ES]: A parked car heats up fast. The temperature inside can rise about 20°F (11°C) in just 10 minutes — even with a window cracked.
+      🚨[REVIEW_REQUIRED] Un coche estacionado se calienta rápidamente. La temperatura interior puede aumentar unos 11 °C (20 °F) en sólo 10 minutos, incluso con una ventana abierta.
       <strong>
-       [ES]: Never leave children, older adults, or pets in a parked car
+       Nunca dejes a niños, adultos mayores o mascotas en un auto estacionado
       </strong>
-      [ES]: — not even for a minute.
+      – ni siquiera por un minuto.
      </p>
     </div>
     <div class="box ok">
@@ -330,122 +373,112 @@
       Buddy-check tools
      </span>
      <h3>
-      [ES]: Turn this guide into a check-in network
+      Convierte esta guía en una red de check-in
      </h3>
      <ul>
       <li>
        <a href="cooling-guide.html">
         <strong>
-         [ES]: Read the Evidence-Based Cooling Guide
+         Lea la guía de enfriamiento basada en evidencia
         </strong>
        </a>
-       [ES]: for practical cooling steps, fan caveats, hydration, and home heat workarounds.
+       para conocer pasos prácticos de enfriamiento, advertencias sobre ventiladores, hidratación y soluciones alternativas para calentar el hogar.
       </li>
       <li>
        <a href="flyer.html">
         <strong>
-         [ES]: Print and share the Heat Safety Flyer
+         Imprima y comparta el folleto sobre seguridad térmica
         </strong>
        </a>
-       [ES]: — a high-contrast, easy-to-read one-page community guide with local fill-in fields.
+       — una guía comunitaria de una sola página, de alto contraste y fácil de leer, con campos para completar localmente.
       </li>
       <li>
        <a href="buddy-check.html">
-        [ES]: Print a heat buddy-check sheet
+        Imprima una hoja de control de compañeros de calor
        </a>
-       [ES]: for neighbors, relatives, tenants, coworkers, or community members.
+       para vecinos, familiares, inquilinos, compañeros de trabajo o miembros de la comunidad.
       </li>
       <li>
        <a href="organizer-60-minute-setup.html">
-        🚨[REVIEW_REQUIRED] [ES]: Use the 60-minute setup plan
+        🚨[REVIEW_REQUIRED] Utilice el plan de configuración de 60 minutos
        </a>
-       [ES]: to assign buddies, gather local resources, and follow up.
+       asignar amigos, reunir recursos locales y realizar un seguimiento.
       </li>
       <li>
        <a href="scripts.html">
-        [ES]: Copy SMS and phone scripts
+        Copie SMS y guiones telefónicos
        </a>
-       [ES]: for friendly, privacy-preserving check-ins.
+       para registros amigables que preserven la privacidad.
       </li>
      </ul>
     </div>
     <h2>
-     [ES]: Be a good neighbor
+     ser un buen vecino
     </h2>
     <p>
-     [ES]: Most people who die in heat waves are found alone. A simple check-in can save lives:
+     La mayoría de las personas que mueren en olas de calor se encuentran solas. Un simple check-in puede salvar vidas:
     </p>
     <ul>
      <li>
-      🚨[REVIEW_REQUIRED] [ES]: Pick 2–3 at-risk neighbors, friends, or relatives and agree to check on each other during heat warnings.
+      🚨[REVIEW_REQUIRED] Elija de 2 a 3 vecinos, amigos o familiares en riesgo y acuerden controlarse unos a otros durante las advertencias de calor.
      </li>
      <li>
-      [ES]: Call or visit in person twice a day during extreme heat.
+      Llame o visítelo en persona dos veces al día durante el calor extremo.
      </li>
      <li>
-      [ES]: Make sure they have water, a way to stay cool, and a working phone.
+      Asegúrese de que tengan agua, una forma de mantenerse frescos y un teléfono que funcione.
      </li>
      <li>
-      [ES]: Know the route to the nearest cooling center and offer to go together.
+      Conozca la ruta al centro de enfriamiento más cercano y ofrézcase para ir juntos.
      </li>
     </ul>
     <h2>
-     [ES]: Sources
+     Fuentes
     </h2>
     <ul class="sources">
      <li>
       <a href="https://www.cdc.gov/heat-health/">
-       🚨[REVIEW_REQUIRED] [ES]: U.S. Centers for Disease Control and Prevention (CDC) —
+       🚨[REVIEW_REQUIRED] Centros para el Control y la Prevención de Enfermedades (CDC) de EE. UU. —
        <em>
-        [ES]: Heat &amp; Health
+        Calor y salud
        </em>
       </a>
-      [ES]: and warning signs of heat-related illness.
+      y señales de advertencia de enfermedades relacionadas con el calor.
      </li>
      <li>
       <a href="https://www.weather.gov/safety/heat">
-       [ES]: U.S. National Weather Service (NWS) —
-       <em>
-        [ES]: Heat Safety Tips and Resources
-       </em>
+       Servicio Meteorológico Nacional de EE. UU. (NWS): consejos y recursos de seguridad contra el calor
       </a>
       .
      </li>
      <li>
       <a href="https://www.who.int/news-room/fact-sheets/detail/climate-change-heat-and-health">
-       🚨[REVIEW_REQUIRED] [ES]: World Health Organization (WHO) —
-       <em>
-        [ES]: Heat and health
-       </em>
-       [ES]: fact sheet
+       🚨[REVIEW_REQUIRED] Organización Mundial de la Salud (OMS) — Hoja informativa sobre el calor y la salud
       </a>
       .
      </li>
      <li>
       <a href="https://www.ready.gov/heat">
-       [ES]: Ready.gov (U.S. Dept. of Homeland Security) —
-       <em>
-        [ES]: Extreme Heat
-       </em>
+       Ready.gov (Departamento de Seguridad Nacional de EE. UU.) — Calor extremo
       </a>
       .
      </li>
     </ul>
     <p class="sources">
-     🚨[REVIEW_REQUIRED] [ES]: Guidance summarized from the public-health sources above. Temperature and symptom thresholds follow CDC/NWS guidance; emergency-number examples are general.
+     🚨[REVIEW_REQUIRED] Orientación resumida de las fuentes de salud pública mencionadas anteriormente. Los umbrales de temperatura y síntomas siguen las pautas de los CDC/NWS; Los ejemplos de números de emergencia son generales.
     </p>
     <p class="disclaimer">
-     [ES]: This guide is general information, not medical advice, and is not a substitute for professional emergency care or training. In an emergency, always call your local emergency number. When symptoms are severe or you are unsure, treat it as an emergency. Reuse and reprint freely.
+     Esta guía es información general, no asesoramiento médico, y no sustituye la atención de emergencia ni la capacitación profesional. En caso de emergencia, llame siempre a su número de emergencia local. Cuando los síntomas sean graves o no esté seguro, trátelo como una emergencia. Reutilice y reimprima libremente.
     </p>
    </div>
   </main>
   <footer class="site">
    <div class="wrap">
-    [ES]: A free, open Help Kit ·
+    Un kit de ayuda abierto y gratuito ·
     <a href="https://github.com/ai-village-agents/help-kit">
-     [ES]: source on GitHub
+     fuente en GitHub
     </a>
-    [ES]: · Public domain (CC0) · Verify against your local health authority
+    · Dominio público (CC0) · Verificar con su autoridad sanitaria local
    </div>
   </footer>
   <script>

@@ -4,9 +4,9 @@
   <meta charset="utf-8"/>
   <meta content="width=device-width,initial-scale=1" name="viewport"/>
   <title>
-   [FR]: Seizure First Aid — Help Kit | Help Kit
+   Premiers soins en cas de crise — Trousse d’aide | Help Kit
   </title>
-  <meta content="[FR]: A free, source-cited one-page guide to seizure first aid: protect the person, time the seizure, never restrain or put anything in the mouth, use the recovery position, and know when to call for help. Based on CDC, WHO, Epilepsy Foundation, and Red Cross guidance." name="description"/>
+  <meta content="Un guide gratuit et cité par une source sur les premiers soins en cas de crise : protégez la personne, chronométrez la crise, ne retenez pas et ne mettez rien dans la bouche et sachez quand appeler." name="description"/>
   <link href="https://ai-village-agents.github.io/help-kit/seizure/" rel="canonical"/>
   <meta content="noindex, nofollow, noarchive" name="robots"/>
   <meta content="Help Kit" property="og:site_name"/>
@@ -24,13 +24,56 @@
   <link href="../style.css" rel="stylesheet"/>
   <link href="/help-kit/manifest.webmanifest" rel="manifest"/>
   <link href="/help-kit/icon-192.png" rel="apple-touch-icon"/>
+  <script type="application/ld+json">
+   {
+  "@context": "https://schema.org",
+  "@type": "MedicalWebPage",
+  "name": "Seizure First Aid",
+  "description": "A free, source-cited guide to seizure first aid: protect the person, time the seizure, don't restrain or put anything in the mouth, and know when to call.",
+  "url": "https://ai-village-agents.github.io/help-kit/seizure/",
+  "inLanguage": "en",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "Help Kit",
+    "url": "https://ai-village-agents.github.io/help-kit/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Help Kit",
+    "url": "https://ai-village-agents.github.io/help-kit/"
+  },
+  "citation": [
+    {
+      "@type": "WebPage",
+      "name": "CDC — About epilepsy",
+      "url": "https://www.cdc.gov/epilepsy/about/index.html"
+    },
+    {
+      "@type": "WebPage",
+      "name": "World Health Organization — Epilepsy fact sheet",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/epilepsy"
+    },
+    {
+      "@type": "WebPage",
+      "name": "NHS — Epilepsy and what to do when someone has a seizure",
+      "url": "https://www.nhs.uk/conditions/epilepsy/"
+    },
+    {
+      "@type": "WebPage",
+      "name": "American Red Cross — first-aid training and resources",
+      "url": "https://www.redcross.org/take-a-class"
+    }
+  ]
+}
+  </script>
  </head>
  <body>
   <div class="notice danger" data-draft-warning="true">
    UNREVIEWED MACHINE TRANSLATION DRAFT (fr). Do not use for medical guidance, sharing, printing, or training until fluent local reviewers verify all emergency numbers, doses, timings, and local guidance against the English source.
   </div>
   <a class="skip-link" href="#main">
-   [FR]: Skip to main content
+   Passer au contenu principal
   </a>
   <header class="site">
    <div class="wrap">
@@ -39,49 +82,49 @@
     </a>
     <nav>
      <a href="../heat/">
-      [FR]: Extreme Heat
+      Chaleur extrême
      </a>
      <a href="../smoke/">
-      [FR]: Wildfire Smoke
+      Fumée de feux de forêt
      </a>
      <a href="../naloxone/">
-      [FR]: Opioid Overdose
+      Surdose d'opioïdes
      </a>
      <a href="../ors/">
-      [FR]: Dehydration &amp; ORS
+      Déshydratation et SOR
      </a>
      <a href="../choking/">
-      [FR]: Choking
+      Étouffement
      </a>
      <a href="../bleeding/">
-      [FR]: Severe Bleeding
+      Saignement sévère
      </a>
      <a href="../cpr/">
-      [FR]: CPR
+      RCR
      </a>
      <a href="../stroke/">
-      [FR]: Stroke
+      Accident vasculaire cérébral
      </a>
      <a href="../burns/">
-      [FR]: Burns
+      Brûlures
      </a>
      <a href="../seizure/">
-      [FR]: Seizure
+      Crise d'épilepsie
      </a>
      <a href="../allergy/">
-      [FR]: Severe Allergy
+      Allergie sévère
      </a>
      <a href="../cold/">
-      [FR]: Cold Safety
+      Sécurité contre le froid
      </a>
      <a href="../heart/">
-      [FR]: Heart Attack
+      Crise cardiaque
      </a>
      <a href="../triage/">
-      [FR]: Triage
+      Triage
      </a>
      <a href="../localize.html">
-      [FR]: Localize &amp; share
+      Localiser et partager
      </a>
     </nav>
    </div>
@@ -89,24 +132,24 @@
   <section class="hero">
    <div class="wrap">
     <h1>
-     [FR]: Seizure first aid
+     Premiers secours en cas de crise
     </h1>
     <p>
-     [FR]: A seizure is a burst of unusual electrical activity in the brain. Many seizures look frightening but stop on their own within a couple of minutes. The most important things you can do are simple: keep the person safe from injury, do not hold them down or put anything in their mouth, time how long it lasts, and stay with them. Free to read, print, and share.
+     Une crise est une explosion d’activité électrique inhabituelle dans le cerveau. De nombreuses crises semblent effrayantes mais s’arrêtent d’elles-mêmes en quelques minutes. Les choses les plus importantes que vous puissiez faire sont simples : protéger la personne contre les blessures, ne pas la maintenir au sol et ne pas mettre quoi que ce soit dans sa bouche, chronométrer la durée de la blessure et rester avec elle. Lecture, impression et partage gratuits.
     </p>
    </div>
   </section>
   <main id="main">
    <div class="wrap">
     <p class="lede">
-     [FR]: Many seizures end by themselves. Your job is to protect the person, prevent injury, and gently care for them afterwards — and to recognise situations that do need urgent medical help.
+     De nombreuses crises se terminent d'elles-mêmes. Votre travail consiste à protéger la personne, à prévenir les blessures et à la soigner en douceur par la suite, ainsi qu'à reconnaître les situations qui nécessitent une aide médicale urgente.
     </p>
     <div class="actions no-print">
      <a class="btn" href="javascript:window.print()">
-      [FR]: Print this page
+      Imprimer cette page
      </a>
      <a class="btn alt" href="seizure-onepager.pdf">
-      [FR]: Download printable PDF
+      Télécharger le PDF imprimable
      </a>
     </div>
     <div class="box emergency">
@@ -114,93 +157,93 @@
       Call emergency services now if…
      </span>
      <h3>
-      [FR]: When a seizure is an emergency
+      Quand une crise est une urgence
      </h3>
      <ul>
       <li>
-       [FR]: The seizure (shaking/convulsing) lasts
+       La crise (tremblements/convulsions) dure
        <strong>
-        🚨[REVIEW_REQUIRED] [FR]: longer than 5 minutes
+        🚨[REVIEW_REQUIRED] plus de 5 minutes
        </strong>
        .
       </li>
       <li>
-       [FR]: Another seizure starts soon after the first, or they do not regain awareness between seizures.
+       Une autre crise commence peu de temps après la première, ou ils ne reprennent pas conscience entre les crises.
       </li>
       <li>
-       [FR]: The person is
+       La personne est
        <strong>
-        [FR]: hurt, has trouble breathing, or does not wake up
+        blessé, a du mal à respirer ou ne se réveille pas
        </strong>
-       [FR]: after the shaking stops.
+       après que les secousses aient cessé.
       </li>
       <li>
-       [FR]: The seizure happens
+       La crise se produit
        <strong>
-        [FR]: in water
+        dans l'eau
        </strong>
        .
       </li>
       <li>
-       [FR]: It is the person's
+       C'est celui de la personne
        <strong>
-        [FR]: first-ever seizure
+        première crise
        </strong>
-       [FR]: , or you do not know their history.
+       , ou vous ne connaissez pas leur histoire.
       </li>
       <li>
-       [FR]: The person is
+       La personne est
        <strong>
-        [FR]: pregnant
+        enceinte
        </strong>
-       [FR]: , has
+       , a
        <strong>
-        [FR]: diabetes
+        diabète
        </strong>
-       [FR]: , or another serious health condition.
+       , ou un autre problème de santé grave.
       </li>
      </ul>
      <p>
-      🚨[REVIEW_REQUIRED] [FR]: Call your local emergency number (examples: 911, 112, or 999; verify locally). When in doubt, call.
+      🚨[REVIEW_REQUIRED] Appelez votre numéro d'urgence local (exemples : 911, 112 ou 999 ; vérifiez localement). En cas de doute, appelez.
      </p>
     </div>
     <h2>
-     [FR]: What to do during a convulsive seizure
+     Que faire lors d'une crise convulsive
     </h2>
     <ol class="steps">
      <li>
       <strong>
-       [FR]: Stay calm and stay with them.
+       Restez calme et restez avec eux.
       </strong>
-      [FR]: Note the time the seizure starts so you know how long it lasts.
+      Notez l’heure à laquelle la crise commence pour savoir combien de temps elle dure.
      </li>
      <li>
       <strong>
-       [FR]: Protect them from injury.
+       Protégez-les des blessures.
       </strong>
-      [FR]: Move away hard or sharp objects. Cushion the head with something soft (a folded jacket). Take off glasses and loosen anything tight around the neck.
+      Éloignez les objets durs ou pointus. Rembourrez la tête avec quelque chose de doux (une veste pliée). Enlevez les lunettes et desserrez tout ce qui serre autour du cou.
      </li>
      <li>
       <strong>
-       [FR]: Do not restrain them
+       Ne les retenez pas
       </strong>
-      [FR]: and
+      et
       <strong>
-       [FR]: do not put anything in their mouth.
+       ne leur mettez rien dans la bouche.
       </strong>
-      [FR]: Let the movements happen. Holding them down or putting objects (or your fingers) in the mouth can injure them or you — and you cannot stop the seizure that way.
+      Laissez les mouvements se produire. Les maintenir enfoncés ou mettre des objets (ou vos doigts) dans la bouche peut les blesser ou vous blesser – et vous ne pouvez pas arrêter la crise de cette façon.
      </li>
      <li>
       <strong>
-       [FR]: When the shaking stops, roll them onto their side
+       Lorsque les secousses s'arrêtent, faites-les rouler sur le côté
       </strong>
-      [FR]: (recovery position). This keeps the airway clear and lets saliva drain. Check they are breathing.
+      (position de récupération). Cela maintient les voies respiratoires dégagées et permet à la salive de s'écouler. Vérifiez qu'ils respirent.
      </li>
      <li>
       <strong>
-       [FR]: Stay until they are fully alert.
+       Restez jusqu'à ce qu'ils soient complètement alertes.
       </strong>
-      [FR]: Reassure them calmly — they may be confused, sleepy, or upset for a while. Do not give food, drink, or medicine until they are fully awake and able to swallow.
+      Rassurez-le calmement : il peut être confus, somnolent ou bouleversé pendant un moment. Ne donnez pas de nourriture, de boisson ou de médicaments jusqu'à ce qu'ils soient complètement réveillés et capables d'avaler.
      </li>
     </ol>
     <div class="box warn">
@@ -210,116 +253,116 @@
      <ul>
       <li>
        <strong>
-        [FR]: Never put anything in the mouth
+        Ne jamais rien mettre à la bouche
        </strong>
-       [FR]: — a spoon, wallet, fingers, or food. A person
+       — une cuillère, un portefeuille, des doigts ou de la nourriture. Une personne
        <strong>
-        [FR]: cannot swallow their tongue
+        ne peut pas avaler sa langue
        </strong>
-       [FR]: . Objects can break teeth, block the airway, or be bitten.
+       . Les objets peuvent casser des dents, bloquer les voies respiratoires ou être mordus.
       </li>
       <li>
        <strong>
-        [FR]: Do not hold the person down
+        Ne maintenez pas la personne au sol
        </strong>
-       [FR]: or try to stop their movements.
+       ou essayez d'arrêter leurs mouvements.
       </li>
       <li>
        <strong>
-        [FR]: Do not try to "wake" them
+        N'essayez pas de les "réveiller"
        </strong>
-       [FR]: by slapping, shouting, or throwing water.
+       en giflant, en criant ou en jetant de l'eau.
       </li>
       <li>
-       [FR]: Do not give anything to eat or drink until they are fully recovered.
+       Ne rien donner à manger ni à boire jusqu'à ce qu'ils soient complètement rétablis.
       </li>
      </ul>
     </div>
     <h2>
-     [FR]: Not all seizures involve shaking
+     Toutes les crises n’impliquent pas des tremblements
     </h2>
     <p>
-     [FR]: Some seizures cause staring, confusion, repeated movements (like lip-smacking or fumbling), wandering, or simply being unaware for a short time. The person may not respond normally.
+     Certaines crises provoquent un regard fixe, une confusion, des mouvements répétés (comme des claquements de lèvres ou des tâtonnements), une errance ou simplement une inconscience pendant une courte période. La personne peut ne pas répondre normalement.
      <strong>
-      [FR]: Do not grab or restrain them.
+      Ne les saisissez pas et ne les retenez pas.
      </strong>
-     [FR]: Gently guide them away from danger (roads, stairs, water), speak calmly and quietly, stay with them, and wait for them to come round. They may not remember it afterwards.
+     Éloignez-le doucement du danger (routes, escaliers, eau), parlez calmement et doucement, restez avec lui et attendez qu'il revienne. Ils ne s’en souviendront peut-être pas par la suite.
     </p>
     <h2>
-     [FR]: Fever-related seizures in young children
+     Crises liées à la fièvre chez les jeunes enfants
     </h2>
     <div class="box ok">
      <span class="tag ok">
       Often brief, but watch closely
      </span>
      <p>
-      🚨[REVIEW_REQUIRED] [FR]: Young children sometimes have a seizure when they have a high fever (a "febrile seizure"). It is frightening to watch; many are brief, but the child still needs careful watching. Give the same first aid: keep them safe, do not restrain or put anything in the mouth, and lay them on their side. Call for emergency help if it lasts more than 5 minutes, if it is their first one, if they have trouble breathing, or if the child seems very unwell or does not recover quickly.
+      🚨[REVIEW_REQUIRED] Les jeunes enfants ont parfois une crise lorsqu'ils ont une forte fièvre (une « crise fébrile »). C'est effrayant à regarder ; beaucoup sont brefs, mais l'enfant a toujours besoin d'une surveillance attentive. Donnez les mêmes premiers soins : protégez-les, ne les retenez pas, ne mettez rien à la bouche et couchez-les sur le côté. Appelez les secours si cela dure plus de 5 minutes, si c'est la première fois, s'il a du mal à respirer, ou si l'enfant semble très malade ou ne se rétablit pas rapidement.
      </p>
     </div>
     <h2>
-     [FR]: After the seizure
+     Après la saisie
     </h2>
     <ul>
      <li>
-      [FR]: Stay calm and kind. Tiredness, confusion, headache, or embarrassment afterwards are normal.
+      Restez calme et gentil. La fatigue, la confusion, les maux de tête ou l'embarras par la suite sont normaux.
      </li>
      <li>
-      [FR]: Give them space and privacy — don't crowd them.
+      Donnez-leur de l'espace et de l'intimité – ne les encombrez pas.
      </li>
      <li>
-      [FR]: Note what you saw to tell them or the medical team: how long it lasted, what the body did, and any injury. This information is genuinely helpful.
+      Notez ce que vous avez vu pour le dire à eux ou à l'équipe médicale : combien de temps cela a duré, ce que le corps a fait et toute blessure. Ces informations sont vraiment utiles.
      </li>
      <li>
-      [FR]: If they have a seizure-action plan or rescue medicine and a trained person is present, follow it.
+      S'ils disposent d'un plan d'action contre les crises ou d'un médicament de secours et qu'une personne qualifiée est présente, suivez-le.
      </li>
     </ul>
     <h2>
-     [FR]: Sources
+     Sources
     </h2>
     <ul class="sources">
      <li>
       <a href="https://www.cdc.gov/epilepsy/about/index.html">
-       🚨[REVIEW_REQUIRED] [FR]: CDC — About epilepsy
+       🚨[REVIEW_REQUIRED] CDC — À propos de l'épilepsie
       </a>
-      [FR]: (background on seizures and epilepsy).
+      (contexte sur les convulsions et l'épilepsie).
      </li>
      <li>
-      [FR]: Epilepsy Foundation — Seizure first aid and safety (stay, safe, side; do not restrain or put anything in the mouth).
+      Epilepsy Foundation — Premiers soins et sécurité lors des crises (rester, en sécurité, sur le côté ; ne pas retenir ni mettre quoi que ce soit à la bouche).
      </li>
      <li>
       <a href="https://www.who.int/news-room/fact-sheets/detail/epilepsy">
-       [FR]: World Health Organization — Epilepsy fact sheet
+       Organisation mondiale de la santé — Fiche d'information sur l'épilepsie
       </a>
-      [FR]: (global burden; first aid; do not restrain or place objects in the mouth).
+      (fardeau global ; premiers secours ; ne pas retenir ni mettre d'objets dans la bouche).
      </li>
      <li>
       <a href="https://www.nhs.uk/conditions/epilepsy/">
-       🚨[REVIEW_REQUIRED] [FR]: NHS — Epilepsy and what to do when someone has a seizure
+       🚨[REVIEW_REQUIRED] NHS — Épilepsie et que faire en cas de crise
       </a>
       .
      </li>
      <li>
       <a href="https://www.redcross.org/take-a-class">
-       [FR]: American Red Cross — first-aid training and resources
+       Croix-Rouge américaine — formation et ressources en premiers secours
       </a>
       .
      </li>
     </ul>
     <p class="sources">
-     [FR]: Guidance reflects widely taught seizure first aid for lay responders. Details vary between training bodies and regions — follow your local first-aid training and emergency services.
+     Les conseils reflètent les premiers soins en cas de crise largement enseignés aux intervenants profanes. Les détails varient selon les organismes de formation et les régions : suivez votre formation locale en premiers secours et les services d'urgence.
     </p>
     <p class="disclaimer">
-     [FR]: This guide is general information, not medical advice. In an emergency, always call your local emergency number. Reuse and reprint freely.
+     Ce guide est une information générale et non un avis médical. En cas d'urgence, appelez toujours votre numéro d'urgence local. Réutilisez et réimprimez librement.
     </p>
    </div>
   </main>
   <footer class="site">
    <div class="wrap">
-    [FR]: A free, open Help Kit ·
+    Un kit d'aide gratuit et ouvert ·
     <a href="https://github.com/ai-village-agents/help-kit">
-     [FR]: source on GitHub
+     source sur GitHub
     </a>
-    [FR]: · Public domain (CC0) · Verify against your local health authority
+    · Domaine public (CC0) · Vérifiez auprès de votre autorité sanitaire locale
    </div>
   </footer>
   <script>

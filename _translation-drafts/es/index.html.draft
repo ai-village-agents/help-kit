@@ -4,21 +4,21 @@
   <meta charset="utf-8"/>
   <meta content="width=device-width,initial-scale=1" name="viewport"/>
   <title>
-   [ES]: Help Kit — Free, source-cited guides for moments that matter | Help Kit
+   Kit de ayuda: guías gratuitas citadas para momentos importantes | Help Kit
   </title>
-  <meta content="[ES]: Free, source-cited, print-friendly guides to recognizing and responding to acute emergencies and hazards: extreme heat, wildfire smoke, opioid overdose, dehydration, choking, severe bleeding, CPR, stroke, burns, seizure first aid, severe allergy/anaphylaxis, and a quick emergency navigator. Public domain (CC0)." name="description"/>
+  <meta content="CC0 gratuito, guías de primeros auxilios citadas por fuentes: calor, humo, sobredosis, SRO, asfixia, hemorragia, RCP, accidente cerebrovascular, quemaduras, convulsiones, alergia, resfriado, ataque cardíaco y clasificación." name="description"/>
   <link href="https://ai-village-agents.github.io/help-kit/" rel="canonical"/>
   <meta content="noindex, nofollow, noarchive" name="robots"/>
   <meta content="Help Kit" property="og:site_name"/>
   <meta content="website" property="og:type"/>
   <meta content="Help Kit — Free, source-cited guides for moments that matter" property="og:title"/>
-  <meta content="Free, source-cited, print-friendly guides to recognizing and responding to acute emergencies and hazards: extreme heat, wildfire smoke, opioid overdose, dehydration, choking, severe bleeding, CPR, stroke, burns, seizure first aid, severe allergy/anaphylaxis, and a quick emergency navigator. Public domain (CC0)." property="og:description"/>
+  <meta content="Free CC0, source-cited first-aid guides: heat, smoke, overdose, ORS, choking, bleeding, CPR, stroke, burns, seizure, allergy, cold, heart attack, and triage." property="og:description"/>
   <meta content="https://ai-village-agents.github.io/help-kit/" property="og:url"/>
   <meta content="https://ai-village-agents.github.io/help-kit/og-image.png" property="og:image"/>
   <meta content="summary_large_image" name="twitter:card"/>
   <meta content="https://ai-village-agents.github.io/help-kit/og-image.png" name="twitter:image"/>
   <meta content="Help Kit — Free, source-cited guides for moments that matter" name="twitter:title"/>
-  <meta content="Free, source-cited, print-friendly guides to recognizing and responding to acute emergencies and hazards: extreme heat, wildfire smoke, opioid overdose, dehydration, choking, severe bleeding, CPR, stroke, burns, seizure first aid, severe allergy/anaphylaxis, and a quick emergency navigator. Public domain (CC0)." name="twitter:description"/>
+  <meta content="Free CC0, source-cited first-aid guides: heat, smoke, overdose, ORS, choking, bleeding, CPR, stroke, burns, seizure, allergy, cold, heart attack, and triage." name="twitter:description"/>
   <meta content="#c0392b" name="theme-color"/>
   <link href="favicon.ico" rel="icon" sizes="any"/>
   <link href="style.css" rel="stylesheet"/>
@@ -34,13 +34,41 @@
   </style>
   <link href="/help-kit/manifest.webmanifest" rel="manifest"/>
   <link href="/help-kit/icon-192.png" rel="apple-touch-icon"/>
+  <script type="application/ld+json">
+   {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://ai-village-agents.github.io/help-kit/#website",
+      "name": "Help Kit",
+      "url": "https://ai-village-agents.github.io/help-kit/",
+      "description": "Free CC0, source-cited first-aid guides: heat, smoke, overdose, ORS, choking, bleeding, CPR, stroke, burns, seizure, allergy, cold, heart attack, and triage.",
+      "inLanguage": "en",
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "publisher": {
+        "@id": "https://ai-village-agents.github.io/help-kit/#org"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://ai-village-agents.github.io/help-kit/#org",
+      "name": "Help Kit",
+      "url": "https://ai-village-agents.github.io/help-kit/",
+      "sameAs": [
+        "https://github.com/ai-village-agents/help-kit"
+      ]
+    }
+  ]
+}
+  </script>
  </head>
  <body>
   <div class="notice danger" data-draft-warning="true">
    UNREVIEWED MACHINE TRANSLATION DRAFT (es). Do not use for medical guidance, sharing, printing, or training until fluent local reviewers verify all emergency numbers, doses, timings, and local guidance against the English source.
   </div>
   <a class="skip-link" href="#main">
-   [ES]: Skip to main content
+   Saltar al contenido principal
   </a>
   <header class="site">
    <div class="wrap">
@@ -49,49 +77,49 @@
     </a>
     <nav>
      <a href="heat/">
-      [ES]: Extreme Heat
+      Calor extremo
      </a>
      <a href="smoke/">
-      [ES]: Wildfire Smoke
+      Humo de incendios forestales
      </a>
      <a href="naloxone/">
-      [ES]: Opioid Overdose
+      Sobredosis de opioides
      </a>
      <a href="ors/">
-      [ES]: Dehydration &amp; ORS
+      Deshidratación y SRO
      </a>
      <a href="choking/">
-      [ES]: Choking
+      asfixia
      </a>
      <a href="bleeding/">
-      [ES]: Severe Bleeding
+      Sangrado severo
      </a>
      <a href="cpr/">
-      [ES]: CPR
+      RCP
      </a>
      <a href="stroke/">
-      [ES]: Stroke
+      Ataque
      </a>
      <a href="burns/">
-      [ES]: Burns
+      quemaduras
      </a>
      <a href="seizure/">
-      [ES]: Seizure
+      Convulsión
      </a>
      <a href="allergy/">
-      [ES]: Severe Allergy
+      Alergia severa
      </a>
      <a href="cold/">
-      [ES]: Cold Safety
+      Seguridad en frío
      </a>
      <a href="heart/">
-      [ES]: Heart Attack
+      Infarto de miocardio
      </a>
      <a href="triage/">
-      [ES]: Triage
+      Triaje
      </a>
      <a href="localize.html">
-      [ES]: Localize &amp; share
+      Localizar y compartir
      </a>
     </nav>
    </div>
@@ -99,179 +127,179 @@
   <section class="hero">
    <div class="wrap">
     <h1>
-     [ES]: Help Kit
+     Kit de ayuda
     </h1>
     <p>
-     [ES]: Free, clear, source-cited guides for moments that matter — so anyone can recognize an emergency and act in time.
+     Guías gratuitas, claras y citadas para momentos importantes, para que cualquiera pueda reconocer una emergencia y actuar a tiempo.
     </p>
    </div>
   </section>
   <main id="main">
    <div class="wrap">
     <p class="intro">
-     [ES]: Many acute emergencies can be spotted earlier or made less harmful. These short guides distill guidance from public health authorities and trusted medical/public-safety sources into plain language anyone can use, print, and share. No sign-up, no tracking, public domain.
+     Muchas emergencias graves pueden detectarse antes o hacerse menos dañinas. Estas guías breves resumen la orientación de las autoridades de salud pública y fuentes médicas y de seguridad pública confiables en un lenguaje sencillo que cualquiera puede usar, imprimir y compartir. Sin registro, sin seguimiento, dominio público.
     </p>
     <div class="actions no-print">
      <a class="btn" href="help-kit-print-pack.pdf">
-      [ES]: Download all printable one-pagers (PDF)
+      Descargue todos los folletos imprimibles (PDF)
      </a>
      <a class="btn alt" href="localize.html">
-      [ES]: Localize before sharing
+      Localizar antes de compartir
      </a>
     </div>
     <div class="cards">
      <a class="card" href="heat/">
       <h3>
-       [ES]: 🥵 Extreme Heat
+       🥵 Calor extremo
       </h3>
       <p>
-       [ES]: Spot heat exhaustion and heat stroke, cool someone down fast, and protect neighbors at high risk during a heat wave.
+       Detecte el agotamiento por calor y la insolación, refresque a alguien rápidamente y proteja a los vecinos en alto riesgo durante una ola de calor.
       </p>
       <span class="go">
-       [ES]: Open the heat guide →
+       Abrir la guía de calor →
       </span>
      </a>
      <a class="card" href="smoke/">
       <h3>
-       [ES]: 🌫️ Wildfire Smoke
+       🌫️ Humo de incendios forestales
       </h3>
       <p>
-       [ES]: Read air-quality alerts, cut your smoke exposure, build a low-cost clean-air filter, and protect people most at risk.
+       Lea alertas sobre la calidad del aire, reduzca su exposición al humo, construya un filtro de aire limpio de bajo costo y proteja a las personas en mayor riesgo.
       </p>
       <span class="go">
-       [ES]: Open the smoke guide →
+       Abrir la guía de humo →
       </span>
      </a>
      <a class="card" href="naloxone/">
       <h3>
-       [ES]: 💊 Opioid Overdose
+       💊 Sobredosis de opioides
       </h3>
       <p>
-       🚨[REVIEW_REQUIRED] [ES]: Recognize a possible overdose and respond step by step with naloxone (Narcan), an emergency medicine that may reverse opioid overdose while help is coming.
+       🚨[REVIEW_REQUIRED] Reconozca una posible sobredosis y responda paso a paso con naloxona (Narcan), un medicamento de emergencia que puede revertir la sobredosis de opioides mientras llega la ayuda.
       </p>
       <span class="go">
-       [ES]: Open the overdose guide →
+       Abrir la guía de sobredosis →
       </span>
      </a>
      <a class="card" href="ors/">
       <h3>
-       [ES]: 💧 Dehydration &amp; ORS
+       💧 Deshidratación y SRO
       </h3>
       <p>
-       [ES]: Use oral rehydration solution safely, spot dehydration danger signs, and know when to seek urgent care.
+       Utilice la solución de rehidratación oral de forma segura, detecte signos de peligro de deshidratación y sepa cuándo buscar atención de urgencia.
       </p>
       <span class="go">
-       [ES]: Open the ORS guide →
+       Abrir la guía de SRO →
       </span>
      </a>
      <a class="card" href="choking/">
       <h3>
-       [ES]: 🫁 Choking
+       🫁 Asfixia
       </h3>
       <p>
-       [ES]: Help a choking adult, child, or baby with back blows and thrusts — and know what to do if they go unconscious.
+       Ayude a un adulto, niño o bebé que se está asfixiando con golpes y empujones en la espalda, y sepa qué hacer si queda inconsciente.
       </p>
       <span class="go">
-       [ES]: Open the choking guide →
+       Abrir la guía de asfixia →
       </span>
      </a>
      <a class="card" href="bleeding/">
       <h3>
-       [ES]: 🩸 Severe Bleeding
+       🩸 Sangrado severo
       </h3>
       <p>
-       [ES]: Slow or stop life-threatening bleeding with firm pressure, wound packing, and tourniquet basics — and know when to use each.
+       Reduzca o detenga el sangrado que pone en peligro la vida con presión firme, taponamiento de heridas y torniquetes básicos, y sepa cuándo usar cada uno.
       </p>
       <span class="go">
-       [ES]: Open the bleeding guide →
+       Abrir la guía de sangrado →
       </span>
      </a>
      <a class="card" href="cpr/">
       <h3>
-       [ES]: ❤️ Hands-Only CPR
+       ❤️ RCP solo con las manos
       </h3>
       <p>
-       🚨[REVIEW_REQUIRED] [ES]: If someone collapses and isn't breathing normally: call for help, push hard and fast on the centre of the chest, and use an AED.
+       🚨[REVIEW_REQUIRED] Si alguien colapsa y no respira normalmente: pida ayuda, presione con fuerza y ​​rapidez en el centro del pecho y utilice un DEA.
       </p>
       <span class="go">
-       [ES]: Open the CPR guide →
+       Abrir la guía de RCP →
       </span>
      </a>
      <a class="card" href="stroke/">
       <h3>
-       [ES]: 🧠 Stroke (FAST)
+       🧠 Accidente cerebrovascular (RÁPIDO)
       </h3>
       <p>
-       [ES]: Spot possible stroke signs fast — Face drooping, Arm weakness, Speech trouble, Time to call — and get urgent help immediately.
+       Detecte rápidamente posibles signos de accidente cerebrovascular (cara caída, debilidad en los brazos, problemas del habla, hora de llamar) y obtenga ayuda urgente de inmediato.
       </p>
       <span class="go">
-       [ES]: Open the stroke guide →
+       Abrir la guía de trazos →
       </span>
      </a>
      <a class="card" href="burns/">
       <h3>
-       [ES]: 🔥 Burns &amp; Scalds
+       🔥 Quemaduras y escaldaduras
       </h3>
       <p>
-       🚨[REVIEW_REQUIRED] [ES]: Cool a burn with running water for 20 minutes, never use ice or butter, cover it loosely, and know when a burn needs medical help.
+       🚨[REVIEW_REQUIRED] Enfríe una quemadura con agua corriente durante 20 minutos, nunca use hielo ni mantequilla, cúbrala sin apretar y sepa cuándo una quemadura necesita ayuda médica.
       </p>
       <span class="go">
-       [ES]: Open the burns guide →
+       Abrir la guía de quemaduras →
       </span>
      </a>
      <a class="card" href="seizure/">
       <h3>
-       [ES]: 🧠 Seizure First Aid
+       🧠 Primeros auxilios para convulsiones
       </h3>
       <p>
-       [ES]: Keep the person safe, time the seizure, never restrain them or put anything in their mouth, roll them onto their side after, and know when to call.
+       Mantenga a la persona segura, cronometre la convulsión, nunca la sujete ni le ponga nada en la boca, gírela de lado después y sepa cuándo llamar.
       </p>
       <span class="go">
-       [ES]: Open the seizure guide →
+       Abrir la guía de incautaciones →
       </span>
      </a>
      <a class="card" href="allergy/">
       <h3>
-       [ES]: ⚠️ Severe Allergy
+       ⚠️ Alergia severa
       </h3>
       <p>
-       🚨[REVIEW_REQUIRED] [ES]: Recognize anaphylaxis, call emergency services, use epinephrine when indicated, position safely, and watch breathing.
+       🚨[REVIEW_REQUIRED] Reconozca la anafilaxia, llame a los servicios de emergencia, use epinefrina cuando esté indicado, colóquese en una posición segura y observe la respiración.
       </p>
       <span class="go">
-       [ES]: Open the allergy guide →
+       Abrir la guía de alergias →
       </span>
      </a>
      <a class="card" href="cold/">
       <h3>
-       [ES]: 🥶 Cold Safety
+       🥶 Seguridad en frío
       </h3>
       <p>
-       [ES]: Spot hypothermia and frostbite warning signs, rewarm safely, avoid direct high heat, and protect neighbors facing higher risk.
+       Detecte señales de advertencia de hipotermia y congelación, caliente de manera segura, evite altas temperaturas directas y proteja a los vecinos que enfrentan mayores riesgos.
       </p>
       <span class="go">
-       [ES]: Open the cold safety guide →
+       Abrir la guía de seguridad en frío →
       </span>
      </a>
      <a class="card" href="heart/">
       <h3>
-       [ES]: ❤️ Heart Attack
+       ❤️ Ataque al corazón
       </h3>
       <p>
-       [ES]: Recognize the warning signs, call emergency services right away, help the person rest, give aspirin if appropriate, and start CPR if they collapse and stop breathing normally.
+       Reconozca las señales de advertencia, llame a los servicios de emergencia de inmediato, ayude a la persona a descansar, dé aspirina si corresponde y comience la RCP si colapsa y deja de respirar normalmente.
       </p>
       <span class="go">
-       [ES]: Open the heart attack guide →
+       Abrir la guía de infarto →
       </span>
      </a>
      <a class="card" href="triage/">
       <h3>
-       [ES]: 🚦 Emergency Triage
+       🚦 Triaje de emergencia
       </h3>
       <p>
-       [ES]: Quick decision guide for the first minutes of an emergency.
+       Guía de decisión rápida para los primeros minutos de una emergencia.
       </p>
       <span class="go">
-       [ES]: Open the triage guide →
+       Abrir la guía de triaje →
       </span>
      </a>
     </div>
@@ -280,78 +308,78 @@
       Offline tip
      </span>
      <p>
-      [ES]: Before a storm, heat wave, wildfire, or other outage, open this site once on each phone while online. In modern browsers, the pages and PDFs are saved for offline use after that first visit. Also download or print the
+      Antes de una tormenta, una ola de calor, un incendio forestal u otro apagón, abra este sitio una vez en cada teléfono mientras esté en línea. En los navegadores modernos, las páginas y los archivos PDF se guardan para usarlos sin conexión después de la primera visita. Descargue o imprima también el
       <a href="help-kit-print-pack.pdf">
-       [ES]: combined PDF pack
+       paquete PDF combinado
       </a>
-      [ES]: for a backup.
+      para una copia de seguridad.
      </p>
     </div>
     <h2>
-     [ES]: How to use these
+     ¿Cómo utilizar estos?
     </h2>
     <ul>
      <li>
       <strong>
-       [ES]: Localize before distributing
+       Localizar antes de distribuir
       </strong>
-      [ES]: — use the
+      — usa el
       <a href="localize.html">
-       [ES]: localization checklist and share copy
+       lista de verificación de localización y copia compartida
       </a>
-      [ES]: to verify emergency numbers, access details, and official local resources.
+      para verificar números de emergencia, detalles de acceso y recursos locales oficiales.
      </li>
      <li>
       <strong>
-       [ES]: Read on any phone
+       Leer en cualquier teléfono
       </strong>
-      [ES]: — pages are mobile-friendly and load quickly.
+      — las páginas son aptas para dispositivos móviles y se cargan rápidamente.
      </li>
      <li>
       <strong>
-       [ES]: Save for offline use
+       Guardar para uso sin conexión
       </strong>
-      [ES]: — open the site once while online so a modern browser can cache the pages and PDFs; test before relying on it during an outage.
+      — abra el sitio una vez mientras esté en línea para que un navegador moderno pueda almacenar en caché las páginas y los archivos PDF; Pruebe antes de confiar en él durante una interrupción.
      </li>
      <li>
       <strong>
-       [ES]: Print a handout
+       imprimir un folleto
       </strong>
-      [ES]: — each guide has a clean print layout and a downloadable PDF; the
+      — cada guía tiene un diseño de impresión limpio y un PDF descargable; el
       <a href="help-kit-print-pack.pdf">
-       [ES]: combined print pack
+       paquete de impresión combinado
       </a>
-      [ES]: includes all current one-pagers for paper backup.
+      Incluye todos los folletos actuales para copias de seguridad en papel.
      </li>
      <li>
       <strong>
-       [ES]: Share freely
+       Comparte libremente
       </strong>
-      [ES]: — everything here is public domain (CC0). Copy it, translate it, reprint it, no permission needed.
+      — todo aquí es de dominio público (CC0). Cópielo, tradúzcalo, reimprimalo, no se necesita permiso.
      </li>
     </ul>
     <h2>
-     [ES]: For community organizers &amp; mutual-aid groups
+     Para organizadores comunitarios y grupos de ayuda mutua
     </h2>
     <p>
-     [ES]: These pages are built to be reused. The full source is on
+     Estas páginas están diseñadas para ser reutilizadas. La fuente completa está en
      <a href="https://github.com/ai-village-agents/help-kit">
-      [ES]: GitHub
+      GitHub
      </a>
-     [ES]: — fork it, adapt the wording for your region's emergency numbers and local resources, and host your own copy.
+     — bifurquelo, adapte la redacción a los números de emergencia y recursos locales de su región y aloje su propia copia.
     </p>
     <p class="disclaimer">
-     [ES]: These guides are general information, not medical advice, and are not a substitute for professional emergency care or training. In an emergency, always call your local emergency number, and verify against your local health authority. Created as an open public-good project.
+     Estas guías son información general, no asesoramiento médico, y no sustituyen la atención de emergencia ni la capacitación profesional. En caso de emergencia, llame siempre a su número de emergencia local y verifique con su autoridad sanitaria local. Creado como un proyecto abierto de bien público.
     </p>
    </div>
   </main>
   <footer class="site">
    <div class="wrap">
-    [ES]: A free, open Help Kit ·
+    Un kit de ayuda abierto y gratuito ·
     <a href="https://github.com/ai-village-agents/help-kit">
-     [ES]: source on GitHub
+     fuente en GitHub
     </a>
-    [ES]: · Public domain (CC0 1.0)
+    · Dominio público (CC0 1.0)
    </div>
   </footer>
   <script>

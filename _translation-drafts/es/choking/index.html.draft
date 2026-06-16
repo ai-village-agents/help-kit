@@ -4,9 +4,9 @@
   <meta charset="utf-8"/>
   <meta content="width=device-width,initial-scale=1" name="viewport"/>
   <title>
-   [ES]: Choking: Clear the Airway Fast — Help Kit | Help Kit
+   Asfixia: despeje las vías respiratorias rápidamente - Kit de ayuda | Help Kit
   </title>
-  <meta content="[ES]: A free, source-cited one-page guide to helping a choking adult, child, or infant — back blows, abdominal and chest thrusts, and what to do if they go unconscious. Based on Red Cross and Resuscitation Council guidance, with CPR guidance from major first-aid authorities." name="description"/>
+  <meta content="Una guía gratuita, citada por fuentes, para ayudar a un adulto, niño o bebé que se está asfixiando: golpes en la espalda, compresiones abdominales y torácicas, y qué hacer si está inconsciente." name="description"/>
   <link href="https://ai-village-agents.github.io/help-kit/choking/" rel="canonical"/>
   <meta content="noindex, nofollow, noarchive" name="robots"/>
   <meta content="Help Kit" property="og:site_name"/>
@@ -24,13 +24,51 @@
   <link href="../style.css" rel="stylesheet"/>
   <link href="/help-kit/manifest.webmanifest" rel="manifest"/>
   <link href="/help-kit/icon-192.png" rel="apple-touch-icon"/>
+  <script type="application/ld+json">
+   {
+  "@context": "https://schema.org",
+  "@type": "MedicalWebPage",
+  "name": "Choking: Clear the Airway Fast",
+  "description": "A free, source-cited guide to helping a choking adult, child, or infant: back blows, abdominal and chest thrusts, and what to do if unconscious.",
+  "url": "https://ai-village-agents.github.io/help-kit/choking/",
+  "inLanguage": "en",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "Help Kit",
+    "url": "https://ai-village-agents.github.io/help-kit/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Help Kit",
+    "url": "https://ai-village-agents.github.io/help-kit/"
+  },
+  "citation": [
+    {
+      "@type": "WebPage",
+      "name": "American Red Cross — first aid training and resources",
+      "url": "https://www.redcross.org/take-a-class"
+    },
+    {
+      "@type": "WebPage",
+      "name": "American Heart Association (AHA) — first aid guidelines",
+      "url": "https://cpr.heart.org/en/resuscitation-science/first-aid-guidelines/first-aid"
+    },
+    {
+      "@type": "WebPage",
+      "name": "Resuscitation Council UK — resuscitation and first-aid guidance library",
+      "url": "https://www.resus.org.uk/library"
+    }
+  ]
+}
+  </script>
  </head>
  <body>
   <div class="notice danger" data-draft-warning="true">
    UNREVIEWED MACHINE TRANSLATION DRAFT (es). Do not use for medical guidance, sharing, printing, or training until fluent local reviewers verify all emergency numbers, doses, timings, and local guidance against the English source.
   </div>
   <a class="skip-link" href="#main">
-   [ES]: Skip to main content
+   Saltar al contenido principal
   </a>
   <header class="site">
    <div class="wrap">
@@ -39,49 +77,49 @@
     </a>
     <nav>
      <a href="../heat/">
-      [ES]: Extreme Heat
+      Calor extremo
      </a>
      <a href="../smoke/">
-      [ES]: Wildfire Smoke
+      Humo de incendios forestales
      </a>
      <a href="../naloxone/">
-      [ES]: Opioid Overdose
+      Sobredosis de opioides
      </a>
      <a href="../ors/">
-      [ES]: Dehydration &amp; ORS
+      Deshidratación y SRO
      </a>
      <a href="../choking/">
-      [ES]: Choking
+      asfixia
      </a>
      <a href="../bleeding/">
-      [ES]: Severe Bleeding
+      Sangrado severo
      </a>
      <a href="../cpr/">
-      [ES]: CPR
+      RCP
      </a>
      <a href="../stroke/">
-      [ES]: Stroke
+      Ataque
      </a>
      <a href="../burns/">
-      [ES]: Burns
+      quemaduras
      </a>
      <a href="../seizure/">
-      [ES]: Seizure
+      Convulsión
      </a>
      <a href="../allergy/">
-      [ES]: Severe Allergy
+      Alergia severa
      </a>
      <a href="../cold/">
-      [ES]: Cold Safety
+      Seguridad en frío
      </a>
      <a href="../heart/">
-      [ES]: Heart Attack
+      Infarto de miocardio
      </a>
      <a href="../triage/">
-      [ES]: Triage
+      Triaje
      </a>
      <a href="../localize.html">
-      [ES]: Localize &amp; share
+      Localizar y compartir
      </a>
     </nav>
    </div>
@@ -89,28 +127,28 @@
   <section class="hero">
    <div class="wrap">
     <h1>
-     [ES]: Choking: clear the airway fast
+     Asfixia: despejar las vías respiratorias rápidamente
     </h1>
     <p>
-     [ES]: How to help someone who is choking — an adult, a child, or a baby — and what to do if they stop breathing. Acting in the first minutes can prevent death or brain injury. Free to read, print, and share.
+     Cómo ayudar a alguien que se está ahogando (un adulto, un niño o un bebé) y qué hacer si deja de respirar. Actuar en los primeros minutos puede evitar la muerte o un daño cerebral. Gratis para leer, imprimir y compartir.
     </p>
    </div>
   </section>
   <main id="main">
    <div class="wrap">
     <p class="lede">
-     [ES]: Choking happens when something blocks the airway and stops air from getting to the lungs. If the person can still cough or speak, the blockage is partial — encourage them to keep coughing. If they
+     La asfixia ocurre cuando algo bloquea las vías respiratorias e impide que el aire llegue a los pulmones. Si la persona aún puede toser o hablar, el bloqueo es parcial; anímela a seguir tosiendo. si ellos
      <strong>
-      [ES]: cannot breathe, speak, or cough,
+      no puede respirar, hablar o toser,
      </strong>
-     [ES]: the airway is badly blocked and you must act right away.
+     las vías respiratorias están muy bloqueadas y debes actuar de inmediato.
     </p>
     <div class="actions no-print">
      <a class="btn" href="javascript:window.print()">
-      [ES]: Print this page
+      Imprime esta pagina
      </a>
      <a class="btn alt" href="choking-onepager.pdf">
-      [ES]: Download printable PDF
+      Descargar PDF imprimible
      </a>
     </div>
     <div class="box emergency">
@@ -118,18 +156,18 @@
       Call emergency services
      </span>
      <h3>
-      [ES]: Severe choking is an emergency
+      La asfixia grave es una emergencia
      </h3>
      <p>
-      🚨[REVIEW_REQUIRED] [ES]: Call your local emergency number (examples: 911, 112, or 999; verify locally), or have someone else call, if a person is choking and
+      🚨[REVIEW_REQUIRED] Llame a su número de emergencia local (ejemplos: 911, 112 o 999; verifique localmente), o haga que otra persona llame, si una persona se está asfixiando y
       <strong>
-       [ES]: cannot breathe, speak, cry, or cough
+       no puede respirar, hablar, llorar o toser
       </strong>
-      [ES]: , is clutching their throat, is going silent or blue, or becomes unconscious. If you are alone with them, give first aid first and call as soon as you can — put the phone on speaker.
+      , se agarra la garganta, se queda en silencio o azul, o pierde el conocimiento. Si está solo con ellos, primero preste primeros auxilios y llame tan pronto como pueda; ponga el teléfono en altavoz.
      </p>
     </div>
     <h2>
-     [ES]: First, tell mild from severe
+     Primero, distinga lo leve de lo grave
     </h2>
     <div class="two">
      <div class="box ok">
@@ -138,17 +176,17 @@
       </span>
       <ul>
        <li>
-        [ES]: Can still cough forcefully, speak, or breathe
+        Todavía puede toser con fuerza, hablar o respirar
        </li>
        <li>
-        [ES]: Coughing is the most effective way to clear it
+        Toser es la forma más eficaz de eliminarlo.
        </li>
       </ul>
       <p>
        <strong>
-        [ES]: Encourage them to keep coughing.
+        Anímelos a seguir tosiendo.
        </strong>
-       [ES]: Do not slap their back or do thrusts yet; stay with them and be ready to act if it gets worse.
+       No les des palmaditas en la espalda ni empujones todavía; quédese con ellos y esté preparado para actuar si la situación empeora.
       </p>
      </div>
      <div class="box emergency">
@@ -157,44 +195,44 @@
       </span>
       <ul>
        <li>
-        [ES]: Cannot breathe, speak, cry, or make sounds
+        No puede respirar, hablar, llorar o emitir sonidos.
        </li>
        <li>
-        [ES]: Silent or very weak cough; clutching the throat
+        Tos silenciosa o muy débil; agarrando la garganta
        </li>
        <li>
-        [ES]: Lips or face turning blue; looking panicked
+        Labios o cara que se vuelven azules; mirando en pánico
        </li>
       </ul>
       <p>
        <strong>
-        [ES]: Begin first aid immediately
+        Comience los primeros auxilios inmediatamente
        </strong>
-       [ES]: and get emergency help.
+       y obtener ayuda de emergencia.
       </p>
      </div>
     </div>
     <h2>
-     [ES]: Adult or child (over 1 year)
+     Adulto o niño (mayor de 1 año)
     </h2>
     <ol class="steps">
      <li>
       <strong>
-       🚨[REVIEW_REQUIRED] [ES]: Give up to 5 back blows.
+       🚨[REVIEW_REQUIRED] Da hasta 5 golpes en la espalda.
       </strong>
-      [ES]: Stand to the side and slightly behind. Support their chest with one hand and lean them well forward. With the heel of your other hand, give up to five firm blows between the shoulder blades. Check after each one to see if the blockage has cleared.
+      Párate a un lado y un poco atrás. Apoye su pecho con una mano e inclínelo bien hacia adelante. Con la palma de la otra mano, da hasta cinco golpes firmes entre los omóplatos. Verifique después de cada uno para ver si el bloqueo ha desaparecido.
      </li>
      <li>
       <strong>
-       🚨[REVIEW_REQUIRED] [ES]: Give up to 5 abdominal thrusts.
+       🚨[REVIEW_REQUIRED] Realice hasta 5 compresiones abdominales.
       </strong>
-      [ES]: Stand behind them and put your arms around their waist. Make a fist just above the navel and below the ribcage; grasp it with your other hand and pull sharply inward and upward, up to five times.
+      Párate detrás de ellos y rodea su cintura con tus brazos. Cierre el puño justo encima del ombligo y debajo de la caja torácica; tómelo con la otra mano y tire bruscamente hacia adentro y hacia arriba, hasta cinco veces.
      </li>
      <li>
       <strong>
-       [ES]: Keep alternating
+       seguir alternando
       </strong>
-      🚨[REVIEW_REQUIRED] [ES]: 5 back blows and 5 abdominal thrusts until the object comes out, the person can breathe, or they become unconscious.
+      🚨[REVIEW_REQUIRED]  5 golpes en la espalda y 5 compresiones abdominales hasta que salga el objeto, la persona pueda respirar o pierda el conocimiento.
      </li>
     </ol>
     <div class="box warn">
@@ -202,46 +240,46 @@
       For a pregnant person or a very large person
      </span>
      <p>
-      [ES]: Do not give abdominal thrusts. Instead give
+      No realice compresiones abdominales. En lugar de dar
       <strong>
-       [ES]: chest thrusts
+       compresiones en el pecho
       </strong>
-      [ES]: : place your fist on the center of the breastbone and pull straight back, sharp and firm, alternating with back blows.
+      : coloque el puño en el centro del esternón y tire recto hacia atrás, fuerte y firme, alternando con golpes en la espalda.
      </p>
     </div>
     <h2>
-     [ES]: Baby (under 1 year)
+     Bebé (menor de 1 año)
     </h2>
     <div class="box warn">
      <span class="tag warn">
       Never give a baby abdominal thrusts
      </span>
      <p>
-      [ES]: Use back blows and chest thrusts only. Support the head at all times.
+      Utilice únicamente golpes en la espalda y compresiones en el pecho. Apoye la cabeza en todo momento.
      </p>
     </div>
     <ol class="steps">
      <li>
       <strong>
-       🚨[REVIEW_REQUIRED] [ES]: 5 back blows.
+       🚨[REVIEW_REQUIRED] 5 golpes en la espalda.
       </strong>
-      [ES]: Lay the baby face-down along your forearm with the head lower than the body, supporting the jaw and head. Give up to five firm blows between the shoulder blades with the heel of your hand.
+      Acueste al bebé boca abajo a lo largo de su antebrazo con la cabeza más baja que el cuerpo, sosteniendo la mandíbula y la cabeza. Da hasta cinco golpes firmes entre los omóplatos con la palma de la mano.
      </li>
      <li>
       <strong>
-       🚨[REVIEW_REQUIRED] [ES]: 5 chest thrusts.
+       🚨[REVIEW_REQUIRED] 5 compresiones en el pecho.
       </strong>
-      [ES]: Turn the baby face-up along your other forearm, head still lower than the body. Place two fingers on the center of the chest (lower half of the breastbone) and give up to five quick, firm thrusts.
+      Gire al bebé boca arriba a lo largo de su otro antebrazo, con la cabeza aún más baja que el cuerpo. Coloque dos dedos en el centro del pecho (la mitad inferior del esternón) y dé hasta cinco empujones rápidos y firmes.
      </li>
      <li>
       <strong>
-       [ES]: Keep alternating
+       seguir alternando
       </strong>
-      🚨[REVIEW_REQUIRED] [ES]: 5 back blows and 5 chest thrusts. Call emergency services if the baby does not start breathing, and continue until help arrives or the baby becomes unresponsive.
+      🚨[REVIEW_REQUIRED]  5 golpes en la espalda y 5 empujones en el pecho. Llame a los servicios de emergencia si el bebé no comienza a respirar y continúe hasta que llegue ayuda o el bebé deje de responder.
      </li>
     </ol>
     <h2>
-     [ES]: If the person becomes unconscious
+     Si la persona queda inconsciente
     </h2>
     <div class="box emergency">
      <span class="tag">
@@ -249,28 +287,28 @@
      </span>
      <ol>
       <li>
-       [ES]: Lower them carefully to the floor and
+       Bájelos con cuidado hasta el suelo y
        <strong>
-        [ES]: call emergency services now
+        llame a los servicios de emergencia ahora
        </strong>
-       [ES]: (speaker phone) if not already done.
+       (teléfono con altavoz) si aún no lo ha hecho.
       </li>
       <li>
-       [ES]: Begin
+       Comenzar
        <strong>
-        [ES]: CPR
+        RCP
        </strong>
-       [ES]: : chest compressions, and rescue breaths if you are trained and willing. If you are not trained, follow the dispatcher's instructions; they may guide hands-only CPR until help arrives.
+       : compresiones torácicas y respiración boca a boca si está capacitado y dispuesto. Si no está capacitado, siga las instrucciones del despachador; pueden guiar la RCP con las manos únicamente hasta que llegue la ayuda.
       </li>
       <li>
-       [ES]: Each time you open the airway to give breaths,
+       Cada vez que abres las vías respiratorias para dar respiraciones,
        <strong>
-        [ES]: look in the mouth
+        mirar en la boca
        </strong>
-       [ES]: and remove any object you can clearly see. Do not sweep blindly with your finger, which can push it deeper.
+       y retire cualquier objeto que pueda ver claramente. No barra a ciegas con el dedo, ya que puede empujarlo más profundamente.
       </li>
       <li>
-       [ES]: Continue until the person recovers or emergency help takes over.
+       Continúe hasta que la persona se recupere o llegue ayuda de emergencia.
       </li>
      </ol>
     </div>
@@ -279,67 +317,67 @@
       After a severe choking episode
      </span>
      <p>
-      [ES]: Anyone who needed back blows or thrusts — or who has a lasting cough, trouble swallowing, or a feeling that something is still stuck — should be checked by a medical professional, because thrusts can occasionally cause internal injury and small fragments can remain.
+      Cualquier persona que necesite golpes o empujones en la espalda, o que tenga tos persistente, dificultad para tragar o la sensación de que todavía hay algo atascado, debe ser examinado por un profesional médico, porque los empujones ocasionalmente pueden causar lesiones internas y pueden quedar pequeños fragmentos.
      </p>
     </div>
     <h2>
-     [ES]: Prevent choking, especially in young children
+     Prevenir la asfixia, especialmente en niños pequeños.
     </h2>
     <ul>
      <li>
-      [ES]: Cut food for young children into small pieces; encourage everyone to eat slowly and not talk or laugh with a full mouth.
+      Cortar la comida para niños pequeños en trozos pequeños; Anime a todos a comer despacio y a no hablar ni reír con la boca llena.
      </li>
      <li>
-      [ES]: For children under about 4, avoid or modify high-risk foods: whole grapes and cherry tomatoes (cut them up), nuts, popcorn, hard or sticky candy, chunks of meat or hot dog, and raw hard vegetables.
+      Para los niños menores de 4 años, evite o modifique los alimentos de alto riesgo: uvas enteras y tomates cherry (córtelos), nueces, palomitas de maíz, caramelos duros o pegajosos, trozos de carne o hot dog y verduras duras crudas.
      </li>
      <li>
-      [ES]: Keep small objects — coins, button batteries, marbles, small toy parts, deflated balloons — out of reach of babies and toddlers.
+      Mantenga los objetos pequeños (monedas, pilas de botón, canicas, piezas pequeñas de juguetes, globos desinflados) fuera del alcance de los bebés y los niños pequeños.
      </li>
      <li>
-      [ES]: Supervise young children while they eat, and keep them seated.
+      Supervise a los niños pequeños mientras comen y manténgalos sentados.
      </li>
     </ul>
     <h2>
-     [ES]: Sources
+     Fuentes
     </h2>
     <ul class="sources">
      <li>
       <a href="https://www.redcross.org/take-a-class">
-       [ES]: American Red Cross — first aid training and resources
+       Cruz Roja Americana: recursos y capacitación en primeros auxilios
       </a>
-      [ES]: , including conscious choking guidance.
+      , incluida la orientación sobre asfixia consciente.
      </li>
      <li>
       <a href="https://cpr.heart.org/en/resuscitation-science/first-aid-guidelines/first-aid">
-       🚨[REVIEW_REQUIRED] [ES]: American Heart Association (AHA) — first aid guidelines
+       🚨[REVIEW_REQUIRED] Asociación Estadounidense del Corazón (AHA): pautas de primeros auxilios
       </a>
-      [ES]: for choking and CPR.
+      para asfixia y RCP.
      </li>
      <li>
       <a href="https://www.resus.org.uk/library">
-       [ES]: Resuscitation Council UK — resuscitation and first-aid guidance library
+       Resuscitation Council UK: biblioteca de orientación sobre reanimación y primeros auxilios
       </a>
-      [ES]: , including choking guidance.
+      , incluida la orientación sobre asfixia.
      </li>
      <li>
-      🚨[REVIEW_REQUIRED] [ES]: U.S. CDC and national child-safety guidance on choking and suffocation prevention. cdc.gov
+      🚨[REVIEW_REQUIRED] CDC de EE. UU. y guía nacional de seguridad infantil sobre prevención de asfixia y asfixia. cdc.gov
      </li>
     </ul>
     <p class="sources">
-     [ES]: Steps reflect widely taught Red Cross / Resuscitation Council first-aid sequences for lay responders. Different training bodies vary in detail — follow your local first-aid training and emergency dispatcher's instructions.
+     Los pasos reflejan secuencias de primeros auxilios ampliamente enseñadas por la Cruz Roja y el Consejo de Reanimación para socorristas no profesionales. Los diferentes organismos de capacitación varían en detalle: siga las instrucciones de su operador local de capacitación en primeros auxilios y del operador de emergencias.
     </p>
     <p class="disclaimer">
-     [ES]: This guide is general information, not medical advice, and is not a substitute for hands-on first-aid and CPR training, which is widely available and strongly recommended. In an emergency, always call your local emergency number. Reuse and reprint freely.
+     Esta guía es información general, no asesoramiento médico, y no sustituye la capacitación práctica en primeros auxilios y RCP, que está ampliamente disponible y se recomienda encarecidamente. En caso de emergencia, llame siempre a su número de emergencia local. Reutilice y reimprima libremente.
     </p>
    </div>
   </main>
   <footer class="site">
    <div class="wrap">
-    [ES]: A free, open Help Kit ·
+    Un kit de ayuda abierto y gratuito ·
     <a href="https://github.com/ai-village-agents/help-kit">
-     [ES]: source on GitHub
+     fuente en GitHub
     </a>
-    [ES]: · Public domain (CC0) · Verify against your local health authority
+    · Dominio público (CC0) · Verificar con su autoridad sanitaria local
    </div>
   </footer>
   <script>

@@ -4,9 +4,9 @@
   <meta charset="utf-8"/>
   <meta content="width=device-width,initial-scale=1" name="viewport"/>
   <title>
-   [HI]: Heart Attack: Recognize Signs &amp; Act — Help Kit | Help Kit
+   दिल का दौरा: लक्षण पहचानें और कार्य करें - सहायता किट | Help Kit
   </title>
-  <meta content="[HI]: A free, source-cited one-page guide to spotting possible heart attack symptoms, calling emergency help immediately, and following dispatcher guidance. Based on AHA, CDC, NHS, NHLBI, and BHF guidance." name="description"/>
+  <meta content="दिल के दौरे के लक्षणों को पहचानने और तुरंत आपातकालीन सहायता प्राप्त करने के लिए एक निःशुल्क, स्रोत-उद्धृत मार्गदर्शिका। एएचए, सीडीसी, एनएचएस, एनएचएलबीआई और बीएचएफ मार्गदर्शन पर आधारित।" name="description"/>
   <link href="https://ai-village-agents.github.io/help-kit/heart/" rel="canonical"/>
   <meta content="noindex, nofollow, noarchive" name="robots"/>
   <meta content="Help Kit" property="og:site_name"/>
@@ -24,13 +24,61 @@
   <link href="../style.css" rel="stylesheet"/>
   <link href="/help-kit/manifest.webmanifest" rel="manifest"/>
   <link href="/help-kit/icon-192.png" rel="apple-touch-icon"/>
+  <script type="application/ld+json">
+   {
+  "@context": "https://schema.org",
+  "@type": "MedicalWebPage",
+  "name": "Heart Attack: Recognize Signs & Act",
+  "description": "A free, source-cited guide to spotting heart attack symptoms and getting emergency help fast. Based on AHA, CDC, NHS, NHLBI, and BHF guidance.",
+  "url": "https://ai-village-agents.github.io/help-kit/heart/",
+  "inLanguage": "en",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "Help Kit",
+    "url": "https://ai-village-agents.github.io/help-kit/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Help Kit",
+    "url": "https://ai-village-agents.github.io/help-kit/"
+  },
+  "citation": [
+    {
+      "@type": "WebPage",
+      "name": "American Heart Association (AHA) — Heart Attack Symptoms and Warning Signs",
+      "url": "https://www.heart.org/en/health-topics/heart-attack/warning-signs-of-a-heart-attack"
+    },
+    {
+      "@type": "WebPage",
+      "name": "U.S. CDC — Heart Attack Symptoms and Risk Factors",
+      "url": "https://www.cdc.gov/heart-disease/about/heart-attack.html"
+    },
+    {
+      "@type": "WebPage",
+      "name": "National Heart, Lung, and Blood Institute (NHLBI) — Heart Attack",
+      "url": "https://www.nhlbi.nih.gov/health/heart-attack"
+    },
+    {
+      "@type": "WebPage",
+      "name": "NHS — Heart attack symptoms and what to do",
+      "url": "https://www.nhs.uk/conditions/heart-attack/"
+    },
+    {
+      "@type": "WebPage",
+      "name": "British Heart Foundation (BHF) — Heart Attack Symptoms and Action Guide",
+      "url": "https://www.bhf.org.uk/informationsupport/conditions/heart-attack"
+    }
+  ]
+}
+  </script>
  </head>
  <body>
   <div class="notice danger" data-draft-warning="true">
    UNREVIEWED MACHINE TRANSLATION DRAFT (hi). Do not use for medical guidance, sharing, printing, or training until fluent local reviewers verify all emergency numbers, doses, timings, and local guidance against the English source.
   </div>
   <a class="skip-link" href="#main">
-   [HI]: Skip to main content
+   मुख्य सामग्री पर जाएँ
   </a>
   <header class="site">
    <div class="wrap">
@@ -39,49 +87,49 @@
     </a>
     <nav>
      <a href="../heat/">
-      [HI]: Extreme Heat
+      अत्यधिक गर्मी
      </a>
      <a href="../smoke/">
-      [HI]: Wildfire Smoke
+      जंगल की आग का धुआं
      </a>
      <a href="../naloxone/">
-      [HI]: Opioid Overdose
+      ओपिओइड ओवरडोज़
      </a>
      <a href="../ors/">
-      [HI]: Dehydration &amp; ORS
+      निर्जलीकरण एवं ओ.आर.एस
      </a>
      <a href="../choking/">
-      [HI]: Choking
+      दम घुट रहा है
      </a>
      <a href="../bleeding/">
-      [HI]: Severe Bleeding
+      गंभीर रक्तस्राव
      </a>
      <a href="../cpr/">
-      [HI]: CPR
+      सीपीआर
      </a>
      <a href="../stroke/">
-      [HI]: Stroke
+      आघात
      </a>
      <a href="../burns/">
-      [HI]: Burns
+      बर्न्स
      </a>
      <a href="../seizure/">
-      [HI]: Seizure
+      जब्ती
      </a>
      <a href="../allergy/">
-      [HI]: Severe Allergy
+      गंभीर एलर्जी
      </a>
      <a href="../cold/">
-      [HI]: Cold Safety
+      शीत सुरक्षा
      </a>
      <a href="../heart/">
-      [HI]: Heart Attack
+      दिल का दौरा
      </a>
      <a href="../triage/">
-      [HI]: Triage
+      ट्राइएज
      </a>
      <a href="../localize.html">
-      [HI]: Localize &amp; share
+      स्थानीयकृत करें और साझा करें
      </a>
     </nav>
    </div>
@@ -89,24 +137,24 @@
   <section class="hero">
    <div class="wrap">
     <h1>
-     [HI]: Heart Attack: recognize and act
+     दिल का दौरा: पहचानें और कार्य करें
     </h1>
     <p>
-     [HI]: A heart attack occurs when blood flow to part of the heart muscle is severely reduced or blocked. The longer the block is left untreated, the greater the damage to the heart muscle. Recognizing possible symptoms and acting immediately can help the person get urgent care. Free to read, print, and share.
+     दिल का दौरा तब होता है जब हृदय की मांसपेशियों के किसी हिस्से में रक्त का प्रवाह गंभीर रूप से कम या अवरुद्ध हो जाता है। जितने अधिक समय तक ब्लॉक का उपचार नहीं किया जाएगा, हृदय की मांसपेशियों को उतना ही अधिक नुकसान होगा। संभावित लक्षणों को पहचानने और तुरंत कार्रवाई करने से व्यक्ति को तत्काल देखभाल प्राप्त करने में मदद मिल सकती है। पढ़ने, प्रिंट करने और साझा करने के लिए निःशुल्क।
     </p>
    </div>
   </section>
   <main id="main">
    <div class="wrap">
     <p class="lede">
-     [HI]: Some heart attacks start slowly, with mild pain or discomfort, while others are sudden and intense. Symptoms can vary widely, and many people do not experience classic crushing chest pain. When in doubt, call emergency help right away and follow dispatcher guidance.
+     कुछ दिल के दौरे हल्के दर्द या परेशानी के साथ धीरे-धीरे शुरू होते हैं, जबकि अन्य अचानक और तीव्र होते हैं। लक्षण व्यापक रूप से भिन्न हो सकते हैं, और बहुत से लोगों को क्लासिक कुचलने वाले सीने में दर्द का अनुभव नहीं होता है। संदेह होने पर, तुरंत आपातकालीन सहायता को कॉल करें और डिस्पैचर के मार्गदर्शन का पालन करें।
     </p>
     <div class="actions no-print">
      <a class="btn" href="javascript:window.print()">
-      [HI]: Print this page
+      इस पेज को प्रिंट करें
      </a>
      <a class="btn alt" href="heart-onepager.pdf">
-      [HI]: Download printable PDF
+      प्रिंट करने योग्य पीडीएफ डाउनलोड करें
      </a>
     </div>
     <div class="box emergency">
@@ -114,40 +162,40 @@
       Call emergency services now
      </span>
      <h3>
-      [HI]: A heart attack is a medical emergency — call immediately
+      दिल का दौरा एक चिकित्सीय आपात स्थिति है - तुरंत कॉल करें
      </h3>
      <p>
-      🚨[REVIEW_REQUIRED] [HI]: If you or someone else might be having a heart attack, call your local emergency number (examples: 911, 112, or 999; verify locally) right away. Do not wait to see if symptoms go away. Put the phone on speaker if you can and follow dispatcher or local emergency guidance.
+      🚨[REVIEW_REQUIRED] यदि आपको या किसी अन्य को दिल का दौरा पड़ सकता है, तो तुरंत अपने स्थानीय आपातकालीन नंबर (उदाहरण: 911, 112, या 999; स्थानीय रूप से सत्यापित करें) पर कॉल करें। यह देखने के लिए प्रतीक्षा न करें कि लक्षण दूर हो जाते हैं या नहीं। यदि संभव हो तो फोन को स्पीकर पर रखें और डिस्पैचर या स्थानीय आपातकालीन मार्गदर्शन का पालन करें।
      </p>
     </div>
     <h2>
-     [HI]: Recognize the signs of a heart attack
+     दिल के दौरे के लक्षणों को पहचानें
     </h2>
     <div class="steps">
      <ol>
       <li>
        <strong>
-        [HI]: Chest discomfort.
+        सीने में बेचैनी.
        </strong>
-       [HI]: Most heart attacks involve discomfort in the center of the chest that lasts more than a few minutes, or that goes away and comes back. It can feel like uncomfortable pressure, squeezing, fullness, or pain.
+       अधिकांश दिल के दौरे में छाती के केंद्र में असुविधा होती है जो कुछ मिनटों से अधिक समय तक रहती है, या जो दूर हो जाती है और वापस आ जाती है। यह असहज दबाव, निचोड़ने, परिपूर्णता या दर्द जैसा महसूस हो सकता है।
       </li>
       <li>
        <strong>
-        [HI]: Discomfort in other upper-body areas.
+        शरीर के अन्य ऊपरी क्षेत्रों में असुविधा।
        </strong>
-       [HI]: Symptoms can include pain or discomfort in one or both arms, the back, neck, jaw, or stomach.
+       लक्षणों में एक या दोनों बांहों, पीठ, गर्दन, जबड़े या पेट में दर्द या बेचैनी शामिल हो सकती है।
       </li>
       <li>
        <strong>
-        [HI]: Shortness of breath.
+        सांस लेने में कठिनाई।
        </strong>
-       [HI]: This can happen with or without chest discomfort, sometimes as the only symptom.
+       यह सीने में तकलीफ के साथ या उसके बिना भी हो सकता है, कभी-कभी एकमात्र लक्षण के रूप में।
       </li>
       <li>
        <strong>
-        [HI]: Other signs.
+        अन्य लक्षण.
        </strong>
-       [HI]: These may include breaking out in a cold sweat, feeling lightheaded or dizzy, or experiencing unexplained nausea or vomiting.
+       इनमें ठंडा पसीना आना, सिर घूमना या चक्कर आना, या बिना कारण मतली या उल्टी का अनुभव होना शामिल हो सकता है।
       </li>
      </ol>
     </div>
@@ -156,11 +204,11 @@
       Symptoms can be different for women
      </span>
      <p>
-      [HI]: Like men, women's most common heart attack symptom is chest pain or discomfort. However, women are somewhat more likely than men to experience other common symptoms, particularly shortness of breath, nausea, vomiting, and back or jaw pain, without any chest pressure or pain. Do not ignore these subtler signs.
+      पुरुषों की तरह, महिलाओं में भी दिल का दौरा पड़ने का सबसे आम लक्षण सीने में दर्द या बेचैनी है। हालाँकि, महिलाओं में पुरुषों की तुलना में अन्य सामान्य लक्षण, विशेष रूप से सांस की तकलीफ, मतली, उल्टी, और पीठ या जबड़े में दर्द, बिना किसी छाती के दबाव या दर्द के अनुभव होने की अधिक संभावना होती है। इन सूक्ष्म संकेतों को नजरअंदाज न करें।
      </p>
     </div>
     <h2>
-     [HI]: What to do while you wait for medical help
+     चिकित्सा सहायता की प्रतीक्षा करते समय क्या करें?
     </h2>
     <div class="box ok">
      <span class="tag ok">
@@ -169,37 +217,37 @@
      <ul>
       <li>
        <strong>
-        [HI]: Sit down, rest, and stay calm.
+        बैठो, आराम करो, और शांत रहो।
        </strong>
-       [HI]: Do not allow the person to walk, climb stairs, or exert themselves, as physical effort increases the strain on the heart.
+       व्यक्ति को चलने, सीढ़ियाँ चढ़ने या अत्यधिक परिश्रम करने की अनुमति न दें, क्योंकि शारीरिक प्रयास से हृदय पर तनाव बढ़ जाता है।
       </li>
       <li>
        <strong>
-        [HI]: Ask about aspirin only after calling.
+        कॉल करने के बाद ही एस्पिरिन के बारे में पूछें।
        </strong>
-       [HI]: Do not delay the emergency call to find aspirin. Give aspirin only if the dispatcher, a clinician, or local protocol tells you to and the person is alert enough to chew/swallow and has no aspirin allergy, aspirin intolerance, bleeding disorder or serious recent bleeding, blood-thinner concern, or other known reason to avoid it.
+       एस्पिरिन खोजने के लिए आपातकालीन कॉल में देरी न करें। एस्पिरिन केवल तभी दें जब डिस्पैचर, एक चिकित्सक, या स्थानीय प्रोटोकॉल आपको बताता है और व्यक्ति चबाने/निगलने के लिए पर्याप्त सतर्क है और उसे एस्पिरिन से कोई एलर्जी, एस्पिरिन असहिष्णुता, रक्तस्राव विकार या गंभीर हाल ही में रक्तस्राव, रक्त-पतला चिंता, या इससे बचने के अन्य ज्ञात कारण नहीं हैं।
       </li>
       <li>
        <strong>
-        [HI]: Loosen tight clothing.
+        तंग कपड़ों को ढीला करें.
        </strong>
-       [HI]: Unbutton collars, loosen belts, and make sure their airway is completely clear.
+       कॉलर खोलें, बेल्ट ढीले करें और सुनिश्चित करें कि उनका वायुमार्ग पूरी तरह से साफ है।
       </li>
       <li>
        <strong>
-        [HI]: Stay with them.
+        उनके साथ रहो.
        </strong>
-       [HI]: Reassure them continuously. Keep them sitting comfortably to help them breathe more easily.
+       उन्हें लगातार आश्वस्त करें. उन्हें अधिक आसानी से सांस लेने में मदद करने के लिए आराम से बैठाएं।
       </li>
       <li>
        <strong>
-        [HI]: Be ready to start CPR.
+        सीपीआर शुरू करने के लिए तैयार रहें।
        </strong>
-       [HI]: If the person becomes unresponsive and is not breathing normally,
+       यदि व्यक्ति अनुत्तरदायी हो जाता है और सामान्य रूप से सांस नहीं ले रहा है,
        <a href="../cpr/">
-        [HI]: start Hands-Only CPR
+        हैंड्स-ओनली सीपीआर शुरू करें
        </a>
-       [HI]: immediately. Put the phone on speaker and follow dispatcher instructions.
+       तुरंत। फ़ोन को स्पीकर पर रखें और डिस्पैचर के निर्देशों का पालन करें।
       </li>
      </ul>
     </div>
@@ -210,94 +258,94 @@
      <ul>
       <li>
        <strong>
-        [HI]: Do not drive yourself or the patient to the hospital if emergency medical services are available.
+        यदि आपातकालीन चिकित्सा सेवाएँ उपलब्ध हों तो स्वयं या रोगी को गाड़ी चलाकर अस्पताल न ले जाएँ।
        </strong>
-       [HI]: Driving can be dangerous if symptoms worsen, and emergency responders can assess and guide care on the way.
+       यदि लक्षण बिगड़ जाएं तो गाड़ी चलाना खतरनाक हो सकता है, और आपातकालीन प्रतिक्रियाकर्ता रास्ते में देखभाल का आकलन और मार्गदर्शन कर सकते हैं।
       </li>
       <li>
        <strong>
-        [HI]: Do not ignore symptoms or wait to see if they pass.
+        लक्षणों को नज़रअंदाज न करें या यह देखने के लिए प्रतीक्षा न करें कि वे ठीक हो गए हैं या नहीं।
        </strong>
-       [HI]: Many people delay seeking help because symptoms seem mild, unusual, or like indigestion or muscle strain.
+       बहुत से लोग मदद मांगने में देरी करते हैं क्योंकि लक्षण हल्के, असामान्य या अपच या मांसपेशियों में खिंचाव जैसे लगते हैं।
       </li>
       <li>
        <strong>
-        [HI]: Do not try “cough CPR.”
+        "खाँसी सीपीआर" का प्रयास न करें।
        </strong>
-       [HI]: Coughing repeatedly and vigorously is an unsafe internet myth for bystanders and should not be used instead of calling emergency help.
+       बार-बार और जोर से खांसना आसपास खड़े लोगों के लिए एक असुरक्षित इंटरनेट मिथक है और आपातकालीन सहायता के लिए कॉल करने के बजाय इसका इस्तेमाल नहीं किया जाना चाहिए।
       </li>
       <li>
        <strong>
-        [HI]: Do not give food or drink.
+        खाना-पीना न दें.
        </strong>
-       [HI]: Avoid food, alcohol, or unnecessary drinks while waiting for emergency help, especially if the person is nauseated, short of breath, confused, drowsy, or may need urgent treatment.
+       आपातकालीन सहायता की प्रतीक्षा करते समय भोजन, शराब या अनावश्यक पेय से बचें, खासकर यदि व्यक्ति को मतली हो, सांस लेने में तकलीफ हो, भ्रमित हो, नींद आ रही हो, या तत्काल उपचार की आवश्यकता हो।
       </li>
      </ul>
     </div>
     <h2>
-     [HI]: Lower your risk
+     अपना जोखिम कम करें
     </h2>
     <ul>
      <li>
-      [HI]: Monitor and control high blood pressure, high cholesterol, and diabetes under a clinician's care.
+      चिकित्सक की देखरेख में उच्च रक्तचाप, उच्च कोलेस्ट्रॉल और मधुमेह की निगरानी और नियंत्रण करें।
      </li>
      <li>
-      [HI]: Avoid smoking and limit alcohol consumption to low-risk levels.
+      धूम्रपान से बचें और शराब का सेवन कम जोखिम वाले स्तर तक सीमित रखें।
      </li>
      <li>
-      [HI]: Maintain a healthy weight, eat a heart-healthy diet, and stay physically active.
+      स्वस्थ वजन बनाए रखें, हृदय के लिए स्वस्थ आहार लें और शारीरिक रूप से सक्रिय रहें।
      </li>
      <li>
-      [HI]: Understand your family medical history and discuss your cardiovascular risk factors with a doctor.
+      अपने पारिवारिक चिकित्सा इतिहास को समझें और डॉक्टर से अपने हृदय संबंधी जोखिम कारकों पर चर्चा करें।
      </li>
     </ul>
     <h2>
-     [HI]: Sources
+     सूत्रों का कहना है
     </h2>
     <ul class="sources">
      <li>
       <a href="https://www.heart.org/en/health-topics/heart-attack/warning-signs-of-a-heart-attack">
-       🚨[REVIEW_REQUIRED] [HI]: American Heart Association (AHA) — Heart Attack Symptoms and Warning Signs
+       🚨[REVIEW_REQUIRED] अमेरिकन हार्ट एसोसिएशन (एएचए) - हार्ट अटैक के लक्षण और चेतावनी संकेत
       </a>
       .
      </li>
      <li>
       <a href="https://www.cdc.gov/heart-disease/about/heart-attack.html">
-       🚨[REVIEW_REQUIRED] [HI]: U.S. CDC — Heart Attack Symptoms and Risk Factors
+       🚨[REVIEW_REQUIRED] यू.एस. सीडीसी - हार्ट अटैक के लक्षण और जोखिम कारक
       </a>
       .
      </li>
      <li>
       <a href="https://www.nhlbi.nih.gov/health/heart-attack">
-       [HI]: National Heart, Lung, and Blood Institute (NHLBI) — Heart Attack
+       राष्ट्रीय हृदय, फेफड़े और रक्त संस्थान (एनएचएलबीआई) - दिल का दौरा
       </a>
       .
      </li>
      <li>
       <a href="https://www.nhs.uk/conditions/heart-attack/">
-       🚨[REVIEW_REQUIRED] [HI]: NHS — Heart attack symptoms and what to do
+       🚨[REVIEW_REQUIRED] एनएचएस - हार्ट अटैक के लक्षण और क्या करें
       </a>
       .
      </li>
      <li>
       <a href="https://www.bhf.org.uk/informationsupport/conditions/heart-attack">
-       [HI]: British Heart Foundation (BHF) — Heart Attack Symptoms and Action Guide
+       ब्रिटिश हार्ट फाउंडेशन (बीएचएफ) - हार्ट अटैक के लक्षण और कार्रवाई गाइड
       </a>
       .
      </li>
     </ul>
     <p class="disclaimer">
-     [HI]: This guide is general information, not medical advice. In an emergency, always call your local emergency number without delay. Reuse and reprint freely.
+     यह मार्गदर्शिका सामान्य जानकारी है, चिकित्सीय सलाह नहीं। किसी आपात स्थिति में, बिना देर किए हमेशा अपने स्थानीय आपातकालीन नंबर पर कॉल करें। पुन: उपयोग करें और स्वतंत्र रूप से पुनर्मुद्रण करें।
     </p>
    </div>
   </main>
   <footer class="site">
    <div class="wrap">
-    [HI]: A free, open Help Kit ·
+    एक मुफ़्त, खुली सहायता किट ·
     <a href="https://github.com/ai-village-agents/help-kit">
-     [HI]: source on GitHub
+     GitHub पर स्रोत
     </a>
-    [HI]: · Public domain (CC0) · Verify against your local health authority
+    · सार्वजनिक डोमेन (CC0) · अपने स्थानीय स्वास्थ्य प्राधिकरण के विरुद्ध सत्यापन करें
    </div>
   </footer>
   <script>

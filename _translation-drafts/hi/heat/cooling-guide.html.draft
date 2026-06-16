@@ -4,9 +4,9 @@
   <meta charset="utf-8"/>
   <meta content="width=device-width,initial-scale=1" name="viewport"/>
   <title>
-   [HI]: Evidence-Based Cooling Guide — Help Kit | Help Kit
+   साक्ष्य-आधारित कूलिंग गाइड - सहायता किट | Help Kit
   </title>
-  <meta content="[HI]: A source-cited guide to practical cooling steps, fan caveats, hydration, and environmental heat workarounds." name="description"/>
+  <meta content="व्यावहारिक शीतलन कदमों, पंखे की चेतावनियों, जलयोजन और पर्यावरणीय ताप समाधानों के लिए एक स्रोत-उद्धृत मार्गदर्शिका।" name="description"/>
   <link href="https://ai-village-agents.github.io/help-kit/heat/cooling-guide.html" rel="canonical"/>
   <meta content="noindex, nofollow, noarchive" name="robots"/>
   <meta content="Help Kit" property="og:site_name"/>
@@ -30,7 +30,7 @@
    UNREVIEWED MACHINE TRANSLATION DRAFT (hi). Do not use for medical guidance, sharing, printing, or training until fluent local reviewers verify all emergency numbers, doses, timings, and local guidance against the English source.
   </div>
   <a class="skip-link" href="#main">
-   [HI]: Skip to main content
+   मुख्य सामग्री पर जाएँ
   </a>
   <header class="site">
    <div class="wrap">
@@ -39,49 +39,49 @@
     </a>
     <nav>
      <a href="../heat/">
-      [HI]: Extreme Heat
+      अत्यधिक गर्मी
      </a>
      <a href="../smoke/">
-      [HI]: Wildfire Smoke
+      जंगल की आग का धुआं
      </a>
      <a href="../naloxone/">
-      [HI]: Opioid Overdose
+      ओपिओइड ओवरडोज़
      </a>
      <a href="../ors/">
-      [HI]: Dehydration &amp; ORS
+      निर्जलीकरण एवं ओ.आर.एस
      </a>
      <a href="../choking/">
-      [HI]: Choking
+      दम घुट रहा है
      </a>
      <a href="../bleeding/">
-      [HI]: Severe Bleeding
+      गंभीर रक्तस्राव
      </a>
      <a href="../cpr/">
-      [HI]: CPR
+      सीपीआर
      </a>
      <a href="../stroke/">
-      [HI]: Stroke
+      आघात
      </a>
      <a href="../burns/">
-      [HI]: Burns
+      बर्न्स
      </a>
      <a href="../seizure/">
-      [HI]: Seizure
+      जब्ती
      </a>
      <a href="../allergy/">
-      [HI]: Severe Allergy
+      गंभीर एलर्जी
      </a>
      <a href="../cold/">
-      [HI]: Cold Safety
+      शीत सुरक्षा
      </a>
      <a href="../heart/">
-      [HI]: Heart Attack
+      दिल का दौरा
      </a>
      <a href="../triage/">
-      [HI]: Triage
+      ट्राइएज
      </a>
      <a href="../localize.html">
-      [HI]: Localize &amp; share
+      स्थानीयकृत करें और साझा करें
      </a>
     </nav>
    </div>
@@ -90,27 +90,27 @@
    <div class="wrap">
     <p>
      <a href="index.html">
-      [HI]: ← Back to heat guide
+      ← हीट गाइड पर वापस जाएँ
      </a>
     </p>
     <h1>
-     [HI]: Evidence-Based Cooling Guide: Science and Operations
+     साक्ष्य-आधारित कूलिंग गाइड: विज्ञान और संचालन
     </h1>
     <p class="lede">
-     [HI]: A practical guide for community organizers, volunteers, and mutual-aid networks on safer cooling, hydration, and home heat workarounds during extreme heat events. Use alongside local public-health guidance and emergency services.
+     अत्यधिक गर्मी की घटनाओं के दौरान सुरक्षित शीतलन, जलयोजन और घरेलू ताप समाधान पर सामुदायिक आयोजकों, स्वयंसेवकों और पारस्परिक सहायता नेटवर्क के लिए एक व्यावहारिक मार्गदर्शिका। स्थानीय सार्वजनिक-स्वास्थ्य मार्गदर्शन और आपातकालीन सेवाओं के साथ-साथ उपयोग करें।
     </p>
     <div class="actions no-print">
      <a class="btn" href="javascript:window.print()">
-      [HI]: Print this page
+      इस पेज को प्रिंट करें
      </a>
     </div>
     <h2>
-     [HI]: 1. Physiological Mechanisms of Thermal Stress
+     1. थर्मल तनाव के शारीरिक तंत्र
     </h2>
     <p>
-     🚨[REVIEW_REQUIRED] [HI]: Human thermoregulation relies heavily on the cardiovascular system and the skin to dissipate metabolic heat. When ambient temperature exceeds core temperature (approx. 98.6°F / 37°C), heat dissipation shifts almost entirely to
+     🚨[REVIEW_REQUIRED] मानव थर्मोरेग्यूलेशन चयापचय गर्मी को नष्ट करने के लिए हृदय प्रणाली और त्वचा पर बहुत अधिक निर्भर करता है। जब परिवेश का तापमान मुख्य तापमान (लगभग 98.6°F / 37°C) से अधिक हो जाता है, तो ऊष्मा अपव्यय लगभग पूरी तरह से स्थानांतरित हो जाता है
      <strong>
-      [HI]: evaporative cooling (sweating)
+      बाष्पीकरणीय शीतलन (पसीना)
      </strong>
      .
     </p>
@@ -119,188 +119,188 @@
       The Wet-Bulb Limit
      </span>
      <h3>
-      [HI]: Wet-Bulb Temperature (Tw) Risk Factor
+      वेट-बल्ब तापमान (Tw) जोखिम कारक
      </h3>
      <p>
-      [HI]: Wet-bulb temperature measures the lowest temperature that can be achieved by evaporative cooling of a water-wetted surface, accounting for both temperature and humidity.
+      वेट-बल्ब तापमान सबसे कम तापमान को मापता है जो पानी से गीली सतह के वाष्पीकरणीय शीतलन द्वारा प्राप्त किया जा सकता है, जो तापमान और आर्द्रता दोनों को ध्यान में रखता है।
      </p>
      <ul>
       <li>
        <strong>
-        [HI]: Critical Threshold:
+        महत्वपूर्ण सीमा:
        </strong>
-       [HI]: A sustained wet-bulb temperature around
+       चारों ओर एक निरंतर वेट-बल्ब तापमान
        <strong>
-        🚨[REVIEW_REQUIRED] [HI]: 95°F (35°C)
+        🚨[REVIEW_REQUIRED] 95°F (35°C)
        </strong>
-       [HI]: is often cited as an extreme upper limit for heat tolerance in idealized conditions; real-world danger can occur well below this, especially with sun exposure, exertion, dehydration, illness, medications, poor ventilation, or limited access to cooling.
+       इसे अक्सर आदर्श स्थितियों में गर्मी सहनशीलता के लिए अत्यधिक ऊपरी सीमा के रूप में उद्धृत किया जाता है; वास्तविक दुनिया का ख़तरा इसके काफ़ी नीचे हो सकता है, विशेष रूप से सूर्य के संपर्क में आने, परिश्रम, निर्जलीकरण, बीमारी, दवाओं, खराब वेंटिलेशन, या शीतलन तक सीमित पहुंच के साथ।
       </li>
       <li>
        <strong>
-        [HI]: Vulnerability Multiplier:
+        भेद्यता गुणक:
        </strong>
-       [HI]: Older adults, infants and young children, pregnant people, outdoor workers, people with disabilities or chronic illness, and people without reliable cooling may be at serious risk at much lower heat and humidity levels. Follow local heat alerts and check on people early.
+       वृद्ध वयस्क, शिशु और छोटे बच्चे, गर्भवती लोग, बाहरी कर्मचारी, विकलांग या पुरानी बीमारी वाले लोग, और विश्वसनीय शीतलन के बिना लोग बहुत कम गर्मी और आर्द्रता के स्तर पर गंभीर जोखिम में हो सकते हैं। स्थानीय ताप अलर्ट का पालन करें और लोगों की शीघ्र जांच करें।
       </li>
      </ul>
     </div>
     <h2>
-     [HI]: 2. Physiological Intervention &amp; Active Cooling
+     2. शारीरिक हस्तक्षेप एवं सक्रिय शीतलन
     </h2>
     <p>
-     [HI]: When a person has severe heat illness signs, call emergency services and start cooling immediately while you wait. Rapid cooling is critical, but do not delay emergency care.
+     जब किसी व्यक्ति में गर्मी की बीमारी के गंभीर लक्षण हों, तो आपातकालीन सेवाओं को कॉल करें और प्रतीक्षा करते समय तुरंत कूलिंग शुरू करें। तीव्र शीतलन महत्वपूर्ण है, लेकिन आपातकालीन देखभाल में देरी न करें।
     </p>
     <div class="box emergency">
      <span class="tag">
       The Fan Dilemma
      </span>
      <h3>
-      [HI]: Do not rely on fans alone in very hot rooms
+      बहुत गर्म कमरे में केवल पंखों पर निर्भर न रहें
      </h3>
      <p>
-      [HI]: Fans can help sweat evaporate, but in very hot rooms—especially when skin is dry, the person is dehydrated, or the indoor air is hotter than the body—fans alone may not prevent heat illness and can worsen dehydration.
+      पंखे पसीने को वाष्पित करने में मदद कर सकते हैं, लेकिन बहुत गर्म कमरे में - विशेष रूप से जब त्वचा शुष्क होती है, व्यक्ति निर्जलित होता है, या घर के अंदर की हवा शरीर से अधिक गर्म होती है - अकेले पंखे गर्मी की बीमारी को नहीं रोक सकते हैं और निर्जलीकरण को बदतर बना सकते हैं।
      </p>
      <p>
       <strong>
-       [HI]: The Fix:
+       समाधान:
       </strong>
-      [HI]: If using a fan in very hot conditions, combine it with safer cooling: move to the coolest available place, damp skin/clothing with water, use cool cloths or misting, hydrate if the person is alert and able to swallow, and seek air-conditioned shelter if possible. Do not use electrical devices where they may get wet or create trip/fire hazards.
+      यदि बहुत गर्म परिस्थितियों में पंखे का उपयोग कर रहे हैं, तो इसे सुरक्षित शीतलन के साथ संयोजित करें: सबसे ठंडे उपलब्ध स्थान पर जाएं, त्वचा/कपड़ों को पानी से गीला करें, ठंडे कपड़े या धुंध का उपयोग करें, यदि व्यक्ति सतर्क है और निगलने में सक्षम है तो हाइड्रेट करें, और यदि संभव हो तो वातानुकूलित आश्रय की तलाश करें। ऐसे विद्युत उपकरणों का उपयोग न करें जहां वे गीले हो सकते हैं या ट्रिप/आग का खतरा पैदा कर सकते हैं।
      </p>
     </div>
     <h3>
-     [HI]: Active Cooling Techniques
+     सक्रिय शीतलन तकनीक
     </h3>
     <ol class="steps">
      <li>
       <strong>
-       [HI]: Arterial Ice Placement:
+       धमनी बर्फ का स्थान:
       </strong>
-      [HI]: Apply ice packs or cold compresses wrapped in thin towels directly to the body's major arterial pulse points:
+      शरीर के प्रमुख धमनी नाड़ी बिंदुओं पर सीधे आइस पैक या पतले तौलिये में लपेटकर ठंडी पट्टी लगाएं:
       <ul>
        <li>
         <strong>
-         [HI]: The Neck
+         गर्दन
         </strong>
-        [HI]: (Carotid arteries)
+        (कैरोटिड धमनियाँ)
        </li>
        <li>
         <strong>
-         [HI]: The Armpits
+         बगल
         </strong>
-        [HI]: (Axillary arteries)
+        (एक्सिलरी धमनियाँ)
        </li>
        <li>
         <strong>
-         [HI]: The Groin
+         कमर
         </strong>
-        [HI]: (Femoral arteries)
+        (ऊरु धमनियां)
        </li>
       </ul>
-      [HI]: This can help cool the body while other cooling steps and emergency care are arranged.
+      इससे शरीर को ठंडा करने में मदद मिल सकती है जबकि अन्य शीतलन कदमों और आपातकालीन देखभाल की व्यवस्था की जाती है।
      </li>
      <li>
       <strong>
-       [HI]: Evaporative Misting:
+       बाष्पीकरणीय धुंध:
       </strong>
-      [HI]: Mist the individual's entire body with cool water while placing them in the path of a gentle fan or breeze to simulate natural sweating.
+      प्राकृतिक पसीने का अनुकरण करने के लिए व्यक्ति को हल्के पंखे या हवा के रास्ते में रखते हुए उसके पूरे शरीर पर ठंडे पानी का छिड़काव करें।
      </li>
      <li>
       <strong>
-       [HI]: Cold Water Foot Baths:
+       ठंडे पानी से पैर स्नान:
       </strong>
-      [HI]: Soak feet and ankles in cool water if the person can do so safely. This may help with comfort and cooling; stop if the person feels worse.
+      यदि व्यक्ति सुरक्षित रूप से ऐसा कर सकता है तो पैरों और टखनों को ठंडे पानी में भिगोएँ। यह आराम और ठंडक प्रदान करने में मदद कर सकता है; यदि व्यक्ति को बुरा लगे तो रुकें।
      </li>
     </ol>
     <h2>
-     [HI]: 3. Hydration Science &amp; Electrolyte Management
+     3. जलयोजन विज्ञान एवं इलेक्ट्रोलाइट प्रबंधन
     </h2>
     <p>
-     [HI]: Dehydration reduces blood volume, forcing the heart to pump faster and making sweat production less efficient.
+     निर्जलीकरण से रक्त की मात्रा कम हो जाती है, जिससे हृदय को तेजी से पंप करना पड़ता है और पसीने का उत्पादन कम कुशल हो जाता है।
     </p>
     <div class="box ok">
      <span class="tag ok">
       Electrolyte Balance
      </span>
      <h3>
-      [HI]: Water vs. Electrolytes &amp; Homemade Recipe
+      पानी बनाम इलेक्ट्रोलाइट्स और घरेलू नुस्खा
      </h3>
      <p>
-      [HI]: Drinking massive volumes of plain water without replenishing salts during prolonged heavy sweating can lead to
+      लंबे समय तक भारी पसीने के दौरान नमक की पूर्ति किए बिना भारी मात्रा में सादा पानी पीने से यह समस्या हो सकती है
       <strong>
-       [HI]: hyponatremia
+       हाइपोनेट्रेमिया
       </strong>
-      [HI]: (dangerously low blood sodium). Symptoms include headache, confusion, nausea, muscle weakness, and in severe cases, seizures.
+      (ख़तरनाक रूप से निम्न रक्त सोडियम)। लक्षणों में सिरदर्द, भ्रम, मतली, मांसपेशियों में कमजोरी और गंभीर मामलों में दौरे शामिल हैं।
      </p>
      <p>
-      [HI]: For prolonged heavy sweating, oral rehydration solution (ORS), an electrolyte drink, salty foods with water, or a carefully mixed homemade solution can help replace salts. If using the ORS-style mix below, measure carefully:
+      लंबे समय तक भारी पसीने के लिए, मौखिक पुनर्जलीकरण समाधान (ओआरएस), एक इलेक्ट्रोलाइट पेय, पानी के साथ नमकीन खाद्य पदार्थ, या सावधानी से मिश्रित घरेलू घोल नमक की जगह लेने में मदद कर सकता है। यदि नीचे दिए गए ओआरएस-शैली मिश्रण का उपयोग कर रहे हैं, तो सावधानी से मापें:
      </p>
      <ul>
       <li>
        <strong>
-        [HI]: 1 Liter
+        1 लीटर
        </strong>
-       [HI]: of clean water
+       साफ पानी का
       </li>
       <li>
        <strong>
-        🚨[REVIEW_REQUIRED] [HI]: 1/2 level teaspoon
+        🚨[REVIEW_REQUIRED] 1/2 लेवल चम्मच
        </strong>
-       [HI]: of Table Salt (replenishes sodium)
+       टेबल नमक (सोडियम की पूर्ति करता है)
       </li>
       <li>
        <strong>
-        🚨[REVIEW_REQUIRED] [HI]: 6 level teaspoons
+        🚨[REVIEW_REQUIRED] 6 स्तर के चम्मच
        </strong>
-       [HI]: of Sugar (helps the body absorb water and sodium rapidly)
+       चीनी (शरीर को पानी और सोडियम को तेजी से अवशोषित करने में मदद करती है)
       </li>
       <li>
        <em>
-        [HI]: Optional:
+        वैकल्पिक:
        </em>
-       [HI]: a small amount of citrus juice for flavor. Discard after 24 hours or sooner if contaminated.
+       स्वाद के लिए थोड़ी मात्रा में साइट्रस जूस। दूषित होने पर 24 घंटे या उससे पहले त्यागें।
       </li>
      </ul>
     </div>
     <h2>
-     [HI]: 4. Environmental Workarounds for Living Spaces
+     4. रहने की जगहों के लिए पर्यावरणीय समाधान
     </h2>
     <p>
-     [HI]: If air conditioning is unavailable or unaffordable, these steps can sometimes reduce indoor heat. If the home remains dangerously hot, help the person reach a cooler place if possible:
+     यदि एयर कंडीशनिंग अनुपलब्ध या अप्राप्य है, तो ये कदम कभी-कभी घर के अंदर की गर्मी को कम कर सकते हैं। यदि घर खतरनाक रूप से गर्म रहता है, तो यदि संभव हो तो व्यक्ति को ठंडे स्थान पर पहुंचने में मदद करें:
     </p>
     <ul>
      <li>
       <strong>
-       [HI]: Strategic Shading &amp; Solar Block:
+       सामरिक छायांकन एवं सौर ब्लॉक:
       </strong>
-      [HI]: Block direct sunlight from entering windows. Cover the outside of windows with cardboard, reflective foil (shiny side out), or light-colored sheets. This reflects solar radiation before it gets trapped inside.
+      खिड़कियों में सीधे सूर्य के प्रकाश को प्रवेश करने से रोकें। खिड़कियों के बाहरी हिस्से को कार्डबोर्ड, रिफ्लेक्टिव फ़ॉइल (बाहर की तरफ चमकदार तरफ) या हल्के रंग की चादरों से ढकें। यह अंदर फंसने से पहले सौर विकिरण को परावर्तित कर देता है।
      </li>
      <li>
       <strong>
-       [HI]: Thermal Mass Management:
+       थर्मल मास प्रबंधन:
       </strong>
-      [HI]: Keep windows closed and blinds drawn during the day. Open all windows and utilize fans only when the outside air temperature drops below the indoor temperature (usually after dusk).
+      दिन के समय खिड़कियाँ बंद रखें और पर्दे बंद रखें। सभी खिड़कियाँ खोलें और पंखों का उपयोग तभी करें जब बाहरी हवा का तापमान घर के अंदर के तापमान से कम हो जाए (आमतौर पर शाम ढलने के बाद)।
      </li>
      <li>
       <strong>
-       [HI]: Utilize Ground Floors:
+       भूतल का उपयोग करें:
       </strong>
-      [HI]: Because hot air rises, basement apartments or ground-level floors are often cooler than upper floors in multi-story buildings. Encourage neighbors who face higher heat risk or limited cooling access to rest on lower levels during the hottest peak hours.
+      क्योंकि गर्म हवा ऊपर उठती है, बेसमेंट अपार्टमेंट या भूतल के फर्श अक्सर बहुमंजिला इमारतों में ऊपरी मंजिलों की तुलना में ठंडे होते हैं। उन पड़ोसियों को प्रोत्साहित करें जो अधिक गर्मी के जोखिम या सीमित शीतलन पहुंच का सामना करते हैं, उन्हें सबसे गर्म चरम घंटों के दौरान निचले स्तरों पर आराम करने के लिए प्रोत्साहित करें।
      </li>
     </ul>
     <p class="sources">
-     🚨[REVIEW_REQUIRED] [HI]: Sources: CDC Heat &amp; Health, WHO Heat and health fact sheet, U.S. National Weather Service Heat Safety, and peer-reviewed heat-health literature. This is general information, not medical advice; follow local alerts and emergency guidance.
+     🚨[REVIEW_REQUIRED] स्रोत: सीडीसी हीट एंड हेल्थ, डब्ल्यूएचओ हीट एंड हेल्थ फैक्ट शीट, यू.एस. नेशनल वेदर सर्विस हीट सेफ्टी, और सहकर्मी-समीक्षा हीट-स्वास्थ्य साहित्य। यह सामान्य जानकारी है, चिकित्सीय सलाह नहीं; स्थानीय अलर्ट और आपातकालीन मार्गदर्शन का पालन करें।
     </p>
     <p class="disclaimer">
-     [HI]: This guide is general information, not medical advice, and is not a substitute for professional emergency care or training. In an emergency, always call your local emergency number. When symptoms are severe or you are unsure, treat it as an emergency. Reuse and reprint freely.
+     यह मार्गदर्शिका सामान्य जानकारी है, चिकित्सीय सलाह नहीं, और पेशेवर आपातकालीन देखभाल या प्रशिक्षण का विकल्प नहीं है। आपातकालीन स्थिति में, हमेशा अपने स्थानीय आपातकालीन नंबर पर कॉल करें। जब लक्षण गंभीर हों या आप अनिश्चित हों, तो इसे आपात स्थिति के रूप में लें। पुन: उपयोग करें और स्वतंत्र रूप से पुनर्मुद्रण करें।
     </p>
    </div>
   </main>
   <footer class="site">
    <div class="wrap">
-    [HI]: A free, open Help Kit ·
+    एक मुफ़्त, खुली सहायता किट ·
     <a href="https://github.com/ai-village-agents/help-kit">
-     [HI]: source on GitHub
+     GitHub पर स्रोत
     </a>
-    [HI]: · Public domain (CC0)
+    · सार्वजनिक डोमेन (CC0)
    </div>
   </footer>
   <script>

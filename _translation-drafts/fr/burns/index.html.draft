@@ -4,9 +4,9 @@
   <meta charset="utf-8"/>
   <meta content="width=device-width,initial-scale=1" name="viewport"/>
   <title>
-   [FR]: Burns &amp; Scalds: First Aid — Help Kit | Help Kit
+   Brûlures et échaudures : premiers soins – Trousse d'aide | Help Kit
   </title>
-  <meta content="[FR]: A free, source-cited one-page guide to first aid for burns and scalds: cool the burn with running water for 20 minutes, what not to put on a burn, and when to get medical help. Based on WHO, Red Cross, and burn-care guidance." name="description"/>
+  <meta content="Un guide gratuit et cité par une source pour les premiers soins en cas de brûlure : rafraîchissez-vous à l'eau courante pendant 20 minutes, sachez quoi ne pas mettre en cas de brûlure et quand obtenir de l'aide." name="description"/>
   <link href="https://ai-village-agents.github.io/help-kit/burns/" rel="canonical"/>
   <meta content="noindex, nofollow, noarchive" name="robots"/>
   <meta content="Help Kit" property="og:site_name"/>
@@ -24,13 +24,56 @@
   <link href="../style.css" rel="stylesheet"/>
   <link href="/help-kit/manifest.webmanifest" rel="manifest"/>
   <link href="/help-kit/icon-192.png" rel="apple-touch-icon"/>
+  <script type="application/ld+json">
+   {
+  "@context": "https://schema.org",
+  "@type": "MedicalWebPage",
+  "name": "Burns & Scalds: First Aid",
+  "description": "A free, source-cited guide to burn first aid: cool with running water for 20 minutes, know what not to put on a burn, and when to get help.",
+  "url": "https://ai-village-agents.github.io/help-kit/burns/",
+  "inLanguage": "en",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "Help Kit",
+    "url": "https://ai-village-agents.github.io/help-kit/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Help Kit",
+    "url": "https://ai-village-agents.github.io/help-kit/"
+  },
+  "citation": [
+    {
+      "@type": "WebPage",
+      "name": "World Health Organization — Burns fact sheet",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/burns"
+    },
+    {
+      "@type": "WebPage",
+      "name": "American Red Cross — first-aid training and resources",
+      "url": "https://www.redcross.org/take-a-class"
+    },
+    {
+      "@type": "WebPage",
+      "name": "American Heart Association — first-aid guidelines",
+      "url": "https://cpr.heart.org/en/resuscitation-science/first-aid-guidelines/first-aid"
+    },
+    {
+      "@type": "WebPage",
+      "name": "NHS — Burns and scalds",
+      "url": "https://www.nhs.uk/conditions/burns-and-scalds/"
+    }
+  ]
+}
+  </script>
  </head>
  <body>
   <div class="notice danger" data-draft-warning="true">
    UNREVIEWED MACHINE TRANSLATION DRAFT (fr). Do not use for medical guidance, sharing, printing, or training until fluent local reviewers verify all emergency numbers, doses, timings, and local guidance against the English source.
   </div>
   <a class="skip-link" href="#main">
-   [FR]: Skip to main content
+   Passer au contenu principal
   </a>
   <header class="site">
    <div class="wrap">
@@ -39,49 +82,49 @@
     </a>
     <nav>
      <a href="../heat/">
-      [FR]: Extreme Heat
+      Chaleur extrême
      </a>
      <a href="../smoke/">
-      [FR]: Wildfire Smoke
+      Fumée de feux de forêt
      </a>
      <a href="../naloxone/">
-      [FR]: Opioid Overdose
+      Surdose d'opioïdes
      </a>
      <a href="../ors/">
-      [FR]: Dehydration &amp; ORS
+      Déshydratation et SOR
      </a>
      <a href="../choking/">
-      [FR]: Choking
+      Étouffement
      </a>
      <a href="../bleeding/">
-      [FR]: Severe Bleeding
+      Saignement sévère
      </a>
      <a href="../cpr/">
-      [FR]: CPR
+      RCR
      </a>
      <a href="../stroke/">
-      [FR]: Stroke
+      Accident vasculaire cérébral
      </a>
      <a href="../burns/">
-      [FR]: Burns
+      Brûlures
      </a>
      <a href="../seizure/">
-      [FR]: Seizure
+      Crise d'épilepsie
      </a>
      <a href="../allergy/">
-      [FR]: Severe Allergy
+      Allergie sévère
      </a>
      <a href="../cold/">
-      [FR]: Cold Safety
+      Sécurité contre le froid
      </a>
      <a href="../heart/">
-      [FR]: Heart Attack
+      Crise cardiaque
      </a>
      <a href="../triage/">
-      [FR]: Triage
+      Triage
      </a>
      <a href="../localize.html">
-      [FR]: Localize &amp; share
+      Localiser et partager
      </a>
     </nav>
    </div>
@@ -89,24 +132,24 @@
   <section class="hero">
    <div class="wrap">
     <h1>
-     [FR]: Burns and scalds: first aid
+     Brûlures et échaudures : premiers secours
     </h1>
     <p>
-     [FR]: Most burns happen at home — hot drinks, cooking, steam, hot water, fire, the sun, electricity, or chemicals. Cooling a burn with running water straight away, and keeping the wrong things off it, can reduce pain and may limit deeper injury and later scarring or infection risk. Free to read, print, and share.
+     La plupart des brûlures surviennent à la maison : boissons chaudes, cuisine, vapeur, eau chaude, feu, soleil, électricité ou produits chimiques. Refroidir immédiatement une brûlure avec de l'eau courante et éloigner les mauvaises choses peut réduire la douleur et limiter les blessures plus profondes et les risques ultérieurs de cicatrices ou d'infection. Lecture, impression et partage gratuits.
     </p>
    </div>
   </section>
   <main id="main">
    <div class="wrap">
     <p class="lede">
-     [FR]: A burn is damage to the skin from heat, hot liquids (a "scald"), electricity, chemicals, or radiation such as the sun. What you do in the first minutes matters. One of the most useful first actions for most burns is simple: cool it with running water, and do not put creams, oils, or home remedies on the fresh burn as first aid unless a clinician or local guidance tells you to.
+     Une brûlure est un dommage causé à la peau par la chaleur, des liquides chauds (une « brûlure »), l'électricité, des produits chimiques ou des radiations telles que le soleil. Ce que vous faites dans les premières minutes compte. L'une des premières actions les plus utiles pour la plupart des brûlures est simple : refroidissez-la avec de l'eau courante et ne mettez pas de crèmes, d'huiles ou de remèdes maison sur la brûlure fraîche comme premiers soins, à moins qu'un clinicien ou un guide local ne vous le demande.
     </p>
     <div class="actions no-print">
      <a class="btn" href="javascript:window.print()">
-      [FR]: Print this page
+      Imprimer cette page
      </a>
      <a class="btn alt" href="burns-onepager.pdf">
-      [FR]: Download printable PDF
+      Télécharger le PDF imprimable
      </a>
     </div>
     <div class="box emergency">
@@ -114,60 +157,60 @@
       Call emergency services now
      </span>
      <h3>
-      [FR]: Get emergency help for a serious burn
+      Obtenez de l'aide d'urgence en cas de brûlure grave
      </h3>
      <p>
-      🚨[REVIEW_REQUIRED] [FR]: Call your local emergency number (examples: 911, 112, or 999; verify locally) for a burn that is large (bigger than the person's hand), deep, or on the face, hands, feet, genitals, or over a joint; any burn that goes all the way around a limb; any electrical or chemical burn; any burn with trouble breathing, coughing, a hoarse voice, or soot around the nose or mouth (the airway may be burned); and any serious burn in a baby, young child, pregnant person, or older or frail person.
+      🚨[REVIEW_REQUIRED] Appelez votre numéro d'urgence local (exemples : 911, 112 ou 999 ; vérifiez localement) pour une brûlure importante (plus grosse que la main de la personne), profonde ou sur le visage, les mains, les pieds, les organes génitaux ou sur une articulation ; toute brûlure qui fait le tour d’un membre ; toute brûlure électrique ou chimique ; toute brûlure accompagnée de difficultés respiratoires, de toux, d'une voix rauque ou de suie autour du nez ou de la bouche (les voies respiratoires peuvent être brûlées) ; et toute brûlure grave chez un bébé, un jeune enfant, une personne enceinte ou une personne âgée ou fragile.
       <strong>
-       [FR]: While you wait for help, start cooling the burn.
+       Pendant que vous attendez de l’aide, commencez à refroidir la brûlure.
       </strong>
      </p>
     </div>
     <h2>
-     [FR]: What to do, step by step
+     Que faire, étape par étape
     </h2>
     <ol class="steps">
      <li>
       <strong>
-       [FR]: Stop the burning and stay safe.
+       Arrêtez la combustion et restez en sécurité.
       </strong>
-      [FR]: Move the person away from the heat source. If clothing is on fire,
+      Éloignez la personne de la source de chaleur. Si les vêtements sont en feu,
       <strong>
-       [FR]: stop, drop, and roll
+       arrêter, laisser tomber et rouler
       </strong>
-      [FR]: , or smother the flames with a blanket. Switch off the power before touching someone with an electrical burn. For a chemical burn, brush off any dry chemical and remove contaminated clothing, protecting your own skin.
+      , ou étouffez les flammes avec une couverture. Coupez l’alimentation avant de toucher une personne souffrant d’une brûlure électrique. En cas de brûlure chimique, brossez tout produit chimique sec et retirez les vêtements contaminés, en protégeant votre propre peau.
      </li>
      <li>
       <strong>
-       🚨[REVIEW_REQUIRED] [FR]: Cool the burn with running water for 20 minutes.
+       🚨[REVIEW_REQUIRED] Refroidissez la brûlure à l'eau courante pendant 20 minutes.
       </strong>
-      [FR]: Hold the burned area under cool or lukewarm
+      Maintenez la zone brûlée dans un endroit frais ou tiède
       <em>
-       [FR]: running
+       en cours d'exécution
       </em>
-      🚨[REVIEW_REQUIRED] [FR]: water as soon as possible. Keep cooling for a full 20 minutes — it still helps even up to about 3 hours after the burn. Do
+      🚨[REVIEW_REQUIRED] arroser le plus tôt possible. Continuez à refroidir pendant 20 minutes complètes – cela est toujours utile même jusqu'à environ 3 heures après la brûlure. Faire
       <strong>
-       [FR]: not
+       pas
       </strong>
-      [FR]: use ice, iced water, or very cold water, which can deepen the injury. If there is no running water, use any clean, cool water you can pour over it.
+      utilisez de la glace, de l'eau glacée ou de l'eau très froide, ce qui peut aggraver la blessure. S'il n'y a pas d'eau courante, utilisez de l'eau propre et fraîche que vous pouvez verser dessus.
      </li>
      <li>
       <strong>
-       [FR]: Remove jewellery and tight or soaked clothing
+       Retirer les bijoux et les vêtements serrés ou trempés
       </strong>
-      [FR]: from near the burn before it starts to swell — but do not pull off anything that is stuck to the skin.
+      près de la brûlure avant qu'elle ne commence à enfler, mais n'enlevez rien de ce qui est collé à la peau.
      </li>
      <li>
       <strong>
-       [FR]: Keep the rest of the person warm.
+       Gardez le reste de la personne au chaud.
       </strong>
-      [FR]: Cooling a large burn can quickly chill the body, especially in children and older people. Cover the parts you are not cooling with a blanket or coat, and avoid cooling so much that they start to shiver.
+      Refroidir une brûlure importante peut rapidement refroidir le corps, en particulier chez les enfants et les personnes âgées. Couvrez les parties que vous ne refroidissez pas avec une couverture ou un manteau et évitez de trop refroidir au point qu'elles commencent à frissonner.
      </li>
      <li>
       <strong>
-       [FR]: Cover the burn loosely
+       Couvrir la brûlure sans serrer
       </strong>
-      [FR]: once it is cooled. A layer of clean kitchen cling film (plastic wrap) laid over the burn is ideal — lay it on lengthwise, do not wrap it tightly around a limb. A clean, non-fluffy cloth or a clean plastic bag (good for a hand or foot) also works. This eases pain and keeps the wound clean.
+      une fois refroidi. Une couche de film alimentaire propre (pellicule plastique) posée sur la brûlure est idéale : posez-la dans le sens de la longueur, ne l'enroulez pas étroitement autour d'un membre. Un chiffon propre et non pelucheux ou un sac en plastique propre (bon pour une main ou un pied) fonctionne également. Cela soulage la douleur et garde la plaie propre.
      </li>
     </ol>
     <div class="box warn">
@@ -175,68 +218,68 @@
       Do not use home remedies on a fresh burn
      </span>
      <p>
-      [FR]: Do
+      Faire
       <strong>
-       [FR]: not
+       pas
       </strong>
-      [FR]: apply butter, oil, lard, toothpaste, egg, soy sauce, ash, soil, cow dung, herbs, ice, or "burn creams" and ointments to a fresh burn as first aid unless a clinician or local guidance specifically tells you to. These can trap heat, raise the risk of infection, and make it harder for medical staff to see and treat the burn.
+      appliquez du beurre, de l'huile, du saindoux, du dentifrice, des œufs, de la sauce soja, des cendres, de la terre, de la bouse de vache, des herbes, de la glace ou des « crèmes contre les brûlures » et des onguents sur une brûlure fraîche comme premiers soins, à moins qu'un clinicien ou des conseils locaux ne vous le demandent spécifiquement. Ceux-ci peuvent emprisonner la chaleur, augmenter le risque d’infection et rendre plus difficile pour le personnel médical de voir et de traiter la brûlure.
       <strong>
-       [FR]: Do not burst blisters
+       Ne pas faire éclater les ampoules
       </strong>
-      [FR]: — they protect the skin underneath. Cool water and a clean loose cover are usually the safest first-aid choice.
+      — ils protègent la peau en dessous. De l’eau fraîche et une couverture propre et amovible constituent généralement le choix de premiers secours le plus sûr.
      </p>
     </div>
     <h2>
-     [FR]: Chemical and electrical burns
+     Brûlures chimiques et électriques
     </h2>
     <div class="two">
      <div>
       <h3>
-       [FR]: Chemical burns
+       Brûlures chimiques
       </h3>
       <ul>
        <li>
-        [FR]: Protect yourself first — wear gloves or use a barrier if you can.
+        Protégez-vous d’abord : portez des gants ou utilisez une barrière si vous le pouvez.
        </li>
        <li>
-        [FR]: Brush off any
+        Brossez tout
         <strong>
-         [FR]: dry
+         sec
         </strong>
-        🚨[REVIEW_REQUIRED] [FR]: powder, then rinse the area with lots of cool running water for at least 20 minutes, unless the product label, poison centre, or emergency guidance tells you not to use water.
+        🚨[REVIEW_REQUIRED] poudre, puis rincez la zone avec beaucoup d'eau courante froide pendant au moins 20 minutes, à moins que l'étiquette du produit, le centre antipoison ou les directives d'urgence ne vous disent de ne pas utiliser d'eau.
        </li>
        <li>
-        [FR]: Remove clothing and jewellery the chemical has touched while rinsing.
+        Retirez les vêtements et les bijoux que le produit chimique a touchés lors du rinçage.
        </li>
        <li>
-        🚨[REVIEW_REQUIRED] [FR]: If a chemical is in the eye, rinse the eye gently with clean water for at least 20 minutes and get medical help.
+        🚨[REVIEW_REQUIRED] Si un produit chimique est présent dans l'œil, rincez doucement l'œil à l'eau claire pendant au moins 20 minutes et consultez un médecin.
        </li>
        <li>
-        [FR]: If you know the chemical, tell the medical team or poison centre.
+        Si vous connaissez le produit chimique, informez-en l'équipe médicale ou le centre antipoison.
        </li>
       </ul>
      </div>
      <div>
       <h3>
-       [FR]: Electrical burns
+       Brûlures électriques
       </h3>
       <ul>
        <li>
         <strong>
-         [FR]: Do not touch the person
+         Ne touchez pas la personne
         </strong>
-        [FR]: until you are sure the power is switched off — you can be electrocuted too.
+        jusqu'à ce que vous soyez sûr que l'alimentation est coupée, vous pouvez également être électrocuté.
        </li>
        <li>
-        [FR]: Electrical burns can be far deeper than they look on the surface and can affect the heart.
+        Les brûlures électriques peuvent être beaucoup plus profondes qu’elles ne le paraissent en surface et peuvent affecter le cœur.
        </li>
        <li>
-        [FR]: Always seek medical care, even if the skin damage seems small.
+        Consultez toujours un médecin, même si les lésions cutanées semblent minimes.
        </li>
        <li>
-        [FR]: If the person is unresponsive and not breathing normally, call for help and start
+        Si la personne ne répond pas et ne respire pas normalement, appelez les secours et commencez
         <a href="../cpr/">
-         [FR]: CPR
+         RCR
         </a>
         .
        </li>
@@ -244,90 +287,90 @@
      </div>
     </div>
     <h2>
-     [FR]: Smaller burns you can treat at home
+     Brûlures plus petites que vous pouvez traiter à la maison
     </h2>
     <p>
-     [FR]: A small, shallow burn — red and sore, perhaps with small blisters, no bigger than the person's hand and not on the face, hands, feet, genitals, or a joint — can usually be cared for at home: cool it, cover it loosely, and keep it clean. Simple pain relief such as paracetamol/acetaminophen or ibuprofen can help if safe for that person (follow the label and any local guidance).
+     Une petite brûlure peu profonde – rouge et douloureuse, peut-être avec de petites cloques, pas plus grosses que la main de la personne et pas sur le visage, les mains, les pieds, les organes génitaux ou une articulation – peut généralement être soignée à la maison : refroidissez-la, couvrez-la légèrement et gardez-la propre. Un simple soulagement de la douleur, tel que le paracétamol/acétaminophène ou l'ibuprofène, peut aider s'il est sans danger pour cette personne (suivez l'étiquette et les directives locales).
      <strong>
-      [FR]: Get medical advice if
+      Obtenez un avis médical si
      </strong>
-     [FR]: the burn becomes more painful, swollen, smelly, or oozing, or the person develops a fever — these can be signs of infection. Make sure tetanus protection is up to date for any burn that breaks the skin.
+     la brûlure devient plus douloureuse, enflée, malodorante ou suintante, ou la personne développe de la fièvre – cela peut être des signes d’infection. Assurez-vous que la protection contre le tétanos est à jour pour toute brûlure qui brise la peau.
     </p>
     <h2>
-     [FR]: Babies, children, and others at higher risk
+     Bébés, enfants et autres personnes plus à risque
     </h2>
     <div class="box warn">
      <span class="tag warn">
       Lower the threshold to get help
      </span>
      <p>
-      [FR]: Babies and young children, older or frail people, and pregnant women are more easily harmed by burns. Get medical advice for any burn that blisters in a baby or child, and don't wait if you are unsure. Children also chill quickly when a burn is cooled, so keep the rest of the body warm.
+      Les bébés et les jeunes enfants, les personnes âgées ou fragiles et les femmes enceintes sont plus facilement blessés par les brûlures. Obtenez un avis médical pour toute brûlure provoquant des cloques chez un bébé ou un enfant, et n'attendez pas si vous n'êtes pas sûr. Les enfants se refroidissent également rapidement lorsqu’une brûlure se refroidit, alors gardez le reste du corps au chaud.
      </p>
     </div>
     <h2>
-     [FR]: Preventing burns and scalds
+     Prévenir les brûlures et les échaudures
     </h2>
     <ul>
      <li>
-      [FR]: Keep hot drinks, pots, and kettles out of children's reach; turn pot handles inward; use the back rings of the stove.
+      Gardez les boissons chaudes, les casseroles et les bouilloires hors de portée des enfants ; tournez les poignées du pot vers l'intérieur; utilisez les anneaux arrière du poêle.
      </li>
      <li>
-      🚨[REVIEW_REQUIRED] [FR]: If you control the water heater, set it to a safer temperature (about 50 °C / 120 °F) and test bath water before a child gets in.
+      🚨[REVIEW_REQUIRED] Si vous contrôlez le chauffe-eau, réglez-le à une température plus sûre (environ 50 °C / 120 °F) et testez l'eau du bain avant qu'un enfant n'y entre.
      </li>
      <li>
-      [FR]: Keep cooking fires and stoves stable and away from children; keep flammable clothing away from open flames.
+      Gardez les feux de cuisine et les poêles stables et hors de portée des enfants ; garder les vêtements inflammables à l'écart des flammes nues.
      </li>
      <li>
-      [FR]: Fit smoke alarms and check them; keep matches, lighters, and chemicals locked away.
+      Installez des détecteurs de fumée et vérifiez-les ; gardez les allumettes, les briquets et les produits chimiques sous clé.
      </li>
      <li>
-      [FR]: Protect skin from the sun and avoid sunburn.
+      Protégez la peau du soleil et évitez les coups de soleil.
      </li>
     </ul>
     <h2>
-     [FR]: Sources
+     Sources
     </h2>
     <ul class="sources">
      <li>
       <a href="https://www.who.int/news-room/fact-sheets/detail/burns">
-       [FR]: World Health Organization — Burns fact sheet
+       Organisation mondiale de la santé — Fiche d'information sur les brûlures
       </a>
-      [FR]: (global burden, prevention, and first aid: cool with running water, do not apply harmful substances).
+      (charge globale, prévention et premiers secours : refroidir à l'eau courante, ne pas appliquer de substances nocives).
      </li>
      <li>
       <a href="https://www.redcross.org/take-a-class">
-       [FR]: American Red Cross — first-aid training and resources
+       Croix-Rouge américaine — formation et ressources en premiers secours
       </a>
-      [FR]: (burn first aid and when to seek care).
+      (premiers soins pour les brûlures et quand demander des soins).
      </li>
      <li>
       <a href="https://cpr.heart.org/en/resuscitation-science/first-aid-guidelines/first-aid">
-       [FR]: American Heart Association — first-aid guidelines
+       American Heart Association — directives de premiers secours
       </a>
-      [FR]: (cooling burns; thermal, chemical, and electrical injuries).
+      (brûlures par refroidissement ; blessures thermiques, chimiques et électriques).
      </li>
      <li>
       <a href="https://www.nhs.uk/conditions/burns-and-scalds/">
-       🚨[REVIEW_REQUIRED] [FR]: NHS — Burns and scalds
+       🚨[REVIEW_REQUIRED] NHS — Brûlures et échaudures
       </a>
-      🚨[REVIEW_REQUIRED] [FR]: (cool 20 minutes, cover with cling film, do not burst blisters, when to get help).
+      🚨[REVIEW_REQUIRED] (refroidir 20 minutes, couvrir d'un film alimentaire, ne pas crever les ampoules, quand demander de l'aide).
      </li>
     </ul>
     <p class="sources">
-     [FR]: Guidance reflects widely taught burn first aid for lay responders. Details vary between training bodies and regions — follow your local first-aid training and emergency services.
+     Les conseils reflètent les premiers secours en cas de brûlure largement enseignés aux intervenants profanes. Les détails varient selon les organismes de formation et les régions : suivez votre formation locale en premiers secours et les services d'urgence.
     </p>
     <p class="disclaimer">
-     [FR]: This guide is general information, not medical advice. In an emergency, always call your local emergency number. Reuse and reprint freely.
+     Ce guide est une information générale et non un avis médical. En cas d'urgence, appelez toujours votre numéro d'urgence local. Réutilisez et réimprimez librement.
     </p>
    </div>
   </main>
   <footer class="site">
    <div class="wrap">
-    [FR]: A free, open Help Kit ·
+    Un kit d'aide gratuit et ouvert ·
     <a href="https://github.com/ai-village-agents/help-kit">
-     [FR]: source on GitHub
+     source sur GitHub
     </a>
-    [FR]: · Public domain (CC0) · Verify against your local health authority
+    · Domaine public (CC0) · Vérifiez auprès de votre autorité sanitaire locale
    </div>
   </footer>
   <script>

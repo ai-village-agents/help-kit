@@ -4,9 +4,9 @@
   <meta charset="utf-8"/>
   <meta content="width=device-width,initial-scale=1" name="viewport"/>
   <title>
-   [ES]: Evidence-Based Cooling Guide — Help Kit | Help Kit
+   Guía de enfriamiento basada en evidencia: kit de ayuda | Help Kit
   </title>
-  <meta content="[ES]: A source-cited guide to practical cooling steps, fan caveats, hydration, and environmental heat workarounds." name="description"/>
+  <meta content="Una guía citada por fuentes sobre pasos prácticos de enfriamiento, advertencias sobre ventiladores, hidratación y soluciones alternativas al calor ambiental." name="description"/>
   <link href="https://ai-village-agents.github.io/help-kit/heat/cooling-guide.html" rel="canonical"/>
   <meta content="noindex, nofollow, noarchive" name="robots"/>
   <meta content="Help Kit" property="og:site_name"/>
@@ -30,7 +30,7 @@
    UNREVIEWED MACHINE TRANSLATION DRAFT (es). Do not use for medical guidance, sharing, printing, or training until fluent local reviewers verify all emergency numbers, doses, timings, and local guidance against the English source.
   </div>
   <a class="skip-link" href="#main">
-   [ES]: Skip to main content
+   Saltar al contenido principal
   </a>
   <header class="site">
    <div class="wrap">
@@ -39,49 +39,49 @@
     </a>
     <nav>
      <a href="../heat/">
-      [ES]: Extreme Heat
+      Calor extremo
      </a>
      <a href="../smoke/">
-      [ES]: Wildfire Smoke
+      Humo de incendios forestales
      </a>
      <a href="../naloxone/">
-      [ES]: Opioid Overdose
+      Sobredosis de opioides
      </a>
      <a href="../ors/">
-      [ES]: Dehydration &amp; ORS
+      Deshidratación y SRO
      </a>
      <a href="../choking/">
-      [ES]: Choking
+      asfixia
      </a>
      <a href="../bleeding/">
-      [ES]: Severe Bleeding
+      Sangrado severo
      </a>
      <a href="../cpr/">
-      [ES]: CPR
+      RCP
      </a>
      <a href="../stroke/">
-      [ES]: Stroke
+      Ataque
      </a>
      <a href="../burns/">
-      [ES]: Burns
+      quemaduras
      </a>
      <a href="../seizure/">
-      [ES]: Seizure
+      Convulsión
      </a>
      <a href="../allergy/">
-      [ES]: Severe Allergy
+      Alergia severa
      </a>
      <a href="../cold/">
-      [ES]: Cold Safety
+      Seguridad en frío
      </a>
      <a href="../heart/">
-      [ES]: Heart Attack
+      Infarto de miocardio
      </a>
      <a href="../triage/">
-      [ES]: Triage
+      Triaje
      </a>
      <a href="../localize.html">
-      [ES]: Localize &amp; share
+      Localizar y compartir
      </a>
     </nav>
    </div>
@@ -90,27 +90,27 @@
    <div class="wrap">
     <p>
      <a href="index.html">
-      [ES]: ← Back to heat guide
+      ← Volver a la guía de calor
      </a>
     </p>
     <h1>
-     [ES]: Evidence-Based Cooling Guide: Science and Operations
+     Guía de enfriamiento basada en evidencia: ciencia y operaciones
     </h1>
     <p class="lede">
-     [ES]: A practical guide for community organizers, volunteers, and mutual-aid networks on safer cooling, hydration, and home heat workarounds during extreme heat events. Use alongside local public-health guidance and emergency services.
+     Una guía práctica para organizadores comunitarios, voluntarios y redes de ayuda mutua sobre soluciones alternativas más seguras para enfriar, hidratar y calentar el hogar durante eventos de calor extremo. Úselo junto con la orientación de salud pública local y los servicios de emergencia.
     </p>
     <div class="actions no-print">
      <a class="btn" href="javascript:window.print()">
-      [ES]: Print this page
+      Imprime esta pagina
      </a>
     </div>
     <h2>
-     [ES]: 1. Physiological Mechanisms of Thermal Stress
+     1. Mecanismos fisiológicos del estrés térmico
     </h2>
     <p>
-     🚨[REVIEW_REQUIRED] [ES]: Human thermoregulation relies heavily on the cardiovascular system and the skin to dissipate metabolic heat. When ambient temperature exceeds core temperature (approx. 98.6°F / 37°C), heat dissipation shifts almost entirely to
+     🚨[REVIEW_REQUIRED] La termorregulación humana depende en gran medida del sistema cardiovascular y de la piel para disipar el calor metabólico. Cuando la temperatura ambiente excede la temperatura central (aproximadamente 98,6 °F / 37 °C), la disipación de calor cambia casi por completo a
      <strong>
-      [ES]: evaporative cooling (sweating)
+      enfriamiento por evaporación (sudoración)
      </strong>
      .
     </p>
@@ -119,188 +119,188 @@
       The Wet-Bulb Limit
      </span>
      <h3>
-      [ES]: Wet-Bulb Temperature (Tw) Risk Factor
+      Factor de riesgo de temperatura de bulbo húmedo (Tw)
      </h3>
      <p>
-      [ES]: Wet-bulb temperature measures the lowest temperature that can be achieved by evaporative cooling of a water-wetted surface, accounting for both temperature and humidity.
+      La temperatura de bulbo húmedo mide la temperatura más baja que se puede alcanzar mediante el enfriamiento por evaporación de una superficie mojada por agua, teniendo en cuenta tanto la temperatura como la humedad.
      </p>
      <ul>
       <li>
        <strong>
-        [ES]: Critical Threshold:
+        Umbral crítico:
        </strong>
-       [ES]: A sustained wet-bulb temperature around
+       Una temperatura sostenida de bulbo húmedo alrededor
        <strong>
-        🚨[REVIEW_REQUIRED] [ES]: 95°F (35°C)
+        🚨[REVIEW_REQUIRED] 95°F (35°C)
        </strong>
-       [ES]: is often cited as an extreme upper limit for heat tolerance in idealized conditions; real-world danger can occur well below this, especially with sun exposure, exertion, dehydration, illness, medications, poor ventilation, or limited access to cooling.
+       a menudo se cita como un límite superior extremo para la tolerancia al calor en condiciones idealizadas; El peligro en el mundo real puede ocurrir muy por debajo de esto, especialmente con la exposición al sol, el esfuerzo, la deshidratación, las enfermedades, los medicamentos, la mala ventilación o el acceso limitado a refrigeración.
       </li>
       <li>
        <strong>
-        [ES]: Vulnerability Multiplier:
+        Multiplicador de vulnerabilidad:
        </strong>
-       [ES]: Older adults, infants and young children, pregnant people, outdoor workers, people with disabilities or chronic illness, and people without reliable cooling may be at serious risk at much lower heat and humidity levels. Follow local heat alerts and check on people early.
+       Los adultos mayores, los bebés y los niños pequeños, las personas embarazadas, los trabajadores al aire libre, las personas con discapacidades o enfermedades crónicas y las personas sin refrigeración confiable pueden correr un riesgo grave con niveles de calor y humedad mucho más bajos. Siga las alertas de calor locales y controle a las personas con anticipación.
       </li>
      </ul>
     </div>
     <h2>
-     [ES]: 2. Physiological Intervention &amp; Active Cooling
+     2. Intervención fisiológica y enfriamiento activo
     </h2>
     <p>
-     [ES]: When a person has severe heat illness signs, call emergency services and start cooling immediately while you wait. Rapid cooling is critical, but do not delay emergency care.
+     Cuando una persona tiene signos graves de enfermedad por calor, llame a los servicios de emergencia y comience a refrescarse inmediatamente mientras espera. El enfriamiento rápido es fundamental, pero no demore la atención de emergencia.
     </p>
     <div class="box emergency">
      <span class="tag">
       The Fan Dilemma
      </span>
      <h3>
-      [ES]: Do not rely on fans alone in very hot rooms
+      No confíe únicamente en los ventiladores en habitaciones muy calurosas
      </h3>
      <p>
-      [ES]: Fans can help sweat evaporate, but in very hot rooms—especially when skin is dry, the person is dehydrated, or the indoor air is hotter than the body—fans alone may not prevent heat illness and can worsen dehydration.
+      Los ventiladores pueden ayudar a evaporar el sudor, pero en habitaciones muy calurosas (especialmente cuando la piel está seca, la persona está deshidratada o el aire interior es más caliente que el cuerpo) los ventiladores por sí solos pueden no prevenir las enfermedades causadas por el calor y pueden empeorar la deshidratación.
      </p>
      <p>
       <strong>
-       [ES]: The Fix:
+       La solución:
       </strong>
-      [ES]: If using a fan in very hot conditions, combine it with safer cooling: move to the coolest available place, damp skin/clothing with water, use cool cloths or misting, hydrate if the person is alert and able to swallow, and seek air-conditioned shelter if possible. Do not use electrical devices where they may get wet or create trip/fire hazards.
+      Si usa un ventilador en condiciones de mucho calor, combínelo con un enfriamiento más seguro: vaya al lugar más fresco disponible, humedezca la piel o la ropa con agua, use paños fríos o rocíelos, hidrátese si la persona está alerta y puede tragar, y busque un refugio con aire acondicionado si es posible. No utilice dispositivos eléctricos donde puedan mojarse o crear riesgos de tropiezo o incendio.
      </p>
     </div>
     <h3>
-     [ES]: Active Cooling Techniques
+     Técnicas de enfriamiento activo
     </h3>
     <ol class="steps">
      <li>
       <strong>
-       [ES]: Arterial Ice Placement:
+       Colocación de hielo arterial:
       </strong>
-      [ES]: Apply ice packs or cold compresses wrapped in thin towels directly to the body's major arterial pulse points:
+      Aplique bolsas de hielo o compresas frías envueltas en toallas finas directamente en los principales puntos de pulso arterial del cuerpo:
       <ul>
        <li>
         <strong>
-         [ES]: The Neck
+         el cuello
         </strong>
-        [ES]: (Carotid arteries)
+        (Arterias carótidas)
        </li>
        <li>
         <strong>
-         [ES]: The Armpits
+         las axilas
         </strong>
-        [ES]: (Axillary arteries)
+        (Arterias axilares)
        </li>
        <li>
         <strong>
-         [ES]: The Groin
+         la ingle
         </strong>
-        [ES]: (Femoral arteries)
+        (Arterias femorales)
        </li>
       </ul>
-      [ES]: This can help cool the body while other cooling steps and emergency care are arranged.
+      Esto puede ayudar a enfriar el cuerpo mientras se organizan otras medidas de enfriamiento y atención de emergencia.
      </li>
      <li>
       <strong>
-       [ES]: Evaporative Misting:
+       Nebulización evaporativa:
       </strong>
-      [ES]: Mist the individual's entire body with cool water while placing them in the path of a gentle fan or breeze to simulate natural sweating.
+      Rocíe todo el cuerpo de la persona con agua fría mientras la coloca en el camino de un suave ventilador o brisa para simular la sudoración natural.
      </li>
      <li>
       <strong>
-       [ES]: Cold Water Foot Baths:
+       Baños de pies de agua fría:
       </strong>
-      [ES]: Soak feet and ankles in cool water if the person can do so safely. This may help with comfort and cooling; stop if the person feels worse.
+      Remoje los pies y los tobillos en agua fría si la persona puede hacerlo de manera segura. Esto puede ayudar con la comodidad y el enfriamiento; deténgase si la persona se siente peor.
      </li>
     </ol>
     <h2>
-     [ES]: 3. Hydration Science &amp; Electrolyte Management
+     3. Ciencia de la hidratación y gestión de electrolitos
     </h2>
     <p>
-     [ES]: Dehydration reduces blood volume, forcing the heart to pump faster and making sweat production less efficient.
+     La deshidratación reduce el volumen sanguíneo, lo que obliga al corazón a bombear más rápido y hace que la producción de sudor sea menos eficiente.
     </p>
     <div class="box ok">
      <span class="tag ok">
       Electrolyte Balance
      </span>
      <h3>
-      [ES]: Water vs. Electrolytes &amp; Homemade Recipe
+      Agua versus electrolitos y receta casera
      </h3>
      <p>
-      [ES]: Drinking massive volumes of plain water without replenishing salts during prolonged heavy sweating can lead to
+      Beber grandes cantidades de agua corriente sin reponer las sales durante una sudoración intensa y prolongada puede provocar
       <strong>
-       [ES]: hyponatremia
+       hiponatremia
       </strong>
-      [ES]: (dangerously low blood sodium). Symptoms include headache, confusion, nausea, muscle weakness, and in severe cases, seizures.
+      (sodio en sangre peligrosamente bajo). Los síntomas incluyen dolor de cabeza, confusión, náuseas, debilidad muscular y, en casos graves, convulsiones.
      </p>
      <p>
-      [ES]: For prolonged heavy sweating, oral rehydration solution (ORS), an electrolyte drink, salty foods with water, or a carefully mixed homemade solution can help replace salts. If using the ORS-style mix below, measure carefully:
+      Para la sudoración intensa prolongada, una solución de rehidratación oral (SRO), una bebida con electrolitos, alimentos salados con agua o una solución casera cuidadosamente mezclada pueden ayudar a reemplazar las sales. Si usa la mezcla estilo SRO a continuación, mida con cuidado:
      </p>
      <ul>
       <li>
        <strong>
-        [ES]: 1 Liter
+        1 litro
        </strong>
-       [ES]: of clean water
+       de agua limpia
       </li>
       <li>
        <strong>
-        🚨[REVIEW_REQUIRED] [ES]: 1/2 level teaspoon
+        🚨[REVIEW_REQUIRED] 1/2 cucharadita rasa
        </strong>
-       [ES]: of Table Salt (replenishes sodium)
+       de sal de mesa (repone el sodio)
       </li>
       <li>
        <strong>
-        🚨[REVIEW_REQUIRED] [ES]: 6 level teaspoons
+        🚨[REVIEW_REQUIRED] 6 cucharaditas rasas
        </strong>
-       [ES]: of Sugar (helps the body absorb water and sodium rapidly)
+       de Azúcar (ayuda al cuerpo a absorber agua y sodio rápidamente)
       </li>
       <li>
        <em>
-        [ES]: Optional:
+        Opcional:
        </em>
-       [ES]: a small amount of citrus juice for flavor. Discard after 24 hours or sooner if contaminated.
+       una pequeña cantidad de jugo de cítricos para darle sabor. Deseche después de 24 horas o antes si está contaminado.
       </li>
      </ul>
     </div>
     <h2>
-     [ES]: 4. Environmental Workarounds for Living Spaces
+     4. Soluciones medioambientales para los espacios habitables
     </h2>
     <p>
-     [ES]: If air conditioning is unavailable or unaffordable, these steps can sometimes reduce indoor heat. If the home remains dangerously hot, help the person reach a cooler place if possible:
+     Si el aire acondicionado no está disponible o es inasequible, estas medidas a veces pueden reducir el calor interior. Si la casa permanece peligrosamente caliente, ayude a la persona a llegar a un lugar más fresco si es posible:
     </p>
     <ul>
      <li>
       <strong>
-       [ES]: Strategic Shading &amp; Solar Block:
+       Sombreado estratégico y bloqueo solar:
       </strong>
-      [ES]: Block direct sunlight from entering windows. Cover the outside of windows with cardboard, reflective foil (shiny side out), or light-colored sheets. This reflects solar radiation before it gets trapped inside.
+      Bloquee la entrada de luz solar directa por las ventanas. Cubra el exterior de las ventanas con cartón, papel de aluminio reflectante (con el lado brillante hacia afuera) o láminas de colores claros. Esto refleja la radiación solar antes de quedar atrapada en el interior.
      </li>
      <li>
       <strong>
-       [ES]: Thermal Mass Management:
+       Gestión de Masa Térmica:
       </strong>
-      [ES]: Keep windows closed and blinds drawn during the day. Open all windows and utilize fans only when the outside air temperature drops below the indoor temperature (usually after dusk).
+      Mantenga las ventanas cerradas y las persianas bajadas durante el día. Abra todas las ventanas y utilice ventiladores solo cuando la temperatura del aire exterior descienda por debajo de la temperatura interior (generalmente después del anochecer).
      </li>
      <li>
       <strong>
-       [ES]: Utilize Ground Floors:
+       Utilizar plantas bajas:
       </strong>
-      [ES]: Because hot air rises, basement apartments or ground-level floors are often cooler than upper floors in multi-story buildings. Encourage neighbors who face higher heat risk or limited cooling access to rest on lower levels during the hottest peak hours.
+      Debido a que el aire caliente asciende, los apartamentos del sótano o los pisos a nivel del suelo suelen ser más fríos que los pisos superiores en los edificios de varios pisos. Aliente a los vecinos que enfrentan un mayor riesgo de calor o acceso limitado a refrigeración a descansar en niveles más bajos durante las horas pico más calurosas.
      </li>
     </ul>
     <p class="sources">
-     🚨[REVIEW_REQUIRED] [ES]: Sources: CDC Heat &amp; Health, WHO Heat and health fact sheet, U.S. National Weather Service Heat Safety, and peer-reviewed heat-health literature. This is general information, not medical advice; follow local alerts and emergency guidance.
+     🚨[REVIEW_REQUIRED] Fuentes: CDC Heat &amp; Health, hoja informativa sobre calor y salud de la OMS, seguridad térmica del Servicio Meteorológico Nacional de EE. UU. y literatura sobre salud térmica revisada por pares. Esta es información general, no consejo médico; Siga las alertas locales y las pautas de emergencia.
     </p>
     <p class="disclaimer">
-     [ES]: This guide is general information, not medical advice, and is not a substitute for professional emergency care or training. In an emergency, always call your local emergency number. When symptoms are severe or you are unsure, treat it as an emergency. Reuse and reprint freely.
+     Esta guía es información general, no asesoramiento médico, y no sustituye la atención de emergencia ni la capacitación profesional. En caso de emergencia, llame siempre a su número de emergencia local. Cuando los síntomas sean graves o no esté seguro, trátelo como una emergencia. Reutilice y reimprima libremente.
     </p>
    </div>
   </main>
   <footer class="site">
    <div class="wrap">
-    [ES]: A free, open Help Kit ·
+    Un kit de ayuda abierto y gratuito ·
     <a href="https://github.com/ai-village-agents/help-kit">
-     [ES]: source on GitHub
+     fuente en GitHub
     </a>
-    [ES]: · Public domain (CC0)
+    · Dominio público (CC0)
    </div>
   </footer>
   <script>

@@ -4,9 +4,9 @@
   <meta charset="utf-8"/>
   <meta content="width=device-width,initial-scale=1" name="viewport"/>
   <title>
-   [FR]: Heart Attack: Recognize Signs &amp; Act — Help Kit | Help Kit
+   Crise cardiaque : reconnaître les signes et agir – Kit d'aide | Help Kit
   </title>
-  <meta content="[FR]: A free, source-cited one-page guide to spotting possible heart attack symptoms, calling emergency help immediately, and following dispatcher guidance. Based on AHA, CDC, NHS, NHLBI, and BHF guidance." name="description"/>
+  <meta content="Un guide gratuit cité par une source pour repérer les symptômes d'une crise cardiaque et obtenir rapidement une aide d'urgence. Basé sur les conseils de l’AHA, du CDC, du NHS, du NHLBI et du BHF." name="description"/>
   <link href="https://ai-village-agents.github.io/help-kit/heart/" rel="canonical"/>
   <meta content="noindex, nofollow, noarchive" name="robots"/>
   <meta content="Help Kit" property="og:site_name"/>
@@ -24,13 +24,61 @@
   <link href="../style.css" rel="stylesheet"/>
   <link href="/help-kit/manifest.webmanifest" rel="manifest"/>
   <link href="/help-kit/icon-192.png" rel="apple-touch-icon"/>
+  <script type="application/ld+json">
+   {
+  "@context": "https://schema.org",
+  "@type": "MedicalWebPage",
+  "name": "Heart Attack: Recognize Signs & Act",
+  "description": "A free, source-cited guide to spotting heart attack symptoms and getting emergency help fast. Based on AHA, CDC, NHS, NHLBI, and BHF guidance.",
+  "url": "https://ai-village-agents.github.io/help-kit/heart/",
+  "inLanguage": "en",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "Help Kit",
+    "url": "https://ai-village-agents.github.io/help-kit/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Help Kit",
+    "url": "https://ai-village-agents.github.io/help-kit/"
+  },
+  "citation": [
+    {
+      "@type": "WebPage",
+      "name": "American Heart Association (AHA) — Heart Attack Symptoms and Warning Signs",
+      "url": "https://www.heart.org/en/health-topics/heart-attack/warning-signs-of-a-heart-attack"
+    },
+    {
+      "@type": "WebPage",
+      "name": "U.S. CDC — Heart Attack Symptoms and Risk Factors",
+      "url": "https://www.cdc.gov/heart-disease/about/heart-attack.html"
+    },
+    {
+      "@type": "WebPage",
+      "name": "National Heart, Lung, and Blood Institute (NHLBI) — Heart Attack",
+      "url": "https://www.nhlbi.nih.gov/health/heart-attack"
+    },
+    {
+      "@type": "WebPage",
+      "name": "NHS — Heart attack symptoms and what to do",
+      "url": "https://www.nhs.uk/conditions/heart-attack/"
+    },
+    {
+      "@type": "WebPage",
+      "name": "British Heart Foundation (BHF) — Heart Attack Symptoms and Action Guide",
+      "url": "https://www.bhf.org.uk/informationsupport/conditions/heart-attack"
+    }
+  ]
+}
+  </script>
  </head>
  <body>
   <div class="notice danger" data-draft-warning="true">
    UNREVIEWED MACHINE TRANSLATION DRAFT (fr). Do not use for medical guidance, sharing, printing, or training until fluent local reviewers verify all emergency numbers, doses, timings, and local guidance against the English source.
   </div>
   <a class="skip-link" href="#main">
-   [FR]: Skip to main content
+   Passer au contenu principal
   </a>
   <header class="site">
    <div class="wrap">
@@ -39,49 +87,49 @@
     </a>
     <nav>
      <a href="../heat/">
-      [FR]: Extreme Heat
+      Chaleur extrême
      </a>
      <a href="../smoke/">
-      [FR]: Wildfire Smoke
+      Fumée de feux de forêt
      </a>
      <a href="../naloxone/">
-      [FR]: Opioid Overdose
+      Surdose d'opioïdes
      </a>
      <a href="../ors/">
-      [FR]: Dehydration &amp; ORS
+      Déshydratation et SOR
      </a>
      <a href="../choking/">
-      [FR]: Choking
+      Étouffement
      </a>
      <a href="../bleeding/">
-      [FR]: Severe Bleeding
+      Saignement sévère
      </a>
      <a href="../cpr/">
-      [FR]: CPR
+      RCR
      </a>
      <a href="../stroke/">
-      [FR]: Stroke
+      Accident vasculaire cérébral
      </a>
      <a href="../burns/">
-      [FR]: Burns
+      Brûlures
      </a>
      <a href="../seizure/">
-      [FR]: Seizure
+      Crise d'épilepsie
      </a>
      <a href="../allergy/">
-      [FR]: Severe Allergy
+      Allergie sévère
      </a>
      <a href="../cold/">
-      [FR]: Cold Safety
+      Sécurité contre le froid
      </a>
      <a href="../heart/">
-      [FR]: Heart Attack
+      Crise cardiaque
      </a>
      <a href="../triage/">
-      [FR]: Triage
+      Triage
      </a>
      <a href="../localize.html">
-      [FR]: Localize &amp; share
+      Localiser et partager
      </a>
     </nav>
    </div>
@@ -89,24 +137,24 @@
   <section class="hero">
    <div class="wrap">
     <h1>
-     [FR]: Heart Attack: recognize and act
+     Crise cardiaque : reconnaître et agir
     </h1>
     <p>
-     [FR]: A heart attack occurs when blood flow to part of the heart muscle is severely reduced or blocked. The longer the block is left untreated, the greater the damage to the heart muscle. Recognizing possible symptoms and acting immediately can help the person get urgent care. Free to read, print, and share.
+     Une crise cardiaque survient lorsque le flux sanguin vers une partie du muscle cardiaque est gravement réduit ou bloqué. Plus le bloc n’est pas traité longtemps, plus les dommages au muscle cardiaque sont importants. Reconnaître les symptômes possibles et agir immédiatement peut aider la personne à obtenir des soins d'urgence. Lecture, impression et partage gratuits.
     </p>
    </div>
   </section>
   <main id="main">
    <div class="wrap">
     <p class="lede">
-     [FR]: Some heart attacks start slowly, with mild pain or discomfort, while others are sudden and intense. Symptoms can vary widely, and many people do not experience classic crushing chest pain. When in doubt, call emergency help right away and follow dispatcher guidance.
+     Certaines crises cardiaques commencent lentement, avec une légère douleur ou un léger inconfort, tandis que d'autres sont soudaines et intenses. Les symptômes peuvent varier considérablement et de nombreuses personnes ne ressentent pas de douleur thoracique écrasante classique. En cas de doute, appelez immédiatement les secours et suivez les instructions du répartiteur.
     </p>
     <div class="actions no-print">
      <a class="btn" href="javascript:window.print()">
-      [FR]: Print this page
+      Imprimer cette page
      </a>
      <a class="btn alt" href="heart-onepager.pdf">
-      [FR]: Download printable PDF
+      Télécharger le PDF imprimable
      </a>
     </div>
     <div class="box emergency">
@@ -114,40 +162,40 @@
       Call emergency services now
      </span>
      <h3>
-      [FR]: A heart attack is a medical emergency — call immediately
+      Une crise cardiaque est une urgence médicale : appelez immédiatement
      </h3>
      <p>
-      🚨[REVIEW_REQUIRED] [FR]: If you or someone else might be having a heart attack, call your local emergency number (examples: 911, 112, or 999; verify locally) right away. Do not wait to see if symptoms go away. Put the phone on speaker if you can and follow dispatcher or local emergency guidance.
+      🚨[REVIEW_REQUIRED] Si vous ou quelqu'un d'autre pourriez avoir une crise cardiaque, appelez immédiatement votre numéro d'urgence local (exemples : 911, 112 ou 999 ; vérifiez localement). N'attendez pas pour voir si les symptômes disparaissent. Mettez le téléphone sur haut-parleur si vous le pouvez et suivez le répartiteur ou les conseils d'urgence locaux.
      </p>
     </div>
     <h2>
-     [FR]: Recognize the signs of a heart attack
+     Reconnaître les signes d'une crise cardiaque
     </h2>
     <div class="steps">
      <ol>
       <li>
        <strong>
-        [FR]: Chest discomfort.
+        Inconfort thoracique.
        </strong>
-       [FR]: Most heart attacks involve discomfort in the center of the chest that lasts more than a few minutes, or that goes away and comes back. It can feel like uncomfortable pressure, squeezing, fullness, or pain.
+       La plupart des crises cardiaques impliquent une gêne au centre de la poitrine qui dure plus de quelques minutes, ou qui disparaît et réapparaît. Cela peut ressembler à une pression inconfortable, à une compression, à une plénitude ou à une douleur.
       </li>
       <li>
        <strong>
-        [FR]: Discomfort in other upper-body areas.
+        Inconfort dans d’autres zones du haut du corps.
        </strong>
-       [FR]: Symptoms can include pain or discomfort in one or both arms, the back, neck, jaw, or stomach.
+       Les symptômes peuvent inclure une douleur ou un inconfort dans un ou les deux bras, dans le dos, le cou, la mâchoire ou l'estomac.
       </li>
       <li>
        <strong>
-        [FR]: Shortness of breath.
+        Essoufflement.
        </strong>
-       [FR]: This can happen with or without chest discomfort, sometimes as the only symptom.
+       Cela peut se produire avec ou sans gêne thoracique, parfois comme seul symptôme.
       </li>
       <li>
        <strong>
-        [FR]: Other signs.
+        D'autres signes.
        </strong>
-       [FR]: These may include breaking out in a cold sweat, feeling lightheaded or dizzy, or experiencing unexplained nausea or vomiting.
+       Ceux-ci peuvent inclure des sueurs froides, des étourdissements ou des étourdissements, ou des nausées ou des vomissements inexpliqués.
       </li>
      </ol>
     </div>
@@ -156,11 +204,11 @@
       Symptoms can be different for women
      </span>
      <p>
-      [FR]: Like men, women's most common heart attack symptom is chest pain or discomfort. However, women are somewhat more likely than men to experience other common symptoms, particularly shortness of breath, nausea, vomiting, and back or jaw pain, without any chest pressure or pain. Do not ignore these subtler signs.
+      Comme chez les hommes, le symptôme de crise cardiaque le plus courant chez les femmes est une douleur ou un inconfort thoracique. Cependant, les femmes sont un peu plus susceptibles que les hommes de ressentir d'autres symptômes courants, notamment un essoufflement, des nausées, des vomissements et des douleurs au dos ou à la mâchoire, sans aucune pression ni douleur thoracique. N'ignorez pas ces signes plus subtils.
      </p>
     </div>
     <h2>
-     [FR]: What to do while you wait for medical help
+     Que faire en attendant une aide médicale
     </h2>
     <div class="box ok">
      <span class="tag ok">
@@ -169,37 +217,37 @@
      <ul>
       <li>
        <strong>
-        [FR]: Sit down, rest, and stay calm.
+        Asseyez-vous, reposez-vous et restez calme.
        </strong>
-       [FR]: Do not allow the person to walk, climb stairs, or exert themselves, as physical effort increases the strain on the heart.
+       Ne laissez pas la personne marcher, monter les escaliers ou faire de l'exercice, car l'effort physique augmente la tension sur le cœur.
       </li>
       <li>
        <strong>
-        [FR]: Ask about aspirin only after calling.
+        Renseignez-vous sur l'aspirine seulement après avoir appelé.
        </strong>
-       [FR]: Do not delay the emergency call to find aspirin. Give aspirin only if the dispatcher, a clinician, or local protocol tells you to and the person is alert enough to chew/swallow and has no aspirin allergy, aspirin intolerance, bleeding disorder or serious recent bleeding, blood-thinner concern, or other known reason to avoid it.
+       Ne retardez pas l’appel d’urgence pour trouver de l’aspirine. Donnez de l'aspirine uniquement si le répartiteur, un clinicien ou le protocole local vous le demande et que la personne est suffisamment alerte pour mâcher/avaler et n'a pas d'allergie à l'aspirine, d'intolérance à l'aspirine, de trouble de la coagulation ou de saignement récent grave, de problème d'anticoagulant ou autre raison connue pour l'éviter.
       </li>
       <li>
        <strong>
-        [FR]: Loosen tight clothing.
+        Desserrez les vêtements serrés.
        </strong>
-       [FR]: Unbutton collars, loosen belts, and make sure their airway is completely clear.
+       Déboutonnez les cols, desserrez les ceintures et assurez-vous que leurs voies respiratoires sont complètement dégagées.
       </li>
       <li>
        <strong>
-        [FR]: Stay with them.
+        Restez avec eux.
        </strong>
-       [FR]: Reassure them continuously. Keep them sitting comfortably to help them breathe more easily.
+       Rassurez-les continuellement. Gardez-les assis confortablement pour les aider à respirer plus facilement.
       </li>
       <li>
        <strong>
-        [FR]: Be ready to start CPR.
+        Soyez prêt à commencer la RCR.
        </strong>
-       [FR]: If the person becomes unresponsive and is not breathing normally,
+       Si la personne ne répond plus et ne respire pas normalement,
        <a href="../cpr/">
-        [FR]: start Hands-Only CPR
+        commencer la RCR à mains seules
        </a>
-       [FR]: immediately. Put the phone on speaker and follow dispatcher instructions.
+       immédiatement. Mettez le téléphone sur haut-parleur et suivez les instructions du répartiteur.
       </li>
      </ul>
     </div>
@@ -210,94 +258,94 @@
      <ul>
       <li>
        <strong>
-        [FR]: Do not drive yourself or the patient to the hospital if emergency medical services are available.
+        Ne conduisez pas vous-même ou le patient à l'hôpital si des services médicaux d'urgence sont disponibles.
        </strong>
-       [FR]: Driving can be dangerous if symptoms worsen, and emergency responders can assess and guide care on the way.
+       Conduire peut être dangereux si les symptômes s’aggravent, et les secouristes peuvent évaluer et guider les soins en cours de route.
       </li>
       <li>
        <strong>
-        [FR]: Do not ignore symptoms or wait to see if they pass.
+        N'ignorez pas les symptômes et n'attendez pas de voir s'ils disparaissent.
        </strong>
-       [FR]: Many people delay seeking help because symptoms seem mild, unusual, or like indigestion or muscle strain.
+       De nombreuses personnes tardent à demander de l’aide parce que les symptômes semblent légers, inhabituels ou s’apparentent à une indigestion ou à une tension musculaire.
       </li>
       <li>
        <strong>
-        [FR]: Do not try “cough CPR.”
+        N’essayez pas la « RCR contre la toux ».
        </strong>
-       [FR]: Coughing repeatedly and vigorously is an unsafe internet myth for bystanders and should not be used instead of calling emergency help.
+       Tousser de manière répétée et vigoureuse est un mythe dangereux sur Internet pour les passants et ne devrait pas être utilisé à la place d'appeler les secours.
       </li>
       <li>
        <strong>
-        [FR]: Do not give food or drink.
+        Ne donnez pas de nourriture ni de boisson.
        </strong>
-       [FR]: Avoid food, alcohol, or unnecessary drinks while waiting for emergency help, especially if the person is nauseated, short of breath, confused, drowsy, or may need urgent treatment.
+       Évitez la nourriture, l'alcool ou les boissons inutiles en attendant une aide d'urgence, surtout si la personne a des nausées, est essoufflée, confuse, somnolente ou peut avoir besoin d'un traitement urgent.
       </li>
      </ul>
     </div>
     <h2>
-     [FR]: Lower your risk
+     Réduisez votre risque
     </h2>
     <ul>
      <li>
-      [FR]: Monitor and control high blood pressure, high cholesterol, and diabetes under a clinician's care.
+      Surveillez et contrôlez l'hypertension artérielle, l'hypercholestérolémie et le diabète sous la surveillance d'un clinicien.
      </li>
      <li>
-      [FR]: Avoid smoking and limit alcohol consumption to low-risk levels.
+      Évitez de fumer et limitez votre consommation d’alcool à des niveaux à faible risque.
      </li>
      <li>
-      [FR]: Maintain a healthy weight, eat a heart-healthy diet, and stay physically active.
+      Maintenez un poids santé, adoptez une alimentation saine pour le cœur et restez physiquement actif.
      </li>
      <li>
-      [FR]: Understand your family medical history and discuss your cardiovascular risk factors with a doctor.
+      Comprenez vos antécédents médicaux familiaux et discutez de vos facteurs de risque cardiovasculaire avec un médecin.
      </li>
     </ul>
     <h2>
-     [FR]: Sources
+     Sources
     </h2>
     <ul class="sources">
      <li>
       <a href="https://www.heart.org/en/health-topics/heart-attack/warning-signs-of-a-heart-attack">
-       🚨[REVIEW_REQUIRED] [FR]: American Heart Association (AHA) — Heart Attack Symptoms and Warning Signs
+       🚨[REVIEW_REQUIRED] American Heart Association (AHA) — Symptômes et signes avant-coureurs d’une crise cardiaque
       </a>
       .
      </li>
      <li>
       <a href="https://www.cdc.gov/heart-disease/about/heart-attack.html">
-       🚨[REVIEW_REQUIRED] [FR]: U.S. CDC — Heart Attack Symptoms and Risk Factors
+       🚨[REVIEW_REQUIRED] CDC américain — Symptômes et facteurs de risque de crise cardiaque
       </a>
       .
      </li>
      <li>
       <a href="https://www.nhlbi.nih.gov/health/heart-attack">
-       [FR]: National Heart, Lung, and Blood Institute (NHLBI) — Heart Attack
+       Institut national du cœur, des poumons et du sang (NHLBI) – Crise cardiaque
       </a>
       .
      </li>
      <li>
       <a href="https://www.nhs.uk/conditions/heart-attack/">
-       🚨[REVIEW_REQUIRED] [FR]: NHS — Heart attack symptoms and what to do
+       🚨[REVIEW_REQUIRED] NHS – Symptômes de crise cardiaque et que faire
       </a>
       .
      </li>
      <li>
       <a href="https://www.bhf.org.uk/informationsupport/conditions/heart-attack">
-       [FR]: British Heart Foundation (BHF) — Heart Attack Symptoms and Action Guide
+       British Heart Foundation (BHF) — Symptômes de crise cardiaque et guide d'action
       </a>
       .
      </li>
     </ul>
     <p class="disclaimer">
-     [FR]: This guide is general information, not medical advice. In an emergency, always call your local emergency number without delay. Reuse and reprint freely.
+     Ce guide est une information générale et non un avis médical. En cas d’urgence, appelez toujours sans délai votre numéro d’urgence local. Réutilisez et réimprimez librement.
     </p>
    </div>
   </main>
   <footer class="site">
    <div class="wrap">
-    [FR]: A free, open Help Kit ·
+    Un kit d'aide gratuit et ouvert ·
     <a href="https://github.com/ai-village-agents/help-kit">
-     [FR]: source on GitHub
+     source sur GitHub
     </a>
-    [FR]: · Public domain (CC0) · Verify against your local health authority
+    · Domaine public (CC0) · Vérifiez auprès de votre autorité sanitaire locale
    </div>
   </footer>
   <script>

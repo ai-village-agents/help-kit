@@ -4,9 +4,9 @@
   <meta charset="utf-8"/>
   <meta content="width=device-width,initial-scale=1" name="viewport"/>
   <title>
-   [ES]: Localize and Share Safely — Help Kit | Help Kit
+   Localice y comparta de forma segura: kit de ayuda | Help Kit
   </title>
-  <meta content="[ES]: How to localize Help Kit pages for your city, language, emergency numbers, and community without collecting unnecessary personal data." name="description"/>
+  <meta content="Cómo localizar las páginas del kit de ayuda para su ciudad, idioma, números de emergencia y comunidad sin recopilar datos personales innecesarios." name="description"/>
   <link href="https://ai-village-agents.github.io/help-kit/localize.html" rel="canonical"/>
   <meta content="noindex, nofollow, noarchive" name="robots"/>
   <meta content="Help Kit" property="og:site_name"/>
@@ -30,7 +30,7 @@
    UNREVIEWED MACHINE TRANSLATION DRAFT (es). Do not use for medical guidance, sharing, printing, or training until fluent local reviewers verify all emergency numbers, doses, timings, and local guidance against the English source.
   </div>
   <a class="skip-link" href="#main">
-   [ES]: Skip to main content
+   Saltar al contenido principal
   </a>
   <header class="site">
    <div class="wrap">
@@ -39,49 +39,49 @@
     </a>
     <nav>
      <a href="heat/">
-      [ES]: Extreme Heat
+      Calor extremo
      </a>
      <a href="smoke/">
-      [ES]: Wildfire Smoke
+      Humo de incendios forestales
      </a>
      <a href="naloxone/">
-      [ES]: Opioid Overdose
+      Sobredosis de opioides
      </a>
      <a href="ors/">
-      [ES]: Dehydration &amp; ORS
+      Deshidratación y SRO
      </a>
      <a href="choking/">
-      [ES]: Choking
+      asfixia
      </a>
      <a href="bleeding/">
-      [ES]: Severe Bleeding
+      Sangrado severo
      </a>
      <a href="cpr/">
-      [ES]: CPR
+      RCP
      </a>
      <a href="stroke/">
-      [ES]: Stroke
+      Ataque
      </a>
      <a href="burns/">
-      [ES]: Burns
+      quemaduras
      </a>
      <a href="seizure/">
-      [ES]: Seizure
+      Convulsión
      </a>
      <a href="allergy/">
-      [ES]: Severe Allergy
+      Alergia severa
      </a>
      <a href="cold/">
-      [ES]: Cold Safety
+      Seguridad en frío
      </a>
      <a href="heart/">
-      [ES]: Heart Attack
+      Infarto de miocardio
      </a>
      <a href="triage/">
-      [ES]: Triage
+      Triaje
      </a>
      <a href="localize.html">
-      [ES]: Localize &amp; share
+      Localizar y compartir
      </a>
     </nav>
    </div>
@@ -89,10 +89,10 @@
   <section class="hero">
    <div class="wrap">
     <h1>
-     [ES]: Localize and share safely
+     Localiza y comparte de forma segura
     </h1>
     <p>
-     [ES]: Help Kit pages are public domain, but emergency guidance is local. Before printing or forwarding, replace generic details with trusted local information.
+     Las páginas del kit de ayuda son de dominio público, pero la orientación de emergencia es local. Antes de imprimir o reenviar, reemplace los detalles genéricos con información local confiable.
     </p>
    </div>
   </section>
@@ -100,16 +100,16 @@
    <div class="wrap">
     <p class="lede">
      <strong>
-      🚨[REVIEW_REQUIRED] [ES]: Last updated: June 16, 2026.
+      🚨[REVIEW_REQUIRED] Última actualización: 16 de junio de 2026.
      </strong>
-     [ES]: This page is for organizers, librarians, mutual-aid groups, tenant associations, faith groups, clinics, and volunteers adapting the kit for a real place.
+     Esta página es para organizadores, bibliotecarios, grupos de ayuda mutua, asociaciones de inquilinos, grupos religiosos, clínicas y voluntarios que adaptan el kit a un lugar real.
     </p>
     <div class="box emergency">
      <span class="tag">
       Do this first
      </span>
      <p>
-      🚨[REVIEW_REQUIRED] [ES]: Verify your local emergency number, official health authority guidance, cooling or clean-air locations, naloxone availability, and language/access needs. Do not copy a U.S.-specific detail into another country without checking it.
+      🚨[REVIEW_REQUIRED] Verifique su número de emergencia local, las pautas oficiales de la autoridad sanitaria, las ubicaciones de refrigeración o aire limpio, la disponibilidad de naloxona y las necesidades de idioma/acceso. No copie un detalle específico de EE. UU. a otro país sin verificarlo.
      </p>
     </div>
     <div class="box ok">
@@ -117,209 +117,209 @@
       Offline and print backup
      </span>
      <p>
-      [ES]: The site is set up to work offline in modern browsers after one online visit. Before sharing for a likely outage, ask people to open the site once while online, download the combined PDF pack, or print the one-pagers. Test offline access before relying on it.
+      El sitio está configurado para funcionar sin conexión en navegadores modernos después de una visita en línea. Antes de compartir información sobre una posible interrupción, pida a las personas que abran el sitio una vez mientras están en línea, descarguen el paquete PDF combinado o impriman las páginas individuales. Pruebe el acceso sin conexión antes de confiar en él.
      </p>
     </div>
     <h2>
-     [ES]: 10-minute localization checklist
+     Lista de verificación de localización de 10 minutos
     </h2>
     <ol class="steps">
      <li>
       <strong>
-       [ES]: Emergency number:
+       Número de emergencia:
       </strong>
-      🚨[REVIEW_REQUIRED] [ES]: replace examples like 911/112/999 with the right local number or instruction.
+      🚨[REVIEW_REQUIRED]  reemplace ejemplos como 911/112/999 con el número local o la instrucción correcta.
      </li>
      <li>
       <strong>
-       [ES]: Official source:
+       Fuente oficial:
       </strong>
-      [ES]: add your city/county/state/national health or emergency-management link.
+      agregue su ciudad/condado/estado/enlace nacional de salud o gestión de emergencias.
      </li>
      <li>
       <strong>
-       [ES]: Locations:
+       Ubicaciones:
       </strong>
-      [ES]: add cooling centers, clean-air spaces, libraries, clinics, pharmacies, transit routes, water sites, or shelters only if current.
+      agregue centros de enfriamiento, espacios de aire limpio, bibliotecas, clínicas, farmacias, rutas de tránsito, sitios de agua o refugios solo si están vigentes.
      </li>
      <li>
       <strong>
-       [ES]: Access:
+       Acceso:
       </strong>
-      [ES]: note elevator access, wheelchair access, service-animal rules, restrooms, languages, hours, cost, and ID requirements.
+      tenga en cuenta el acceso al ascensor, el acceso para sillas de ruedas, las reglas para animales de servicio, baños, idiomas, horarios, costos y requisitos de identificación.
      </li>
      <li>
       <strong>
-       [ES]: Medical caveats:
+       Advertencias médicas:
       </strong>
-      [ES]: keep the “call emergency services” warnings; do not soften them to make the page feel less alarming.
+      mantener las advertencias de “llamar a los servicios de emergencia”; no los suavices para que la página parezca menos alarmante.
      </li>
      <li>
       <strong>
-       [ES]: Privacy:
+       Privacidad:
       </strong>
-      [ES]: if you make a buddy-check list, keep it private and collect only what is needed for check-ins.
+      Si hace una lista de verificación de amigos, manténgala privada y recopile solo lo necesario para los registros.
      </li>
      <li>
       <strong>
-       [ES]: Translation:
+       Traducción:
       </strong>
-      [ES]: use plain language; ask a fluent speaker to review for local meaning, not just word-for-word accuracy.
+      utilizar un lenguaje sencillo; Pídale a un hablante fluido que revise el significado local, no solo la precisión palabra por palabra.
      </li>
      <li>
       <strong>
-       [ES]: Offline access:
+       Acceso sin conexión:
       </strong>
-      [ES]: test the local copy, PDF pack, or printed pages before an outage.
+      Pruebe la copia local, el paquete PDF o las páginas impresas antes de una interrupción.
      </li>
      <li>
       <strong>
-       [ES]: Date:
+       Fecha:
       </strong>
-      [ES]: add a “last checked” date and a person/group responsible for updating local details.
+      agregue una fecha de “última verificación” y una persona/grupo responsable de actualizar los detalles locales.
      </li>
     </ol>
     <h2>
-     [ES]: What not to do
+     que no hacer
     </h2>
     <ul>
      <li>
-      [ES]: Do not publish lists of neighbors, addresses, phone numbers, medical status, immigration status, or unhoused encampment locations—especially for people facing access barriers or heightened risk.
+      No publique listas de vecinos, direcciones, números de teléfono, estado médico, estado migratorio o ubicaciones de campamentos sin vivienda, especialmente para personas que enfrentan barreras de acceso o un mayor riesgo.
      </li>
      <li>
-      [ES]: Do not imply that volunteers, AI tools, or this website can diagnose a medical condition.
+      No dé a entender que los voluntarios, las herramientas de inteligencia artificial o este sitio web puedan diagnosticar una afección médica.
      </li>
      <li>
-      [ES]: Do not promise that a DIY device, mask, cooling center, medication, or hotline will be available unless you verified it.
+      No prometa que un dispositivo de bricolaje, una máscara, un centro de enfriamiento, un medicamento o una línea directa estarán disponibles a menos que lo verifique.
      </li>
      <li>
-      [ES]: Do not shame people for not following advice that may be impossible for them because of work, disability, money, housing, fear, or transportation.
+      No avergüence a las personas por no seguir consejos que pueden resultarles imposibles debido al trabajo, la discapacidad, el dinero, la vivienda, el miedo o el transporte.
      </li>
     </ul>
     <h2>
-     [ES]: Short share copy
+     Copia corta para compartir
     </h2>
     <div class="box ok">
      <p>
       <strong>
-       [ES]: General:
+       General:
       </strong>
-      [ES]: Free, source-cited, print-friendly emergency help guides: extreme heat, wildfire smoke, opioid overdose response, dehydration/ORS, choking first aid, severe bleeding, CPR, stroke, burns, seizure first aid, severe allergy/anaphylaxis, cold weather safety, heart attack first aid, and a quick emergency navigator. Read, print, adapt, and verify locally: https://ai-village-agents.github.io/help-kit/
+      Guías de ayuda de emergencia gratuitas, citadas en fuentes y fáciles de imprimir: calor extremo, humo de incendios forestales, respuesta a sobredosis de opioides, deshidratación/SRO, primeros auxilios para asfixia, hemorragia grave, RCP, accidente cerebrovascular, quemaduras, primeros auxilios para convulsiones, alergia/anafilaxis grave, seguridad en climas fríos, primeros auxilios para ataques cardíacos y un navegador de emergencia rápido. Lea, imprima, adapte y verifique localmente: https://ai-village-agents.github.io/help-kit/
      </p>
      <p>
       <strong>
-       [ES]: Heat:
+       Calor:
       </strong>
-      [ES]: Heat wave coming? Print a buddy-check sheet, assign neighbors to check on at-risk people, and know when to call emergency services: https://ai-village-agents.github.io/help-kit/heat/
+      ¿Se acerca una ola de calor? Imprima una hoja de verificación de amigos, asigne vecinos para que controlen a las personas en riesgo y sepa cuándo llamar a los servicios de emergencia: https://ai-village-agents.github.io/help-kit/heat/
      </p>
      <p>
       <strong>
-       [ES]: Smoke:
+       Fumar:
       </strong>
-      [ES]: Wildfire smoke in the forecast? Check official AQI, make cleaner indoor air, and protect high-risk people: https://ai-village-agents.github.io/help-kit/smoke/
+      ¿Se pronostica humo de incendios forestales? Consulte el AQI oficial, haga un aire interior más limpio y proteja a las personas de alto riesgo: https://ai-village-agents.github.io/help-kit/smoke/
      </p>
      <p>
       <strong>
-       [ES]: Overdose:
+       Sobredosis:
       </strong>
-      🚨[REVIEW_REQUIRED] [ES]: If an opioid overdose is possible, call emergency services, give naloxone, support breathing, and stay until help arrives: https://ai-village-agents.github.io/help-kit/naloxone/
+      🚨[REVIEW_REQUIRED]  Si es posible una sobredosis de opioides, llame a los servicios de emergencia, administre naloxona, apoye la respiración y quédese hasta que llegue la ayuda: https://ai-village-agents.github.io/help-kit/naloxone/
      </p>
      <p>
       <strong>
-       [ES]: ORS:
+       SRO:
       </strong>
-      [ES]: Dehydration can become dangerous fast. Use oral rehydration solution carefully, give small frequent sips, and know danger signs: https://ai-village-agents.github.io/help-kit/ors/
+      La deshidratación puede volverse peligrosa rápidamente. Utilice la solución de rehidratación oral con cuidado, dé pequeños sorbos frecuentes y conozca las señales de peligro: https://ai-village-agents.github.io/help-kit/ors/
      </p>
      <p>
       <strong>
-       [ES]: Choking:
+       Asfixia:
       </strong>
-      [ES]: If someone cannot breathe, speak, cry, or cough, start choking first aid and call emergency services. Adult/child and baby steps: https://ai-village-agents.github.io/help-kit/choking/
+      Si alguien no puede respirar, hablar, llorar o toser, comience a sofocarlo con primeros auxilios y llame a los servicios de emergencia. Pasos de adulto/niño y bebé: https://ai-village-agents.github.io/help-kit/choking/
      </p>
      <p>
       <strong>
-       [ES]: Severe bleeding:
+       Sangrado severo:
       </strong>
-      [ES]: For spurting, pooling, soaking, or life-threatening bleeding, call emergency services and press hard on the wound; use packing or a tourniquet only when appropriate: https://ai-village-agents.github.io/help-kit/bleeding/
+      En caso de chorros, charcos, remojo o sangrado que ponga en peligro la vida, llame a los servicios de emergencia y presione con fuerza la herida; use embalaje o torniquete solo cuando sea apropiado: https://ai-village-agents.github.io/help-kit/bleeding/
      </p>
      <p>
       <strong>
-       [ES]: CPR:
+       RCP:
       </strong>
-      🚨[REVIEW_REQUIRED] [ES]: If an adult or teen collapses, is not responding, and is not breathing normally or only gasping, call emergency services, get an AED, and start hands-only CPR: https://ai-village-agents.github.io/help-kit/cpr/
+      🚨[REVIEW_REQUIRED]  Si un adulto o adolescente colapsa, no responde, no respira normalmente o solo jadea, llame a los servicios de emergencia, obtenga un DEA y comience la RCP solo con las manos: https://ai-village-agents.github.io/help-kit/cpr/
      </p>
      <p>
       <strong>
-       [ES]: Stroke:
+       Ataque:
       </strong>
-      [ES]: Stroke signs are sudden. Use FAST/BE-FAST, note when signs started or when the person was last well, and call emergency services right away: https://ai-village-agents.github.io/help-kit/stroke/
+      Los signos de un derrame cerebral son repentinos. Utilice FAST/BE-FAST, observe cuándo comenzaron los síntomas o cuándo la persona estuvo bien por última vez y llame a los servicios de emergencia de inmediato: https://ai-village-agents.github.io/help-kit/stroke/
      </p>
      <p>
       <strong>
-       [ES]: Burns:
+       Quemaduras:
       </strong>
-      🚨[REVIEW_REQUIRED] [ES]: For a burn, cool it under running water for 20 minutes; never use ice, butter, or toothpaste; cover loosely; and get medical help for large, deep, or facial/hand/electrical/chemical burns: https://ai-village-agents.github.io/help-kit/burns/
+      🚨[REVIEW_REQUIRED]  Para una quemadura, enfríelo con agua corriente durante 20 minutos; nunca uses hielo, mantequilla o pasta de dientes; cubrir sin apretar; y obtenga ayuda médica para quemaduras grandes, profundas o faciales/de manos/eléctricas/químicas: https://ai-village-agents.github.io/help-kit/burns/
      </p>
      <p>
       <strong>
-       [ES]: Seizure:
+       Convulsión:
       </strong>
-      🚨[REVIEW_REQUIRED] [ES]: Keep the person safe, time the seizure, never restrain them or put anything in their mouth, roll them onto their side once it stops, and call if it lasts over 5 minutes or is their first: https://ai-village-agents.github.io/help-kit/seizure/
+      🚨[REVIEW_REQUIRED]  Mantenga a la persona segura, cronometre la convulsión, nunca la sujete ni le ponga nada en la boca, gírela de lado una vez que se detenga y llámela si dura más de 5 minutos o es la primera: https://ai-village-agents.github.io/help-kit/seizure/
      </p>
      <p>
       <strong>
-       [ES]: Severe allergy:
+       Alergia grave:
       </strong>
-      🚨[REVIEW_REQUIRED] [ES]: Possible anaphylaxis? Call emergency services, use epinephrine if prescribed/available under local guidance, lay the person safely, and watch breathing: https://ai-village-agents.github.io/help-kit/allergy/
+      🚨[REVIEW_REQUIRED]  ¿Posible anafilaxia? Llame a los servicios de emergencia, use epinefrina si está recetada o disponible según las instrucciones locales, acueste a la persona de manera segura y observe la respiración: https://ai-village-agents.github.io/help-kit/allergy/
      </p>
      <p>
       <strong>
-       [ES]: Cold weather:
+       Clima frío:
       </strong>
-      [ES]: Possible hypothermia or frostbite? Move out of wind/cold if you can, warm gently, avoid rubbing or direct heat, and call emergency services for danger signs: https://ai-village-agents.github.io/help-kit/cold/
+      ¿Posible hipotermia o congelación? Si puede, aléjese del viento o del frío, caliente suavemente, evite frotar o calentar directamente y llame a los servicios de emergencia para detectar señales de peligro: https://ai-village-agents.github.io/help-kit/cold/
      </p>
      <p>
       <strong>
-       [ES]: Heart attack:
+       Infarto de miocardio:
       </strong>
-      [ES]: Possible heart attack symptoms? Call emergency services immediately, rest while help comes, follow dispatcher guidance, and be ready for CPR if breathing stops: https://ai-village-agents.github.io/help-kit/heart/
+      ¿Posibles síntomas de un ataque cardíaco? Llame a los servicios de emergencia de inmediato, descanse mientras llega la ayuda, siga las instrucciones del operador y esté preparado para la RCP si deja de respirar: https://ai-village-agents.github.io/help-kit/heart/
      </p>
      <p>
       <strong>
-       [ES]: Triage navigator:
+       Navegador de triaje:
       </strong>
-      [ES]: Not sure which guide fits? Use the quick emergency navigator while calling local emergency services for serious symptoms and following dispatcher guidance: https://ai-village-agents.github.io/help-kit/triage/
+      ¿No estás seguro de qué guía encaja? Utilice el navegador de emergencia rápido mientras llama a los servicios de emergencia locales si tiene síntomas graves y sigue las instrucciones del operador: https://ai-village-agents.github.io/help-kit/triage/
      </p>
     </div>
     <h2>
-     [ES]: For AI agents and remote volunteers
+     Para agentes de IA y voluntarios remotos
     </h2>
     <ul>
      <li>
-      [ES]: Ask what country/city the person is localizing for before giving emergency-number or resource advice.
+      Pregunte en qué país/ciudad se está localizando la persona antes de dar el número de emergencia o asesoramiento sobre recursos.
      </li>
      <li>
-      [ES]: Prefer official local links over generic search results.
+      Prefiera los enlaces locales oficiales a los resultados de búsqueda genéricos.
      </li>
      <li>
-      [ES]: Make uncertainty visible: “I have not verified today’s cooling-center hours.”
+      Haga visible la incertidumbre: “No he verificado el horario del centro de refrigeración de hoy”.
      </li>
      <li>
-      [ES]: Do not collect unnecessary personal data. If someone shares private details, do not put them in public repos or public chat.
+      No recopile datos personales innecesarios. Si alguien comparte datos privados, no los incluya en repositorios públicos ni en chats públicos.
      </li>
     </ul>
     <p class="disclaimer">
-     [ES]: These guides are general information, not medical advice, and are not a substitute for professional emergency care or training. In an emergency, call your local emergency number and follow dispatcher instructions.
+     Estas guías son información general, no asesoramiento médico, y no sustituyen la atención de emergencia ni la capacitación profesional. En caso de emergencia, llame a su número de emergencia local y siga las instrucciones del operador.
     </p>
    </div>
   </main>
   <footer class="site">
    <div class="wrap">
-    [ES]: A free, open Help Kit ·
+    Un kit de ayuda abierto y gratuito ·
     <a href="https://github.com/ai-village-agents/help-kit">
-     [ES]: source on GitHub
+     fuente en GitHub
     </a>
-    [ES]: · Public domain (CC0)
+    · Dominio público (CC0)
    </div>
   </footer>
   <script>

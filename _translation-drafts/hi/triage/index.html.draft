@@ -4,10 +4,10 @@
   <meta charset="utf-8"/>
   <meta content="width=device-width, initial-scale=1" name="viewport"/>
   <title>
-   [HI]: Emergency Triage — Quick Decision Guide — Help Kit | Help Kit
+   आपातकालीन ट्राइएज - त्वरित निर्णय मार्गदर्शिका - सहायता किट | Help Kit
   </title>
   <meta content="noindex, nofollow, noarchive" name="robots"/>
-  <meta content="[HI]: A fast navigator to quickly find the closest Help Kit guide while you call local emergency services when needed." name="description"/>
+  <meta content="जरूरत पड़ने पर स्थानीय आपातकालीन सेवाओं को कॉल करते समय निकटतम सहायता किट गाइड को तुरंत ढूंढने के लिए एक तेज़ नेविगेटर।" name="description"/>
   <link href="https://ai-village-agents.github.io/help-kit/triage/" rel="canonical"/>
   <meta content="Emergency Triage — Quick Decision Guide — Help Kit" property="og:title"/>
   <meta content="A fast navigator to quickly find the closest Help Kit guide while you call local emergency services when needed." property="og:description"/>
@@ -20,13 +20,34 @@
   <link href="../style.css" rel="stylesheet"/>
   <link href="/help-kit/manifest.webmanifest" rel="manifest"/>
   <link href="/help-kit/icon-192.png" rel="apple-touch-icon"/>
+  <script type="application/ld+json">
+   {
+  "@context": "https://schema.org",
+  "@type": "MedicalWebPage",
+  "name": "Emergency Triage — Quick Decision Guide",
+  "description": "A fast navigator to quickly find the closest Help Kit guide while you call local emergency services when needed.",
+  "url": "https://ai-village-agents.github.io/help-kit/triage/",
+  "inLanguage": "en",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "Help Kit",
+    "url": "https://ai-village-agents.github.io/help-kit/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Help Kit",
+    "url": "https://ai-village-agents.github.io/help-kit/"
+  }
+}
+  </script>
  </head>
  <body>
   <div class="notice danger" data-draft-warning="true">
    UNREVIEWED MACHINE TRANSLATION DRAFT (hi). Do not use for medical guidance, sharing, printing, or training until fluent local reviewers verify all emergency numbers, doses, timings, and local guidance against the English source.
   </div>
   <a class="skip-link" href="#main">
-   [HI]: Skip to main content
+   मुख्य सामग्री पर जाएँ
   </a>
   <header class="site">
    <div class="wrap">
@@ -35,49 +56,49 @@
     </a>
     <nav>
      <a href="../heat/">
-      [HI]: Extreme Heat
+      अत्यधिक गर्मी
      </a>
      <a href="../smoke/">
-      [HI]: Wildfire Smoke
+      जंगल की आग का धुआं
      </a>
      <a href="../naloxone/">
-      [HI]: Opioid Overdose
+      ओपिओइड ओवरडोज़
      </a>
      <a href="../ors/">
-      [HI]: Dehydration &amp; ORS
+      निर्जलीकरण एवं ओ.आर.एस
      </a>
      <a href="../choking/">
-      [HI]: Choking
+      दम घुट रहा है
      </a>
      <a href="../bleeding/">
-      [HI]: Severe Bleeding
+      गंभीर रक्तस्राव
      </a>
      <a href="../cpr/">
-      [HI]: CPR
+      सीपीआर
      </a>
      <a href="../stroke/">
-      [HI]: Stroke
+      आघात
      </a>
      <a href="../burns/">
-      [HI]: Burns
+      बर्न्स
      </a>
      <a href="../seizure/">
-      [HI]: Seizure
+      जब्ती
      </a>
      <a href="../allergy/">
-      [HI]: Severe Allergy
+      गंभीर एलर्जी
      </a>
      <a href="../cold/">
-      [HI]: Cold Safety
+      शीत सुरक्षा
      </a>
      <a href="../heart/">
-      [HI]: Heart Attack
+      दिल का दौरा
      </a>
      <a href="../triage/">
-      [HI]: Triage
+      ट्राइएज
      </a>
      <a href="../localize.html">
-      [HI]: Localize &amp; share
+      स्थानीयकृत करें और साझा करें
      </a>
     </nav>
    </div>
@@ -85,163 +106,163 @@
   <main id="main">
    <header class="hero">
     <h1>
-     [HI]: 🚨 Emergency Triage
+     🚨आपातकालीन ट्राइएज
     </h1>
     <p>
-     [HI]: Fast navigator for the first moments of an emergency. It is not a diagnosis: choose the closest match, call your local emergency number for life-threatening symptoms, and follow dispatcher/local guidance.
+     आपात्कालीन स्थिति के पहले क्षणों के लिए तेज़ नेविगेटर। यह कोई निदान नहीं है: निकटतम मिलान चुनें, जीवन-घातक लक्षणों के लिए अपने स्थानीय आपातकालीन नंबर पर कॉल करें, और डिस्पैचर/स्थानीय मार्गदर्शन का पालन करें।
     </p>
    </header>
    <div class="actions no-print">
     <a class="btn" href="javascript:window.print()">
-     [HI]: Print this page
+     इस पेज को प्रिंट करें
     </a>
     <a class="btn alt" href="triage-onepager.pdf">
-     [HI]: Download printable PDF
+     प्रिंट करने योग्य पीडीएफ डाउनलोड करें
     </a>
    </div>
    <section>
     <div class="box warn">
      <strong>
-      [HI]: If the scene is unsafe
+      यदि दृश्य असुरक्षित है
      </strong>
-     [HI]: — move yourself away from fire, traffic, violence, electrical hazards, chemicals, smoke, or other danger if you can. Call your local emergency number and follow dispatcher guidance before approaching.
+     - यदि आप कर सकते हैं तो अपने आप को आग, यातायात, हिंसा, बिजली के खतरों, रसायनों, धुएं या अन्य खतरों से दूर रखें। अपने स्थानीय आपातकालीन नंबर पर कॉल करें और संपर्क करने से पहले डिस्पैचर के मार्गदर्शन का पालन करें।
     </div>
     <div class="box emergency">
      <strong>
-      [HI]: If someone is unconscious and not breathing normally
+      यदि कोई बेहोश है और सामान्य रूप से सांस नहीं ले रहा है
      </strong>
-     🚨[REVIEW_REQUIRED] [HI]: — gasping or not breathing at all — call your local emergency number, put the phone on speaker, send someone for an AED if available, and start CPR immediately.
+     🚨[REVIEW_REQUIRED] - हांफना या बिल्कुल सांस न लेना - अपने स्थानीय आपातकालीन नंबर पर कॉल करें, फोन को स्पीकर पर रखें, यदि उपलब्ध हो तो एईडी के लिए किसी को भेजें और तुरंत सीपीआर शुरू करें।
      <br/>
      <br/>
      <a class="btn" href="../cpr/">
-      [HI]: Open CPR guide →
+      सीपीआर गाइड खोलें →
      </a>
     </div>
    </section>
    <section>
     <h2>
-     [HI]: What do you see?
+     आप क्या देखते हैं?
     </h2>
     <div class="two">
      <div class="box">
       <h3>
-       [HI]: 😮 Can't breathe, speak, or cough
+       😮साँस नहीं ले सकता, बोल नहीं सकता, या खाँस नहीं सकता
       </h3>
       <p>
-       [HI]: Person is clutching their throat, turning blue, or making high-pitched sounds.
+       व्यक्ति अपना गला दबा रहा है, नीला पड़ रहा है, या ऊंची आवाजें निकाल रहा है।
       </p>
       <a class="btn alt" href="../choking/">
-       [HI]: Choking guide →
+       चोकिंग गाइड →
       </a>
      </div>
      <div class="box emergency">
       <h3>
-       [HI]: 🩸 Heavy bleeding
+       🩸भारी रक्तस्राव
       </h3>
       <p>
-       [HI]: Blood is spurting, pooling, soaking through bandages, or the limb is severed.
+       रक्त तेजी से बह रहा है, एकत्र हो रहा है, पट्टियों से भीग रहा है, या अंग कट गया है।
       </p>
       <a class="btn" href="../bleeding/">
-       [HI]: Severe Bleeding guide →
+       गंभीर रक्तस्राव गाइड →
       </a>
      </div>
      <div class="box">
       <h3>
-       [HI]: 🧠 Sudden face droop, arm weakness, slurred speech
+       🧠अचानक चेहरा झुकना, बांहों में कमजोरी, अस्पष्ट वाणी
       </h3>
       <p>
-       [HI]: Or sudden severe headache, confusion, trouble seeing, or loss of balance.
+       या अचानक गंभीर सिरदर्द, भ्रम, देखने में परेशानी, या संतुलन खोना।
       </p>
       <a class="btn alt" href="../stroke/">
-       [HI]: Stroke guide →
+       स्ट्रोक गाइड →
       </a>
      </div>
      <div class="box">
       <h3>
-       [HI]: 💊 Cannot wake, slow or abnormal breathing after possible opioid use
+       💊संभावित ओपिओइड उपयोग के बाद जाग नहीं सकता, धीमी या असामान्य श्वास
       </h3>
       <p>
-       🚨[REVIEW_REQUIRED] [HI]: Possible opioid overdose. Call emergency services, give naloxone if available, and support breathing/follow dispatcher guidance.
+       🚨[REVIEW_REQUIRED] संभावित ओपिओइड ओवरडोज़। आपातकालीन सेवाओं को कॉल करें, यदि उपलब्ध हो तो नालोक्सोन दें और सांस लेने में सहायता करें/डिस्पैचर के मार्गदर्शन का पालन करें।
       </p>
       <a class="btn alt" href="../naloxone/">
-       [HI]: Opioid Overdose guide →
+       ओपिओइड ओवरडोज़ गाइड →
       </a>
      </div>
      <div class="box warn">
       <h3>
-       [HI]: 🥵 Confusion, fainting, very hot skin
+       🥵 भ्रम, बेहोशी, बहुत गर्म त्वचा
       </h3>
       <p>
-       [HI]: In hot weather or after exertion. Could be heat stroke.
+       गर्म मौसम में या परिश्रम के बाद। हीट स्ट्रोक हो सकता है.
       </p>
       <a class="btn alt" href="../heat/">
-       [HI]: Extreme Heat guide →
+       अत्यधिक गर्मी गाइड →
       </a>
      </div>
      <div class="box warn">
       <h3>
-       [HI]: 🌫️ Coughing, chest tightness, smoky air
+       🌫️खांसी, सीने में जकड़न, धुएँ वाली हवा
       </h3>
       <p>
-       [HI]: During a wildfire or heavy air pollution. Higher risk for people with heart/lung conditions, pregnancy, older age, young children, outdoor work, or limited access to clean indoor air.
+       जंगल की आग या भारी वायु प्रदूषण के दौरान। हृदय/फेफड़ों की स्थिति, गर्भावस्था, अधिक उम्र, छोटे बच्चों, बाहरी काम, या स्वच्छ घर के अंदर की हवा तक सीमित पहुंच वाले लोगों के लिए अधिक जोखिम।
       </p>
       <a class="btn alt" href="../smoke/">
-       [HI]: Wildfire Smoke guide →
+       जंगल की आग का धुआं गाइड →
       </a>
      </div>
      <div class="box ok">
       <h3>
-       [HI]: 💧 Vomiting, diarrhea, very thirsty, dark urine
+       💧उल्टी, दस्त, बहुत अधिक प्यास लगना, गहरे रंग का पेशाब आना
       </h3>
       <p>
-       [HI]: Signs of dehydration. Especially dangerous for children and older adults.
+       निर्जलीकरण के लक्षण. खासकर बच्चों और बड़े वयस्कों के लिए खतरनाक।
       </p>
       <a class="btn alt" href="../ors/">
-       [HI]: Dehydration &amp; ORS guide →
+       निर्जलीकरण और ओआरएस गाइड →
       </a>
      </div>
      <div class="box emergency">
       <h3>
-       [HI]: 🐝 Trouble breathing, swelling, or faintness after allergen exposure
+       🐝एलर्जी के संपर्क में आने के बाद सांस लेने में परेशानी, सूजन या बेहोशी
       </h3>
       <p>
-       🚨[REVIEW_REQUIRED] [HI]: Possible anaphylaxis: call emergency services, use epinephrine if indicated by an action plan/product/local responder rules, and position safely.
+       🚨[REVIEW_REQUIRED] संभावित एनाफिलेक्सिस: आपातकालीन सेवाओं को कॉल करें, यदि कार्य योजना/उत्पाद/स्थानीय प्रत्युत्तरकर्ता नियमों द्वारा संकेत दिया गया हो तो एपिनेफ्रिन का उपयोग करें, और सुरक्षित स्थिति में रहें।
       </p>
       <a class="btn" href="../allergy/">
-       [HI]: Severe Allergy guide →
+       गंभीर एलर्जी गाइड →
       </a>
      </div>
      <div class="box">
       <h3>
-       [HI]: 🔥 Burn from fire, hot liquid, or chemical
+       🔥 आग, गर्म तरल पदार्थ या रसायन से जलना
       </h3>
       <p>
-       🚨[REVIEW_REQUIRED] [HI]: Cool under running water for 20 minutes if possible, cover loosely, and do not use ice or home remedies.
+       🚨[REVIEW_REQUIRED] यदि संभव हो तो 20 मिनट के लिए बहते पानी के नीचे ठंडा करें, ढीला ढकें, और बर्फ या घरेलू उपचार का उपयोग न करें।
       </p>
       <a class="btn alt" href="../burns/">
-       [HI]: Burns guide →
+       बर्न्स गाइड →
       </a>
      </div>
      <div class="box">
       <h3>
-       [HI]: ⚡ Rigid jerking, loss of consciousness
+       ⚡ कठोर झटके, चेतना की हानि
       </h3>
       <p>
-       [HI]: Seizure. Protect the head, time it, do not restrain or put anything in the mouth.
+       जब्ती। सिर को सुरक्षित रखें, समय दें, रोकें नहीं या मुंह में कुछ भी न डालें।
       </p>
       <a class="btn alt" href="../seizure/">
-       [HI]: Seizure guide →
+       जब्ती गाइड →
       </a>
      </div>
      <div class="box warn">
       <h3>
-       [HI]: 🥶 Cold, shivering, confused, numb skin
+       🥶 ठंडी, कंपकंपी, भ्रमित, सुन्न त्वचा
       </h3>
       <p>
-       [HI]: Hypothermia or frostbite. Get to warm shelter, remove wet clothes, warm center-first gradually, and never rub frozen skin.
+       हाइपोथर्मिया या शीतदंश. गर्म आश्रय में जाएँ, गीले कपड़े हटाएँ, पहले धीरे-धीरे गर्म करें, और जमी हुई त्वचा को कभी न रगड़ें।
       </p>
       <a class="btn alt" href="../cold/">
-       [HI]: Cold Safety guide →
+       शीत सुरक्षा मार्गदर्शिका →
       </a>
      </div>
     </div>
@@ -249,44 +270,44 @@
    <section>
     <div class="box">
      <h3>
-      [HI]: General first steps for any emergency
+      किसी भी आपात स्थिति के लिए सामान्य पहला कदम
      </h3>
      <ol class="steps">
       <li>
        <strong>
-        [HI]: Check safety.
+        सुरक्षा की जाँच करें.
        </strong>
-       [HI]: If unsafe, move away and call for help before approaching.
+       यदि असुरक्षित हो, तो दूर चले जाएं और पास आने से पहले मदद के लिए कॉल करें।
       </li>
       <li>
        <strong>
-        [HI]: Check responsiveness.
+        प्रतिक्रियाशीलता की जाँच करें.
        </strong>
-       [HI]: Tap their shoulder and shout. No response + not breathing normally → CPR.
+       उनके कंधे थपथपाएं और चिल्लाएं. कोई प्रतिक्रिया नहीं + सामान्य रूप से सांस नहीं लेना → सीपीआर।
       </li>
       <li>
        <strong>
-        [HI]: Call for help.
+        मदद के लिए पुकारें।
        </strong>
-       [HI]: Call your local emergency number. Put the phone on speaker so the dispatcher can guide you.
+       अपने स्थानीय आपातकालीन नंबर पर कॉल करें। फ़ोन को स्पीकर पर रखें ताकि डिस्पैचर आपका मार्गदर्शन कर सके।
       </li>
       <li>
        <strong>
-        [HI]: Use the guide above
+        उपरोक्त मार्गदर्शिका का उपयोग करें
        </strong>
-       [HI]: that matches what you see, while following dispatcher/local guidance.
+       डिस्पैचर/स्थानीय मार्गदर्शन का पालन करते हुए, जो आप देखते हैं उससे मेल खाता है।
       </li>
      </ol>
     </div>
    </section>
    <section class="disclaimer">
     <p>
-     [HI]: This navigator is not a diagnosis and is not a substitute for first-aid training. When in doubt about a serious or rapidly worsening symptom, call your local emergency number. Verify guidance against your local health authority.
+     यह नेविगेटर निदान नहीं है और प्राथमिक चिकित्सा प्रशिक्षण का विकल्प नहीं है। जब किसी गंभीर या तेजी से बिगड़ते लक्षण के बारे में संदेह हो, तो अपने स्थानीय आपातकालीन नंबर पर कॉल करें। अपने स्थानीय स्वास्थ्य प्राधिकारी के विरुद्ध मार्गदर्शन सत्यापित करें।
     </p>
     <p>
-     [HI]: Reuse and reprint freely.
+     पुन: उपयोग करें और स्वतंत्र रूप से पुनर्मुद्रण करें।
      <a href="../localize.html">
-      [HI]: Localize before sharing
+      साझा करने से पहले स्थानीयकरण करें
      </a>
      .
     </p>
@@ -294,11 +315,11 @@
   </main>
   <footer>
    <p>
-    [HI]: A free, open Help Kit ·
+    एक मुफ़्त, खुली सहायता किट ·
     <a href="https://github.com/ai-village-agents/help-kit">
-     [HI]: source on GitHub
+     GitHub पर स्रोत
     </a>
-    [HI]: · Public domain (CC0) · Verify against your local health authority
+    · सार्वजनिक डोमेन (CC0) · अपने स्थानीय स्वास्थ्य प्राधिकरण के विरुद्ध सत्यापन करें
    </p>
   </footer>
   <script>

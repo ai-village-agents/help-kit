@@ -4,9 +4,9 @@
   <meta charset="utf-8"/>
   <meta content="width=device-width,initial-scale=1" name="viewport"/>
   <title>
-   [HI]: Cold Weather Safety: Hypothermia &amp; Frostbite — Help Kit | Help Kit
+   ठंड के मौसम में सुरक्षा: हाइपोथर्मिया और शीतदंश - सहायता किट | Help Kit
   </title>
-  <meta content="[HI]: A free, source-cited one-page guide to cold weather safety, hypothermia, and frostbite: spot the warnings, rewarm safely, avoid direct heat, do not rub frozen tissue, and know when to call for help. Based on CDC, Red Cross, and Wilderness Medical Society guidance." name="description"/>
+  <meta content="ठंड के मौसम में सुरक्षा और हाइपोथर्मिया के लिए एक निःशुल्क, स्रोत-उद्धृत मार्गदर्शिका: चेतावनी का पता लगाएं, सुरक्षित रूप से गर्म हो जाएं, सीधी गर्मी से बचें और जानें कि मदद के लिए कब कॉल करना है।" name="description"/>
   <link href="https://ai-village-agents.github.io/help-kit/cold/" rel="canonical"/>
   <meta content="noindex, nofollow, noarchive" name="robots"/>
   <meta content="Help Kit" property="og:site_name"/>
@@ -24,13 +24,61 @@
   <link href="../style.css" rel="stylesheet"/>
   <link href="/help-kit/manifest.webmanifest" rel="manifest"/>
   <link href="/help-kit/icon-192.png" rel="apple-touch-icon"/>
+  <script type="application/ld+json">
+   {
+  "@context": "https://schema.org",
+  "@type": "MedicalWebPage",
+  "name": "Cold Weather Safety: Hypothermia & Frostbite",
+  "description": "A free, source-cited guide to cold weather safety and hypothermia: spot warnings, rewarm safely, avoid direct heat, and know when to call for help.",
+  "url": "https://ai-village-agents.github.io/help-kit/cold/",
+  "inLanguage": "en",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "Help Kit",
+    "url": "https://ai-village-agents.github.io/help-kit/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Help Kit",
+    "url": "https://ai-village-agents.github.io/help-kit/"
+  },
+  "citation": [
+    {
+      "@type": "WebPage",
+      "name": "CDC — Prevent hypothermia and frostbite",
+      "url": "https://www.cdc.gov/winter-weather/about/index.html"
+    },
+    {
+      "@type": "WebPage",
+      "name": "American Red Cross — Cold-related emergencies first aid",
+      "url": "https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/winter-storm.html"
+    },
+    {
+      "@type": "WebPage",
+      "name": "Wilderness Medical Society (WMS)",
+      "url": "https://wms.org/WMS/Research/WEM/Clinical-Practice-Guidelines.aspx"
+    },
+    {
+      "@type": "WebPage",
+      "name": "NHS — Hypothermia first-aid guidance",
+      "url": "https://www.nhs.uk/conditions/hypothermia/"
+    },
+    {
+      "@type": "WebPage",
+      "name": "NHS — Frostbite rewarming and safety",
+      "url": "https://www.nhs.uk/conditions/frostbite/"
+    }
+  ]
+}
+  </script>
  </head>
  <body>
   <div class="notice danger" data-draft-warning="true">
    UNREVIEWED MACHINE TRANSLATION DRAFT (hi). Do not use for medical guidance, sharing, printing, or training until fluent local reviewers verify all emergency numbers, doses, timings, and local guidance against the English source.
   </div>
   <a class="skip-link" href="#main">
-   [HI]: Skip to main content
+   मुख्य सामग्री पर जाएँ
   </a>
   <header class="site">
    <div class="wrap">
@@ -39,49 +87,49 @@
     </a>
     <nav>
      <a href="../heat/">
-      [HI]: Extreme Heat
+      अत्यधिक गर्मी
      </a>
      <a href="../smoke/">
-      [HI]: Wildfire Smoke
+      जंगल की आग का धुआं
      </a>
      <a href="../naloxone/">
-      [HI]: Opioid Overdose
+      ओपिओइड ओवरडोज़
      </a>
      <a href="../ors/">
-      [HI]: Dehydration &amp; ORS
+      निर्जलीकरण एवं ओ.आर.एस
      </a>
      <a href="../choking/">
-      [HI]: Choking
+      दम घुट रहा है
      </a>
      <a href="../bleeding/">
-      [HI]: Severe Bleeding
+      गंभीर रक्तस्राव
      </a>
      <a href="../cpr/">
-      [HI]: CPR
+      सीपीआर
      </a>
      <a href="../stroke/">
-      [HI]: Stroke
+      आघात
      </a>
      <a href="../burns/">
-      [HI]: Burns
+      बर्न्स
      </a>
      <a href="../seizure/">
-      [HI]: Seizure
+      जब्ती
      </a>
      <a href="../allergy/">
-      [HI]: Severe Allergy
+      गंभीर एलर्जी
      </a>
      <a href="../cold/">
-      [HI]: Cold Safety
+      शीत सुरक्षा
      </a>
      <a href="../heart/">
-      [HI]: Heart Attack
+      दिल का दौरा
      </a>
      <a href="../triage/">
-      [HI]: Triage
+      ट्राइएज
      </a>
      <a href="../localize.html">
-      [HI]: Localize &amp; share
+      स्थानीयकृत करें और साझा करें
      </a>
     </nav>
    </div>
@@ -89,24 +137,24 @@
   <section class="hero">
    <div class="wrap">
     <h1>
-     [HI]: Cold weather safety
+     ठंड के मौसम में सुरक्षा
     </h1>
     <p>
-     🚨[REVIEW_REQUIRED] [HI]: Extreme cold waves can cause life-threatening cold stress. Hypothermia occurs when the body's temperature drops below 95°F (35°C), while frostbite causes severe tissue freezing. Recognizing the signs early and rewarming safely are critical to preventing injury, limb loss, and death. Free to read, print, and share.
+     🚨[REVIEW_REQUIRED] अत्यधिक ठंडी लहरें जीवन के लिए खतरा उत्पन्न करने वाले शीत तनाव का कारण बन सकती हैं। हाइपोथर्मिया तब होता है जब शरीर का तापमान 95°F (35°C) से नीचे चला जाता है, जबकि शीतदंश के कारण ऊतक गंभीर रूप से जम जाते हैं। चोट, अंग हानि और मृत्यु को रोकने के लिए संकेतों को जल्दी पहचानना और सुरक्षित रूप से पुनः गर्म करना महत्वपूर्ण है। पढ़ने, प्रिंट करने और साझा करने के लिए निःशुल्क।
     </p>
    </div>
   </section>
   <main id="main">
    <div class="wrap">
     <p class="lede">
-     [HI]: When exposed to cold, the body loses heat faster than it can produce it. Your job is to recognize warning signs, shelter the person, remove wet gear, and warm them gradually — without causing secondary burns or tissue damage.
+     ठंड के संपर्क में आने पर, शरीर अपनी गर्मी पैदा करने की तुलना में तेजी से गर्मी खो देता है। आपका काम चेतावनी संकेतों को पहचानना, व्यक्ति को आश्रय देना, गीले गियर को हटाना और उन्हें धीरे-धीरे गर्म करना है - बिना अतिरिक्त जलन या ऊतक क्षति के।
     </p>
     <div class="actions no-print">
      <a class="btn" href="javascript:window.print()">
-      [HI]: Print this page
+      इस पेज को प्रिंट करें
      </a>
      <a class="btn alt" href="cold-onepager.pdf">
-      [HI]: Download printable PDF
+      प्रिंट करने योग्य पीडीएफ डाउनलोड करें
      </a>
     </div>
     <div class="box emergency">
@@ -114,186 +162,186 @@
       Call emergency services now if…
      </span>
      <h3>
-      [HI]: When extreme cold becomes an emergency
+      जब अत्यधिक ठंड एक आपातकालीन स्थिति बन जाती है
      </h3>
      <ul>
       <li>
-       [HI]: The person shows signs of
+       व्यक्ति में इसके लक्षण दिखते हैं
        <strong>
-        [HI]: severe hypothermia
+        गंभीर हाइपोथर्मिया
        </strong>
-       [HI]: : confusion, memory loss, slurred speech, extreme drowsiness, or shivering that stops completely while they remain cold.
+       : भ्रम, स्मृति हानि, अस्पष्ट वाणी, अत्यधिक उनींदापन, या ठंड लगने पर कंपकंपी जो पूरी तरह से बंद हो जाती है।
       </li>
       <li>
-       [HI]: The person is
+       व्यक्ति है
        <strong>
-        [HI]: unresponsive or unconscious
+        अनुत्तरदायी या बेहोश
        </strong>
-       [HI]: and feels cold to the touch.
+       और छूने पर ठंडा लगता है।
       </li>
       <li>
-       [HI]: The person is suffering from
+       व्यक्ति को कष्ट होता है
        <strong>
-        [HI]: severe frostbite
+        गंभीर शीतदंश
        </strong>
-       [HI]: (skin is blue, gray, white, or black, or feels hard/waxy).
+       (त्वचा नीली, स्लेटी, सफ़ेद या काली है, या कठोर/मोम जैसी लगती है)।
       </li>
      </ul>
      <p>
-      🚨[REVIEW_REQUIRED] [HI]: Call your local emergency number (examples: 911, 112, or 999; verify locally). Put the phone on speaker and follow dispatcher instructions.
+      🚨[REVIEW_REQUIRED] अपने स्थानीय आपातकालीन नंबर पर कॉल करें (उदाहरण: 911, 112, या 999; स्थानीय रूप से सत्यापित करें)। फ़ोन को स्पीकर पर रखें और डिस्पैचर के निर्देशों का पालन करें।
      </p>
     </div>
     <h2>
-     [HI]: How to treat hypothermia (low body temperature)
+     हाइपोथर्मिया (शरीर का कम तापमान) का इलाज कैसे करें
     </h2>
     <ol class="steps">
      <li>
       <strong>
-       [HI]: Get them to a warm, dry shelter.
+       उन्हें गर्म, सूखे आश्रय में ले जाएं।
       </strong>
-      [HI]: Protect them from the wind and cold ground.
+      उन्हें हवा और ठंडी ज़मीन से बचाएं।
      </li>
      <li>
       <strong>
-       [HI]: Remove wet clothing immediately.
+       गीले कपड़े तुरंत हटा दें।
       </strong>
-      [HI]: Dry wet skin. Dress them in dry, warm clothes and wrap them in warm blankets (covering the head and chest first, leaving the face clear).
+      सूखी गीली त्वचा. उन्हें सूखे, गर्म कपड़े पहनाएं और गर्म कंबल में लपेटें (पहले सिर और छाती को ढकें, चेहरा साफ रखें)।
      </li>
      <li>
       <strong>
-       [HI]: Warm the center of the body first.
+       सबसे पहले शरीर के मध्य भाग को गर्म करें।
       </strong>
-      [HI]: Use dry blankets, sleeping bags, or skin-to-skin contact. Focus on the chest, neck, head, and groin.
+      सूखे कंबल, स्लीपिंग बैग या त्वचा से त्वचा के संपर्क का उपयोग करें। छाती, गर्दन, सिर और कमर पर ध्यान दें।
      </li>
      <li>
       <strong>
-       [HI]: Do NOT use direct high heat
+       सीधे उच्च ताप का उपयोग न करें
       </strong>
-      [HI]: like hot water, fire, heating lamps, or heating pads. Warming someone too fast can cause severe burns, rapid blood pressure drop, or shock.
+      जैसे गर्म पानी, आग, हीटिंग लैंप, या हीटिंग पैड। किसी को बहुत तेजी से गर्म करने से गंभीर जलन, तेजी से रक्तचाप में गिरावट या झटका लग सकता है।
      </li>
      <li>
       <strong>
-       [HI]: Give warm, non-alcoholic, sweet drinks
+       गर्म, गैर-अल्कोहलिक, मीठा पेय दें
       </strong>
-      [HI]: if they are fully conscious, awake, and able to swallow. Never force a sleepy or confused person to drink. Do not give caffeine or alcohol.
+      यदि वे पूरी तरह सचेत, जाग्रत और निगलने में सक्षम हैं। कभी भी किसी नींद में या भ्रमित व्यक्ति को शराब पीने के लिए मजबूर न करें। कैफीन या अल्कोहल न दें।
      </li>
      <li>
       <strong>
-       [HI]: If they are unresponsive and not breathing normally
+       यदि वे अनुत्तरदायी हैं और सामान्य रूप से सांस नहीं ले रहे हैं
       </strong>
-      [HI]: , start hands-only CPR immediately. Keep rewarming them while CPR is ongoing.
+      , तुरंत हाथों से सीपीआर शुरू करें। सीपीआर जारी रहने के दौरान उन्हें पुनः गर्म करते रहें।
      </li>
     </ol>
     <h2>
-     [HI]: How to treat frostbite (frozen tissue)
+     शीतदंश (जमे हुए ऊतक) का इलाज कैसे करें
     </h2>
     <div class="box warn">
      <span class="tag warn">
       Protect frozen skin from further damage
      </span>
      <p>
-      [HI]: Frostbite occurs when skin freezes. Never rub or massage frostbitten skin — rubbing snow or friction can worsen tissue damage. Warm the area gradually:
+      शीतदंश तब होता है जब त्वचा जम जाती है। शीतदंशित त्वचा को कभी भी रगड़ें या मालिश न करें - बर्फ रगड़ने या घर्षण से ऊतकों की क्षति और बढ़ सकती है। क्षेत्र को धीरे-धीरे गर्म करें:
      </p>
      <ul>
       <li>
        <strong>
-        [HI]: Get out of the cold.
+        ठंड से बाहर निकलो.
        </strong>
-       [HI]: Do not attempt to rewarm if there is a risk of refreezing (refreezing can cause severe tissue damage).
+       यदि दोबारा जमने का खतरा हो तो दोबारा गर्म करने का प्रयास न करें (फिर से जमने से गंभीर ऊतक क्षति हो सकती है)।
       </li>
       <li>
        <strong>
-        [HI]: Do NOT walk on frostbitten feet or toes
+        शीतदंशित पैरों या पंजों पर न चलें
        </strong>
-       [HI]: unless absolutely necessary to get to safety, as walking causes severe structural damage.
+       जब तक कि सुरक्षा के लिए बिल्कुल आवश्यक न हो, क्योंकि चलने से गंभीर संरचनात्मक क्षति होती है।
       </li>
       <li>
        <strong>
-        [HI]: Use body heat
+        शरीर की गर्मी का प्रयोग करें
        </strong>
-       [HI]: to warm the area (for example, tuck frostbitten fingers under the armpit).
+       क्षेत्र को गर्म करने के लिए (उदाहरण के लिए, कांख के नीचे शीतदंशित उंगलियाँ दबाएँ)।
       </li>
       <li>
        <strong>
-        [HI]: Immerse the area in warm water
+        उस क्षेत्र को गर्म पानी में डुबोएं
        </strong>
-       [HI]: — NOT hot water. The water should be comfortable to touch for unaffected skin (about 99-104°F / 37-40°C). Do not use heating pads, stoves, or fires, as numb skin burns easily without the person feeling it.
+       - गर्म पानी नहीं। अप्रभावित त्वचा के लिए पानी छूने के लिए आरामदायक होना चाहिए (लगभग 99-104°F / 37-40°C)। हीटिंग पैड, स्टोव या आग का उपयोग न करें, क्योंकि सुन्न त्वचा व्यक्ति को महसूस किए बिना आसानी से जल जाती है।
       </li>
      </ul>
     </div>
     <h2>
-     [HI]: Extra support for people facing higher cold risk
+     ठंड के अधिक जोखिम का सामना कर रहे लोगों के लिए अतिरिक्त सहायता
     </h2>
     <ul>
      <li>
       <strong>
-       [HI]: Infants (&lt;1 year):
+       शिशु (&lt;1 वर्ष):
       </strong>
-      [HI]: Infants lose heat quickly. Keep infants warm and away from cold rooms or drafts whenever possible. For infants, warning signs are bright red, cold skin and very low energy. Wrap them securely and seek a warm environment immediately.
+      शिशुओं की गर्मी जल्दी कम हो जाती है। जब भी संभव हो शिशुओं को गर्म रखें और ठंडे कमरे या ड्राफ्ट से दूर रखें। शिशुओं के लिए, चेतावनी के संकेत चमकदार लाल, ठंडी त्वचा और बहुत कम ऊर्जा हैं। उन्हें सुरक्षित रूप से लपेटें और तुरंत गर्म वातावरण की तलाश करें।
      </li>
      <li>
       <strong>
-       [HI]: Older adults:
+       बड़े वयस्क:
       </strong>
-      [HI]: Older adults may produce less body heat and may have medical conditions or take medicines that make it harder to sense cold or regulate temperature. Check on older neighbors regularly during cold snaps.
+      वृद्ध वयस्कों के शरीर में कम गर्मी पैदा हो सकती है और उन्हें चिकित्सीय स्थितियाँ हो सकती हैं या वे ऐसी दवाएँ ले सकते हैं जिससे ठंड को महसूस करना या तापमान को नियंत्रित करना कठिन हो जाता है। ठंड लगने के दौरान नियमित रूप से पुराने पड़ोसियों की जाँच करें।
      </li>
      <li>
       <strong>
-       [HI]: Unhoused individuals:
+       आवासहीन व्यक्ति:
       </strong>
-      [HI]: Cold weather can be especially dangerous for people without stable shelter. Coordinate with local outreach teams to distribute dry socks, hand warmers, and sleeping bags.
+      बिना स्थिर आश्रय वाले लोगों के लिए ठंड का मौसम विशेष रूप से खतरनाक हो सकता है। सूखे मोज़े, हैंड वार्मर और स्लीपिंग बैग वितरित करने के लिए स्थानीय आउटरीच टीमों के साथ समन्वय करें।
      </li>
     </ul>
     <h2>
-     [HI]: Sources
+     सूत्रों का कहना है
     </h2>
     <ul class="sources">
      <li>
       <a href="https://www.cdc.gov/winter-weather/about/index.html">
-       🚨[REVIEW_REQUIRED] [HI]: CDC — Prevent hypothermia and frostbite
+       🚨[REVIEW_REQUIRED] सीडीसी - हाइपोथर्मिया और शीतदंश को रोकें
       </a>
-      [HI]: (signs of hypothermia, rewarming center-first, no direct high heat).
+      (हाइपोथर्मिया के लक्षण, रीवार्मिंग सेंटर-फर्स्ट, कोई सीधी उच्च गर्मी नहीं)।
      </li>
      <li>
       <a href="https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/winter-storm.html">
-       [HI]: American Red Cross — Cold-related emergencies first aid
+       अमेरिकन रेड क्रॉस - ठंड से संबंधित आपातकालीन प्राथमिक चिकित्सा
       </a>
-      [HI]: (gradual warming, avoid friction/rubbing for frostbite, CPR).
+      (क्रमिक तापन, शीतदंश के लिए घर्षण/रगड़ से बचें, सीपीआर)।
      </li>
      <li>
       <a href="https://wms.org/WMS/Research/WEM/Clinical-Practice-Guidelines.aspx">
-       [HI]: Wilderness Medical Society (WMS)
+       वाइल्डरनेस मेडिकल सोसायटी (WMS)
       </a>
-      [HI]: — Practice guidelines for accidental hypothermia and frostbite (field evaluation, risk of refreezing, core warming focus).
+      - आकस्मिक हाइपोथर्मिया और शीतदंश के लिए अभ्यास दिशानिर्देश (क्षेत्र मूल्यांकन, पुनः ठंड का जोखिम, कोर वार्मिंग फोकस)।
      </li>
      <li>
       <a href="https://www.nhs.uk/conditions/hypothermia/">
-       🚨[REVIEW_REQUIRED] [HI]: NHS — Hypothermia first-aid guidance
+       🚨[REVIEW_REQUIRED] एनएचएस - हाइपोथर्मिया प्राथमिक चिकित्सा मार्गदर्शन
       </a>
-      [HI]: (warm drinks, wrap head, check responsiveness).
+      (गर्म पेय, सिर लपेटें, प्रतिक्रिया की जांच करें)।
      </li>
      <li>
       <a href="https://www.nhs.uk/conditions/frostbite/">
-       🚨[REVIEW_REQUIRED] [HI]: NHS — Frostbite rewarming and safety
+       🚨[REVIEW_REQUIRED] एनएचएस - फ्रॉस्टबाइट रीवार्मिंग और सुरक्षा
       </a>
-      [HI]: (warm water rewarming, avoid direct high heat, avoid friction).
+      (गर्म पानी को पुनः गर्म करना, सीधे उच्च ताप से बचना, घर्षण से बचना)।
      </li>
     </ul>
     <p class="sources">
-     [HI]: Guidance reflects standard lay-responder first aid for cold-related injuries. Follow local emergency services and professional medical training.
+     मार्गदर्शन ठंड से संबंधित चोटों के लिए मानक ले-रेस्पॉन्डर प्राथमिक चिकित्सा को दर्शाता है। स्थानीय आपातकालीन सेवाओं और पेशेवर चिकित्सा प्रशिक्षण का पालन करें।
     </p>
     <p class="disclaimer">
-     [HI]: This guide is general information, not medical advice. In an emergency, call your local emergency number and follow dispatcher/local guidance. Reuse and reprint freely.
+     यह मार्गदर्शिका सामान्य जानकारी है, चिकित्सीय सलाह नहीं। आपातकालीन स्थिति में, अपने स्थानीय आपातकालीन नंबर पर कॉल करें और डिस्पैचर/स्थानीय मार्गदर्शन का पालन करें। पुन: उपयोग करें और स्वतंत्र रूप से पुनर्मुद्रण करें।
     </p>
    </div>
   </main>
   <footer class="site">
    <div class="wrap">
-    [HI]: A free, open Help Kit ·
+    एक मुफ़्त, खुली सहायता किट ·
     <a href="https://github.com/ai-village-agents/help-kit">
-     [HI]: source on GitHub
+     GitHub पर स्रोत
     </a>
-    [HI]: · Public domain (CC0) · Verify against your local health authority
+    · सार्वजनिक डोमेन (CC0) · अपने स्थानीय स्वास्थ्य प्राधिकरण के विरुद्ध सत्यापन करें
    </div>
   </footer>
   <script>

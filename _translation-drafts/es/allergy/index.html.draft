@@ -4,9 +4,9 @@
   <meta charset="utf-8"/>
   <meta content="width=device-width,initial-scale=1" name="viewport"/>
   <title>
-   [ES]: Severe Allergy &amp; Anaphylaxis First Aid — Help Kit | Help Kit
+   Primeros auxilios para alergias graves y anafilaxia: kit de ayuda | Help Kit
   </title>
-  <meta content="[ES]: A free, source-cited one-page guide to severe allergic reaction and anaphylaxis first aid: call emergency services, use epinephrine if prescribed or available under local guidance, position safely, monitor breathing, and know when a second dose may be needed. Based on NHS, Resuscitation Council UK, AAAAI, and Red Cross guidance." name="description"/>
+  <meta content="Una guía gratuita de primeros auxilios para reacciones alérgicas graves: llame a los servicios de emergencia, use epinefrina si está disponible, colóquese en una posición segura y controle la respiración." name="description"/>
   <link href="https://ai-village-agents.github.io/help-kit/allergy/" rel="canonical"/>
   <meta content="noindex, nofollow, noarchive" name="robots"/>
   <meta content="Help Kit" property="og:site_name"/>
@@ -24,13 +24,56 @@
   <link href="../style.css" rel="stylesheet"/>
   <link href="/help-kit/manifest.webmanifest" rel="manifest"/>
   <link href="/help-kit/icon-192.png" rel="apple-touch-icon"/>
+  <script type="application/ld+json">
+   {
+  "@context": "https://schema.org",
+  "@type": "MedicalWebPage",
+  "name": "Severe Allergy & Anaphylaxis First Aid",
+  "description": "A free guide to severe allergic reaction first aid: call emergency services, use epinephrine if available, position safely, and monitor breathing.",
+  "url": "https://ai-village-agents.github.io/help-kit/allergy/",
+  "inLanguage": "en",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "Help Kit",
+    "url": "https://ai-village-agents.github.io/help-kit/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Help Kit",
+    "url": "https://ai-village-agents.github.io/help-kit/"
+  },
+  "citation": [
+    {
+      "@type": "WebPage",
+      "name": "NHS — Anaphylaxis",
+      "url": "https://www.nhs.uk/conditions/anaphylaxis/"
+    },
+    {
+      "@type": "WebPage",
+      "name": "Resuscitation Council UK — Emergency treatment of anaphylaxis",
+      "url": "https://www.resus.org.uk/library/additional-guidance/guidance-anaphylaxis"
+    },
+    {
+      "@type": "WebPage",
+      "name": "American Academy of Allergy, Asthma & Immunology — Anaphylaxis",
+      "url": "https://www.aaaai.org/tools-for-the-public/conditions-library/allergies/anaphylaxis"
+    },
+    {
+      "@type": "WebPage",
+      "name": "American Red Cross — first-aid training and resources",
+      "url": "https://www.redcross.org/take-a-class"
+    }
+  ]
+}
+  </script>
  </head>
  <body>
   <div class="notice danger" data-draft-warning="true">
    UNREVIEWED MACHINE TRANSLATION DRAFT (es). Do not use for medical guidance, sharing, printing, or training until fluent local reviewers verify all emergency numbers, doses, timings, and local guidance against the English source.
   </div>
   <a class="skip-link" href="#main">
-   [ES]: Skip to main content
+   Saltar al contenido principal
   </a>
   <header class="site">
    <div class="wrap">
@@ -39,49 +82,49 @@
     </a>
     <nav>
      <a href="../heat/">
-      [ES]: Extreme Heat
+      Calor extremo
      </a>
      <a href="../smoke/">
-      [ES]: Wildfire Smoke
+      Humo de incendios forestales
      </a>
      <a href="../naloxone/">
-      [ES]: Opioid Overdose
+      Sobredosis de opioides
      </a>
      <a href="../ors/">
-      [ES]: Dehydration &amp; ORS
+      Deshidratación y SRO
      </a>
      <a href="../choking/">
-      [ES]: Choking
+      asfixia
      </a>
      <a href="../bleeding/">
-      [ES]: Severe Bleeding
+      Sangrado severo
      </a>
      <a href="../cpr/">
-      [ES]: CPR
+      RCP
      </a>
      <a href="../stroke/">
-      [ES]: Stroke
+      Ataque
      </a>
      <a href="../burns/">
-      [ES]: Burns
+      quemaduras
      </a>
      <a href="../seizure/">
-      [ES]: Seizure
+      Convulsión
      </a>
      <a href="../allergy/">
-      [ES]: Severe Allergy
+      Alergia severa
      </a>
      <a href="../cold/">
-      [ES]: Cold Safety
+      Seguridad en frío
      </a>
      <a href="../heart/">
-      [ES]: Heart Attack
+      Infarto de miocardio
      </a>
      <a href="../triage/">
-      [ES]: Triage
+      Triaje
      </a>
      <a href="../localize.html">
-      [ES]: Localize &amp; share
+      Localizar y compartir
      </a>
     </nav>
    </div>
@@ -89,24 +132,24 @@
   <section class="hero">
    <div class="wrap">
     <h1>
-     [ES]: Severe allergy and anaphylaxis: first aid
+     Alergia grave y anafilaxia: primeros auxilios.
     </h1>
     <p>
-     🚨[REVIEW_REQUIRED] [ES]: Anaphylaxis is a severe allergic reaction that can affect breathing, the throat, or blood circulation. It can worsen quickly after food, insect stings, medicines, latex, or another trigger. Clear first steps — call for help, use epinephrine when indicated, position safely, and watch breathing — can reduce danger while emergency care is coming. Free to read, print, and share.
+     🚨[REVIEW_REQUIRED] La anafilaxia es una reacción alérgica grave que puede afectar la respiración, la garganta o la circulación sanguínea. Puede empeorar rápidamente después de alimentos, picaduras de insectos, medicamentos, látex u otro desencadenante. Los primeros pasos claros (pedir ayuda, usar epinefrina cuando esté indicado, posicionarse de manera segura y observar la respiración) pueden reducir el peligro mientras llega la atención de emergencia. Gratis para leer, imprimir y compartir.
     </p>
    </div>
   </section>
   <main id="main">
    <div class="wrap">
     <p class="lede">
-     🚨[REVIEW_REQUIRED] [ES]: Epinephrine (adrenaline) is the first-line emergency treatment for anaphylaxis. If the person has a prescribed auto-injector or an allergy action plan, follow it. In some places, trained responders may use stock epinephrine; follow local rules, product instructions, and dispatcher guidance.
+     🚨[REVIEW_REQUIRED] La epinefrina (adrenalina) es el tratamiento de emergencia de primera línea para la anafilaxia. Si a la persona le han recetado un autoinyector o un plan de acción para las alergias, sígalo. En algunos lugares, el personal de respuesta capacitado puede utilizar epinefrina de reserva; Siga las normas locales, las instrucciones del producto y las instrucciones del despachador.
     </p>
     <div class="actions no-print">
      <a class="btn" href="javascript:window.print()">
-      [ES]: Print this page
+      Imprime esta pagina
      </a>
      <a class="btn alt" href="allergy-onepager.pdf">
-      [ES]: Download printable PDF
+      Descargar PDF imprimible
      </a>
     </div>
     <div class="box emergency">
@@ -114,62 +157,62 @@
       Call emergency services now
      </span>
      <h3>
-      [ES]: Treat this as anaphylaxis if severe symptoms appear
+      Trate esto como anafilaxia si aparecen síntomas graves.
      </h3>
      <p>
-      🚨[REVIEW_REQUIRED] [ES]: Call your local emergency number (examples: 911, 112, or 999; verify locally) if someone has a possible allergic reaction with severe symptoms. Warning signs include trouble breathing, wheeze, repeated cough, throat/tongue/lip swelling, trouble swallowing or speaking, hoarse voice, faintness, collapse, a pale or floppy child, confusion, or symptoms after a known serious allergen exposure. Severe belly pain, vomiting, or widespread hives plus other symptoms can also be a warning sign.
+      🚨[REVIEW_REQUIRED] Llame a su número de emergencia local (ejemplos: 911, 112 o 999; verifique localmente) si alguien tiene una posible reacción alérgica con síntomas graves. Las señales de advertencia incluyen dificultad para respirar, sibilancias, tos repetida, hinchazón de garganta/lengua/labios, dificultad para tragar o hablar, voz ronca, desmayos, colapso, niño pálido o flácido, confusión o síntomas después de una exposición grave conocida a un alérgeno. El dolor abdominal intenso, los vómitos o la urticaria generalizada, además de otros síntomas, también pueden ser una señal de advertencia.
       <strong>
-       [ES]: Do not wait for a rash before acting.
+       No espere a que aparezca un sarpullido antes de actuar.
       </strong>
      </p>
     </div>
     <h2>
-     [ES]: What to do, step by step
+     Qué hacer, paso a paso
     </h2>
     <ol class="steps">
      <li>
       <strong>
-       [ES]: Call for emergency help.
+       Llame para pedir ayuda de emergencia.
       </strong>
-      [ES]: Put the phone on speaker if you can. Say “possible anaphylaxis” and follow dispatcher instructions.
+      Pon el teléfono en altavoz si puedes. Diga "posible anafilaxia" y siga las instrucciones del operador.
      </li>
      <li>
       <strong>
-       🚨[REVIEW_REQUIRED] [ES]: Use epinephrine if indicated.
+       🚨[REVIEW_REQUIRED] Use epinefrina si está indicado.
       </strong>
-      [ES]: Help the person use their prescribed auto-injector if they cannot do it themselves, or follow their allergy action plan/local responder rules. Most auto-injectors go into the outer middle thigh and can be used through clothing. Press and hold for the time shown on that device. Then note the time it was given.
+      Ayude a la persona a usar el autoinyector recetado si no puede hacerlo por sí misma, o siga su plan de acción contra alergias/reglas de respuesta local. La mayoría de los autoinyectores se colocan en la parte externa media del muslo y se pueden usar a través de la ropa. Mantenga presionado durante el tiempo que se muestra en ese dispositivo. Luego anote la hora en que se le dio.
      </li>
      <li>
       <strong>
-       [ES]: Position them safely.
+       Colóquelos de forma segura.
       </strong>
-      [ES]: If they feel faint, weak, or dizzy, lay them flat and raise their legs if possible. Do
+      Si se siente débil, débil o mareado, acuéstelo y levante las piernas si es posible. Hacer
       <strong>
-       [ES]: not
+       no
       </strong>
-      [ES]: make them stand or walk. If breathing is difficult, let them sit upright. If vomiting or unconscious but breathing, place them on their side. A pregnant person is often positioned on the left side.
+      hacerlos pararse o caminar. Si le resulta difícil respirar, déjelo sentarse erguido. Si vomita o está inconsciente pero respira, colóquelo de lado. Una persona embarazada suele colocarse del lado izquierdo.
      </li>
      <li>
       <strong>
-       [ES]: Remove the trigger only if safe and quick.
+       Retire el gatillo sólo si es seguro y rápido.
       </strong>
-      🚨[REVIEW_REQUIRED] [ES]: Move away from insects, stop exposure, or brush/scrape away a visible stinger if you can do it without delay. Do not delay epinephrine or the emergency call to search for a trigger.
+      🚨[REVIEW_REQUIRED]  Aléjese de los insectos, detenga la exposición o cepille o raspe un aguijón visible si puede hacerlo sin demora. No demore la epinefrina o la llamada de emergencia para buscar un desencadenante.
      </li>
      <li>
       <strong>
-       [ES]: Watch breathing and stay with them.
+       Observa la respiración y quédate con ellos.
       </strong>
-      🚨[REVIEW_REQUIRED] [ES]: Symptoms can return. If symptoms do not improve after about 5–15 minutes, or they return, a second auto-injector may be needed. Give it only if one is available and the product instructions, action plan, or dispatcher say to. Keep them under observation until emergency help takes over.
+      🚨[REVIEW_REQUIRED]  Los síntomas pueden regresar. Si los síntomas no mejoran después de aproximadamente 5 a 15 minutos, o regresan, es posible que sea necesario un segundo autoinyector. Entréguelo sólo si hay uno disponible y las instrucciones del producto, el plan de acción o el despachador así lo indican. Mantenlos bajo observación hasta que llegue la ayuda de emergencia.
      </li>
      <li>
       <strong>
-       [ES]: If they become unresponsive and are not breathing normally,
+       Si deja de responder y no respira normalmente,
       </strong>
-      [ES]: call for help, start
+      pide ayuda, empieza
       <a href="../cpr/">
-       [ES]: CPR
+       RCP
       </a>
-      🚨[REVIEW_REQUIRED] [ES]: , and use an AED if available.
+      🚨[REVIEW_REQUIRED] y utilice un DEA si está disponible.
      </li>
     </ol>
     <div class="box warn">
@@ -178,94 +221,94 @@
      </span>
      <ul>
       <li>
-       [ES]: Antihistamines may help itching or hives, but they do
+       Los antihistamínicos pueden aliviar la picazón o la urticaria, pero no lo hacen.
        <strong>
-        [ES]: not
+        no
        </strong>
-       🚨[REVIEW_REQUIRED] [ES]: treat airway swelling or shock and should not replace epinephrine in anaphylaxis.
+       🚨[REVIEW_REQUIRED]  Trata la inflamación de las vías respiratorias o el shock y no debe reemplazar la epinefrina en la anafilaxia.
       </li>
       <li>
-       [ES]: Asthma inhalers may help wheeze for some people, but they do
+       Los inhaladores para el asma pueden ayudar a algunas personas a tener sibilancias, pero no lo hacen
        <strong>
-        [ES]: not
+        no
        </strong>
-       🚨[REVIEW_REQUIRED] [ES]: replace epinephrine for a severe allergic reaction.
+       🚨[REVIEW_REQUIRED]  reemplace la epinefrina en caso de una reacción alérgica grave.
       </li>
       <li>
-       [ES]: Do not give food or drink if the person is having trouble breathing, swallowing, staying awake, or may need urgent treatment.
+       No le dé comida ni bebida si la persona tiene problemas para respirar, tragar, mantenerse despierta o puede necesitar tratamiento urgente.
       </li>
       <li>
-       [ES]: Do not stand the person up or walk them around if they feel faint or weak.
+       No levante a la persona ni la pasee si se siente débil o débil.
       </li>
      </ul>
     </div>
     <h2>
-     [ES]: Milder allergy symptoms still need watching
+     Los síntomas de alergia más leves aún deben vigilarse
     </h2>
     <p>
-     [ES]: Itchy skin, a small area of hives, sneezing, or mild swelling without breathing trouble, throat/tongue symptoms, vomiting, faintness, or confusion may be less urgent. Follow the person’s allergy plan or local medical advice, and keep watching because symptoms can worsen. If you are unsure, if symptoms spread quickly, or if severe symptoms appear, treat it as an emergency.
+     La picazón en la piel, una pequeña área de urticaria, estornudos o hinchazón leve sin dificultad para respirar, síntomas de garganta/lengua, vómitos, desmayos o confusión pueden ser menos urgentes. Siga el plan de alergias de la persona o los consejos médicos locales y esté atento porque los síntomas pueden empeorar. Si no está seguro, si los síntomas se propagan rápidamente o si aparecen síntomas graves, trátelo como una emergencia.
     </p>
     <h2>
-     [ES]: Prepare before an emergency
+     Prepárese antes de una emergencia
     </h2>
     <ul>
      <li>
-      🚨[REVIEW_REQUIRED] [ES]: People prescribed epinephrine should carry it as instructed and check expiry dates. Many action plans recommend having two doses available.
+      🚨[REVIEW_REQUIRED] Las personas a las que se les receta epinefrina deben llevarla según las instrucciones y comprobar las fechas de caducidad. Muchos planes de acción recomiendan tener dos dosis disponibles.
      </li>
      <li>
-      [ES]: Make sure family, caregivers, teachers, coworkers, and trip leaders know where the auto-injector is and how to use that specific device.
+      Asegúrese de que los familiares, cuidadores, maestros, compañeros de trabajo y líderes de viaje sepan dónde está el autoinyector y cómo usar ese dispositivo específico.
      </li>
      <li>
-      [ES]: Have a written allergy action plan when possible, especially for children, schools, camps, workplaces, and travel.
+      Tenga un plan de acción para las alergias escrito cuando sea posible, especialmente para niños, escuelas, campamentos, lugares de trabajo y viajes.
      </li>
      <li>
-      [ES]: Read food and medicine labels carefully and ask about ingredients when eating away from home if a known trigger could be present.
+      Lea atentamente las etiquetas de los alimentos y medicamentos y pregunte sobre los ingredientes cuando coma fuera de casa si podría haber un desencadenante conocido.
      </li>
     </ul>
     <h2>
-     [ES]: Sources
+     Fuentes
     </h2>
     <ul class="sources">
      <li>
       <a href="https://www.nhs.uk/conditions/anaphylaxis/">
-       🚨[REVIEW_REQUIRED] [ES]: NHS — Anaphylaxis
+       🚨[REVIEW_REQUIRED] NHS - Anafilaxia
       </a>
-      🚨[REVIEW_REQUIRED] [ES]: (symptoms, epinephrine auto-injector use, positioning, and emergency care).
+      🚨[REVIEW_REQUIRED]  (síntomas, uso del autoinyector de epinefrina, posicionamiento y atención de emergencia).
      </li>
      <li>
       <a href="https://www.resus.org.uk/library/additional-guidance/guidance-anaphylaxis">
-       [ES]: Resuscitation Council UK — Emergency treatment of anaphylaxis
+       Consejo de Resucitación del Reino Unido: tratamiento de emergencia de la anafilaxia
       </a>
-      🚨[REVIEW_REQUIRED] [ES]: (recognition, adrenaline/epinephrine, positioning, and repeat dosing guidance).
+      🚨[REVIEW_REQUIRED]  (reconocimiento, adrenalina/epinefrina, posicionamiento y guía de dosificación repetida).
      </li>
      <li>
       <a href="https://www.aaaai.org/tools-for-the-public/conditions-library/allergies/anaphylaxis">
-       [ES]: American Academy of Allergy, Asthma &amp; Immunology — Anaphylaxis
+       Academia Estadounidense de Alergia, Asma e Inmunología: Anafilaxia
       </a>
-      [ES]: (recognition and treatment overview).
+      (reconocimiento y descripción general del tratamiento).
      </li>
      <li>
       <a href="https://www.redcross.org/take-a-class">
-       [ES]: American Red Cross — first-aid training and resources
+       Cruz Roja Estadounidense: capacitación y recursos en primeros auxilios
       </a>
-      [ES]: (allergic reaction/anaphylaxis training).
+      (entrenamiento de reacción alérgica/anafilaxis).
      </li>
     </ul>
     <p class="sources">
-     🚨[REVIEW_REQUIRED] [ES]: Guidance reflects widely taught first aid for lay responders. Laws and training standards for helping with epinephrine vary by region — follow local training, product instructions, and emergency services.
+     🚨[REVIEW_REQUIRED] La orientación refleja los primeros auxilios ampliamente enseñados por los socorristas no profesionales. Las leyes y los estándares de capacitación para ayudar con la epinefrina varían según la región; siga la capacitación local, las instrucciones del producto y los servicios de emergencia.
     </p>
     <p class="disclaimer">
-     [ES]: This guide is general information, not medical advice. In an emergency, always call your local emergency number. Reuse and reprint freely.
+     Esta guía es información general, no consejo médico. En caso de emergencia, llame siempre a su número de emergencia local. Reutilice y reimprima libremente.
     </p>
    </div>
   </main>
   <footer class="site">
    <div class="wrap">
-    [ES]: A free, open Help Kit ·
+    Un kit de ayuda abierto y gratuito ·
     <a href="https://github.com/ai-village-agents/help-kit">
-     [ES]: source on GitHub
+     fuente en GitHub
     </a>
-    [ES]: · Public domain (CC0) · Verify against your local health authority
+    · Dominio público (CC0) · Verificar con su autoridad sanitaria local
    </div>
   </footer>
   <script>

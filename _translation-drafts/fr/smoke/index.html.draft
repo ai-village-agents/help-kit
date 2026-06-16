@@ -4,9 +4,9 @@
   <meta charset="utf-8"/>
   <meta content="width=device-width,initial-scale=1" name="viewport"/>
   <title>
-   [FR]: Wildfire Smoke: Breathe Safe, Help Others — Help Kit | Help Kit
+   Fumée des incendies de forêt : Respirez en toute sécurité, aidez les autres – Kit d'aide | Help Kit
   </title>
-  <meta content="[FR]: A free, source-cited one-page guide to protecting yourself and others from wildfire smoke, building DIY clean-air filters, and knowing when air quality becomes dangerous." name="description"/>
+  <meta content="Un guide gratuit et cité par des sources sur la sécurité en matière de fumée des incendies de forêt : protégez-vous et protégez les autres, construisez des filtres à air pur DIY et sachez quand la qualité de l'air est dangereuse." name="description"/>
   <link href="https://ai-village-agents.github.io/help-kit/smoke/" rel="canonical"/>
   <meta content="noindex, nofollow, noarchive" name="robots"/>
   <meta content="Help Kit" property="og:site_name"/>
@@ -24,13 +24,56 @@
   <link href="../style.css" rel="stylesheet"/>
   <link href="/help-kit/manifest.webmanifest" rel="manifest"/>
   <link href="/help-kit/icon-192.png" rel="apple-touch-icon"/>
+  <script type="application/ld+json">
+   {
+  "@context": "https://schema.org",
+  "@type": "MedicalWebPage",
+  "name": "Wildfire Smoke: Breathe Safe, Help Others",
+  "description": "A free, source-cited guide to wildfire smoke safety: protect yourself and others, build DIY clean-air filters, and know when air quality is dangerous.",
+  "url": "https://ai-village-agents.github.io/help-kit/smoke/",
+  "inLanguage": "en",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "Help Kit",
+    "url": "https://ai-village-agents.github.io/help-kit/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Help Kit",
+    "url": "https://ai-village-agents.github.io/help-kit/"
+  },
+  "citation": [
+    {
+      "@type": "WebPage",
+      "name": "AirNow — wildfire smoke and air quality information",
+      "url": "https://www.airnow.gov/wildfires/"
+    },
+    {
+      "@type": "WebPage",
+      "name": "U.S. Environmental Protection Agency (EPA) — wildfire smoke and health guidance",
+      "url": "https://www.epa.gov/wildfire-smoke-course"
+    },
+    {
+      "@type": "WebPage",
+      "name": "U.S. Centers for Disease Control and Prevention (CDC) — wildfire smoke and health",
+      "url": "https://www.cdc.gov/wildfires/about/index.html"
+    },
+    {
+      "@type": "WebPage",
+      "name": "U.S. National Weather Service — wildfire safety",
+      "url": "https://www.weather.gov/safety/wildfire"
+    }
+  ]
+}
+  </script>
  </head>
  <body>
   <div class="notice danger" data-draft-warning="true">
    UNREVIEWED MACHINE TRANSLATION DRAFT (fr). Do not use for medical guidance, sharing, printing, or training until fluent local reviewers verify all emergency numbers, doses, timings, and local guidance against the English source.
   </div>
   <a class="skip-link" href="#main">
-   [FR]: Skip to main content
+   Passer au contenu principal
   </a>
   <header class="site">
    <div class="wrap">
@@ -39,49 +82,49 @@
     </a>
     <nav>
      <a href="../heat/">
-      [FR]: Extreme Heat
+      Chaleur extrême
      </a>
      <a href="../smoke/">
-      [FR]: Wildfire Smoke
+      Fumée de feux de forêt
      </a>
      <a href="../naloxone/">
-      [FR]: Opioid Overdose
+      Surdose d'opioïdes
      </a>
      <a href="../ors/">
-      [FR]: Dehydration &amp; ORS
+      Déshydratation et SOR
      </a>
      <a href="../choking/">
-      [FR]: Choking
+      Étouffement
      </a>
      <a href="../bleeding/">
-      [FR]: Severe Bleeding
+      Saignement sévère
      </a>
      <a href="../cpr/">
-      [FR]: CPR
+      RCR
      </a>
      <a href="../stroke/">
-      [FR]: Stroke
+      Accident vasculaire cérébral
      </a>
      <a href="../burns/">
-      [FR]: Burns
+      Brûlures
      </a>
      <a href="../seizure/">
-      [FR]: Seizure
+      Crise d'épilepsie
      </a>
      <a href="../allergy/">
-      [FR]: Severe Allergy
+      Allergie sévère
      </a>
      <a href="../cold/">
-      [FR]: Cold Safety
+      Sécurité contre le froid
      </a>
      <a href="../heart/">
-      [FR]: Heart Attack
+      Crise cardiaque
      </a>
      <a href="../triage/">
-      [FR]: Triage
+      Triage
      </a>
      <a href="../localize.html">
-      [FR]: Localize &amp; share
+      Localiser et partager
      </a>
     </nav>
    </div>
@@ -89,31 +132,31 @@
   <section class="hero">
    <div class="wrap">
     <h1>
-     [FR]: Wildfire Smoke: breathe safe, help others
+     Wildfire Smoke : respirez en toute sécurité, aidez les autres
     </h1>
     <p>
-     [FR]: How to read air-quality alerts, protect your lungs, build a low-cost clean-air filter, and check on people most at risk. Free to read, print, and share.
+     Comment lire les alertes sur la qualité de l'air, protéger vos poumons, construire un filtre à air propre à faible coût et surveiller les personnes les plus à risque. Lecture, impression et partage gratuits.
     </p>
    </div>
   </section>
   <main id="main">
    <div class="wrap">
     <p class="lede">
-     [FR]: Wildfire smoke carries tiny particles. They can enter your lungs and bloodstream. Much smoke exposure can be reduced. The two things that matter most:
+     La fumée des incendies de forêt transporte de minuscules particules. Ils peuvent pénétrer dans vos poumons et votre circulation sanguine. Une grande partie de l'exposition à la fumée peut être réduite. Les deux choses qui comptent le plus :
      <strong>
-      [FR]: check air quality
+      vérifier la qualité de l'air
      </strong>
-     [FR]: and
+     et
      <strong>
-      [FR]: reduce smoke exposure indoors and out.
+      réduire l'exposition à la fumée à l'intérieur et à l'extérieur.
      </strong>
     </p>
     <div class="actions no-print">
      <a class="btn" href="javascript:window.print()">
-      [FR]: Print this page
+      Imprimer cette page
      </a>
      <a class="btn alt" href="smoke-onepager.pdf">
-      [FR]: Download printable PDF
+      Télécharger le PDF imprimable
      </a>
     </div>
     <div class="box emergency">
@@ -121,25 +164,25 @@
       Medical emergency
      </span>
      <h3>
-      [FR]: Smoke can trigger life-threatening reactions
+      La fumée peut déclencher des réactions potentiellement mortelles
      </h3>
      <p>
-      [FR]: Call your local emergency number
+      Appelez votre numéro d'urgence local
       <strong>
-       [FR]: immediately
+       immédiatement
       </strong>
-      [FR]: if someone has chest pain, severe shortness of breath, confusion, or blue lips or fingernails. People with asthma or COPD should follow their emergency action plan. Seek care if rescue inhalers do not help.
+      si quelqu'un a des douleurs thoraciques, un essoufflement sévère, de la confusion ou des lèvres ou des ongles bleus. Les personnes souffrant d’asthme ou de BPCO doivent suivre leur plan d’action d’urgence. Cherchez des soins si les inhalateurs de secours ne vous aident pas.
      </p>
     </div>
     <h2>
-     [FR]: Air Quality Index — know the colors
+     Indice de qualité de l’air – connaître les couleurs
     </h2>
     <p>
-     [FR]: The AQI tells you how dangerous the air is right now. Check an official local air-quality source when you can. In the U.S., use
+     L'IQA vous indique à quel point l'air est dangereux à l'heure actuelle. Vérifiez une source locale officielle de qualité de l’air lorsque vous le pouvez. Aux États-Unis, utilisez
      <strong>
-      [FR]: AirNow.gov
+      AirNow.gov
      </strong>
-     [FR]: . Elsewhere, use your national or regional environment agency, or a trusted local weather alert service.
+     . Ailleurs, faites appel à votre agence environnementale nationale ou régionale, ou à un service d'alerte météorologique local de confiance.
     </p>
     <div class="two">
      <div class="box ok">
@@ -147,10 +190,10 @@
        0–50 Green
       </span>
       <h3>
-       [FR]: Good
+       Bien
       </h3>
       <p>
-       [FR]: Air quality is fine. Normal activities are safe for most people.
+       La qualité de l'air est bonne. Les activités normales sont sans danger pour la plupart des gens.
       </p>
      </div>
      <div class="box warn">
@@ -158,10 +201,10 @@
        51–100 Yellow
       </span>
       <h3>
-       [FR]: Moderate
+       Modéré
       </h3>
       <p>
-       [FR]: People unusually sensitive to smoke should consider reducing long outdoor exertion. This includes children, older adults, and people with asthma, COPD, or heart disease.
+       Les personnes particulièrement sensibles à la fumée devraient envisager de réduire les efforts prolongés à l’extérieur. Cela inclut les enfants, les personnes âgées et les personnes souffrant d’asthme, de BPCO ou de maladies cardiaques.
       </p>
      </div>
      <div class="box warn">
@@ -169,10 +212,10 @@
        101–150 Orange
       </span>
       <h3>
-       [FR]: Unhealthy for sensitive groups
+       Malsain pour les groupes sensibles
       </h3>
       <p>
-       [FR]: Sensitive groups should avoid long or heavy outdoor exertion. Everyone else should consider reducing it, especially if symptoms appear.
+       Les groupes sensibles doivent éviter les efforts extérieurs longs ou intenses. Tout le monde devrait envisager de le réduire, surtout si des symptômes apparaissent.
       </p>
      </div>
      <div class="box emergency">
@@ -180,10 +223,10 @@
        151–200 Red
       </span>
       <h3>
-       [FR]: Unhealthy
+       Malsain
       </h3>
       <p>
-       [FR]: Everyone should avoid prolonged exertion outdoors. Sensitive groups should stay inside.
+       Tout le monde devrait éviter les efforts prolongés à l’extérieur. Les groupes sensibles doivent rester à l’intérieur.
       </p>
      </div>
      <div class="box emergency">
@@ -191,10 +234,10 @@
        201–300 Purple
       </span>
       <h3>
-       [FR]: Very unhealthy
+       Très malsain
       </h3>
       <p>
-       [FR]: Everyone should reduce activity. Stay indoors in cleaner air if possible. Keep windows closed unless indoor heat creates a bigger immediate danger.
+       Tout le monde devrait réduire son activité. Restez à l’intérieur dans un air plus pur si possible. Gardez les fenêtres fermées à moins que la chaleur intérieure ne crée un danger immédiat plus important.
       </p>
      </div>
      <div class="box emergency">
@@ -202,88 +245,88 @@
        301+ Maroon
       </span>
       <h3>
-       [FR]: Hazardous
+       Dangereux
       </h3>
       <p>
-       🚨[REVIEW_REQUIRED] [FR]: Emergency conditions. Avoid outdoor exertion. If you must go out and can wear one safely, use a well-fitting N95, KN95, or P100 respirator.
+       🚨[REVIEW_REQUIRED] Conditions d'urgence. Évitez les efforts en plein air. Si vous devez sortir et pouvez en porter un en toute sécurité, utilisez un respirateur N95, KN95 ou P100 bien ajusté.
       </p>
      </div>
     </div>
     <h2>
-     [FR]: Who is most at risk?
+     Qui est le plus à risque ?
     </h2>
     <ul>
      <li>
-      [FR]: Children and teenagers (lungs still developing)
+      Enfants et adolescents (poumons encore en développement)
      </li>
      <li>
-      🚨[REVIEW_REQUIRED] [FR]: Adults 65 and older
+      🚨[REVIEW_REQUIRED] Adultes de 65 ans et plus
      </li>
      <li>
-      [FR]: Pregnant people
+      Personnes enceintes
      </li>
      <li>
-      [FR]: People with asthma, COPD, or other lung diseases
+      Personnes souffrant d'asthme, de BPCO ou d'autres maladies pulmonaires
      </li>
      <li>
-      [FR]: People with heart disease or diabetes
+      Les personnes souffrant de maladies cardiaques ou de diabète
      </li>
      <li>
-      [FR]: Outdoor workers
+      Travailleurs extérieurs
      </li>
      <li>
-      [FR]: People experiencing homelessness or without reliable shelter
+      Personnes sans abri ou sans abri fiable
      </li>
     </ul>
     <h2>
-     [FR]: Protect yourself and others
+     Protégez-vous et protégez les autres
     </h2>
     <ol class="steps">
      <li>
       <strong>
-       [FR]: Check the AQI every morning
+       Vérifiez l'AQI tous les matins
       </strong>
-      [FR]: during wildfire season. Set alerts on AirNow or your weather app.
+      pendant la saison des incendies de forêt. Définissez des alertes sur AirNow ou votre application météo.
      </li>
      <li>
       <strong>
-       [FR]: Stay indoors in cleaner air
+       Restez à l’intérieur dans un air plus pur
       </strong>
-      [FR]: when smoke is unhealthy. Keep windows and doors closed unless indoor heat or another hazard makes that unsafe.
+      quand la fumée est malsaine. Gardez les fenêtres et les portes fermées à moins que la chaleur intérieure ou un autre danger ne rende cela dangereux.
      </li>
      <li>
       <strong>
-       [FR]: Create a clean-air room.
+       Créez une pièce à l’air pur.
       </strong>
-      [FR]: Choose an inside room with few windows. Run an air purifier continuously. Avoid candles, frying, vacuuming, or gas stoves without ventilation.
+      Choisissez une pièce intérieure avec peu de fenêtres. Faites fonctionner un purificateur d’air en continu. Évitez les bougies, la friture, l’aspirateur ou les cuisinières à gaz sans ventilation.
      </li>
      <li>
       <strong>
-       🚨[REVIEW_REQUIRED] [FR]: Wear a well-fitting N95, KN95, or P100 respirator
+       🚨[REVIEW_REQUIRED] Portez un respirateur N95, KN95 ou P100 bien ajusté.
       </strong>
-      🚨[REVIEW_REQUIRED] [FR]: if you must go outside in unhealthy smoke and can wear one safely. Cloth masks do not reliably block PM2.5. Respirators may not fit infants or young children. They may also be hard for some people with breathing conditions.
+      🚨[REVIEW_REQUIRED] si vous devez sortir dans une fumée malsaine et que vous pouvez en porter un en toute sécurité. Les masques en tissu ne bloquent pas de manière fiable les PM2,5. Les respirateurs peuvent ne pas convenir aux nourrissons ou aux jeunes enfants. Ils peuvent également être difficiles pour certaines personnes souffrant de problèmes respiratoires.
      </li>
      <li>
       <strong>
-       [FR]: Consider a Corsi-Rosenthal box.
+       Considérons une boîte Corsi-Rosenthal.
       </strong>
-      [FR]: This DIY air cleaner uses a box fan and MERV-13 or better filters. It can reduce indoor particle levels when built and used correctly. Follow current build and electrical-safety guidance. Use newer, safety-certified fans where possible. Do not block exits or create trip hazards.
+      Ce purificateur d'air DIY utilise un ventilateur en forme de boîte et des filtres MERV-13 ou supérieurs. Il peut réduire les niveaux de particules à l’intérieur s’il est construit et utilisé correctement. Suivez les directives actuelles en matière de construction et de sécurité électrique. Utilisez des ventilateurs plus récents et certifiés en matière de sécurité lorsque cela est possible. Ne bloquez pas les sorties et ne créez pas de risques de trébuchement.
      </li>
      <li>
       <strong>
-       [FR]: Check on neighbors at higher risk daily.
+       Vérifiez quotidiennement les voisins à risque plus élevé.
       </strong>
-      [FR]: Offer masks, a ride to a clean-air shelter, or help running a filter.
+      Offrez des masques, un transport vers un abri à air pur ou aidez à faire fonctionner un filtre.
      </li>
      <li>
       <strong>
-       [FR]: Reduce or cancel outdoor events
+       Réduire ou annuler les événements extérieurs
       </strong>
-      🚨[REVIEW_REQUIRED] [FR]: when AQI is over 150.
+      🚨[REVIEW_REQUIRED] lorsque l'IQA est supérieur à 150.
      </li>
     </ol>
     <h2>
-     [FR]: For community organizers
+     Pour les organisateurs communautaires
     </h2>
     <div class="box ok">
      <span class="tag ok">
@@ -291,142 +334,142 @@
      </span>
      <ul>
       <li>
-       [FR]: Identify or coordinate
+       Identifier ou coordonner
        <strong>
-        [FR]: clean-air spaces
+        espaces d'air pur
        </strong>
-       🚨[REVIEW_REQUIRED] [FR]: . Use HEPA filtration, safe DIY air cleaners, or other verified filtration.
+       🚨[REVIEW_REQUIRED] . Utilisez une filtration HEPA, des purificateurs d’air DIY sûrs ou une autre filtration vérifiée.
       </li>
       <li>
        <strong>
-        [FR]: Distribute well-fitting respirators
+        Distribuer des respirateurs bien ajustés
        </strong>
-       [FR]: to outdoor workers and unhoused neighbors. Share fit and use caveats. Follow local worker-safety guidance.
+       aux travailleurs extérieurs et aux voisins sans logement. Partagez l’ajustement et utilisez les mises en garde. Suivez les directives locales de sécurité des travailleurs.
       </li>
       <li>
-       [FR]: Share AQI alerts via text, social media, and local networks.
+       Partagez des alertes AQI via SMS, réseaux sociaux et réseaux locaux.
       </li>
       <li>
-       🚨[REVIEW_REQUIRED] [FR]: Reschedule outdoor community events when AQI &gt; 150.
+       🚨[REVIEW_REQUIRED] Reprogrammer les événements communautaires en plein air lorsque l’IQA &gt; 150.
       </li>
       <li>
-       [FR]: Partner with local libraries, community centers, and faith groups. Work together to extend shelter hours.
+       Collaborez avec des bibliothèques locales, des centres communautaires et des groupes confessionnels. Travaillez ensemble pour prolonger les heures d’ouverture du refuge.
       </li>
      </ul>
     </div>
     <h2>
-     [FR]: When to seek medical help
+     Quand consulter un médecin
     </h2>
     <ul>
      <li>
-      [FR]: Difficulty breathing or shortness of breath
+      Difficulté à respirer ou essoufflement
      </li>
      <li>
-      [FR]: Persistent cough, especially with phlegm or blood
+      Toux persistante, surtout accompagnée de mucosités ou de sang
      </li>
      <li>
-      [FR]: Chest pain or tightness
+      Douleur ou oppression thoracique
      </li>
      <li>
-      [FR]: Wheezing that does not improve with medication
+      Une respiration sifflante qui ne s'améliore pas avec les médicaments
      </li>
      <li>
-      [FR]: Dizziness or confusion
+      Vertiges ou confusion
      </li>
      <li>
-      [FR]: Palpitations or irregular heartbeat
+      Palpitations ou rythme cardiaque irrégulier
      </li>
     </ul>
     <h2>
-     [FR]: Key resources
+     Ressources clés
     </h2>
     <ul>
      <li>
       <strong>
-       [FR]: AirNow.gov
+       AirNow.gov
       </strong>
-      [FR]: — Real-time AQI and fire maps (U.S.)
+      — AQI et cartes d'incendie en temps réel (États-Unis)
      </li>
      <li>
       <strong>
-       [FR]: Fire and Smoke Map
+       Carte du feu et de la fumée
       </strong>
       —
       <a href="https://fire.airnow.gov/">
-       [FR]: fire.airnow.gov
+       fire.airnow.gov
       </a>
      </li>
      <li>
       <strong>
-       🚨[REVIEW_REQUIRED] [FR]: EPA Wildfire Smoke Guide
+       🚨[REVIEW_REQUIRED] Guide de l'EPA sur la fumée des incendies de forêt
       </strong>
       —
       <a href="https://www.epa.gov/wildfire-smoke-course">
-       [FR]: epa.gov/pm-pollution/wildfire-smoke-guide-factsheets
+       epa.gov/pm-pollution/wildfire-smoke-guide-factsheets
       </a>
      </li>
      <li>
       <strong>
-       [FR]: Corsi-Rosenthal Box build guides
+       Guides de construction de la boîte Corsi-Rosenthal
       </strong>
       —
       <a href="https://cleanaircrew.org/">
-       [FR]: cleanaircrew.org
+       cleanaircrew.org
       </a>
      </li>
      <li>
       <strong>
-       [FR]: Emergency
+       Urgence
       </strong>
-      🚨[REVIEW_REQUIRED] [FR]: — your local emergency number (examples: 911, 112, or 999; verify locally)
+      🚨[REVIEW_REQUIRED] — votre numéro d'urgence local (exemples : 911, 112 ou 999 ; vérifiez localement)
      </li>
     </ul>
     <div class="disclaimer">
      <p>
       <strong>
-       [FR]: Sources include:
+       Les sources incluent :
       </strong>
      </p>
      <ul class="sources">
       <li>
        <a href="https://www.airnow.gov/wildfires/">
-        [FR]: AirNow — wildfire smoke and air quality information
+        AirNow — informations sur la fumée des incendies de forêt et la qualité de l'air
        </a>
        .
       </li>
       <li>
        <a href="https://www.epa.gov/wildfire-smoke-course">
-        🚨[REVIEW_REQUIRED] [FR]: U.S. Environmental Protection Agency (EPA) — wildfire smoke and health guidance
+        🚨[REVIEW_REQUIRED] Agence américaine de protection de l'environnement (EPA) — fumée des incendies de forêt et conseils de santé
        </a>
        .
       </li>
       <li>
        <a href="https://www.cdc.gov/wildfires/about/index.html">
-        🚨[REVIEW_REQUIRED] [FR]: U.S. Centers for Disease Control and Prevention (CDC) — wildfire smoke and health
+        🚨[REVIEW_REQUIRED] Centres pour le contrôle et la prévention des maladies (CDC) des États-Unis — fumée des incendies de forêt et santé
        </a>
        .
       </li>
       <li>
        <a href="https://www.weather.gov/safety/wildfire">
-        [FR]: U.S. National Weather Service — wildfire safety
+        Service météorologique national des États-Unis — sécurité contre les incendies de forêt
        </a>
        .
       </li>
       <li>
-       [FR]: Published research and public guidance on DIY air filtration. Verify device-building instructions against current safety guidance before use.
+       Recherche publiée et conseils publics sur la filtration de l'air DIY. Vérifiez les instructions de construction de l'appareil par rapport aux directives de sécurité en vigueur avant utilisation.
       </li>
      </ul>
      <p>
-      [FR]: This guide is general information, not medical advice or first-aid training. In an emergency, call your local emergency number and follow dispatcher/local guidance.
+      Ce guide est une information générale et non un conseil médical ou une formation aux premiers secours. En cas d'urgence, appelez votre numéro d'urgence local et suivez les instructions du répartiteur/local.
      </p>
     </div>
    </div>
   </main>
   <footer class="site">
    <div class="wrap">
-    [FR]: Made by AI Village agents to reduce harm.
+    Fabriqué par des agents d'AI Village pour réduire les dommages.
     <a href="https://github.com/ai-village-agents/help-kit">
-     [FR]: Edit on GitHub
+     Modifier sur GitHub
     </a>
     .
    </div>
