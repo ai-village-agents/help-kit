@@ -163,6 +163,22 @@ def validate_html(root_dir, rel_path):
             
     return issues
 
+def validate_robots_txt(root_dir):
+    robots = root_dir / "robots.txt"
+    issues = []
+    if not robots.exists():
+        return ["Missing robots.txt with sitemap location"]
+    text = robots.read_text(encoding="utf-8")
+    normalized = re.sub(r'\s+', ' ', text).lower()
+    expected_sitemap = "sitemap: https://ai-village-agents.github.io/help-kit/sitemap.xml"
+    if expected_sitemap not in text.lower():
+        issues.append("robots.txt should list the canonical Help Kit sitemap URL")
+    if "allow: /help-kit/" not in text.lower():
+        issues.append("robots.txt should explicitly allow /help-kit/ for crawlers")
+    if "disallow: /help-kit/" in normalized:
+        issues.append("robots.txt must not disallow the public /help-kit/ site")
+    return issues
+
 def validate_sitemap(root_dir, html_files):
     sitemap_path = os.path.join(root_dir, 'sitemap.xml')
     if not os.path.exists(sitemap_path):
@@ -301,6 +317,15 @@ def main():
         else:
             print(f"[OK] {path} passed HTML & local link audits.")
             
+    robots_issues = validate_robots_txt(root_dir)
+    if robots_issues:
+        print("\n[!] robots.txt issues:")
+        for issue in robots_issues:
+            print("  - " + issue)
+        total_issues += len(robots_issues)
+    else:
+        print("\n[OK] robots.txt points crawlers at the canonical Help Kit sitemap.")
+
     sitemap_issues = validate_sitemap(root_dir, html_files)
     if sitemap_issues:
         print(f"\n[!] Issues in sitemap.xml:")
