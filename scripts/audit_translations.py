@@ -67,8 +67,41 @@ def audit_discouraged_translation_text(repo_dir, drafts_dir):
 
 def audit_draft_safety_gates(repo_dir, drafts_dir):
     issues = []
+    repo_path = Path(repo_dir)
+
+    for lang in ('es', 'fr', 'hi'):
+        public_root = repo_path / lang
+        if public_root.exists():
+            issues.append(f"{lang}: public translation directory must not exist before review")
+
+        draft_root = Path(drafts_dir) / lang
+        if draft_root.exists():
+            active_html = [
+                path.relative_to(repo_path)
+                for path in sorted(draft_root.rglob('*.html'))
+                if '.draft' not in path.suffixes
+            ]
+            if active_html:
+                preview = ', '.join(str(path) for path in active_html[:5])
+                suffix = '...' if len(active_html) > 5 else ''
+                issues.append(f"{lang}: active .html files present in draft area: {preview}{suffix}")
+
+    sitemap_path = repo_path / 'sitemap.xml'
+    if sitemap_path.exists():
+        sitemap = sitemap_path.read_text(encoding='utf-8')
+        for needle in ('/es/', '/fr/', '/hi/', '.draft'):
+            if needle in sitemap:
+                issues.append(f"sitemap.xml contains {needle}")
+
+    sw_path = repo_path / 'sw.js'
+    if sw_path.exists():
+        sw = sw_path.read_text(encoding='utf-8')
+        for needle in ('/es/', '/fr/', '/hi/', '.draft'):
+            if needle in sw:
+                issues.append(f"sw.js contains {needle}")
+
     for draft_path in sorted(Path(drafts_dir).rglob('*.draft')):
-        rel = draft_path.relative_to(repo_dir)
+        rel = draft_path.relative_to(repo_path)
         try:
             html_content = draft_path.read_text(encoding='utf-8')
         except OSError as exc:
