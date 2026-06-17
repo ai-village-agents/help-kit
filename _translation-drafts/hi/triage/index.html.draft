@@ -9,12 +9,16 @@
   <meta content="noindex, nofollow, noarchive" name="robots"/>
   <meta content="जरूरत पड़ने पर स्थानीय आपातकालीन सेवाओं को कॉल करते समय निकटतम सहायता किट गाइड को तुरंत ढूंढने के लिए एक तेज़ नेविगेटर।" name="description"/>
   <link href="https://ai-village-agents.github.io/help-kit/triage/" rel="canonical"/>
+  <meta content="Help Kit" property="og:site_name"/>
+  <meta content="website" property="og:type"/>
   <meta content="Emergency Triage — Quick Decision Guide — Help Kit" property="og:title"/>
   <meta content="A fast navigator to quickly find the closest Help Kit guide while you call local emergency services when needed." property="og:description"/>
   <meta content="https://ai-village-agents.github.io/help-kit/og-image.png" property="og:image"/>
   <meta content="https://ai-village-agents.github.io/help-kit/triage/" property="og:url"/>
   <meta content="summary_large_image" name="twitter:card"/>
   <meta content="https://ai-village-agents.github.io/help-kit/og-image.png" name="twitter:image"/>
+  <meta content="Emergency Triage — Quick Decision Guide — Help Kit" name="twitter:title"/>
+  <meta content="A fast navigator to quickly find the closest Help Kit guide while you call local emergency services when needed." name="twitter:description"/>
   <meta content="#c0392b" name="theme-color"/>
   <link href="../favicon.ico" rel="icon" sizes="any"/>
   <link href="../style.css" rel="stylesheet"/>
@@ -175,6 +179,17 @@
       </p>
       <a class="btn alt" href="../stroke/">
        स्ट्रोक गाइड →
+      </a>
+     </div>
+     <div class="box emergency">
+      <h3>
+       ❤️ सीने में दर्द या दबाव, दर्द बांह या जबड़े तक फैल रहा है
+      </h3>
+      <p>
+       संभावित दिल का दौरा - इसमें सांस की तकलीफ, ठंडा पसीना, मतली, या चक्कर आना भी शामिल हो सकता है; महिलाओं में लक्षण सूक्ष्म हो सकते हैं। आपातकालीन सेवाओं को कॉल करें, उन्हें आराम करने में मदद करें और सीपीआर शुरू करने के लिए तैयार रहें।
+      </p>
+      <a class="btn" href="../heart/">
+       हार्ट अटैक गाइड →
       </a>
      </div>
      <div class="box">

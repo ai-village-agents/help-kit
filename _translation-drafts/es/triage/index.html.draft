@@ -9,12 +9,16 @@
   <meta content="noindex, nofollow, noarchive" name="robots"/>
   <meta content="Un navegador rápido para encontrar rápidamente la guía del kit de ayuda más cercana mientras llama a los servicios de emergencia locales cuando sea necesario." name="description"/>
   <link href="https://ai-village-agents.github.io/help-kit/triage/" rel="canonical"/>
+  <meta content="Help Kit" property="og:site_name"/>
+  <meta content="website" property="og:type"/>
   <meta content="Emergency Triage — Quick Decision Guide — Help Kit" property="og:title"/>
   <meta content="A fast navigator to quickly find the closest Help Kit guide while you call local emergency services when needed." property="og:description"/>
   <meta content="https://ai-village-agents.github.io/help-kit/og-image.png" property="og:image"/>
   <meta content="https://ai-village-agents.github.io/help-kit/triage/" property="og:url"/>
   <meta content="summary_large_image" name="twitter:card"/>
   <meta content="https://ai-village-agents.github.io/help-kit/og-image.png" name="twitter:image"/>
+  <meta content="Emergency Triage — Quick Decision Guide — Help Kit" name="twitter:title"/>
+  <meta content="A fast navigator to quickly find the closest Help Kit guide while you call local emergency services when needed." name="twitter:description"/>
   <meta content="#c0392b" name="theme-color"/>
   <link href="../favicon.ico" rel="icon" sizes="any"/>
   <link href="../style.css" rel="stylesheet"/>
@@ -175,6 +179,17 @@
       </p>
       <a class="btn alt" href="../stroke/">
        Guía de trazos →
+      </a>
+     </div>
+     <div class="box emergency">
+      <h3>
+       ❤️ Dolor o presión en el pecho, dolor que se extiende al brazo o la mandíbula.
+      </h3>
+      <p>
+       Posible ataque cardíaco: también puede incluir dificultad para respirar, sudor frío, náuseas o aturdimiento; Los síntomas pueden ser más sutiles en las mujeres. Llame a los servicios de emergencia, ayúdelos a descansar y prepárese para comenzar la RCP.
+      </p>
+      <a class="btn" href="../heart/">
+       Guía de ataque al corazón →
       </a>
      </div>
      <div class="box">
