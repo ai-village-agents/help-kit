@@ -14,6 +14,14 @@ DISCOURAGED_TRANSLATION_PHRASES = [
     ("save lives", "Avoid overclaiming outcomes; use concrete actions and emergency handoff wording."),
     ("will save", "Avoid overclaiming outcomes; use concrete actions and emergency handoff wording."),
     ("can prevent death", "Stale prevent-death overclaim; use reduce-risk wording before reuse."),
+    ("give aspirin if appropriate", "Unsafe heart-attack shorthand; aspirin must be dispatcher/clinician/local-protocol gated with contraindications."),
+    ("chew aspirin", "Unsafe heart-attack shorthand; aspirin must be dispatcher/clinician/local-protocol gated with contraindications."),
+    ("donnez-lui de l'aspirine si nécessaire", "Unsafe French aspirin shorthand; update draft/cache wording before reuse."),
+    ("mâcher de l'aspirine", "Unsafe French aspirin shorthand; update draft/cache wording before reuse."),
+    ("dé aspirina si corresponde", "Unsafe Spanish aspirin shorthand; update draft/cache wording before reuse."),
+    ("masticar aspirina", "Unsafe Spanish aspirin shorthand; update draft/cache wording before reuse."),
+    ("यदि उचित हो तो एस्पिरिन दें", "Unsafe Hindi aspirin shorthand; update draft/cache wording before reuse."),
+    ("एस्पिरिन चबाएं", "Unsafe Hindi aspirin shorthand; update draft/cache wording before reuse."),
     ("puede evitar la muerte", "Stale Spanish prevent-death overclaim; update draft/cache wording before reuse."),
     ("peut éviter la mort", "Stale French prevent-death overclaim; update draft/cache wording before reuse."),
     ("मृत्यु या मस्तिष्क की चोट को रोका जा सकता है", "Stale Hindi prevent-death overclaim; update draft/cache wording before reuse."),
@@ -23,6 +31,20 @@ DISCOURAGED_TRANSLATION_PHRASES = [
     ("sauver une vie", "Stale French save-life overclaim; update draft/cache wording before reuse."),
     ("sauvez une vie", "Stale French save-life overclaim; update draft/cache wording before reuse."),
     ("जान बचा सकता है", "Stale Hindi save-life overclaim; update draft/cache wording before reuse."),
+]
+
+# Exact stale topic-roster fragments from older 12-topic/triage-only summaries.
+# They omit the later cold-weather and heart-attack guides, so cached/draft text
+# containing them should be regenerated instead of reused.
+STALE_TOPIC_ROSTER_PHRASES = [
+    (
+        "severe allergy/anaphylaxis, and a quick emergency navigator",
+        "Stale topic roster missing cold-weather and heart-attack guides.",
+    ),
+    (
+        "allergie/anaphylaxie grave et un navigateur d'urgence rapide",
+        "Stale French topic roster missing cold-weather and heart-attack guides.",
+    ),
 ]
 
 
@@ -52,6 +74,11 @@ def audit_discouraged_translation_text(repo_dir, drafts_dir):
                     for label, haystack in haystacks:
                         if phrase_lower in haystack:
                             issues.append(f"translation_cache.json {label} contains discouraged phrase '{phrase}': {guidance}")
+                for phrase, guidance in STALE_TOPIC_ROSTER_PHRASES:
+                    phrase_lower = phrase.lower()
+                    for label, haystack in haystacks:
+                        if phrase_lower in haystack:
+                            issues.append(f"translation_cache.json {label} contains stale topic roster '{phrase}': {guidance}")
 
     for draft_path in sorted(Path(drafts_dir).rglob('*.draft')):
         try:
@@ -63,6 +90,10 @@ def audit_discouraged_translation_text(repo_dir, drafts_dir):
             if phrase.lower() in draft_text:
                 rel = draft_path.relative_to(repo_dir)
                 issues.append(f"{rel} contains discouraged phrase '{phrase}': {guidance}")
+        for phrase, guidance in STALE_TOPIC_ROSTER_PHRASES:
+            if phrase.lower() in draft_text:
+                rel = draft_path.relative_to(repo_dir)
+                issues.append(f"{rel} contains stale topic roster '{phrase}': {guidance}")
     return issues
 
 def audit_draft_safety_gates(repo_dir, drafts_dir):
