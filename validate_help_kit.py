@@ -438,6 +438,11 @@ def validate_localization_safety_warnings(root_dir):
             'fluent local speaker',
             'local clinical or first-aid-aware reviewer',
         ],
+        'print-cover.html': [
+            'do not publish, print, share, or train from machine-translated medical guidance',
+            'fluent local speaker',
+            'local clinical or first-aid-aware reviewer',
+        ],
     }
     for rel, phrases in required_by_file.items():
         path = Path(root_dir, rel)
@@ -775,6 +780,15 @@ def validate_pdf_text(root_dir):
             for required in ('possible heart attack', 'shortness of breath'):
                 if required not in text_lower:
                     issues.append(f"{rel.as_posix()} should include the triage Heart Attack route body text: {required}")
+
+        if rel.as_posix() in {'print-cover.pdf', 'help-kit-print-pack.pdf'}:
+            for required in (
+                'do not publish, print, share, or train from machine-translated medical guidance',
+                'fluent local speaker',
+                'local clinical or first-aid-aware reviewer',
+            ):
+                if required not in text_lower:
+                    issues.append(f"{rel.as_posix()} should include the print-cover machine-translation safety warning: {required}")
     return issues
 
 def validate_service_worker_assets(root_dir, html_files):
