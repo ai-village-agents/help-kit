@@ -5,6 +5,62 @@ from collections import Counter
 from pathlib import Path
 from bs4 import BeautifulSoup
 
+# Translation drafts/cache are not public medical guidance, but stale source strings
+# can be reused later when regenerating drafts. Keep this narrow: it catches
+# overclaim phrases that have already caused regressions or stale draft text.
+DISCOURAGED_TRANSLATION_PHRASES = [
+    ("save a life", "Avoid overclaiming outcomes; use concrete actions and emergency handoff wording."),
+    ("saves lives", "Avoid overclaiming outcomes; use concrete actions and emergency handoff wording."),
+    ("save lives", "Avoid overclaiming outcomes; use concrete actions and emergency handoff wording."),
+    ("will save", "Avoid overclaiming outcomes; use concrete actions and emergency handoff wording."),
+    ("salvar vidas", "Stale Spanish save-lives overclaim; update draft/cache wording before reuse."),
+    ("salvar una vida", "Stale Spanish save-life overclaim; update draft/cache wording before reuse."),
+    ("sauver des vies", "Stale French save-lives overclaim; update draft/cache wording before reuse."),
+    ("sauver une vie", "Stale French save-life overclaim; update draft/cache wording before reuse."),
+    ("sauvez une vie", "Stale French save-life overclaim; update draft/cache wording before reuse."),
+    ("जान बचा सकता है", "Stale Hindi save-life overclaim; update draft/cache wording before reuse."),
+]
+
+
+def normalized_text(html_content):
+    soup = BeautifulSoup(html_content, 'html.parser')
+    for element in soup(["script", "style"]):
+        element.decompose()
+    return re.sub(r'\s+', ' ', soup.get_text()).strip().lower()
+
+
+def audit_discouraged_translation_text(repo_dir, drafts_dir):
+    issues = []
+
+    cache_path = Path(repo_dir, "scripts", "translation_cache.json")
+    if cache_path.exists():
+        import json
+        try:
+            cache = json.loads(cache_path.read_text(encoding='utf-8'))
+        except Exception as exc:
+            issues.append(f"Could not parse translation cache: {exc}")
+        else:
+            for key, value in cache.items():
+                source = key.rsplit("||", 1)[0]
+                haystacks = [("source key", source.lower()), ("cached value", str(value).lower())]
+                for phrase, guidance in DISCOURAGED_TRANSLATION_PHRASES:
+                    phrase_lower = phrase.lower()
+                    for label, haystack in haystacks:
+                        if phrase_lower in haystack:
+                            issues.append(f"translation_cache.json {label} contains discouraged phrase '{phrase}': {guidance}")
+
+    for draft_path in sorted(Path(drafts_dir).rglob('*.draft')):
+        try:
+            draft_text = normalized_text(draft_path.read_text(encoding='utf-8'))
+        except OSError as exc:
+            issues.append(f"Could not read {draft_path.relative_to(repo_dir)}: {exc}")
+            continue
+        for phrase, guidance in DISCOURAGED_TRANSLATION_PHRASES:
+            if phrase.lower() in draft_text:
+                rel = draft_path.relative_to(repo_dir)
+                issues.append(f"{rel} contains discouraged phrase '{phrase}': {guidance}")
+    return issues
+
 def extract_numbers(html_content, lang=None):
     soup = BeautifulSoup(html_content, 'html.parser')
     # Remove script and style elements
@@ -34,6 +90,14 @@ def audit_all_translations():
     
     languages = ["es", "fr", "hi"]
     issues_found = 0
+
+    discouraged_issues = audit_discouraged_translation_text(repo_dir, drafts_dir)
+    if discouraged_issues:
+        print("[WARNING] Discouraged wording found in translation drafts/cache:")
+        for issue in discouraged_issues:
+            print(f"  - {issue}")
+        print()
+        issues_found += len(discouraged_issues)
     
     # We will traverse the repo to find all active HTML files (English)
     for root, dirs, files in os.walk(repo_dir):
@@ -101,7 +165,7 @@ def audit_all_translations():
                             issues_found += 1
                                 
     if issues_found == 0:
-        print("[SUCCESS] Numeric and link audits complete: no numeric or href target/count discrepancies found between English files and existing drafts.")
+        print("[SUCCESS] Translation audits complete: no discouraged wording, numeric discrepancies, or href target/count discrepancies found between English files and existing drafts.")
     else:
         print(f"[AUDIT COMPLETE] Found {issues_found} potential discrepancy issues.")
         sys.exit(1)
