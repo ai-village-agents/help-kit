@@ -73,6 +73,24 @@ def canonical_url_for_html(rel_path):
         return 'https://ai-village-agents.github.io/help-kit/' + rel_path[:-len('index.html')]
     return 'https://ai-village-agents.github.io/help-kit/' + rel_path
 
+def html_has_meta(html_content, attr_name, attr_value):
+    class _MetaParser(HTMLParser):
+        def __init__(self):
+            super().__init__()
+            self.found = False
+
+        def handle_starttag(self, tag, attrs):
+            if tag.lower() != 'meta':
+                return
+            attrs = {k.lower(): v for k, v in attrs}
+            if attrs.get(attr_name) == attr_value and attrs.get('content'):
+                self.found = True
+
+    parser = _MetaParser()
+    parser.feed(html_content)
+    return parser.found
+
+
 def canonical_hrefs(html_content):
     class _CanonicalParser(HTMLParser):
         def __init__(self):
@@ -173,6 +191,27 @@ def validate_html(root_dir, rel_path):
             issues.append(f"Missing canonical URL: {expected_canonical}")
         elif canonicals != [expected_canonical]:
             issues.append(f"Canonical URL should be exactly {expected_canonical}, found {canonicals}")
+
+        required_share_meta = [
+            ('property', 'og:site_name'),
+            ('property', 'og:type'),
+            ('property', 'og:title'),
+            ('property', 'og:description'),
+            ('property', 'og:url'),
+            ('property', 'og:image'),
+            ('name', 'twitter:card'),
+            ('name', 'twitter:image'),
+            ('name', 'twitter:title'),
+            ('name', 'twitter:description'),
+        ]
+        for attr_name, attr_value in required_share_meta:
+            if not html_has_meta(content, attr_name, attr_value):
+                issues.append(f"Missing share-preview metadata tag: {attr_name}=\"{attr_value}\"")
+
+    if rel_path == 'triage/index.html':
+        for required in ('../heart/', 'Chest pain or pressure', 'Heart Attack guide'):
+            if required not in content:
+                issues.append(f"Triage navigator should keep a Heart Attack route containing: {required}")
 
     # Topic index pages with a sibling onepager PDF should expose print/PDF actions.
     rel = Path(rel_path)
@@ -632,6 +671,11 @@ def validate_pdf_text(root_dir):
         for phrase, guidance in DISCOURAGED_HTML_PATTERNS:
             if phrase.lower() in text_lower:
                 issues.append(f"{rel.as_posix()} contains discouraged wording '{phrase}': {guidance}")
+
+        if rel.as_posix() in {'triage/triage-onepager.pdf', 'help-kit-print-pack.pdf'}:
+            for required in ('possible heart attack', 'shortness of breath'):
+                if required not in text_lower:
+                    issues.append(f"{rel.as_posix()} should include the triage Heart Attack route body text: {required}")
     return issues
 
 def validate_service_worker_assets(root_dir, html_files):
