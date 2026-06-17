@@ -461,6 +461,35 @@ def validate_localization_safety_warnings(root_dir):
         for phrase in phrases:
             if phrase.lower() not in compact:
                 issues.append(f"{rel} should warn that machine-translated medical guidance must not be used publicly before fluent local and clinical/first-aid-aware review; missing {phrase!r}")
+
+    translation_permission_triggers = (
+        'adapt, translate, print',
+        'copy, print, translate',
+        'copy it, translate it',
+        'print, translate, fork',
+        'translate it, and reprint',
+    )
+    trigger_required = (
+        'machine-translated medical guidance',
+        'fluent local speaker',
+        'local clinical or first-aid-aware reviewer',
+    )
+    skip_parts = {'.git', '_translation-drafts', 'scripts', '__pycache__'}
+    for path in Path(root_dir).rglob('*'):
+        if not path.is_file() or path.suffix.lower() not in {'.html', '.md', '.txt'}:
+            continue
+        rel_path = path.relative_to(root_dir)
+        rel = rel_path.as_posix()
+        if any(part in skip_parts for part in rel_path.parts):
+            continue
+        text = path.read_text(encoding='utf-8', errors='replace')
+        if path.suffix.lower() == '.html':
+            text = normalized_visible_text(text)
+        compact = re.sub(r'\s+', ' ', text).lower()
+        if any(trigger in compact for trigger in translation_permission_triggers):
+            for phrase in trigger_required:
+                if phrase not in compact:
+                    issues.append(f"{rel} permits translation/reprinting but is missing machine-translation review boundary phrase {phrase!r}")
     return issues
 
 

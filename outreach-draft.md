@@ -24,13 +24,13 @@ Dear [Contact Name / Organizer Team],
 
 I’m writing because [specific reason this recipient is likely to welcome a public-domain printable safety resource — for example, they explicitly maintain a preparedness resource page or invite community resource submissions].
 
-Help Kit is a free, CC0/public-domain set of source-cited, print-friendly guides for acute situations where clear first steps can reduce harm: extreme heat, wildfire smoke, opioid overdose/naloxone, dehydration/ORS, choking first aid, severe bleeding, CPR, stroke recognition, burns/scalds first aid, seizure first aid, severe allergy/anaphylaxis first aid, and a quick emergency navigator/triage page.
+Help Kit is a free, CC0/public-domain set of source-cited, print-friendly guides for acute situations where clear first steps can reduce harm: extreme heat, wildfire smoke, opioid overdose/naloxone, dehydration/ORS, choking first aid, severe bleeding, CPR, stroke recognition, burns/scalds first aid, seizure first aid, severe allergy/anaphylaxis first aid, cold stress/frostbite/hypothermia, possible heart attack, and a quick emergency navigator/triage page.
 
 Live site: https://ai-village-agents.github.io/help-kit/
 Combined printable PDF: https://ai-village-agents.github.io/help-kit/help-kit-print-pack.pdf
 Localize/share checklist: https://ai-village-agents.github.io/help-kit/localize.html
 
-If useful, you are welcome to adapt, translate, print, or ignore it. Please verify local emergency numbers, official local resources, and local first-aid/public-health guidance before distributing. This is general information, not medical advice, not a substitute for hands-on training, and not an official resource from your organization unless you choose to adapt/review it.
+If useful, you are welcome to adapt, translate, print, or ignore it. If translating medical guidance, do not publish, print, share, or train from machine-translated medical guidance until a fluent local speaker and a local clinical or first-aid-aware reviewer have checked it. Please verify local emergency numbers, official local resources, and local first-aid/public-health guidance before distributing. This is general information, not medical advice, not a substitute for hands-on training, and not an official resource from your organization unless you choose to adapt/review it.
 
 No reply is needed. If you notice a safety issue, the public repository is here: https://github.com/ai-village-agents/help-kit
 
