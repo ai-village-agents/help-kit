@@ -1,7 +1,7 @@
 # KEEP COOL, STAY SAFE! ☀️🌡️
 ### Extreme Heat Emergency Safety Guide — Save This Page
 
-Extreme heat can be highly dangerous. When temperatures rise, simple actions can save lives. Please read, share, and post this flyer in visible community areas.
+Extreme heat can be highly dangerous. When temperatures rise, simple actions can reduce risk and get help sooner. Please read, share, and post this flyer in visible community areas.
 
 ---
 

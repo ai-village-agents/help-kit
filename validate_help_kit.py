@@ -28,6 +28,7 @@ DISCOURAGED_HTML_PATTERNS = [
     ("vulnerable people", "Use dignity/access-barrier wording such as people facing higher risk or limited access."),
     ("save a life", "Avoid overclaiming outcomes; describe concrete actions and emergency handoff instead."),
     ("saves lives", "Avoid overclaiming outcomes; describe concrete actions and emergency handoff instead."),
+    ("save lives", "Avoid overclaiming outcomes; describe concrete actions and emergency handoff instead."),
     ("will save", "Avoid overclaiming outcomes; describe concrete actions and emergency handoff instead."),
     ("chew aspirin", "Avoid unsafe aspirin shorthand; say to ask about aspirin only after calling and only if dispatcher, clinician, or local protocol says."),
     ("give aspirin if appropriate", "Avoid unsafe aspirin shorthand; say to ask about aspirin only after calling and only if dispatcher, clinician, or local protocol says."),
