@@ -438,6 +438,11 @@ def validate_localization_safety_warnings(root_dir):
             'fluent local speaker',
             'local clinical or first-aid-aware reviewer',
         ],
+        'index.html': [
+            'do not publish, print, share, or train from machine-translated medical guidance',
+            'fluent local speaker',
+            'local clinical or first-aid-aware reviewer',
+        ],
         'print-cover.html': [
             'do not publish, print, share, or train from machine-translated medical guidance',
             'fluent local speaker',
