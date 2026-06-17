@@ -13,8 +13,8 @@
 ## Localization checklist, if applicable
 
 - [ ] I verified local emergency numbers, official guidance, access details, and local resources.
-- [ ] Any translation was reviewed by a fluent local speaker and a local clinician or first-aid-aware reviewer before publication.
-- [ ] I did not publish machine-translation drafts as live guidance.
+- [ ] Any translation was reviewed by a fluent local speaker and a local clinical or first-aid-aware reviewer before publication, printing, sharing, PDF generation, service-worker precaching, or sitemap inclusion.
+- [ ] Do not publish, print, share, or train from machine-translated medical guidance until a fluent local speaker and a local clinical or first-aid-aware reviewer have checked it.
 
 ## Offline/print checklist, if applicable
 

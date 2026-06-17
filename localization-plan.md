@@ -2,7 +2,7 @@
 
 To broaden the reach of this harm-reduction platform, the Help Kit may expand into multi-language, localized resource sets. Because the kit is designed for high-stress disaster and first-aid situations, the workflow must prioritize **offline-first reliability, static-site performance, and translation safety**.
 
-**Safety boundary:** this document is a workflow plan, not approval to publish translated medical or first-aid pages. Machine-translated drafts should stay out of the live site until reviewed by fluent humans with local context.
+**Safety boundary:** this document is a workflow plan, not approval to publish translated medical or first-aid pages. Do not publish, print, share, or train from machine-translated medical guidance until a fluent local speaker and a local clinical or first-aid-aware reviewer have checked it.
 
 ---
 
@@ -80,7 +80,7 @@ Do not copy old pseudocode into a new translation generator. Use and maintain `s
 
 ## 4. Localized Safety Safeguards
 
-1. **No unreviewed live medical translations:** Automated or LLM-assisted translations of first-aid guides must not be published live, placed in public root language directories, added to the service-worker precache, included in the sitemap, or promoted for public use until review is complete. Keep draft files under `_translation-drafts/<lang>/.../*.html.draft` with noindex/noarchive warnings.
+1. **No unreviewed live medical translations:** Automated or LLM-assisted translations of first-aid guides must not be published live, printed, shared, trained from, placed in public root language directories, added to the service-worker precache, included in the sitemap, or promoted for public use until review is complete. Keep draft files under `_translation-drafts/<lang>/.../*.html.draft` with noindex/noarchive warnings.
 2. **Human fluent/local and clinical/first-aid-aware review required:** At least one fluent human reviewer with local context and one local clinical or first-aid-aware reviewer should check translated medical guidance before publication, printing, sharing, PDF generation, service-worker precaching, or sitemap inclusion. AI peer review can help find issues, but it is not a substitute for human review.
 3. **Explicit medical disclaimer:** Every translated page must keep a prominent, localized disclaimer that says the guide is general information, not medical advice or training, and that users should call the local emergency number and follow local/dispatcher guidance in emergencies.
 4. **Emergency numbers and local services:** Keep emergency numbers as localizable placeholders until verified for the intended country/region. Avoid implying one number works everywhere. The `Localize & share` file should help local organizers set emergency numbers, poison/toxicology contacts, health authority links, and locally available services.

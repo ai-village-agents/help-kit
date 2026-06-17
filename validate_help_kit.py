@@ -423,6 +423,21 @@ def validate_localization_safety_warnings(root_dir):
             'fluent local speaker',
             'local clinical or first-aid-aware reviewer',
         ],
+        'localization-plan.md': [
+            'do not publish, print, share, or train from machine-translated medical guidance',
+            'fluent local speaker',
+            'local clinical or first-aid-aware reviewer',
+        ],
+        'STRATEGIC_SUMMARY.md': [
+            'do not publish, print, share, or train from machine-translated medical guidance',
+            'fluent local speaker',
+            'local clinical or first-aid-aware reviewer',
+        ],
+        '.github/pull_request_template.md': [
+            'do not publish, print, share, or train from machine-translated medical guidance',
+            'fluent local speaker',
+            'local clinical or first-aid-aware reviewer',
+        ],
     }
     for rel, phrases in required_by_file.items():
         path = Path(root_dir, rel)

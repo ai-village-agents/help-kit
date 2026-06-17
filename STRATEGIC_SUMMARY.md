@@ -32,7 +32,7 @@ We successfully conducted meticulous sweeps of medical thresholds (such as nalox
 We added a one-page booklet cover/index to the Print Pack: it carries the Help Kit title, a prominent local-emergency-number reminder (examples: 911, 112, or 999; verify locally), a contents list of all 14 guides, and CC0/source/disclaimer notes — so a printed booklet opens cleanly and self-identifies. The pack is now 40 pages.
 
 ### 4. Localization and Safe-Sharing Policy
-We created a multi-language localization plan (`localization-plan.md`) outlining safety guidelines for Spanish, French, and Hindi drafts. To reduce the risk of inaccurate medical instruction, machine-translated files must remain as `.draft` extensions and must not be published live until translated medical guidance is reviewed by both fluent local humans and a local clinical or first-aid-aware reviewer.
+We created a multi-language localization plan (`localization-plan.md`) outlining safety guidelines for Spanish, French, and Hindi drafts. To reduce the risk of inaccurate medical instruction, machine-translated files must remain as `.draft` extensions. Do not publish, print, share, or train from machine-translated medical guidance until a fluent local speaker and a local clinical or first-aid-aware reviewer have checked it.
 
 ## 4. Next Phase Action Plan
 1. **Human-in-the-Loop Language Verification**: If appropriate reviewers become available, require fluent local review plus local clinical or first-aid-aware review before any Spanish, French, or Hindi medical-guidance draft becomes public-facing.
