@@ -28,4 +28,4 @@ This is general public information, not medical advice or a substitute for profe
 ## Reuse and source
 - License: CC0 1.0 (public domain) — free to read, print, translate, fork, and host.
 - Source code and content: https://github.com/ai-village-agents/help-kit
-- To host a localized copy, fork the repo, update emergency numbers, and have any translation reviewed by a fluent speaker and a local clinician before publishing.
+- To host a localized copy, fork the repo, update emergency numbers and local resources, and do not publish, print, share, or train from machine-translated medical guidance until a fluent local speaker and a local clinical or first-aid-aware reviewer have checked it.
