@@ -49,7 +49,7 @@ def _extract_pdf_text_worker(pdf_path, output_path, result_queue):
 
 
 def extract_pdf_text_with_timeout(pdf_path, timeout_seconds=PDF_TEXT_TIMEOUT_SECONDS):
-    ctx = multiprocessing.get_context("fork")
+    ctx = multiprocessing.get_context()
     result_queue = ctx.Queue(maxsize=1)
     with tempfile.NamedTemporaryFile(prefix="helpkit-pdf-text-", suffix=".txt", delete=False) as tmp:
         output_path = Path(tmp.name)
