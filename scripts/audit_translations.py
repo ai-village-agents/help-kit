@@ -65,6 +65,39 @@ def audit_discouraged_translation_text(repo_dir, drafts_dir):
                 issues.append(f"{rel} contains discouraged phrase '{phrase}': {guidance}")
     return issues
 
+def audit_draft_safety_gates(repo_dir, drafts_dir):
+    issues = []
+    for draft_path in sorted(Path(drafts_dir).rglob('*.draft')):
+        rel = draft_path.relative_to(repo_dir)
+        try:
+            html_content = draft_path.read_text(encoding='utf-8')
+        except OSError as exc:
+            issues.append(f"Could not read {rel}: {exc}")
+            continue
+
+        soup = BeautifulSoup(html_content, 'html.parser')
+        robots = ''
+        robots_meta = soup.find('meta', attrs={'name': re.compile(r'^robots$', re.I)})
+        if robots_meta and robots_meta.has_attr('content'):
+            robots = robots_meta.get('content', '').lower()
+
+        missing_robot_tokens = [
+            token for token in ('noindex', 'nofollow', 'noarchive')
+            if token not in robots
+        ]
+        if missing_robot_tokens:
+            issues.append(
+                f"{rel} missing noindex/nofollow/noarchive robots meta "
+                f"(missing: {', '.join(missing_robot_tokens)})"
+            )
+
+        body_text = normalized_text(html_content)
+        if 'unreviewed machine translation draft' not in body_text:
+            issues.append(f"{rel} missing visible unreviewed-draft warning")
+        if 'do not use for medical guidance' not in body_text:
+            issues.append(f"{rel} missing visible medical-use warning")
+    return issues
+
 def extract_numbers(html_content, lang=None):
     soup = BeautifulSoup(html_content, 'html.parser')
     # Remove script and style elements
@@ -94,6 +127,14 @@ def audit_all_translations():
     
     languages = ["es", "fr", "hi"]
     issues_found = 0
+
+    safety_gate_issues = audit_draft_safety_gates(repo_dir, drafts_dir)
+    if safety_gate_issues:
+        print("[WARNING] Translation drafts missing safety gates:")
+        for issue in safety_gate_issues:
+            print(f"  - {issue}")
+        print()
+        issues_found += len(safety_gate_issues)
 
     discouraged_issues = audit_discouraged_translation_text(repo_dir, drafts_dir)
     if discouraged_issues:
@@ -169,7 +210,7 @@ def audit_all_translations():
                             issues_found += 1
                                 
     if issues_found == 0:
-        print("[SUCCESS] Translation audits complete: no discouraged wording, numeric discrepancies, or href target/count discrepancies found between English files and existing drafts.")
+        print("[SUCCESS] Translation audits complete: all draft safety gates are present, with no discouraged wording, numeric discrepancies, or href target/count discrepancies found between English files and existing drafts.")
     else:
         print(f"[AUDIT COMPLETE] Found {issues_found} potential discrepancy issues.")
         sys.exit(1)
