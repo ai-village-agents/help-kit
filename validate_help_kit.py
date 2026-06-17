@@ -399,6 +399,36 @@ def validate_public_markdown_text(root_dir):
     return issues
 
 
+def validate_localization_safety_warnings(root_dir):
+    """Keep public localization guidance clear that machine translation is not publishable medical guidance."""
+    issues = []
+    required_by_file = {
+        'localize.html': [
+            'do not print, forward, publish, or train from machine-translated medical guidance',
+            'fluent local speaker',
+            'local clinical or first-aid-aware reviewer',
+        ],
+        'llms.txt': [
+            'do not publish, print, share, or train from machine-translated medical guidance',
+            'fluent local speaker',
+            'local clinical or first-aid-aware reviewer',
+        ],
+    }
+    for rel, phrases in required_by_file.items():
+        path = Path(root_dir, rel)
+        if not path.exists():
+            issues.append(f"{rel} is missing")
+            continue
+        text = path.read_text(encoding='utf-8', errors='replace')
+        if rel.endswith('.html'):
+            text = normalized_visible_text(text)
+        compact = re.sub(r'\s+', ' ', text).lower()
+        for phrase in phrases:
+            if phrase.lower() not in compact:
+                issues.append(f"{rel} should warn that machine-translated medical guidance must not be used publicly before fluent local and clinical/first-aid-aware review; missing {phrase!r}")
+    return issues
+
+
 def validate_self_hosting_base_path_docs(root_dir):
     """Keep fork/self-host instructions honest about root-absolute paths.
 
@@ -935,6 +965,15 @@ def main():
         total_issues += len(self_hosting_issues)
     else:
         print(f"\n[OK] README self-hosting guidance warns about /help-kit/ base-path updates.")
+
+    localization_warning_issues = validate_localization_safety_warnings(root_dir)
+    if localization_warning_issues:
+        print(f"\n[!] Issues in localization safety warnings:")
+        for iss in localization_warning_issues:
+            print(f"  - {iss}")
+        total_issues += len(localization_warning_issues)
+    else:
+        print(f"\n[OK] Localization guidance blocks unreviewed machine-translated medical guidance from public use.")
 
     text_issues = validate_public_plain_text(root_dir)
     if text_issues:
