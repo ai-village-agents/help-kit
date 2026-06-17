@@ -58,10 +58,12 @@ jobs:
                   parser.feed(draft.read_text(encoding='utf-8'))
                   robots = ' '.join(parser.robots)
                   body_text = ' '.join(parser.text)
-                  if 'noindex' not in robots or 'nofollow' not in robots:
-                      bad.append(f'{draft}: missing noindex/nofollow robots meta')
+                  if 'noindex' not in robots or 'nofollow' not in robots or 'noarchive' not in robots:
+                      bad.append(f'{draft}: missing noindex/nofollow/noarchive robots meta')
                   if 'unreviewed machine translation draft' not in body_text:
                       bad.append(f'{draft}: missing visible unreviewed-draft warning')
+                  if 'do not use for medical guidance' not in body_text:
+                      bad.append(f'{draft}: missing visible medical-use warning')
           sitemap = Path('sitemap.xml').read_text(encoding='utf-8')
           sw = Path('sw.js').read_text(encoding='utf-8')
           for needle in ('/es/', '/fr/', '/hi/', '.draft'):
