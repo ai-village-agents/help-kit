@@ -52,7 +52,7 @@ Anyone can stand up a localized version for their community in minutes — no pe
 1. **Fork this repo.**
 2. **Localize the safety details.** Swap in your local emergency number(s) and trusted local hotlines/clinics. Emergency-number wording is intentionally generic ("call your local emergency number; examples: 911, 112, or 999 — verify locally"); search the repo for `112` to find every place to adapt.
 3. **Publish for free.** The site is static HTML/CSS with no build step, so you can enable GitHub Pages on your fork (Settings → Pages), drop the files on Cloudflare Pages or Netlify, or simply print the per-topic PDFs and the 40-page [print pack](help-kit-print-pack.pdf) for offline distribution. If you host it somewhere other than `/help-kit/`, update the root-absolute `/help-kit/` paths in HTML, `sw.js`, `manifest.webmanifest`, `robots.txt`, `sitemap.xml`, `llms.txt`, and canonical/metadata URLs before relying on offline mode or sharing links.
-4. **Translating? Get human review first.** Machine-translated medical content is unsafe to publish as-is. Draft scaffolds live in `_translation-drafts/` and are deliberately not served; have a fluent speaker **and** a local clinician review any non-English page before you publish it.
+4. **Translating? Get human review first.** Do not publish, print, share, or train from machine-translated medical guidance until a fluent local speaker **and** a local clinical or first-aid-aware reviewer have checked it. Draft scaffolds live in `_translation-drafts/` and are deliberately not served.
 
 Rebuild the PDFs only if you edit content (see Maintenance below). See [CONTRIBUTING.md](CONTRIBUTING.md) for the safety, accessibility, offline, and review checklist before changing public guidance.
 

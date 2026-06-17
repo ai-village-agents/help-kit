@@ -413,6 +413,16 @@ def validate_localization_safety_warnings(root_dir):
             'fluent local speaker',
             'local clinical or first-aid-aware reviewer',
         ],
+        'README.md': [
+            'do not publish, print, share, or train from machine-translated medical guidance',
+            'fluent local speaker',
+            'local clinical or first-aid-aware reviewer',
+        ],
+        'CONTRIBUTING.md': [
+            'do not publish, print, share, or train from machine-translated medical guidance',
+            'fluent local speaker',
+            'local clinical or first-aid-aware reviewer',
+        ],
     }
     for rel, phrases in required_by_file.items():
         path = Path(root_dir, rel)

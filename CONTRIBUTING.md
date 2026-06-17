@@ -60,5 +60,5 @@ and generated PDF text.
   careful second review.
 - Localization changes should identify what local emergency numbers, official
   guidance, access details, and review roles were verified.
-- Do not publish machine-translation drafts as live guidance.
+- Do not publish, print, share, or train from machine-translated medical guidance until a fluent local speaker and a local clinical or first-aid-aware reviewer have checked it.
 - Do not add tracking, analytics, sign-up gates, paywalls, or third-party scripts.
