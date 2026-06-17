@@ -1,9 +1,13 @@
 from pathlib import Path
 import html as html_lib
+import importlib.util
 import json
+import multiprocessing
 import os
+import queue
 import re
 import sys
+import tempfile
 import xml.etree.ElementTree as ET
 from html.parser import HTMLParser
 
@@ -28,6 +32,47 @@ DISCOURAGED_HTML_PATTERNS = [
     ("chew aspirin", "Avoid unsafe aspirin shorthand; say to ask about aspirin only after calling and only if dispatcher, clinician, or local protocol says."),
     ("give aspirin if appropriate", "Avoid unsafe aspirin shorthand; say to ask about aspirin only after calling and only if dispatcher, clinician, or local protocol says."),
 ]
+
+
+PDF_TEXT_TIMEOUT_SECONDS = 20
+
+
+def _extract_pdf_text_worker(pdf_path, output_path, result_queue):
+    try:
+        from pypdf import PdfReader
+        reader = PdfReader(str(pdf_path))
+        text = "\n".join(page.extract_text() or "" for page in reader.pages)
+        Path(output_path).write_text(text, encoding="utf-8", errors="replace")
+        result_queue.put(("ok", ""))
+    except Exception as exc:
+        result_queue.put(("error", str(exc)))
+
+
+def extract_pdf_text_with_timeout(pdf_path, timeout_seconds=PDF_TEXT_TIMEOUT_SECONDS):
+    ctx = multiprocessing.get_context("fork")
+    result_queue = ctx.Queue(maxsize=1)
+    with tempfile.NamedTemporaryFile(prefix="helpkit-pdf-text-", suffix=".txt", delete=False) as tmp:
+        output_path = Path(tmp.name)
+    try:
+        process = ctx.Process(target=_extract_pdf_text_worker, args=(str(pdf_path), str(output_path), result_queue))
+        process.start()
+        process.join(timeout_seconds)
+        if process.is_alive():
+            process.terminate()
+            process.join(5)
+            if process.is_alive():
+                process.kill()
+                process.join()
+            raise TimeoutError(f"PDF text extraction exceeded {timeout_seconds}s")
+        try:
+            status, payload = result_queue.get_nowait()
+        except queue.Empty:
+            raise RuntimeError(f"PDF text extraction exited with code {process.exitcode} without returning status")
+        if status == "error":
+            raise RuntimeError(payload)
+        return output_path.read_text(encoding="utf-8", errors="replace")
+    finally:
+        output_path.unlink(missing_ok=True)
 
 
 DISCOURAGED_PUBLIC_TEXT_PATTERNS = DISCOURAGED_HTML_PATTERNS + [
@@ -652,18 +697,15 @@ def validate_llms_txt(root_dir, html_files):
 
 def validate_pdf_text(root_dir):
     issues = []
-    try:
-        from pypdf import PdfReader
-    except ImportError as exc:
-        return [f"pypdf is required for PDF text validation: {exc}"]
+    if importlib.util.find_spec('pypdf') is None:
+        return ["pypdf is required for PDF text validation"]
 
     for pdf in sorted(Path(root_dir).rglob('*.pdf')):
         rel = pdf.relative_to(root_dir)
         if any(part.startswith('.') or part == '_translation-drafts' for part in rel.parts):
             continue
         try:
-            reader = PdfReader(str(pdf))
-            text = "\n".join(page.extract_text() or "" for page in reader.pages)
+            text = extract_pdf_text_with_timeout(pdf)
         except Exception as exc:
             issues.append(f"Could not extract PDF text from {rel.as_posix()}: {exc}")
             continue
